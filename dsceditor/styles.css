@@ -1,0 +1,98 @@
+/* styles.css */
+body
+{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.progress
+{
+    cursor: progress;
+}
+
+.toolbar
+{
+    height: 36px;
+    width: 100%;
+    background: linear-gradient(white, rgb(224, 224, 224));
+    border-bottom: 1px solid #e7e7e7;
+    -webkit-app-region: drag;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: small;
+    user-select: none;
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer
+{
+    height: 28px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(white, rgb(224, 224, 224));
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: small;
+    user-select: none;
+}
+
+.toolicon
+{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+    
+.toolbutton
+{
+    min-width: 32px;
+    width: auto;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    transition: all linear 0.1s;
+}
+
+.toolbutton:hover
+{
+    background-color: #ffffff22;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 0.2rem;
+}
+
+.toolbutton:active
+{
+    background-color: #00000022;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 0.2rem;
+    transition: none;
+}
+
+.editor
+{
+    width: 100%;
+    height: calc(100% - 68px);
+    border: none;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+/* Add styles here to customize the appearance of your app */

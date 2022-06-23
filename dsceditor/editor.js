@@ -1,0 +1,9 @@
+require.config({ paths: { vs: './node_modules/monaco-editor/min/vs' } });
+
+require(['vs/editor/editor.main'], function () {
+    editor = monaco.editor.create(document.getElementById('container'), {
+        value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'PV_END();', 'END();', ''].join('\n'),
+        language: 'javascript',
+        automaticLayout: true
+    });
+});

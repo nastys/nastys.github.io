@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+    <title>DSC Editor</title>
+  </head>
+  <body>
+    <div class="toolbar" id="toolbar">
+      <div class="toolbutton" id="toolopen"><img class="toolicon" src="./icons/document-open.png"/></div>
+      <div class="toolbutton" id="toolsaveas"><img class="toolicon" src="./icons/document-save-as.png"/><div style="margin-left: 5px; margin-right: 5px;">Save as...</div></div>
+    </div>
+    <div id="container" class="editor"></div>
+
+    <div id="footer" class="footer"><label for="dscver">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679"></div> 
+  </body>
+  <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
+	<script>
+    var editor;
+	</script>
+  <script src="./db.js"></script>
+  <script src="./db_ft.js"></script>
+  <script type="module" src="./editor.js"></script>
+  <script type="module" src="./dsc.js"></script>
+</html>
