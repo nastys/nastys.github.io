@@ -60,8 +60,15 @@ document.getElementById('toolsaveas').onclick = function()
                 const params = par_in.split(',');
                 if (params.length == 1 && params[0] == '') params.pop();
                 
-                const opcode = db[command].info_FT.id;
-                const expected_param_count = db[command].info_FT.len;
+                const dbcmd = db[command];
+                if (typeof dbcmd === 'undefined')
+                {
+                    SaveError(i, 1, "command " + command + " not valid");
+                }
+
+                const cmd = dbcmd.info_FT;
+                const opcode = cmd.id;
+                const expected_param_count = cmd.len;
 
                 if (expected_param_count != params.length) {
                     SaveError(i, 1, "command " + command + " expected " + expected_param_count + ", got " + params.length);
