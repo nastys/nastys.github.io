@@ -26,6 +26,7 @@ document.getElementById('toolopen').onclick = async function()
     catch {
         fallback_file_picker = document.createElement('input');
         fallback_file_picker.type = 'file';
+        fallback_file_picker.multiple = 'true';
         fallback_file_picker.onchange = _this => {
             read_dsc(Array.from(fallback_file_picker.files));
             fallback_file_picker.remove();
