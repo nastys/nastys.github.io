@@ -12,7 +12,14 @@
     </div>
     <div id="container" class="editor"></div>
 
-    <div id="footer" class="footer colour"><label for="dscver">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679"></div> 
+    <div id="footer" class="footer colour">
+      <label for="format">Format:</label><select name="Format" id="dscfmt" style="margin-left: 10px;">
+        <option value="ft" selected="selected">FT</option>
+        <option value="dt2">DT 2nd</option>
+      </select>
+
+      <label for="dscver" style="margin-left: 10px;">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679">
+    </div>
   </body>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
@@ -35,6 +42,7 @@
 	</script>
   <script src="./db.js"></script>
   <script src="./db_ft.js"></script>
+  <script src="./db_dt2.js"></script>
   <script type="module" src="./editor.js"></script>
   <script type="module" src="./dsc.js"></script>
 </html>
