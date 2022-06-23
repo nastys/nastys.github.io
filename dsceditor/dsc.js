@@ -11,6 +11,7 @@ document.body.addEventListener("drop", (e) => {
     read_dsc(files);
 });
 
+let fallback_file_picker;
 document.getElementById('toolopen').onclick = async function()
 {
     try {
@@ -23,7 +24,14 @@ document.getElementById('toolopen').onclick = async function()
         read_dsc(files);
     }
     catch {
-        alert("This button only works on Chromium at the moment; just drag&drop the file(s) onto the browser for now.");
+        fallback_file_picker = document.createElement('input');
+        fallback_file_picker.type = 'file';
+        fallback_file_picker.onchange = _this => {
+            read_dsc(Array.from(fallback_file_picker.files));
+            fallback_file_picker.remove();
+        };
+        fallback_file_picker.click();
+        fallback_file_picker.remove();
     }
 }
 
