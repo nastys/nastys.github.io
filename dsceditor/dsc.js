@@ -128,7 +128,7 @@ document.getElementById('toolsaveas').onclick = function()
         const model = editor.getModel();
         const info = get_db_info();
         for (let i = 1; i <= model.getLineCount(); i++) {
-            const line = model.getLineContent(i);
+            const line = model.getLineContent(i).trim();
             if (line != '')
             {
                 const par_start = line.indexOf('(');
