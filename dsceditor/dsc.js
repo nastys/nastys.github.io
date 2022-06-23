@@ -96,6 +96,7 @@ document.getElementById('toolsaveas').onclick = function()
     }
     catch (e) {
         console.error(e);
+        alert(e);
     }
 
     return false;
