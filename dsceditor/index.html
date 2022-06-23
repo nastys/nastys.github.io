@@ -6,17 +6,32 @@
     <title>DSC Editor</title>
   </head>
   <body>
-    <div class="toolbar" id="toolbar">
+    <div class="toolbar colour" id="toolbar">
       <div class="toolbutton" id="toolopen"><img class="toolicon" src="./icons/document-open.png" draggable="false"/></div>
       <div class="toolbutton" id="toolsaveas"><img class="toolicon" src="./icons/document-save-as.png" draggable="false"/><div style="margin-left: 5px; margin-right: 5px; cursor: default;">Save as...</div></div>
     </div>
     <div id="container" class="editor"></div>
 
-    <div id="footer" class="footer"><label for="dscver">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679"></div> 
+    <div id="footer" class="footer colour"><label for="dscver">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679"></div> 
   </body>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
     var editor;
+
+    var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    function setDarkMode(value) {
+      browser_dark = value;
+      monaco.editor.setTheme(browser_dark ? 'vs-dark' : 'vs-light');
+    }
+
+    window.matchMedia("(prefers-color-scheme: dark)").addListener(
+      e => e.matches && setDarkMode(true)
+    );
+
+    window.matchMedia("(prefers-color-scheme: light)").addListener(
+      e => e.matches && setDarkMode(false)
+    );
 	</script>
   <script src="./db.js"></script>
   <script src="./db_ft.js"></script>
