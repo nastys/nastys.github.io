@@ -1,32 +1,3 @@
-function set_fmt_ver(ver)
-{
-    document.getElementById('dscver').value = ver;
-    const fmt = document.getElementById('dscfmt');
-
-    switch (ver)
-    {
-        case 285614104:
-        case 335874337:
-        case 369295649:
-        case 353510679:
-        case 352458520:
-        case 335745816:
-        case 335618838:
-        case 319956249:
-        case 319296802:
-        case 318845217:
-            fmt.value = 'ft';
-            return true;
-        case 285419544:
-        case 285349657:
-        case 302121504:
-            fmt.value = 'dt2';
-            return true;
-    }
-
-    return false;
-}
-
 function get_db()
 {
     const fmt = document.getElementById('dscfmt').value;
@@ -79,10 +50,10 @@ document.getElementById('dscfmt').onchange = function()
     switch (document.getElementById('dscfmt').value)
     {
         case 'ft':
-            document.getElementById('dscver').value = 353510679;
+            document.getElementById('dscver').value = fmts_ft[0];
             break;
         case 'dt2':
-            document.getElementById('dscver').value = 302121504;
+            document.getElementById('dscver').value = fmts_dt2[0];
             break;
     }
 }
