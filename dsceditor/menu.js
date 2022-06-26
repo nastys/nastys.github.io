@@ -65,6 +65,7 @@ function setmenubaritem(menubaritem)
 }
 
 setmenubaritem('file');
+setmenubaritem('tools');
 setmenubaritem('edits');
 setmenubaritem('help');
 
@@ -76,4 +77,19 @@ document.getElementById('menuitem_about').onclick = function ()
 document.getElementById('menuitem_src').onclick = function ()
 {
     window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank');
+}
+
+document.getElementById('menuitem_rmtargets').onclick = function ()
+{
+    const regex = "^\\W*TARGET\\W*(.*).$\\n?";
+    const model = editor.getModel();
+    const matches = model.findMatches(regex, true, true);
+
+    let ops = [];
+    matches.forEach(match => {
+        const op = {range: match.range, text: ''};
+        ops.push(op);
+    });
+
+    model.pushEditOperations([], ops, () => null);
 }
