@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <link href="./styles.css" rel="stylesheet">
     <title>DSC Editor</title>
+    <meta name="theme-color" content="#9a8cee" />
   </head>
   <body>
-    <div class="toolbar colour" id="toolbar">
+    <div id="progresswnd" class="progresswnd translucent">
+      <div id="progressflex" class="progresswnd" style="display: flex; justify-content: center;">
+      <progress id="progressbar" style="width: 50%; margin: auto;" value="0" max="1"></progress>
+    </div>
+    </div>
+    <div class="menubar gradient" id="menubar">
+      <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
+      <div class="menubaritem" id="menubaritem_edits"><div class=menubaritemtext>Edits</div></div>
+      <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
+    </div>
+    <div class="toolbar gradient" id="toolbar">
       <div class="toolbutton" id="toolopen"><img class="toolicon" src="./icons/document-open.png" draggable="false"/></div>
       <div class="toolbutton" id="toolsaveas"><img class="toolicon" src="./icons/document-save-as.png" draggable="false"/><div style="margin-left: 5px; margin-right: 5px; cursor: default;">Save as...</div></div>
     </div>
     <div id="container" class="editor"></div>
 
-    <div id="footer" class="footer colour">
+    <div id="footer" class="footer gradient">
       <label for="format">Format:</label><select name="Format" id="dscfmt" style="margin-left: 10px;">
-        <option value="ft" selected="selected">FT</option>
+        <option value="ft">FT</option>
         <option value="dt2">DT 2nd</option>
       </select>
 
-      <label for="dscver" style="margin-left: 10px;">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;" value="353510679">
+      <label for="dscver" style="margin-left: 10px;">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;">
+    </div>
+
+    <div class="menu gradient" id="menu_file" hidden>
+      <div class="menuitem" id="menuitem_open"><div class="menuitemtext">Open...</div></div>
+      <div class="menuitem" id="menuitem_saveas"><div class="menuitemtext">Save as...</div></div>
+    </div>
+    <div class="menu gradient" id="menu_edits" hidden>
+      <div class="menuitem" id="menuitem_edit_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
+    </div>
+    <div class="menu gradient" id="menu_help" hidden>
+      <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
+      <div class="menuitem" id="menuitem_src"><div class="menuitemtext">Source code...</div></div>
     </div>
   </body>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
@@ -39,11 +62,26 @@
     window.matchMedia("(prefers-color-scheme: light)").addListener(
       e => e.matches && setDarkMode(false)
     );
+
+    function setProgress(progress)
+    {
+      const wnd = document.getElementById("progresswnd");
+      if (progress == -1)
+      {
+        wnd.setAttribute('hidden', '');
+      }
+      else
+      {
+        document.getElementById("progressbar").value = progress;
+        wnd.removeAttribute('hidden');
+      }
+    }
+
+    document.getElementById('dscfmt').value = 'ft';
+    document.getElementById('dscver').value = '353510679';
 	</script>
+  <script src="./menu.js"></script>
   <script src="./fmtlist.js"></script>
-  <script src="./db.js"></script>
-  <script src="./db_ft.js"></script>
-  <script src="./db_dt2.js"></script>
   <script type="module" src="./editor.js"></script>
   <script type="module" src="./dsc.js"></script>
 </html>

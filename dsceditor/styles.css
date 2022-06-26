@@ -9,18 +9,103 @@ body
     overflow: hidden;
 }
 
-.progress
+.progresswnd
 {
-    cursor: progress;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    cursor: progress !important;
+    z-index: 100;
+}
+
+.translucent
+{
+    background: #0000001f;
+}
+
+.menubar
+{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2px;
+}
+
+.menubaritem
+{
+    font-size: small;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+    transition: all linear 0.1s;
+    padding: 0 5px 0 5px;
+    margin: 1px 1px 1px 1px;
+    display: flex;
+}
+
+.menubaritem:hover
+{
+    background-color: #ffffff22;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 0.2rem;
+}
+
+.menubaritemtext
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menubaritemclicked
+{
+    background-color: #00000022 !important;
+    border: 1px solid rgb(159, 159, 159) !important;
+    border-radius: 0.2rem !important;
+    transition: none !important;
+}
+
+.menu
+{
+    border: 1px solid rgb(159, 159, 159) !important;
+    border-radius: 0.2rem !important;
+    position: fixed;
+    top: 24px;
+}
+
+.menuitem
+{
+    width: auto;
+    height: 24px;
+    display: flex;
+    user-select: none;
+}
+
+.menuitem:hover
+{
+    background: linear-gradient(#9a8cee, #7d6fca);
+    color: white;
+}
+
+.menuitemtext
+{
+    margin: auto 4px auto 4px;
+    font-size: small;
+}
+
+.menuicon
+{
+    height: 24px;
+    height: 24px;
+    margin: auto 2px auto 2px;
 }
 
 .toolbar
 {
     height: 36px;
     width: 100%;
-    background: linear-gradient(white, rgb(224, 224, 224));
     border-bottom: 1px solid grey;
-    -webkit-app-region: drag;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,13 +125,18 @@ body
     padding-right: 10px;
     position: fixed;
     bottom: 0;
-    background: linear-gradient(white, rgb(224, 224, 224));
     border-top: 1px solid grey;
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: small;
     user-select: none;
+}
+
+.gradient
+{
+    background: linear-gradient(white, rgb(224, 224, 224));
+    color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,9 +146,15 @@ body
         color: white;
     }
 
-	.colour
+	.gradient
     {
         background: linear-gradient(rgb(84, 84, 84), #1e1d1e);
+        color: white;
+    }
+
+    .translucent
+    {
+        background: #ffffff1f;
     }
 }
 
@@ -104,7 +200,7 @@ body
 .editor
 {
     width: 100%;
-    height: calc(100% - 68px);
+    height: calc(100% - 92px);
     border: none;
     padding: 0;
     font-family: 'Open Sans';

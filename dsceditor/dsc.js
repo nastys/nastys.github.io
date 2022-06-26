@@ -1,36 +1,8 @@
-function get_db()
-{
-    const fmt = document.getElementById('dscfmt').value;
+const id_fmt = document.getElementById('dscfmt');
+const id_ver = document.getElementById('dscver');
 
-    switch (fmt)
-    {
-        case 'ft':
-            return db_ft;
-        case 'dt2':
-            return db_dt2;
-    }
-
-    console.error("Unknown format " + value);
-    alert("Unknown format " + value);
-    throw "Format error";
-}
-
-function get_db_info()
-{
-    const fmt = document.getElementById('dscfmt').value;
-
-    switch (fmt)
-    {
-        case 'ft':
-            return 'info_FT';
-        case 'dt2':
-            return 'info_f';
-    }
-
-    console.error("Unknown format " + value);
-    alert("Unknown format " + value);
-    throw "Format error";
-}
+let file_picker;
+let lastfilename = 'pv_new.dsc';
 
 document.body.addEventListener("dragover", (e) => {
     e.stopPropagation();
@@ -42,6 +14,7 @@ document.body.addEventListener("drop", (e) => {
     e.preventDefault();
     
     const files = e.dataTransfer.files;
+    lastfilename = files[0].name;
     read_dsc(files);
 });
 
@@ -58,198 +31,80 @@ document.getElementById('dscfmt').onchange = function()
     }
 }
 
-let fallback_file_picker;
-document.getElementById('toolopen').onclick = async function()
+document.getElementById('toolopen').onclick = open_dsc;
+document.getElementById('menuitem_open').onclick = open_dsc;
+
+async function open_dsc()
 {
-    try {
-        const handles = await window.showOpenFilePicker({multiple: true});
-        const files = [];
-        for (const handle of handles)
-        {
-            files.push(await handle.getFile());
-        }
-        read_dsc(files);
-    }
-    catch {
-        fallback_file_picker = document.createElement('input');
-        fallback_file_picker.type = 'file';
-        fallback_file_picker.multiple = 'true';
-        fallback_file_picker.onchange = _this => {
-            read_dsc(Array.from(fallback_file_picker.files));
-            fallback_file_picker.remove();
-        };
-        fallback_file_picker.click();
-        fallback_file_picker.remove();
-    }
+    file_picker = document.createElement('input');
+    file_picker.type = 'file';
+    file_picker.multiple = 'true';
+    file_picker.onchange = _this => {
+        lastfilename = file_picker.files[0].name;
+        read_dsc(Array.from(file_picker.files));
+        file_picker.remove();
+    };
+    file_picker.click();
+    file_picker.remove();
 }
 
-document.getElementById('toolsaveas').onclick = function()
+document.getElementById('toolsaveas').onclick = saveas_dsc;
+document.getElementById('menuitem_saveas').onclick = saveas_dsc;
+
+function saveas_dsc()
 {
-    function SaveError(line, column, message) {
-        editor.revealLineInCenter(line);
-        editor.setPosition({column: column, lineNumber: line});
-        throw "line " + line + ": " + message;
-    }
-
-    try {
-        let filenative = [];
-
-        filenative.push(parseInt(document.getElementById('dscver').value));
-
-        const model = editor.getModel();
-        const info = get_db_info();
-        for (let i = 1; i <= model.getLineCount(); i++) {
-            const line = model.getLineContent(i).trim();
-            if (line != '')
-            {
-                const par_start = line.indexOf('(');
-                if (par_start < 0)
-                {
-                    SaveError(i, 1, "missing '('");
-                }
-                const par_end = line.indexOf(')');
-                if (par_end < 0)
-                {
-                    SaveError(i, 1, "missing ')'");
-                }
-                if (line.length > par_end + 1)
-                {
-                    if (line[par_end + 1] != ';')
-                    {
-                        const col = par_end + 1;
-                        SaveError(i, col, "unexpected character '"+line[col]+"'");
-                    }
-                    else if (line.length > par_end + 2)
-                    {
-                        const col = par_end + 2;
-                        SaveError(i, col, "unexpected character '"+line[col]+"'");
-                    }
-                }
-                const par_in = line.substring(par_start + 1, par_end);
-                const command = line.substring(0, par_start);
-                const params = par_in.split(',');
-                if (params.length == 1 && params[0] == '') params.pop();
-                
-                const dbcmd = db[command];
-                if (typeof dbcmd === 'undefined')
-                {
-                    SaveError(i, 1, "command " + command + " not valid");
-                }
-
-                const cmd = dbcmd[info];
-                const opcode = cmd.id;
-                const expected_param_count = cmd.len;
-
-                if (expected_param_count != params.length) {
-                    SaveError(i, 1, "command " + command + " expected " + expected_param_count + ", got " + params.length);
-                }
-
-                filenative.push(opcode);
-
-                params.forEach(param => {    
-                    filenative.push(param);
-                });
-            }
-        }
-        
-        const filedata = new ArrayBuffer(filenative.length * 4);
-        const fileview = new DataView(filedata);
-        let fileoffset = 0;
-
-        filenative.forEach(element => {
-            fileview.setInt32(fileoffset, element, true);   
-            fileoffset += 4;  
-        });
-
-        const fileblob = new Blob([filedata]);
-        const fileurl = URL.createObjectURL(fileblob);
-        const filelink = document.createElement('a');
-        filelink.href = fileurl;
-        filelink.download = 'test.dsc';
-        filelink.click();
-        filelink.remove();
-
-        return true;
-    }
-    catch (e) {
-        console.error(e);
-        alert(e);
-    }
-
-    return false;
+    setProgress(0);
+    const worker = new Worker("./dsc_worker_write.js");
+    const lines = editor.getValue().split(/\r?\n/);
+    worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: id_ver.value});
+    worker.onmessage = worker_message_handler;
 };
 
 function read_dsc(files)
 {
-    try {
-        //for (const file of files)
-        const file = files[0];
+    setProgress(0);
+    const worker = new Worker("./dsc_worker_read.js");
+    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: id_ver.value});
+    worker.onmessage = worker_message_handler;
+}
 
-        const reader = new FileReader();
-        reader.readAsArrayBuffer(file);
-        document.body.classList.add("progress");
-        reader.onload = function(){
-            const data = new DataView(reader.result);
-            let commands;
-            commands = "";
-            for (let i = 0; i < reader.result.byteLength; i+=4)
-            {
-                const num = data.getInt32(i, true);
-                if (i == 0) 
-                {
-                    const set = set_fmt_ver(num);
-                    if (!set)
-                    {
-                        const msg = "Unknown format " + num;
-                        console.log(msg);
-                        alert(msg);
-                    }
-                    continue;
-                }
-                const thisdb = get_db(num);
-                const opc = thisdb[num].opcode;
-                const len = thisdb[num].len;
-                let params = [];
-                for (let j = 0; j < len; j++)
-                {
-                    i+=4;
-                    params.push(data.getInt32(i, true));
-                }
-
-                commands += opc;
-                if (params.length)
-                {
-                    commands += "(";
-                    for (let p = 0; p < params.length; p++)
-                    {
-                        commands += params[p];
-                        if (p == params.length - 1)
-                        {
-                            commands += ");";
-                        }
-                        else
-                        {
-                            commands += ", ";
-                        }
-                    }
-                }
-                else
-                {
-                    commands += "();";
-                }
-
-                commands += '\n';
-                editor.setValue(commands);
-                document.body.classList.remove("progress");
-            }
-        }
-
-        return true;
+function worker_message_handler(e)
+{
+    switch (e.data.type)
+    {
+        case 'progress':
+            setProgress(e.data.data);
+            break;
+        case 'setfmt':
+            id_fmt.value = e.data.data;
+            break;
+        case 'setver':
+            id_ver.value = e.data.data;
+            break;
+        case 'datatext':
+            editor.setValue(e.data.data);
+            setProgress(-1);
+            break;
+        case 'datasave':
+            const fileblob = e.data.data;
+            const filelink = document.createElement('a');
+            const fileurl = URL.createObjectURL(fileblob);
+            filelink.href = fileurl;
+            filelink.target = "_blank";
+            filelink.download = lastfilename;
+            filelink.click();
+            filelink.remove();
+            setProgress(-1);
+            break;
+        case 'seteditorpos':
+            editor.revealLineInCenter(e.data.data.lineNumber);
+            editor.setPosition(e.data.data);
+            break;
+        case 'exception':
+            setProgress(-1);
+        case 'warning':
+            console.error(e.data.data);
+            alert(e.data.data);
+            break;
     }
-    catch (e) {
-        console.error(e);
-        alert(e);
-    }
-
-    return false;
 }
