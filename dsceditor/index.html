@@ -8,9 +8,9 @@
   </head>
   <body>
     <div id="progresswnd" class="progresswnd translucent">
-      <div id="progressflex" class="progresswnd" style="display: flex; justify-content: center;">
-      <progress id="progressbar" style="width: 50%; margin: auto;" value="0" max="1"></progress>
-    </div>
+      <div id="progressflex" class="progresswnd progresswndinner">
+        <progress id="progressbar" style="height: unset; width: 50%; margin: auto;" value="0" max="1"></progress>
+      </div>
     </div>
     <div class="menubar gradient" id="menubar">
       <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
@@ -39,6 +39,7 @@
     </div>
     <div class="menu gradient" id="menu_tools" hidden>
       <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove all targets</div></div>
+      <div class="menuitem" id="menuitem_timecleanup"><div class="menuitemtext">Remove unused TIME commands</div></div>
     </div>
     <div class="menu gradient" id="menu_edits" hidden>
       <div class="menuitem" id="menuitem_edit_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>

@@ -18,6 +18,12 @@ body
     z-index: 100;
 }
 
+.progresswndinner
+{
+    display: flex;
+    justify-content: center;
+}
+
 .translucent
 {
     background: #0000001f;
