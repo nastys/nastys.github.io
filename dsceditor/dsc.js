@@ -83,6 +83,8 @@ function worker_message_handler(e)
             break;
         case 'datatext':
             editor.setValue(e.data.data);
+            editor.revealLineInCenter(1);
+            editor.setPosition({column: 1, lineNumber: 1});
             setProgress(-1);
             break;
         case 'datasave':

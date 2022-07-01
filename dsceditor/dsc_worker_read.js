@@ -24,6 +24,7 @@ onmessage = function(e)
         //for (const file of files)
         const file = files[0];
         let thisdb;
+        let errors = false;
 
         const reader = new FileReader();
         reader.readAsArrayBuffer(file);
@@ -49,6 +50,11 @@ onmessage = function(e)
                         postMessage({type: 'setfmt', data: fmt});
                     }
                     thisdb = get_db(fmt);
+                    continue;
+                }
+                if (typeof thisdb[num] === 'undefined')
+                {
+                    errors = true;
                     continue;
                 }
                 const opc = thisdb[num].opcode;
@@ -85,6 +91,10 @@ onmessage = function(e)
                 commands += '\n';
             }
             postMessage({type: 'datatext', data: commands});
+            if (errors)
+            {
+                postMessage({type: 'warning', data: 'Unknown opcodes were found.\nThe file may be corrupt or the selected format wrong.'});
+            }
         }
 
         return true;
