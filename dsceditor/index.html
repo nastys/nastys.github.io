@@ -12,6 +12,13 @@
         <progress id="progressbar" style="height: unset; width: 50%; margin: auto;" value="0" max="1"></progress>
       </div>
     </div>
+    <div id="modalbg" class="modalbg translucent" style="display: none;">
+      <div id="modalwnd" class="modalwnd">
+        <div id="modalwndheader" class="modalwndheader"></div>
+        <div id="modalwndinside" class="modalwndinside"></div>
+        <div id="modalwndfooter" class="modalwndfooter"></div>
+      </div>
+    </div>
     <div class="menubar gradient" id="menubar">
       <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
       <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
@@ -38,8 +45,9 @@
       <div class="menuitem" id="menuitem_saveas"><div class="menuitemtext">Save as...</div></div>
     </div>
     <div class="menu gradient" id="menu_tools" hidden>
-      <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove all targets</div></div>
-      <div class="menuitem" id="menuitem_timecleanup"><div class="menuitemtext">Remove unused TIME commands</div></div>
+      <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove TARGET, BAR_TIME_SET, and TARGET_FLYING_TIME</div></div>
+      <div class="menuitem" id="menuitem_timecleanup"><div class="menuitemtext">Remove unused adjacent TIME commands</div></div>
+      <div class="menuitem" id="menuitem_rmcommands"><div class="menuitemtext">Remove or isolate commands...</div></div>
     </div>
     <div class="menu gradient" id="menu_edits" hidden>
       <div class="menuitem" id="menuitem_edit_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
@@ -73,7 +81,7 @@
       const wnd = document.getElementById("progresswnd");
       if (progress == -1)
       {
-        wnd.setAttribute('hidden', '');
+        wnd.setAttribute('hidden', 'true');
       }
       else
       {
@@ -85,6 +93,7 @@
     document.getElementById('dscfmt').value = 'ft';
     document.getElementById('dscver').value = '353510679';
 	</script>
+  <script src="./editor_util.js"></script>
   <script src="./menu.js"></script>
   <script src="./fmtlist.js"></script>
   <script type="module" src="./editor.js"></script>

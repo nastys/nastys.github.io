@@ -81,37 +81,18 @@ document.getElementById('menuitem_src').onclick = function ()
 
 document.getElementById('menuitem_rmtargets').onclick = function ()
 {
-    const regex = `^[\t\f\v ]*TARGET[\t\f\v ]*\(.*\);?(?:\r?\\n)*`;
-    const model = editor.getModel();
-    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
-    console.log(`Found ${matches.length} commands.`);
-
-    let ops = [];
-    matches.forEach(match => {
-        const op = {range: match.range, text: ''};
-        ops.push(op);
-    });
-
-    model.pushEditOperations([], ops, () => null);
+    remove_command('TARGET');
+    remove_command('TARGET_FLYING_TIME');
+    remove_command('BAR_TIME_SET');
+    time_adjacent_cleanup();
 }
 
 document.getElementById('menuitem_timecleanup').onclick = function ()
 {
-    const regex = `^[\t\f\v ]*TIME[\t\f\v ]*\(.*\);?(?:\r?\\n)*`;
-    const model = editor.getModel();
-    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
-    console.log(`Found ${matches.length} commands.`);
+    time_adjacent_cleanup();
+}
 
-    let ops = [];
-    for (let i = 0; i < matches.length - 1; i++)
-    {
-        if (matches[i].range.endLineNumber == matches[i+1].range.startLineNumber)
-        {
-            const op = {range: matches[i].range, text: ''};
-            ops.push(op);
-        }
-    };
-
-    console.log(`Will only delete ${ops.length} of them.`);
-    model.pushEditOperations([], ops, () => null);
+document.getElementById('menuitem_rmcommands').onclick = function ()
+{
+    window_rmcommands();
 }
