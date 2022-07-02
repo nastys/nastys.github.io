@@ -1,0 +1,408 @@
+{
+    "pv_082": {
+        "bpm": "159",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_082_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_082_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_082_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_082_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "082"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "良いこと尽くめ　の夢から覚めた",
+            "002": "私の脳内環境は，",
+            "003": "ラブという得体の知れないものに",
+            "004": "侵されてしまいまして，それからは。",
+            "006": "どうしようもなく2つに裂けた",
+            "007": "心内環境を",
+            "008": "制御するだけのキャパシティなどが",
+            "009": "存在しているはずもないので",
+            "011": "曖昧な大概のイノセントな感情論を",
+            "012": "ぶちまけた言の葉の中",
+            "013": "どうにかこうにか現在地点を",
+            "014": "確認する目玉を欲しがっている，生。",
+            "015": "",
+            "016": "どうして尽くめ　の毎日",
+            "017": "そうしてああしてこうしてサヨナラベイベー",
+            "018": "現実直視と現実逃避の",
+            "019": "表裏一体なこの心臓",
+            "020": "どこかに良いことないかな，",
+            "021": "なんて裏返しの自分に問うよ。",
+            "022": "自問自答，自問他答，",
+            "023": "他問自答連れ回し，ああああ",
+            "025": "ただ本能的に触れちゃって，",
+            "026": "でも言いたいことって無いんで，",
+            "027": "痛いんで，触って，喘いで，",
+            "028": "天にも昇れる気になって，",
+            "029": "どうにもこうにも二進も三進も",
+            "030": "あっちもこっちも",
+            "031": "今すぐあちらへ飛び込んでいけ。",
+            "033": "もーラブラブになっちゃってー",
+            "034": "横隔膜突っ張っちゃってー",
+            "035": "強烈な味にぶっ飛んでー",
+            "037": "等身大の裏・表",
+            "039": "脅迫的に縛っちゃってー",
+            "040": "網膜の上に貼っちゃってー",
+            "041": "もーラブラブでいっちゃってよ！",
+            "042": "会いたいたいない，無い！",
+            "043": "",
+            "044": "嫌なこと尽くめ　の夢から覚めた",
+            "045": "私の脳内環境が，",
+            "046": "ラブという得体の知れないものに",
+            "047": "侵されてしまいまして，それからは。",
+            "049": "どうしようもなく2つに裂けた",
+            "050": "心内環境を",
+            "051": "制御するためのリミッターなどを",
+            "052": "掛けるというわけにもいかないので",
+            "054": "大概は曖昧なイノセントな大災害を",
+            "055": "振りまいたエゴを孕ませ",
+            "056": "どうにかこうにか現在地点を",
+            "057": "確認した言葉を手に掴んだようだ。",
+            "059": "どうして尽くめ　の毎日",
+            "060": "そうしてああしてこうしてサヨナラベイベー",
+            "061": "現実直視と現実逃避の",
+            "062": "表裏一体なこの心臓",
+            "063": "どこかに良いことないかな，",
+            "064": "なんて裏返しの自分に問うよ。",
+            "065": "自問自答，自問他答，",
+            "066": "他問自答連れ回し，ああああ",
+            "068": "ただ本能的に触れちゃって，",
+            "069": "でも言いたいことって無いんで，",
+            "070": "痛いんで，触って，喘いで，",
+            "071": "天にも昇れる気になって，",
+            "072": "どうにもこうにも二進も三進も",
+            "073": "あっちもこっちも",
+            "074": "今すぐあちらへ飛び込め。",
+            "075": "",
+            "076": "盲目的に嫌っちゃってー",
+            "077": "今日いく予定作っちゃってー",
+            "078": "どうしてもって言わせちゃってー",
+            "080": "等身大の裏を待て！",
+            "082": "挑発的に誘っちゃってー",
+            "083": "衝動的に歌っちゃってー",
+            "084": "もーラブラブでいっちゃってよ！",
+            "085": "大体，愛，無い。",
+            "087": "もーラブラブになっちゃってー",
+            "088": "横隔膜突っ張っちゃってー",
+            "089": "強烈な味にぶっ飛んでー",
+            "091": "等身大の裏・表",
+            "093": "脅迫的に縛っちゃってー",
+            "094": "網膜の上に貼っちゃってー",
+            "095": "もーラブラブでいっちゃってよ！",
+            "096": "あいあいあいあいない！",
+            "_en": {
+                "001": "ii koto zukume   no yume kara sameta",
+                "002": "watashi no nounai kankyou wa,",
+                "003": "LOVE to iu etai no shirenai mono ni",
+                "004": "okasarete shimaimashite, sore kara wa.",
+                "006": "doushiyoumo naku futatsu ni saketa",
+                "007": "shinnai kankyou o",
+                "008": "seigyo suru dake no CAPACITY nado ga",
+                "009": "sonzai shiteiru hazu mo nai no de",
+                "011": "aimai na taigai no INNOCENT na kanjouron o",
+                "012": "buchimaketa kotonoha no naka",
+                "013": "dounika kounika genzai chiten o",
+                "014": "kakunin suru medama o hoshigatteiru, sei.",
+                "015": "",
+                "016": "doushite zukume   no mainichi",
+                "017": "soushite aashite koushite sayonara BABY",
+                "018": "genjitsu chokushi to genjitsu touhi no",
+                "019": "hyouri ittai na kono shinzou",
+                "020": "dokoka ni ii koto nai ka na,",
+                "021": "nante uragaeshi no jibun ni tou yo.",
+                "022": "jimon jitou, jimon tatou,",
+                "023": "tamon jitou tsuremawashi, aaah!",
+                "025": "tada honnouteki ni furechatte,",
+                "026": "demo iitai koto tte nain de,",
+                "027": "itain de, sawatte, aeide,",
+                "028": "ten ni mo noboreru ki ni natte,",
+                "029": "dounimo kounimo nicchi mo sacchi mo",
+                "030": "acchi mo kocchi mo",
+                "031": "ima sugu achira e tobikonde ike.",
+                "033": "mou LOVE LOVE ni nacchatte",
+                "034": "oukakumaku tsuppacchatte",
+                "035": "kyouretsu na aji ni buttonde",
+                "037": "toushindai no ura / omote",
+                "039": "kyouhakuteki ni shibacchatte",
+                "040": "moumaku no ue ni hacchatte",
+                "041": "mou LOVE LOVE de icchatte yo!",
+                "042": "aitai tai nai, nai!",
+                "043": "",
+                "044": "ya na koto zukume   no yume kara sameta",
+                "045": "watashi no nounai kankyou ga,",
+                "046": "LOVE to iu etai no shirenai mono ni",
+                "047": "okasarete shimaimashite, sore kara wa.",
+                "049": "doushiyoumo naku futatsu ni saketa",
+                "050": "shinnai kankyou o",
+                "051": "seigyo suru tame no LIMITER nado o",
+                "052": "kakeru to iu wake ni mo ikanai no de",
+                "054": "taigai wa aimai na INNOCENT na daisaigai o",
+                "055": "furimaita EGO o haramase",
+                "056": "dounika kounika genzai chiten o",
+                "057": "kakunin shita kotoba o te ni tsukanda you da.",
+                "059": "doushite zukume   no mainichi",
+                "060": "soushite aashite koushite sayonara BABY",
+                "061": "genjitsu chokushi to genjitsu touhi no",
+                "062": "hyouri ittai na kono shinzou",
+                "063": "dokoka ni ii koto nai ka na,",
+                "064": "nante uragaeshi no jibun ni tou yo.",
+                "065": "jimon jitou, jimon tatou,",
+                "066": "tamon jitou tsuremawashi, aaah!",
+                "068": "tada honnouteki ni furechatte,",
+                "069": "demo iitai koto tte nain de,",
+                "070": "itain de, sawatte, aeide,",
+                "071": "ten ni mo noboreru ki ni natte,",
+                "072": "dounimo kounimo nicchi mo sacchi mo",
+                "073": "acchi mo kocchi mo",
+                "074": "ima sugu achira e tobikome.",
+                "075": "",
+                "076": "moumokuteki ni kiracchatte",
+                "077": "kyou iku yotei tsukucchatte",
+                "078": "doushitemo tte iwasechatte",
+                "080": "toushindai no ura o mate!",
+                "082": "chouhatsuteki ni sasocchatte",
+                "083": "shoudouteki ni utacchatte",
+                "084": "mou LOVE LOVE de icchatte yo!",
+                "085": "daitai, ai, nai.",
+                "087": "mou LOVE LOVE ni nacchatte",
+                "088": "oukakumaku tsuppacchatte",
+                "089": "kyouretsu na aji ni buttonde",
+                "091": "toushindai no ura / omote",
+                "093": "kyouhakuteki ni shibacchatte",
+                "094": "moumaku no ue ni hacchatte",
+                "095": "mou LOVE LOVE de icchatte yo!",
+                "096": "ai ai ai ai nai!"
+            }
+        },
+        "motion": {
+            "10": "PV082_UOL_00_C09_00A_P1",
+            "11": "PV082_UOL_00_C10_00A_P1",
+            "12": "PV082_UOL_00_C11_00A_P1",
+            "13": "PV082_UOL_00_C12_00A_P1",
+            "14": "PV082_UOL_00_C13_00A_P1",
+            "15": "PV082_UOL_00_C14_00A_P1",
+            "16": "PV082_UOL_00_C15_00A_P1",
+            "17": "PV082_UOL_00_C16_00A_P1",
+            "18": "PV082_UOL_00_C17_00A_P1",
+            "19": "PV082_UOL_00_C18_00A_P1",
+            "20": "PV082_UOL_00_C19_00A_P1",
+            "21": "PV082_UOL_00_C20_00A_P1",
+            "22": "PV082_UOL_00_C21_00A_P1",
+            "23": "PV082_UOL_00_C22_00A_P1",
+            "24": "PV082_UOL_00_C23_00A_P1",
+            "25": "PV082_UOL_00_C24_00A_P1",
+            "26": "PV082_UOL_00_C25_00A_P1",
+            "27": "PV082_UOL_00_C26_00A_P1",
+            "28": "PV082_UOL_00_C29_00A_P1",
+            "29": "PV082_UOL_00_C30_00A_P1",
+            "30": "PV082_UOL_00_C31_00A_P1",
+            "31": "PV082_UOL_00_C32_00A_P1",
+            "32": "PV082_UOL_00_C33_00A_P1",
+            "33": "PV082_UOL_00_C34_00A_P1",
+            "01": "PV082_UOL_00_C00_00A_P1",
+            "02": "PV082_UOL_00_C01_00A_P1",
+            "03": "PV082_UOL_00_C02_00A_P1",
+            "04": "PV082_UOL_00_C03_00A_P1",
+            "05": "PV082_UOL_00_C04_00A_P1",
+            "06": "PV082_UOL_00_C05_00A_P1",
+            "07": "PV082_UOL_00_C06_00A_P1",
+            "08": "PV082_UOL_00_C07_00A_P1",
+            "09": "PV082_UOL_00_C08_00A_P1",
+            "2P": {
+                "10": "PV082_UOL_00_C11_00A_P2",
+                "11": "CMN_MRA00_13_01",
+                "12": "PV082_UOL_00_C14_00A_P2",
+                "13": "PV082_UOL_00_C15_00A_P2",
+                "14": "CMN_MRA00_13_01",
+                "15": "CMN_MRA00_13_01",
+                "16": "PV082_UOL_00_C22_00A_P2",
+                "17": "PV082_UOL_00_C23_00A_P2",
+                "18": "PV082_UOL_00_C24_00A_P2",
+                "19": "PV082_UOL_00_C25_00A_P2",
+                "20": "PV082_UOL_00_C26_00A_P2",
+                "21": "PV082_UOL_00_C27_00A_P2",
+                "22": "PV082_UOL_00_C28_00A_P2",
+                "23": "PV082_UOL_00_C29_00A_P2",
+                "24": "PV082_UOL_00_C30_00A_P2",
+                "25": "PV082_UOL_00_C32_00A_P2",
+                "26": "PV082_UOL_00_C33_00A_P2",
+                "27": "PV082_UOL_00_C34_00A_P2",
+                "01": "PV082_UOL_00_C00_00A_P2",
+                "02": "PV082_UOL_00_C01_00A_P2",
+                "03": "PV082_UOL_00_C02_00A_P2",
+                "04": "PV082_UOL_00_C03_00A_P2",
+                "05": "PV082_UOL_00_C04_00A_P2",
+                "06": "CMN_MRA00_13_01",
+                "07": "PV082_UOL_00_C07_00A_P2",
+                "08": "CMN_MRA00_13_01",
+                "09": "PV082_UOL_00_C10_00A_P2"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "380",
+                "motion": "PV082_UOL_00_C01_00A_P1",
+                "stage": "STGPV082S62"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV082_UOL_00_C04_00A_P2",
+                "stage": "STGPV082S63"
+            },
+            "2": {
+                "frame": "254",
+                "motion": "PV082_UOL_00_C04_00A_P1",
+                "stage": "STGPV082S63"
+            },
+            "3": {
+                "frame": "195",
+                "motion": "PV082_UOL_00_C04_00A_P2",
+                "stage": "STGPV082S63"
+            },
+            "4": {
+                "frame": "0",
+                "motion": "PV082_UOL_00_C08_00A_P1",
+                "stage": "STGPV082S61"
+            },
+            "5": {
+                "frame": "380",
+                "motion": "PV082_UOL_00_C01_00A_P2",
+                "stage": "STGPV082S62"
+            },
+            "6": {
+                "frame": "0",
+                "motion": "PV082_UOL_00_C15_00A_P2",
+                "stage": "STGPV082S61"
+            },
+            "7": {
+                "frame": "512",
+                "motion": "PV082_UOL_00_C03_00A_P1",
+                "stage": "STGPV082S61"
+            },
+            "8": {
+                "frame": "357",
+                "motion": "PV082_UOL_00_C03_00A_P2",
+                "stage": "STGPV082S61"
+            },
+            "9": {
+                "frame": "221",
+                "motion": "PV082_UOL_00_C08_00A_P1",
+                "stage": "STGPV082S61"
+            },
+            "length": "10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "79",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "79",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "58",
+        "sabi": {
+            "play_time": "16",
+            "start_time": "76"
+        },
+        "se_name": "02_button2",
+        "song_file_name": "rom/sound/song/pv_082.ogg",
+        "song_name": "裏表ラバーズ",
+        "song_name_en": "Two-Sided Lovers",
+        "song_name_reading": "うらおもてらばーず",
+        "songinfo": {
+            "arranger": "wowaka",
+            "illustrator": "wowaka",
+            "lyrics": "wowaka",
+            "music": "wowaka",
+            "_en": {
+                "arranger": "wowaka",
+                "illustrator": "wowaka",
+                "lyrics": "wowaka",
+                "music": "wowaka"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv082s62.txt",
+                "stage": "STGPV082S62"
+            },
+            "1": {
+                "collision_file": "coli_stgpv082s63.txt",
+                "stage": "STGPV082S63"
+            },
+            "2": {
+                "collision_file": "coli_stgpv082s62.txt",
+                "stage": "STGPV082S04"
+            },
+            "3": {
+                "collision_file": "coli_stgpv082s63.txt",
+                "stage": "STGPV082S06"
+            },
+            "length": "4"
+        },
+        "sudden_timing": "0.6"
+    }
+}

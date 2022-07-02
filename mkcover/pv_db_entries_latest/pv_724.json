@@ -1,0 +1,223 @@
+{
+    "pv_724": {
+        "bpm": "160",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150511",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_724_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_724_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_724_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_724_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "724"
+        },
+        "effect_se_file_name": "rom/sound/pv724_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv724_effect",
+            "length": "1"
+        },
+        "hand_a3d": {
+            "1P": {
+                "0": {
+                    "name": "STGPV724S01_HRC_001"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "旧ネオン街　三番通り  路地裏猫　欲情論理",
+            "002": "パラノイア　振り向かせたい  夜ごと飾るNail",
+            "003": "体裁 美貌　理想　奪い合い？",
+            "004": "恋のBandit Song",
+            "005": "強引 Fallin' さあ尻尾で誘惑の美",
+            "006": "類似運命　本能相違　鱗粉で媚び売りの好意",
+            "007": "「そばにいて？」",
+            "008": "下らない誓い　キミに捧ぐ啓示",
+            "009": "変装気味　Gimme グロスに混ぜる媚薬　偽装",
+            "010": "秘密の嘘を知って　LuLa-LiLa",
+            "011": "Pay me",
+            "012": "不安な Twinkle Venus 踊れ　妖艶なFlow",
+            "013": "終末の夜を買い込んで",
+            "014": "運命の糸でキミを試すの　Again...",
+            "015": "愛ゆえに",
+            "016": "キャットダンス Baby 愛に従順で聡明に",
+            "017": "誘えミザリィ　恋の有罪迷宮",
+            "018": "相対ヒステリカ　情の成す無条件に",
+            "019": "盲目のアイロニー",
+            "020": "覆うクラクション　洗脳包囲",
+            "021": "香水の雨にFanfare",
+            "022": "真夜中の不純な期待　刺激　流れ出す",
+            "023": "咲かないロリポップ Night Light　愛の証明を",
+            "024": "「麻酔を打ったシナリオなんて、もう。」",
+            "025": "双生　相愛　独占欲　潜在的順応",
+            "026": "Smoke & Love & Love",
+            "027": "盲信癖　逸楽　感染症",
+            "028": "どうか、幸せで。",
+            "029": "How many?",
+            "030": "ブラックアウト Envy 帰り去った月の嘘に",
+            "031": "焦がれ慕う等身大の想い　Without U",
+            "032": "純情のステージで　トドメ刺す生存美",
+            "033": "もう終わりにしよ？",
+            "034": "もし世界が消えて、私も消えて",
+            "035": "そしたらアナタの所有権も消え去って",
+            "036": "それじゃ底まで愛してから棄てるわ。",
+            "037": "アダムとイヴに始まり、此処で終わる",
+            "038": "さあ、禁断の果実　今。",
+            "039": "キャットダンス Baby 愛に従順で聡明に",
+            "040": "誘えミザリィ　恋の有罪迷宮",
+            "041": "恋愛依存したこの部屋で二人",
+            "042": "朝を迎えよう。",
+            "_en": {
+                "001": "kyuu NEON gai   sanban doori   rojiura neko   yokujou ronri",
+                "002": "PARANOIA   furimukasetai   yogoto kazaru NAIL",
+                "003": "teisai bibou   risou   ubaiai?",
+                "004": "koi no BANDIT SONG",
+                "005": "gouin FALLIN' saa shippo de yuuwaku no bi",
+                "006": "ruiji unmei   honnou soui   rinpun de kobiuri no koui",
+                "007": "\"soba ni ite?\"",
+                "008": "kudaranai chikai   kimi ni sasagu keiji",
+                "009": "hensou gimi   GIMME GLOSS ni mazeru biyaku   gisou",
+                "010": "himitsu no uso o shitte   LuLa-LiLa",
+                "011": "PAY ME",
+                "012": "fuan na TWINKLE VENUS odore   youen na FLOW",
+                "013": "shuumatsu no yoru o kaikonde",
+                "014": "unmei no ito de kimi o tamesu no   AGAIN...",
+                "015": "ai yue ni",
+                "016": "CAT DANCE BABY ai ni juujun de soumei ni",
+                "017": "izanae MISERY   koi no yuuzai meikyuu",
+                "018": "soutai HYSTERICA   jou no nasu mujouken ni",
+                "019": "moumoku no IRONY",
+                "020": "oou KLAXON   sennou houi",
+                "021": "kousui no ame ni FANFARE",
+                "022": "mayonaka no fujun na kitai   shigeki   nagaredasu",
+                "023": "sakanai LOLLIPOP NIGHT LIGHT   ai no shoumei o",
+                "024": "\"masui o utta SCENARIO nante, mou.\"",
+                "025": "sousei   souai   dokusenyoku   senzaiteki junnou",
+                "026": "SMOKE & LOVE & LOVE",
+                "027": "moushinheki   itsuraku   kansenshou",
+                "028": "douka, shiawase de.",
+                "029": "HOW MANY?",
+                "030": "BLACKOUT ENVY kaeri satta tsuki no uso ni",
+                "031": "kogare shitau toushindai no omoi   WITHOUT U",
+                "032": "junjou no STAGE de   todome sasu seizonbi",
+                "033": "mou owari ni shiyo?",
+                "034": "moshi sekai ga kiete, watashi mo kiete",
+                "035": "soshitara anata no shoyuuken mo kiesatte",
+                "036": "sore ja soko made aishite kara suteru wa.",
+                "037": "ADAM to EVE ni hajimari, koko de owaru",
+                "038": "saa, kindan no kajitsu   ima.",
+                "039": "CAT DANCE BABY ai ni juujun de soumei ni",
+                "040": "izanae MISERY   koi no yuuzai meikyuu",
+                "041": "renai izon shita kono heya de futari",
+                "042": "asa o mukaeyou."
+            }
+        },
+        "motion": {
+            "01": "PV724_ECW_P1_00",
+            "02": "PV724_ECW_P1_10",
+            "2P": {
+                "01": "PV724_ECW_P2_00"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_724.mp4",
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "133",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "fixed": "1",
+                "pseudo_same_id": "0",
+                "size": "NORMAL",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV724.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "114",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "81.5"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_724.ogg",
+        "song_name": "エンヴィキャットウォーク",
+        "song_name_en": "Envy Cat Walk",
+        "song_name_reading": "えんヴぃきゃっとうぉーく",
+        "songinfo": {
+            "arranger": "トーマ",
+            "illustrator": "トーマ",
+            "lyrics": "トーマ",
+            "music": "トーマ",
+            "_en": {
+                "arranger": "tohma",
+                "illustrator": "tohma",
+                "lyrics": "tohma",
+                "music": "tohma"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

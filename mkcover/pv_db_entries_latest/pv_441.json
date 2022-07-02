@@ -1,0 +1,362 @@
+{
+    "pv_441": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV441_MEI_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "1",
+                "name": "MEI"
+            },
+            "num": "1"
+        },
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_441_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_441_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_441_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_441_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "441"
+        },
+        "edit": "2",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "021",
+            "01": "029",
+            "02": "054",
+            "03": "066",
+            "04": "040",
+            "05": "050",
+            "06": "019",
+            "07": "018"
+        },
+        "field": {
+            "01": {
+                "auth_3d_frame_list": {
+                    "0": "0",
+                    "length": "1"
+                },
+                "auth_3d_list": {
+                    "0": "EFFCHRPV441_MEI_001",
+                    "length": "1"
+                },
+                "stage": "STGNS221"
+            },
+            "02": {
+                "stage": "STGNS223"
+            },
+            "03": {
+                "stage": "STGNS257"
+            },
+            "04": {
+                "stage": "STGPV441S01"
+            },
+            "05": {
+                "stage": "STGNS221"
+            },
+            "06": {
+                "auth_3d_frame_list": {
+                    "0": "-5",
+                    "length": "1"
+                },
+                "auth_3d_list": {
+                    "0": "EFFCHRPV441_MEI_001",
+                    "length": "1"
+                },
+                "stage": "STGPV441S01_CLONE1"
+            },
+            "07": {
+                "stage": "STGPV441S01_CLONE1"
+            },
+            "08": {
+                "aet_front": "eff_change",
+                "aet_id_front": "AET_GAM_PV441_MAIN",
+                "stage": "STGPV441S01_CLONE1"
+            },
+            "09": {
+                "aet_front_low": "title_eff",
+                "aet_id_front": "AET_GAM_PV441_MAIN",
+                "stage": "STGNS221"
+            },
+            "length": "9"
+        },
+        "hand_item": {
+            "01": "PV_MIC_F_L",
+            "02": "PV_MIC_F_R",
+            "03": "PHONE_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "忘れかけてたんだ　あの頃のいたみも",
+            "002": "笑顔も何もかも　置いて行ってた",
+            "003": "怖がりながら　後ろを振り返って",
+            "004": "落としたモノに気付いて行くんだ",
+            "005": "零れ出てくる　涙のような音は",
+            "006": "今までの路に散らばっていく",
+            "007": "足元の水面 沈めたてのひら",
+            "008": "揺らいだ遠い面影",
+            "009": "毎日が狭く感じた　思い出",
+            "010": "「いつか」のままで　走り続けて",
+            "011": "僕の中　鮮やかに熟れてゆく黄色は",
+            "012": "いつだって迷わずに希望の扉　叩いて",
+            "013": "世界の果てまで繋がった幸せは",
+            "014": "鳥になって僕の夢に訪れるんだ",
+            "015": "青空仰ぐ眼に　写り込んだ光",
+            "016": "君の指に飛んだ　虹の水玉",
+            "017": "海辺に咲いた　赤く染まる花は",
+            "018": "風に揺らいで笑顔を誘う",
+            "019": "ただのかけっこでも　歩幅が変われば",
+            "020": "何もかも違うようで",
+            "021": "ありふれた考え方もしまって",
+            "022": "目の前だけを見つめていて",
+            "023": "僕の中　鮮やかに熟れてゆく黄色は",
+            "024": "今だって迷わずに心の扉　開いて",
+            "025": "世界の果てまで繋がった幸せが",
+            "026": "鳥になって君の夢に訪れるから",
+            "_en": {
+                "001": "wasurekaketetan da   ano koro no itami mo",
+                "002": "egao mo nanimokamo   oite itteta",
+                "003": "kowagarinagara   ushiro o furikaette",
+                "004": "otoshita mono ni kizuite ikun da",
+                "005": "koboredetekuru   namida no you na oto wa",
+                "006": "ima made no michi ni chirabatte iku",
+                "007": "ashimoto no minamo   shizumeta tenohira",
+                "008": "yuraida tooi omokage",
+                "009": "mainichi ga semaku kanjita   omoide",
+                "010": "\"itsuka\" no mama de   hashiritsuzukete",
+                "011": "boku no naka   azayaka ni urete yuku kiiro wa",
+                "012": "itsu datte mayowazu ni kibou no tobira   tataite",
+                "013": "sekai no hate made tsunagatta shiawase wa",
+                "014": "tori ni natte boku no yume ni otozurerun da",
+                "015": "aozora aogu me ni   utsurikonda hikari",
+                "016": "kimi no yubi ni tonda   niji no mizutama",
+                "017": "umibe ni saita   akaku somaru hana wa",
+                "018": "kaze ni yuraide egao o sasou",
+                "019": "tada no kakekko demo   hohaba ga kawareba",
+                "020": "nanimokamo chigau you de",
+                "021": "arifureta kangaekata mo shimatte",
+                "022": "me no mae dake o mitsumeteite",
+                "023": "boku no naka   azayaka ni urete yuku kiiro wa",
+                "024": "ima datte mayowazu ni kokoro no tobira   hiraite",
+                "025": "sekai no hate made tsunagatta shiawase ga",
+                "026": "tori ni natte kimi no yume ni otozureru kara"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_PSP02_053A",
+            "11": "CMN_EDT_EX_PSP03_011A",
+            "12": "CMN_EDT_EX_PSP03_037A",
+            "13": "CMN_EDT_PSP02_013A",
+            "14": "CMN_EDT_PSP01_70_13",
+            "15": "CMN_EDT_PSP01_50_50",
+            "16": "CMN_EDT_EX_PSP03_012A",
+            "17": "CMN_EDT_EX_PSP03_036A",
+            "18": "CMN_EDT_PSP01_70_18",
+            "19": "CMN_EDT_EX_PSP03_059A",
+            "20": "CMN_EDT_PS3_012A",
+            "21": "CMN_EDT_PS3_023A",
+            "22": "CMN_EDT_EX_PSP03_020A",
+            "23": "CMN_EDT_PS3_013A",
+            "24": "CMN_EDT_PS3_011A",
+            "25": "CMN_EDT_VITA01_002A",
+            "26": "CMN_EDT_PSP01_50_18_B",
+            "27": "CMN_EDT_EX_PSP03_015A",
+            "28": "CMN_EDT_PS3_002A",
+            "29": "CMN_EDT_PS3_006A",
+            "30": "CMN_EDT_EX_PSP03_054A",
+            "31": "CMN_EDT_PV441_001",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_EX_PSP03_035A",
+            "02": "CMN_EDT_VITA01_IDLE",
+            "03": "CMN_EDT_PSP02_014A",
+            "04": "CMN_EDT_EX_PSP03_022A",
+            "05": "CMN_EDT_PSP01_70_14",
+            "06": "CMN_EDT_VITA01_014A",
+            "07": "CMN_EDT_EX_PSP03_032A",
+            "08": "CMN_EDT_PS3_012A",
+            "09": "CMN_EDT_PSP01_70_23",
+            "2P": {
+                "10": "CMN_EDT_PSP02_053A",
+                "11": "CMN_EDT_EX_PSP03_011A",
+                "12": "CMN_EDT_EX_PSP03_037A",
+                "13": "CMN_EDT_PSP02_013A",
+                "14": "CMN_EDT_PSP01_70_13",
+                "15": "CMN_EDT_PSP01_50_50",
+                "16": "CMN_EDT_EX_PSP03_012A",
+                "17": "CMN_EDT_EX_PSP03_036A",
+                "18": "CMN_EDT_PSP01_70_18",
+                "19": "CMN_EDT_EX_PSP03_059A",
+                "20": "CMN_EDT_PS3_012A",
+                "21": "CMN_EDT_PS3_023A",
+                "22": "CMN_EDT_EX_PSP03_020A",
+                "23": "CMN_EDT_PS3_013A",
+                "24": "CMN_EDT_PS3_011A",
+                "25": "CMN_EDT_VITA01_002A",
+                "26": "CMN_EDT_PSP01_50_18_B",
+                "27": "CMN_EDT_EX_PSP03_015A",
+                "28": "CMN_EDT_PS3_002A",
+                "29": "CMN_EDT_PS3_006A",
+                "30": "CMN_EDT_EX_PSP03_054A",
+                "31": "CMN_EDT_PV441_001",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_EX_PSP03_035A",
+                "02": "CMN_EDT_VITA01_IDLE",
+                "03": "CMN_EDT_PSP02_014A",
+                "04": "CMN_EDT_EX_PSP03_022A",
+                "05": "CMN_EDT_PSP01_70_14",
+                "06": "CMN_EDT_VITA01_014A",
+                "07": "CMN_EDT_EX_PSP03_032A",
+                "08": "CMN_EDT_PS3_012A",
+                "09": "CMN_EDT_PSP01_70_23"
+            },
+            "3P": {
+                "10": "CMN_EDT_PSP02_053A",
+                "11": "CMN_EDT_EX_PSP03_011A",
+                "12": "CMN_EDT_EX_PSP03_037A",
+                "13": "CMN_EDT_PSP02_013A",
+                "14": "CMN_EDT_PSP01_70_13",
+                "15": "CMN_EDT_PSP01_50_50",
+                "16": "CMN_EDT_EX_PSP03_012A",
+                "17": "CMN_EDT_EX_PSP03_036A",
+                "18": "CMN_EDT_PSP01_70_18",
+                "19": "CMN_EDT_EX_PSP03_059A",
+                "20": "CMN_EDT_PS3_012A",
+                "21": "CMN_EDT_PS3_023A",
+                "22": "CMN_EDT_EX_PSP03_020A",
+                "23": "CMN_EDT_PS3_013A",
+                "24": "CMN_EDT_PS3_011A",
+                "25": "CMN_EDT_VITA01_002A",
+                "26": "CMN_EDT_PSP01_50_18_B",
+                "27": "CMN_EDT_EX_PSP03_015A",
+                "28": "CMN_EDT_PS3_002A",
+                "29": "CMN_EDT_PS3_006A",
+                "30": "CMN_EDT_EX_PSP03_054A",
+                "31": "CMN_EDT_PV441_001",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_EX_PSP03_035A",
+                "02": "CMN_EDT_VITA01_IDLE",
+                "03": "CMN_EDT_PSP02_014A",
+                "04": "CMN_EDT_EX_PSP03_022A",
+                "05": "CMN_EDT_PSP01_70_14",
+                "06": "CMN_EDT_VITA01_014A",
+                "07": "CMN_EDT_EX_PSP03_032A",
+                "08": "CMN_EDT_PS3_012A",
+                "09": "CMN_EDT_PSP01_70_23"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "16",
+                "size": "TALL",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "1",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "2": {
+                "chara": "SAK",
+                "pv_costume": "1",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "3"
+        },
+        "pv_item": {
+            "01": "ITMPV441_MIC_01__DIVSKN"
+        },
+        "rank_board_id": "235",
+        "sabi": {
+            "play_time": "26.5",
+            "start_time": "69.5"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_441.ogg",
+        "song_name": "Mellow Yellow",
+        "song_name_en": "Mellow Yellow",
+        "song_name_reading": "めろーいえろー",
+        "songinfo": {
+            "arranger": "めりっさP",
+            "illustrator": "立花　日向",
+            "lyrics": "哀婉P",
+            "music": "めりっさP",
+            "pv_editor": "hara12ken",
+            "_en": {
+                "arranger": "Melissa P",
+                "illustrator": "Hinata Tachibana",
+                "lyrics": "Aien P",
+                "music": "Melissa P",
+                "pv_editor": "hara12ken"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

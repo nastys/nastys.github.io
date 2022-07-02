@@ -1,0 +1,198 @@
+{
+    "pv_630": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV630_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "1": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV630_MIK_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "1",
+                "name": "MIK"
+            },
+            "num": "2"
+        },
+        "date": "20140918",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_630_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_630_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_630_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_630_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "630"
+        },
+        "effect_se_file_name": "rom/sound/pv630_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv630_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "ブラックロックシューター　何処へ行ったの？",
+            "002": "聞こえますか？",
+            "003": "あとどれだけ叫べばいいのだろう",
+            "004": "あとどれだけ泣けばいいのだろう",
+            "005": "もうやめて　わたしはもう走れない",
+            "006": "いつか夢見た世界が閉じる",
+            "007": "真っ暗で明かりもない　崩れかけたこの道で",
+            "008": "あるはずもないあの時の希望が見えた気がした",
+            "009": "そうよ",
+            "010": "ブラックロックシューター　優しい匂い",
+            "011": "痛いよ　辛いよ　飲み込む言葉",
+            "012": "ブラックロックシューター　動いてこの足！",
+            "013": "世界を超えて",
+            "014": "最初からわかっていた　ここにいることを",
+            "015": "わたしのなかの　全ての勇気が",
+            "016": "火をともして",
+            "017": "もう逃げないよ",
+            "018": "ブラックロックシューター　ひとりじゃないよ",
+            "019": "声をあげて泣いたって構わない",
+            "020": "ブラックロックシューター　見ていてくれる",
+            "021": "今からはじまるの　わたしの物語",
+            "022": "忘れそうになったら　この歌を",
+            "023": "歌うの",
+            "_en": {
+                "001": "BLACK ROCK SHOOTER   doko e itta no?",
+                "002": "kikoemasu ka?",
+                "003": "ato doredake sakebeba ii no darou",
+                "004": "ato doredake nakeba ii no darou",
+                "005": "mou yamete   watashi wa mou hashirenai",
+                "006": "itsuka yumemita sekai ga tojiru",
+                "007": "makkura de akari mo nai   kuzurekaketa kono michi de",
+                "008": "aru hazu mo nai ano toki no kibou ga mieta ki ga shita",
+                "009": "sou yo",
+                "010": "BLACK ROCK SHOOTER   yasashii nioi",
+                "011": "itai yo   tsurai yo   nomikomu kotoba",
+                "012": "BLACK ROCK SHOOTER   ugoite kono ashi!",
+                "013": "sekai o koete",
+                "014": "saisho kara wakatteita   koko ni iru koto o",
+                "015": "watashi no naka no   subete no yuuki ga",
+                "016": "hi o tomoshite",
+                "017": "mou nigenai yo",
+                "018": "BLACK ROCK SHOOTER   hitori janai yo",
+                "019": "koe o agete naitatte kamawanai",
+                "020": "BLACK ROCK SHOOTER   miteitekureru",
+                "021": "ima kara hajimaru no   watashi no monogatari",
+                "022": "wasuresou ni nattara   kono uta o",
+                "023": "utau no"
+            }
+        },
+        "motion": {
+            "01": "PV630_BRS_P1_00",
+            "2P": {
+                "01": "PV630_BRS_P2_00"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_630.mp4",
+        "movie_surface": "BACK",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV630.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "103",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "77.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_630.ogg",
+        "song_name": "ブラック★ロックシューター",
+        "song_name_en": "Black★Rock Shooter",
+        "song_name_reading": "ぶらっくろっくしゅーたー",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "三輪士郎",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Miwa Shirow",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

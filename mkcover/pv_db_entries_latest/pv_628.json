@@ -1,0 +1,167 @@
+{
+    "pv_628": {
+        "bpm": "129",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_628_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_628_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_628_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_628_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "628",
+            "title_end_2d_field": "15",
+            "title_start_2d_field": "14"
+        },
+        "effect_se_file_name": "rom/sound/pv628_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv628_effect",
+            "length": "1"
+        },
+        "hand_item": {
+            "01": "PV_MIC_FREELY_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "心ごと　体ごと　全部記憶の中の幻",
+            "002": "本当の　愛情が　指先から流れ出した",
+            "003": "遠くから見ていたの　悲しそうな君のFace",
+            "004": "空の涙と同じね　大粒の雨が溢れ出す",
+            "005": "不意に気付いた視線　ハッと息を潜めた",
+            "006": "ひんやりと冷たい手が　戸惑う君の頬に触れた",
+            "007": "雑踏に　飲み込まれ　忘れてしまった",
+            "008": "温もりが　優しさが　走る",
+            "009": "心ごと　体ごと　全部記憶の中の幻",
+            "010": "本当の　愛情が　指先から流れ出した",
+            "011": "顔上げて　微笑めば　笑顔取り戻す魔法になる",
+            "012": "こころKnock Knock Knock",
+            "013": "不思議Trick Trick Trick",
+            "014": "生まれ変われる Freely Tomorrow",
+            "015": "心ごと　体ごと　全部記憶の中の幻",
+            "016": "本当の　愛情が　指先から流れ出した",
+            "017": "顔上げて　微笑めば　笑顔取り戻す魔法になる",
+            "018": "こころKnock Knock Knock",
+            "019": "不思議Trick Trick Trick",
+            "020": "生まれ変われる Freely Tomorrow",
+            "_en": {
+                "001": "kokorogoto   karadagoto   zenbu kioku no naka no maboroshi",
+                "002": "hontou no   aijou ga   yubisaki kara nagaredashita",
+                "003": "tooku kara miteita no   kanashisou na kimi no FACE",
+                "004": "sora no namida to onaji ne   ootsubu no ame ga afuredasu",
+                "005": "fui ni kizuita shisen   hatto iki o hisometa",
+                "006": "hinyari to tsumetai te ga   tomadou kimi no hoho ni fureta",
+                "007": "zattou ni   nomikomare   wasurete shimatta",
+                "008": "nukumori ga   yasashisa ga   hashiru",
+                "009": "kokorogoto   karadagoto   zenbu kioku no naka no maboroshi",
+                "010": "hontou no   aijou ga   yubisaki kara nagaredashita",
+                "011": "kao agete   hohoemeba   egao torimodosu mahou ni naru",
+                "012": "kokoro KNOCK KNOCK KNOCK",
+                "013": "fushigi TRICK TRICK TRICK",
+                "014": "umarekawareru FREELY TOMORROW",
+                "015": "kokorogoto   karadagoto   zenbu kioku no naka no maboroshi",
+                "016": "hontou no   aijou ga   yubisaki kara nagaredashita",
+                "017": "kao agete   hohoemeba   egao torimodosu mahou ni naru",
+                "018": "kokoro KNOCK KNOCK KNOCK",
+                "019": "fushigi TRICK TRICK TRICK",
+                "020": "umarekawareru FREELY TOMORROW"
+            }
+        },
+        "motion": {
+            "01": "PV628_FLT_P1_00"
+        },
+        "npr": {
+            "chara_lightness": "0.92"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "98",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV628.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "101",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "80.5"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_628.ogg",
+        "song_name": "FREELY TOMORROW",
+        "song_name_en": "Freely Tomorrow",
+        "song_name_reading": "ふりーりーとぅもろう",
+        "songinfo": {
+            "arranger": "Mitchie M",
+            "illustrator": "Mitchie M",
+            "lyrics": "Mitchie M/ЯIRE",
+            "music": "Mitchie M",
+            "_en": {
+                "arranger": "Mitchie M",
+                "illustrator": "Mitchie M",
+                "lyrics": "Mitchie M/ЯIRE",
+                "music": "Mitchie M"
+            }
+        },
+        "sort_index": "16",
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "pv_204": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_204_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_204_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_204_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_204_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_204_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "204"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "star06",
+                "stage": "STGNS012"
+            },
+            "01": {
+                "stage": "STGNS030"
+            },
+            "02": {
+                "stage": "STGNS018"
+            },
+            "03": {
+                "stage": "STGNS012"
+            },
+            "04": {
+                "stage": "STGNS033"
+            },
+            "05": {
+                "aet_front": "star01",
+                "stage": "STGNS030"
+            },
+            "06": {
+                "aet_front": "star02",
+                "stage": "STGNS030"
+            },
+            "07": {
+                "aet_front": "star03",
+                "stage": "STGNS018"
+            },
+            "08": {
+                "aet_front": "star04",
+                "stage": "STGNS033"
+            },
+            "09": {
+                "aet_front": "star05",
+                "stage": "STGNS012"
+            },
+            "length": "10"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "小さなときめき　溢れる思い",
+            "002": "私を動かす　10日間という時間の制約",
+            "003": "言葉の魔法よ　あなたに届け",
+            "004": "天より高く　残された7日に思いをこめて",
+            "005": "「ちょっと待って！」　私とあなたはあと3日",
+            "006": "築いた繋がり　あなたとの距離",
+            "007": "すべてが消え行く　忘れるあなたがこわい",
+            "008": "タイムリミット　止まらないの",
+            "009": "あなたの記憶に残してください",
+            "010": "私という小さな存在",
+            "011": "タイムリミット　ありがとう",
+            "012": "またあなたに会える気がする",
+            "013": "今度こそ　本当の私を見てほしい",
+            "014": "タイムリミット　止まらないの",
+            "015": "あなたの記憶に残してください",
+            "016": "私という小さな存在",
+            "017": "タイムリミット　ありがとう",
+            "018": "またあなたに会えた瞬間",
+            "019": "「信じてた...」　溢れる涙と歌声",
+            "020": "あなただけに",
+            "_en": {
+                "001": "chiisana tokimeki   afureru omoi",
+                "002": "watashi o ugokasu   tookakan to iu jikan no seiyaku",
+                "003": "kotoba no mahou yo   anata ni todoke",
+                "004": "ten yori takaku   nokosareta nanoka ni omoi o komete",
+                "005": "\"chotto matte!\"   watashi to anata wa ato mikka",
+                "006": "kizuita tsunagari   anata to no kyori",
+                "007": "subete ga kieyuku   wasureru anata ga kowai",
+                "008": "TIME LIMIT   tomaranai no",
+                "009": "anata no kioku ni nokoshite kudasai",
+                "010": "watashi to iu chiisana sonzai",
+                "011": "TIME LIMIT   arigatou",
+                "012": "mata anata ni aeru ki ga suru",
+                "013": "kondo koso   hontou no watashi o mite hoshii",
+                "014": "TIME LIMIT   tomaranai no",
+                "015": "anata no kioku ni nokoshite kudasai",
+                "016": "watashi to iu chiisana sonzai",
+                "017": "TIME LIMIT   arigatou",
+                "018": "mata anata ni aeta shunkan",
+                "019": "\"shinjiteta...\"   afureru namida to utagoe",
+                "020": "anata dake ni"
+            }
+        },
+        "motion": {
+            "01": "PV204_TIME_00"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "168",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "62.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_204.ogg",
+        "song_name": "タイムリミット",
+        "song_name_en": "Time Limit",
+        "song_name_reading": "たいむりみっと",
+        "songinfo": {
+            "arranger": "North-T",
+            "illustrator": "S-pon（SEGA）",
+            "lyrics": "North-T",
+            "music": "North-T",
+            "_en": {
+                "arranger": "North-T",
+                "illustrator": "S-pon(SEGA)",
+                "lyrics": "North-T",
+                "music": "North-T"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "3"
+        }
+    }
+}

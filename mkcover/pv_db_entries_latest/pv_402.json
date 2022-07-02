@@ -1,0 +1,323 @@
+{
+    "pv_402": {
+        "bpm": "155",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "01": {
+                            "stage": "STGNS002"
+                        },
+                        "02": {
+                            "stage": "STGNS020"
+                        },
+                        "03": {
+                            "stage": "STGNS004"
+                        },
+                        "04": {
+                            "stage": "STGNS001"
+                        },
+                        "length": "4"
+                    },
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "motion": {
+                        "10": "CMN_MCA00_50_38",
+                        "11": "CMN_MCA00_50_40",
+                        "12": "CMN_MCA00_50_42",
+                        "13": "CMN_MCA00_50_39",
+                        "14": "CMN_MCA00_50_60_A",
+                        "15": "CMN_MCA00_50_60_C",
+                        "16": "CMN_MCA00_70_15",
+                        "18": "CMN_MCA00_50_47",
+                        "19": "CMN_MCA00_70_23",
+                        "20": "CMN_MCA00_70_28",
+                        "21": "CMN_MCA00_70_29",
+                        "23": "CMN_MCA00_70_21",
+                        "25": "CMN_MCA00_50_43",
+                        "26": "CMN_MCA00_70_12",
+                        "27": "CMN_MCA00_70_19",
+                        "00": "CMN_MRA00_13_01",
+                        "02": "CMN_MCA00_50_18_B",
+                        "03": "CMN_MCA00_70_24",
+                        "04": "CMN_MCA00_70_30",
+                        "05": "CMN_MCA00_50_12",
+                        "06": "CMN_MCA00_50_29",
+                        "08": "CMN_MCA00_50_53",
+                        "09": "CMN_MCA00_50_37"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "32"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_402_easy.dsc",
+                    "script_format": "0x13122519",
+                    "se_name": "01_button1",
+                    "songinfo": {
+                        "pv_editor": "ピジョン",
+                        "_en": {
+                            "pv_editor": "Pigeon"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_402_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_402_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_402_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "01": {
+                            "stage": "STGNS002"
+                        },
+                        "02": {
+                            "stage": "STGNS020"
+                        },
+                        "03": {
+                            "stage": "STGNS004"
+                        },
+                        "04": {
+                            "stage": "STGNS001"
+                        },
+                        "length": "4"
+                    },
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "motion": {
+                        "10": "CMN_MCA00_50_38",
+                        "11": "CMN_MCA00_50_40",
+                        "12": "CMN_MCA00_50_42",
+                        "13": "CMN_MCA00_50_39",
+                        "14": "CMN_MCA00_50_60_A",
+                        "15": "CMN_MCA00_50_60_C",
+                        "16": "CMN_MCA00_70_15",
+                        "18": "CMN_MCA00_50_47",
+                        "19": "CMN_MCA00_70_23",
+                        "20": "CMN_MCA00_70_28",
+                        "21": "CMN_MCA00_70_29",
+                        "23": "CMN_MCA00_70_21",
+                        "25": "CMN_MCA00_50_43",
+                        "26": "CMN_MCA00_70_12",
+                        "27": "CMN_MCA00_70_19",
+                        "00": "CMN_MRA00_13_01",
+                        "02": "CMN_MCA00_50_18_B",
+                        "03": "CMN_MCA00_70_24",
+                        "04": "CMN_MCA00_70_30",
+                        "05": "CMN_MCA00_50_12",
+                        "06": "CMN_MCA00_50_29",
+                        "08": "CMN_MCA00_50_53",
+                        "09": "CMN_MCA00_50_37"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "32"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_402_normal.dsc",
+                    "script_format": "0x13122519",
+                    "se_name": "01_button1",
+                    "songinfo": {
+                        "pv_editor": "ピジョン",
+                        "_en": {
+                            "pv_editor": "Pigeon"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "402"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS009"
+            },
+            "02": {
+                "stage": "STGNS006"
+            },
+            "03": {
+                "stage": "STGNS008"
+            },
+            "length": "3"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "サヨナラを口にして　宙に浮かべた",
+            "002": "届かないなんてウソ　電波にノセテ",
+            "003": "向こうにもね、きっと",
+            "004": "つながるよね、ちょっと",
+            "005": "Pi Po Pa Po鳴らしたけど",
+            "006": "ノイズの返事（レスポンス）だけ",
+            "007": "今すぐ聴きたい　Your Voice",
+            "008": "Tel.me Tel.me　少しでいいから",
+            "009": "Call me Call me 話そうよ",
+            "010": "最後にせめて言わせて",
+            "011": "君にサヨナラ・グッバイ",
+            "012": "記憶の底をたどり　空に描いた",
+            "013": "雲の模様が少し　君に似ている",
+            "014": "ケムリに包まれ　窮屈だったよね",
+            "015": "次に会えるのは一体何百年後かな",
+            "016": "今すぐ聴きたい　Your Voice",
+            "017": "Tel.me Tel.me 鳴らない電話",
+            "018": "Call me Call me　かけてきて",
+            "019": "できればしたくないけど",
+            "020": "君にサヨナラ・グッバイ",
+            "021": "向こうにもね、きっと",
+            "022": "つながるよね、ちょっと",
+            "023": "急にいなくなるのは　反則だと思うよ",
+            "024": "とにかく 今すぐ聴きたい　Your Voice",
+            "025": "Tel.me Tel.me　少しでいいから",
+            "026": "Call me Call me 話そうよ",
+            "027": "最後にせめて言わせて",
+            "028": "君にサヨナラ・グッバイ",
+            "_en": {
+                "001": "sayonara o kuchi ni shite   chuu ni ukabeta",
+                "002": "todokanai nante uso   denpa ni nosete",
+                "003": "mukou ni mo ne, kitto",
+                "004": "tsunagaru yo ne, chotto",
+                "005": "pi po pa po narashita kedo",
+                "006": "NOISE no RESPONSE dake",
+                "007": "ima sugu kikitai   YOUR VOICE",
+                "008": "TEL. ME   TEL. ME   sukoshi de ii kara",
+                "009": "CALL ME CALL ME   hanasou yo",
+                "010": "saigo ni semete iwasete",
+                "011": "kimi ni sayonara, GOODBYE",
+                "012": "kioku no soko o tadori   sora ni egaita",
+                "013": "kumo no moyou ga sukoshi   kimi ni niteiru",
+                "014": "kemuri ni tsutsumare   kyuukutsu datta yo ne",
+                "015": "tsugi ni aeru no wa ittai nanbyakunengo ka na",
+                "016": "ima sugu kikitai   YOUR VOICE",
+                "017": "TEL. ME   TEL. ME   naranai denwa",
+                "018": "CALL ME CALL ME   kakete kite",
+                "019": "dekireba shitakunai kedo",
+                "020": "kimi ni sayonara, GOODBYE",
+                "021": "mukou ni mo ne, kitto",
+                "022": "tsunagaru yo ne, chotto",
+                "023": "kyuu ni inakunaru no wa   hansoku da to omou yo",
+                "024": "tonikaku   ima sugu kikitai   YOUR VOICE",
+                "025": "TEL. ME   TEL. ME   sukoshi de ii kara",
+                "026": "CALL ME CALL ME   hanasou yo",
+                "027": "saigo ni semete iwasete",
+                "028": "kimi ni sayonara, GOODBYE"
+            }
+        },
+        "mdata": {
+            "flag": "0"
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_37",
+            "11": "CMN_MCA00_70_22",
+            "12": "CMN_MCA00_70_29",
+            "13": "CMN_MCA00_70_30",
+            "14": "CMN_MCA00_50_56_B",
+            "15": "CMN_MCA00_50_60_C",
+            "16": "CMN_MCA00_50_42",
+            "17": "CMN_MCA00_50_13",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_21",
+            "02": "CMN_MCA00_50_39",
+            "03": "CMN_MCA00_50_41",
+            "04": "CMN_MCA00_70_15",
+            "05": "CMN_MCA00_70_16",
+            "06": "CMN_MCA00_70_23",
+            "07": "CMN_MCA00_70_24",
+            "08": "CMN_MCA00_50_19",
+            "09": "CMN_MCA00_50_24"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "197",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "40.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_402.ogg",
+        "song_name": "サヨナラ・グッバイ",
+        "song_name_en": "Sayonara, Goodbye",
+        "song_name_reading": "さよならぐっばい",
+        "songinfo": {
+            "arranger": "のぼる↑",
+            "illustrator": "藤田やまり",
+            "lyrics": "のぼる↑",
+            "music": "のぼる↑",
+            "pv_editor": "mistieue",
+            "_en": {
+                "arranger": "Noboru↑",
+                "lyrics": "Noboru↑",
+                "music": "Noboru↑",
+                "pv_editor": "mistieue"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

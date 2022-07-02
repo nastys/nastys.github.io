@@ -1,0 +1,203 @@
+{
+    "pv_243": {
+        "bpm": "125",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV243_LUK_001",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "LUK"
+            },
+            "num": "1"
+        },
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_243_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_243_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_243_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_243_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "243"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "MIK",
+                "file": "rom/sound/song/pv_243_miku.ogg"
+            },
+            "length": "1"
+        },
+        "frame_texture_a": "F_DIVA_STGPV243_SA_PHOTOGRAPH_01_GEOMETRICPATTERN",
+        "frame_texture_b": "F_DIVA_STGPV243_SA_PHOTOGRAPH_02_TOWN",
+        "frame_texture_c": "F_DIVA_STGPV243_SA_PHOTOGRAPH_03_BEACH",
+        "frame_texture_d": "F_DIVA_STGPV243_SA_PHOTOGRAPH_04_SUNFLOWER",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "「掛け替えのない命だと",
+            "002": "流行りの歌は言うけれど",
+            "003": "誰かが僕と代わってても",
+            "004": "誰も困りはしない",
+            "005": "変わりばえのない日々に",
+            "006": "借り物の僕ら椅子を探してる",
+            "007": "何にもなれはしないまま",
+            "008": "心臓は止まってく",
+            "009": "かさぶたになった傷を",
+            "010": "引っ張りだしてまた掻き毟って",
+            "011": "滲んで来た二度目の言葉",
+            "012": "悲しい歌が聞きたくて",
+            "013": "好きな音楽は何ですか？",
+            "014": "好きな食べ物は何ですか？",
+            "015": "君の好きな人は誰ですか？",
+            "016": "きっとそれは　僕じゃないんだろうけど",
+            "017": "ない　ない　未来などない",
+            "018": "しない　しない　期待しない",
+            "019": "いない　いない　誰もいない",
+            "020": "僕のそばには　もう",
+            "021": "笑い　笑い　笑いあいたい",
+            "022": "認めて　欲しいだけです",
+            "023": "あれこれ　諦めてた",
+            "024": "景色の向こう側が滲んで",
+            "025": "好きな音楽は何ですか？",
+            "026": "好きな食べ物は何ですか？",
+            "027": "君の好きな人は誰ですか？",
+            "028": "きっとそれは　僕じゃないんだ」 とか",
+            "029": "自分勝手に諦めては",
+            "030": "独りよがりで傷ついてた",
+            "031": "年を取ってやっと気付きました",
+            "032": "ねえ　まだ",
+            "033": "まだ間に合いますか",
+            "_en": {
+                "001": "\"kakegae no nai inochi da to",
+                "002": "hayari no uta wa iu keredo",
+                "003": "dareka ga boku to kawattetemo",
+                "004": "daremo komari wa shinai",
+                "005": "kawaribae no nai hibi ni",
+                "006": "karimono no bokura isu o sagashiteru",
+                "007": "nannimo nare wa shinai mama",
+                "008": "shinzou wa tomatteku",
+                "009": "kasabuta ni natta kizu o",
+                "010": "hipparidashite mata kakimushitte",
+                "011": "nijinde kita nidome no kotoba",
+                "012": "kanashii uta ga kikitakute",
+                "013": "suki na ongaku wa nan desu ka?",
+                "014": "suki na tabemono wa nan desu ka?",
+                "015": "kimi no suki na hito wa dare desu ka?",
+                "016": "kitto sore wa   boku janain darou kedo",
+                "017": "nai   nai   mirai nado nai",
+                "018": "shinai   shinai   kitai shinai",
+                "019": "inai   inai   daremo inai",
+                "020": "boku no soba ni wa   mou",
+                "021": "warai   warai   waraiaitai",
+                "022": "mitomete   hoshii dake desu",
+                "023": "are kore   akirameteta",
+                "024": "keshiki no mukou gawa ga nijinde",
+                "025": "suki na ongaku wa nan desu ka?",
+                "026": "suki na tabemono wa nan desu ka?",
+                "027": "kimi no suki na hito wa dare desu ka?",
+                "028": "kitto sore wa   boku janain da\" toka",
+                "029": "jibunkatte ni akiramete wa",
+                "030": "hitoriyogari de kizutsuiteta",
+                "031": "toshi o totte yatto kizukimashita",
+                "032": "nee   mada",
+                "033": "mada maniaimasu ka"
+            }
+        },
+        "motion": {
+            "01": "PV243_INT"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "33",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV243.bin"
+        },
+        "rank_board_id": "135",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "59.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_243.ogg",
+        "song_name": "インタビュア",
+        "song_name_en": "Interviewer",
+        "song_name_reading": "いんたびゅあ",
+        "songinfo": {
+            "arranger": "クワガタP",
+            "illustrator": "さいね",
+            "lyrics": "クワガタP",
+            "music": "クワガタP",
+            "_en": {
+                "arranger": "Kuwagata P",
+                "illustrator": "Saine",
+                "lyrics": "Kuwagata P",
+                "music": "Kuwagata P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

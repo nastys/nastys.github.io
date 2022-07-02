@@ -1,0 +1,183 @@
+{
+    "pv_270": {
+        "bpm": "152",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_270_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_270_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_270_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_270_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "270"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "ゆれる街灯 篠突く雨",
+            "002": "振れる感情 感覚のテレパス",
+            "003": "迷子のふたりはコンタクト",
+            "004": "ココロは 恋を知りました",
+            "005": "タイトロープ ツギハギの制服",
+            "006": "重度のディスコミュニケーション",
+            "007": "眼光 赤色にキラキラ",
+            "008": "ナニカが起こる胸騒ぎ",
+            "009": "エイリアン わたしエイリアン",
+            "010": "あなたの心を惑わせる",
+            "011": "交ざりあう宇宙の引力で",
+            "012": "感じてる気持ちはトキメキ",
+            "013": "エイリアン あなたのエイリアン",
+            "014": "引きあう心は逃れられない",
+            "015": "あなたに未体験あげる",
+            "016": "異世界の果てまでトキメキ スキ",
+            "017": "点灯と消灯を 繰り返している蛍光灯",
+            "018": "超常な混沌が 静かにあなたを蝕んだ",
+            "019": "並行な信号は 特異点に因り交わった",
+            "020": "創造現実盲信症 感応性本能",
+            "021": "シンドローム ひとりきり夜な夜な",
+            "022": "空想描く まるでグリモワ",
+            "023": "サーチライト 避ける浮遊機",
+            "024": "「まだあなたは 全てを知りたい？」",
+            "025": "エイリアン わたしエイリアン",
+            "026": "あなたの心を惑わせる",
+            "027": "瞳に映らない引力に",
+            "028": "気づいてよ わたしは――",
+            "029": "エイリアン あなたのエイリアン",
+            "030": "触れあえば傷は 二度と消えない",
+            "031": "降りそそぐ無数の隕石も",
+            "032": "ときめく心には 届かない！",
+            "033": "エイリアン ふたりはエイリアン",
+            "034": "高鳴る気持ちが抑えられない！",
+            "035": "あなたは未確認生命体",
+            "036": "異世界の果てまで あなたが 好き",
+            "_en": {
+                "001": "yureru gaitou   shino tsuku ame",
+                "002": "fureru kanjo   kankaku no TELEPATH",
+                "003": "maigo no futari wa CONTACT",
+                "004": "kokoro wa   koi o shirimashita",
+                "005": "TIGHT LOAP   tsugihagi no seifuku",
+                "006": "juudo no DIS-COMMUNICATION",
+                "007": "gankou   sekishoku ni kirakira",
+                "008": "nanika ga okoru munasawagi",
+                "009": "ALIEN  watashi ALIEN",
+                "010": "anata no kokoro o madowaseru",
+                "011": "mazariau uchuu no inryoku de",
+                "012": "kanjiteru kimochi wa tokimeki",
+                "013": "ALIEN  anata no ALIEN",
+                "014": "hikiau kokoro wa nogarerarenai",
+                "015": "anata ni mitaiken ageru",
+                "016": "isekai no hate made tokimeki  suki",
+                "017": "tentou to shoutou o   kurikaeshiteiru keikoutou",
+                "018": "choujou na konton ga   shizukani anata o mushibanda",
+                "019": "heikou na shingou wa   tokuiten ni yori majiwatta",
+                "020": "souzou genjitsu moushinshou   kanousei honnou",
+                "021": "SYNDROME   hitorikiri yonayona",
+                "022": "kuusou kaku   marude GRIMOIRE",
+                "023": "SEARCHLIGHT   sakeru fuyuuki",
+                "024": "\"mada anata wa   subete o shiritai?\"",
+                "025": "ALIEN  watashi ALIEN",
+                "026": "anata no kokoro o madowaseru",
+                "027": "hitomini utsuranai inryoku ni",
+                "028": "kizuite yo watashi wa--",
+                "029": "ALIEN  anata no ALIEN",
+                "030": "fureaeba kizu wa   nidoto kienai",
+                "031": "furisosogu musuu no inseki mo",
+                "032": "tokimeku kokoro ni wa todokanai!",
+                "033": "ALIEN  futari wa ALIEN",
+                "034": "takanaru kimochi ga osaerarenai!",
+                "035": "anata wa mikakunin seimeitai",
+                "036": "isekai no hate made   anata ga  suki"
+            }
+        },
+        "motion": {
+            "01": "PV270_ALN"
+        },
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV270.bin"
+        },
+        "sabi": {
+            "play_time": "26.2",
+            "start_time": "58.3"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_270.ogg",
+        "song_name": "エイリアンエイリアン",
+        "song_name_en": "Alien Alien",
+        "song_name_reading": "えいりあんえいりあん",
+        "songinfo": {
+            "arranger": "ナユタン星人",
+            "guitar_player": "ナユタン星人",
+            "illustrator": "ナユタン星人",
+            "lyrics": "ナユタン星人",
+            "manipulator": "ナユタン星人",
+            "music": "ナユタン星人",
+            "_en": {
+                "arranger": "Nayutalien",
+                "guitar_player": "Nayutalien",
+                "illustrator": "Nayutalien",
+                "lyrics": "Nayutalien",
+                "manipulator": "Nayutalien",
+                "music": "Nayutalien"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

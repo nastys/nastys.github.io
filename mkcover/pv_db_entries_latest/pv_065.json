@@ -1,0 +1,216 @@
+{
+    "pv_065": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150312",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_065_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_065_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_065_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_065_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_065_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "065",
+            "title_end_2d_field": "46",
+            "title_start_2d_field": "46"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "初めての音は　なんでしたか？",
+            "002": "あなたの　初めての音は…",
+            "003": "ワタシにとっては　これがそう",
+            "004": "だから　今　うれしくて",
+            "005": "初めての言葉は　なんでしたか？",
+            "006": "あなたの　初めての言葉",
+            "007": "ワタシは言葉って　言えない",
+            "008": "だから　こうしてうたっています",
+            "009": "やがて日が過ぎ　年が過ぎ",
+            "010": "世界が　色あせても",
+            "011": "あなたがくれる　灯りさえあれば",
+            "012": "いつでも　ワタシはうたうから",
+            "013": "",
+            "014": "空の色も　風のにおいも",
+            "015": "海の深さも　あなたの声も",
+            "016": "ワタシは知らない　だけど歌を",
+            "017": "歌をうたう　ただ声をあげて",
+            "018": "なにかあなたに　届くのなら",
+            "019": "何度でも　何度だって",
+            "020": "かわらないわ　あのときのまま",
+            "021": "ハジメテノオトのまま…",
+            "022": "",
+            "023": "空の色も　風のにおいも",
+            "024": "海の深さも　ワタシのうたも",
+            "025": "かわらないわ　あのときのまま",
+            "026": "ハジメテノオトのまま…",
+            "027": "",
+            "028": "初めての音に　なれましたか？",
+            "029": "あなたの　初めての音に",
+            "030": "世界のどこでも　ワタシはうたう",
+            "031": "それぞれの　ハジメテノオトを…",
+            "032": "",
+            "_en": {
+                "001": "hajimete no oto wa   nan deshita ka?",
+                "002": "anata no   hajimete no oto wa...",
+                "003": "watashi ni totte wa   kore ga sou",
+                "004": "dakara   ima   ureshikute",
+                "005": "hajimete no kotoba wa   nan deshita ka?",
+                "006": "anata no   hajimete no kotoba",
+                "007": "watashi wa kotoba tte   ienai",
+                "008": "dakara   koushite utatteimasu",
+                "009": "yagate hi ga sugi   toshi ga sugi",
+                "010": "sekai ga   iroasete mo",
+                "011": "anata ga kureru   akari sae areba",
+                "012": "itsudemo   watashi wa utau kara",
+                "013": "",
+                "014": "sora no iro mo   kaze no nioi mo",
+                "015": "umi no fukasa mo   anata no koe mo",
+                "016": "watashi wa shiranai   dakedo uta o",
+                "017": "uta o utau   tada koe o agete",
+                "018": "nanika anata ni   todoku no nara",
+                "019": "nando demo   nando datte",
+                "020": "kawaranai wa   ano toki no mama",
+                "021": "hajimete no oto no mama...",
+                "022": "",
+                "023": "sora no iro mo   kaze no nioi mo",
+                "024": "umi no fukasa mo   watashi no uta mo",
+                "025": "kawaranai wa   ano toki no mama",
+                "026": "hajimete no oto no mama...",
+                "027": "",
+                "028": "hajimete no oto ni   naremashita ka?",
+                "029": "anata no   hajimete no oto ni",
+                "030": "sekai no doko demo   watashi wa utau",
+                "031": "sorezore no   hajimete no oto o...",
+                "032": ""
+            }
+        },
+        "motion": {
+            "01": "PV065_HMO_00_C00_00A",
+            "02": "PV065_HMO_00_C01_00A",
+            "03": "PV065_HMO_00_C02_00A",
+            "04": "PV065_HMO_00_C03_00A",
+            "05": "PV065_HMO_00_C04_00A"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV065_HMO_00_C00_00A",
+                "stage": "STGD2PV065S01"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV065_HMO_00_C04_00A",
+                "stage": "STGD2PV065S01"
+            },
+            "length": "2"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "52",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "54",
+        "sabi": {
+            "play_time": "40.0",
+            "start_time": "83.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_065.ogg",
+        "song_name": "ハジメテノオト",
+        "song_name_en": "The First Sound",
+        "song_name_reading": "はじめてのおと",
+        "songinfo": {
+            "arranger": "malo",
+            "illustrator": "malo",
+            "lyrics": "malo",
+            "music": "malo",
+            "_en": {
+                "arranger": "malo",
+                "illustrator": "malo",
+                "lyrics": "malo",
+                "music": "malo"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv065s01.txt",
+                "stage": "STGD2PV065S01"
+            },
+            "1": {
+                "collision_file": "coli_stgd2pv065s01.txt",
+                "stage": "STGD2PV065S06"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "pv_622": {
+        "bpm": "126",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_622_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_622_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_622_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_622_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "622",
+            "title_end_2d_field": "10",
+            "title_start_2d_field": "10"
+        },
+        "effect_se_file_name": "rom/sound/pv622_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv622_effect",
+            "length": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "街の光り輝いてる 柔らかく",
+            "002": "白い息は流れるように消えてゆく",
+            "003": "共に歩む季節がまた訪れる",
+            "004": "変わる事がない喜び 永遠に",
+            "005": "Stay with me いつまでも傍にいて",
+            "006": "You & me 離れないでいて",
+            "007": "白く輝く天使たちが",
+            "008": "You & me やさしく包み込む",
+            "009": "二人だけのこの場所は",
+            "010": "胸に刻んだ愛の証",
+            "011": "どんな事も越えてゆける 貴方となら",
+            "012": "夜空見上げ 腕を組んで誓いあう",
+            "013": "Stay with me 未来(あす)に続くストーリー",
+            "014": "You & me 輝き続ける",
+            "015": "Stay with me 二人だけのストーリー",
+            "016": "You & me 永遠に輝く",
+            "017": "白く輝く天使たちが",
+            "018": "You & me 大きく包み込む",
+            "_en": {
+                "001": "machi no hikari kagayaiteru   yawarakaku",
+                "002": "shiroi iki wa nagareru you ni kieteyuku",
+                "003": "tomoni ayumu kisetsu ga mata otozureru",
+                "004": "kawaru koto ga nai yorokobi   eien ni",
+                "005": "STAY WITH ME   itsumademo soba ni ite",
+                "006": "YOU & ME   hanarenaide ite",
+                "007": "shiroku kagayaku tenshi tachi ga",
+                "008": "YOU & ME   yasashiku tsutsumikomu",
+                "009": "futari dake no kono basho wa",
+                "010": "mune ni kizanda ai no akashi",
+                "011": "donna koto mo koete yukeru   anata to nara",
+                "012": "yozora miage   ude o kunde chikaiau",
+                "013": "STAY WITH ME   asu ni tsuzuku STORY",
+                "014": "YOU & ME   kagayakitsuzukeru",
+                "015": "STAY WITH ME   futari dake no STORY",
+                "016": "YOU & ME   eien ni kagayaku",
+                "017": "shiroku kagayaku tenshi tachi ga",
+                "018": "YOU & ME   ookiku tsutsumikomu"
+            }
+        },
+        "motion": {
+            "01": "PV622_SWM_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "22",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV622.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "95",
+        "sabi": {
+            "play_time": "39.0",
+            "start_time": "57.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_622.ogg",
+        "song_name": "Stay with me",
+        "song_name_en": "Stay with me",
+        "song_name_reading": "すていうぃずみー",
+        "songinfo": {
+            "arranger": "shu-t",
+            "illustrator": "アサミ",
+            "lyrics": "shu-t",
+            "music": "shu-t",
+            "_en": {
+                "arranger": "shu-t",
+                "illustrator": "Asami",
+                "lyrics": "shu-t",
+                "music": "shu-t"
+            }
+        },
+        "sort_index": "11",
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv622s01.txt",
+                "stage": "STGPV622S01"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

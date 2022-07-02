@@ -1,0 +1,186 @@
+{
+    "pv_089": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_089_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_089_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_089_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_089_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "089",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "3"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "例えば明日、君が死ぬとしたら",
+            "002": "今日のうちに何がしたい？",
+            "003": "生きた証しを残そうか",
+            "004": "生きる術を見つけようか",
+            "006": "例え命が散っても思い出は消えない",
+            "007": "例え世界が散っても魂は消えない",
+            "008": "だけど忘れるのが人間だから",
+            "009": "その時に忘却心中しようか",
+            "010": "",
+            "011": "あの歴史はもう忘れた人の方が多い",
+            "012": "勝った者が正義になってた時代の話",
+            "013": "僕が死んだら何日で皆忘れるだろう",
+            "014": "辿り着く答えなんてきっと無いのだろう",
+            "016": "覚えてます。覚えてます。",
+            "017": "あなたの手の温もりを・・・",
+            "018": "",
+            "019": "感情の性感帯を切り裂いて",
+            "020": "その時に忘却心中しましょう",
+            "021": "",
+            "022": "あの事件ももう忘れた人の方が多い",
+            "023": "幼い頃学んだ常識は壊されて",
+            "024": "明日が死んでも何人の人が気付くだろう",
+            "025": "それは知らない方が幸せなのかも…",
+            "027": "ありがとう。ありがとう。",
+            "028": "わたしの血の温もりと…",
+            "030": "覚えてます。憶えてます。",
+            "031": "あなたの手の温もりを…",
+            "_en": {
+                "000": "",
+                "001": "tatoeba asu, kimi ga shinu to shitara",
+                "002": "kyou no uchi ni nani ga shitai?",
+                "003": "ikita akashi o nokosou ka",
+                "004": "ikiru sube o mitsukeyou ka",
+                "006": "tatoe inochi ga chittemo omoide wa kienai",
+                "007": "tatoe sekai ga chittemo tamashii wa kienai",
+                "008": "dakedo wasureru no ga ningen dakara",
+                "009": "sono toki ni boukyaku shinjuu shiyou ka",
+                "010": "",
+                "011": "ano rekishi wa mou wasureta hito no hou ga ooi",
+                "012": "katta mono ga seigi ni natteta jidai no hanashi",
+                "013": "boku ga shindara nannichi de minna wasureru darou",
+                "014": "tadoritsuku kotae nante kitto nai no darou",
+                "016": "oboetemasu. oboetemasu.",
+                "017": "anata no te no nukumori o...",
+                "018": "",
+                "019": "kanjou no seikantai o kirisaite",
+                "020": "sono toki ni boukyaku shinjuu shimashou",
+                "021": "",
+                "022": "ano jiken mo mou wasureta hito no hou ga ooi",
+                "023": "osanai koro mananda joushiki wa kowasarete",
+                "024": "asu ga shindemo nannin no hito ga kizuku darou",
+                "025": "sore wa shiranai hou ga shiawase na no kamo...",
+                "027": "arigatou. arigatou.",
+                "028": "watashi no chi no nukumori to...",
+                "030": "oboetemasu. oboetemasu.",
+                "031": "anata no te no nukumori o..."
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV089_BSJ_00_C00_00A",
+            "02": "PV089_BSJ_00_C01_00A",
+            "03": "PV089_BSJ_00_C02_00A",
+            "04": "PV089_BSJ_00_C03_00A",
+            "05": "PV089_BSJ_00_C04_00A",
+            "06": "PV089_BSJ_00_C05_00A",
+            "07": "PV089_BSJ_00_C06_00A",
+            "08": "PV089_BSJ_00_C07_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "14",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV089_STANDMIC_01__DIVSKN"
+        },
+        "rank_board_id": "64",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "65.7"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_089.ogg",
+        "song_name": "忘却心中",
+        "song_name_en": "Lover's Suicide Oblivion",
+        "song_name_reading": "ぼうきゃくしんじゅう",
+        "songinfo": {
+            "arranger": "OPA",
+            "illustrator": "壱加",
+            "lyrics": "Asaki No'9",
+            "manipulator": "OPA",
+            "music": "OPA",
+            "_en": {
+                "arranger": "OPA",
+                "illustrator": "Ichika",
+                "lyrics": "Asaki No'9",
+                "manipulator": "OPA",
+                "music": "OPA"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

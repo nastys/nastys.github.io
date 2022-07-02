@@ -1,0 +1,191 @@
+{
+    "pv_621": {
+        "another_song": {
+            "0": {
+                "name": "Nostalogic [MEIKO-SAN mix]",
+                "name_en": "Nostalogic (MEIKO-SAN mix)",
+                "vocal_disp_name": "MEIKO-SAN",
+                "vocal_disp_name_en": "MEIKO-SAN"
+            },
+            "1": {
+                "name": "Nostalogic [LOLI-MEIKO mix]",
+                "name_en": "Nostalogic (LOLI-MEIKO mix)",
+                "song_file_name": "rom/sound/song/pv_621_meiko.ogg",
+                "vocal_disp_name": "LOLI-MEIKO",
+                "vocal_disp_name_en": "LOLI-MEIKO"
+            },
+            "length": "2"
+        },
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_621_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_621_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_621_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "621",
+            "title_end_2d_field": "1",
+            "title_end_2d_low_field": "1",
+            "title_start_2d_field": "1",
+            "title_start_2d_low_field": "1"
+        },
+        "effect_se_file_name": "rom/sound/pv621_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv621_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "（M-E-I-K-O　M-E-I-K-O…）",
+            "002": "（Uh Yeah A-ha…）",
+            "003": "（Fuh Ooh…）",
+            "004": "不意に過ぎる　ハシャギ声",
+            "005": "\"0\"と\"1\"で残された　Passed days",
+            "006": "胸を衝く　痛みの理由は",
+            "007": "諦め？　それとも　Nostalogic…？",
+            "008": "瞬く　光に誘われ",
+            "009": "過去を　辿り・巡り・我に返り",
+            "010": "目の前に　広がる景色は",
+            "011": "君と観た　未来と同じ",
+            "012": "遠くに消えた　落描きの唄　きっと",
+            "013": "色褪せないで",
+            "014": "今も　僕に　聴こえてる",
+            "015": "今も　僕に　聴こえてる",
+            "016": "（M-E-I-K-O　M-E-I-K-O…）",
+            "017": "（Nostalogic...）",
+            "018": "（Nostalogic...）",
+            "019": "朝が来るまで　目を閉じて",
+            "020": "そして羊と後悔を　数えるの",
+            "021": "戻れないことぐらい　判ってるけど",
+            "022": "でも　だけど　理想は捨てずに",
+            "023": "遠くに消えた　落描きの唄　きっと",
+            "024": "色褪せないで",
+            "025": "今も　僕に　聴こえてる",
+            "026": "遠く目指した　約束の場所　ずっと",
+            "027": "息　弾ませて",
+            "028": "今も　僕は　目指してる",
+            "029": "今も　君は　目指してる…？",
+            "030": "（La La La La　Ha-aah…）",
+            "_en": {
+                "001": "(M-E-I-K-O   M-E-I-K-O...)",
+                "002": "(Oh Yeah A-ha...)",
+                "003": "(Hoo Ooh...)",
+                "004": "fui ni sugiru   hashagigoe",
+                "005": "\"rei\" to \"ichi\" de nokosareta   PASSED DAYS",
+                "006": "mune o tsuku   itami no wake wa",
+                "007": "akirame?   soretomo NOSTALOGIC...?",
+                "008": "matataku   hikari ni sasoware",
+                "009": "kako o   tadori/meguri/ware ni kaeri",
+                "010": "me no mae ni   hirogaru keshiki wa",
+                "011": "kimi to mita   mirai to onaji",
+                "012": "tooku ni kieta   rakugaki no uta   kitto",
+                "013": "iroasenaide",
+                "014": "ima mo   boku ni   kikoeteru",
+                "015": "ima mo   boku ni   kikoeteru",
+                "016": "(M-E-I-K-O   M-E-I-K-O...)",
+                "017": "(Nostalogic...)",
+                "018": "(Nostalogic...)",
+                "019": "asa ga kuru made   me o tojite",
+                "020": "soshite hitsuji to koukai o   kazoeru no",
+                "021": "modorenai koto gurai   wakatteru kedo",
+                "022": "demo   dakedo   risou wa sutezu ni",
+                "023": "tooku ni kieta   rakugaki no uta   kitto",
+                "024": "iroasenaide",
+                "025": "ima mo   boku ni   kikoeteru",
+                "026": "tooku mezashita   yakusoku no basho   zutto",
+                "027": "iki   hazumasete",
+                "028": "ima mo   boku wa   mezashiteru",
+                "029": "ima mo   kimi wa   mezashiteru...?",
+                "030": "(La La La La Ha-aah...)"
+            }
+        },
+        "motion": {
+            "01": "PV621_NTG_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "21",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV621.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "94",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "58.0"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_621.ogg",
+        "song_name": "Nostalogic",
+        "song_name_en": "Nostalogic",
+        "song_name_reading": "のすたろじっく",
+        "songinfo": {
+            "arranger": "yuukiss",
+            "illustrator": "あんこ",
+            "lyrics": "yuukiss / rose",
+            "music": "yuukiss",
+            "_en": {
+                "arranger": "yuukiss",
+                "illustrator": "Anko",
+                "lyrics": "yuukiss / rose",
+                "music": "yuukiss"
+            }
+        },
+        "sort_index": "22",
+        "sudden_timing": "0.6"
+    }
+}

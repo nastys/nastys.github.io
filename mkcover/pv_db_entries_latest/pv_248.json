@@ -1,0 +1,211 @@
+{
+    "pv_248": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150807",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_248_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_248_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_248_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_248_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "248"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "狭い教室のかたつむり　舌打ちが奏でるメロディ",
+            "002": "いじめっこ　いじめられっこ",
+            "003": "どちらもピーマンは苦いね　大発見",
+            "004": "かっこいいこも　かわいいこも　君のもの",
+            "005": "だから　嘘でも本音でイエスのアンケート",
+            "006": "痛い　痛い　痛いのは嫌だから",
+            "007": "逆らえないじゃない・・・",
+            "008": "「ありがとう」も「おはよう」も",
+            "009": "「ごめんなさい」も全部",
+            "010": "懐かしい言葉になる日が来るの",
+            "011": "14歳も　40歳も",
+            "012": "踊ろう　らったったった",
+            "013": "誰か　誰か",
+            "014": "みんなを助けて",
+            "015": "イライラ　ポイ捨て　グランプリ",
+            "016": "幼子の可愛いアイロニー",
+            "017": "恋人も　侵略者も",
+            "018": "どちらも肉の塊か　大実験",
+            "019": "サーロインもツバメの巣も君のもの",
+            "020": "だから　スパイの通信記録はシークレット",
+            "021": "怖い　怖い　怖いのはやだから",
+            "022": "眠っていたいじゃない・・・",
+            "023": "「うれしい」も「かなしい」も",
+            "024": "「わるふざけ」も全部",
+            "025": "四六時中　監視される日がくるの",
+            "026": "佐藤さんも　鈴木さんも",
+            "027": "歌おう　らんらんらんらん",
+            "028": "いつか　いつか",
+            "029": "名前も忘れて",
+            "030": "仲間になったらハッピーエンド？",
+            "031": "仲間はずれはどこへ行こう",
+            "032": "血まみれになったパスポート",
+            "033": "選択の瞬間は",
+            "034": "すぐ　すぐ　すぐそばに",
+            "035": "「さよなら」も「おやすみ」も",
+            "036": "「またあした」も全部",
+            "037": "繋がらずに途切れる日が来るの",
+            "038": "田中さんも　高橋さんも",
+            "039": "笑おう　わっはっはっは",
+            "040": "誰か　誰か　誰か　誰か　誰か",
+            "041": "「ありがとう」も「おはよう」も",
+            "042": "「ごめんなさい」も全部",
+            "043": "懐かしい言葉になる日が来るの",
+            "044": "陰謀論も　ガスコンロも",
+            "045": "踊ろう　らったったった",
+            "046": "誰か　誰か",
+            "047": "みんなを助けて",
+            "_en": {
+                "001": "semai kyoushitsu no katatsumuri   shitauchi ga kanaderu MELODY",
+                "002": "ijimekko   ijimerarekko",
+                "003": "dochira mo piiman wa nigai ne   daihakken",
+                "004": "kakkoii ko mo   kawaii ko mo   kimi no mono",
+                "005": "dakara   uso demo honne de YES no ENQUETE",
+                "006": "itai   itai   itai no wa iya dakara",
+                "007": "sakaraenai janai...",
+                "008": "\"arigatou\" mo \"ohayou\" mo",
+                "009": "\"gomennasai\" mo zenbu",
+                "010": "natsukashii kotoba ni naru hi ga kuru no",
+                "011": "juuyonsai mo   yonjussai mo",
+                "012": "odorou   ra tta tta tta",
+                "013": "dareka   dareka",
+                "014": "minna o tasukete",
+                "015": "iraira   poisute   GRAND PRIX",
+                "016": "osanago no kawaii IRONY",
+                "017": "koibito mo   shinryakusha mo",
+                "018": "dochira mo niku no katamari ka   daijikken",
+                "019": "SIRLOIN mo tsubame no su mo kimi no mono",
+                "020": "dakara   SPY no tsuushinkiroku wa SECRET",
+                "021": "kowai   kowai   kowai no wa ya dakara",
+                "022": "nemutteitai janai...",
+                "023": "\"ureshii\" mo \"kanashii\" mo",
+                "024": "\"warufuzake\" mo zenbu",
+                "025": "shirokujichuu   kanshi sareru hi ga kuru no",
+                "026": "SATOU-san mo   SUZUKI-san mo",
+                "027": "utaou   ran ran ran ran",
+                "028": "itsuka   itsuka",
+                "029": "namae mo wasurete",
+                "030": "nakama ni nattara HAPPY END?",
+                "031": "nakamahazure wa doko e ikou",
+                "032": "chimamire ni natta PASSPORT",
+                "033": "sentaku no shunkan wa",
+                "034": "sugu   sugu   sugu soba ni",
+                "035": "\"sayonara\" mo \"oyasumi\" mo",
+                "036": "\"mata ashita\" mo zenbu",
+                "037": "tsunagarazu ni togireru hi ga kuru no",
+                "038": "Tanaka-san mo   Takahashi-san mo",
+                "039": "waraou   wa ha ha ha",
+                "040": "dareka   dareka   dareka   dareka   dareka",
+                "041": "\"arigatou\" mo \"ohayou\" mo",
+                "042": "\"gomennasai\" mo zenbu",
+                "043": "natsukashii kotoba ni naru hi ga kuru no",
+                "044": "inbouron mo   GAS konro mo",
+                "045": "odorou   ra tta tta tta",
+                "046": "dareka   dareka",
+                "047": "minna o tasukete"
+            }
+        },
+        "motion": {
+            "01": "PV248_AFS_P1_00",
+            "2P": {
+                "01": "PV248_AFS_P2_00"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "148",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "fixed": "1",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV248.bin"
+        },
+        "rank_board_id": "132",
+        "sabi": {
+            "play_time": "22.0",
+            "start_time": "47.6"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_248.ogg",
+        "song_name": "ありふれたせかいせいふく",
+        "song_name_en": "Arifureta Sekai Seifuku",
+        "song_name_reading": "ありふれたせかいせいふく",
+        "songinfo": {
+            "arranger": "ピノキオピー",
+            "illustrator": "shirakaba & 虎硬",
+            "lyrics": "ピノキオピー",
+            "music": "ピノキオピー",
+            "_en": {
+                "arranger": "PinocchioP",
+                "illustrator": "shirakaba & Torako",
+                "lyrics": "PinocchioP",
+                "music": "PinocchioP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

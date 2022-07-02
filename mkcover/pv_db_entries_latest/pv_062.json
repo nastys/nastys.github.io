@@ -1,0 +1,194 @@
+{
+    "pv_062": {
+        "bpm": "138",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_062_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_062_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_062_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_062_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_062_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "062",
+            "title_end_2d_field": "2",
+            "title_start_2d_field": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "傷口に触れたその時",
+            "002": "君は微かに震えていた",
+            "003": "行く先がわからずに",
+            "004": "遠い空を見ていた",
+            "005": "胸に宿るこの痛みの",
+            "006": "答えが欲しいわけじゃなくて",
+            "007": "ただ君が居る限り",
+            "008": "約束を果たすだけ",
+            "009": "涙の跡が消えるまで",
+            "010": "儚い輝きが",
+            "011": "絶えることないように",
+            "012": "強く抱きしめてるよ",
+            "013": "揺ぎない想いは　そう",
+            "014": "君と二人で紡ぐ明日へ",
+            "015": "その光さえぎるもの",
+            "016": "振り払うから",
+            "017": "壊れ行く世界が　今",
+            "018": "鼓動の意味を示し始めた",
+            "019": "心の中　固く誓う",
+            "020": "君を守るよ　ずっと・・・",
+            "021": "",
+            "022": "揺ぎない想いは　そう",
+            "023": "君と二人で紡ぐ明日へ",
+            "024": "その光さえぎるもの",
+            "025": "振り払うから",
+            "026": "壊れ行く世界が　今",
+            "027": "鼓動の意味を示し始めた",
+            "028": "心の中　固く誓う",
+            "029": "君を守るよ　ずっと・・・",
+            "030": "",
+            "_en": {
+                "001": "kizuguchi ni fureta sono toki",
+                "002": "kimi wa kasuka ni furueteita",
+                "003": "iku saki ga wakarazu ni",
+                "004": "tooi sora o miteita",
+                "005": "mune ni yadoru kono itami no",
+                "006": "kotae ga hoshii wake janakute",
+                "007": "tada kimi ga iru kagiri",
+                "008": "yakusoku o hatasu dake",
+                "009": "namida no ato ga kieru made",
+                "010": "hakanai kagayaki ga",
+                "011": "taeru koto nai you ni",
+                "012": "tsuyoku dakishimeteru yo",
+                "013": "yuruginai omoi wa   sou",
+                "014": "kimi to futari de tsumugu ashita e",
+                "015": "sono hikari saegiru mono",
+                "016": "furiharau kara",
+                "017": "kowareyuku sekai ga   ima",
+                "018": "kodou no imi o shimeshihajimeta",
+                "019": "kokoro no naka   kataku chikau",
+                "020": "kimi o mamoru yo   zutto...",
+                "021": "",
+                "022": "yuruginai omoi wa   sou",
+                "023": "kimi to futari de tsumugu ashita e",
+                "024": "sono hikari saegiru mono",
+                "025": "furiharau kara",
+                "026": "kowareyuku sekai ga   ima",
+                "027": "kodou no imi o shimeshihajimeta",
+                "028": "kokoro no naka   kataku chikau",
+                "029": "kimi o mamoru yo   zutto...",
+                "030": ""
+            }
+        },
+        "motion": {
+            "01": "PV062_PMS_00_C00_00A_P1_M",
+            "2P": {
+                "01": "PV062_PMS_00_C00_00A_P2_M"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "4",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "60",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "51",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "66.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_062.ogg",
+        "song_name": "Promise",
+        "song_name_en": "Promise",
+        "song_name_reading": "ぷろみす",
+        "songinfo": {
+            "arranger": "samfree",
+            "illustrator": "JUM",
+            "lyrics": "samfree",
+            "music": "samfree",
+            "_en": {
+                "arranger": "samfree",
+                "illustrator": "JUM",
+                "lyrics": "samfree",
+                "music": "samfree"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

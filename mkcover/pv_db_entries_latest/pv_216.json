@@ -1,0 +1,201 @@
+{
+    "pv_216": {
+        "bpm": "154",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_216_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_216_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_216_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_216_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "大胆不敵にハイカラ革命",
+            "002": "磊々落々反戦国家",
+            "003": "日の丸印の二輪車転がし",
+            "004": "悪霊退散　ＩＣＢＭ",
+            "005": "環状線を走り抜けて",
+            "006": "東奔西走なんのその",
+            "007": "少年少女戦国無双",
+            "008": "浮世の随に",
+            "009": "千本桜　夜ニ紛レ",
+            "010": "君ノ声モ届カナイヨ",
+            "011": "此処は宴　鋼の檻",
+            "012": "その断頭台で見下ろして",
+            "013": "三千世界　常世之闇",
+            "014": "嘆ク唄モ聞コエナイヨ",
+            "015": "青藍の空　遥か彼方",
+            "016": "その光線銃で打ち抜いて",
+            "017": "",
+            "018": "百戦錬磨の見た目は将校",
+            "019": "いったりきたりの花魁道中",
+            "020": "アイツもコイツも皆で集まれ",
+            "021": "聖者の行進　わんっ　つー　さん　しっ",
+            "022": "禅定門を潜り抜けて",
+            "023": "安楽浄土厄払い",
+            "024": "きっと終幕は大団円",
+            "025": "拍手の合間に",
+            "026": "千本桜　夜ニ紛レ",
+            "027": "君ノ声モ届カナイヨ",
+            "028": "此処は宴　鋼の檻",
+            "029": "その断頭台で見下ろして",
+            "030": "三千世界　常世之闇",
+            "031": "嘆ク唄モ聞コエナイヨ",
+            "032": "希望の丘　遥か彼方",
+            "033": "その閃光弾を打ち上げろ",
+            "034": "",
+            "035": "環状線を走り抜けて",
+            "036": "東奔西走なんのその",
+            "037": "少年少女戦国無双",
+            "038": "浮世の随に",
+            "039": "",
+            "040": "千本桜　夜ニ紛レ",
+            "041": "君ノ声モ届カナイヨ",
+            "042": "此処は宴　鋼の檻",
+            "043": "その断頭台を飛び降りて",
+            "044": "千本桜　夜ニ紛レ",
+            "045": "君が歌い僕は踊る",
+            "046": "此処は宴　鋼の檻",
+            "047": "さあ光線銃を撃ちまくれ",
+            "_en": {
+                "001": "daitan futeki ni haikara kakumei",
+                "002": "rairai rakuraku hansen kokka",
+                "003": "hinomaru jirushi no nirinsha korogashi",
+                "004": "akuryou taisan   ICBM",
+                "005": "kanjousen o hashirinukete",
+                "006": "touhonseisou nanno sono",
+                "007": "shounen shoujo sengoku musou",
+                "008": "ukiyo no manima ni",
+                "009": "senbonzakura   yoru ni magire",
+                "010": "kimi no koe mo todokanai yo",
+                "011": "koko wa utage   hagane no ori",
+                "012": "sono dantou dai de mioroshite",
+                "013": "sanzensekai   tokoyo no yami",
+                "014": "nageku uta mo kikoenai yo",
+                "015": "seiran no sora   haruka kanata",
+                "016": "sono kousenjuu de uchinuite",
+                "017": "",
+                "018": "hyakusenrenma no mitame wa shoukou",
+                "019": "ittari kitari no oiran douchuu",
+                "020": "aitsu mo koitsu mo mina de atsumare",
+                "021": "seija no koushin   ONE TWO san shi",
+                "022": "zenjoumon o kugurinukete",
+                "023": "anrakujoudo yakubarai",
+                "024": "kitto saigo wa daidanen",
+                "025": "hakushu no aima ni",
+                "026": "senbonzakura   yoru ni magire",
+                "027": "kimi no koe mo todokanai yo",
+                "028": "koko wa utage   hagane no ori",
+                "029": "sono dantoudai de mioroshite",
+                "030": "sanzensekai   tokoyo no yami",
+                "031": "wameku uta mo kikoenai yo",
+                "032": "kibou no oka   haruka kanata",
+                "033": "sono senkoudan o uchiagero",
+                "034": "",
+                "035": "kanjousen o hashirinukete",
+                "036": "touhonseisou nanno sono",
+                "037": "shounen shoujo sengoku musou",
+                "038": "ukiyo no manima ni",
+                "039": "",
+                "040": "senbonzakura   yoru ni magire",
+                "041": "kimi no koe mo todokanai yo",
+                "042": "koko wa utage   hagane no ori",
+                "043": "sono dantoudai o tobiorite",
+                "044": "senbonzakura   yoru ni magire",
+                "045": "kimi ga utai   boku wa odoru",
+                "046": "koko wa utage   hagane no ori",
+                "047": "saa kousenjuu o uchimakure"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_216.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "194",
+        "sabi": {
+            "play_time": "31.5",
+            "start_time": "40.5"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_216.ogg",
+        "song_name": "千本桜",
+        "song_name_en": "Senbonzakura",
+        "song_name_reading": "せんぼんざくら",
+        "songinfo": {
+            "arranger": "黒うさＰ (WhiteFlame)",
+            "guitar_player": "hajime",
+            "illustrator": "一斗まる",
+            "lyrics": "黒うさＰ (WhiteFlame)",
+            "music": "黒うさＰ (WhiteFlame)",
+            "pv_editor": "三重の人",
+            "_en": {
+                "arranger": "Kurousa P(White Flame)",
+                "guitar_player": "hajime",
+                "illustrator": "Ittomaru",
+                "lyrics": "Kurousa P(White Flame)",
+                "music": "Kurousa P(White Flame)",
+                "pv_editor": "Mienohito"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,316 @@
+{
+    "pv_439": {
+        "bpm": "192",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141204",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_439_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_439_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_439_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_439_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "439"
+        },
+        "edit": "2",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "10": "039",
+            "11": "055",
+            "12": "000",
+            "13": "058",
+            "14": "018",
+            "00": "021",
+            "01": "068",
+            "02": "066",
+            "03": "010",
+            "04": "054",
+            "05": "070",
+            "06": "059",
+            "07": "028",
+            "08": "013",
+            "09": "041",
+            "_low_field": {
+                "00": "11"
+            }
+        },
+        "field": {
+            "01": {
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "02": {
+                "stage": "STGNS029"
+            },
+            "03": {
+                "stage": "STGNS221"
+            },
+            "04": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPPINK"
+            },
+            "05": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "06": {
+                "aet_front": "eff_heart_big",
+                "aet_id_front": "AET_GAM_PV439_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "07": {
+                "aet_front": "eff_heart_small",
+                "aet_id_front": "AET_GAM_PV439_MAIN",
+                "stage": "STGNS029"
+            },
+            "length": "7"
+        },
+        "hand_item": {
+            "01": "PV_MIC_D_L",
+            "02": "SCHOOLBAG_B_BONE_L",
+            "03": "SCHOOLBAG_A_R",
+            "04": "SMARTPHONE_L",
+            "05": "PV_MIC_D_R",
+            "06": "SCHOOLBAG_B_BONE_R",
+            "07": "SCHOOLBAG_B_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "キミに・・・　今伝えたい",
+            "002": "キミに・・・　この想い",
+            "003": "それは突然　春の日差しが眩しい朝の駅で",
+            "004": "向かい側　電車を待っている　見たことない制服",
+            "005": "一目見たその瞬間に僕は",
+            "006": "感情を抱き　目をそらしたんだ",
+            "007": "気づかないフリをしていた",
+            "008": "そんなこと叶うはずが無いんだ　自分を押し殺していた",
+            "009": "キミに・・・　どうして",
+            "010": "キミに・・・　出会ったんだ",
+            "011": "キミに・・・　どうすればいい",
+            "012": "キミに・・・　この想い",
+            "013": "誰だってあるよね　そんな事",
+            "014": "ただの勘違いだって",
+            "015": "でもあの日から　無意識だけど",
+            "016": "同じ時間に　家、飛び出してる",
+            "017": "「これは恋？」「わからない。」　はぐらかしてる",
+            "018": "ああ毎日　ホントはそう　逢いたくてたまらないんだ",
+            "019": "キミは・・・　僕の姿に",
+            "020": "キミは・・・　気づいてるの？",
+            "021": "キミに・・・　今伝えたい",
+            "022": "キミに・・・　この想い",
+            "023": "キミと・・・　このまま",
+            "024": "キミと・・・　僕との距離は",
+            "025": "キミと・・・　桜散っても",
+            "026": "キミと・・・　変わらずに",
+            "027": "キミに・・・　このまま",
+            "028": "キミに・・・　何も言えずに",
+            "029": "キミは・・　だから　まだ向かい側",
+            "030": "キミに届け・・   この想い",
+            "_en": {
+                "001": "kimi ni...   ima tsutaetai",
+                "002": "kimi ni...   kono omoi",
+                "003": "sore wa totsuzen   haru no hizashi ga mabushii asa no eki de",
+                "004": "mukaigawa   densha o matteiru   mita koto nai seifuku",
+                "005": "hitome mita sono shunkan ni boku wa",
+                "006": "kanjou o idaki   me o sorashitan da",
+                "007": "kizukanai furi o shiteita",
+                "008": "sonna koto kanau hazu ga nain da   jibun o oshikoroshiteita",
+                "009": "kimi ni...   doushite",
+                "010": "kimi ni...   deattan da",
+                "011": "kimi ni...   dou sureba ii",
+                "012": "kimi ni...   kono omoi",
+                "013": "dare datte aru yo ne   sonna koto",
+                "014": "tada no kanchigai da tte",
+                "015": "demo ano hi kara   muishiki dakedo",
+                "016": "onaji jikan ni   ie, tobidashiteru",
+                "017": "\"kore wa koi?\" \"wakaranai.\"   hagurakashiteru",
+                "018": "aah mainichi   honto wa sou   aitakute tamaranain da",
+                "019": "kimi wa...   boku no sugata ni",
+                "020": "kimi wa...   kizuiteru no?",
+                "021": "kimi ni...   ima tsutaetai",
+                "022": "kimi ni...   kono omoi",
+                "023": "kimi to...   kono mama",
+                "024": "kimi to...   boku to no kyori wa",
+                "025": "kimi to...   sakura chittemo",
+                "026": "kimi to...   kawarazu ni",
+                "027": "kimi ni...   kono mama",
+                "028": "kimi ni...   nani mo iezu ni",
+                "029": "kimi wa...   dakara   mada mukaigawa",
+                "030": "kimi ni todoke...   kono omoi"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_PSP02_024A",
+            "11": "CMN_EDT_PSP01_70_16",
+            "12": "CMN_EDT_PSP01_70_24",
+            "13": "CMN_EDT_PSP01_50_21",
+            "14": "CMN_EDT_PSP01_70_13",
+            "15": "CMN_EDT_PS3_011A",
+            "16": "CMN_EDT_PSP01_50_42",
+            "17": "CMN_EDT_VITA01_009A",
+            "18": "CMN_EDT_PSP01_50_54",
+            "19": "CMN_EDT_EX_PSP03_013A",
+            "20": "CMN_EDT_EX_PSP03_058A",
+            "21": "CMN_EDT_PSP01_70_17",
+            "22": "CMN_EDT_PSP03_012A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_VITA01_IDLE",
+            "02": "CMN_EDT_EX_PSP03_034A",
+            "03": "CMN_EDT_PSP02_016A",
+            "04": "CMN_EDT_PSP01_50_53",
+            "05": "CMN_EDT_EX_PSP03_022A",
+            "06": "CMN_EDT_PSP02_038A",
+            "07": "CMN_EDT_EX_PSP03_035A",
+            "08": "CMN_EDT_EX_PSP03_036A",
+            "09": "CMN_EDT_EX_PSP03_015A",
+            "2P": {
+                "10": "CMN_EDT_PSP02_024A",
+                "11": "CMN_EDT_PSP01_70_16",
+                "12": "CMN_EDT_PSP01_70_24",
+                "13": "CMN_EDT_PSP01_50_21",
+                "14": "CMN_EDT_PSP01_70_13",
+                "15": "CMN_EDT_PS3_011A",
+                "16": "CMN_EDT_PSP01_50_42",
+                "17": "CMN_EDT_VITA01_009A",
+                "18": "CMN_EDT_PSP01_50_54",
+                "19": "CMN_EDT_EX_PSP03_013A",
+                "20": "CMN_EDT_EX_PSP03_058A",
+                "21": "CMN_EDT_PSP01_70_17",
+                "22": "CMN_EDT_PSP03_012A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_VITA01_IDLE",
+                "02": "CMN_EDT_EX_PSP03_034A",
+                "03": "CMN_EDT_PSP02_016A",
+                "04": "CMN_EDT_PSP01_50_53",
+                "05": "CMN_EDT_EX_PSP03_022A",
+                "06": "CMN_EDT_PSP02_038A",
+                "07": "CMN_EDT_EX_PSP03_035A",
+                "08": "CMN_EDT_EX_PSP03_036A",
+                "09": "CMN_EDT_EX_PSP03_015A"
+            },
+            "3P": {
+                "10": "CMN_EDT_PSP02_024A",
+                "11": "CMN_EDT_PSP01_70_16",
+                "12": "CMN_EDT_PSP01_70_24",
+                "13": "CMN_EDT_PSP01_50_21",
+                "14": "CMN_EDT_PSP01_70_13",
+                "15": "CMN_EDT_PS3_011A",
+                "16": "CMN_EDT_PSP01_50_42",
+                "17": "CMN_EDT_VITA01_009A",
+                "18": "CMN_EDT_PSP01_50_54",
+                "19": "CMN_EDT_EX_PSP03_013A",
+                "20": "CMN_EDT_EX_PSP03_058A",
+                "21": "CMN_EDT_PSP01_70_17",
+                "22": "CMN_EDT_PSP03_012A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_VITA01_IDLE",
+                "02": "CMN_EDT_EX_PSP03_034A",
+                "03": "CMN_EDT_PSP02_016A",
+                "04": "CMN_EDT_PSP01_50_53",
+                "05": "CMN_EDT_EX_PSP03_022A",
+                "06": "CMN_EDT_PSP02_038A",
+                "07": "CMN_EDT_EX_PSP03_035A",
+                "08": "CMN_EDT_EX_PSP03_036A",
+                "09": "CMN_EDT_EX_PSP03_015A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "102",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "2": {
+                "chara": "LEN",
+                "pv_costume": "15",
+                "type": "GUEST"
+            },
+            "num": "3"
+        },
+        "rank_board_id": "233",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "55.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_439.ogg",
+        "song_name": "キミに",
+        "song_name_en": "Kimi Ni",
+        "song_name_reading": "きみに",
+        "songinfo": {
+            "arranger": "teaeye",
+            "illustrator": "古論",
+            "lyrics": "teaeye",
+            "music": "teaeye",
+            "pv_editor": "烏丸",
+            "_en": {
+                "arranger": "teaeye",
+                "illustrator": "Koron",
+                "lyrics": "teaeye",
+                "music": "teaeye",
+                "pv_editor": "Karasuma"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff__f",
+            "time": "10.5"
+        }
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "pv_626": {
+        "bpm": "132",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_626_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_626_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_626_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_626_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "626",
+            "title_end_2d_field": "2",
+            "title_start_2d_field": "2"
+        },
+        "effect_se_file_name": "rom/sound/pv626_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv626_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "きらびやかなストロボが",
+            "002": "ときめくLEDが",
+            "003": "私の手を取り走る",
+            "004": "つまずいて目が醒めた Ah",
+            "005": "まだ頭の中にある",
+            "006": "刺激的なラインと",
+            "007": "手元に流れる時間",
+            "008": "見比べたら溜め息",
+            "009": "巡り巡るの",
+            "010": "退屈な日々を超える",
+            "011": "今日も夢を見るわ",
+            "012": "七色　輝く音",
+            "013": "空間を埋め尽くす",
+            "014": "幸せ離したくないの",
+            "015": "ほら　両手を高く上げて",
+            "016": "プリズムの向こう側",
+            "017": "待ちきれない",
+            "018": "Weekender Girl",
+            "019": "どんなに睨んでみても",
+            "020": "カレンダーはまだ真ん中",
+            "021": "ヘッドフォンから漏れ出した",
+            "022": "ビートはちょっと走り気味",
+            "023": "繰り返してく",
+            "024": "日々を抜け出して",
+            "025": "恋に落ちてゆく",
+            "026": "この体",
+            "027": "空中へ",
+            "028": "ふわり浮かんでく",
+            "029": "今日も夢を見るわ",
+            "030": "七色　響くツイーター",
+            "031": "空間を満たしてく",
+            "032": "幸せ離したくないの",
+            "033": "ほら　両手を高く上げて",
+            "034": "プリズムの向こう側",
+            "035": "待ちきれない",
+            "036": "Weekender Girl",
+            "_en": {
+                "001": "kirabiyaka na STROBE ga",
+                "002": "tokimeku LED ga",
+                "003": "watashi no te o tori hashiru",
+                "004": "tsumazuite me ga sameta   Ah",
+                "005": "mada atama no naka ni aru",
+                "006": "shigekiteki na LINE to",
+                "007": "temoto ni nagareru jikan",
+                "008": "mikurabetara tameiki",
+                "009": "megurimeguru no",
+                "010": "taikutsu na hibi o koeru",
+                "011": "kyou mo yume o miru wa",
+                "012": "nanairo   kagayaku oto",
+                "013": "kuukan o umetsukusu",
+                "014": "shiawase hanashitakunai no",
+                "015": "hora   ryoute o takaku agete",
+                "016": "PRISM no mukou gawa",
+                "017": "machikirenai",
+                "018": "Weekender Girl",
+                "019": "donna ni nirandemitemo",
+                "020": "CALENDAR wa mada mannaka",
+                "021": "HEADPHONE kara moredashita",
+                "022": "BEAT wa chotto hashirigimi",
+                "023": "kurikaeshiteku",
+                "024": "hibi o nukedashite",
+                "025": "koi ni ochiteyuku",
+                "026": "kono karada",
+                "027": "kuuchuu e",
+                "028": "fuwari ukandeku",
+                "029": "kyou mo yume o miru wa",
+                "030": "nanairo   hibiku TWEETER",
+                "031": "kuukan o mitashiteku",
+                "032": "shiawase hanashitakunai no",
+                "033": "hora   ryoute o takaku agete",
+                "034": "PRISM no mukou gawa",
+                "035": "machikirenai",
+                "036": "Weekender Girl"
+            }
+        },
+        "motion": {
+            "01": "PV626_WEG_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "97",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV626.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "99",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "71.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_626.ogg",
+        "song_name": "Weekender Girl",
+        "song_name_en": "Weekender Girl",
+        "song_name_reading": "うぃーくえんだーがーる",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "TNSK",
+            "lyrics": "kz",
+            "music": "八王子P",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "TNSK",
+                "lyrics": "kz",
+                "music": "Hachioji P"
+            }
+        },
+        "sort_index": "3",
+        "sudden_timing": "0.6"
+    }
+}

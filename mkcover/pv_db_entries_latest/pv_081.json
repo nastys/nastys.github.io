@@ -1,0 +1,293 @@
+{
+    "pv_081": {
+        "bpm": "98",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_081_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_081_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_081_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_081_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_081_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "081"
+        },
+        "hand_item": {
+            "01": "PV_MIC_UKN_L",
+            "02": "PV_SCORE_CL_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "薄紅の時を彩る花びら",
+            "002": "ひらひら舞う光の中",
+            "003": "僕は笑えたはず",
+            "005": "鮮やかな日々に",
+            "006": "僕らが残した",
+            "007": "砂の城は波に溶けて",
+            "008": "きっと夢が終わる",
+            "010": "真っ白な世界で目を覚ませば",
+            "011": "伸ばす腕は何もつかめない",
+            "012": "見上げた空が近くなるほどに",
+            "013": "僕は何を失った？",
+            "015": "透通る波",
+            "016": "何度消えてしまっても",
+            "017": "砂の城を僕は君と残すだろう",
+            "018": "そこに光を集め",
+            "020": "僕は歌うよ",
+            "021": "笑顔をくれた君が泣いてるとき",
+            "022": "頼りのない僕だけれど",
+            "023": "君のことを守りたい",
+            "025": "遠く離れた君のもとへ",
+            "026": "この光が",
+            "027": "空を越えて羽ばたいてゆく",
+            "028": "そんな歌を届けたい",
+            "030": "僕が送るものは全て",
+            "031": "形のないものだけど",
+            "032": "君の心の片隅で",
+            "033": "輝く星になりたい",
+            "_en": {
+                "001": "usubeni no toki o irodoru hanabira",
+                "002": "hirahira mau hikari no naka",
+                "003": "boku wa waraeta hazu",
+                "005": "azayaka na hibi ni",
+                "006": "bokura ga nokoshita",
+                "007": "suna no shiro wa nami ni tokete",
+                "008": "kitto yume ga owaru",
+                "010": "masshiro na sekai de me o samaseba",
+                "011": "nobasu ude wa nanimo tsukamenai",
+                "012": "miageta sora ga chikaku naru hodo ni",
+                "013": "boku wa nani o ushinatta?",
+                "015": "sukitooru nami",
+                "016": "nando kiete shimattemo",
+                "017": "suna no shiro o boku wa kimi to nokosu darou",
+                "018": "soko ni hikari o atsume",
+                "020": "boku wa utau yo",
+                "021": "egao o kureta kimi ga naiteiru toki",
+                "022": "tayori no nai boku dakeredo",
+                "023": "kimi no koto o mamoritai",
+                "025": "tooku hanareta kimi no moto e",
+                "026": "kono hikari ga",
+                "027": "sora o koete habataite yuku",
+                "028": "sonna uta o todoketai",
+                "030": "boku ga okuru mono wa subete",
+                "031": "katachi no nai mono dakedo",
+                "032": "kimi no kokoro no katasumi de",
+                "033": "kagayaku hoshi ni naritai"
+            }
+        },
+        "motion": {
+            "10": "PV081_UKN_00_C09_00A",
+            "11": "PV081_UKN_00_C10_00A",
+            "12": "PV081_UKN_00_C11_00A",
+            "13": "PV081_UKN_00_C12_00A",
+            "14": "PV081_UKN_00_C13_00A",
+            "15": "PV081_UKN_00_C14_00A",
+            "16": "PV081_UKN_00_C15_00A",
+            "17": "PV081_UKN_00_C16_00A",
+            "18": "PV081_UKN_00_C17_00A",
+            "19": "PV081_UKN_00_C18_00A",
+            "20": "PV081_UKN_00_C19_00A",
+            "21": "PV081_UKN_00_C20_00A",
+            "22": "PV081_UKN_00_C21_00A",
+            "23": "PV081_UKN_00_C22_00A",
+            "24": "PV081_UKN_00_C23_00A",
+            "25": "PV081_UKN_00_C24_00A",
+            "26": "PV081_UKN_00_C25_00A",
+            "27": "PV081_UKN_00_C26_00A",
+            "28": "PV081_UKN_00_C27_00A",
+            "29": "PV081_UKN_00_C28_00A",
+            "30": "PV081_UKN_00_C29_00A",
+            "31": "PV081_UKN_00_C30_00A",
+            "32": "PV081_UKN_00_C31_00A",
+            "34": "PV081_UKN_00_C33_00A",
+            "00": "CMN_MRA00_13_01",
+            "01": "PV081_UKN_00_C00_00A",
+            "02": "PV081_UKN_00_C01_00A",
+            "03": "PV081_UKN_00_C02_00A",
+            "04": "PV081_UKN_00_C03_00A",
+            "05": "PV081_UKN_00_C04_00A",
+            "06": "PV081_UKN_00_C05_00A",
+            "07": "PV081_UKN_00_C06_00A",
+            "08": "PV081_UKN_00_C07_00A",
+            "09": "PV081_UKN_00_C08_00A",
+            "2P": {
+                "33": "PV081_UKN_00_C32_00A"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C06_00A",
+                "stage": "STGPV081S06"
+            },
+            "1": {
+                "0": {
+                    "frame": "0",
+                    "motion": "PV081_UKN_00_C27_00A",
+                    "stage": "STGPV081S06"
+                },
+                "frame": "0",
+                "motion": "PV081_UKN_00_C07_00A",
+                "stage": "STGPV081S06"
+            },
+            "2": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C08_00A",
+                "stage": "STGPV081S06"
+            },
+            "3": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C20_00A",
+                "stage": "STGPV081S06"
+            },
+            "4": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C21_00A",
+                "stage": "STGPV081S06"
+            },
+            "5": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C22_00A",
+                "stage": "STGPV081S06"
+            },
+            "6": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C23_00A",
+                "stage": "STGPV081S06"
+            },
+            "7": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C24_00A",
+                "stage": "STGPV081S06"
+            },
+            "8": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C25_00A",
+                "stage": "STGPV081S06"
+            },
+            "9": {
+                "frame": "0",
+                "motion": "PV081_UKN_00_C26_00A",
+                "stage": "STGPV081S06"
+            },
+            "length": "11"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "78",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "78",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "57",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "93.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_081.ogg",
+        "song_name": "歌に形はないけれど",
+        "song_name_en": "Though My Song Has No Form",
+        "song_name_reading": "うたにかたちはないけれど",
+        "songinfo": {
+            "arranger": "doriko",
+            "illustrator": "nezuki",
+            "lyrics": "doriko",
+            "music": "doriko",
+            "_en": {
+                "arranger": "doriko",
+                "illustrator": "nezuki",
+                "lyrics": "doriko",
+                "music": "doriko"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv081s06.txt",
+                "stage": "STGPV081S06"
+            },
+            "1": {
+                "collision_file": "coli_stgpv081s06.txt",
+                "stage": "STGPV081S09"
+            },
+            "2": {
+                "collision_file": "coli_stgpv081s01.txt",
+                "stage": "STGPV081S01"
+            },
+            "length": "3"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "pv_281": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202007001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_281_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_281_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_281_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_281_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "照らし出して！　グリーンライツ",
+            "002": "広がる未来を",
+            "003": "きっと　いつか",
+            "004": "キミを照らすまで",
+            "005": "改めて言うことでもないけど",
+            "006": "今だからこそ　言わせて",
+            "007": "あの日キミが見つけてくれること",
+            "008": "何となく予感してたんだ",
+            "009": "走り出した　キミにもっと",
+            "010": "チカラをあげたくて",
+            "011": "ずっと　前に",
+            "012": "ココロ決めたんだ",
+            "013": "照らし出して！　グリーンライツ",
+            "014": "遥かな未来を",
+            "015": "きっと　いつか",
+            "016": "キミを照らすまで",
+            "017": "今までもいつまでも　隣に居たいのは",
+            "018": "輝いたキミの顔　間近で見たいから！",
+            "019": "言葉は時に無力で　なかなか",
+            "020": "この世界は変わらないけど",
+            "021": "もしキミが持ってるその魔法で",
+            "022": "新しい世界を作れるとしたら？",
+            "023": "なんてね　言ってみただけ",
+            "024": "そんなの　本当は出来る訳無い",
+            "025": "ワケがないでしょ！",
+            "026": "「好き」をもっと　信じるのさ",
+            "027": "何度転んでも　キミはキミの",
+            "028": "やり方でいいのだ！",
+            "029": "照らし出して！　グリーンライツ",
+            "030": "立ち向かう未来を",
+            "031": "きっと　いつか",
+            "032": "キミを照らすまで",
+            "033": "堪え切れない夜には　隣で泣いていいよ",
+            "034": "二人だけの秘密も　嬉しいんだよ",
+            "035": "走り出した　キミにもっと",
+            "036": "チカラをあげたくて",
+            "037": "ずっと　前に",
+            "038": "ココロ決めたんだ",
+            "039": "照らし出して！　グリーンライツ",
+            "040": "遥かな未来を",
+            "041": "きっといつか",
+            "042": "キミを照らすまで",
+            "043": "振り返ると遠く手を振ってくれるキミも",
+            "044": "この先のどこかで出会えるキミも",
+            "045": "誰にも真似できないあなたを抱きしめて",
+            "046": "虹色に輝く　マジカルミライへと！",
+            "_en": {
+                "001": "terashidashite!   GREENLIGHTS",
+                "002": "hirogaru mirai o",
+                "003": "kitto   itsuka",
+                "004": "kimi o terasu made",
+                "005": "aratamete iu koto demo nai kedo",
+                "006": "ima dakara koso   iwasete",
+                "007": "anohi kimi ga mitsukete kureru koto",
+                "008": "nantonaku yokan shitetan da",
+                "009": "hashiri dashita   kimi ni motto",
+                "010": "chikara o agetakute",
+                "011": "zutto   mae ni",
+                "012": "kokoro kimetan da",
+                "013": "terashidashite!   GREENLIGHTS",
+                "014": "harukana mirai o",
+                "015": "kitto   itsuka",
+                "016": "kimi o terasu made",
+                "017": "imamade mo itsumade mo   tonarini itaino wa",
+                "018": "kagayaita kimi no kao   majikade mitai kara!",
+                "019": "kotoba wa tokini muryokude   nakanaka",
+                "020": "kono sekai wa kawaranai kedo",
+                "021": "moshi kimiga motteru sono mahoude",
+                "022": "atarashii sekai o tsukureru to shitara?",
+                "023": "nante ne   itte mita dake",
+                "024": "sonnano   hontou wa dekiruwake nai",
+                "025": "wakega nai dessho!",
+                "026": "\"suki\" o motto   shinjiruno sa",
+                "027": "nando korondemo   kimi wa kimino",
+                "028": "yarikata de ii no da!",
+                "029": "terashidashite!   GREENLIGHTS",
+                "030": "tachimukau mirai o",
+                "031": "kitto   itsuka",
+                "032": "kimi o terasu made",
+                "033": "koraekirenai yoru ni wa   tonari de naite iiyo",
+                "034": "futari dake no himitsu mo   ureshii n da yo",
+                "035": "hashiri dashita   kimi ni motto",
+                "036": "chikara o agetakute",
+                "037": "zutto   maeni",
+                "038": "kokoro kimetan da",
+                "039": "terashidashite!   GREENLIGHTS",
+                "040": "haruka na mirai o",
+                "041": "kitto   itsuka",
+                "042": "kimi o terasu made",
+                "043": "furikaeru to tooku te o futte kureru kimi mo",
+                "044": "kono saki no dokoka de deaeru kimi mo",
+                "045": "darenimo mane dekinai anata o dakishimete",
+                "046": "nijiiro ni kagayaku   MAGICAL MIRAI e to!"
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T"
+        },
+        "movie_file_name": "rom/movie/pv_281.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "sabi": {
+            "play_time": "30.6",
+            "start_time": "51.9"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_281.ogg",
+        "song_name": "グリーンライツ・セレナーデ",
+        "song_name_en": "Greenlights Serenade",
+        "song_name_reading": "ぐりーんらいつせれなーで",
+        "songinfo": {
+            "arranger": "Sakurai, Kimura",
+            "illustrator": "やまかわ",
+            "lyrics": "Sakurai",
+            "music": "Sakurai, Kimura",
+            "pv_editor": "山下RIRI",
+            "_en": {
+                "arranger": "Sakurai, Kimura",
+                "illustrator": "Yamakawa",
+                "lyrics": "Sakurai",
+                "music": "Sakurai, Kimura",
+                "pv_editor": "Yamashita Riri"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

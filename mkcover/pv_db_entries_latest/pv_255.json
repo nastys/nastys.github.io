@@ -1,0 +1,206 @@
+{
+    "pv_255": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150617",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_255_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_255_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_255_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_255_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "255"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "無口な神様が　音を捨てて傾いた",
+            "002": "泣き虫夜空　涙ぐんだ",
+            "003": "月夜に聞かせるの　誰も知らない歌",
+            "004": "灰色劇場　窓辺のオリオンと",
+            "005": "何度だって聞こえる　一人きりの拙い声",
+            "006": "錆び付いた楽器が　海原で幻想を奏でてた",
+            "007": "夢の中覚えた　音色たちをただ集めて",
+            "008": "芽吹くように紡いだ",
+            "009": "星巡りの歌が届かない",
+            "010": "ほら 歌ってたって 泣いた　ひとり",
+            "011": "浮かんで舞った音楽祭",
+            "012": "君は聞こえる？　ロミア　ロミア",
+            "013": "何年経って逢えた音に",
+            "014": "魔法みたいな恋をしたり",
+            "015": "気が付かないように",
+            "016": "言葉を飲み干した　退屈な国の人が",
+            "017": "失くしたモノを探してた",
+            "018": "鏡を塞いでた　溶けたアンティークな日々",
+            "019": "火星の廃墟　真昼のカシオペア",
+            "020": "何度だって聞こえる　忘れていた音の雨に",
+            "021": "絵に描いた骸骨は　孤独な想像を埋めるようで",
+            "022": "遠くなって溺れて　霞む空は知らないまま",
+            "023": "降りそそぐ世界へ連れて行って",
+            "024": "ねえ 潤んで咲いた遠い国に",
+            "025": "馳せる思い　くすんだ瞳",
+            "026": "星に願いを　ロミア　ロミア",
+            "027": "門をくぐって霧を抜けて",
+            "028": "奪い去ったって会いに行こう",
+            "029": "囁きを頼りに",
+            "030": "歩く街並み　硝子瓶の冬",
+            "031": "何処かの映画のようね",
+            "032": "細く長い線路の上でさ",
+            "033": "私に色を付けて",
+            "034": "触れてすぐ剥がれてしまう",
+            "035": "儚く静かな朝に",
+            "036": "見つけた音の欠片",
+            "037": "ほら 歌ってたって 泣いた　ひとり",
+            "038": "浮かんで舞った音楽祭",
+            "039": "君は聞こえる？　ロミア　ロミア",
+            "040": "何年経って逢えた音に",
+            "041": "魔法みたいな恋をしたり",
+            "042": "眠るように冷める前に",
+            "043": "目を閉じて手をあてて",
+            "044": "奥底の鼓動を聞いた",
+            "045": "途切れない旋律を",
+            "046": "名もなき君へと",
+            "_en": {
+                "001": "mukuchi na kamisama  ga oto o sutete katamuita",
+                "002": "nakimushi yozora  namidagunda",
+                "003": "tsukiyo ni kikaseru no  daremo shiranai uta",
+                "004": "haiiro gekijou  madobe no ORION to",
+                "005": "nando datte kikoeru  hitori kiri no tsutanai koe",
+                "006": "sabitsuita gakki ga  unabara de gensou o kanadeteta",
+                "007": "yume no naka oboeta  neirotachi o tada atsumete",
+                "008": "mebuku you ni tsumuida",
+                "009": "hoshimeguri no uta ga todokanai",
+                "010": "hora  utatte tatte  naita  hitori",
+                "011": "ukande matta ongakusai",
+                "012": "kimi wa kikoeru?  ROMIA  ROMIA",
+                "013": "nannen tatte aeta oto ni",
+                "014": "mahou mitai na koi o shitari",
+                "015": "ki ga tsukanai you ni",
+                "016": "kotoba o nomihoshita  taikutsu na kuni no hito ga",
+                "017": "nakushita mono o sagashiteta",
+                "018": "kagami o fusaideta  toketa ANTIQUE na hibi",
+                "019": "kasei no haikyo  mahiru no CASSIOPEIA",
+                "020": "nando datte kikoeru  wasurete ita oto no ame ni",
+                "021": "e ni kaita gaikotsu wa  kodoku na souzou o umeru you de",
+                "022": "tooku natte oborete  kasumu sora wa shiranai mama",
+                "023": "furisosogu sekai e tsurete itte",
+                "024": "nee  urunde saita tooi kuni ni",
+                "025": "haseru omoi  kusunda hitomi",
+                "026": "hoshi ni negai o  ROMIA  ROMIA",
+                "027": "mon o kugutte kiri o nukete",
+                "028": "ubai sattatte aini ikou",
+                "029": "sasayaki o tayori ni",
+                "030": "aruku machinami  garasubin no fuyu",
+                "031": "dokoka no eiga no you ne",
+                "032": "hosoku nagai senro no ue de sa",
+                "033": "watashi ni iro o tsukete",
+                "034": "furete sugu hagarete shimau",
+                "035": "hakanaku shizuka na asa ni",
+                "036": "mitsuketa oto no kakera",
+                "037": "hora  utatte tatte  naita  hitori",
+                "038": "ukande matta ongakusai",
+                "039": "kimi wa kikoeru?  ROMIA  ROMIA",
+                "040": "nannen tatte aeta oto ni",
+                "041": "mahou mitai na koi o shitari",
+                "042": "nemuru you ni sameru mae ni",
+                "043": "me o tojite te o atete",
+                "044": "okusoko no kodou o kiita",
+                "045": "togirenai senritsu o",
+                "046": "na mo naki kimi e to"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV255_GGL"
+        },
+        "movie_file_name": "rom/movie/pv_255_proj.mp4",
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "156",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV255.bin"
+        },
+        "rank_board_id": "157",
+        "resolution_scale": "0.8",
+        "sabi": {
+            "play_time": "24.7",
+            "start_time": "50.9"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_255.ogg",
+        "song_name": "骸骨楽団とリリア",
+        "song_name_en": "Gaikotsu Gakudan to Riria",
+        "song_name_reading": "がいこつがくだんとりりあ",
+        "songinfo": {
+            "arranger": "トーマ",
+            "illustrator": "トーマ",
+            "lyrics": "トーマ",
+            "music": "トーマ",
+            "_en": {
+                "arranger": "tohma",
+                "illustrator": "tohma",
+                "lyrics": "tohma",
+                "music": "tohma"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

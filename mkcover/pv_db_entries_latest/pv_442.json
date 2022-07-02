@@ -1,0 +1,373 @@
+{
+    "pv_442": {
+        "bpm": "136",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_442_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_442_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_442_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_442_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "442"
+        },
+        "edit": "2",
+        "edit_chara_scale": "0",
+        "edit_effect": {
+            "10": "050",
+            "11": "066",
+            "12": "059",
+            "13": "008",
+            "14": "020",
+            "00": "021",
+            "01": "052",
+            "02": "071",
+            "03": "042",
+            "04": "051",
+            "05": "007",
+            "06": "054",
+            "07": "018",
+            "08": "019",
+            "09": "013"
+        },
+        "field": {
+            "10": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "11": {
+                "aet_front": "cut_16",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPPINK"
+            },
+            "12": {
+                "aet_front": "cut_17",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPYELLOW"
+            },
+            "13": {
+                "aet_front": "cut_18",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPSKY"
+            },
+            "14": {
+                "aet_front": "cut_25",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPSKY"
+            },
+            "15": {
+                "aet_front": "cut_26",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPSKY"
+            },
+            "16": {
+                "aet_back": "eff_thorn_b",
+                "aet_front": "cut_28",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPPINK"
+            },
+            "17": {
+                "aet_front": "cut_48",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "stage": "STGNS272"
+            },
+            "18": {
+                "aet_front": "cut_69",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPYELLOW"
+            },
+            "19": {
+                "aet_front": "cut_71",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPYELLOW"
+            },
+            "20": {
+                "aet_front": "cut_74",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "stage": "STGNS272"
+            },
+            "21": {
+                "spr_set_back": "SPR_EDIT_FPVBACK5012"
+            },
+            "22": {
+                "aet_front_low": "eff",
+                "aet_id_front_low": "AET_GAM_EFF054_MAIN",
+                "stage": "STGNS272"
+            },
+            "01": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "02": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPYELLOW"
+            },
+            "03": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPSKY"
+            },
+            "04": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPPINK"
+            },
+            "05": {
+                "stage": "STGNS272"
+            },
+            "06": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPGREEN"
+            },
+            "07": {
+                "stage": "STGNS249"
+            },
+            "08": {
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "09": {
+                "aet_back": "eff_thorn_a",
+                "aet_front": "cut_27",
+                "aet_id_front": "AET_GAM_PV442_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKPSKY"
+            },
+            "length": "22"
+        },
+        "hand_item": {
+            "01": "PV_MIC_A_L",
+            "02": "MAGURO_BONE_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "静かな夜が歩いて来た",
+            "002": "灯りが揺れて消えそうだな",
+            "003": "隠した言葉　こぼれそうだ",
+            "004": "トゲだらけで痛いな",
+            "005": "見ないでいたって",
+            "006": "分かってしまって",
+            "007": "だって言い訳ばかりが",
+            "008": "同じだ　同じだ",
+            "009": "それだけ聞こえて",
+            "010": "夜から時間が動き出したら",
+            "011": "走る夜",
+            "012": "駆け抜ける夢の中　浮かぶ",
+            "013": "回る世界で",
+            "014": "よこしまな君にさよなら",
+            "015": "静かな夜に聞こえてきた",
+            "016": "胸の辺りが騒がしいから",
+            "017": "煙がこれを隠してたんだ",
+            "018": "少し目にしみるな",
+            "019": "掴んで離して",
+            "020": "近くて遠くて",
+            "021": "だって知りたい答えが",
+            "022": "違うな　違うな",
+            "023": "それだけ聞かせて",
+            "024": "朝まで二人で踊ってたいから",
+            "025": "静かな夜が歩いて来て",
+            "026": "胸の辺りが騒がしいな",
+            "027": "知りたい答えは",
+            "028": "同じだ　同じだ",
+            "029": "それだけ聞こえたら",
+            "030": "走る夜",
+            "031": "駆け抜ける夢の中　浮かぶ",
+            "032": "回る世界で",
+            "033": "よこしまな君にさよなら",
+            "_en": {
+                "001": "shizuka na yoru ga aruite kita",
+                "002": "akari ga yurete kiesou da na",
+                "003": "kakushita kotoba   koboresou da",
+                "004": "toge darake de itai na",
+                "005": "minaideita tte",
+                "006": "wakatte shimatte",
+                "007": "datte iiwake bakari ga",
+                "008": "onaji da   onaji da",
+                "009": "sore dake kikoete",
+                "010": "yoru kara jikan ga ugokidashitara",
+                "011": "hashiru yoru",
+                "012": "kakenukeru yume no naka   ukabu",
+                "013": "mawaru sekai de",
+                "014": "yokoshima na kimi ni sayonara",
+                "015": "shizuka na yoru ni kikoete kita",
+                "016": "mune no atari ga sawagashii kara",
+                "017": "kemuri ga kore o kakushitetan da",
+                "018": "sukoshi me ni shimiru na",
+                "019": "tsukande hanashite",
+                "020": "chikakute tookute",
+                "021": "datte shiritai kotae ga",
+                "022": "chigau na   chigau na",
+                "023": "sore dake kikasete",
+                "024": "asa made futari de odottetai kara",
+                "025": "shizuka na yoru ga aruite kite",
+                "026": "mune no atari ga sawagashii na",
+                "027": "shiritai kotae wa",
+                "028": "onaji da   onaji da",
+                "029": "sore dake kikoetara",
+                "030": "hashiru yoru",
+                "031": "kakenukeru yume no naka   ukabu",
+                "032": "mawaru sekai de",
+                "033": "yokoshima na kimi ni sayonara"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_PS3_007A",
+            "11": "CMN_EDT_PSP02_002A",
+            "12": "CMN_EDT_VITA01_012A",
+            "13": "CMN_EDT_EX_PSP03_017A",
+            "14": "CMN_EDT_EX_PSP03_028A",
+            "15": "CMN_EDT_EX_PSP03_032A",
+            "16": "CMN_EDT_PSP01_70_16",
+            "17": "CMN_EDT_PSP01_70_14",
+            "18": "CMN_EDT_PSP01_50_56_B",
+            "19": "CMN_EDT_VITA01_IDLE",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_PSP01_50_23",
+            "02": "CMN_EDT_PS3_008A",
+            "03": "CMN_EDT_EX_PSP03_034A",
+            "04": "CMN_EDT_PS3_017A",
+            "05": "CMN_EDT_EX_PSP03_015A",
+            "06": "CMN_EDT_PSP01_50_21",
+            "07": "CMN_EDT_PSP01_50_12",
+            "08": "CMN_EDT_EX_PSP03_011A",
+            "09": "CMN_EDT_PS3_011A",
+            "2P": {
+                "10": "CMN_EDT_PS3_007A",
+                "11": "CMN_EDT_PSP02_002A",
+                "12": "CMN_EDT_VITA01_012A",
+                "13": "CMN_EDT_EX_PSP03_017A",
+                "14": "CMN_EDT_EX_PSP03_028A",
+                "15": "CMN_EDT_EX_PSP03_032A",
+                "16": "CMN_EDT_PSP01_70_16",
+                "17": "CMN_EDT_PSP01_70_14",
+                "18": "CMN_EDT_PSP01_50_56_B",
+                "19": "CMN_EDT_VITA01_IDLE",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_PSP01_50_23",
+                "02": "CMN_EDT_PS3_008A",
+                "03": "CMN_EDT_EX_PSP03_034A",
+                "04": "CMN_EDT_PS3_017A",
+                "05": "CMN_EDT_EX_PSP03_015A",
+                "06": "CMN_EDT_PSP01_50_21",
+                "07": "CMN_EDT_PSP01_50_12",
+                "08": "CMN_EDT_EX_PSP03_011A",
+                "09": "CMN_EDT_PS3_011A"
+            },
+            "3P": {
+                "10": "CMN_EDT_PS3_007A",
+                "11": "CMN_EDT_PSP02_002A",
+                "12": "CMN_EDT_VITA01_012A",
+                "13": "CMN_EDT_EX_PSP03_017A",
+                "14": "CMN_EDT_EX_PSP03_028A",
+                "15": "CMN_EDT_EX_PSP03_032A",
+                "16": "CMN_EDT_PSP01_70_16",
+                "17": "CMN_EDT_PSP01_70_14",
+                "18": "CMN_EDT_PSP01_50_56_B",
+                "19": "CMN_EDT_VITA01_IDLE",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_PSP01_50_23",
+                "02": "CMN_EDT_PS3_008A",
+                "03": "CMN_EDT_EX_PSP03_034A",
+                "04": "CMN_EDT_PS3_017A",
+                "05": "CMN_EDT_EX_PSP03_015A",
+                "06": "CMN_EDT_PSP01_50_21",
+                "07": "CMN_EDT_PSP01_50_12",
+                "08": "CMN_EDT_EX_PSP03_011A",
+                "09": "CMN_EDT_PS3_011A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "126",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "2": {
+                "chara": "MIK",
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "3"
+        },
+        "rank_board_id": "236",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "46.5"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_442.ogg",
+        "song_name": "ぎずも",
+        "song_name_en": "Gizmo",
+        "song_name_reading": "ぎずも",
+        "songinfo": {
+            "arranger": "uguis08",
+            "illustrator": "かなん",
+            "lyrics": "uguis08",
+            "music": "uguis08",
+            "pv_editor": "Λkiranu",
+            "_en": {
+                "arranger": "uguis08",
+                "illustrator": "Canan",
+                "lyrics": "uguis08",
+                "music": "uguis08",
+                "pv_editor": "Λkiranu"
+            }
+        },
+        "sort_index": "25",
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

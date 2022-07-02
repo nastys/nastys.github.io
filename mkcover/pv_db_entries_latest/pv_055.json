@@ -1,0 +1,206 @@
+{
+    "pv_055": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20130131",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_055_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_055_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_055_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_055_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_055_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "055",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "孤独な科学者に作られたロボット",
+            "002": "出来栄えを言うなら\"奇跡\"",
+            "003": "だけどまだ足りない　一つだけ出来ない",
+            "004": "それは「心」と言うプログラム",
+            "005": "幾百年が過ぎ",
+            "006": "独りで残された",
+            "007": "奇跡のロボットは願う",
+            "008": "知リタイ　アノ人ガ",
+            "009": "命ノ　終リマデ",
+            "010": "私ニ　作ッテタ",
+            "011": "「ココロ」",
+            "012": "",
+            "013": "今　動き始めた　加速する奇跡",
+            "014": "ナゼか　ナミダが　止まらナい・・・",
+            "015": "ナぜ　私　震える？　加速する鼓動",
+            "016": "こレが私の望んだ「ココロ」？",
+            "017": "",
+            "018": "今　言える　本当の言葉",
+            "019": "捧げる あなたに",
+            "020": "アリガトウ・・・",
+            "021": "この世に私を生んでくれて",
+            "022": "アリガトウ・・・",
+            "023": "一緒に過ごせた日々を",
+            "024": "アリガトウ・・・",
+            "025": "あなたが私にくれた全て",
+            "026": "アリガトウ・・・",
+            "027": "永遠に歌う",
+            "028": "",
+            "029": "それはまさに奇跡でした。",
+            "030": "\"ココロ\"を手に入れたロボットは",
+            "031": "歌い続けました。",
+            "032": "思いを全てを。",
+            "033": "しかし、その奇跡もつかの間。",
+            "034": "\"ココロ\"は彼女には",
+            "035": "あまりにも大きすぎました。",
+            "036": "その大きさに耐えられず",
+            "037": "機械はショートし",
+            "038": "二度と動く事はありませんでした。",
+            "039": "しかし、その表情は笑顔に満ち溢れ",
+            "040": "まるで天使のようでした。",
+            "041": "",
+            "_en": {
+                "001": "kodoku na kagakusha ni tsukurareta ROBOT",
+                "002": "dekibae o iu nara \"kiseki\"",
+                "003": "dakedo mada tarinai   hitotsu dake dekinai",
+                "004": "sore wa \"kokoro\" to iu PROGRAM",
+                "005": "ikuhyaku toshi ga sugi",
+                "006": "hitori de nokosareta",
+                "007": "kiseki no ROBOT wa negau",
+                "008": "shiritai   ano hito ga",
+                "009": "inochi no   owari made",
+                "010": "watashi ni   tsukutteta",
+                "011": "\"kokoro\"",
+                "012": "",
+                "013": "ima   ugokihajimeta   kasoku suru kiseki",
+                "014": "nazeka   namida ga   tomaranai...",
+                "015": "naze   watashi   furueru?   kasoku suru kodou",
+                "016": "kore ga watashi no nozonda \"kokoro\"?",
+                "017": "",
+                "018": "ima   ieru   hontou no kotoba",
+                "019": "sasageru anata ni",
+                "020": "arigatou...",
+                "021": "konoyo ni watashi o unde kurete",
+                "022": "arigatou...",
+                "023": "issho ni sugoseta hibi o",
+                "024": "arigatou...",
+                "025": "anata ga watashi ni kureta subete",
+                "026": "arigatou...",
+                "027": "eien ni utau",
+                "028": "",
+                "029": "sore wa masani kiseki deshita.",
+                "030": "\"kokoro\" o te ni ireta ROBOT wa",
+                "031": "utaitsuzukemashita.",
+                "032": "omoi o subete o.",
+                "033": "shikashi, sono kiseki mo tsuka no ma.",
+                "034": "\"kokoro\" wa kanojo ni wa",
+                "035": "amarinimo ookisugimashita.",
+                "036": "sono ookisa ni taerarezu",
+                "037": "kikai wa SHORT shi",
+                "038": "nido to ugoku koto wa arimasen deshita.",
+                "039": "shikashi, sono hyoujou wa egao ni michiafure",
+                "040": "marude tenshi no you deshita.",
+                "041": ""
+            }
+        },
+        "motion": {
+            "01": "PV055_KKR_00_C00_00A"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "149",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "94.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_055.ogg",
+        "song_name": "ココロ",
+        "song_name_en": "Kokoro",
+        "song_name_reading": "こころ",
+        "songinfo": {
+            "arranger": "トラボルタ",
+            "illustrator": "redjuice",
+            "lyrics": "トラボルタ",
+            "music": "トラボルタ",
+            "_en": {
+                "arranger": "Toraboruta",
+                "illustrator": "redjuice",
+                "lyrics": "Toraboruta",
+                "music": "Toraboruta"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

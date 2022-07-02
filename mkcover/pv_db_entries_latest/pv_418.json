@@ -1,0 +1,252 @@
+{
+    "pv_418": {
+        "bpm": "220",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_418_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_418_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_418_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_418_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "418"
+        },
+        "edit": "1",
+        "edit_chara_scale": "0",
+        "edit_effect": {
+            "00": "025",
+            "01": "024",
+            "02": "023",
+            "03": "022",
+            "04": "020",
+            "05": "021"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "02": {
+                "stage": "STGNS026"
+            },
+            "03": {
+                "stage": "STGD2NS041"
+            },
+            "04": {
+                "stage": "STGD2NS080"
+            },
+            "05": {
+                "aet_front": "noise_effect",
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "06": {
+                "aet_front": "noise_effect",
+                "stage": "STGNS026"
+            },
+            "07": {
+                "aet_front": "noise_effect",
+                "stage": "STGD2NS041"
+            },
+            "length": "7"
+        },
+        "hand_item": {
+            "01": "BATON_R",
+            "02": "CANDY_R",
+            "03": "CANDY_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ぼくは断然trickにそそられる",
+            "002": "でも9番目の犯人を",
+            "003": "当てることにも飽きてしまった",
+            "004": "きみぐらいはぼくを楽しませてよ",
+            "005": "誰にも見せたことのないtrickを",
+            "006": "早くぼくに仕掛けてごらんよ",
+            "007": "どの角度から見ても",
+            "008": "きみの推理はバラバラ",
+            "009": "まるでパズルみたい",
+            "010": "おいで、ぼくが遊んであげる",
+            "011": "蝶の標本、ハチミツ漬け",
+            "012": "切り裂きジャックとJack-o'-Lantern",
+            "013": "さあ、きみはどちらを選ぶの？",
+            "014": "お好きなほうをどうぞ",
+            "015": "わたしは断然treatにときめくの",
+            "016": "でもみっつめのチョコレートの",
+            "017": "香りにもすっかり飽きてしまった",
+            "018": "わたしの期待を裏切らないで",
+            "019": "誰も感じたことのないtreatを",
+            "020": "早くこの口に入れてみせてよ",
+            "021": "どの角度から見ても",
+            "022": "あなたの身体はコナゴナ",
+            "023": "まるでクッキーみたい",
+            "024": "いいわ、残さず食べてあげる",
+            "025": "フランボワーズ、嵐の孤島",
+            "026": "スティックキャンディ、秘密の暗号",
+            "027": "さあ、あなたはどちらを選ぶの？",
+            "028": "お好きなほうをどうぞ",
+            "029": "...手に染み付いた甘い匂いが",
+            "030": "いくら洗っても落ちないの...",
+            "031": "毒入りワイン、ケーキナイフ",
+            "032": "鳴らないピアノとスノウマフィン",
+            "033": "さあ、きみはどちらを選ぶの？",
+            "034": "お好きなほうをどうぞ",
+            "_en": {
+                "001": "boku wa danzen TRICK ni sosorareru",
+                "002": "demo kyuubanme no hannin o",
+                "003": "ateru koto ni mo akite shimatta",
+                "004": "kimi gurai wa boku o tanoshimasete yo",
+                "005": "dare ni mo miseta koto no nai TRICK o",
+                "006": "hayaku boku ni shikakete goran yo",
+                "007": "dono kakudo kara mitemo",
+                "008": "kimi no suiri wa barabara",
+                "009": "marude PUZZLE mitai",
+                "010": "oide, boku ga asonde ageru",
+                "011": "chou no hyouhon, hachimitsuzuke",
+                "012": "kirisaki JACK to JACK-O'-LANTERN",
+                "013": "saa, kimi wa dochira o erabu no?",
+                "014": "osuki na hou o douzo",
+                "015": "watashi wa danzen TREAT ni tokimeku no",
+                "016": "demo mittsume no CHOCOLATE no",
+                "017": "kaori ni mo sukkari akite shimatta",
+                "018": "watashi no kitai o uragiranaide",
+                "019": "daremo kanjita koto no nai TREAT o",
+                "020": "hayaku kono kuchi ni irete misete yo",
+                "021": "dono kakudo kara mitemo",
+                "022": "anata no karada wa konagona",
+                "023": "marude COOKIE mitai",
+                "024": "iiwa, nokosazu tabete ageru",
+                "025": "FRAMBOISE, arashi no kotou",
+                "026": "STICK CANDY, himitsu no angou",
+                "027": "saa, anata wa dochira o erabu no?",
+                "028": "osuki na hou o douzo",
+                "029": "...te ni shimitsuita amai nioi ga",
+                "030": "ikura arattemo ochinai no...",
+                "031": "dokuiri WINE, CAKE KNIFE",
+                "032": "naranai PIANO to SNOW MUFFIN",
+                "033": "saa, kimi wa dochira o erabu no?",
+                "034": "osuki na hou o douzo"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_20",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_034A",
+            "02": "CMN_MRA00_13_01",
+            "03": "CMN_MCA00_70_30",
+            "04": "CMN_EDT_01_011A",
+            "05": "CMN_EDT_01_014A",
+            "06": "CMN_EDT_01_017A",
+            "07": "CMN_EDT_01_047A",
+            "08": "CMN_EDT_01_024A",
+            "09": "CMN_EDT_01_036A",
+            "2P": {
+                "10": "CMN_MCA00_70_20",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_01_034A",
+                "02": "CMN_MCA00_70_23",
+                "03": "CMN_MCA00_70_30",
+                "04": "CMN_EDT_01_011A",
+                "05": "CMN_EDT_01_014A",
+                "06": "CMN_EDT_01_017A",
+                "07": "CMN_MRA00_13_01",
+                "08": "CMN_EDT_01_024A",
+                "09": "CMN_EDT_01_036A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "3",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "3",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "212",
+        "sabi": {
+            "play_time": "18.0",
+            "start_time": "49.0"
+        },
+        "se_name": "02_button2",
+        "song_file_name": "rom/sound/song/pv_418.ogg",
+        "song_name": "さあ、どっち？",
+        "song_name_en": "Now Choose",
+        "song_name_reading": "さあどっち",
+        "songinfo": {
+            "arranger": "ひなた春花",
+            "illustrator": "7:24",
+            "lyrics": "ひなた春花",
+            "music": "ひなた春花",
+            "pv_editor": "すらさすが",
+            "_en": {
+                "arranger": "Haruhana Hinata",
+                "illustrator": "7:24",
+                "lyrics": "Haruhana Hinata",
+                "music": "Haruhana Hinata",
+                "pv_editor": "Surasasuga"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "14"
+        }
+    }
+}

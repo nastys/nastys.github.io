@@ -1,0 +1,233 @@
+{
+    "pv_617": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV617_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20140715",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_617_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_617_extreme_1.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_617_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_617_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "617"
+        },
+        "effect_se_file_name": "rom/sound/pv617_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv617_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "ネットゲーム世界は今日も",
+            "002": "隔離 哀れ 蔓延る効率厨、々",
+            "003": "リアルの世界は明日も",
+            "004": "僕抜きで機能して回る",
+            "005": "ネットゲーム世界はずっと",
+            "006": "孤立 晒し 貪るレベリング",
+            "007": "薄暗い部屋の「ああああ」は",
+            "008": "閉めきった窓なんてもう覚えてない",
+            "009": "ドロップ重視＝ドロップアウト人生",
+            "010": "文化的ライフ崩壊前提",
+            "011": "守れ要塞プライド一切合切",
+            "012": "うんこみてぇなスキーム",
+            "013": "飽きても次のステージへ",
+            "014": "(RMT...tt...RMT...)",
+            "015": "人生を堕落に全部極振り",
+            "016": "見せしめタブーをルールへ",
+            "017": "(mm...MPK...mm...PK)",
+            "018": "延久に紛う様な時間を",
+            "019": "ネットゲーム世界は今日も",
+            "020": "隔離 哀れ 蔓延る効率厨、々",
+            "021": "リアルの世界は明日も",
+            "022": "僕抜きで機能して回る",
+            "023": "ネットゲーム世界はずっと",
+            "024": "孤立 晒し 貪るレベリング",
+            "025": "薄暗い部屋の「ああああ」は",
+            "026": "吐き捨てる様に日々を重ねてる",
+            "027": "ネットゲーム世界は今日も",
+            "028": "隔離 哀れ 蔓延る効率厨、々",
+            "029": "リアルの世界は明日も",
+            "030": "僕抜きで機能して回る",
+            "031": "ネットゲーム世界はずっと",
+            "032": "孤立 晒し 貪るレベリング",
+            "033": "薄暗い部屋の「ああああ」は",
+            "034": "無邪気な目ですがってる 嗚呼",
+            "035": "ネットゲーム世界は今日も",
+            "036": "隔離 哀れ 蔓延る効率厨、々",
+            "037": "リアルの世界は明日も",
+            "038": "僕抜きで機能して回る",
+            "039": "増えていくのは形無い",
+            "040": "数字 ナルシズム それに気づけないで",
+            "041": "薄暗い部屋の「ああああ」は",
+            "042": "ギルド１番の誇り高き戦士",
+            "_en": {
+                "001": "NET GAME sekai wa kyou mo",
+                "002": "kakuri   aware   habikoru kouritsu chuu, chuu",
+                "003": "REAL no sekai wa asu mo",
+                "004": "boku nuki de kinoushite mawaru",
+                "005": "NET GAME sekai wa zutto",
+                "006": "koritsu   sarashi   musaboru LEVELING",
+                "007": "usugurai heya no \"kimi\" wa",
+                "008": "shimekitta mado nante mou oboetenai",
+                "009": "DROP juushi",
+                "010": "bunkateki LIFE houkai zentei",
+                "011": "mamore yousai PRIDE issaigassai",
+                "012": "unko mitee na SCHEME",
+                "013": "akitemo tsugi no STAGE e",
+                "014": "(RMT...tt...RMT...)",
+                "015": "jinsei o daraku ni zenbu kyokuburi",
+                "016": "miseshime TABOO o RULE e",
+                "017": "(mm...MPK...mm...PK)",
+                "018": "eikyuu ni magau you na jikan o",
+                "019": "NET GAME sekai wa kyou mo",
+                "020": "kakuri   aware   habikoru kouritsu chuu, chuu",
+                "021": "REAL no sekai wa asu mo",
+                "022": "boku nuki de kinoushite mawaru",
+                "023": "NET GAME sekai wa zutto",
+                "024": "koritsu   sarashi   musaboru LEVELING",
+                "025": "usugurai heya no \"kimi\" wa",
+                "026": "hakisuteru you ni hibi o kasaneteru",
+                "027": "NET GAME sekai wa kyou mo",
+                "028": "kakuri   aware   habikoru kouritsu chuu, chuu",
+                "029": "REAL no sekai wa asu mo",
+                "030": "boku nuki de kinoushite mawaru",
+                "031": "NET GAME sekai wa zutto",
+                "032": "koritsu   sarashi   musaboru LEVELING",
+                "033": "usugurai heya no \"kimi\" wa",
+                "034": "mujaki na me de sugatteru   AAH!",
+                "035": "NET GAME sekai wa kyou mo",
+                "036": "kakuri   aware   habikoru kouritsu chuu, chuu",
+                "037": "REAL no sekai wa asu mo",
+                "038": "boku nuki de kinoushite mawaru",
+                "039": "fueteiku no wa katachi nai",
+                "040": "suuji   NARCISSISM   sore ni kizukenai de",
+                "041": "usugurai heya no \"kimi\" wa",
+                "042": "GUILD ichiban no hokori takaki senshi"
+            }
+        },
+        "motion": {
+            "01": "PV617_NHS_P1_00",
+            "2P": {
+                "01": "PV617_NHS_P2_00",
+                "02": "PV617_NHS_P2_10"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "110",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV617.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "90",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "77.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_617.ogg",
+        "song_name": "ネトゲ廃人シュプレヒコール",
+        "song_name_en": "The MMORPG Addict's Anthem",
+        "song_name_reading": "ねとげはいじんしゅぷれひこーる",
+        "songinfo": {
+            "arranger": "さつき が てんこもり",
+            "illustrator": "マクロ",
+            "lyrics": "さつき が てんこもり",
+            "music": "さつき が てんこもり",
+            "_en": {
+                "arranger": "TENKOMORI",
+                "illustrator": "Macro",
+                "lyrics": "TENKOMORI",
+                "music": "TENKOMORI"
+            }
+        },
+        "sort_index": "21",
+        "sudden_timing": "0.6"
+    }
+}

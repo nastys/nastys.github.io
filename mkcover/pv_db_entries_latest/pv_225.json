@@ -1,0 +1,217 @@
+{
+    "pv_225": {
+        "bpm": "160",
+        "date": "20151022",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_225_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_225_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_225_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_225_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_225_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "225",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "僕のことはさて置き　君のことが聞きたいんだ",
+            "002": "色々あるんだホント",
+            "003": "それじゃあ今日はよろしくどうぞ",
+            "004": "いつも輝いてる　君の色はなんだったっけ？",
+            "005": "たくさんあったはずなのに",
+            "006": "今ではもう覚えてないんだ",
+            "007": "キノウがずっと重なって　ミライにやっと届く時",
+            "008": "さよなら＠心の中　また違うトビラに出会うよ",
+            "009": "ハロー　また出会うんだ",
+            "010": "サヨナラ　また別れて",
+            "011": "ハロー　また違う場所",
+            "012": "サヨナラ待たずに",
+            "013": "ちょっと待って！",
+            "014": "君はなんで叶えたら消えちゃうの？",
+            "015": "「離れたってまた照らすよ。",
+            "016": "キミのこと好きだから」",
+            "017": "僕のことはさて置き　君のことが聞きたいんだ",
+            "018": "色々あるんだホント",
+            "019": "それじゃあ今日もよろしくどうぞ",
+            "020": "あれれ、君の名前が浮かばないんだ",
+            "021": "そもそもずっと　知らないまま過ごしてた",
+            "022": "呼ばなくてもいつも側に居たから",
+            "023": "じゃあ名前考えようか",
+            "024": "「ゆめ」とかどう？可愛いでしょ？",
+            "025": "これならね　寝てる時も　君に会えるよ",
+            "026": "…いや、忘れて(笑)",
+            "027": "ハロー　また出会えたね",
+            "028": "サヨナラ　僕の「ゆめ」",
+            "029": "ハロー　違う人にとっても夢で在り続けてね",
+            "030": "会って　君に会って",
+            "031": "笑ったり泣いたりで強くなって",
+            "032": "弱かったけど　何個も叶えたよ",
+            "033": "ひとつ叶えて　パって忘れて",
+            "034": "寂しくなるよ　悲しくもなるよ",
+            "035": "それでもいいの",
+            "036": "どっかに僕を叶えたい人がいてくれるから",
+            "037": "ハロー　また出会うんだ",
+            "038": "サヨナラ　また別れて",
+            "039": "ハロー　また違う場所",
+            "040": "サヨナラ待たずに",
+            "041": "ハロー　また出会えたら",
+            "042": "サヨナラ　言う前にさ",
+            "043": "アリガトウ　伝えるよ",
+            "044": "それが今の「ゆめ」だよ",
+            "045": "分かった　もう分かった",
+            "046": "一人なんかじゃなくて",
+            "047": "僕がなんで　歩けてるか",
+            "048": "笑ってる君がいるから",
+            "_en": {
+                "001": "boku no koto wa sateoki   kimi no koto ga kikitain da",
+                "002": "iroiro arun da honto",
+                "003": "sore jaa kyou wa yoroshiku douzo",
+                "004": "itsumo kagayaiteru   kimi no iro wa nandatta kke?",
+                "005": "takusan atta hazu na no ni",
+                "006": "ima dewa mou oboete nain da",
+                "007": "kinou ga zutto kasanatte   mirai ni yatto todoku toki",
+                "008": "sayonara atto kokoro no naka   mata chigau tobira ni deau yo",
+                "009": "HELLO   mata deaun da",
+                "010": "sayonara   mata wakarete",
+                "011": "HELLO   mata chigau basho",
+                "012": "sayonara matazu ni",
+                "013": "chotto matte!",
+                "014": "kimi wa nande kanaetara kiechau no?",
+                "015": "\"hanaretatte mata terasu yo.",
+                "016": "kimi no koto suki dakara\"",
+                "017": "boku no koto wa sateoki   kimi no koto ga kikitain da",
+                "018": "iroiro arun da honto",
+                "019": "sore jaa kyou mo yoroshiku douzo",
+                "020": "arere, kimi no namae ga ukabanain da",
+                "021": "somosomo zutto   shiranai mama sugoshiteta",
+                "022": "yobanakutemo itsumo soba ni ita kara",
+                "023": "jaa namae kangaeyou ka",
+                "024": "\"yume\" toka dou? kawaii desho?",
+                "025": "kore nara ne   neteru toki mo   kimi ni aeru yo",
+                "026": "...iya, wasurete (lol)",
+                "027": "HELLO   mata deaeta ne",
+                "028": "sayonara   boku no \"yume\"",
+                "029": "HELLO   chigau hito ni tottemo yume de aritsuzukete ne",
+                "030": "atte   kimi ni atte",
+                "031": "warattari naitari de tsuyoku natte",
+                "032": "yowakatta kedo   nanko mo kanaeta yo",
+                "033": "hitotsu kanaete   pa tte wasurete",
+                "034": "samishiku naru yo   kanashiku mo naru yo",
+                "035": "sore demo ii no",
+                "036": "dokka ni boku o kanaetai hito ga ite kureru kara",
+                "037": "HELLO   mata deaun da",
+                "038": "sayonara   mata wakarete",
+                "039": "HELLO   mata chigau basho",
+                "040": "sayonara   matazu ni",
+                "041": "HELLO   mata deaetara",
+                "042": "sayonara   iu mae ni sa",
+                "043": "arigatou   tsutaeru yo",
+                "044": "sore ga ima no \"yume\" da yo",
+                "045": "wakatta   mou wakatta",
+                "046": "hitori nanka janakute",
+                "047": "boku ga nande   aruketeru ka",
+                "048": "waratteru kimi ga iru kara"
+            }
+        },
+        "motion": {
+            "01": "PV225_YUME"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "84",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "141",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "48.5"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_225.ogg",
+        "song_name": "ゆめゆめ",
+        "song_name_en": "Yumeyume",
+        "song_name_reading": "ゆめゆめ",
+        "songinfo": {
+            "arranger": "DECO*27",
+            "illustrator": "akka",
+            "lyrics": "DECO*27",
+            "music": "DECO*27",
+            "_en": {
+                "arranger": "DECO*27",
+                "illustrator": "akka",
+                "lyrics": "DECO*27",
+                "music": "DECO*27"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

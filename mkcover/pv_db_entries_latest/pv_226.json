@@ -1,0 +1,233 @@
+{
+    "pv_226": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141113",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_226_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_226_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_226_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_226_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "title_end_3d_field": "1",
+            "title_start_3d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ふと立ちすくんだ街角",
+            "002": "見上げる窮屈な空",
+            "003": "オフィスワークのルーティンに",
+            "004": "もう息が詰まりそうよ",
+            "005": "ふと迷い込んだ路地裏が",
+            "006": "魅力的に映るように",
+            "007": "刺激的なシチュエーションは",
+            "008": "いつも日常の奥にある",
+            "009": "熱を帯びた欲望たちが交差するこの場所で",
+            "010": "絡み合う熱い視線は",
+            "011": "まるで感情のカクテルのよう",
+            "012": "甘いムードに酔わされ",
+            "013": "真っ逆さまにおちてゆく",
+            "014": "決め込んだつまらない規則（ルール）も",
+            "015": "氷と共に溶けてゆく",
+            "016": "あなたの運命の女（ヒト）は私で何人目かしら？",
+            "017": "「一期一会」だなんて安っぽい口説き文句ね",
+            "018": "そんな冷めた恋愛観も溶かしきってしまうほどの",
+            "019": "得体のしれない魔力に",
+            "020": "今日も踊らされてしまいそう",
+            "021": "赤く染まる横顔から胸元に零れる",
+            "022": "キミの吐息が僕を惑わせる",
+            "023": "後戻り出来ない程に",
+            "024": "今宵タイトな私を脱ぎ捨てて裸になる",
+            "025": "グラス越しに見える世界は",
+            "026": "いつもより大胆になる",
+            "027": "on the rocks",
+            "028": "焦らす仕草で「まだまだ夜はこれから」",
+            "029": "ゆっくりとステアしたその後は",
+            "030": "強いのがスキ",
+            "031": "熱を帯びた欲望たちが交差するこの部屋で",
+            "032": "時を忘れて溺れたいキミと",
+            "033": "混ざり合うカクテルのように",
+            "034": "on the rocks",
+            "035": "タイトなドレスを剥ぎ取って裸にして",
+            "036": "今日はシングルよりダブルで",
+            "037": "喉元から熱く灼いて",
+            "038": "on the rocks",
+            "039": "ムードにほだされ加速する恋の鼓動",
+            "040": "こんな刺激的で熱い夜は",
+            "041": "強いのがイイ",
+            "_en": {
+                "001": "futo tachisukunda machikado",
+                "002": "miageru kyuukutsu na sora",
+                "003": "OFFICE WORK no ROUTINE ni",
+                "004": "mou iki ga tsumarisou yo",
+                "005": "futo mayoikonda rojiura ga",
+                "006": "miryokuteki ni utsuru you ni",
+                "007": "shigekiteki na SITUATION wa",
+                "008": "itsumo nichijou no oku ni aru",
+                "009": "netsu o obita yokubou tachi ga kousa suru kono basho de",
+                "010": "karamiau atsui shisen wa",
+                "011": "marude kanjou no COCKTAIL no you",
+                "012": "amai MOOD ni yowasare",
+                "013": "massakasama ni ochite yuku",
+                "014": "kimekonda tsumaranai RULE mo",
+                "015": "koori to tomo ni tokete yuku",
+                "016": "anata no unmei no hito wa watashi de nanninme kashira?",
+                "017": "\"ichigo ichie\" da nante yasuppoi kudokimonku ne",
+                "018": "sonna sameta ren-aikan mo tokashikitte shimau hodo no",
+                "019": "etai no shirenai maryoku ni",
+                "020": "kyou mo odorasarete shimaisou",
+                "021": "akaku somaru yokogao kara munamoto ni koboreru",
+                "022": "kimi no toiki ga boku o madowaseru",
+                "023": "atomodori dekinai hodo ni",
+                "024": "koyoi TIGHT na watashi o nugisutete hadaka ni naru",
+                "025": "GLASS goshi ni mieru sekai wa",
+                "026": "itsumo yori daitan ni naru",
+                "027": "On the rocks",
+                "028": "jirasu shigusa de \"mada mada yoru wa kore kara\"",
+                "029": "yukkuri to STARE shita sono ato wa",
+                "030": "tsuyoi no ga suki",
+                "031": "netsu o obita yokubou tachi ga kousa suru kono heya de",
+                "032": "toki o wasurete oboretai kimi to",
+                "033": "mazariau COCKTAIL no you ni",
+                "034": "On the rocks",
+                "035": "TIGHT na DRESS o hagitotte hadaka ni shite",
+                "036": "kyou wa SINGLE yori DOUBLE de",
+                "037": "nodomoto kara atsuku yaite",
+                "038": "On the rocks",
+                "039": "MOOD ni hodasare kasoku suru koi no kodou",
+                "040": "konna shigekiteki de atsui yoru wa",
+                "041": "tsuyoi no ga ii"
+            }
+        },
+        "motion": {
+            "01": "PV226_ROCKS_P1",
+            "2P": {
+                "01": "PV226_ROCKS_P2"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV226_ROCKS_P2",
+                "stage": "STGPV226S01"
+            },
+            "1": {
+                "frame": "3070",
+                "motion": "PV226_ROCKS_P2",
+                "stage": "STGPV226S01"
+            },
+            "2": {
+                "frame": "3784",
+                "motion": "PV226_ROCKS_P2",
+                "stage": "STGPV226S01"
+            },
+            "length": "3"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "4",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "KAI",
+                "pv_costume": "14",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "140",
+        "sabi": {
+            "play_time": "34.7",
+            "start_time": "57.5"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_226.ogg",
+        "song_name": "on the rocks",
+        "song_name_en": "On The Rocks",
+        "song_name_reading": "おんざろっくす",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "IRIASU",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "IRIASU",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv226s01.txt",
+                "stage": "STGPV226S01"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

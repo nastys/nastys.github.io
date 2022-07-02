@@ -1,0 +1,200 @@
+{
+    "pv_729": {
+        "bpm": "128",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150924",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_729_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_729_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_729_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_729_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "729"
+        },
+        "effect_se_file_name": "rom/sound/pv729_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv729_effect",
+            "length": "1"
+        },
+        "hand_a3d": {
+            "1P": {
+                "0": {
+                    "name": "STGPV729S01_HRC_001"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "どうしてみんなが幸せなの？",
+            "002": "この世界のこと　聞きたいって、知りたいって",
+            "003": "水辺の公園で　みんなが耳を澄ませて",
+            "004": "わくわくするね　ねぇ、オンディーヌ？",
+            "005": "ハイハーイ！",
+            "006": "さあさあ、みなさん、教えてあげまーす！",
+            "007": "みんなが気になってること、",
+            "008": "疑問に思ってること、",
+            "009": "ぜーんぶ教えてあげまーす！",
+            "010": "えー、みなさんが幸福なのは・・・",
+            "011": "義務なんです。",
+            "012": "幸せですか？義務ですよ？果たしてますか？",
+            "013": "我々、幸福安心委員会は",
+            "014": "みなさまの幸せを願い、そして支えまーす。",
+            "015": "幸福なのは義務なんです。",
+            "016": "幸せですか？義務ですよ？",
+            "017": "ですから、安心して義務を果たすように！",
+            "018": "みなさまの幸せが我々の幸せ。",
+            "019": "幸せですか？義務ですよ？果たしてますか？",
+            "020": "幸せじゃないなら・・・、",
+            "021": "絞首（こうしゅ）、斬首（ざんしゅ）、",
+            "022": "銃殺（じゅうさつ）、釜茹（かまゆで）、",
+            "023": "溺死（できし）、電気、火炙り（ひあぶり）、",
+            "024": "生き埋め、薬殺（やくさつ）、",
+            "025": "石打ち、鋸（のこぎり）、磔（はりつけ）、",
+            "026": "好きなのを選んでね♪",
+            "027": "ハイハーイ！",
+            "028": "さあさあ、みなさん、",
+            "029": "幸せだけが満ちてまーす！",
+            "030": "不安とか不満、なにひとつないでしょー？",
+            "031": "コワーイ、恐いわー、幸せすぎて恐いわー。",
+            "032": "幸福なのは義務なんです。",
+            "033": "幸せですか？義務ですよ？",
+            "034": "義務なんです。",
+            "035": "義務ですよ？",
+            "036": "幸福なのは義務なんです。",
+            "037": "幸せじゃないなら・・・　○ね",
+            "_en": {
+                "001": "doushite minna ga shiawase na no?",
+                "002": "kono sekai no koto   kikitai tte, shiritai tte",
+                "003": "mizube no kouen de   minna ga mimi o sumasete",
+                "004": "wakuwaku suru ne   nee, ONDINE?",
+                "005": "hai haai!",
+                "006": "saa saa, mina-san, oshiete agemaasu!",
+                "007": "minna ga ki ni natteru koto,",
+                "008": "gimon ni omotteru koto,",
+                "009": "zeenbu oshiete agemaasu!",
+                "010": "ee, mina-san ga koufuku na no wa...",
+                "011": "gimu nan desu.",
+                "012": "shiawase desu ka? gimu desu yo? hatashitemasu ka?",
+                "013": "wareware, koufuku anshin iinkai wa",
+                "014": "mina-sama no shiawase o negai, soshite sasaemaasu.",
+                "015": "koufuku na no wa gimu nan desu.",
+                "016": "shiawase desu ka? gimu desu yo?",
+                "017": "desu kara, anshin shite gimu o hatasu you ni!",
+                "018": "mina-sama no shiawase ga wareware no shiawase.",
+                "019": "shiawase desu ka? gimu desu yo? hatashitemasu ka?",
+                "020": "shiawase janai nara...,",
+                "021": "koushu, zanshu,",
+                "022": "juusatsu, kamayude,",
+                "023": "dekishi, denki, hiaburi,",
+                "024": "ikiume, yakusatsu,",
+                "025": "ishiuchi, nokogiri, haritsuke,",
+                "026": "suki na no o erande ne♪",
+                "027": "hai haai!",
+                "028": "saa saa, mina-san,",
+                "029": "shiawase dake ga michitemaasu!",
+                "030": "fuan toka fuman, nanihitotsu nai deshoo?",
+                "031": "kowaai, kowai waa, shiawase sugite kowai waa.",
+                "032": "koufuku na no wa gimu nan desu.",
+                "033": "shiawase desu ka? gimu desu yo?",
+                "034": "gimu nan desu.",
+                "035": "gimu desu yo?",
+                "036": "koufuku na no wa gimu nan desu.",
+                "037": "shiawase janai nara... 5|-|1|\\|3"
+            }
+        },
+        "motion": {
+            "01": "PV729_KOU_P1_00",
+            "02": "PV729_KOU_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "138",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV729.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "116",
+        "resolution_scale_neo": "0.85",
+        "sabi": {
+            "play_time": "32.9",
+            "start_time": "95.6"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_729.ogg",
+        "song_name": "こちら、幸福安心委員会です。",
+        "song_name_en": "This is the Happiness and Peace of Mind Committee",
+        "song_name_reading": "こちらこうふくあんしんいいんかいです",
+        "songinfo": {
+            "arranger": "うたたP",
+            "illustrator": "wogura",
+            "lyrics": "鳥居羊",
+            "music": "うたたP",
+            "_en": {
+                "arranger": "Utata P",
+                "illustrator": "wogura",
+                "lyrics": "Tory Hitsuji",
+                "music": "Utata P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

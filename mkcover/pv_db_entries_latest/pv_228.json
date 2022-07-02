@@ -1,0 +1,194 @@
+{
+    "pv_228": {
+        "bpm": "120",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_228_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_228_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_228_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "大体それで良いんじゃないの",
+            "002": "適当だって良いんじゃないの",
+            "003": "少し不安残したほうが",
+            "004": "楽しく生きられるんじゃないの",
+            "005": "疲れたら寝れば良いんじゃないの",
+            "006": "たまには楽して良いんじゃないの",
+            "007": "やりたいことやる為に",
+            "008": "僕らは生きているんでしょう",
+            "009": "大体それで良いんじゃないの",
+            "010": "失敗しても良いんじゃないの",
+            "011": "どんなに悩んだってほら",
+            "012": "結局タイミングなんじゃないの",
+            "013": "一つ一つ抱え込んで",
+            "014": "一体何をどうしたいの",
+            "015": "やりたいことやる為に",
+            "016": "君は生まれてきたんでしょう",
+            "017": "完璧な生き方なんて出来ないから",
+            "018": "完璧な生き方なんてしたくないから",
+            "019": "不器用な僕は不器用なままで",
+            "020": "神様、この歌が聞こえるかい",
+            "021": "あなたが望んでいなくても",
+            "022": "僕は笑っていたいんです",
+            "023": "泣きたい時は泣きたいんです",
+            "024": "いつだって自然体でいたいんです",
+            "025": "誰もが二度と戻れぬ今を",
+            "026": "きっといつか後悔するから",
+            "027": "今はまだこんな気持ちで",
+            "028": "気ままに歩いていたって、良いよね",
+            "029": "大体それで良いんじゃないの",
+            "030": "無理はしなくて良いんじゃないの",
+            "031": "作り笑いしたってほら",
+            "032": "ちっとも楽しくないでしょう",
+            "033": "一つ一つ抱え込んで",
+            "034": "一体何をどうしたいの",
+            "035": "誰も100点満点の答えなんて出せないんでしょう",
+            "036": "完璧な生き方なんて出来ないから",
+            "037": "完璧な生き方なんてしたくないから",
+            "038": "不完全な僕は不完全なままで",
+            "039": "神様、この歌が聞こえるかい",
+            "040": "あなたが望んでいなくても",
+            "041": "僕は笑っていたいんです",
+            "042": "そして今叫びたいんです",
+            "043": "いつだって最後は　No Logic",
+            "044": "僕らのこの一度きりの夢",
+            "045": "どうせいつか終わりが来るなら",
+            "046": "生きることをやめたい時だけ",
+            "047": "立ち止まって考えるくらいで、良いよね",
+            "048": "\"やりたいことだけ選んで、",
+            "049": "要らないもの切り捨てて\"",
+            "050": "誰もが皆そんな風に歩けるわけ…無いよね",
+            "_en": {
+                "001": "daitai sore de iin janai no",
+                "002": "tekitou datte iin janai no",
+                "003": "sukoshi fuan nokoshita hou ga",
+                "004": "tanoshiku ikirarerun janai no",
+                "005": "tsukaretara nereba iin janai no",
+                "006": "tamaniwa raku shite iin janai no",
+                "007": "yaritai koto yaru tame ni",
+                "008": "bokura wa ikiteirun deshou",
+                "009": "daitai sore de iin janai no",
+                "010": "shippai shitemo iin janai no",
+                "011": "donna ni nayandatte hora",
+                "012": "kekkyoku TIMING nan janai no",
+                "013": "hitotsu hitotsu kakaekonde",
+                "014": "ittai nani o doushitai no",
+                "015": "yaritai koto yaru tame ni",
+                "016": "kimi wa umarete kitan deshou",
+                "017": "kanpeki na ikikata nante dekinai kara",
+                "018": "kanpeki na ikikata nante shitakunai kara",
+                "019": "bukiyou na boku wa bukiyou na mama de",
+                "020": "kami-sama, kono uta ga kikoeru kai",
+                "021": "anata ga nozondeinakutemo",
+                "022": "boku wa waratte itain desu",
+                "023": "nakitai toki wa nakitain desu",
+                "024": "itsu datte shizentai de itain desu",
+                "025": "daremo ga nido to modorenu ima o",
+                "026": "kitto itsuka koukai suru kara",
+                "027": "ima wa mada konna kimochi de",
+                "028": "kimama ni aruiteitatte, ii yo ne",
+                "029": "daitai sore de iin janai no",
+                "030": "muri wa shinakute iin janai no",
+                "031": "tsukuriwarai shitatte hora",
+                "032": "chittomo tanoshikunai deshou",
+                "033": "hitotsu hitotsu kakaekonde",
+                "034": "ittai nani o doushitai no",
+                "035": "daremo hyakuten manten no kotae nante dasenain deshou",
+                "036": "kanpeki na ikikata nante dekinai kara",
+                "037": "kanpeki na ikikata nante shitakunai kara",
+                "038": "fukanzen na boku wa fukanzen na mama de",
+                "039": "kami-sama, kono uta ga kikoeru kai",
+                "040": "anata ga nozondeinakutemo",
+                "041": "boku wa waratte itain desu",
+                "042": "soshite ima sakebitain desu",
+                "043": "itsu datte saigo wa   NO LOGIC",
+                "044": "bokura no kono ichido kiri no yume",
+                "045": "douse itsuka owari ga kuru nara",
+                "046": "ikiru koto o yametai toki dake",
+                "047": "tachidomatte kangaeru kurai de, ii yo ne",
+                "048": "\"yaritai koto dake erande,",
+                "049": "iranai mono kirisutete\"",
+                "050": "daremo ga minna sonna fuu ni arukeru wake... nai yo ne"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV228_NOLOG"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "18",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "139",
+        "sabi": {
+            "play_time": "37.8",
+            "start_time": "111.45"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_228.ogg",
+        "song_name": "No Logic",
+        "song_name_en": "No Logic",
+        "song_name_reading": "のーろじっく",
+        "songinfo": {
+            "arranger": "ジミーサムP",
+            "illustrator": "さゆ吉",
+            "lyrics": "ジミーサムP",
+            "music": "ジミーサムP",
+            "_en": {
+                "arranger": "Jimmythumb P",
+                "illustrator": "Sayukichi",
+                "lyrics": "Jimmythumb P",
+                "music": "Jimmythumb P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

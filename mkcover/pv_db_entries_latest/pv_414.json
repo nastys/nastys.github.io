@@ -1,0 +1,294 @@
+{
+    "pv_414": {
+        "bpm": "300",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_414_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_414_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_414_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_414_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "414"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "001",
+            "01": "003",
+            "02": "005",
+            "03": "011",
+            "04": "019",
+            "05": "018",
+            "06": "010",
+            "07": "021",
+            "08": "000",
+            "09": "020"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS038"
+            },
+            "02": {
+                "stage": "STGD2NS080"
+            },
+            "03": {
+                "stage": "STGD2NS043"
+            },
+            "04": {
+                "stage": "STGD2NS039"
+            },
+            "05": {
+                "stage": "STGD2NS082"
+            },
+            "06": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "07": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "08": {
+                "stage": "STGNS017"
+            },
+            "length": "8"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "輝く星々の下に向かう人",
+            "002": "薄暗い光を駆け抜ける",
+            "003": "さまよい螺旋階段を昇り行く",
+            "004": "天国への門の前に立つ",
+            "005": "",
+            "006": "手をかけた扉は開かれた　包み込む光",
+            "007": "導く一筋の矢",
+            "008": "少女に手を引かれた　舞台へ",
+            "009": "",
+            "010": "Toerekunya en rai heya muhe.",
+            "011": "Toya pahara para heya ryohe.",
+            "012": "Para tyura 『Pane Pane』",
+            "013": "ryotwurehe ryotsene",
+            "014": "beredore to raya to lu herajya.",
+            "015": "Para thuryoe parahamaha ryomasa.",
+            "016": "To rafajya thurye hedora ryoka tobanehe.",
+            "017": "Thie ryehe to mea meryo thue li",
+            "018": "『Pane・・・jya.Pane,jya!Pane dhiria!!』",
+            "019": "",
+            "020": "天使の歌声神々しく届く",
+            "021": "しかし神は怒り、地を荒らす",
+            "022": "『我に今こそ美しい旋律を！』",
+            "023": "私は竪琴に手をかけた",
+            "024": "",
+            "025": "『神よ、聞くがいい！",
+            "026": "貴方の享楽の為、弾こう！』",
+            "027": "運命決める舞台",
+            "028": "細い指先研ぎ澄まさせ",
+            "029": "",
+            "030": "Karyotse ne tera.",
+            "031": "Karato la hera.",
+            "032": "Para to jyathima",
+            "033": "kurufe tse kakado thiya.",
+            "034": "（哀れな貴方は知らない・・・）",
+            "035": "",
+            "036": "Karyotse ne tera.",
+            "037": "Kakato la hera.",
+            "038": "Tsekuro fa neba",
+            "039": "nekuto ra fahetwu thia.",
+            "040": "（悲歎の声…）",
+            "041": "",
+            "042": "銀河の星が手を取り合って最後を迎える",
+            "043": "音色に神は泣いた",
+            "044": "",
+            "045": "祝福された大地の揺りかご　眠りに沈み",
+            "046": "慰めの雨は止み",
+            "047": "あるべき姿の",
+            "048": "希望に満ち溢れた世に",
+            "049": "",
+            "050": "包み込む闇夜の中で語り継ぐ",
+            "051": "どこまでも続く万聖節",
+            "052": "",
+            "053": "Pane!　Jya terathi herara.",
+            "054": "Pane!　Jya faryoma herye.",
+            "055": "Pane!　Jya farero tseryone",
+            "056": "tore tsere hene・・・",
+            "_en": {
+                "001": "kagayaku hoshiboshi no moto ni mukau hito",
+                "002": "usugurai hikari o kakenukeru",
+                "003": "samayoi rasen kaidan o nobori yuku",
+                "004": "tengoku e no mon no mae ni tatsu",
+                "005": "",
+                "006": "te o kaketa tobira wa hirakareta   tsutsumikomu hikari",
+                "007": "michibiku hitosuji no ya",
+                "008": "shoujo ni te o hikareta   butai e",
+                "009": "",
+                "010": "Toerekunya en rai heya muhe.",
+                "011": "Toya pahara para heya ryohe.",
+                "012": "Para tyura \"Pane Pane\"",
+                "013": "ryotwurehe ryotsene",
+                "014": "beredore to raya to lu herajya.",
+                "015": "Para thuryoe parahamaha ryomasa.",
+                "016": "To rafajya thurye hedora ryoka tobanehe.",
+                "017": "Thie ryehe to mea meryo thue li",
+                "018": "\"Pane...jya. Pane, jya! Pane dhiria!\"",
+                "019": "",
+                "020": "tenshi no utagoe kougoushiku todoku",
+                "021": "shikashi kami wa ikari, chi o arasu",
+                "022": "\"ware ni imakoso utsukushii senritsu o!\"",
+                "023": "watashi wa tategoto ni te o kaketa",
+                "024": "",
+                "025": "\"kami yo, kiku ga ii!",
+                "026": "anata no kyouraku no tame, hikou!\"",
+                "027": "unmei kimeru butai",
+                "028": "hosoi yubisaki togisumasase",
+                "029": "",
+                "030": "Karyotse ne tera.",
+                "031": "Karato la hera.",
+                "032": "Para to jyathima",
+                "033": "kurufe tse kakado thiya.",
+                "034": "(aware na anata wa shiranai...)",
+                "035": "",
+                "036": "Karyotse ne tera.",
+                "037": "Kakato la hera.",
+                "038": "Tsekuro fa neba",
+                "039": "nekuto ra fahetwu thia.",
+                "040": "(hitan no koe...)",
+                "041": "",
+                "042": "ginga no hoshi ga te o toriatte saigo o mukaeru",
+                "043": "neiro ni kami wa naita",
+                "044": "",
+                "045": "shukufuku sareta daichi no yurikago   nemuri ni shizumi",
+                "046": "nagusame no ame wa yami",
+                "047": "arubeki sugata no",
+                "048": "kibou ni michiafureta yo ni",
+                "049": "",
+                "050": "tsutsumikomu yamiyo no naka de kataritsugu",
+                "051": "dokomademo tsuzuku manseisetsu",
+                "052": "",
+                "053": "Pane!　Jya terathi herara.",
+                "054": "Pane!　Jya faryoma herye.",
+                "055": "Pane!　Jya farero tseryone",
+                "056": "tore tsere hene..."
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_01_002A",
+            "11": "CMN_EDT_01_004A",
+            "12": "CMN_EDT_01_005A",
+            "13": "CMN_EDT_01_024A",
+            "14": "CMN_MCA00_70_28",
+            "15": "CMN_EDT_01_032A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_017A",
+            "02": "CMN_MCA00_70_23",
+            "03": "CMN_EDT_01_030A",
+            "04": "CMN_EDT_01_031A",
+            "05": "CMN_EDT_01_034A",
+            "06": "CMN_EDT_01_033A",
+            "07": "CMN_EDT_01_035A",
+            "08": "CMN_MCA00_70_29",
+            "09": "CMN_MCA00_70_32"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "4",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "208",
+        "sabi": {
+            "play_time": "20.0",
+            "start_time": "36.00"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_414.ogg",
+        "song_name": "Pane dhiria",
+        "song_name_en": "Pane dhiria",
+        "song_name_reading": "ぱねでぃりあ",
+        "songinfo": {
+            "arranger": "新城P",
+            "illustrator": "新城P",
+            "lyrics": "新城P",
+            "music": "新城P",
+            "pv_editor": "５０ｍｍ",
+            "_en": {
+                "arranger": "Shinjou P",
+                "illustrator": "Shinjou P",
+                "lyrics": "Shinjou P",
+                "music": "Shinjou P",
+                "pv_editor": "50mm"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "1"
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "pv_723": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_723_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_723_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_723_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_723_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "723"
+        },
+        "effect_se_file_name": "rom/sound/pv723_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv723_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "追撃 妄想 墜落",
+            "002": "心神 喪失 逃走",
+            "003": "脳内 物質 生成",
+            "004": "感情 供給 過剰",
+            "005": "人格 侵食 抑制",
+            "006": "網膜 感応 幻覚",
+            "007": "存在 確信 猜疑",
+            "008": "制御 不能 理解 不能",
+            "009": "斬新 反響 狂乱",
+            "010": "衝動 分裂 限界",
+            "011": "傲慢 暗躍 推論",
+            "012": "精神 崩壊 退場",
+            "013": "生存 感覚 忘却",
+            "014": "劣等 防衛 拒絶",
+            "015": "核心 肯定 慢心",
+            "016": "解明 不能 支配 不能",
+            "017": "期待した未来からカーブを描く",
+            "018": "ぼくわっぱっぱっぱらのいあ",
+            "019": "咲いちゃったんだ",
+            "020": "決して怪しいモノではありません",
+            "021": "選択肢を間違えた 孤独な独裁者",
+            "022": "画面を越えて虹の向こうへ",
+            "023": "馬鹿が湧いたトップニュース",
+            "024": "シナプスつないで会いに往く",
+            "025": "経験値不足 電脳遊戯",
+            "026": "リンクたどって妄想追って",
+            "027": "馬鹿が湧いた連鎖反応",
+            "028": "蔓延している",
+            "029": "病名：二次元ドリームフィーバー",
+            "030": "機械仕掛けのカラスが泣いた",
+            "031": "発条切れて肝心な所で",
+            "032": "かわいたわいた何がわいたか",
+            "033": "偏食家のセリフ 真似した",
+            "034": "だってまってのパレード参列",
+            "035": "影踏みあったら居ない子ダレダ？",
+            "036": "公開処刑のスパムだらけで",
+            "037": "逆再生のマジックショー",
+            "038": "白い目 振り向く 洗脳",
+            "039": "標的 定め 連帯感",
+            "040": "痛い 痛いのはちょっとまって",
+            "041": "忘れましょ もう忘れましょ",
+            "042": "22と1だけの論理をかざす",
+            "043": "ぼくわっぱっぱっぱらのいあ",
+            "044": "咲いちゃったんだ",
+            "045": "こんな僕を取り残して回るんだ",
+            "046": "選択肢を決められた 哀れな独善者",
+            "047": "画面を越えて虹の向こうへ",
+            "048": "きっと君も喜ぶんじゃん",
+            "049": "あの日のまま止まった現実",
+            "050": "逃げ込んだ先は電脳遊戯",
+            "051": "リンクたどって会いに往くよ",
+            "052": "きっと君に繋がってるんじゃん",
+            "053": "蔓延している",
+            "054": "病名：二次元ドリームフィーバー",
+            "_en": {
+                "001": "tsuigeki mousou tsuiraku",
+                "002": "shinshin soushitsu tousou",
+                "003": "nounai busshitsu seisei",
+                "004": "kanjou kyoukyuu kajou",
+                "005": "jinkaku shinshoku yokusei",
+                "006": "moumaku kannou genkaku",
+                "007": "sonzai kakushin saigi",
+                "008": "seigyo funou rikai funou",
+                "009": "zanshin hankyou kyouran",
+                "010": "shoudou bunretsu genkai",
+                "011": "gouman anyaku suiron",
+                "012": "seishin houkai taijou",
+                "013": "seizon kankaku boukyaku",
+                "014": "rettou bouei kyozetsu",
+                "015": "kakushin koutei manshin",
+                "016": "kaimei funou shihai funou",
+                "017": "kitai shita mirai kara CURVE o egaku",
+                "018": "boku wa pa pa PARANOIA",
+                "019": "saichattan da",
+                "020": "kesshite ayashii mono dewaarimasen",
+                "021": "sentakushi o machigaeta kodoku na dokusaisha",
+                "022": "gamen o koete niji no mukou e",
+                "023": "baka ga waita TOP NEWS",
+                "024": "SYNAPSE tsunaide ai ni yuku",
+                "025": "keikenchibusoku dennou yuugi",
+                "026": "LINK tadotte mousou otte",
+                "027": "baka ga waita rensa hannou",
+                "028": "manen shiteiru",
+                "029": "byoumei: nijigen DREAM FEVER",
+                "030": "kikaijikake no karasu ga naita",
+                "031": "zenmai kirete kanjin na toko de",
+                "032": "kawaita waita nani ga waita ka",
+                "033": "henshokuka no serifu mane shita",
+                "034": "datte matte no PARADE sanretsu",
+                "035": "kage fumiattara inai ko dare da?",
+                "036": "koukai shokei no SPAM darake de",
+                "037": "gyakusaisei no MAGIC SHOW",
+                "038": "shiroi me furimuku sennou",
+                "039": "hyouteki sadame rentaikan",
+                "040": "itai itai no wa chotto matte",
+                "041": "wasuremasho mou wasuremasho",
+                "042": "nijuuni to ichi dake no ronri o kazasu",
+                "043": "boku wa pa pa PARANOIA",
+                "044": "saichattan da",
+                "045": "konna boku o torinokoshite mawarun da",
+                "046": "sentakushi o kimerareta aware na dokuzensha",
+                "047": "gamen o koete niji no mukou e",
+                "048": "kitto kimi mo yorokobun jan",
+                "049": "ano hi no mama tomatta REAL",
+                "050": "nigekonda saki wa dennou yuugi",
+                "051": "LINK tadotte ai ni yuku yo",
+                "052": "kitto kimi ni tsunagatterun jan",
+                "053": "manen shiteiru",
+                "054": "byoumei: nijigen DREAM FEVER"
+            }
+        },
+        "motion": {
+            "01": "PV723_NDF_P1_00",
+            "02": "PV723_NDF_P1_10"
+        },
+        "movie_file_name": "rom/movie/pv_723.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "132",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV723.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "113",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "52.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_723.ogg",
+        "song_name": "二次元ドリームフィーバー",
+        "song_name_en": "2D Dream Fever",
+        "song_name_reading": "にじげんどりーむふぃーばー",
+        "song_name_reading_en": "｛2D Dream Fever",
+        "songinfo": {
+            "arranger": "Polyphonic Branch",
+            "illustrator": "BUZZ",
+            "lyrics": "Polyphonic Branch",
+            "music": "Polyphonic Branch",
+            "_en": {
+                "arranger": "Polyphonic Branch",
+                "illustrator": "BUZZ",
+                "lyrics": "Polyphonic Branch",
+                "music": "Polyphonic Branch"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "stage": "STGPV723S02_CLONE",
+                "wind_file": "rom/light_param/wind_pv723s02_clone.txt"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "pv_608": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140527",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_608_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_608_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_608_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_608_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "effect_se_file_name": "rom/sound/pv608_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv608_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "隣で悩んでいる私の思考は",
+            "002": "局所解で揺れる振り子時計",
+            "003": "恥ずかしい単語を縦に並べて",
+            "004": "次のパズルに着手したとこ",
+            "005": "難解な式で描いた愛情",
+            "006": "人という機械は思い馳せる",
+            "007": "どういうことなの　どういうことなの",
+            "008": "君は誰が好き？",
+            "009": "どういうことなの　どういうことなの",
+            "010": "そういう意味じゃない！",
+            "011": "どういうことなの　どういうことなの",
+            "012": "君の好みは？",
+            "013": "どういうことなの　どういうことなの",
+            "014": "私、届いてる？",
+            "015": "数字に頼らないならば",
+            "016": "退屈を何に変えれるだろう",
+            "017": "不意に目が合って吐息隠す",
+            "018": "そして人という機械に思い馳せるのか",
+            "019": "どういうことなの　どういうことなの",
+            "020": "君は何が好き？",
+            "021": "どういうことなの　どういうことなの",
+            "022": "そんな事じゃない！",
+            "023": "どういうことなの　どういうことなの",
+            "024": "君は誰が好き？",
+            "025": "どういうことなの　どういうことなの",
+            "026": "全部教えて",
+            "027": "どういうことなの　どういうことなの",
+            "028": "君の笑顔に",
+            "029": "どういうことなの　どういうことなの",
+            "030": "私、共起する",
+            "031": "教えてね",
+            "_en": {
+                "001": "tonari de nayandeiru watashi no shikou wa",
+                "002": "kyokushokai de yureru furiko dokei",
+                "003": "hazukashii tango o tate ni narabete",
+                "004": "tsugi no PUZZLE ni chakushu shita toko",
+                "005": "nankai na shiki de egaita aijou",
+                "006": "hito to iu kikai wa omoihaseru",
+                "007": "douiu koto na no   douiu koto na no",
+                "008": "kimi wa dare ga suki?",
+                "009": "douiu koto na no   douiu koto na no",
+                "010": "souiu imi janai!",
+                "011": "douiu koto na no   douiu koto na no",
+                "012": "kimi no konomi wa?",
+                "013": "douiu koto na no   douiu koto na no",
+                "014": "watashi, todoiteru?",
+                "015": "suuji ni tayoranai naraba",
+                "016": "taikutsu o nani ni kaereru darou",
+                "017": "fui ni me ga atte toiki kakusu",
+                "018": "soshite hito to iu kikai ni omoihaseru no ka",
+                "019": "douiu koto na no   douiu koto na no",
+                "020": "kimi wa nani ga suki?",
+                "021": "douiu koto na no   douiu koto na no",
+                "022": "sonna koto janai!",
+                "023": "douiu koto na no   douiu koto na no",
+                "024": "kimi wa dare ga suki?",
+                "025": "douiu koto na no   douiu koto na no",
+                "026": "zenbu oshiete",
+                "027": "douiu koto na no   douiu koto na no",
+                "028": "kimi no egao ni",
+                "029": "douiu koto na no   douiu koto na no",
+                "030": "watashi, kyouki suru",
+                "031": "oshiete ne"
+            }
+        },
+        "motion": {
+            "01": "PV608_DOU_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "102",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV608.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "81",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "56.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_608.ogg",
+        "song_name": "どういうことなの！？",
+        "song_name_en": "What Do You Mean!?",
+        "song_name_reading": "どういうことなの",
+        "songinfo": {
+            "arranger": "くちばしP",
+            "illustrator": "くちばしP",
+            "lyrics": "くちばしP",
+            "music": "くちばしP",
+            "_en": {
+                "arranger": "Kuchibashi P",
+                "illustrator": "Kuchibashi P",
+                "lyrics": "Kuchibashi P",
+                "music": "Kuchibashi P"
+            }
+        },
+        "sort_index": "10",
+        "sudden_timing": "0.6"
+    }
+}

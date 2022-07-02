@@ -1,0 +1,207 @@
+{
+    "pv_058": {
+        "bpm": "144",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_058_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_058_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_058_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_058_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_058_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "058",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "見つめ合う　その視線",
+            "002": "閉じた世界の中",
+            "003": "気づかない　ふりをしても",
+            "004": "酔いを悟られそう",
+            "005": "焼け付くこの心　隠して近づいて",
+            "006": "吐息感じれば　痺れるほど",
+            "007": "ありふれた恋心に　今罠を仕掛けて",
+            "008": "僅かな隙間にも　足跡残さないよ",
+            "009": "",
+            "010": "見え透いた　言葉だと",
+            "011": "君は油断してる",
+            "012": "良く知った　劇薬なら",
+            "013": "飲み干せる気がした",
+            "014": "錆びつく鎖から　逃れるあてもない",
+            "015": "響く秒針に　抗うほど",
+            "016": "たとえば深い茂みの中滑り込ませて",
+            "017": "繋いだ汗の香りにただ侵されそう",
+            "018": "",
+            "019": "ありふれた恋心に　今罠を仕掛ける",
+            "020": "僅かな隙間覗けば　捕まえて",
+            "021": "たとえば深い茂みの中滑り込ませて",
+            "022": "繋いだ汗の香りにただ侵されてる",
+            "023": "",
+            "_en": {
+                "001": "mitsumeau   sono shisen",
+                "002": "tojita sekai no naka",
+                "003": "kizukanai   furi o shitemo",
+                "004": "yoi o satoraresou",
+                "005": "yaketsuku kono kokoro   kakushite chikazuite",
+                "006": "toiki kanjireba   shibireru hodo",
+                "007": "arifureta koigokoro ni   ima wana o shikakete",
+                "008": "wazuka na sukima ni mo   ashiato nokosanai yo",
+                "009": "",
+                "010": "miesuita   kotoba da to",
+                "011": "kimi wa yudan shiteru",
+                "012": "yoku shitta   gekiyaku nara",
+                "013": "nomihoseru ki ga shita",
+                "014": "sabitsuku kusari kara   nogareru ate mo nai",
+                "015": "hibiku byoushin ni   aragau hodo",
+                "016": "tatoeba fukai shigemi no naka suberikomasete",
+                "017": "tsunaida ase no kaori ni tada okasaresou",
+                "018": "",
+                "019": "arifureta koigokoro ni   ima wana o shikakeru",
+                "020": "wazuka na sukima nozokeba   tsukamaete",
+                "021": "tatoeba fukai shigemi no naka suberikomasete",
+                "022": "tsunaida ase no kaori ni tada okasareteru",
+                "023": ""
+            }
+        },
+        "motion": {
+            "01": "PV058_KTR_00_C00_00A_P2_M",
+            "02": "PV058_KTR_00_C02_00A_P2",
+            "03": "PV058_KTR_00_C04_00A_P2",
+            "04": "PV058_KTR_00_C05_00A_P2",
+            "05": "PV058_KTR_00_C06_00A_P2_M",
+            "2P": {
+                "01": "PV058_KTR_00_C00_00A_P1_M",
+                "02": "PV058_KTR_00_C01_00A_P1",
+                "03": "PV058_KTR_00_C03_00A_P1",
+                "04": "PV058_KTR_00_C06_00A_P1_M"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV058_KTR_00_C03_00A_P1",
+                "stage": "STGD2PV058S01"
+            },
+            "length": "1"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "4",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "44",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "48",
+        "sabi": {
+            "play_time": "20.0",
+            "start_time": "37.7"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_058.ogg",
+        "song_name": "カンタレラ",
+        "song_name_en": "Cantarella",
+        "song_name_reading": "かんたれら",
+        "songinfo": {
+            "arranger": "黒うさ",
+            "illustrator": "exray",
+            "lyrics": "黒うさ",
+            "music": "黒うさ",
+            "_en": {
+                "arranger": "Kurousa",
+                "illustrator": "exray",
+                "lyrics": "Kurousa",
+                "music": "Kurousa"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv058s01.txt",
+                "stage": "STGD2PV058S01"
+            },
+            "1": {
+                "collision_file": "coli_stgd2pv058s01.txt",
+                "stage": "STGD2PV058S02"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

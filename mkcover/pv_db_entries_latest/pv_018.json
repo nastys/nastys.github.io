@@ -1,0 +1,163 @@
+{
+    "pv_018": {
+        "bpm": "80",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_018_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_018_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_018_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "length": "0"
+            }
+        },
+        "disp2d": {
+            "set_name": "018",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_034.ogg",
+                "name": "いのちの歌(リンver.)",
+                "name_en": "Song of Life(Rin Ver.)"
+            },
+            "1": {
+                "chara": "LEN",
+                "file": "rom/sound/song/pv_036.ogg",
+                "name": "いのちの歌(レンver.)",
+                "name_en": "Song of Life(Len Ver.)"
+            },
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "この世界に産まれて",
+            "002": "今もこうして生きている",
+            "003": "あれから色々あって",
+            "004": "今も僕は息をしてる",
+            "005": "何も知らない小さな子供が",
+            "006": "大きくなって一人でだって歩けるんだ",
+            "007": "花の種を蒔いたんだ",
+            "008": "綺麗な花が咲くようにと",
+            "009": "だけどなかなか咲かないんだ",
+            "010": "それでも毎日水をやり",
+            "011": "ちょっとずつ育てるんだ",
+            "012": "いつかこの僕にだって",
+            "013": "いのちが終わる時が来る",
+            "014": "そんな日が来るまでに",
+            "015": "自慢の花は出来るかな",
+            "016": "花はやがて枯れるけど",
+            "017": "沢山の種を実らせて",
+            "018": "次の未来へと託すように",
+            "019": "僕が生きた証も",
+            "020": "受け継がれるといいな",
+            "021": "永遠に繰り返す",
+            "022": "終わらない いのちの歌",
+            "023": "永遠に繰り返す",
+            "024": "終わらない いのちの歌",
+            "_en": {
+                "001": "kono sekai ni umarete",
+                "002": "ima mo koushite ikiteiru",
+                "003": "are kara iroiro atte",
+                "004": "ima mo boku wa iki o shiteru",
+                "005": "nanimo shiranai chiisa na kodomo ga",
+                "006": "ookiku natte hitori de datte arukerun da",
+                "007": "hana no tane o maitan da",
+                "008": "kirei na hana ga saku you ni to",
+                "009": "dakedo nakanaka sakanain da",
+                "010": "sore demo mainichi mizu o yari",
+                "011": "chotto zutsu sodaterun da",
+                "012": "itsuka kono boku ni datte",
+                "013": "inochi ga owaru toki ga kuru",
+                "014": "sonna hi ga kuru made ni",
+                "015": "jiman no hana wa dekiru ka na",
+                "016": "hana wa yagate kareru kedo",
+                "017": "takusan no tane o minorasete",
+                "018": "tsugi no mirai e to takusu you ni",
+                "019": "boku ga ikita akashi mo",
+                "020": "uketsugareru to ii na",
+                "021": "eien ni kurikaesu",
+                "022": "owaranai   inochi no uta",
+                "023": "towa ni kurikaesu",
+                "024": "owaranai   inochi no uta"
+            }
+        },
+        "motion": {
+            "01": "PV018_MCA00_03_10",
+            "02": "PV018_MCA00_03_11",
+            "03": "PV018_MCA00_03_12"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "17",
+        "sabi": {
+            "play_time": "17.8",
+            "start_time": "70.2"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_018.ogg",
+        "song_name": "いのちの歌",
+        "song_name_en": "Song of Life",
+        "song_name_reading": "いのちのうた",
+        "songinfo": {
+            "arranger": "トラボルタ",
+            "lyrics": "トラボルタ",
+            "music": "トラボルタ",
+            "_en": {
+                "arranger": "Toraboruta",
+                "lyrics": "Toraboruta",
+                "music": "Toraboruta"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

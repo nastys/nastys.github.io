@@ -1,0 +1,201 @@
+{
+    "pv_041": {
+        "bpm": "185",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_041_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_041_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_041_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_041_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_041_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "041",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_MIC_A_L",
+            "02": "PV_MIC_A_R",
+            "03": "PV_MIC_B_L",
+            "04": "PV_MIC_B_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "生まれたての気持ちに　どんな色を足したら",
+            "002": "綺麗な夢になるのかな",
+            "003": "また明日は新しいキャンバスに",
+            "004": "彩られてく　私の未来が",
+            "005": "ホントに欲しい物は　あなたがいつもくれる",
+            "006": "ただ歌を歌えるだけで",
+            "007": "また昨日が塗り替えられて行く",
+            "008": "音がカラフルに暴れ出すの",
+            "009": "どれだけの好きを伝えたら　いいのかな",
+            "010": "気持ちは今",
+            "011": "アカ？　アオ？　シロ？　曖昧だね",
+            "012": "この世界中で　誰よりも",
+            "013": "あなたを好きでいいかな",
+            "014": "今は　片想いだって　届かなくたって",
+            "015": "楽しく歌えれば　いいよね！",
+            "016": "いつか夢は醒めてしまうと",
+            "017": "知っているよ　だけど今なら",
+            "018": "進む先に何かがあるような",
+            "019": "気がしているんだ",
+            "020": "カラフルなステージ　音で埋めて",
+            "021": "どれだけの好きを伝えたら　いいのかな",
+            "022": "気持ちは今",
+            "023": "アカ？　アオ？　シロ？　曖昧だね",
+            "024": "この世界中で　誰よりも",
+            "025": "あなたを好きでいいかな",
+            "026": "今は　片想いだって　叶わなくたって",
+            "027": "あなたに歌を届けたい",
+            "028": "いつか　終わりが来たって",
+            "029": "楽しかったって",
+            "030": "言えるよ！　カラフル×メロディ",
+            "031": "",
+            "_en": {
+                "001": "umaretate no kimochi ni   donna iro o tashitara",
+                "002": "kirei na yume ni naru no ka na",
+                "003": "mata ashita wa atarashii CANVAS ni",
+                "004": "irodorareteku   watashi no mirai ga",
+                "005": "honto ni hoshii mono wa   anata ga itsumo kureru",
+                "006": "tada uta o utaeru dake de",
+                "007": "mata kinou ga nurikaerarete yuku",
+                "008": "oto ga COLORFUL ni abaredasu no",
+                "009": "doredake no suki o tsutaetara   ii no ka na",
+                "010": "kimochi wa ima",
+                "011": "aka?   ao?   shiro?   aimai da ne",
+                "012": "kono sekaijuu de   dare yori mo",
+                "013": "anata o suki de ii ka na",
+                "014": "ima wa   kataomoi datte   todokanakutatte",
+                "015": "tanoshiku utaereba   ii yo ne!",
+                "016": "itsuka yume wa samete shimau to",
+                "017": "shitteiru yo   dakedo ima nara",
+                "018": "susumu saki ni nanika ga aru you na",
+                "019": "ki ga shiteirun da",
+                "020": "COLORFUL na STAGE   oto de umete",
+                "021": "doredake no suki o tsutaetara   ii no ka na",
+                "022": "kimochi wa ima",
+                "023": "aka?   ao?   shiro?   aimai da ne",
+                "024": "kono sekaijuu de   dare yori mo",
+                "025": "anata o suki de ii ka na",
+                "026": "ima wa   kataomoi datte   kanawanakutatte",
+                "027": "anata ni uta o todoketai",
+                "028": "itsuka   owari ga kitatte",
+                "029": "tanoshikatta tte",
+                "030": "ieru yo!   COLORFUL × MELODY",
+                "031": ""
+            }
+        },
+        "motion": {
+            "01": "PV041_CFM_00_C00_00A_M_P1",
+            "2P": {
+                "01": "PV041_CFM_00_C00_00A_M_P2"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "53",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "7",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "33",
+        "sabi": {
+            "play_time": "32.0",
+            "start_time": "53.51"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_041.ogg",
+        "song_name": "カラフル×メロディ",
+        "song_name_en": "Colorful × Melody",
+        "song_name_reading": "からふるめろでぃ",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "guitar_player": "19's Sound Factory",
+            "illustrator": "nezuki",
+            "lyrics": "minato",
+            "manipulator": "OSTER project",
+            "music": "doriko",
+            "_en": {
+                "arranger": "OSTER project",
+                "guitar_player": "19's Sound Factory",
+                "illustrator": "nezuki",
+                "lyrics": "minato",
+                "manipulator": "OSTER project",
+                "music": "doriko"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

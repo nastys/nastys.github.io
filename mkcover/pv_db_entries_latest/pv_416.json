@@ -1,0 +1,252 @@
+{
+    "pv_416": {
+        "bpm": "276",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_416_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_416_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_416_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_416_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "416"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "000",
+            "01": "018",
+            "02": "019",
+            "03": "010"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS044"
+            },
+            "02": {
+                "stage": "STGD2NS036"
+            },
+            "03": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "length": "3"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "So shine, so bright! すぐ傍で見つめてて",
+            "002": "So sweet, so cute! ドキドキ隠せないよ",
+            "003": "So cool, so good! それって素敵だね",
+            "004": "So much loving you★ きらめいて",
+            "005": "",
+            "006": "頭の中でイマジネィト",
+            "007": "キミに はずむビート",
+            "008": "邪魔しないで アタシはね",
+            "009": "\"運命\"なんだからね",
+            "010": "",
+            "011": "クリエイティブにのろけて",
+            "012": "キミに 揺れるハート",
+            "013": "止まらないわ ときめくの",
+            "014": "\"共鳴\"期待してる",
+            "015": "",
+            "016": "夢で見たようなシーン 未来にしきつめて",
+            "017": "ココロ踊るままキミと恋のデートしよう",
+            "018": "",
+            "019": "So bright, 横顔すぐ傍で見つめて",
+            "020": "So cute, キミに胸キュンしてみてるの",
+            "021": "So good, 甘い感じもいいよね",
+            "022": "So much loving you★ きらめいて",
+            "023": "",
+            "024": "So shine, Can you see?",
+            "025": "The girl fall in love with you, baby.",
+            "026": "So sweet, Can you hear?",
+            "027": "Heart beat accelate more and more!",
+            "028": "So cool, Can you feel?",
+            "029": "Do you already decided？",
+            "030": "So much loving you★ Let us melty love!",
+            "031": "",
+            "032": "So shine, コトバじゃ表せないくらい",
+            "033": "So sweet, キミにドキドキ隠せないよ",
+            "034": "So cool, やっぱキミって素敵だね",
+            "035": "触れる手と手 とろけそう",
+            "036": "",
+            "037": "So bright, 横顔すぐ傍で見つめて",
+            "038": "So cute, キミに胸キュンしてみてるの",
+            "039": "So good, 甘い感じもいいよね",
+            "040": "So much loving you★ きらめいて!",
+            "_en": {
+                "001": "So shine, so bright!   sugu soba de mitsumetete",
+                "002": "So sweet, so cute!   dokidoki kakusenai yo",
+                "003": "So cool, so good!   sore tte suteki da ne",
+                "004": "So much loving you ★   kirameite",
+                "005": "",
+                "006": "atama no naka de imajineito",
+                "007": "kimi ni   hazumu BEAT",
+                "008": "jama shinaide   atashi wa ne",
+                "009": "\"unmei\" nan dakara ne",
+                "010": "",
+                "011": "CREATIVE ni norokete",
+                "012": "kimi ni   yureru HEART",
+                "013": "tomaranai wa   tokimeku no",
+                "014": "\"kyoumei\" kitai shiteru",
+                "015": "",
+                "016": "yume de mita you na SCENE   mirai ni shikitsumete",
+                "017": "kokoro odoru mama kimi to koi no DATE shiyou",
+                "018": "",
+                "019": "So bright,   yokogao sugu soba de mitsumete",
+                "020": "So cute,   kimi ni mune kyun shite miteru no",
+                "021": "So good,   amai kanji mo ii yo ne",
+                "022": "So much loving you ★   kirameite",
+                "023": "",
+                "024": "So shine, can you see?",
+                "025": "The girl fall in love with you, baby.",
+                "026": "So sweet, can you hear?",
+                "027": "Heart beat accelerate more and more!",
+                "028": "So cool, can you feel?",
+                "029": "Do you already decided？",
+                "030": "So much loving you ★ Let us melty love!",
+                "031": "",
+                "032": "So shine,   kotoba ja arawasenai kurai",
+                "033": "So sweet,   kimi ni dokidoki kakusenai yo",
+                "034": "So cool,   yappa kimi tte suteki da ne",
+                "035": "fureru te to te   torokesou",
+                "036": "",
+                "037": "So bright,   yokogao sugu soba de mitsumete",
+                "038": "So cute,   kimi ni mune kyun shite miteru no",
+                "039": "So good,   amai kanji mo ii yo ne",
+                "040": "So much loving you ★   kirameite!"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_01_017A",
+            "11": "CMN_EDT_01_034A",
+            "12": "CMN_MRA00_13_01",
+            "13": "CMN_MRA00_13_01",
+            "14": "CMN_MRA00_13_01",
+            "15": "CMN_EDT_01_011A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_048A",
+            "02": "CMN_MCA00_50_36",
+            "03": "CMN_MCA00_70_15",
+            "04": "CMN_MCA00_70_20",
+            "05": "CMN_EDT_01_002A",
+            "06": "CMN_EDT_01_004A",
+            "07": "CMN_EDT_01_010A",
+            "08": "CMN_EDT_01_014A",
+            "09": "CMN_EDT_01_005A",
+            "2P": {
+                "10": "CMN_EDT_01_017A",
+                "11": "CMN_EDT_01_034A",
+                "12": "CMN_MCA00_50_18_B",
+                "13": "CMN_MCA00_70_11",
+                "14": "CMN_MCA00_50_21",
+                "15": "CMN_EDT_01_011A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_01_048A",
+                "02": "CMN_MRA00_13_01",
+                "03": "CMN_MCA00_70_15",
+                "04": "CMN_MCA00_70_20",
+                "05": "CMN_EDT_01_002A",
+                "06": "CMN_EDT_01_004A",
+                "07": "CMN_EDT_01_010A",
+                "08": "CMN_EDT_01_014A",
+                "09": "CMN_EDT_01_005A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "19",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "51",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "210",
+        "sabi": {
+            "play_time": "20.0",
+            "start_time": "66.00"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_416.ogg",
+        "song_name": "So much loving you★ -DIVA Edit-",
+        "song_name_en": "So Much Loving You★ -DIVA Edit-",
+        "song_name_reading": "そーまっちらびんゆー",
+        "songinfo": {
+            "arranger": "古墳P",
+            "illustrator": "H2SO4",
+            "lyrics": "longan",
+            "music": "古墳P",
+            "pv_editor": "慶天",
+            "_en": {
+                "arranger": "Kofun P",
+                "illustrator": "AKiru",
+                "lyrics": "longan",
+                "music": "Kofun P",
+                "pv_editor": "Keiten"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "16"
+        }
+    }
+}

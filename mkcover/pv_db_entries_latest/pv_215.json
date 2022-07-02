@@ -1,0 +1,210 @@
+{
+    "pv_215": {
+        "bpm": "190",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20120528",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_215_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_215_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_215_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_215_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "君の声を聞かせて",
+            "002": "澱む心を祓って",
+            "003": "偽りのキャンバスを",
+            "004": "塗りつぶしてくんだ",
+            "005": "今日も",
+            "006": "終末のない幻想に",
+            "007": "触れた気がした",
+            "008": "「なんて呼べばいいだろう」",
+            "009": "変わらない温度",
+            "010": "微笑が内臓を",
+            "011": "食いつぶす前に",
+            "012": "今日を閉じ込めたよ",
+            "013": "馳せる未来は灰色",
+            "014": "望むなら空想",
+            "015": "寂れた嘘",
+            "016": "叶うならもっと",
+            "017": "聞かせて",
+            "018": "心から溢れてた",
+            "019": "愛しさをちりばめて",
+            "020": "君の声に重ねた",
+            "021": "恍惚は遥か",
+            "022": "形あるものならば",
+            "023": "崩れゆくものならば",
+            "024": "この両目は要らない",
+            "025": "僕を包んで",
+            "026": "Leia...",
+            "027": "針の音が止まれば",
+            "028": "この世界は終わるよ",
+            "029": "願うだけの言葉は",
+            "030": "意味を持たなかった",
+            "031": "もう少しだけ笑って",
+            "032": "もう少しだけ祈って",
+            "033": "聞こえないならもういっそ",
+            "034": "僕を殺してよ",
+            "035": "君の声を聞かせて",
+            "036": "澱む心を祓って",
+            "037": "偽りのキャンバスを",
+            "038": "君と葬るんだ",
+            "039": "君と僕の証を",
+            "040": "残す術がないなら",
+            "041": "温もりを焼き付けて",
+            "042": "僕を殺して",
+            "043": "Leia...",
+            "_en": {
+                "000": "",
+                "001": "kimi no koe o kikasete",
+                "002": "yodomu kokoro o haratte",
+                "003": "itsuwari no CANVAS o",
+                "004": "nuritsubushitekun da",
+                "005": "kyou mo",
+                "006": "shuumatsu no nai gensou ni",
+                "007": "sawareta ki ga shita",
+                "008": "\"nante yobeba ii darou\"",
+                "009": "kawaranai ondo",
+                "010": "hohoemi ga naizou o",
+                "011": "kuitsubusu mae ni",
+                "012": "kyou o tojikometa yo",
+                "013": "haseru mirai wa haiiro",
+                "014": "nozomu nara kuusou",
+                "015": "sabireta uso",
+                "016": "kanau nara motto",
+                "017": "kikasete",
+                "018": "kokoro kara afureteta",
+                "019": "itoshisa o chiribamete",
+                "020": "kimi no koe ni kasaneta",
+                "021": "koukotsu wa haruka",
+                "022": "katachi aru mono naraba",
+                "023": "kuzure yuku mono naraba",
+                "024": "kono ryoume wa iranai",
+                "025": "boku o tsutsunde",
+                "026": "Leia...",
+                "027": "hari no oto ga tomareba",
+                "028": "kono sekai wa owaru yo",
+                "029": "negau dake no kotoba wa",
+                "030": "imi o motanakatta",
+                "031": "mou sukoshi dake waratte",
+                "032": "mou sukoshi dake inotte",
+                "033": "kikoenai nara mou isso",
+                "034": "boku o koroshite yo",
+                "035": "kimi no koe o kikasete",
+                "036": "yodomu kokoro o haratte",
+                "037": "itsuwari no CANVAS o",
+                "038": "kimi to houmurun da",
+                "039": "kimi to boku no akashi o",
+                "040": "nokosu sube ga nai nara",
+                "041": "nukumori o yakitsukete",
+                "042": "boku o koroshite",
+                "043": "Leia..."
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_215.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "193",
+        "sabi": {
+            "play_time": "31",
+            "start_time": "74.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_215.ogg",
+        "song_name": "Leia",
+        "song_name_en": "Leia",
+        "song_name_reading": "れいあ",
+        "songinfo": {
+            "arranger": "ゆよゆっぺ",
+            "illustrator": "meola",
+            "lyrics": "ゆよゆっぺ",
+            "music": "ゆよゆっぺ",
+            "pv_editor": "meola",
+            "_en": {
+                "arranger": "Yuyoyuppe",
+                "illustrator": "meola",
+                "lyrics": "Yuyoyuppe",
+                "music": "Yuyoyuppe",
+                "pv_editor": "meola"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "pv_222": {
+        "bpm": "124",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_222_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_222_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_222_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_222_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "222",
+            "title_end_2d_field": "20",
+            "title_start_2d_field": "20"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "どちらに進むか決めなさいと問われ",
+            "002": "嘘をついた",
+            "003": "",
+            "004": "呼吸が出来るように",
+            "005": "生きてけるように",
+            "006": "そう言って",
+            "007": "",
+            "008": "言葉にするのは苦しかっただろう",
+            "009": "傷だらけになったままで笑っていた",
+            "010": "",
+            "011": "離れ離れになる事",
+            "012": "恐れ逃げて目を逸らした",
+            "013": "足を止め、見え隠れする犠牲・代償",
+            "014": "何の覚悟もない",
+            "015": "",
+            "016": "言葉にするのは苦しかっただろう",
+            "017": "願っているのも苦しかっただろう",
+            "018": "傷だらけになったままで笑っていた",
+            "019": "",
+            "020": "離れ離れになる事",
+            "021": "怖い怖い側に居たい、と",
+            "022": "足を止め、見え隠れする犠牲・代償",
+            "023": "何の覚悟もない",
+            "024": "",
+            "025": "何が真実だとか",
+            "026": "冷たい金属だとか",
+            "027": "見てよ、ほら見て歩いてる",
+            "028": "後ろ向いて歩いてる",
+            "029": "誰がいつ決めたのか",
+            "030": "神様は何処に居るんですか",
+            "031": "埋まらない",
+            "032": "埋まらない",
+            "033": "",
+            "034": "離れ離れ遠く離れ",
+            "035": "左側へ行った人へ",
+            "036": "最後にくれた優しさ、ここに残す",
+            "037": "色褪せないように",
+            "038": "",
+            "039": "離れ離れになる事",
+            "040": "犠牲・代償、その覚悟",
+            "041": "首から下げた愛情とブラックゴールドのリング握って",
+            "042": "足跡消えないように",
+            "_en": {
+                "001": "dochira ni susumu ka kimenasai to toware",
+                "002": "uso o tsuita",
+                "003": "",
+                "004": "iki ga dekiru you ni",
+                "005": "ikitekeru you ni",
+                "006": "sou itte",
+                "007": "",
+                "008": "kotoba ni suru no wa kurushikatta darou",
+                "009": "kizudarake ni natta mama de waratteita",
+                "010": "",
+                "011": "hanarebanare ni naru koto",
+                "012": "osore nigete me o sorashita",
+                "013": "ashi o tome, miekakure suru gisei / daishou",
+                "014": "nan no kakugo mo nai",
+                "015": "",
+                "016": "kotoba ni suru no wa kurushikatta darou",
+                "017": "negatteiru no mo kurushikatta darou",
+                "018": "kizudarake ni natta mama de waratteita",
+                "019": "",
+                "020": "hanarebanare ni naru koto",
+                "021": "kowai kowai soba ni itai, to",
+                "022": "ashi o tome, miekakure suru gisei / daishou",
+                "023": "nan no kakugo mo nai",
+                "024": "",
+                "025": "nani ga shinjitsu da toka",
+                "026": "tsumetai kinzoku da toka",
+                "027": "mite yo, hora mite aruiteru",
+                "028": "ushiro muite aruiteru",
+                "029": "dare ga itsu kimeta no ka",
+                "030": "kami-sama wa doko ni irun desu ka",
+                "031": "umaranai",
+                "032": "umaranai",
+                "033": "",
+                "034": "hanarebanare tooku hanare",
+                "035": "hidarigawa e itta hito e",
+                "036": "saigo ni kureta yasashisa, koko ni nokosu",
+                "037": "iroasenai you ni",
+                "038": "",
+                "039": "hanarebanare ni naru koto",
+                "040": "gisei / daishou, sono kakugo",
+                "041": "kubi kara sageta aijou to BLACK GOLD no RING nigitte",
+                "042": "ashiato kienai you ni"
+            }
+        },
+        "motion": {
+            "01": "PV222_BLACK"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "2330",
+                "motion": "PV222_BLACK",
+                "stage": "STGPV222S02"
+            },
+            "1": {
+                "frame": "5020",
+                "motion": "PV222_BLACK",
+                "stage": "STGPV222S02"
+            },
+            "2": {
+                "frame": "5670",
+                "motion": "PV222_BLACK",
+                "stage": "STGPV222S02"
+            },
+            "length": "3"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "7",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "180",
+        "sabi": {
+            "play_time": "21.0",
+            "start_time": "59.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_222.ogg",
+        "song_name": "ブラックゴールド",
+        "song_name_en": "Black Gold",
+        "song_name_reading": "ぶらっくごーるど",
+        "songinfo": {
+            "arranger": "otetsu",
+            "illustrator": "riria009",
+            "lyrics": "otetsu",
+            "music": "otetsu",
+            "_en": {
+                "arranger": "otetsu",
+                "illustrator": "riria009",
+                "lyrics": "otetsu",
+                "music": "otetsu"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv222s02.txt",
+                "stage": "STGPV222S02"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.55"
+    }
+}

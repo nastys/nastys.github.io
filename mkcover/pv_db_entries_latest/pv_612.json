@@ -1,0 +1,183 @@
+{
+    "pv_612": {
+        "bpm": "126",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV612_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV612_MIK_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20140807",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_612_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_612_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_612_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_612_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "612"
+        },
+        "effect_se_file_name": "rom/sound/pv612_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv612_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "得意げに呟いた",
+            "002": "心配ないからと",
+            "003": "人の少ないホームで",
+            "004": "ヘタクソに強がった",
+            "005": "唐突に鳴り響く",
+            "006": "僕を呼ぶ別れの音",
+            "007": "見慣れたその泣き顔も",
+            "008": "しばらくは見れないね",
+            "009": "声が遮られていく",
+            "010": "身振り手振りで伝える",
+            "011": "「いってらっしゃい」のサイン",
+            "012": "少しずつ小さくなってく",
+            "013": "全部置いたまま",
+            "014": "悲しくなんかないさと",
+            "015": "イヤホンで閉じ込めたよ",
+            "016": "こぼれた涙一滴の",
+            "017": "意味もわからずに",
+            "018": "タイムマシンにゆられて",
+            "019": "明日も元気で",
+            "020": "溢れる涙抑え切れず",
+            "021": "意味もわからずに",
+            "022": "タイムマシンにゆられて",
+            "023": "また戻ってくるよ",
+            "_en": {
+                "001": "tokuige ni tsubuyaita",
+                "002": "shinpai nai kara to",
+                "003": "hito no sukunai houmu de",
+                "004": "hetakuso ni tsuyogatta",
+                "005": "toutotsu ni narihibiku",
+                "006": "boku o yobu wakare no oto",
+                "007": "minareta sono nakigao mo",
+                "008": "shibaraku wa mirenai ne",
+                "009": "koe ga saegirareteiku",
+                "010": "miburi teburi de tsutaeru",
+                "011": "\"itterasshai\" no SIGN",
+                "012": "sukoshizutsu chiisaku natteku",
+                "013": "zenbu oita mama",
+                "014": "kanashiku nanka nai sa to",
+                "015": "EARPHONE de tojikometa yo",
+                "016": "koboreta namida hitoshizuku no",
+                "017": "imi mo wakarazu ni",
+                "018": "TIME MACHINE ni yurarete",
+                "019": "ashita mo genki de",
+                "020": "afureru namida osaekirezu",
+                "021": "imi mo wakarazu ni",
+                "022": "TIME MACHINE ni yurarete",
+                "023": "mata modottekuru yo"
+            }
+        },
+        "motion": {
+            "01": "PV612_TMM_P1_00",
+            "02": "PV612_TMM_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "105",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV612.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "85",
+        "sabi": {
+            "play_time": "34.0",
+            "start_time": "61.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_612.ogg",
+        "song_name": "タイムマシン",
+        "song_name_en": "Time Machine",
+        "song_name_reading": "たいむましん",
+        "songinfo": {
+            "arranger": "1640mP",
+            "illustrator": "ぎた（guitar）",
+            "lyrics": "164",
+            "music": "40mP",
+            "_en": {
+                "arranger": "1640mP",
+                "illustrator": "Gita(guitar)",
+                "lyrics": "164",
+                "music": "40mP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

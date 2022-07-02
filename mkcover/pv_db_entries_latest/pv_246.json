@@ -1,0 +1,241 @@
+{
+    "pv_246": {
+        "bpm": "170",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chrcam": {
+            "0": {
+                "chara": "MIK",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "1": {
+                "chara": "RIN",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "2": {
+                "chara": "LUK",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "3": {
+                "chara": "MEI",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "4": {
+                "chara": "NER",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "5": {
+                "chara": "HAK",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "6": {
+                "chara": "SAK",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "7": {
+                "chara": "TET",
+                "id": "0",
+                "name": "CAMPV246_BASE_A",
+                "org_name": "CAMPV246_BASE"
+            },
+            "length": "8"
+        },
+        "date": "20150408",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_246_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_246_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_246_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "246"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "KAI",
+                "file": "rom/sound/song/pv_246_kaito.ogg"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "化粧してる？ガキのくせに",
+            "002": "色気づいちゃってちょっと違和感",
+            "003": "彼氏でもできたのか？",
+            "004": "そんな妄想Sunday",
+            "005": "お気に入りのパーカー",
+            "006": "それ部屋着にしちゃってくれてますが",
+            "007": "お下がりにも慣れっ子になっちゃってんだ",
+            "008": "「使用、許可だ」って甘やかしてさ",
+            "009": "イタズラ笑顔に負けて",
+            "010": "交じりっけ無し思春期",
+            "011": "知らん顔で僕を惑わす",
+            "012": "変わらないね泣き顔",
+            "013": "余裕で負けちゃうよ",
+            "014": "嘘じゃないってマジ顔",
+            "015": "言葉にするのは恥ずかしいんだ",
+            "016": "「ついてくんな」遠ざけてた",
+            "017": "真似してフード深く被って",
+            "018": "幼かった二つの手",
+            "019": "繋いで歩けなくて",
+            "020": "お気に入りのおもちゃもだね",
+            "021": "壊され三日口も利かずに",
+            "022": "怒られても意地っ張りなっちゃっていた",
+            "023": "「しょうがないな」って今なら言える？",
+            "024": "素直な言葉に変えて",
+            "025": "照れ隠し反抗期",
+            "026": "知らん顔で無邪気に笑う",
+            "027": "変わらないね明日も",
+            "028": "未来も当てちゃうよ",
+            "029": "嘘じゃないってマジ顔",
+            "030": "ずっとね隣でいつも見てた",
+            "031": "オトナだってフリしたり",
+            "032": "コドモだってフリしたり",
+            "033": "変わらないで泣き顔",
+            "034": "たまには悪くない",
+            "035": "さあ言葉にするから",
+            "036": "「大切だよ」これからも",
+            "037": "変わらないね明日も",
+            "038": "ずっとね隣でいつも見てる",
+            "_en": {
+                "001": "keshou shiteru? gaki no kuse ni",
+                "002": "irokezuichatte chotto iwakan",
+                "003": "kareshi demo dekita no ka?",
+                "004": "sonna mousou SUNDAY",
+                "005": "okiniiri no PARKA",
+                "006": "sore heyagi ni shichatte kuretemasu ga",
+                "007": "osagari ni mo narekko ni nacchatten da",
+                "008": "\"shiyou, kyoka da\" tte amayakashite sa",
+                "009": "itazura egao ni makete",
+                "010": "majirikke nashi shishunki",
+                "011": "shirankao de boku o madowasu",
+                "012": "kawaranai ne nakigao",
+                "013": "yoyuu de makechau yo",
+                "014": "uso janai tte majigao",
+                "015": "kotoba ni suru no wa hazukashiin da",
+                "016": "\"tsuite kunna\" toozaketeta",
+                "017": "mane shite HOOD fukaku kabutte",
+                "018": "osanakatta futatsu no te",
+                "019": "tsunaide arukenakute",
+                "020": "okiniiri no omocha mo da ne",
+                "021": "kowasare mikka kuchi mo kikazuni",
+                "022": "okoraretemo ijippari nacchatteita",
+                "023": "\"shou ga nai na\" tte ima nara ieru?",
+                "024": "sunao na kotoba ni kaete",
+                "025": "terekakushi hankouki",
+                "026": "shiran kao de mujaki ni warau",
+                "027": "kawaranai ne ashita mo",
+                "028": "mirai mo atechau yo",
+                "029": "uso janai tte majigao",
+                "030": "zutto ne tonari de itsumo miteta",
+                "031": "otona datte furi shitari",
+                "032": "kodomo datte furi shitari",
+                "033": "kawaranaide nakigao",
+                "034": "tama ni wa waruku nai",
+                "035": "saa kotoba ni suru kara",
+                "036": "\"taisetsu da yo\" kore kara mo",
+                "037": "kawaranai ne ashita mo",
+                "038": "zutto ne tonari de itsumo miteru"
+            }
+        },
+        "motion": {
+            "01": "PV246_TKS"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "29",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV246.bin"
+        },
+        "rank_board_id": "133",
+        "sabi": {
+            "play_time": "26.8",
+            "start_time": "52.2"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_246.ogg",
+        "song_name": "テレカクシ思春期",
+        "song_name_en": "Terekakushi Shishunki",
+        "song_name_reading": "てれかくしししゅんき",
+        "songinfo": {
+            "arranger": "HoneyWorks",
+            "illustrator": "ヤマコ",
+            "lyrics": "HoneyWorks",
+            "music": "HoneyWorks",
+            "_en": {
+                "arranger": "HoneyWorks",
+                "illustrator": "Yamako",
+                "lyrics": "HoneyWorks",
+                "music": "HoneyWorks"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "pv_409": {
+        "bpm": "180",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_409_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_409_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_409_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_409_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "409"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "spr_set_back": "SPR_EDIT_PVBACK116"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "海でも山でも",
+            "002": "出てくる出てくる",
+            "003": "うちゅうのほうそく",
+            "004": "乱れる乱れる",
+            "005": "お花がいっぱい",
+            "006": "トラウマトラウマ",
+            "007": "時間があぶない",
+            "008": "みなぎるみなぎる",
+            "009": "どうしてこうなった",
+            "010": "どうしてこうなった",
+            "011": "上でも下でも　あせりは禁物",
+            "012": "あたまがあたまが　渋みのフューチャー",
+            "013": "前言撤回　でたらめばっかり",
+            "014": "ことばがあぶない　わっしょいわっしょい",
+            "015": "どうしてこうなった",
+            "016": "どうしてこうなった",
+            "017": "決定的　致命的",
+            "018": "消したい過去からこんにちは",
+            "019": "前後不覚でもういっかい",
+            "020": "見てない間にどうしたの",
+            "021": "本気を出して知らん顔",
+            "022": "いつまで予定がつまってる",
+            "023": "さんざん悩んで突き進む",
+            "024": "流れに乗って震えてる",
+            "025": "ここでもそこでも",
+            "026": "すぐまたはじまる",
+            "027": "おちつけおちつけ",
+            "028": "エニグマ状態",
+            "029": "誰得誰得",
+            "030": "なんでもあります",
+            "031": "近くで遠くで",
+            "032": "視界は良好",
+            "033": "どうしてこうなった",
+            "034": "どうしてこうなった",
+            "035": "どうしたいのかわからない",
+            "036": "ぶっちゃけ意外に快適",
+            "037": "ありをりはべりいまそがり",
+            "038": "神経質な笑い方",
+            "039": "あなたも出来る宇宙人",
+            "040": "明日からこちらになります",
+            "041": "大きな声でごあいさつ",
+            "042": "よこしまな情熱もやして",
+            "043": "いきすぎてもう帰れない",
+            "044": "3時のおやつはカステラ",
+            "045": "千年記念のたまゆら",
+            "046": "見るからに増えてる増えてる",
+            "047": "それではこれは何の花",
+            "048": "クイズに答えて100年目",
+            "049": "どうしてどうしてこうなった",
+            "050": "どうして　こう　なった",
+            "_en": {
+                "001": "umi demo yama demo",
+                "002": "dete kuru dete kuru",
+                "003": "uchuu no housoku",
+                "004": "midareru midareru",
+                "005": "ohana ga ippai",
+                "006": "TRAUMA TRAUMA",
+                "007": "jikan ga abunai",
+                "008": "minagiru minagiru",
+                "009": "doushite kou natta",
+                "010": "doushite kou natta",
+                "011": "ue demo shita demo   aseri wa kinmotsu",
+                "012": "atama ga atama ga   shibumi no FUTURE",
+                "013": "zengen tekkai   detarame bakkari",
+                "014": "kotoba ga abunai   wasshoi wasshoi",
+                "015": "doushite kou natta",
+                "016": "doushite kou natta",
+                "017": "ketteiteki   chimeiteki",
+                "018": "keshitai kako kara konnichiwa",
+                "019": "zengo fukaku de mou ikkai",
+                "020": "mitenai aida ni doushita no",
+                "021": "honki o dashite shirankao",
+                "022": "itsumade yotei ga tsumatteru",
+                "023": "sanzan nayande tsukisusumu",
+                "024": "nagare ni notte furueteru",
+                "025": "koko demo soko demo",
+                "026": "sugu mata hajimaru",
+                "027": "ochitsuke ochitsuke",
+                "028": "ENIGMA joutai",
+                "029": "daretoku daretoku",
+                "030": "nandemo arimasu",
+                "031": "chikaku de tooku de",
+                "032": "shikai wa ryoukou",
+                "033": "doushite kou natta",
+                "034": "doushite kou natta",
+                "035": "doushitai no ka wakaranai",
+                "036": "bucchake igai ni kaiteki",
+                "037": "ari wori haberi imasogari",
+                "038": "shinkeishitsu na waraikata",
+                "039": "anata mo dekiru uchuujin",
+                "040": "ashita kara kochira ni narimasu",
+                "041": "ookina koe de goaisatsu",
+                "042": "yokoshima na jounetsu moyashite",
+                "043": "ikisugite mou kaerenai",
+                "044": "sanji no oyatsu wa kasutera",
+                "045": "sennen kinen no tamayura",
+                "046": "miru kara ni fueteru fueteru",
+                "047": "soredewa kore wa nan no hana",
+                "048": "QUIZ ni kotaete hyakunenme",
+                "049": "doushite doushite kou natta",
+                "050": "doushite   kou   natta"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_26_A",
+            "11": "CMN_MCA00_50_26_B",
+            "12": "CMN_MCA00_50_34",
+            "13": "CMN_MCA00_50_56_B",
+            "14": "CMN_MCA00_70_11",
+            "15": "CMN_MCA00_50_37",
+            "16": "CMN_MCA00_70_29",
+            "17": "CMN_MCA00_70_23",
+            "18": "CMN_MCA00_50_43",
+            "19": "CMN_MCA00_50_36",
+            "20": "CMN_MCA00_50_13",
+            "21": "CMN_MCA00_50_12",
+            "22": "CMN_MCA00_70_25",
+            "23": "CMN_MCA00_50_32",
+            "24": "CMN_MCA00_50_41",
+            "25": "CMN_MCA00_50_55",
+            "26": "CMN_MCA00_50_23",
+            "27": "CMN_MCA00_50_42",
+            "28": "CMN_MCA00_70_14",
+            "29": "CMN_MCA00_70_20",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_22",
+            "02": "CMN_MCA00_50_19",
+            "03": "CMN_MCA00_50_35",
+            "04": "CMN_MCA00_50_50",
+            "05": "CMN_MCA00_50_57",
+            "06": "CMN_MCA00_50_56_A",
+            "07": "CMN_MCA00_50_31",
+            "08": "CMN_MCA00_50_27",
+            "09": "CMN_MCA00_50_29"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "38",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "203",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "64.0"
+        },
+        "se_name": "01_button1",
+        "song_file_name": "rom/sound/song/pv_409.ogg",
+        "song_name": "どうしてこうなった",
+        "song_name_en": "How'd It Get To Be Like This?",
+        "song_name_reading": "どうしてこうなった",
+        "songinfo": {
+            "arranger": "うどんゲルゲ",
+            "illustrator": "うどんゲルゲ",
+            "lyrics": "うどんゲルゲ",
+            "music": "うどんゲルゲ",
+            "pv_editor": "さばみそ",
+            "_en": {
+                "arranger": "Udongerge",
+                "illustrator": "Udongeruge",
+                "lyrics": "Udongerge",
+                "music": "Udongerge",
+                "pv_editor": "Sabamiso"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "7"
+        }
+    }
+}

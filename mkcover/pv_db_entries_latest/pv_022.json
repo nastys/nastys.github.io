@@ -1,0 +1,175 @@
+{
+    "pv_022": {
+        "bpm": "133",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_022_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_022_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_022_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_022_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "title_end_3d_field": "2",
+            "title_start_3d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "MIC_L",
+            "02": "MIC_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ひ・み・つ",
+            "002": "挨拶に戸惑う",
+            "003": "あなたを見ているだけで",
+            "004": "言えない秘密たちが生まれます",
+            "005": "そよ風に囁く",
+            "006": "お願い 私よ咲いて",
+            "007": "気がついてくれるなら花になり",
+            "008": "ひらり揺れたいわ",
+            "009": "新しい香りで",
+            "010": "何か始まると 信じたくなる季節よ",
+            "011": "かわれ…かわれ…",
+            "012": "めぐり会えた今の色",
+            "013": "淡く儚くて 切ないけど消えてしまう",
+            "014": "そして…そして…",
+            "015": "また流れる愛のうた",
+            "016": "春がいけないの",
+            "017": "いけないから私は無実",
+            "018": "穏やかな目覚めは",
+            "019": "あなたと眠りの国で",
+            "020": "特別な約束をしたからね",
+            "021": "青空は正しい",
+            "022": "教えて 私のこころ",
+            "023": "とまらない溜息を隠すには",
+            "024": "ゆるり溶けたいわ",
+            "025": "新しい気持ちで",
+            "026": "何が始まるの 分からないからいいのよ",
+            "027": "あした…あした…",
+            "028": "誰かいつか秘めた謎",
+            "029": "解いてあげたいな 想いがまだ熱いうちに",
+            "030": "それは…それは…",
+            "031": "感じるから同じ夢",
+            "032": "春の遊びなら",
+            "033": "遊びながらあなたを待つの",
+            "_en": {
+                "001": "hi-mi-tsu",
+                "002": "aisatsu ni tomadou",
+                "003": "anata o miteiru dake de",
+                "004": "ienai himitsu tachi ga umaremasu",
+                "005": "soyokaze ni sasayaku",
+                "006": "onegai   watashi yo saite",
+                "007": "ki ga tsuite kureru nara hana ni nari",
+                "008": "hirari yuretai wa",
+                "009": "atarashii kaori de",
+                "010": "nanika hajimaru to   shinjitakunaru kisetsu yo",
+                "011": "kaware... kaware...",
+                "012": "meguriaeta ima no iro",
+                "013": "awaku hakanakute   setsunai kedo kiete shimau",
+                "014": "soshite... soshite...",
+                "015": "mata nagareru ai no uta",
+                "016": "haru ga ikenai no",
+                "017": "ikenai kara watashi wa mujitsu",
+                "018": "odayaka na mezame wa",
+                "019": "anata to nemuri no kuni de",
+                "020": "tokubetsu na yakusoku o shita kara ne",
+                "021": "aozora wa tadashii",
+                "022": "oshiete   watashi no kokoro",
+                "023": "tomaranai tameiki o kakusu ni wa",
+                "024": "yururi toketai wa",
+                "025": "atarashii kimochi de",
+                "026": "nani ga hajimaru no   wakaranai kara ii no yo",
+                "027": "ashita... ashita...",
+                "028": "dareka itsuka himeta nazo",
+                "029": "toite agetai na   omoi ga mada atsui uchi ni",
+                "030": "sore wa... sore wa...",
+                "031": "kanjiru kara onaji yume",
+                "032": "haru no asobi nara",
+                "033": "asobinagara anata o matsu no"
+            }
+        },
+        "motion": {
+            "01": "PV022_MCA00_04_20"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "21",
+        "sabi": {
+            "play_time": "34.0",
+            "start_time": "70.5"
+        },
+        "se_name": "06_button6",
+        "song_file_name": "rom/sound/song/pv_022.ogg",
+        "song_name": "The secret garden",
+        "song_name_en": "The secret garden",
+        "song_name_reading": "しーくれっとがーでん",
+        "songinfo": {
+            "arranger": "神前 暁",
+            "lyrics": "畑 亜貴",
+            "manipulator": "Otomania",
+            "music": "神前 暁",
+            "_en": {
+                "arranger": "Satoru Kosaki",
+                "lyrics": "Aki Hata",
+                "manipulator": "Otomania",
+                "music": "Satoru Kosaki"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

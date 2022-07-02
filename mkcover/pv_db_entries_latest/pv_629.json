@@ -1,0 +1,231 @@
+{
+    "pv_629": {
+        "bpm": "220",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140210",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_629_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_629_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_629_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "629"
+        },
+        "effect_se_file_name": "rom/sound/pv629_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv629_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "フラグ・メント　かきあつめてさ",
+            "002": "あつくなりすぎ　フリーズしてさ",
+            "003": "おかあさん（マザー・グース）　あらわれてさ",
+            "004": "ねむるフリをして　やりすごしてさ",
+            "005": "つまづくのが　おそろしくてさ",
+            "006": "ゆびゆびさきで　じげん　またいでさ",
+            "007": "そとのせかい　くらいからさ",
+            "008": "あかるいリズムで　ごまかしてさ",
+            "009": "あまりにも　いごこちが　よかったので",
+            "010": "いつまでも　\"ここ\"に　いたいと　おもった―",
+            "011": "イチばんぼしに　せをむけて　ララ",
+            "012": "ニしゅうめの　まがりかど　のそば",
+            "013": "サンかい　『ノー』　　とくりかえす",
+            "014": "シってるのかい？　ゴかいを　とく　コマンド",
+            "015": "まる　ばつ　さんかく　しかく　ララ",
+            "016": "やじるしは　ひだりみぎに",
+            "017": "まほうの　ボタンに　よろしくね",
+            "018": "ウタウ　マワル　テラス　オドル",
+            "019": "ヒカル　ハシル　コノ",
+            "020": "ビビビビィト　コンティニューズ！",
+            "021": "ガラスのキキュウ　みうしなってさ",
+            "022": "ツキのフネは　ねむりにつくさ",
+            "023": "ホシのカケラは　すててきたさ",
+            "024": "ココロのトビラに　カギかけた",
+            "025": "じかんのパズル　ぬけだせなくなって",
+            "026": "おもいでは　ヨルのサキのサキ―",
+            "027": "ロクでなし　トラップ　はつどう　ララ",
+            "028": "ナナつの　オトは　しらんぷり",
+            "029": "ヤっつけて　クれないか",
+            "030": "ジュウでんちが　なくなって　しまうよ",
+            "031": "アカ　アオ　ミドリに　ピンク　ララ",
+            "032": "まざっちゃって　よくわからない！",
+            "033": "まほうの　ボタンに　よろしくね",
+            "034": "ウタウ　マワル　テラス　オドル",
+            "035": "ヒカル　ハシル　コノ",
+            "036": "ビビビビィト　コンティニューズ！",
+            "037": "イチばんぼしに　せをむけて　ララ",
+            "038": "ニしゅうめの　まがりかど　のそば",
+            "039": "サンかい　『ノー』　　とくりかえす",
+            "040": "シってるのかい？　ゴかいを　とく　コマンド",
+            "041": "ロクでなし　トラップ　はつどう　ララ",
+            "042": "ナナつの　オトは　しらんぷり",
+            "043": "ヤっつけて　クれないか",
+            "044": "ジュウでんちが　なくなって　しまうよ",
+            "045": "こんなに　せかいを",
+            "046": "i　してたのに　いたのに",
+            "047": "うちゅうは　しんじつは",
+            "048": "どこにあるのか　わからない！　ああ",
+            "049": "かおも　なまえも　みぎも　ひだりも",
+            "050": "おもいだせないんだ",
+            "051": "ひとりきり　ネガポジィ",
+            "052": "ヨルノ　サキノ　サキノ　サキノ",
+            "053": "サキノ　サキノ　サキ",
+            "054": "ビビビビィト　コンティニューズ！",
+            "055": "ビビビビィト　コンティニューズ！",
+            "056": "ビビビビィト　コンティニューズ！",
+            "057": "ビビビビィト　コンティニューズ！",
+            "_en": {
+                "001": "FRAG/MENT   kakiatsumete sa",
+                "002": "atsukunarisugi   FREEZE shite sa",
+                "003": "MOTHER GOOSE   arawarete sa",
+                "004": "nemuru furi o shite   yarisugoshite sa",
+                "005": "tsumazuku no ga   osoroshikute sa",
+                "006": "yubi yubisaki de   jigen   mataide sa",
+                "007": "soto no sekai   kurai kara sa",
+                "008": "akarui RHYTHM de   gomakashite sa",
+                "009": "amarinimo   igokochi ga   yokatta no de",
+                "010": "itsumademo   \"koko\" ni itai to omotta―",
+                "011": "ichiban boshi ni   se o mukete   La La",
+                "012": "nishuume no   magarikado   no soba",
+                "013": "sankai \"NO\"   to kurikaesu",
+                "014": "shitteru no kai?   gokai o   toku   COMMAND",
+                "015": "maru   batsu   sankaku   shikaku   La La",
+                "016": "yajirushi wa   hidarimigi ni",
+                "017": "mahou no   BUTTON ni   yoroshiku ne",
+                "018": "utau   mawaru   terasu   odoru",
+                "019": "hikaru   hashiru   kono",
+                "020": "bibibibiito   CONTINUES!",
+                "021": "GLASS no kikyuu   miushinatte sa",
+                "022": "tsuki no fune wa   nemuri ni tsuku sa",
+                "023": "hoshi no kakera wa   sutete kita sa",
+                "024": "kokoro no tobira ni   kagi kaketa",
+                "025": "jikan no PUZZLE   nukedasenakunatte",
+                "026": "omoide wa   yoru no saki no saki―",
+                "027": "rokudenashi   TRAP   hatsudou   La La",
+                "028": "nanatsu no   oto wa   shiranpuri",
+                "029": "yattsukete kurenai ka",
+                "030": "juudenchi ga   nakunatte   shimau yo",
+                "031": "aka   ao   midori ni   PINK   La La",
+                "032": "mazacchatte   yoku wakaranai!",
+                "033": "mahou no   BUTTON ni   yoroshiku ne",
+                "034": "utau   mawaru   terasu   odoru",
+                "035": "hikaru   hashiru   kono",
+                "036": "bibibibiito   CONTINUES!",
+                "037": "ichibanboshi ni   se o mukete   La La",
+                "038": "nishuume no   magarikado   no soba",
+                "039": "sankai   \"NO\"   to kurikaesu",
+                "040": "shitteru no kai?   gokai o   toku   COMMAND",
+                "041": "rokudenashi   TRAP   hatsudou   La La",
+                "042": "nanatsu no   oto wa   shiranpuri",
+                "043": "yattsukete   kurenai ka",
+                "044": "juudenchi ga   nakunatte   shimau yo",
+                "045": "konna ni   sekai o",
+                "046": "\"I\" shiteta no ni   ita no ni",
+                "047": "uchuu wa   shinjitsu wa",
+                "048": "doko ni aru no ka   wakaranai!   aah!",
+                "049": "kao mo   namae mo   migi mo   hidari mo",
+                "050": "omoidasenain da",
+                "051": "hitorikiri   negapojii",
+                "052": "yoru no   saki no   saki no   saki no",
+                "053": "saki no   saki no   saki",
+                "054": "bibibibiito   CONTINUES!",
+                "055": "bibibibiito   CONTINUES!",
+                "056": "bibibibiito   CONTINUES!",
+                "057": "bibibibiito   CONTINUES!"
+            }
+        },
+        "motion": {
+            "01": "PV629_NGP_P1_00",
+            "2P": {
+                "01": "PV629_NGP_P2_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "106",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV629.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "102",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "27.0"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_629.ogg",
+        "song_name": "ネガポジ＊コンティニューズ",
+        "song_name_en": "Negaposi＊Continues",
+        "song_name_reading": "ねがぽじこんてぃにゅーず",
+        "songinfo": {
+            "arranger": "sasakure.UK",
+            "illustrator": "ChaKoro",
+            "lyrics": "sasakure.UK",
+            "music": "sasakure.UK",
+            "_en": {
+                "arranger": "sasakure.UK",
+                "illustrator": "ChaKoro",
+                "lyrics": "sasakure.UK",
+                "music": "sasakure.UK"
+            }
+        },
+        "sudden_timing": "0.57"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "pv_638": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_638_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_638_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_638_extreme_1.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_638_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_638_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "638",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "1"
+        },
+        "effect_se_file_name": "rom/sound/pv638_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv638_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "形のない気持ち忘れないように",
+            "002": "決まりきったレイアウトを消した",
+            "003": "ふと口ずさんだフレーズを掴まえて",
+            "004": "胸に秘めた言葉乗せ空に解き放つの",
+            "005": "君に伝えたいことが",
+            "006": "君に届けたいことが",
+            "007": "たくさんの点は線になって",
+            "008": "遠く彼方へと響く",
+            "009": "君に伝えたい言葉",
+            "010": "君に届けたい音が",
+            "011": "いくつもの線は円になって",
+            "012": "全て繋げてく　どこにだって",
+            "013": "奏でていた　変わらない日々を疑わずに",
+            "014": "朝は誰かがくれるものだと思ってた",
+            "015": "一瞬でも信じた音　景色を揺らすの",
+            "016": "教えてよ　君だけの世界",
+            "017": "君が伝えたいことは",
+            "018": "君が届けたいことは",
+            "019": "たくさんの点は線になって",
+            "020": "遠く彼方へと響く",
+            "021": "君が伝えたい言葉",
+            "022": "君が届けたい音は",
+            "023": "いくつもの線は円になって",
+            "024": "全て繋げてく　どこにだって",
+            "_en": {
+                "001": "katachi no nai kimochi wasurenai you ni",
+                "002": "kimarikitta LAYOUT o keshita",
+                "003": "futo kuchizusanda PHRASE o tsukamaete",
+                "004": "mune ni himeta kotoba nose sora ni tokihanatsu no",
+                "005": "kimi ni tsutaetai koto ga",
+                "006": "kimi ni todoketai koto ga",
+                "007": "takusan no ten wa sen ni natte",
+                "008": "tooku kanata e to hibiku",
+                "009": "kimi ni tsutaetai kotoba",
+                "010": "kimi ni todoketai oto ga",
+                "011": "ikutsumo no sen wa en ni natte",
+                "012": "subete tsunageteku   doko ni datte",
+                "013": "kanadeteita   kawaranai hibi o utagawazu ni",
+                "014": "asa wa dareka ga kureru mono da to omotteta",
+                "015": "isshun demo shinjita oto   keshiki o yurasu no",
+                "016": "oshiete yo   kimi dake no sekai",
+                "017": "kimi ga tsutaetai koto wa",
+                "018": "kimi ga todoketai koto wa",
+                "019": "takusan no ten wa sen ni natte",
+                "020": "tooku kanata e to hibiku",
+                "021": "kimi ga tsutaetai kotoba",
+                "022": "kimi ga todoketai oto wa",
+                "023": "ikutsumo no sen wa en ni natte",
+                "024": "subete tsunageteku   doko ni datte"
+            }
+        },
+        "motion": {
+            "01": "PV638_TYW_P1_00",
+            "02": "PV638_TYW_P1_10"
+        },
+        "npr": {
+            "chara_lightness": "1.05"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "96",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV638.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "106",
+        "s3d": {
+            "screen_dist": "4.0"
+        },
+        "sabi": {
+            "play_time": "34.0",
+            "start_time": "49.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_638.ogg",
+        "song_name": "Tell Your World",
+        "song_name_en": "Tell Your World",
+        "song_name_reading": "てるゆあわーるど",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "150"
+                },
+                "length": "1"
+            },
+            "max_frame": "11040",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "0.06"
+        },
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "mebae",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "mebae",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sort_index": "32",
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,256 @@
+{
+    "pv_083": {
+        "bpm": "150",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_083_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_083_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_083_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_083_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "083",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hand_item": {
+            "01": "PV_FLOWERPOT_L",
+            "02": "PV_FLOWERPOT_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "シェルターのおと　ひとりめがさめた",
+            "002": "ピピピピ　とくにいじょうないようだ",
+            "003": "ポストのなかは　きっとカラッポだ",
+            "004": "うえきばちのめ　きょうもでてこないや",
+            "005": "",
+            "006": "やさしい　あおぞら　おっこちて",
+            "007": "しずか　しずかな　ほしになる",
+            "008": "",
+            "009": "つなぐつながる　ユメとメトロジカ",
+            "010": "マエか　ウシロか　すすめテクノポリカ",
+            "011": "",
+            "012": "\"まるばつ　さかだち　おつきさま\"",
+            "013": "キミをキミを　さがしにいきたいの",
+            "014": "たのしいはなし　もっとしたいの　したいの",
+            "016": "ヒトリボッチのベッドに　オハヨーハヨー",
+            "017": "シーラカンスのシッポに　オハヨーハヨー",
+            "018": "スフィンクスのナゾナゾに　オハヨーハヨー",
+            "019": "メモリのなかのキミに　オハヨーハヨー",
+            "021": "♪♪♪♪♪...",
+            "023": "しずかに　ねむる　きみをみた",
+            "024": "ポタリ　ポタリ　オトをたててシズク",
+            "025": "どうして　かなしいよ",
+            "026": "こんなに　コンナニ　　コ　ンナ　ニ....",
+            "027": "",
+            "028": "チキュウぼっこのラブに　オハヨーハヨー",
+            "029": "あさとひるとよるに　オハヨーハヨー",
+            "030": "ウチュウギンガのリズムに　オハヨーハヨー",
+            "031": "アダムとイブのあいだに　オハヨーハヨー",
+            "033": "あいたかったの\"キミ\"に　オハヨーハヨー",
+            "034": "うまれたばかりの\"キミ\"に　オハヨーハヨー…",
+            "_en": {
+                "000": "",
+                "001": "SHELTER no oto   hitori me ga sameta",
+                "002": "pipipipi   toku ni ijou nai you da",
+                "003": "POST no naka wa   kitto karappo da",
+                "004": "uekibachi no me   kyou mo detekonai ya",
+                "005": "",
+                "006": "yasashii   aozora   okkochite",
+                "007": "shizuka   shizuka na   hoshi ni naru",
+                "008": "",
+                "009": "tsunagu tsunagaru   yume to metorojika",
+                "010": "mae ka   ushiro ka   susume tekunoporika",
+                "011": "",
+                "012": "\"maru batsu   sakadachi   otsuki-sama\"",
+                "013": "kimi o kimi o   sagashi ni ikitai no",
+                "014": "tanoshii hanashi   motto shitai no   shitai no",
+                "016": "hitoribocchi no BED ni   ohayoo hayoo",
+                "017": "COELACANTH no shippo ni   ohayoo hayoo",
+                "018": "SPHINX no nazonazo ni   ohayoo hayoo",
+                "019": "MEMORY no naka no kimi ni   ohayoo hayoo",
+                "021": "♪♪♪♪♪...",
+                "023": "shizuka ni   nemuru   kimi o mita",
+                "024": "potari   potari   oto o tatete shizuku",
+                "025": "doushite   kanashii yo",
+                "026": "konna ni   konna ni   kon   na   ni....",
+                "027": "",
+                "028": "chikyuubokko no LOVE ni   ohayoo hayoo",
+                "029": "asa to hiru to yoru ni   ohayoo hayoo",
+                "030": "uchuu ginga no RHYTHM ni   ohayoo hayoo",
+                "031": "ADAM to EVE no aida ni   ohayoo hayoo",
+                "033": "aitakatta no \"kimi\" ni   ohayoo hayoo",
+                "034": "umareta bakari no \"kimi\"   ni ohayoo hayoo..."
+            }
+        },
+        "motion": {
+            "10": "PV083_HPN_00_C09_00A",
+            "11": "PV083_HPN_00_C10_00A",
+            "12": "PV083_HPN_00_C11_00A",
+            "13": "PV083_HPN_00_C12_00A",
+            "14": "PV083_HPN_00_C13_00A",
+            "15": "PV083_HPN_00_C14_00A",
+            "16": "PV083_HPN_00_C15_00A",
+            "17": "PV083_HPN_00_C16_00A",
+            "18": "PV083_HPN_00_C17_00A",
+            "19": "PV083_HPN_00_C18_00A",
+            "20": "PV083_HPN_00_C19_00A",
+            "21": "PV083_HPN_00_C20_00A",
+            "22": "PV083_HPN_00_C05_01A",
+            "23": "PV083_HPN_00_C13_01A",
+            "00": "CMN_MRA00_13_01",
+            "01": "PV083_HPN_00_C00_00A",
+            "02": "PV083_HPN_00_C01_00A",
+            "03": "PV083_HPN_00_C02_00A",
+            "04": "PV083_HPN_00_C03_00A",
+            "05": "PV083_HPN_00_C04_00A",
+            "06": "PV083_HPN_00_C05_00A",
+            "07": "PV083_HPN_00_C06_00A",
+            "08": "PV083_HPN_00_C07_00A",
+            "09": "PV083_HPN_00_C08_00A"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "470",
+                "motion": "PV083_HPN_00_C00_00A",
+                "stage": "STGPV083S18_CLONE1"
+            },
+            "1": {
+                "frame": "752",
+                "motion": "PV083_HPN_00_C00_00A",
+                "stage": "STGPV083S18"
+            },
+            "2": {
+                "frame": "0",
+                "motion": "PV083_HPN_00_C18_00A",
+                "stage": "STGNS098"
+            },
+            "3": {
+                "frame": "0",
+                "motion": "PV083_HPN_00_C08_00A",
+                "stage": "STGPV083S05"
+            },
+            "4": {
+                "frame": "258",
+                "motion": "PV083_HPN_00_C08_00A",
+                "stage": "STGPV083S05"
+            },
+            "5": {
+                "frame": "688",
+                "motion": "PV083_HPN_00_C00_00A",
+                "stage": "STGPV083S18_CLONE1"
+            },
+            "6": {
+                "frame": "618",
+                "motion": "PV083_HPN_00_C00_00A",
+                "stage": "STGPV083S18_CLONE1"
+            },
+            "length": "7"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "69",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "151",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "71.2"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_083.ogg",
+        "song_name": "*ハロー、プラネット。(I.M.PLSE-EDIT)",
+        "song_name_en": "*Hello, Planet.",
+        "song_name_reading": "はろーぷらねっと",
+        "song_name_reading_en": "Hello Planet",
+        "songinfo": {
+            "arranger": "sasakure.UK",
+            "illustrator": "茶ころ",
+            "lyrics": "sasakure.UK",
+            "music": "sasakure.UK",
+            "_en": {
+                "arranger": "sasakure.UK",
+                "illustrator": "Chakoro",
+                "lyrics": "sasakure.UK",
+                "music": "sasakure.UK"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv083s18_clone1.txt",
+                "stage": "STGPV083S18_CLONE1"
+            },
+            "1": {
+                "collision_file": "coli_stgpv083s18_clone1.txt",
+                "stage": "STGPV083S04"
+            },
+            "2": {
+                "collision_file": "coli_stgpv083s18.txt",
+                "stage": "STGPV083S18"
+            },
+            "3": {
+                "collision_file": "coli_pv083_stgns098.txt",
+                "stage": "STGNS098"
+            },
+            "4": {
+                "collision_file": "coli_stgpv083s05.txt",
+                "stage": "STGPV083S05"
+            },
+            "length": "5"
+        },
+        "sudden_timing": "0.6"
+    }
+}

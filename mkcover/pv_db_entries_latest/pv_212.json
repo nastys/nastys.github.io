@@ -1,0 +1,197 @@
+{
+    "pv_212": {
+        "bpm": "220",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151022",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_212_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_212_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_212_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_212_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "212"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2PV212S01"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "小指を絡ませたら　大人の夜始まる",
+            "002": "照らされたライトの下で",
+            "003": "唇からこぼれ落ちた吐息",
+            "004": "彩られてく　二人の世界が",
+            "005": "本当に欲しいものは　みんながくれる視線",
+            "006": "ただ見つめられてるだけで",
+            "007": "胸がぎゅっと締め付けられていく",
+            "008": "ステージの上で始まる夢",
+            "009": "どれだけの好きを伝えたら良いのかな",
+            "010": "気持ちは今",
+            "011": "アカ？アオ？シロ？　曖昧だね",
+            "012": "輝いていたい　いつまでも",
+            "013": "愛してもらえる様に",
+            "014": "いつも　ここに来たときは　寂しい顔でも",
+            "015": "二人で変えてみせるから",
+            "016": "いつか夢は醒めてしまうと",
+            "017": "知っているよ　だけど今だけ",
+            "018": "揺れる心抱きしめていたいよ",
+            "019": "全てを捨てても",
+            "020": "カラフルな感情　溢れていく",
+            "021": "どれだけの好きを伝えたらいいのかな？",
+            "022": "気持ちは今",
+            "023": "アカ？アオ？シロ？　曖昧だね",
+            "024": "輝いていたい　いつまでも",
+            "025": "愛してもらえる様に",
+            "026": "いつも　ここに来た時は　二人で待ってる",
+            "027": "みんなで愛を育てよう",
+            "028": "いつか　また来た時には　寂しい顔とか",
+            "029": "させない　カラフル×セクシィ",
+            "_en": {
+                "001": "koyubi o karamasetara   otona no yoru hajimaru",
+                "002": "terasareta LIGHT no shita de",
+                "003": "kuchibiru kara koboreochita toiki",
+                "004": "irodorareteku   futari no sekai ga",
+                "005": "hontou ni hoshii mono wa   minna ga kureru shisen",
+                "006": "tada mitsumerareteru dake de",
+                "007": "mune ga gyu tto shimetsukerarete iku",
+                "008": "STAGE no ue de hajimaru yume",
+                "009": "dore dake no suki o tsutaetara ii no ka na",
+                "010": "kimochi wa ima",
+                "011": "aka? ao? shiro?   aimai da ne",
+                "012": "kagayaiteitai   itsumademo",
+                "013": "aishite moraeru you ni",
+                "014": "itsumo   koko ni kita toki wa   samishii kao demo",
+                "015": "futari de kaete miseru kara",
+                "016": "itsuka yume wa samete shimau to",
+                "017": "shitteiru yo   dakedo ima dake",
+                "018": "yureru kokoro dakishimeteitai yo",
+                "019": "subete o sutetemo",
+                "020": "COLORFUL na kanjou   afurete iku",
+                "021": "dore dake no suki o tsutaetara ii no ka na?",
+                "022": "kimochi wa ima",
+                "023": "aka? ao? shiro?   aimai da ne",
+                "024": "kagayaiteitai   itsumademo",
+                "025": "aishite moraeru you ni",
+                "026": "itsumo   koko ni kita toki wa   futari de matteru",
+                "027": "minna de ai o sodateyou",
+                "028": "itsuka   mata kita toki ni wa   samishii kao toka",
+                "029": "sasenai   COLORFUL × SEXY"
+            }
+        },
+        "motion": {
+            "01": "PV212_KARA_00_P1",
+            "2P": {
+                "01": "PV212_KARA_00_P2"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "10",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MEI",
+                "pv_costume": "9",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "175",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "43.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_212.ogg",
+        "song_name": "カラフル×セクシィ",
+        "song_name_en": "Colorful × Sexy",
+        "song_name_reading": "からふるせくしぃ",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "guitar_player": "19's Sound Factory",
+            "illustrator": "nezuki",
+            "lyrics": "minato（流星P）",
+            "manipulator": "OSTER project",
+            "music": "doriko",
+            "_en": {
+                "arranger": "OSTER project",
+                "guitar_player": "19's Sound Factory",
+                "illustrator": "nezuki",
+                "lyrics": "minato(RyuseiP)",
+                "manipulator": "OSTER project",
+                "music": "doriko"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "pv_710": {
+        "bpm": "76",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_710_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_710_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_710_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_710_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "710"
+        },
+        "effect_se_file_name": "rom/sound/pv710_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv710_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "6",
+        "lyric": {
+            "001": "それぞれの場所へ旅立っても",
+            "002": "友達だ",
+            "003": "聞くまでもないじゃん",
+            "004": "十人十色に輝いた日々が",
+            "005": "胸張れと背中押す",
+            "006": "土埃上げ競った校庭",
+            "007": "窮屈で着くずした制服",
+            "008": "机の上に書いた落書き",
+            "009": "どれもこれも僕らの証し",
+            "010": "白紙の答辞には伝え切れない",
+            "011": "思い出の数だけ涙が滲む",
+            "012": "幼くて傷付けもした",
+            "013": "僕らは少し位大人に成れたのかな",
+            "014": "教室の窓から桜ノ雨",
+            "015": "ふわりてのひら",
+            "016": "心に寄せた",
+            "017": "みんな集めて出来た花束を",
+            "018": "空に放とう",
+            "019": "忘れないで",
+            "020": "今はまだ…",
+            "021": "小さな花弁だとしても",
+            "022": "僕らは一人じゃない",
+            "023": "幾千の学び舎の中で",
+            "024": "僕らが巡り逢えた奇跡",
+            "025": "幾つ歳をとっても変わらないで",
+            "026": "その優しい笑顔",
+            "027": "教室の窓から桜ノ雨",
+            "028": "ふわりてのひら",
+            "029": "心に寄せた",
+            "030": "みんな集めて出来た花束を",
+            "031": "空に放とう",
+            "032": "忘れないで",
+            "033": "今はまだ…",
+            "034": "小さな花弁だとしても",
+            "035": "僕らは一人じゃない",
+            "036": "いつかまた…",
+            "037": "大きな花弁を咲かせ",
+            "038": "僕らはここで逢おう",
+            "_en": {
+                "001": "sorezore no basho e tabidattemo",
+                "002": "tomodachi da",
+                "003": "kiku made mo nai jan",
+                "004": "juunintoiro ni kagayaita hibi ga",
+                "005": "mune hare to senaka osu",
+                "006": "tsuchibokori age kisotta koutei",
+                "007": "kyuukutsu de kikuzushita seifuku",
+                "008": "tsukue no ue ni kaita rakugaki",
+                "009": "dore mo kore mo bokura no akashi",
+                "010": "hakushi no touji ni wa tsutaekirenai",
+                "011": "omoide no kazu dake namida ga nijimu",
+                "012": "osanakute kizutsuke mo shita",
+                "013": "bokura wa sukoshi kurai otona ni nareta no ka na",
+                "014": "kyoushitsu no mado kara sakura no ame",
+                "015": "fuwari tenohira",
+                "016": "kokoro ni yoseta",
+                "017": "minna atsumete dekita hanataba o",
+                "018": "sora ni hanatou",
+                "019": "wasurenaide",
+                "020": "ima wa mada...",
+                "021": "chiisana hanabira da to shitemo",
+                "022": "bokura wa hitori janai",
+                "023": "ikusen no manabiya no naka de",
+                "024": "bokura ga meguriaeta kiseki",
+                "025": "ikutsu toshi o tottemo kawaranaide",
+                "026": "sono yasashii egao",
+                "027": "kyoushitsu no mado kara sakura no ame",
+                "028": "fuwari tenohira",
+                "029": "kokoro ni yoseta",
+                "030": "minna atsumete dekita hanataba o",
+                "031": "sora ni hanatou",
+                "032": "wasurenaide",
+                "033": "ima wa mada...",
+                "034": "chiisana hanabira da to shitemo",
+                "035": "bokura wa hitori janai",
+                "036": "itsuka mata...",
+                "037": "ookina hanabira o sakase",
+                "038": "bokura wa koko de aou"
+            }
+        },
+        "motion": {
+            "01": "PV710_SKR_P1_00",
+            "02": "PV710_SKR_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "20",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV710.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "111",
+        "resolution_scale_neo": "0.9",
+        "sabi": {
+            "play_time": "37.7",
+            "start_time": "84.8"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_710.ogg",
+        "song_name": "桜ノ雨",
+        "song_name_en": "Sakura no Ame",
+        "song_name_reading": "さくらのあめ",
+        "songinfo": {
+            "arranger": "halyosy",
+            "illustrator": "iXima",
+            "lyrics": "halyosy",
+            "music": "halyosy",
+            "_en": {
+                "arranger": "halyosy",
+                "illustrator": "iXima",
+                "lyrics": "halyosy",
+                "music": "halyosy"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "pv_737": {
+        "bpm": "82",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV737_LEN_001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV737_LEN_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "LEN"
+            },
+            "num": "1"
+        },
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_737_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_737_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_737_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_737_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "737"
+        },
+        "effect_se_file_name": "rom/sound/pv737_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv737_effect",
+            "length": "1"
+        },
+        "frame_texture_a": "F_DIVA_STGPV737_IN_FB01",
+        "frame_texture_b": "F_DIVA_STGPV737_IN_FB02",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "6",
+        "lyric": {
+            "001": "静寂が街を包む夜に",
+            "002": "降り注ぐ白",
+            "003": "かざした手のひらに",
+            "004": "触れた瞬間に解けてく",
+            "005": "儚いヒトカケラ",
+            "006": "オトもなく積もる",
+            "007": "ヒカリを集めて君は笑う",
+            "008": "今　どんなオト？",
+            "009": "答えたって君は",
+            "010": "もう何もキコエナイ",
+            "011": "苦シイって言ってくれよ",
+            "012": "寂シイって言ってくれよ",
+            "013": "迎えに行く　どんな処へも…",
+            "014": "逝かないでよ　何所へも",
+            "015": "置いてかないで…",
+            "016": "僕らずっと",
+            "017": "二人で一つだろう…？",
+            "018": "降り積もる雪とともに",
+            "019": "消えてゆく君を",
+            "020": "抱きしめることしかできないよ",
+            "021": "叶うなら　もう一度だけ",
+            "022": "君の声が　聴きたい",
+            "023": "もう一度　ただ一度だけ",
+            "024": "ヨンデヨ…",
+            "025": "アイシテイル",
+            "026": "ただ",
+            "027": "それさえ　言えないまま",
+            "028": "永久に",
+            "029": "閉ざされてゆく",
+            "030": "君とのセカイ",
+            "031": "叫んでも　届かないよ",
+            "032": "君のコエはもういない",
+            "033": "あああああああああああああああ",
+            "034": "降り積もる雪よ　　 ／　 　儚い命は天に昇り",
+            "035": "どうか　降り続けてずっと／儚い命は天に昇り",
+            "036": "どうか　降り続けてずっと　 ／ 　解けてゆく",
+            "037": "このまま　全て奪い去ってよ　／　解けてゆく",
+            "038": "このまま　全て奪い去ってよ／雪の白に染まる",
+            "039": "儚い　コエのイノチごと　／　何も残らないよ",
+            "040": "儚い　コエのイノチごと　　　／　　　魂さえ",
+            "041": "掻き消して　　　　　　／　　　　　　魂さえ",
+            "042": "掻き消して　　　　 ／ 　　　　ナニモカモ…",
+            "043": "スベテ　　　　 　／ 　　　　　ナニモカモ…",
+            "044": "白く…",
+            "_en": {
+                "001": "seijaku ga machi o tsutsumu yoru ni",
+                "002": "furisosogu shiro",
+                "003": "kazashita tenohira ni",
+                "004": "fureta shunkan ni toketeku",
+                "005": "hakanai hitokakera",
+                "006": "oto mo naku tsumoru",
+                "007": "hikari o atsumete kimi wa warau",
+                "008": "ima   donna oto?",
+                "009": "kotaetatte kimi wa",
+                "010": "mou nanimo kikoenai",
+                "011": "kurushii tte itte kure yo",
+                "012": "samishii tte itte kure yo",
+                "013": "mukae ni iku   donna tokoro e mo...",
+                "014": "ikanaide yo   doko e mo",
+                "015": "oitekanaide...",
+                "016": "bokura zutto",
+                "017": "futari de hitotsu darou...?",
+                "018": "furitsumoru yuki to tomo ni",
+                "019": "kiete yuku kimi o",
+                "020": "dakishimeru koto shika dekinai yo",
+                "021": "kanau nara   mou ichido dake",
+                "022": "kimi no koe ga   kikitai",
+                "023": "mou ichido   tada ichido dake",
+                "024": "yonde yo...",
+                "025": "aishiteiru",
+                "026": "tada",
+                "027": "sore sae   ienai mama",
+                "028": "towa ni",
+                "029": "tozasarete yuku",
+                "030": "kimi to no sekai",
+                "031": "sakendemo   todokanai yo",
+                "032": "kimi no koe wa mou inai",
+                "033": "aaaaaaaaaaaaaaah!",
+                "034": "furitsumoru yuki yo   /   hakanai inochi wa ten ni nobori",
+                "035": "douka   furitsuzukete zutto   /   hakanai inochi wa ten ni nobori",
+                "036": "douka   furitsuzukete zutto   /   tokete yuku",
+                "037": "kono mama   subete ubaisatte yo   /   tokete yuku",
+                "038": "kono mama   subete ubaisatte yo   /   yuki no shiro ni somaru",
+                "039": "hakanai   koe no inochi goto   /   nanimo nokoranai yo",
+                "040": "hakanai   koe no inochi goto   /   tamashii sae",
+                "041": "kakikeshite   /   tamashii sae",
+                "042": "kakikeshite   /   nanimokamo...",
+                "043": "subete   /   nanimokamo...",
+                "044": "shiroku..."
+            }
+        },
+        "motion": {
+            "01": "PV737_SLV_P1_00",
+            "2P": {
+                "01": "PV737_SLV_P2_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "33",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "38",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV737.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "127",
+        "resolution_scale_neo": "0.8",
+        "sabi": {
+            "play_time": "24.9",
+            "start_time": "109.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_737.ogg",
+        "song_name": "soundless voice",
+        "song_name_en": "Soundless Voice",
+        "song_name_reading": "さうんどれすヴぉいす",
+        "songinfo": {
+            "arranger": "やま△",
+            "illustrator": "小松エーリ",
+            "lyrics": "ひとしずくP",
+            "music": "ひとしずくP",
+            "_en": {
+                "arranger": "Yama△",
+                "illustrator": "Komatsu E-ri",
+                "lyrics": "Hitoshizuku P",
+                "music": "Hitoshizuku P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "pv_247": {
+        "bpm": "123",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150511",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_247_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_247_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_247_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_247_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "247"
+        },
+        "hand_item": {
+            "01": "PV_MIC_SWM"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "甘くて幸せなこと",
+            "002": "隠し味何にしよう",
+            "003": "純粋な乙女心",
+            "004": "甘い恋も絡めなくちゃ",
+            "005": "切なさ重ねてミルフィーユ",
+            "006": "酸味も積み上げタルト",
+            "007": "苦味もチョコレートケーキ？",
+            "008": "魔法をかけた甘い奇跡",
+            "009": "甘さを抑えてビターとか",
+            "010": "ミルクなしのコーヒーとか",
+            "011": "甘いだけじゃ大人になれないの？",
+            "012": "そんなの絶対に絶対やだやだやだ",
+            "013": "ねぇあげようか　甘い罠",
+            "014": "ほら虜にしてあげる",
+            "015": "そんな魔法　かけるから",
+            "016": "ちょっとだけ待たせたげるわ",
+            "017": "たった一口が足りなくて",
+            "018": "赤いイチゴみたく意地張って",
+            "019": "甘いところなんて見せないわ",
+            "020": "完璧に作るもん",
+            "021": "一人でも、でも、でも",
+            "022": "ねぇ、気づいてるんでしょ？",
+            "023": "わかってるんでしょ？",
+            "024": "隠し味の恋心",
+            "025": "苦味とか　酸味とか",
+            "026": "そういうのもたまにはいいわ",
+            "027": "意地っ張りで　ワガママな",
+            "028": "そんな「甘い魔法」使い",
+            "_en": {
+                "001": "amakute shiawase na koto",
+                "002": "kakushiaji nani ni shiyou",
+                "003": "junsui na otomegokoro",
+                "004": "amai koi mo karamenakucha",
+                "005": "setsunasa kasanete MILLE-FEUILLE",
+                "006": "sanmi mo tsumiage TART",
+                "007": "nigami mo CHOCOLATE CAKE?",
+                "008": "mahou o kaketa amai kiseki",
+                "009": "amasa o osaete BITTER toka",
+                "010": "MILK nashi no COFFEE toka",
+                "011": "amai dake ja otona ni narenai no?",
+                "012": "sonna no zettai ni zettai ya da ya da ya da",
+                "013": "nee ageyouka   amai wana",
+                "014": "hora toriko ni shite ageru",
+                "015": "sonna mahou   kakeru kara",
+                "016": "chotto dake matasetageru wa",
+                "017": "tatta hitokuchi ga tarinakute",
+                "018": "akai ichigo mitaku iji hatte",
+                "019": "amai tokoro nante misenai wa",
+                "020": "kanpeki ni tsukuru mon",
+                "021": "hitori demo, demo, demo",
+                "022": "nee, kizuiterun desho?",
+                "023": "wakatterun desho?",
+                "024": "kakushiaji no koigokoro",
+                "025": "nigami toka   sanmi toka",
+                "026": "sou iu no mo tama ni wa ii wa",
+                "027": "ijippari de   wagamama na",
+                "028": "sonna \"amai mahou\" tsukai"
+            }
+        },
+        "motion": {
+            "01": "PV247_SWM"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "40",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV247.bin"
+        },
+        "rank_board_id": "131",
+        "sabi": {
+            "play_time": "25.6",
+            "start_time": "70.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_247.ogg",
+        "song_name": "スイートマジック",
+        "song_name_en": "Sweet Magic",
+        "song_name_reading": "すいーとまじっく",
+        "songinfo": {
+            "arranger": "Junky",
+            "illustrator": "東385",
+            "lyrics": "Junky",
+            "music": "Junky",
+            "_en": {
+                "arranger": "Junky",
+                "illustrator": "Higashi 385",
+                "lyrics": "Junky",
+                "music": "Junky"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

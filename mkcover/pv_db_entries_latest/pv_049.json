@@ -1,0 +1,232 @@
+{
+    "pv_049": {
+        "bpm": "150",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_049_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_049_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_049_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_049_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_049_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "049",
+            "title_end_2d_field": "7",
+            "title_start_2d_field": "7"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "002": "ぽっぴぽっぴぽっぽっぴっ",
+            "003": "ぽぴー",
+            "004": "",
+            "005": "さあ飲め　お前好きだろ？　野菜ジュース",
+            "006": "私が決めた　いま決めた",
+            "007": "だから飲んで　私の野菜ジュース",
+            "008": "価格は200円",
+            "009": "",
+            "010": "そいやそいや",
+            "011": "",
+            "012": "どっせーどっせー",
+            "013": "",
+            "014": "そいやそいや",
+            "015": "",
+            "016": "どっせーどっせー",
+            "017": "まろやか野菜ジュース",
+            "018": "ふわふわ野菜ジュース",
+            "019": "いちばんオススメなのは　緑のジュース",
+            "020": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "021": "ベジタブルな",
+            "022": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "023": "生命あふれた",
+            "024": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "025": "あなたも今",
+            "026": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "027": "野菜ジュースが好きになる",
+            "028": "ぽぴー",
+            "029": "",
+            "030": "Let's take. You're lovin' it.",
+            "031": "\"Vegetable juice.\"",
+            "032": "You must love this drink, I decided now.",
+            "033": "So take now. with my true heart.",
+            "034": "\"Vegetable juice.\"",
+            "035": "It costs / just 2 dollars.",
+            "036": "",
+            "037": "come on! come on!",
+            "038": "",
+            "039": "Let's dance",
+            "040": "",
+            "041": "come on! come on!",
+            "042": "",
+            "043": "Let's dance",
+            "044": "Mellow and mellow vegetable juice.",
+            "045": "Creamy and creamy vegetable juice.",
+            "046": "I guess you should like",
+            "047": "the best this one.",
+            "048": "\"big pale blue juice!\"",
+            "049": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "050": "We are Vegetarian.",
+            "051": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "052": "Every Vegetarian.",
+            "053": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "054": "Happy Vegetarian.",
+            "055": "ぽっぴぽっぴぽっぽっぴっぽー",
+            "056": "Y.A.S.A.I love you,so and I love you.",
+            "057": "",
+            "_en": {
+                "001": "poppi poppi poppoppippoo",
+                "002": "poppi poppi poppoppi",
+                "003": "popii",
+                "004": "",
+                "005": "saa nome   omae suki daro?   yasai JUICE",
+                "006": "watashi ga kimeta   ima kimeta",
+                "007": "dakara nonde   watashi no yasai JUICE",
+                "008": "kakaku wa nihyaku en",
+                "009": "",
+                "010": "soiya soiya",
+                "011": "",
+                "012": "dossee dossee",
+                "013": "",
+                "014": "soiya soiya",
+                "015": "",
+                "016": "dossee dossee",
+                "017": "maroyaka yasai JUICE",
+                "018": "fuwafuwa yasai JUICE",
+                "019": "ichiban osusume na no wa   midori no JUICE",
+                "020": "poppi poppi poppoppippoo",
+                "021": "VEGETABLE na",
+                "022": "poppi poppi poppoppippoo",
+                "023": "seimei afureta",
+                "024": "poppi poppi poppoppippoo",
+                "025": "anata mo ima",
+                "026": "poppi poppi poppoppippoo",
+                "027": "yasai JUICE ga suki ni naru",
+                "028": "popii",
+                "029": "",
+                "030": "Let's take. You're lovin' it.",
+                "031": "\"Vegetable juice.\"",
+                "032": "You must love this drink, I decided now.",
+                "033": "So take now. With my true heart.",
+                "034": "\"Vegetable juice.\"",
+                "035": "It costs just 2 dollars.",
+                "036": "",
+                "037": "Come on! Come on!",
+                "038": "",
+                "039": "Let's dance",
+                "040": "",
+                "041": "Come on! Come on!",
+                "042": "",
+                "043": "Let's dance",
+                "044": "Mellow and mellow vegetable juice.",
+                "045": "Creamy and creamy vegetable juice.",
+                "046": "I guess you should like",
+                "047": "the best this one.",
+                "048": "\"Big pale blue juice!\"",
+                "049": "poppi poppi poppoppippoo",
+                "050": "We are Vegetarian.",
+                "051": "poppi poppi poppoppippoo",
+                "052": "Every Vegetarian.",
+                "053": "poppi poppi poppoppippoo",
+                "054": "Happy Vegetarian.",
+                "055": "poppi poppi poppoppippoo",
+                "056": "Y.A.S.A.I love you, so and I love you.",
+                "057": ""
+            }
+        },
+        "motion": {
+            "01": "PV049_PPP_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "40",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "69.0"
+        },
+        "se_name": "24_tambourine",
+        "song_file_name": "rom/sound/song/pv_049.ogg",
+        "song_name": "ぽっぴっぽー",
+        "song_name_en": "Po Pi Po",
+        "song_name_reading": "ぽっぴっぽー",
+        "songinfo": {
+            "arranger": "ラマーズP",
+            "illustrator": "砂吹",
+            "lyrics": "ラマーズP",
+            "music": "ラマーズP",
+            "_en": {
+                "arranger": "Lamaze-P",
+                "illustrator": "Sunafuki",
+                "lyrics": "Lamaze-P",
+                "music": "Lamaze-P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

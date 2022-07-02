@@ -1,0 +1,227 @@
+{
+    "pv_730": {
+        "bpm": "168",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV730_LUK_001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV730_LUK_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "LUK"
+            },
+            "num": "1"
+        },
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_730_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_730_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_730_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_730_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_730_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "730"
+        },
+        "effect_se_file_name": "rom/sound/pv730_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv730_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "B4の紙切れに収まる僕の人生を",
+            "002": "誰かに認めて欲しくって振りまく笑顔",
+            "003": "計算じゃ割り切れないこの歪な難問が",
+            "004": "解けるまで居残りなんだ 出られないんだ",
+            "005": "先頭は遠ざかる 一人取り残される",
+            "006": "目の前のレールの向こうに憧れるだけ",
+            "007": "だけど",
+            "008": "何がしたいかわからない",
+            "009": "何ができるかわからない",
+            "010": "そう言いながら這いつくばって",
+            "011": "ここまで来たんだよ",
+            "012": "明日のことはわからない",
+            "013": "昨日のことはかわらない",
+            "014": "なら今日ぐらいは僕にください",
+            "015": "数行の\"お祈り\"に揺れ動く僕の人生を",
+            "016": "切り取って押し付けるように配り歩いた",
+            "017": "期待されないまま 期待もしないまま",
+            "018": "削られた僕らの形はどんな風に見えるのだろう",
+            "019": "何を手に入れたんだろうか",
+            "020": "何を失ったんだろうか",
+            "021": "答え探し歯を食い縛って",
+            "022": "ここまで来たんだよ",
+            "023": "明日世界が終わろうと",
+            "024": "昨日のこと忘れようと",
+            "025": "ただ今日だけは僕にください",
+            "026": "先頭は遠ざかる 一人取り残される",
+            "027": "「どこでつまずいたの？」",
+            "028": "「あれ 何してんだろう？」",
+            "029": "期待されないまま 期待もしないまま",
+            "030": "削られた僕らもまだ息はあるから",
+            "031": "だけど何がしたいかわからない",
+            "032": "何ができるかわからない",
+            "033": "そう言いながら這いつくばって",
+            "034": "ここまで来たんだよ",
+            "035": "明日のことはわからない",
+            "036": "昨日のことはかわらない",
+            "037": "なら今日だけは この今だけは僕らの物",
+            "_en": {
+                "001": "B-yon no kamikire ni osamaru boku no jinsei o",
+                "002": "dareka ni mitomete hoshikutte furimaku egao",
+                "003": "keisan ja warikirenai kono ibitsu na nanmon ga",
+                "004": "tokeru made inokori nan da derarenain da",
+                "005": "sentou wa toozakaru hitori torinokosareru",
+                "006": "me no mae no RAIL no mukou ni akogareru dake",
+                "007": "dakedo",
+                "008": "nani ga shitai ka wakaranai",
+                "009": "nani ga dekiru ka wakaranai",
+                "010": "sou iinagara haitsukubatte",
+                "011": "koko made kitan da yo",
+                "012": "ashita no koto wa wakaranai",
+                "013": "kinou no koto wa kawaranai",
+                "014": "nara kyou gurai wa boku ni kudasai",
+                "015": "suugyou no \"oinori\" ni yureugoku boku no jinsei o",
+                "016": "kiritotte oshitsukeru you ni kubari aruita",
+                "017": "kitai sarenai mama kitai mo shinai mama",
+                "018": "kezurareta bokura no katachi wa donna fuu ni mieru no darou",
+                "019": "nani o te ni iretan darou ka",
+                "020": "nani o ushinattan darou ka",
+                "021": "kotae sagashi ha o kuishibatte",
+                "022": "koko made kitan da yo",
+                "023": "ashita sekai ga owarou to",
+                "024": "kinou no koto wasureyou to",
+                "025": "tada kyou dake wa boku ni kudasai",
+                "026": "sentou wa toozakaru hitori torinokosareru",
+                "027": "\"doko de tsumazuita no?\"",
+                "028": "\"are nani shiten darou?\"",
+                "029": "kitai sarenai mama kitai mo shinai mama",
+                "030": "kezurareta bokura mo mada iki wa aru kara",
+                "031": "dakedo nani ga shitai ka wakaranai",
+                "032": "nani ga dekiru ka wakaranai",
+                "033": "sou iinagara haitsukubatte",
+                "034": "koko made kitan da yo",
+                "035": "ashita no koto wa wakaranai",
+                "036": "kinou no koto wa kawaranai",
+                "037": "nara kyou dake wa kono ima dake wa bokura no mono"
+            }
+        },
+        "motion": {
+            "01": "PV730_HLW_P1_00",
+            "02": "PV730_HLW_P1_10"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "34",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV730.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "117",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "43.5"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_730.ogg",
+        "song_name": "Hello, Worker",
+        "song_name_en": "Hello, Worker",
+        "song_name_reading": "はろーわーかー",
+        "songinfo": {
+            "arranger": "KEI",
+            "illustrator": "bob",
+            "lyrics": "KEI",
+            "music": "KEI",
+            "_en": {
+                "arranger": "Kei Hayashi",
+                "illustrator": "bob",
+                "lyrics": "Kei Hayashi",
+                "music": "Kei Hayashi"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

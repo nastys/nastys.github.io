@@ -1,0 +1,159 @@
+{
+    "pv_241": {
+        "bpm": "141",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_241_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_241_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_241_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_241_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "241"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "6",
+        "lyric": {
+            "001": "色とりどりの　景色　ぽつり",
+            "002": "騒がしいのに　僕は　ひとり",
+            "003": "大きくなった　音は　ひびき",
+            "004": "不意に手を引く　君と　ともに",
+            "005": "いつか　振り返るかな　そんな",
+            "006": "今日も　期待したんだ　サチュレイター",
+            "007": "君に届ける　電子音　忘れてしまう前に",
+            "008": "おぼろげな歌も　本当は　きっと　歌える",
+            "009": "君に届かぬ　電子音　滲ませるのは　涙",
+            "010": "手を伸ばせないまま　ずっと　まだ　遠い　君の元へ",
+            "011": "元へ",
+            "012": "君に届ける　電子音　忘れてしまう前に",
+            "013": "おぼろげな歌も　本当は　もっと　歌える",
+            "014": "君に届かぬ　電子音　滲ませたのは　僕だ",
+            "015": "手を伸ばせないから　ずっと　まだ　遠い　君の元へ",
+            "016": "元へ",
+            "_en": {
+                "001": "irotoridori no   keshiki   potsuri",
+                "002": "sawagashii no ni   boku wa   hitori",
+                "003": "ookiku natta   oto wa   hibiki",
+                "004": "fui ni te o hiku   kimi to   tomo ni",
+                "005": "itsuka   furikaeru ka na   sonna",
+                "006": "kyou mo   kitai shitan da   SATURATOR",
+                "007": "kimi ni todokeru   denshion   wasurete shimau mae ni",
+                "008": "oboroge na uta mo   hontou wa   kitto   utaeru",
+                "009": "kimi ni todokanu   denshion   nijimaseru no wa   namida",
+                "010": "te o nobasenai mama   zutto   mada   tooi   kimi no moto e",
+                "011": "moto e",
+                "012": "kimi ni todokeru   denshion   wasurete shimau mae ni",
+                "013": "oboroge na uta mo   hontou wa   motto   utaeru",
+                "014": "kimi ni todokanu   denshion   nijimaseta no wa   boku da",
+                "015": "te o nobasenai kara   zutto   mada   tooi   kimi no moto e",
+                "016": "moto e"
+            }
+        },
+        "motion": {
+            "01": "PV241_ETS"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV241.bin"
+        },
+        "rank_board_id": "190",
+        "sabi": {
+            "play_time": "36.0",
+            "start_time": "79.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_241.ogg",
+        "song_name": "エレクトロサチュレイタ",
+        "song_name_en": "Electrosaturator",
+        "song_name_reading": "えれくとろさちゅれいた",
+        "songinfo": {
+            "arranger": "tilt-six",
+            "illustrator": "百舌谷",
+            "lyrics": "tilt-six",
+            "music": "tilt-six",
+            "_en": {
+                "arranger": "tilt-six",
+                "illustrator": "Mozuya",
+                "lyrics": "tilt-six",
+                "music": "tilt-six"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv241s01.txt",
+                "stage": "STGPV241S01"
+            },
+            "1": {
+                "collision_file": "coli_stgpv241_mhd481.txt",
+                "mhd_id": "0"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

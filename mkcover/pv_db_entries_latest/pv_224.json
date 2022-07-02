@@ -1,0 +1,187 @@
+{
+    "pv_224": {
+        "bpm": "148",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_224_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_224_extreme_1.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_224_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_224_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "224",
+            "title_end_2d_field": "8",
+            "title_start_2d_field": "8"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "冷えきった前夜 寂しげに降る",
+            "002": "蒼白 頬に触れ消える",
+            "003": "いなくなる 貴方のよう",
+            "004": "何故なの？ 行かないで・・・",
+            "005": "",
+            "006": "離さない 腕つかむ",
+            "007": "それでも 何故、貴方は逃げるの？",
+            "008": "",
+            "009": "ロザリオを胸に下げ 貴方の元へ急ぐ",
+            "010": "この薔薇を掴むためならば 選ばず",
+            "011": "",
+            "012": "渡さない こちらへさあ来て!",
+            "013": "",
+            "014": "傷も負わず 死にたくはない",
+            "015": "孤独な雪は 地へ埋もれていく",
+            "016": "運命か ならばせめて",
+            "017": "わからず 消えようと・・・",
+            "018": "",
+            "019": "血塗られた マンディリオン",
+            "020": "忘れたなどとは 言わせない!",
+            "021": "",
+            "022": "希望、愛と時の終焉 残るは静寂",
+            "023": "蒼白の薔薇を手元に 迎えよう",
+            "024": "",
+            "_en": {
+                "001": "hiekitta zenya samishige ni furu",
+                "002": "souhaku hoho ni fure kieru",
+                "003": "inakunaru anata no you",
+                "004": "naze na no? ikanaide...",
+                "005": "",
+                "006": "hanasanai ude tsukamu",
+                "007": "sore demo naze, anata wa nigeru no?",
+                "008": "",
+                "009": "ROSARIO o mune ni sage anata no moto e isogu",
+                "010": "kono bara o tsukamu tame naraba erabazu",
+                "011": "",
+                "012": "watasanai kochira e saa kite!",
+                "013": "",
+                "014": "kizu mo owazu shinitaku wa nai",
+                "015": "kodoku na yuki wa chi e umorete iku",
+                "016": "unmei ka naraba semete",
+                "017": "wakarazu kieyou to...",
+                "018": "",
+                "019": "chinurareta MANDILION",
+                "020": "wasureta nado to wa iwasenai!",
+                "021": "",
+                "022": "kibou, ai to toki no shuuen nokoru wa seijaku",
+                "023": "souhaku no bara o temoto ni mukaeyou",
+                "024": ""
+            }
+        },
+        "motion": {
+            "01": "PV224_ROSA"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV224_ROSA",
+                "stage": "STGPV224S03"
+            },
+            "1": {
+                "frame": "1575",
+                "motion": "PV224_ROSA",
+                "stage": "STGPV224S03"
+            },
+            "2": {
+                "frame": "1882",
+                "motion": "PV224_ROSA",
+                "stage": "STGPV224S03"
+            },
+            "3": {
+                "frame": "6536",
+                "motion": "PV224_ROSA",
+                "stage": "STGPV224S03"
+            },
+            "length": "4"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "4",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "182",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "85.7"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_224.ogg",
+        "song_name": "Rosary Pale",
+        "song_name_en": "Rosary Pale",
+        "song_name_reading": "ろざりーぺーる",
+        "songinfo": {
+            "arranger": "新城P",
+            "illustrator": "新城P",
+            "lyrics": "新城P",
+            "music": "新城P",
+            "_en": {
+                "arranger": "Shinjou P",
+                "illustrator": "Shinjou P",
+                "lyrics": "Shinjou P",
+                "music": "Shinjou P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

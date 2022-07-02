@@ -1,0 +1,225 @@
+{
+    "pv_733": {
+        "bpm": "178",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_733_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_733_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_733_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_733_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "733"
+        },
+        "effect_se_file_name": "rom/sound/pv733_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv733_effect",
+            "length": "1"
+        },
+        "frame_texture_a": "F_DIVA_STGPV733_IN_FB01",
+        "frame_texture_b": "F_DIVA_STGPV733_IN_FB02",
+        "frame_texture_c": "F_DIVA_STGPV733_IN_FB03",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "僕はゲンガー　いつもこうやって",
+            "002": "後ろ向いて指を咥えて",
+            "003": "どうせあっちに行ってもこっちに行っても",
+            "004": "ニッチもサッチも誰かの",
+            "005": "影に隠れたままなんでしょ",
+            "006": "「おばあさん、この席どうぞ」",
+            "007": "僕は椅子に座ったままです",
+            "008": "「あら、どうも助かりました」",
+            "009": "見て見ぬフリ、フリ、あぁん",
+            "010": "最近の若者達は、なんてよく聞きますけれど",
+            "011": "何を隠そうワタクシこそが",
+            "012": "その最たる例なのです",
+            "013": "こわい、こわい、他人の心の奥底",
+            "014": "いない、いない、いない、誰の目にも入らない",
+            "015": "僕はゲンガー、",
+            "016": "いつもこうやって後ろ指刺されて笑われて",
+            "017": "そんな行ったり来たりの人生なんて",
+            "018": "日の光を浴びないから",
+            "019": "何度も影踏みするんだ",
+            "020": "さみしがり屋の僕の口癖",
+            "021": "「あいつみたいになんてなれないよ」",
+            "022": "ほら、キミ、と僕の距離がまた開いて、",
+            "023": "追いつけないんだ",
+            "024": "ひとりぼっち、誰もいなくて",
+            "025": "孤独な夜を何度も明かした",
+            "026": "部屋の隅っこぽつんと咲く花に",
+            "027": "勇気をもらった",
+            "028": "君の心の中、覗いて",
+            "029": "忘れ物を見つけました",
+            "030": "僕は喜怒哀楽の感情が足りない",
+            "031": "不完全な存在です",
+            "032": "明日、また太陽昇って",
+            "033": "陰と陽の境界できたら",
+            "034": "やっぱ 、逃げ続けるだけの人生なんでしょう",
+            "035": "なりすましゲンガー、",
+            "036": "そうだこうやって、君の影にずっと隠れて",
+            "037": "いつか照らされてこのまま消えちゃえば、",
+            "038": "それでいいな",
+            "_en": {
+                "001": "boku wa 'GANGER   itsumo kou yatte",
+                "002": "ushiro muite yubi o kuwaete",
+                "003": "douse acchi ni ittemo kocchi ni ittemo",
+                "004": "nicchi mo sacchi mo dareka no",
+                "005": "kage ni kakureta mama nan desho",
+                "006": "\"obaa-san, kono seki douzo\"",
+                "007": "boku wa isu ni suwatta mama desu",
+                "008": "\"ara, doumo tasukarimashita\"",
+                "009": "mite minu furi, furi, aan",
+                "010": "saikin no wakamonotachi wa, nante yoku kikimasu keredo",
+                "011": "nani o kakusou watakushi koso ga",
+                "012": "sono saitaru rei na no desu",
+                "013": "kowai, kowai, tanin no kokoro no okusoko",
+                "014": "inai, inai, inai, dare no me ni mo hairanai",
+                "015": "boku wa 'GANGER,",
+                "016": "itsumo kou yatte ushiroyubi sasarete warawarete",
+                "017": "sonna ittari kitari no jinsei nante",
+                "018": "hi no hikari o abinai kara",
+                "019": "nandomo kagefumi surun da",
+                "020": "samishigariya no boku no kuchiguse",
+                "021": "\"aitsu mitai ni nante narenai yo\"",
+                "022": "hora, kimi, to boku no kyori ga mata hiraite,",
+                "023": "oitsukenain da",
+                "024": "hitoribocchi, daremo inakute",
+                "025": "kodoku na yoru o nandomo akashita",
+                "026": "heya no sumikko potsun to saku hana ni",
+                "027": "yuuki o moratta",
+                "028": "kimi no kokoro no naka, nozoite",
+                "029": "wasuremono o mitsukemashita",
+                "030": "boku wa kidoairaku no kanjou ga tarinai",
+                "031": "fukanzen na sonzai desu",
+                "032": "ashita, mata taiyou nobotte",
+                "033": "in to you no kyoukai dekitara",
+                "034": "yappa, nigetsuzukeru dake no jinsei nan deshou",
+                "035": "narisumashi 'GANGER,",
+                "036": "sou da kou yatte, kimi no kage ni zutto kakurete",
+                "037": "itsuka terasarete kono mama kiechaeba,",
+                "038": "sore de ii na"
+            }
+        },
+        "motion": {
+            "01": "PV733_NSG_P1_00",
+            "02": "PV733_NSG_P1_10",
+            "2P": {
+                "01": "PV733_NSG_P2_00",
+                "02": "PV733_NSG_P2_10"
+            },
+            "3P": {
+                "01": "PV733_NSG_P3_00"
+            },
+            "4P": {
+                "01": "PV733_NSG_P4_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "37",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "141",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "2": {
+                "fixed": "1",
+                "pseudo_same_id": "0",
+                "type": "PSEUDO_SAME"
+            },
+            "3": {
+                "fixed": "1",
+                "pseudo_same_id": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "4"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV733.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "128",
+        "resolution_scale_neo": "0.9",
+        "sabi": {
+            "play_time": "29.8",
+            "start_time": "56.6"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_733.ogg",
+        "song_name": "なりすましゲンガー",
+        "song_name_en": "Doubleganger",
+        "song_name_reading": "なりすましげんがー",
+        "songinfo": {
+            "arranger": "KulfiQ",
+            "guitar_player": "(仮)P",
+            "illustrator": "ゴロー",
+            "lyrics": "KulfiQ",
+            "music": "KulfiQ",
+            "_en": {
+                "arranger": "KulfiQ",
+                "guitar_player": "Kakkokari P",
+                "illustrator": "Gorou",
+                "lyrics": "KulfiQ",
+                "music": "KulfiQ"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

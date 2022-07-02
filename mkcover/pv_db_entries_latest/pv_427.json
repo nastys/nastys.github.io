@@ -1,0 +1,289 @@
+{
+    "pv_427": {
+        "bpm": "183",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20111215",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_427_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_427_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_427_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_427_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_427_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "427"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "000",
+            "01": "020",
+            "02": "021",
+            "03": "019",
+            "04": "018"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front_low": "eff_petal_red_b",
+                "stage": "STGD2NS049"
+            },
+            "11": {
+                "aet_front_low": "eff_petal_red_b",
+                "stage": "STGNS017"
+            },
+            "12": {
+                "aet_front": "eff_flash_red",
+                "stage": "STGD2NS048"
+            },
+            "13": {
+                "aet_front": "eff_flash_red",
+                "aet_front_low": "eff_petal_red_a",
+                "stage": "STGD2NS048"
+            },
+            "14": {
+                "aet_front": "eff_flash_red",
+                "aet_front_low": "eff_petal_red_b",
+                "stage": "STGD2NS048"
+            },
+            "01": {
+                "stage": "STGD2NS048"
+            },
+            "02": {
+                "stage": "STGD2NS049"
+            },
+            "03": {
+                "stage": "STGNS017"
+            },
+            "04": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "05": {
+                "aet_front_low": "eff_petal_red_a",
+                "stage": "STGD2NS048"
+            },
+            "06": {
+                "aet_front_low": "eff_petal_red_a",
+                "stage": "STGD2NS049"
+            },
+            "07": {
+                "aet_front_low": "eff_petal_red_a",
+                "stage": "STGNS017"
+            },
+            "08": {
+                "aet_front_low": "eff_petal_red_a",
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "09": {
+                "aet_front_low": "eff_petal_red_b",
+                "stage": "STGD2NS048"
+            },
+            "length": "14"
+        },
+        "hand_item": {
+            "01": "FAN_R",
+            "02": "FAN_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "(花咲き片を飛ばし)",
+            "002": "(花びら　揺ら揺ら...)",
+            "003": "一輪の 刃ノ舞",
+            "004": "桃髪の少女",
+            "005": "緋色 花のように",
+            "006": "血しぶきが散る",
+            "007": "無垢なる 刃先",
+            "008": "月夜の城跡",
+            "009": "ひとりの少女 は",
+            "010": "魔物を切り裂いた",
+            "011": "断ち切る　赤糸",
+            "012": "失い　微笑",
+            "013": "”約束をかならず　取り戻すから”",
+            "014": "紅蓮の華咲き",
+            "015": "百花繚乱  剣の舞",
+            "016": "緋色 花びらのように",
+            "017": "咲きほこる",
+            "018": "時を越えて",
+            "019": "会いにゆきたい",
+            "020": "震えるな　唇に",
+            "021": "あなたと。。。約束。。。覚えて",
+            "022": "花咲き片 を飛ばし",
+            "023": "咲いた花　何故　散り敷き",
+            "024": "悲しく思う　一人我が身",
+            "025": "花びら　揺ら揺ら　落ちる",
+            "026": "花咲き片を飛ばし",
+            "027": "咲いた花　何故　散り敷き",
+            "028": "やっと見つけた　その微笑",
+            "029": "朧月の空へ　　舞うか",
+            "_en": {
+                "001": "(hana saki kakera o tobashi)",
+                "002": "(hanabira   yurayura...)",
+                "003": "ichirin no   ha no mai",
+                "004": "toukami no shoujo",
+                "005": "hiiro   hana no you ni",
+                "006": "chishibuki ga chiru",
+                "007": "muku naru   hasaki",
+                "008": "tsukiyo no shiroato",
+                "009": "hitori no shoujo   wa",
+                "010": "mamono o kirisaita",
+                "011": "tachikiru   akaito",
+                "012": "ushinai   hohoemi",
+                "013": "\"yakusoku o kanarazu   torimodosu kara\"",
+                "014": "guren no hana saki",
+                "015": "hyakka ryouran   ken no mai",
+                "016": "hiiro   hanabira no you ni",
+                "017": "sakihokoru",
+                "018": "toki o koete",
+                "019": "ai ni yukitai",
+                "020": "furueruna   kuchibiru ni",
+                "021": "anata to... yakusoku... oboete",
+                "022": "hana saki kakera   o tobashi",
+                "023": "saita hana   naniyue   chirishiki",
+                "024": "kanashiku omou   hitori waga mi",
+                "025": "hanabira   yurayura   ochiru",
+                "026": "hana saki kakera o tobashi",
+                "027": "saita hana   naniyue   chirishiki",
+                "028": "yatto mitsuketa   sono hohoemi",
+                "029": "oborozuki no sora e   mau ka"
+            }
+        },
+        "motion": {
+            "10": "CMN_MRA00_13_01",
+            "11": "CMN_MCA00_50_42",
+            "12": "CMN_MCA00_70_21",
+            "13": "CMN_MCA00_70_32",
+            "14": "CMN_MCA00_70_15",
+            "15": "CMN_MRA00_13_01",
+            "16": "CMN_MCA00_70_28",
+            "17": "CMN_EDT_01_014A",
+            "18": "CMN_MCA00_70_31",
+            "19": "CMN_EDT_01_034A",
+            "20": "CMN_EDT_01_060A",
+            "21": "CMN_EDT_01_017A",
+            "22": "CMN_MRA00_13_01",
+            "23": "CMN_EDT_01_030A",
+            "24": "CMN_MCA00_70_30",
+            "25": "CMN_MCA00_50_53",
+            "26": "CMN_MRA00_13_01",
+            "27": "CMN_MCA00_70_20",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_056A",
+            "02": "CMN_MCA00_70_16",
+            "03": "CMN_EDT_01_002A",
+            "04": "CMN_MCA00_50_47",
+            "05": "CMN_MCA00_70_23",
+            "06": "CMN_MCA00_70_29",
+            "07": "CMN_MRA00_13_01",
+            "08": "CMN_EDT_01_033A",
+            "09": "CMN_MRA00_13_01"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "6",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "221",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "79.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_427.ogg",
+        "song_name": "花舞月詠譚",
+        "song_name_en": "Hanamai Tsukuyomi Tan",
+        "song_name_reading": "はなまいつくよみたん",
+        "songinfo": {
+            "arranger": "Hoskey",
+            "illustrator": "尹影",
+            "lyrics": "Yukie Dong",
+            "music": "Hoskey",
+            "pv_editor": "ましろ",
+            "_en": {
+                "arranger": "Hoskey",
+                "illustrator": "Iei",
+                "lyrics": "Yukie Dong",
+                "music": "Hoskey",
+                "pv_editor": "Mashiro"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "9.166666"
+        }
+    }
+}

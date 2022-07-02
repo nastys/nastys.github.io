@@ -1,0 +1,213 @@
+{
+    "pv_238": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140210",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_238_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_238_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_238_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "238",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "1"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_238_rin.ogg"
+            },
+            "1": {
+                "chara": "LEN",
+                "file": "rom/sound/song/pv_238_len.ogg"
+            },
+            "2": {
+                "chara": "LUK",
+                "file": "rom/sound/song/pv_238_luka.ogg"
+            },
+            "3": {
+                "chara": "KAI",
+                "file": "rom/sound/song/pv_238_kaito.ogg"
+            },
+            "4": {
+                "chara": "MEI",
+                "file": "rom/sound/song/pv_238_meiko.ogg"
+            },
+            "length": "5"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_PONPON_L",
+            "02": "PV_PONPON_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "さぁ 歌いながら行こう",
+            "002": "あなたの笑顔が誰かをきっと幸せにするよ",
+            "003": "世界は変えられるよ 小さく些細な愛の魔法で",
+            "004": "あー 今日もくりかえす 退屈な毎日",
+            "005": "ため息をついて 今日も過ごすつもり？",
+            "006": "んー 天気もいいし 良いことあるかもよ",
+            "007": "さあ元気をだしていこう",
+            "008": "しょぼくれてても 変わらないよ",
+            "009": "とっておきのパワーをあげる！",
+            "010": "さぁ 歌いながら行こう",
+            "011": "あなたの笑顔が誰かをきっと幸せにするよ",
+            "012": "世界は変えられるよ 小さく些細な愛の魔法で",
+            "013": "あー 今日もすれ違う 大好きなあの子",
+            "014": "想ってばかりで 明日も過ごすつもり？",
+            "015": "んー 言葉でなくちゃ伝わらないかもよ",
+            "016": "さあ勇気をだしてみよう",
+            "017": "知らない事は たくさんあるよ",
+            "018": "もっともっとドキドキさせて！",
+            "019": "さぁ 笑いながら行こう",
+            "020": "ちょっとヘコむ事があっても",
+            "021": "それは次へのステップ",
+            "022": "ぼくらが変えてくんだ",
+            "023": "わずかなほんの一歩ずつだけど",
+            "024": "さぁ 手を取り合って行こう",
+            "025": "何かにつまづいたとしても",
+            "026": "誰かが支えてくれるよ",
+            "027": "ぼくらは進んでくよ",
+            "028": "さぁ 歌いながら行こう",
+            "029": "あなたの笑顔が誰かをきっと幸せにするよ",
+            "030": "世界は変えられるよ 小さく些細な愛の魔法で",
+            "_en": {
+                "001": "saa   utainagara ikou",
+                "002": "anata no egao ga dareka o kitto shiawase ni suru yo",
+                "003": "sekai wa kaerareru yo   chiisaku sasai na ai no mahou de",
+                "004": "ah   kyou mo kurikaesu   taikutsu na mainichi",
+                "005": "tameiki o tsuite   kyou mo sugosu tsumori?",
+                "006": "hmm   tenki mo iishi   ii koto aru kamo yo",
+                "007": "saa genki o dashite ikou",
+                "008": "shobokuretetemo kawaranai yo",
+                "009": "totteoki no POWER o ageru!",
+                "010": "saa   utainagara ikou",
+                "011": "anata no egao ga dareka o kitto shiawase ni suru yo",
+                "012": "sekai wa kaerareru yo   chiisaku sasai na ai no mahou de",
+                "013": "ah   kyou mo surechigau   daisuki na ano ko",
+                "014": "omotte bakari de   asu mo sugosu tsumori?",
+                "015": "hmm   kotoba de nakucha tsutawaranai kamo yo",
+                "016": "saa yuuki o dashite miyou",
+                "017": "shiranai koto wa   takusan aru yo",
+                "018": "motto motto dokidoki sasete!",
+                "019": "saa   warainagara ikou",
+                "020": "chotto hekomu koto ga attemo",
+                "021": "sore wa tsugi e no STEP",
+                "022": "bokura ga kaete kun da",
+                "023": "wazuka na hon no ippo zutsu dakedo",
+                "024": "saa   te o toriatte ikou",
+                "025": "nanika ni tsumazuita to shitemo",
+                "026": "dareka ga sasaete kureru yo",
+                "027": "bokura wa susundeku yo",
+                "028": "saa   utainagara ikou",
+                "029": "anata no egao ga dareka o kitto shiawase ni suru yo",
+                "030": "sekai wa kaerareru yo   chiisaku sasai na ai no mahou de"
+            }
+        },
+        "motion": {
+            "01": "PV238_SS_1P",
+            "2P": {
+                "01": "PV238_SS_2P"
+            },
+            "3P": {
+                "01": "PV238_SS_3P"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "120",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "33",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "MEI",
+                "pv_costume": "24",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV238.bin"
+        },
+        "rank_board_id": "136",
+        "sabi": {
+            "play_time": "21.5",
+            "start_time": "64.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_238.ogg",
+        "song_name": "SING＆SMILE",
+        "song_name_en": "SING&SMILE",
+        "song_name_reading": "しんぐあんどすまいる",
+        "songinfo": {
+            "arranger": "Re:nG",
+            "illustrator": "志摩時緒",
+            "lyrics": "Re:nG",
+            "music": "Re:nG",
+            "_en": {
+                "arranger": "Re:nG",
+                "illustrator": "Tokio Shima",
+                "lyrics": "Re:nG",
+                "music": "Re:nG"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "pv_271": {
+        "bpm": "185",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_271_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_271_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_271_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_271_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "271"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "考える",
+            "002": "このままいつまで　隠しておけるかな",
+            "003": "帰りたくなった時　さよならは言えるかな",
+            "004": "見落としたあの日のサインが　少しずつ溶けても",
+            "005": "きっと大丈夫だよ　こうやって僕らまた逢えるから",
+            "006": "目を閉じる",
+            "007": "小さな祈りは　まだ残せるかな",
+            "008": "光が戻ったとき　ただいまは言えるかな",
+            "009": "行かなくちゃ",
+            "010": "世界で一番　綺麗なものなら",
+            "011": "今まで奪われてた分は",
+            "012": "取り戻すまでさ！",
+            "013": "もっと",
+            "014": "クラクラクラ　クラクラさせてよ",
+            "015": "ユラユラユラ　ゆらぎを見せてよ",
+            "016": "キラキラキラ　きらめいていてよ",
+            "017": "そっと",
+            "018": "傷ついた夜を呼び出してみる",
+            "019": "ささやかな魔法をひとつかける",
+            "020": "それだけで僕らは飛べるのさ！",
+            "021": "離さないでよ！　眼差しを",
+            "022": "僕達はもう　止まらないよ",
+            "023": "魔法が解ける　それまで",
+            "024": "繋いでいてよ　手を",
+            "025": "手を！",
+            "026": "ひとつだって残さない",
+            "027": "全てを取り戻すだけさ",
+            "028": "魔法が解ける　それまで",
+            "029": "繋いでいてよ　手を　手を",
+            "030": "手を！",
+            "031": "今まで奪われてた分は",
+            "032": "取り戻すまでさ！",
+            "033": "そっと",
+            "034": "傷ついた夜を呼び出してみる",
+            "035": "ささやかな魔法をひとつかける",
+            "036": "それだけで僕らは飛べるのさ！",
+            "037": "もっと！",
+            "038": "クラクラクラ　クラクラさせてよ",
+            "039": "ユラユラユラ　ゆらぎを見せてよ",
+            "040": "キラキラキラ　きらめいていてよ",
+            "041": "離さないでよ！　眼差しを",
+            "042": "僕達はもう　止まらないよ",
+            "043": "魔法が解ける　それまで",
+            "044": "繋いでいてよ　手を",
+            "045": "手を！",
+            "046": "ひとつだって残さない",
+            "047": "全てを取り戻すだけさ",
+            "048": "魔法が解ける　それまで",
+            "049": "繋いでいてよ　手を　手を",
+            "050": "手を！",
+            "_en": {
+                "001": "kangaeru",
+                "002": "konomama itsumade   kakushite okeru kana?",
+                "003": "kaeritaku natta toki   sayonara wa ieru kana?",
+                "004": "miotoshita anohino SIGN ga   sukoshizutsu toketemo",
+                "005": "kitto daijoubu da yo   kouyatte bokura mata aeru kara",
+                "006": "me o tojiru",
+                "007": "chiisana inori wa   mada nokoseru kana",
+                "008": "hikari ga modotta toki   tadaima wa ieru kana",
+                "009": "ikanakucha",
+                "010": "sekai de ichiban   kirei na mono nara",
+                "011": "imamade ubawareteta bun wa",
+                "012": "torimodosu made sa!",
+                "013": "motto",
+                "014": "kurakurakura   kurakura sasete yo",
+                "015": "yurayurayura   yuragi o misete yo",
+                "016": "kirakirakira   kirameite ite yo",
+                "017": "sotto",
+                "018": "kizu tsuita yoru o yobidashi te miru",
+                "019": "sasayaka na mahou o hitotsu kakeru",
+                "020": "soredake de bokura wa toberunosa!",
+                "021": "hanasanai de yo!   manazashi o",
+                "022": "bokutachi wa mou   tomaranai yo",
+                "023": "mahou ga tokeru   sore made",
+                "024": "tsunai de ite yo!   te o",
+                "025": "te o!",
+                "026": "hitotsu datte nokosanai",
+                "027": "subete o torimodosu dake sa",
+                "028": "mahou ga tokeru   sore made",
+                "029": "tsunai de ite yo!   te o   te o",
+                "030": "te o!",
+                "031": "imamade ubawareteta bun wa",
+                "032": "torimodosu made sa!",
+                "033": "sotto",
+                "034": "kizu tsuita yoru o yobidashi te miru",
+                "035": "sasayaka na mahou o hitotsu kakeru",
+                "036": "soredake de bokura wa toberunosa!",
+                "037": "motto",
+                "038": "kurakurakura   kurakura sasete yo",
+                "039": "yurayurayura   yuragi o misete yo",
+                "040": "kirakirakira   kirameite ite yo",
+                "041": "hanasanai de yo!   manazashi o",
+                "042": "bokutachi wa mou   tomaranai yo",
+                "043": "mahou ga tokeru   sore made",
+                "044": "tsunai de ite yo!   te o",
+                "045": "te o!",
+                "046": "hitotsu datte nokosanai",
+                "047": "subete o torimodosu dake sa",
+                "048": "mahou ga tokeru   sore made",
+                "049": "tsunai de ite yo!   te o   te o",
+                "050": "te o!"
+            }
+        },
+        "motion": {
+            "01": "PV271_TEO_P1",
+            "2P": {
+                "01": "PV271_TEO_P2"
+            }
+        },
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV271.bin"
+        },
+        "sabi": {
+            "play_time": "32.9",
+            "start_time": "79.8"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_271.ogg",
+        "song_name": "テオ",
+        "song_name_en": "Teo",
+        "song_name_reading": "てお",
+        "songinfo": {
+            "arranger": "Omoi",
+            "illustrator": "Omoi",
+            "lyrics": "Sakurai",
+            "music": "Omoi",
+            "_en": {
+                "arranger": "Omoi",
+                "illustrator": "Omoi",
+                "lyrics": "Sakurai",
+                "music": "Omoi"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

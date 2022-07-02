@@ -1,0 +1,374 @@
+{
+    "pv_405": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "01": {
+                            "stage": "STGNS033"
+                        },
+                        "02": {
+                            "stage": "STGNS029"
+                        },
+                        "03": {
+                            "stage": "STGNS020"
+                        },
+                        "length": "3"
+                    },
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "motion": {
+                        "10": "CMN_MCA00_50_34",
+                        "11": "CMN_MCA00_50_57",
+                        "12": "CMN_MCA00_70_12",
+                        "13": "CMN_MCA00_70_31",
+                        "14": "CMN_MCA00_70_26",
+                        "15": "CMN_MCA00_70_23",
+                        "16": "CMN_MCA00_70_16",
+                        "17": "CMN_MCA00_50_38",
+                        "18": "CMN_MCA00_50_43",
+                        "19": "CMN_MCA00_50_40",
+                        "20": "CMN_MCA00_50_41",
+                        "21": "CMN_MCA00_50_31",
+                        "22": "CMN_MCA00_50_55",
+                        "23": "CMN_MCA00_70_21",
+                        "24": "CMN_MCA00_70_28",
+                        "25": "CMN_MCA00_70_29",
+                        "26": "CMN_MCA00_70_19",
+                        "27": "CMN_MCA00_50_60_C",
+                        "28": "CMN_MCA00_70_20",
+                        "29": "CMN_MCA00_70_24",
+                        "00": "CMN_MRA00_13_01",
+                        "01": "CMN_MCA00_70_30",
+                        "02": "CMN_MCA00_50_47",
+                        "03": "CMN_MCA00_50_53",
+                        "04": "CMN_MCA00_50_56_B",
+                        "05": "CMN_MCA00_50_32",
+                        "06": "CMN_MCA00_50_42",
+                        "07": "CMN_MCA00_70_32",
+                        "08": "CMN_MCA00_50_17",
+                        "09": "CMN_MCA00_50_25"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "29"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_405_easy.dsc",
+                    "script_format": "0x16030121",
+                    "se_name": "01_button1",
+                    "songinfo": {
+                        "pv_editor": "A-6",
+                        "_en": {
+                            "pv_editor": "A-6"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_405_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_405_extreme_1.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_405_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "01": {
+                            "stage": "STGNS033"
+                        },
+                        "02": {
+                            "stage": "STGNS029"
+                        },
+                        "03": {
+                            "stage": "STGNS020"
+                        },
+                        "length": "3"
+                    },
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "motion": {
+                        "10": "CMN_MCA00_50_34",
+                        "11": "CMN_MCA00_50_57",
+                        "12": "CMN_MCA00_70_12",
+                        "13": "CMN_MCA00_70_31",
+                        "14": "CMN_MCA00_70_26",
+                        "15": "CMN_MCA00_70_23",
+                        "16": "CMN_MCA00_70_16",
+                        "17": "CMN_MCA00_50_38",
+                        "18": "CMN_MCA00_50_43",
+                        "19": "CMN_MCA00_50_40",
+                        "20": "CMN_MCA00_50_41",
+                        "21": "CMN_MCA00_50_31",
+                        "22": "CMN_MCA00_50_55",
+                        "23": "CMN_MCA00_70_21",
+                        "24": "CMN_MCA00_70_28",
+                        "25": "CMN_MCA00_70_29",
+                        "26": "CMN_MCA00_70_19",
+                        "27": "CMN_MCA00_50_60_C",
+                        "28": "CMN_MCA00_70_20",
+                        "29": "CMN_MCA00_70_24",
+                        "00": "CMN_MRA00_13_01",
+                        "01": "CMN_MCA00_70_30",
+                        "02": "CMN_MCA00_50_47",
+                        "03": "CMN_MCA00_50_53",
+                        "04": "CMN_MCA00_50_56_B",
+                        "05": "CMN_MCA00_50_32",
+                        "06": "CMN_MCA00_50_42",
+                        "07": "CMN_MCA00_70_32",
+                        "08": "CMN_MCA00_50_17",
+                        "09": "CMN_MCA00_50_25"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "29"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_405_normal.dsc",
+                    "script_format": "0x16030121",
+                    "se_name": "01_button1",
+                    "songinfo": {
+                        "pv_editor": "A-6",
+                        "_en": {
+                            "pv_editor": "A-6"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "405"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "aet_front": "bg_grd_white",
+                "stage": "STGNS014"
+            },
+            "02": {
+                "stage": "STGNS033"
+            },
+            "03": {
+                "stage": "STGNS017"
+            },
+            "04": {
+                "stage": "STGNS013"
+            },
+            "05": {
+                "aet_front": "base_white",
+                "aet_id_front": "AET_GAM_CMN_MAIN",
+                "stage": "STGAETBACK"
+            },
+            "06": {
+                "aet_front": "base_black",
+                "aet_id_front": "AET_GAM_CMN_MAIN",
+                "stage": "STGAETBACK"
+            },
+            "length": "6"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "銀のごとくきらめく",
+            "002": "刃に映る夜宵の月",
+            "003": "藍に染まる衣を",
+            "004": "ゆさぶる風と鈴の音よ",
+            "005": "祭り囃子みちびく",
+            "006": "蛍の誘いに身をゆだね",
+            "007": "千の刻をこえて出遭えた",
+            "008": "Star Dash",
+            "009": "瞳を重ねれば感じる言葉",
+            "010": "花火のように弾ける世界",
+            "011": "ナイトメア☆パーティーナイト",
+            "012": "本能が止められない",
+            "013": "打ち斬れぬほどに",
+            "014": "山咲く竹の花",
+            "015": "ナイトメア☆パーティーナイト",
+            "016": "乱れや紙吹雪",
+            "017": "止め処ない賽華",
+            "018": "うらめし紙芝居",
+            "019": "霧のごとくゆらめく",
+            "020": "記憶はいつかのおぼろ月",
+            "021": "さめざめし想い出よ",
+            "022": "五月雨ともに流れ去る",
+            "023": "祭り囃子途切れぬ",
+            "024": "このまま彼方に身をゆだね",
+            "025": "夢の中で眠るカラスの",
+            "026": "Star Dust",
+            "027": "近づくものときに体をひそめ",
+            "028": "すべてを受容れよ永遠に",
+            "029": "ナイトメア☆パーティーナイト",
+            "030": "本能が止められない",
+            "031": "打ち斬れぬほどに",
+            "032": "山咲く竹の花",
+            "033": "ナイトメア☆パーティーナイト",
+            "034": "乱れや紙吹雪",
+            "035": "止め処ない賽華",
+            "036": "うらめし紙芝居",
+            "037": "華やかなれ",
+            "_en": {
+                "001": "gin no gotoku kirameku",
+                "002": "yaiba ni utsuru yayoi no tsuki",
+                "003": "ai ni somaru koromo o",
+                "004": "yusaburu kaze to suzu no ne yo",
+                "005": "matsuribayashi michibiku",
+                "006": "hotaru no sasoi ni mi o yudane",
+                "007": "sen no toki o koete deaeta",
+                "008": "STAR DASH",
+                "009": "hitomi o kasanereba kanjiru kotoba",
+                "010": "hanabi no you ni hajikeru sekai",
+                "011": "NIGHTMARE ☆ PARTY NIGHT",
+                "012": "honnou ga tomerarenai",
+                "013": "uchikirenu hodo ni",
+                "014": "yama saku take no hana",
+                "015": "NIGHTMARE ☆ PARTY NIGHT",
+                "016": "midareya kamifubuki",
+                "017": "tomedonai saika",
+                "018": "urameshi kamishibai",
+                "019": "kiri no gotoku yurameku",
+                "020": "kioku wa itsuka no oborozuki",
+                "021": "samezameshi omoide yo",
+                "022": "samidare tomo ni nagaresaru",
+                "023": "matsuribayashi togirenu",
+                "024": "kono mama kanata ni mi o yudane",
+                "025": "yume no naka de nemuru karasu no",
+                "026": "STAR DUST",
+                "027": "chikazuku mono toki ni karada o hisome",
+                "028": "subete o ukeireyo eien ni",
+                "029": "NIGHTMARE ☆ PARTY NIGHT",
+                "030": "honnou ga tomerarenai",
+                "031": "uchikirenu hodo ni",
+                "032": "yama saku take no hana",
+                "033": "NIGHTMARE ☆ PARTY NIGHT",
+                "034": "midareya kamifubuki",
+                "035": "tomedonai saika",
+                "036": "urameshi kamishibai",
+                "037": "hanayaka nare"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_22",
+            "11": "CMN_MCA00_50_34",
+            "12": "CMN_MCA00_70_31",
+            "13": "CMN_MCA00_70_26",
+            "14": "CMN_MCA00_50_53",
+            "15": "CMN_MCA00_50_54",
+            "16": "CMN_MCA00_50_38",
+            "17": "CMN_MCA00_50_39",
+            "18": "CMN_MCA00_50_40",
+            "19": "CMN_MCA00_50_43",
+            "20": "CMN_MCA00_70_11",
+            "21": "CMN_MCA00_70_23",
+            "22": "CMN_MCA00_70_20",
+            "23": "CMN_MCA00_70_19",
+            "24": "CMN_MCA00_70_25",
+            "25": "CMN_MCA00_70_28",
+            "26": "CMN_MCA00_70_29",
+            "27": "CMN_MCA00_70_30",
+            "28": "CMN_MCA00_70_32",
+            "29": "CMN_MCA00_70_21",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_56_B",
+            "02": "CMN_MCA00_50_22",
+            "03": "CMN_MCA00_70_14",
+            "04": "CMN_MCA00_50_50",
+            "05": "CMN_MCA00_50_12",
+            "06": "CMN_MCA00_50_42",
+            "07": "CMN_MCA00_50_24",
+            "08": "CMN_MCA00_50_31",
+            "09": "CMN_MCA00_50_29"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "11",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "200",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "55.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_405.ogg",
+        "song_name": "ナイトメア☆パーティーナイト",
+        "song_name_en": "Nightmare ☆ Party Night",
+        "song_name_reading": "ないとめあぱーてぃーないと",
+        "songinfo": {
+            "arranger": "くちばし",
+            "illustrator": "くちばし",
+            "lyrics": "くちばし",
+            "music": "くちばし",
+            "pv_editor": "siraki",
+            "_en": {
+                "arranger": "Kuchibashi",
+                "illustrator": "Kuchibashi P",
+                "lyrics": "Kuchibashi",
+                "music": "Kuchibashi",
+                "pv_editor": "siraki"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

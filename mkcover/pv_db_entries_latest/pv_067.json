@@ -1,0 +1,184 @@
+{
+    "pv_067": {
+        "bpm": "185",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_029_extreme.dsc",
+                    "script_format": "0x13013121",
+                    "version": "0"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_029_hard.dsc",
+                    "script_format": "0x13013121",
+                    "version": "0"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_029_normal.dsc",
+                    "script_format": "0x13013121",
+                    "version": "0"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "029",
+            "target_shadow_type": "1"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS084_SNOW"
+            },
+            "02": {
+                "auth_3d": "STGPV067S01_EFF_001",
+                "stage": "STGNS015_SNOW"
+            },
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "Merry Merry Christmas",
+            "002": "何がめでたいかわからないけど",
+            "003": "Merry Merry Christmas",
+            "004": "とりあえずおめでとうは言っておく",
+            "005": "朝起きると 枕元見てみる",
+            "006": "何にも置いてないのも もう慣れっこ",
+            "007": "サンタクロースは",
+            "008": "きっともういないけど",
+            "009": "心のどこかで 信じている",
+            "010": "ふりしきる雪は どこまでも白くて",
+            "011": "すべて すべて",
+            "012": "音も立てずに 被い尽くすわ",
+            "013": "Merry Merry Christmas",
+            "014": "最期まで 独りだったみんなも",
+            "015": "Merry Merry Christmas",
+            "016": "愛の中 激しく散ったみんなも",
+            "017": "Merry Merry Christmas",
+            "018": "貧しくても 夢見続けたみんなも",
+            "019": "Merry Merry Christmas",
+            "020": "雪の下で 安らかに眠れますように",
+            "021": "ずっとずっと前",
+            "022": "初めてあなたと出会った時には",
+            "023": "もじもじして",
+            "024": "二人ともお互い見れなかった",
+            "025": "忘れたくない",
+            "026": "私もそろそろ壊れちゃうけど",
+            "027": "幽霊でいい",
+            "028": "もう一度あなたに逢いたい",
+            "029": "Merry Merry Christmas",
+            "030": "私は歌う あなたへのレクイエム",
+            "031": "Merry Merry Christmas",
+            "032": "聖なる夜 切に祝福願う",
+            "033": "Merry Merry Christmas",
+            "034": "永い間 口に出せなかったけれど",
+            "035": "Merry Merry Christmas",
+            "036": "一度くらいちゃんと言うわ",
+            "037": "「愛してる」",
+            "_en": {
+                "001": "Merry Merry Christmas",
+                "002": "nani ga medetai ka wakaranai kedo",
+                "003": "Merry Merry Christmas",
+                "004": "toriaezu omedetou wa itte oku",
+                "005": "asa okiru to   makuramoto mite miru",
+                "006": "nani mo oitenai no mo   mou narekko",
+                "007": "SANTA CLAUS wa",
+                "008": "kitto mou inai kedo",
+                "009": "kokoro no dokoka de    shinjiteiru",
+                "010": "furishikiru yuki wa   dokomademo shirokute",
+                "011": "subete   subete",
+                "012": "oto mo tatezu ni   ooitsukusu wa",
+                "013": "Merry Merry Christmas",
+                "014": "saigo made   hitori datta minna mo",
+                "015": "Merry Merry Christmas",
+                "016": "ai no naka   hageshiku chitta minna mo",
+                "017": "Merry Merry Christmas",
+                "018": "mazushikutemo   yume mitsuzuketa minna mo",
+                "019": "Merry Merry Christmas",
+                "020": "yuki no shita de   yasuraka ni nemuremasu you ni",
+                "021": "zutto zutto mae",
+                "022": "hajimete anata to deatta toki ni wa",
+                "023": "mojimoji shite",
+                "024": "futari tomo otagai mirenakatta",
+                "025": "wasuretakunai",
+                "026": "watashi mo sorosoro kowarechau kedo",
+                "027": "yuurei de ii",
+                "028": "mou ichido anata ni aitai",
+                "029": "Merry Merry Christmas",
+                "030": "watashi wa utau   anata e no REQUIEM",
+                "031": "Merry Merry Christmas",
+                "032": "seinaru yoru   setsu ni shukufuku negau",
+                "033": "Merry Merry Christmas",
+                "034": "nagai aida   kuchi ni dasenakatta keredo",
+                "035": "Merry Merry Christmas",
+                "036": "ichido kurai chanto iu wa",
+                "037": "\"aishiteru\""
+            }
+        },
+        "motion": {
+            "01": "PV029_MCA00_16_10"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "84.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_029.ogg",
+        "song_name": "金の聖夜霜雪に朽ちて（extend版)",
+        "song_name_en": "Requiem for the Phantasma",
+        "song_name_reading": "こがねのせいやそうせつにくちて",
+        "songinfo": {
+            "arranger": "デッドボールP",
+            "lyrics": "デッドボールP",
+            "music": "デッドボールP",
+            "_en": {
+                "arranger": "DeadballP",
+                "lyrics": "DeadballP",
+                "music": "DeadballP"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

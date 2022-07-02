@@ -1,0 +1,163 @@
+{
+    "pv_251": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150924",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_251_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_251_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_251_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_251_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "251"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "Ah, listen to my music",
+            "002": "指先から流れるように",
+            "003": "溢れ出したメロディーに心踊らせて",
+            "004": "party time",
+            "005": "テンションコードだってドレスコードなら",
+            "006": "アドリブ効かせても悪くないかしら",
+            "007": "88のクレパスが描き出したモノは何",
+            "008": "色とりどりの蝶々みたいにね",
+            "009": "舞い上がってゆく",
+            "010": "今夜のレッスンは得意のスケールもね",
+            "011": "躓き気味だからちょっぴりブルーノート",
+            "012": "練習ちゃんとしてきたの？って怒られちゃって",
+            "013": "ブロークン my heart 少し挫けそう",
+            "014": "インベンションもツェルニーも",
+            "015": "好き嫌いなんてしない",
+            "016": "大事な事を諦めなければ美しくなる",
+            "017": "私だけのオーケストラ お付き合いお願いします",
+            "018": "魔法の小箱に夢を乗せて",
+            "019": "タクトを振りかざすの",
+            "020": "88のクレパスに無限の愛を込めれば",
+            "021": "描き出せないものなんてないの",
+            "022": "信じているから",
+            "023": "88のクレパスで今宵は何を描こう",
+            "024": "カラフルに連鎖するハーモニーに身を任せたら",
+            "025": "半音階 グラデーション 三連符は遊び心よ",
+            "026": "魔法の小箱に夢を乗せる",
+            "027": "私はPIANO GIRL！！",
+            "_en": {
+                "001": "Ah, listen to my music",
+                "002": "yubisaki kara nagareru you ni",
+                "003": "afuredashita MELODY ni kokoro odorasete",
+                "004": "Party time",
+                "005": "TENSION CORD datte DRESS CODE nara",
+                "006": "AD-LIB kikasetemo warukunai kashira",
+                "007": "hachijuuhachi no kurepasu ga egakidashita mono wa nani",
+                "008": "iro toridori no choucho mitai ni ne",
+                "009": "maiagatte yuku",
+                "010": "konya no LESSON wa tokui no SCALE mo ne",
+                "011": "tsumazukigimi dakara choppiri BLUE NOTE",
+                "012": "renshuu chanto shite kita no? tte okorarechatte",
+                "013": "BROKEN MY HEART sukoshi kujikesou",
+                "014": "INVENTION mo CZERNY mo",
+                "015": "suki kirai nante shinai",
+                "016": "daiji na koto o akiramenakereba utsukushiku naru",
+                "017": "watashi dake no ORCHESTRA   otsukiai onegai shimasu",
+                "018": "mahou no kobako ni yume o nosete",
+                "019": "TAKT o furikazasu no",
+                "020": "hachijuuhachi no kurepasu ni mugen no ai o komereba",
+                "021": "egakidasenai mono nante nai no",
+                "022": "shinjiteiru kara",
+                "023": "hachijuuhachi no kurepasu de koyoi wa nani o egakou",
+                "024": "COLORFUL ni rensa suru HARMONY ni mi o makasetara",
+                "025": "han-onkai GRADATION   sanrenpu wa asobigokoro yo",
+                "026": "mahou no kobako ni yume o noseru",
+                "027": "watashi wa PIANO GIRL!!"
+            }
+        },
+        "motion": {
+            "01": "PV251_PNG"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "153",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV251.bin"
+        },
+        "rank_board_id": "142",
+        "sabi": {
+            "play_time": "33.7",
+            "start_time": "99.8"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_251.ogg",
+        "song_name": "PIANO*GIRL",
+        "song_name_en": "PIANO*GIRL",
+        "song_name_reading": "ぴあのがーる",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "Yおじ",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "Y Oji",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

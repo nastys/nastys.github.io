@@ -1,0 +1,204 @@
+{
+    "pv_732": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_732_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_732_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_732_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_732_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "732"
+        },
+        "effect_se_file_name": "rom/sound/pv732_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv732_effect",
+            "length": "1"
+        },
+        "frame_texture_a": "F_DIVA_STGPV732_MS_FB01",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "有刺鉄線の先　更なる高みへ　競い合う二人",
+            "002": "言葉などいらない　相手の横顔だけ見据えて",
+            "003": "与え合う刺激　手を伸ばしたなら",
+            "004": "届く距離にいても",
+            "005": "決してその手を取り合うことはない",
+            "006": "互いを認め合ってた",
+            "007": "「キミの代役は他の誰にもできはしないから」",
+            "008": "共に走って知って嫉妬して",
+            "009": "背中をずっと追っていって",
+            "010": "並んで『なんだこんなもんか』って笑って",
+            "011": "「果てはない」って言ってハッとした",
+            "012": "最初は敵視してて",
+            "013": "素直になんてなんでなって、って不思議で",
+            "014": "覚えてる？",
+            "015": "「覚えているよ」",
+            "016": "「\"キミと歩んだあの日々を\"」",
+            "017": "振り向かないで。ここはまだ道の途中だから",
+            "018": "前を向こう",
+            "019": "辛いけどキミが望むのならば……！",
+            "020": "隣でもっともっともっとって",
+            "021": "一緒にずっとずっとずっと",
+            "022": "進めると理屈なく信じてた",
+            "023": "どうしてなんでなんでなんでって",
+            "024": "喚いてたってなんもなくて",
+            "025": "手を伸ばしてももう届かない距離",
+            "026": "共に走って知って嫉妬して",
+            "027": "背中をずっと追っていって",
+            "028": "並んで『なんだこんなもんか』って笑って",
+            "029": "先を走ってくっていったって",
+            "030": "限度あるってなんて勝手",
+            "031": "走っても走っても追いつけない",
+            "032": "忘れない───忘れないから。",
+            "033": "最高のライバルを",
+            "_en": {
+                "001": "yuushi tessen no saki   saranaru takami e   kisoiau futari",
+                "002": "kotoba nado iranai   aite no yokogao dake misuete",
+                "003": "ataeau shigeki   te o nobashita nara",
+                "004": "todoku kyori ni itemo",
+                "005": "kesshite sono te o toriau koto wa nai",
+                "006": "tagai o mitomeatteta",
+                "007": "\"kimi no daiyaku wa hoka no dare ni mo deki wa shinai kara\"",
+                "008": "tomo ni hashitte shitte shitto shite",
+                "009": "senaka o zutto otte itte",
+                "010": "narande \"nanda konna mon ka\" tte waratte",
+                "011": "\"hate wa nai\" tte itte hatto shita",
+                "012": "saisho wa tekishi shitete",
+                "013": "sunao ni nante nande natte, tte fushigi de",
+                "014": "oboeteru?",
+                "015": "\"oboeteiru yo\"",
+                "016": "(\"kimi to ayunda ano hibi o\")",
+                "017": "furimukanaide. koko wa mada michi no tochuu dakara",
+                "018": "mae o mukou",
+                "019": "tsurai kedo kimi ga nozomu no naraba...!",
+                "020": "tonari de motto motto motto tte",
+                "021": "issho ni zutto zutto zutto",
+                "022": "susumeru to rikutsu naku shinjiteta",
+                "023": "doushite nande nande nande tte",
+                "024": "wameitetatte nanmo nakute",
+                "025": "te o nobashitemo mou todokanai kyori",
+                "026": "tomo ni hashitte shitte shitto shite",
+                "027": "senaka o zutto otte itte",
+                "028": "narande \"nanda konna mon ka\" tte waratte",
+                "029": "saki o hashitteku tte ittatte",
+                "030": "gendo aru tte nante katte",
+                "031": "hashittemo hashittemo oitsukenai",
+                "032": "wasurenai--wasurenai kara.",
+                "033": "saikou no RIVAL o"
+            }
+        },
+        "motion": {
+            "01": "PV732_AAR_P1_00",
+            "02": "PV732_AAR_P1_10",
+            "2P": {
+                "01": "PV732_AAR_P2_00",
+                "02": "PV732_AAR_P2_10"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "140",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LUK",
+                "pv_costume": "35",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV732.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "118",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "70.5"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_732.ogg",
+        "song_name": "アカツキアライヴァル",
+        "song_name_en": "Akatsuki Arrival",
+        "song_name_reading": "あかつきあらいヴぁる",
+        "songinfo": {
+            "arranger": "Last Note．",
+            "illustrator": "空真",
+            "lyrics": "Last Note．",
+            "music": "Last Note．",
+            "_en": {
+                "arranger": "Last Note.",
+                "illustrator": "Kuuma",
+                "lyrics": "Last Note.",
+                "music": "Last Note."
+            }
+        },
+        "stage_param": {
+            "0": {
+                "stage": "STGPV732S02_CLONE1",
+                "wind_file": "rom/light_param/wind_pv732s02_clone1.txt"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

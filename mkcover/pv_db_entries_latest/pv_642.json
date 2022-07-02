@@ -1,0 +1,199 @@
+{
+    "pv_642": {
+        "bpm": "132",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140918",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_642_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_642_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_642_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_642_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "642"
+        },
+        "effect_se_file_name": "rom/sound/pv642_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv642_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "Make up and Dress up!",
+            "002": "I become very lovely too!",
+            "003": "まつげは長めでね　マスカラプラス付けまつげ",
+            "004": "アイラインばっちりね",
+            "005": "くっきりシャドウハイライト",
+            "006": "リップはちょっと多めに in",
+            "007": "ピンクでキラキラなの",
+            "008": "胸元開けすぎだって？",
+            "009": "だってこういうの好きじゃん",
+            "010": "ヒールは3センチ up!",
+            "011": "背伸びしてちょうどいいくらいに",
+            "012": "手首にベビードール　甘くてどきどきしない？",
+            "013": "赤いマニキュアすごいキュートでしょ？　ねぇ",
+            "014": "夢見てるの？　君だけに",
+            "015": "好きなんていわないよ",
+            "016": "勘違いしないでね！　I'm liar girl.",
+            "017": "大好きなの　ホントはね",
+            "018": "“あたしだけ”じゃなきゃイヤだよ",
+            "019": "I'm sorry not to become meekly.",
+            "020": "\"I love you baby!\"",
+            "021": "大好きだよ　ホントなの",
+            "022": "“君だけ”じゃなきゃイヤでしょ？",
+            "023": "I have only you,it's really true!",
+            "024": "だからキスして　Do you love sweet devil?",
+            "025": "夢見てるの？　君だけに",
+            "026": "好きなんていわないよ",
+            "027": "勘違いしないでね！　I'm liar girl.",
+            "028": "ごめんね全部嘘だから",
+            "029": "“あたしだけ”じゃなきゃダメなの…",
+            "030": "Can you love me through life?　誓いは",
+            "031": "キスでいいよね　Do you love sweet devil?",
+            "_en": {
+                "001": "Make up and Dress up!",
+                "002": "I become very lovely too!",
+                "003": "matsuge wa nagame de ne   MASCARA PLUS tsukematsuge",
+                "004": "EYELINE bacchiri ne",
+                "005": "kukkiri SHADOW HIGHLIGHT",
+                "006": "LIP wa chotto oome ni   IN",
+                "007": "PINK de kirakira na no",
+                "008": "munamoto akesugi datte?",
+                "009": "datte kouiu no suki jan",
+                "010": "HEEL wa san senchi UP!",
+                "011": "senobi shite choudo ii kurai ni",
+                "012": "tekubi ni BABY DOLL   amakute dokidoki shinai?",
+                "013": "akai MANICURE sugoi CUTE desho?   nee",
+                "014": "yume miteru no?   kimi dake ni",
+                "015": "suki nante iwanai yo",
+                "016": "kanchigai shinai de ne!   I'm liar girl.",
+                "017": "daisuki na no   honto wa ne",
+                "018": "\"atashi dake\" janakya iya da yo",
+                "019": "I'm sorry not to become meekly.",
+                "020": "\"I love you baby!\"",
+                "021": "daisuki da yo   honto na no",
+                "022": "\"kimi dake\" janakya iya desho?",
+                "023": "I have only you, it's really true!",
+                "024": "dakara KISS shite   Do you love sweet devil?",
+                "025": "yume miteru no?   kimi dake ni",
+                "026": "suki nante iwanai yo",
+                "027": "kanchigai shinai de ne!   I'm liar girl.",
+                "028": "gomen ne zenbu uso dakara",
+                "029": "\"atashi dake\" janakya dame na no...",
+                "030": "Can you love me through life?   chikai wa",
+                "031": "KISS de ii yo ne   Do you love sweet devil?"
+            }
+        },
+        "motion": {
+            "01": "PV642_SWD_P1_00",
+            "02": "PV642_SWD_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "114",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV642.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "110",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "56.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_642.ogg",
+        "song_name": "Sweet Devil",
+        "song_name_en": "Sweet Devil",
+        "song_name_reading": "すうぃーとでびる",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "132"
+                },
+                "length": "1"
+            },
+            "max_frame": "9822",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "0.00"
+        },
+        "songinfo": {
+            "arranger": "八王子P",
+            "illustrator": "saitom",
+            "lyrics": "q*Left",
+            "music": "八王子P",
+            "_en": {
+                "arranger": "Hachioji P",
+                "illustrator": "saitom",
+                "lyrics": "q*Left",
+                "music": "Hachioji P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

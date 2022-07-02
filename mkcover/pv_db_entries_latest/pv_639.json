@@ -1,0 +1,230 @@
+{
+    "pv_639": {
+        "bpm": "204",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140527",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_639_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_639_extreme_1.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_639_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_639_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "639",
+            "title_2d_layer": "title_eff"
+        },
+        "effect_se_file_name": "rom/sound/pv639_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv639_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_extra": "1",
+        "lyric": {
+            "001": "父さん母さん　今までごめん",
+            "002": "膝を震わせ　親指しゃぶる",
+            "003": "兄さん姉さん　それじゃあまたね",
+            "004": "冴えない靴の　踵潰した",
+            "005": "見え張ったサイズで　型紙を取る",
+            "006": "何だっていいのさ　代わりになれば",
+            "007": "愛されたいと口を零した",
+            "008": "もっと丈夫な　ハサミで　顔を切り取るのさ",
+            "009": "全智全能の　言葉を　ほら聞かせてよ",
+            "010": "脳みそ以外もう　いらないと",
+            "011": "why not, I don't know",
+            "012": "近未来創造　明日の傷創　ただ揺らしてよ",
+            "013": "縫い目の隙間を埋めておくれ",
+            "014": "皆さんさようなら　先生お元気で",
+            "015": "高鳴った胸に　涎が垂れる",
+            "016": "正直者は何を見る？　正直者は馬鹿を見る！",
+            "017": "正直者は何を見る？　正直者は馬鹿を見る！",
+            "018": "あー、これじゃまだ足りないよ",
+            "019": "もっと大きな　ミシンで　心貫くのさ",
+            "020": "全智全能の　言葉を　ほら聞かせてよ",
+            "021": "脳みそ以外もう　いらないと",
+            "022": "why not, I don't know",
+            "023": "近未来創造　明日の傷創　ただ揺らしてよ",
+            "024": "縫い目の隙間を埋めておくれ",
+            "025": "もう何も無いよ　何も無いよ　引き剥がされて",
+            "026": "糸屑の　海へと　この細胞も",
+            "027": "そうボクいないよ　ボクいないよ",
+            "028": "投げ捨てられて",
+            "029": "帰る場所すら何処にも無いんだよ",
+            "030": "存在証明。",
+            "031": "あー、shut up　ウソだらけの体",
+            "032": "完成したいよ　ズルしたいよ　今、解答を",
+            "033": "変われないの？　飼われたいの？　何も無い？",
+            "034": "こんなのボクじゃない！",
+            "035": "縫い目は解けて引き千切れた",
+            "036": "煮え立ったデイズで　命火を裁つ",
+            "037": "誰だっていいのさ　代わりになれば",
+            "_en": {
+                "001": "tou-san kaa-san   ima made gomen",
+                "002": "hiza o furuwase   oyayubi shaburu",
+                "003": "nii-san nee-san   sore jaa mata ne",
+                "004": "saenai kutsu no   kakato tsubushita",
+                "005": "mie hatta SIZE de   katagami o toru",
+                "006": "nandatte ii no sa   kawari ni nareba",
+                "007": "aisaretai to kuchi o koboshita",
+                "008": "motto joubu na   hasami de   kao o kiritoru no sa",
+                "009": "zenchi zennou no   kotoba o   hora kikasete yo",
+                "010": "noumiso igai mou   iranai to",
+                "011": "Why not, I don't know",
+                "012": "kinmirai souzou   asu no shousou   tada yurashite yo",
+                "013": "nuime no sukima o umete okure",
+                "014": "mina-san sayounara   sensei ogenki de",
+                "015": "takanatta mune ni   yodare ga tareru",
+                "016": "shoujikimono wa nani o miru? shoujikimono wa baka o miru!",
+                "017": "shoujikimono wa nani o miru? shoujikimono wa baka o miru!",
+                "018": "aah, kore ja mada tarinai yo",
+                "019": "motto ookina   mishin de   kokoro tsuranuku no sa",
+                "020": "zenchi zennou no   kotoba o   hora kikasete yo",
+                "021": "noumiso igai mou   iranai to",
+                "022": "Why not, I don't know",
+                "023": "kinmirai souzou   asu no shousou   tada yurashite yo",
+                "024": "nuime no sukima o umete okure",
+                "025": "mou nanimo nai yo   nanimo nai yo   hikihagasarete",
+                "026": "itokuzu no   umi e to   kono saibou mo",
+                "027": "sou boku inai yo   boku inai yo",
+                "028": "nagesuterarete",
+                "029": "kaeru basho sura doko ni mo nain da yo",
+                "030": "sonzai shoumei.",
+                "031": "aah, SHUT UP   uso darake no karada",
+                "032": "kansei shitai yo   zuru shitai yo   ima, kaitou o",
+                "033": "kawarenai no?   kawaretai no?   nanmo nai?",
+                "034": "konna no boku janai!",
+                "035": "nuime wa hodokete hikichigireta",
+                "036": "nietatta DAZE de   inochibi o tatsu",
+                "037": "dare datte ii no sa   kawari ni nareba"
+            }
+        },
+        "motion": {
+            "01": "PV639_TTB_P1_00",
+            "02": "PV639_TTB_P1_10",
+            "2P": {
+                "01": "PV639_TTB_P2_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "30",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV639.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "107",
+        "sabi": {
+            "play_time": "21.0",
+            "start_time": "46.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_639.ogg",
+        "song_name": "東京テディベア",
+        "song_name_en": "Tokyo Teddy Bear",
+        "song_name_reading": "とうきょうてでぃべあ",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "204"
+                },
+                "length": "1"
+            },
+            "max_frame": "11434",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "0.22"
+        },
+        "songinfo": {
+            "arranger": "Neru",
+            "illustrator": "しづ",
+            "lyrics": "Neru",
+            "music": "Neru",
+            "_en": {
+                "arranger": "Neru",
+                "illustrator": "Sidu",
+                "lyrics": "Neru",
+                "music": "Neru"
+            }
+        },
+        "sort_index": "33",
+        "stage_param": {
+            "0": {
+                "stage": "STGPV639S01_CLONE1",
+                "wind_file": "rom/light_param/wind_pv639s01_clone1.txt"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

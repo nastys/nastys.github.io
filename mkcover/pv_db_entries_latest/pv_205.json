@@ -1,0 +1,189 @@
+{
+    "pv_205": {
+        "bpm": "149",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_205_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_205_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_205_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "205"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "star_eff02",
+                "stage": "STGNS013"
+            },
+            "01": {
+                "stage": "STGNS020"
+            },
+            "02": {
+                "stage": "STGNS015"
+            },
+            "03": {
+                "stage": "STGNS004"
+            },
+            "04": {
+                "stage": "STGPV008S01"
+            },
+            "05": {
+                "stage": "STGNS013"
+            },
+            "06": {
+                "aet_front": "shooting_star",
+                "stage": "STGNS020"
+            },
+            "07": {
+                "aet_front": "orange_eff",
+                "stage": "STGPV008S01"
+            },
+            "08": {
+                "aet_front": "orange_eff",
+                "stage": "STGNS004"
+            },
+            "09": {
+                "aet_front": "star_eff01",
+                "stage": "STGPV008S01"
+            },
+            "length": "10"
+        },
+        "hand_item": {
+            "01": "MIC_BLK_L",
+            "02": "MIC_BLK_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "Holy Star",
+            "002": "あの夜空にかけた願い今も",
+            "003": "胸で熱くなる",
+            "004": "あなたに送る　言葉さえも見つからない",
+            "005": "今日も独り　星を探してる",
+            "006": "光と闇の蜃気楼　迷った振りをして",
+            "007": "嘘の欠片を集め　壊れないように",
+            "008": "色あせた記憶　忘れられない思い出",
+            "009": "時は流れ　人は変わってゆくの",
+            "010": "希望の欠片を集め",
+            "011": "Holy Star",
+            "012": "この夜空にかける願いさえも",
+            "013": "今は切なくて",
+            "014": "あなたがくれた　言葉さえも時に溶けて",
+            "015": "今日も独り　星を見つめてる",
+            "016": "かなわぬ想いを　この夜空に祈っても",
+            "017": "星は流れ　私は変わらずにいるの",
+            "018": "未来の地図を描いてみても",
+            "019": "Holy Star",
+            "020": "あの夜空にかけた願い今も",
+            "021": "胸で熱くなる",
+            "022": "あなたに送る　言葉さえも見つからない",
+            "023": "今日も独り　星を探してる",
+            "_en": {
+                "001": "HOLY STAR",
+                "002": "ano yozora ni kaketa negai ima mo",
+                "003": "mune de atsuku naru",
+                "004": "anata ni okuru   kotoba sae mo mitsukaranai",
+                "005": "kyou mo hitori   hoshi o sagashiteru",
+                "006": "hikari to yami no shinkirou   mayotta furi o shite",
+                "007": "uso no kakera o atsume   kowarenai you ni",
+                "008": "iroaseta kioku   wasurerarenai omoide",
+                "009": "toki wa nagare   hito wa kawatte yuku no",
+                "010": "kibou no kakera o atsume",
+                "011": "HOLY STAR",
+                "012": "kono yozora ni kakeru negai sae mo",
+                "013": "ima wa setsunakute",
+                "014": "anata ga kureta   kotoba sae mo toki ni tokete",
+                "015": "kyou mo hitori   hoshi o mitsumeteru",
+                "016": "kanawanu omoi o   kono yozora ni inottemo",
+                "017": "hoshi wa nagare   watashi wa kawarazu ni iru no",
+                "018": "mirai no chizu o egaite mitemo",
+                "019": "HOLY STAR",
+                "020": "ano yozora ni kaketa negai ima mo",
+                "021": "mune de atsuku naru",
+                "022": "anata ni okuru   kotoba sae mo mitsukaranai",
+                "023": "kyou mo hitori   hoshi o sagashiteru"
+            }
+        },
+        "motion": {
+            "01": "PV205_HOLY_00"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "169",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "2.0"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_205.ogg",
+        "song_name": "Holy Star -2010 DIVA mix-",
+        "song_name_en": "Holy Star -2010 DIVA mix-",
+        "song_name_reading": "ほーりーすたー",
+        "songinfo": {
+            "arranger": "Kouhei (K's Sound Project)",
+            "lyrics": "Kouhei (K's Sound Project)",
+            "music": "Kouhei (K's Sound Project)",
+            "_en": {
+                "arranger": "Kouhei (K's Sound Project)",
+                "lyrics": "Kouhei (K's Sound Project)",
+                "music": "Kouhei (K's Sound Project)"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "30.6"
+        }
+    }
+}

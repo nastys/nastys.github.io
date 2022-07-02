@@ -1,0 +1,243 @@
+{
+    "pv_220": {
+        "bpm": "171",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_220_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_220_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_220_extreme_1.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_220_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_220_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "220",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "冗談混じりの境界線上 階段のそのまた向こう",
+            "002": "全然良いこともないし、",
+            "003": "ねえ その手を引いてみようか？",
+            "004": "散々躓いたダンスを、",
+            "005": "そう、祭壇の上で踊るの？",
+            "006": "呆然に目が眩んじゃうから",
+            "007": "どうでしょう、一緒にここで！",
+            "008": "甲高い声が部屋を埋めるよ",
+            "009": "最低な意味を渦巻いて",
+            "010": "当然、良いこともないし",
+            "011": "さあ、思い切り吐き出そうか",
+            "012": "「短い言葉で繋がる意味を",
+            "013": "顔も合わせずに毛嫌う理由を",
+            "014": "さがしても さがしても",
+            "015": "見つからないけど",
+            "016": "はにかみながら怒ったって",
+            "017": "目を伏せながら笑ったって",
+            "018": "そんなの、どうせ、つまらないわ！」",
+            "019": "ホップ・ステップで踊ろうか",
+            "020": "世界の隅っこでワン・ツー",
+            "021": "ちょっとクラッとしそうになる",
+            "022": "終末感を楽しんで",
+            "023": "パッとフラッと消えちゃいそな",
+            "024": "次の瞬間を残そうか",
+            "025": "くるくるくるくるり　回る世界に酔う",
+            "026": "傍観者だけの空間。",
+            "027": "レースを最終電車に乗り込んで、",
+            "028": "「全然良いこともないし、",
+            "029": "ねえ、この手を引いてみようか？」",
+            "030": "なんだかいつもと違う。",
+            "031": "運命のいたずらを信じてみる。",
+            "032": "散々躓いたダンスを、",
+            "033": "そう、思い切り馬鹿にしようか",
+            "034": "「つまらん動き繰り返す意味を",
+            "035": "音に合わせて足を踏む理由を",
+            "036": "さがしても さがしても",
+            "037": "見つからないから",
+            "038": "悲しいときに踊りたいの",
+            "039": "泣きたいときに笑いたいの」",
+            "040": "そんなわがまま疲れちゃうわ！",
+            "041": "ポップにセンスを歌おうか",
+            "042": "世界、俯いちゃう前に",
+            "043": "キュッとしちゃった心の音をどうぞ。",
+            "044": "まだまだ忘れないわ。",
+            "045": "なんて綺麗な眺めなんでしょうか！",
+            "046": "ここから見える風景",
+            "047": "きっと何一つ変わらないから、",
+            "048": "枯れた地面を這うの。",
+            "049": "ホップ・ステップで踊ろうか",
+            "050": "世界の隅っこでワン・ツー",
+            "051": "ちょっとクラッとしそうになる",
+            "052": "終末感を楽しんで",
+            "053": "パッとフラッと消えちゃいそな",
+            "054": "次の瞬間を残そうか",
+            "055": "さよなら、お元気で。",
+            "056": "終わる世界に言う",
+            "_en": {
+                "001": "joudan majiri no kyoukaisenjou   kaidan no sono mata mukou",
+                "002": "zenzen ii koto mo nai shi,",
+                "003": "nee   sono te o hiite miyou ka?",
+                "004": "sanzan tsumazuita DANCE o,",
+                "005": "sou, saidan no ue de odoru no?",
+                "006": "bouzen ni me ga kuranjau kara",
+                "007": "doudeshou, issho ni koko de!",
+                "008": "kandakai koe ga heya o umeru yo",
+                "009": "saitei na imi o uzumaite",
+                "010": "touzen, ii koto mo naishi",
+                "011": "saa, omoikiri hakidasou ka",
+                "012": "\"mijikai kotoba de tsunagaru imi o",
+                "013": "kao mo awasezu ni kegirau wake o",
+                "014": "sagashitemo sagashitemo",
+                "015": "mitsukaranai kedo",
+                "016": "hanikaminagara okottatte",
+                "017": "me o fusenagara warattatte",
+                "018": "sonnano, douse, tsumaranai wa!\"",
+                "019": "HOP, STEP de odorou ka",
+                "020": "sekai no sumikko de ONE, TWO",
+                "021": "chotto kuratto shisou ni naru",
+                "022": "shuumatsukan o tanoshinde",
+                "023": "patto furatto kiechaiso na",
+                "024": "tsugi no shunkan o nokosou ka",
+                "025": "kuru kuru kuru kururi   mawaru sekai ni you",
+                "026": "boukansha dake no kuukan.",
+                "027": "RACE o saishuudensha ni norikonde,",
+                "028": "\"zenzen ii koto mo nai shi,",
+                "029": "nee kono te o hiite miyou ka?\"",
+                "030": "nandaka itsumo to chigau.",
+                "031": "unmei no itazura o shinjite miru.",
+                "032": "sanzan tsumazuita DANCE o,",
+                "033": "sou, omoikiri baka ni shiyou ka",
+                "034": "\"tsumaran ugoki kurikaesu imi o",
+                "035": "oto ni awasete ashi o fumu wake o",
+                "036": "sagashitemo   sagashitemo",
+                "037": "mitsukaranai kara",
+                "038": "kanashii toki ni odoritai no",
+                "039": "nakitai toki ni waraitai no\"",
+                "040": "sonna wagamama tsukarechau wa!",
+                "041": "POP ni SENSE o utaou ka",
+                "042": "sekai, utsumuichau mae ni",
+                "043": "kyutto shichatta kokoro no ne o douzo.",
+                "044": "mada mada wasurenai wa.",
+                "045": "nante kirei na nagame nan deshou ka!",
+                "046": "koko kara mieru fuukei",
+                "047": "kitto nanihitotsu kawaranai kara,",
+                "048": "kareta jimen o hau no.",
+                "049": "HOP, STEP de odorou ka",
+                "050": "sekai no sumikko de ONE, TWO",
+                "051": "chotto kuratto shisou ni naru",
+                "052": "shuumatsukan o tanoshinde",
+                "053": "patto furatto kiechaiso na",
+                "054": "tsugi no shunkan o nokosou ka",
+                "055": "sayonara, ogenki de.",
+                "056": "owaru sekai ni iu"
+            }
+        },
+        "motion": {
+            "01": "PV220_WED_P1",
+            "2P": {
+                "01": "PV220_WED_P2"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "79",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LUK",
+                "pv_costume": "17",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "178",
+        "sabi": {
+            "play_time": "27.0",
+            "start_time": "81.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_220.ogg",
+        "song_name": "ワールズエンド・ダンスホール -Live Dance Edition-",
+        "song_name_en": "World's End Dance Hall -Live Dance Edition-",
+        "song_name_reading": "わーるずえんどだんすほーる　らいぶだんすえでぃしょん",
+        "songinfo": {
+            "arranger": "wowaka",
+            "illustrator": "wowaka",
+            "lyrics": "wowaka",
+            "music": "wowaka",
+            "_en": {
+                "arranger": "wowaka",
+                "illustrator": "wowaka",
+                "lyrics": "wowaka",
+                "music": "wowaka"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

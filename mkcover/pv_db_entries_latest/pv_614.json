@@ -1,0 +1,229 @@
+{
+    "pv_614": {
+        "bpm": "120",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV614_LUK_001",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV614_LUK_002",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV614_LUK_003",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV614_LUK_004",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "4": {
+                        "name": "EFFCHRPV614_LUK_005",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "5": {
+                        "name": "EFFCHRPV614_LUK_006",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "6": {
+                        "name": "EFFCHRPV614_LUK_007",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "7": {
+                        "name": "EFFCHRPV614_LUK_008",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "8": {
+                        "name": "EFFCHRPV614_LUK_009",
+                        "type": "AUTH3D"
+                    },
+                    "9": {
+                        "name": "EFFCHRPV614_LUK_010",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "length": "10"
+                },
+                "id": "0",
+                "name": "LUK"
+            },
+            "num": "1"
+        },
+        "date": "20140527",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_614_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_614_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_614_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "614"
+        },
+        "effect_se_file_name": "rom/sound/pv614_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv614_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "顔を洗うために",
+            "002": "机に置いたメガネ",
+            "003": "君が遊んでる",
+            "004": "それはボクのメガネ",
+            "005": "透き通るレンズの上で 踊る君の指",
+            "006": "綺麗なガラスの舞台に",
+            "007": "雪の足跡を残した",
+            "008": "メガネに写る君の指先が",
+            "009": "ボクの視界を奪う",
+            "010": "メガネに写る君の魔法は",
+            "011": "ボクの行く手を阻む",
+            "012": "そう",
+            "013": "メガネに写る君の指先が",
+            "014": "ボクのハートを奪う",
+            "015": "メガネに写る君の幻想で",
+            "016": "ボクは満たされる",
+            "017": "君が吹き出したコーヒーは",
+            "018": "太陽の光 瞬いて",
+            "019": "まるで無数のレンズのように",
+            "020": "ボクの顔に降り注いだ",
+            "021": "メガネに写る君の指先が",
+            "022": "ボクの視界を奪う",
+            "023": "メガネに写る君の魔法は",
+            "024": "ボクの行く手を阻む",
+            "025": "そう",
+            "026": "メガネに写る君の指先が",
+            "027": "ボクのハートを奪う",
+            "028": "メガネに写る君の幻想で",
+            "029": "ボクは満たされる",
+            "_en": {
+                "001": "kao o arau tame ni",
+                "002": "tsukue ni oita megane",
+                "003": "kimi ga asonderu",
+                "004": "sore wa boku no megane",
+                "005": "sukitooru LENS no ue de odoru kimi no yubi",
+                "006": "kirei na GLASS no butai ni",
+                "007": "yuki no ashiato o nokoshita",
+                "008": "megane ni utsuru kimi no yubisaki ga",
+                "009": "boku no shikai o ubau",
+                "010": "megane ni utsuru kimi no mahou wa",
+                "011": "boku no yukute o habamu",
+                "012": "sou",
+                "013": "megane ni utsuru kimi no yubisaki ga",
+                "014": "boku no HEART o ubau",
+                "015": "megane ni utsuru kimi no gensou de",
+                "016": "boku wa mitasareru",
+                "017": "kimi ga fukidashita COFFEE wa",
+                "018": "taiyou no hikari   matataite",
+                "019": "marude musuu no LENS no you ni",
+                "020": "boku no kao ni furisosoida",
+                "021": "megane ni utsuru kimi no yubisaki ga",
+                "022": "boku no shikai o ubau",
+                "023": "megane ni utsuru kimi no mahou wa",
+                "024": "boku no yukute o habamu",
+                "025": "sou",
+                "026": "megane ni utsuru kimi no yubisaki ga",
+                "027": "boku no HEART o ubau",
+                "028": "megane ni utsuru kimi no gensou de",
+                "029": "boku wa mitasareru"
+            }
+        },
+        "motion": {
+            "01": "PV614_MGN_P1_00",
+            "02": "PV614_MGN_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "item_face": "0",
+                "pv_costume": "26",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV614.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "87",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "107.8"
+        },
+        "se_name": "44_button12",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_614.ogg",
+        "song_name": "MEGANE",
+        "song_name_en": "Glasses",
+        "song_name_reading": "めがね",
+        "songinfo": {
+            "arranger": "Ultra-Noob",
+            "illustrator": "hata_hata",
+            "lyrics": "Ultra-Noob",
+            "music": "Ultra-Noob",
+            "_en": {
+                "arranger": "Ultra-Noob",
+                "illustrator": "hata_hata",
+                "lyrics": "Ultra-Noob",
+                "music": "Ultra-Noob"
+            }
+        },
+        "sort_index": "18",
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_pv614_mhd0000.txt",
+                "mhd_id": "0"
+            },
+            "1": {
+                "collision_file": "coli_pv614_mhd7334.txt",
+                "mhd_id": "1"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

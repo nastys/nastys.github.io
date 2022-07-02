@@ -1,0 +1,305 @@
+{
+    "pv_262": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chrcam": {
+            "0": {
+                "chara": "LEN",
+                "id": "0",
+                "name": "CAMPV262_BASE_A",
+                "org_name": "CAMPV262_BASE"
+            },
+            "1": {
+                "chara": "KAI",
+                "id": "0",
+                "name": "CAMPV262_BASE_A",
+                "org_name": "CAMPV262_BASE"
+            },
+            "length": "2"
+        },
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV262MEI001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV262MEI002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "MEI"
+            },
+            "num": "1"
+        },
+        "chrmot": {
+            "0": {
+                "chara": "LEN",
+                "id": "0",
+                "name": "PV262_PFS_01",
+                "org_name": "PV262_PFS_00"
+            },
+            "1": {
+                "chara": "KAI",
+                "id": "0",
+                "name": "PV262_PFS_01",
+                "org_name": "PV262_PFS_00"
+            },
+            "length": "2"
+        },
+        "date": "20161014",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_262_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_262_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_262_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_262_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "262"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "MIK",
+                "ex_auth": {
+                    "0": {
+                        "name": "EFFCHRPV262MIK100",
+                        "org_name": "EFFCHRPV262MEI100"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV262MIK101",
+                        "org_name": "EFFCHRPV262MEI101"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV262MIK100",
+                        "org_name": "EFFCHRPV262RIN100"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV262MIK101",
+                        "org_name": "EFFCHRPV262RIN101"
+                    },
+                    "4": {
+                        "name": "EFFCHRPV262MIK100",
+                        "org_name": "EFFCHRPV262KAI100"
+                    },
+                    "5": {
+                        "name": "EFFCHRPV262MIK101",
+                        "org_name": "EFFCHRPV262KAI101"
+                    },
+                    "length": "6"
+                },
+                "file": "rom/sound/song/pv_262_mik.ogg"
+            },
+            "1": {
+                "chara": "RIN",
+                "ex_auth": {
+                    "0": {
+                        "name": "EFFCHRPV262RIN100",
+                        "org_name": "EFFCHRPV262MEI100"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV262RIN101",
+                        "org_name": "EFFCHRPV262MEI101"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV262RIN100",
+                        "org_name": "EFFCHRPV262MIK100"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV262RIN101",
+                        "org_name": "EFFCHRPV262MIK101"
+                    },
+                    "4": {
+                        "name": "EFFCHRPV262RIN100",
+                        "org_name": "EFFCHRPV262KAI100"
+                    },
+                    "5": {
+                        "name": "EFFCHRPV262RIN101",
+                        "org_name": "EFFCHRPV262KAI101"
+                    },
+                    "length": "6"
+                },
+                "file": "rom/sound/song/pv_262_rin.ogg"
+            },
+            "2": {
+                "chara": "KAI",
+                "ex_auth": {
+                    "0": {
+                        "name": "EFFCHRPV262KAI100",
+                        "org_name": "EFFCHRPV262MEI100"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV262KAI101",
+                        "org_name": "EFFCHRPV262MEI101"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV262KAI100",
+                        "org_name": "EFFCHRPV262MIK100"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV262KAI101",
+                        "org_name": "EFFCHRPV262MIK101"
+                    },
+                    "4": {
+                        "name": "EFFCHRPV262KAI100",
+                        "org_name": "EFFCHRPV262RIN100"
+                    },
+                    "5": {
+                        "name": "EFFCHRPV262KAI101",
+                        "org_name": "EFFCHRPV262RIN101"
+                    },
+                    "length": "6"
+                },
+                "file": "rom/sound/song/pv_262_kai.ogg"
+            },
+            "length": "3"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "ありふれた私という協奏曲をなぞらえる日々",
+            "002": "それとなく指揮棒に合わせれば　保証される調和",
+            "003": "ダウンビート",
+            "004": "割とストイックで古典的な優等生でも",
+            "005": "アップビートは",
+            "006": "アドリブでいかなきゃ退屈でしょう",
+            "007": "楽譜通りの日常に　枯れゆくこの命ならば",
+            "008": "いっそ背徳の渦に溺れてしまいたい",
+            "009": "その指に光る愛の証さえ",
+            "010": "消え入りそうな程優しく",
+            "011": "囁いた言葉は　禁断の小夜曲",
+            "012": "27時　瞳を閉じれば",
+            "013": "想うのはあなたの事ばかり",
+            "014": "そんなの良くないよだなんて　友達は言うけれど",
+            "015": "そんな言葉じゃ私の渇きが潤うことなどはない",
+            "016": "可愛げ無い台詞で演奏が乱れだす",
+            "017": "散らばった秩序の上",
+            "018": "ひび割れた愛が砕け散るその前に",
+            "019": "キスで繋ぎ止めて　回り始めた狂詩曲",
+            "020": "加速する愛のリズム",
+            "021": "突き詰めて確かめ合うように　今夜は",
+            "022": "フォルテシモでもいい　強く強く抱き締めて",
+            "023": "重なり合うこの声は　闇に溶けて消えていくから",
+            "024": "きっと大丈夫よ",
+            "025": "何も悪いことじゃない",
+            "_en": {
+                "001": "arifureta watashi to iu CONCERTO o nazoraeru hibi",
+                "002": "sore to naku TAKT ni awasereba   hoshou sareru HARMONY",
+                "003": "DOWNBEAT",
+                "004": "wari to STOIC de CLASSICAL na yuutousei demo",
+                "005": "UPBEAT wa",
+                "006": "AD-LIB de ikanakya taikutsu deshou",
+                "007": "SCORE doori no nichijou ni   kareyuku kono inochi naraba",
+                "008": "isso haitoku no uzu ni oborete shimaitai",
+                "009": "sono yubi ni hikaru ai no akashi sae",
+                "010": "kieirisou na hodo yasashiku",
+                "011": "sasayaita kotoba wa   kindan no SERENADE",
+                "012": "nijuu nana ji   hitomi o tojireba",
+                "013": "omou no wa anata no koto bakari",
+                "014": "sonna no yokunai yo da nante   tomodachi wa iu keredo",
+                "015": "sonna kotoba ja watashi no kawaki ga uruou koto nado wa nai",
+                "016": "kawaige nai serifu de PLAY ga midare dasu",
+                "017": "chirabatta SCORE no ue",
+                "018": "hibiwareta ai ga kudakechiru sono mae ni",
+                "019": "KISS de tsunagitomete   mawarihajimeta RHAPSODY",
+                "020": "kasoku suru ai no RHYTHM",
+                "021": "tsukitsumete tashikame au you ni   kon-ya wa",
+                "022": "FORTISSIMO demo ii   tsuyoku tsuyoku dakishimete",
+                "023": "kasanariau kono koe wa   yami ni tokete kiete iku kara",
+                "024": "kitto daijoubu yo",
+                "025": "nanimo warui koto janai"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV262_PFS_00"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "33",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV262.bin"
+        },
+        "rank_board_id": "160",
+        "sabi": {
+            "play_time": "25.4",
+            "start_time": "59.6"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_262.ogg",
+        "song_name": "ピアノ×フォルテ×スキャンダル",
+        "song_name_en": "Piano × Forte × Scandal",
+        "song_name_reading": "ぴあのふぉるてすきゃんだる",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "kochimu",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

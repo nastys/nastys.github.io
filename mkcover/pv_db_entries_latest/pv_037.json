@@ -1,0 +1,255 @@
+{
+    "pv_037": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140606",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_037_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_037_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_037_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_037_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_037_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "037",
+            "title_end_2d_field": "5",
+            "title_start_2d_field": "5"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "はじめてのキスは涙の味がした",
+            "002": "まるでドラマみたいな恋",
+            "003": "見計らったように発車のベルが鳴った",
+            "004": "",
+            "005": "冷たい冬の風が頬をかすめる",
+            "006": "吐いた息で両手をこすった",
+            "007": "街はイルミネーション　魔法をかけたみたい",
+            "008": "裸の街路樹　キラキラ",
+            "009": "どうしても言えなかった",
+            "010": "この気持ち　押さえつけた",
+            "011": "前から決めていた事だから",
+            "012": "これでいいの",
+            "013": "振り向かないから",
+            "014": "ありがとう　サヨナラ",
+            "015": "いつかこんな時が来てしまうこと",
+            "016": "わかってたはずだわ",
+            "017": "なのに",
+            "018": "ありがとう　サヨナラ？",
+            "019": "体が震えてる",
+            "020": "もうすぐ列車が来るのに",
+            "021": "それは今になって私を苦しめる",
+            "022": "繋がりたい",
+            "023": "どれほど願っただろう",
+            "024": "この手は空っぽ",
+            "025": "ねえ　サヨナラってこういうこと？",
+            "026": "行かなくちゃ",
+            "027": "そんなのわかってる",
+            "028": "キミが優しい事も知ってる",
+            "029": "だから",
+            "030": "「……この手を離してよ」",
+            "031": "出会えて良かった",
+            "032": "キミが好き",
+            "033": "ありがとう　サヨナラ",
+            "034": "一言が言えない",
+            "035": "今だけでいい　私に勇気を",
+            "036": "「あのね--」",
+            "037": "言いかけた唇　キミとの距離は０",
+            "038": "……今だけは泣いていいよね",
+            "039": "もう言葉はいらない",
+            "040": "お願い　ぎゅっとしていて",
+            "041": "",
+            "042": "来年の今頃には",
+            "043": "どんな私がいて",
+            "044": "どんなキミがいるのかな",
+            "045": "",
+            "_en": {
+                "001": "hajimete no KISS wa namida no aji ga shita",
+                "002": "marude DRAMA mitai na koi",
+                "003": "mihakaratta you ni hassha no BELL ga natta",
+                "004": "",
+                "005": "tsumetai fuyu no kaze ga hoo o kasumeru",
+                "006": "haita iki de ryoute o kosutta",
+                "007": "machi wa ILLUMINATION   mahou o kaketa mitai",
+                "008": "hadaka no gairoju   kirakira",
+                "009": "doushitemo ienakatta",
+                "010": "kono kimochi   osaetsuketa",
+                "011": "mae kara kimeteita koto dakara",
+                "012": "kore de ii no",
+                "013": "furimukanai kara",
+                "014": "arigatou   sayonara",
+                "015": "itsuka konna toki ga kite shimau koto",
+                "016": "wakatteta hazu da wa",
+                "017": "na no ni",
+                "018": "arigatou   sayonara?",
+                "019": "karada ga furueteru",
+                "020": "mousugu ressha ga kuru no ni",
+                "021": "sore wa ima ni natte watashi o kurushimeru",
+                "022": "tsunagaritai",
+                "023": "dore hodo negatta darou",
+                "024": "kono te wa karappo",
+                "025": "nee   sayonara tte kou iu koto?",
+                "026": "ikanakucha",
+                "027": "sonna no wakatteru",
+                "028": "kimi ga yasashii koto mo shitteru",
+                "029": "dakara",
+                "030": "\"...kono te o hanashite yo\"",
+                "031": "deaete yokatta",
+                "032": "kimi ga suki",
+                "033": "arigatou   sayonara",
+                "034": "hitokoto ga ienai",
+                "035": "ima dake de ii   watashi ni yuuki o",
+                "036": "\"ano ne--\"",
+                "037": "iikaketa kuchibiru   kimi to no kyori wa ZERO",
+                "038": "...ima dake wa naite ii yo ne",
+                "039": "mou kotoba wa iranai",
+                "040": "onegai   gyu tto shiteite",
+                "041": "",
+                "042": "rainen no imagoro ni wa",
+                "043": "donna watashi ga ite",
+                "044": "donna kimi ga iru no ka na",
+                "045": ""
+            }
+        },
+        "motion": {
+            "10": "PV037_HKO_00_C09_00A",
+            "11": "PV037_HKO_00_C10_00A",
+            "12": "PV037_HKO_00_C11_00A",
+            "13": "PV037_HKO_00_C12_00A",
+            "14": "PV037_HKO_00_C13_00A",
+            "15": "PV037_HKO_00_C14_00A",
+            "16": "PV037_HKO_00_C15_00A",
+            "17": "PV037_HKO_00_C16_00A",
+            "18": "PV037_HKO_00_C17_00A",
+            "01": "PV037_HKO_00_C00_00A",
+            "02": "PV037_HKO_00_C01_00A",
+            "03": "PV037_HKO_00_C02_00A",
+            "04": "PV037_HKO_00_C03_00A",
+            "05": "PV037_HKO_00_C04_00A",
+            "06": "PV037_HKO_00_C05_00A",
+            "07": "PV037_HKO_00_C06_00A",
+            "08": "PV037_HKO_00_C07_00A",
+            "09": "PV037_HKO_00_C08_00A"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV037_HKO_00_C08_00A",
+                "stage": "STGD2PV037S01_SNOW"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV037_HKO_00_C09_00A",
+                "stage": "STGD2PV037S01_SNOW"
+            },
+            "length": "2"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "58",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "30",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "79.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_037.ogg",
+        "song_name": "初めての恋が終わる時",
+        "song_name_en": "When First Love Ends",
+        "song_name_reading": "はじめてのこいがおわるとき",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "三輪士郎",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Miwa Shirow",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv037s01_snow.txt",
+                "stage": "STGD2PV037S01"
+            },
+            "1": {
+                "collision_file": "coli_stgd2pv037s01_snow.txt",
+                "stage": "STGD2PV037S01_SNOW"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

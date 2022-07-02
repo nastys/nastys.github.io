@@ -1,0 +1,185 @@
+{
+    "pv_209": {
+        "bpm": "240",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_209_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_209_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_209_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_209_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "脱出用の潜水艦は",
+            "002": "きっととても狭いから",
+            "003": "神経症を治療しとかなきゃ",
+            "004": "花飾りがお似合いな君",
+            "005": "一緒にいかないか",
+            "006": "海底までピンクムーンは沈んでくんだ",
+            "007": "追いかけてつかまえてみようか",
+            "008": "海底まで僕らも潜ってくんだ",
+            "009": "このまま溺れてしまおうか",
+            "010": "みんなはっきり言わないけど",
+            "011": "きっと勘づいているんでしょ",
+            "012": "このメリーゴーランドはもう",
+            "013": "回る事をやめちゃうんだって",
+            "014": "君も聞いただろ",
+            "015": "天国までピンクムーンは昇ってくんだ",
+            "016": "あらゆる街を染めながら",
+            "017": "てっぺんまで僕らも浮かんでくんだ",
+            "018": "そのまま溶けてしまいなよ",
+            "019": "pink moon light my way now",
+            "020": "pink moon where do we go now",
+            "021": "pink moon light my way now",
+            "022": "pink moon",
+            "023": "海底までピンクムーンは沈んでくんだ",
+            "024": "追いかけてつかまえてみようか",
+            "025": "海底まで僕らも潜ってくんだ",
+            "026": "このまま溺れてしまおうか",
+            "027": "昨日の記憶を今日が打ち消す",
+            "028": "今日の出来事も明日忘れる",
+            "029": "明日の予定もあさってに持ち越す",
+            "030": "あさっての事はもう分らない",
+            "_en": {
+                "001": "dasshutsu you no sensuikan wa",
+                "002": "kitto totemo semai kara",
+                "003": "shinkeishou o chiryou shitokanakya",
+                "004": "hanakazari ga oniai na kimi",
+                "005": "issho ni ikanai ka",
+                "006": "kaitei made PINK MOON wa shizundekun da",
+                "007": "oikakete tsukamaete miyou ka",
+                "008": "kaitei made bokura mo moguttekun da",
+                "009": "kono mama oborete shimaou ka",
+                "010": "minna hakkiri iwanai kedo",
+                "011": "kitto kanzuiteirun desho",
+                "012": "kono MERRY-GO-ROUND wa mou",
+                "013": "mawaru koto o yamechaun datte",
+                "014": "kimi mo kiita daro",
+                "015": "tengoku made PINK MOON wa nobottekun da",
+                "016": "arayuru machi o somenagara",
+                "017": "teppen made bokura mo ukandekun da",
+                "018": "sono mama tokete shimaina yo",
+                "019": "Pink moon light my way now",
+                "020": "Pink moon where do we go now",
+                "021": "Pink moon light my way now",
+                "022": "Pink moon",
+                "023": "kaitei made PINK MOON wa shizundekun da",
+                "024": "oikakete tsukamaete miyou ka",
+                "025": "kaitei made bokura mo moguttekun da",
+                "026": "kono mama oborete shimaou ka",
+                "027": "kinou no kioku o kyou ga uchikesu",
+                "028": "kyou no dekigoto mo ashita wasureru",
+                "029": "asu no yotei mo asatte ni mochikosu",
+                "030": "asatte no koto wa mou wakaranai"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_209.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "192",
+        "sabi": {
+            "play_time": "21.0",
+            "start_time": "29.0"
+        },
+        "se_name": "06_button6",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_209.ogg",
+        "song_name": "ピンクムーン",
+        "song_name_en": "Pink Moon",
+        "song_name_reading": "ぴんくむーん",
+        "songinfo": {
+            "arranger": "もじょP",
+            "illustrator": "あべん",
+            "lyrics": "もじょP",
+            "music": "もじょP",
+            "pv_editor": "あべん",
+            "_en": {
+                "arranger": "Mojo P",
+                "illustrator": "Aben",
+                "lyrics": "Mojo P",
+                "music": "Mojo P",
+                "pv_editor": "Aben"
+            }
+        },
+        "sudden_timing": "0.55"
+    }
+}

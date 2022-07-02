@@ -1,0 +1,184 @@
+{
+    "pv_227": {
+        "bpm": "174",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_227_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_227_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_227_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_227_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "227",
+            "title_end_2d_field": "2",
+            "title_start_2d_field": "1"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_227_rin.ogg"
+            },
+            "length": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_MIC_MSS_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "持て余すくらいなら　足りないほうがマシだ",
+            "002": "オネダリするんだ　献身的な愛を",
+            "003": "祟らぬ神でも　触れないほうが無難だ",
+            "004": "オネガイするんだ　全身全霊　祈るんだ",
+            "005": "零れ落ちた空の涙",
+            "006": "偽りの雨が　冷たい頬を伝わる",
+            "007": "枯れ果てた心の海に　一輪の花が　咲いた",
+            "008": "騙すことが　難しくないなら",
+            "009": "信じるのも　難しくないでしょ？",
+            "010": "見返りなんて　なくてもいいから",
+            "011": "今だけ　騙されてください",
+            "012": "汚れてしまうなら　知らないほうがマシだ",
+            "013": "夢見ていたいの　妄想癖な愛を",
+            "014": "去りゆく人なら　追わない方が無難だ",
+            "015": "言い訳しないで　感情的になんないで",
+            "016": "動き出した街の景色",
+            "017": "ざわめく人の声　聞こえないフリで逃げ出す",
+            "018": "「自分だけ違う」だなんて",
+            "019": "誰にも言えないままで",
+            "020": "正すことが　難しくないなら",
+            "021": "間違うのも　難しくないでしょ？",
+            "022": "答え合わせの前に　教えてよ",
+            "023": "アナタのその答えは　正しいの？",
+            "024": "くだらない嘘をついたくらいで",
+            "025": "嫌いになんてなるわけないでしょ？",
+            "026": "背中合わせの愛でもいいから",
+            "027": "今すぐ温めてください",
+            "_en": {
+                "001": "moteamasu kurai nara   tarinai hou ga mashi da",
+                "002": "onedari surun da   kenshinteki na ai o",
+                "003": "tataranu kami demo   furenai hou ga bunan da",
+                "004": "onegai surun da   zenshin zenrei   inorun da",
+                "005": "koboreochita sora no namida",
+                "006": "itsuwari no ame ga   tsumetai hoho o tsutawaru",
+                "007": "karehateta kokoro no umi ni   ichirin no hana ga   saita",
+                "008": "damasu koto ga   muzukashikunai nara",
+                "009": "shinjiru no mo   muzukashikunai desho?",
+                "010": "mikaeri nante   nakutemo ii kara",
+                "011": "ima dake   damasarete kudasai",
+                "012": "yogorete shimau nara   shiranai hou ga mashi da",
+                "013": "yume mite itai no   mousouheki na ai o",
+                "014": "sariyuku hito nara   owanai hou ga bunan da",
+                "015": "iiwake shinaide   kanjouteki ni nannaide",
+                "016": "ugokidashita machi no keshiki",
+                "017": "zawameku hito no koe   kikoenai furi de nigedasu",
+                "018": "\"jibun dake chigau\" da nante",
+                "019": "dare ni mo ienai mama de",
+                "020": "tadasu koto ga   muzukashikunai nara",
+                "021": "machigau no mo   muzukashikunai desho?",
+                "022": "kotaeawase no mae ni   oshiete yo",
+                "023": "anata no sono kotae wa   tadashii no?",
+                "024": "kudaranai uso o tsuita kurai de",
+                "025": "kirai ni nante naru wake nai desho?",
+                "026": "senakaawase no ai demo ii kara",
+                "027": "ima sugu atatamete kudasai"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV227_MOSOU"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "85",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "138",
+        "sabi": {
+            "play_time": "28.5",
+            "start_time": "51.5"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_227.ogg",
+        "song_name": "妄想スケッチ",
+        "song_name_en": "Mousou Sketch",
+        "song_name_reading": "もうそうすけっち",
+        "songinfo": {
+            "arranger": "40mP",
+            "illustrator": "ぎた（guitar）",
+            "lyrics": "40mP",
+            "manipulator": "Dios/シグナルP（Rin.ver)",
+            "music": "40mP",
+            "_en": {
+                "arranger": "40mP",
+                "illustrator": "Gita(guitar)",
+                "lyrics": "40mP",
+                "manipulator": "Dios/SignalP(Rin ver.)",
+                "music": "40mP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "pv_429": {
+        "bpm": "100",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150807",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_429_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_429_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_429_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_429_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_429_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "優しい祈りは全て包み込んで",
+            "002": "悠久の時は今、刻み続ける",
+            "003": "痛みを忘れながら生きてる",
+            "004": "それは何処か遠い国の物語で",
+            "005": "未来が在る事に意味などなくて",
+            "006": "君と消えそうな花火眺めてた",
+            "007": "幸せでした",
+            "008": "幾千の罪と悠久の空よ",
+            "009": "心の時計は戻せないままで",
+            "010": "叶うのならこのまま",
+            "011": "君の側に逝かせて",
+            "012": "帰る居場所には",
+            "013": "あの頃の温もりだけ",
+            "014": "君の居ない世界は",
+            "015": "私には広すぎるよ",
+            "016": "もしも運命ならば",
+            "017": "全て壊れてしまえ",
+            "018": "嫌だよ、忘れたくないよ...",
+            "_en": {
+                "000": "",
+                "001": "yasashii inori wa subete tsutsumikonde",
+                "002": "yuukyuu no toki wa ima, kizamitsuzukeru",
+                "003": "itami o wasurenagara ikiteru",
+                "004": "sore wa dokoka tooi kuni no monogatari de",
+                "005": "mirai ga aru koto ni imi nado nakute",
+                "006": "kimi to kiesou na hanabi nagameteta",
+                "007": "shiawase deshita",
+                "008": "ikusen no tsumi to yuukyuu no sora yo",
+                "009": "kokoro no tokei wa modosenai mama de",
+                "010": "kanau no nara kono mama",
+                "011": "kimi no soba ni ikasete",
+                "012": "kaeru ibasho ni wa",
+                "013": "ano koro no nukumori dake",
+                "014": "kimi no inai sekai wa",
+                "015": "watashi ni wa hirosugiru yo",
+                "016": "moshimo unmei naraba",
+                "017": "subete kowarete shimae",
+                "018": "iya da yo, wasuretakunai yo..."
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_429.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "223",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "105.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_429.ogg",
+        "song_name": "悠久-Song of Eternity-DIVAMIX-",
+        "song_name_en": "Song of Eternity -DIVAMIX-",
+        "song_name_reading": "ゆうきゅう",
+        "songinfo": {
+            "arranger": "てぃあら",
+            "illustrator": "sheeya",
+            "lyrics": "てぃあら",
+            "music": "てぃあら",
+            "pv_editor": "sheeya",
+            "_en": {
+                "arranger": "Tiara",
+                "illustrator": "sheeya",
+                "lyrics": "Tiara",
+                "music": "Tiara",
+                "pv_editor": "sheeya"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

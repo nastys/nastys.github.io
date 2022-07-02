@@ -1,0 +1,157 @@
+{
+    "pv_103": {
+        "bpm": "173",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_103_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_103_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_103_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "103",
+            "title_end_2d_field": "4",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "さあ飛びたて　はるか海の向こう",
+            "002": "Sky 真っ赤に　染める運命",
+            "003": "Shooting down",
+            "004": "",
+            "005": "両手広げて　風を身に纏い",
+            "006": "想いを　届けるの",
+            "007": "Fly away",
+            "008": "",
+            "009": "幾千の敵が私のハート狙う",
+            "010": "危険が迫る　だけど逃げたらダメ",
+            "011": "誓い響くの　In my heart",
+            "012": "I promise I will tell you my feelings",
+            "013": "",
+            "014": "あの時君の",
+            "015": "瞳に映った世界",
+            "016": "両手で握り締めて",
+            "017": "叫べ遠くまで響け",
+            "018": "",
+            "019": "尽きない包囲網",
+            "020": "miss したら TheEnd 負けなの",
+            "021": "覚悟を決めて今",
+            "022": "crossed over an eternity my calling awake",
+            "023": "the memory",
+            "024": "",
+            "025": "幾千の危機が私に絡みつく",
+            "026": "信じて飛ぶわ光の差す方へ",
+            "027": "誓い守るの　Always",
+            "028": "I promise I will tell you my feelings",
+            "_en": {
+                "001": "saa tobitate   haruka umi no mukou",
+                "002": "SKY   makka ni   someru sadame",
+                "003": "SHOOTING DOWN",
+                "004": "",
+                "005": "ryoute hirogete   kaze o mi ni matoi",
+                "006": "omoi o   todokeru no",
+                "007": "FLY AWAY",
+                "008": "",
+                "009": "ikusen no teki ga watashi no HEART nerau",
+                "010": "kiken ga semaru   dakedo nigetara dame",
+                "011": "chikai hibiku no   In my heart",
+                "012": "I promise I will tell you my feelings",
+                "013": "",
+                "014": "ano toki kimi no",
+                "015": "hitomi ni utsutta sekai",
+                "016": "ryoute de nigirishimete",
+                "017": "sakebe tooku made hibike",
+                "018": "",
+                "019": "tsukinai houimou",
+                "020": "MISS   shitara   THE END   make na no",
+                "021": "kakugo o kimete ima",
+                "022": "Crossed over an eternity my calling awake",
+                "023": "THE MEMORY",
+                "024": "",
+                "025": "ikusen no kiki ga watashi ni karamitsuku",
+                "026": "shinjite tobu wa hikari no sasu hou e",
+                "027": "chikai mamoru no   ALWAYS",
+                "028": "I promise I will tell you my feelings"
+            }
+        },
+        "motion": {
+            "01": "PV103_AFTER"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "20",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV103_STANDMIC_03__DIVSKN"
+        },
+        "rank_board_id": "164",
+        "sabi": {
+            "play_time": "30.4",
+            "start_time": "48.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_103.ogg",
+        "song_name": "AFTER BURNER",
+        "song_name_en": "AFTER BURNER",
+        "song_name_reading": "あふたーばーなー",
+        "songinfo": {
+            "arranger": "Hal",
+            "illustrator": "こーじょー（SEGA）",
+            "lyrics": "Hal",
+            "music": "HIRO",
+            "_en": {
+                "arranger": "Hal",
+                "illustrator": "Ko-jyo-(SEGA)",
+                "lyrics": "Hal",
+                "music": "HIRO"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

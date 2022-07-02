@@ -1,0 +1,213 @@
+{
+    "pv_430": {
+        "bpm": "170",
+        "date": "20130131",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_430_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_430_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_430_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_430_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "スランプです",
+            "002": "今日も何もできません",
+            "003": "スランプです",
+            "004": "やる気なんか起きません",
+            "005": "スランプです",
+            "006": "なんとなくでやりません",
+            "007": "スランプです",
+            "008": "言い訳ではありません",
+            "009": "手を付けてちょっと出来ると思ったら",
+            "010": "調子に乗ってスランプ気取り",
+            "011": "何様さ　お前何様さ",
+            "012": "見ただけでちょっと出来ると思っても",
+            "013": "出来ずにキレて逆切れウザい",
+            "014": "何様さ　お前何様さ",
+            "015": "ああ　自己中心思想の椅子に",
+            "016": "我が物顔で座っている",
+            "017": "お前は何様さ",
+            "018": "スランプです",
+            "019": "いつも何もできません",
+            "020": "スランプです",
+            "021": "やる気よりも食い気です",
+            "022": "スランプです",
+            "023": "どうしようもありません",
+            "024": "スランプです",
+            "025": "言い訳ではありません",
+            "026": "逃げ道を捜していると気付かず",
+            "027": "伸びてしまった鼻には不安",
+            "028": "何様さ お前何様さ",
+            "029": "嘲りに赤を示して怒っても",
+            "030": "自分に問いを投げ捨てた今",
+            "031": "何様だ 俺は何様だ",
+            "032": "ああ 利己主義的態度の裏に",
+            "033": "隠れた脆く崩れそうな 自分は何様さ",
+            "034": "人生が簡単と思っていたんだろう",
+            "035": "適当に今まで生きてこれただけなんだろう",
+            "036": "これまでが楽すぎただけって言われないか？",
+            "037": "スランプの言葉に救われてただけなんだろう",
+            "038": "スランプです",
+            "039": "今日も治りそうじゃない",
+            "040": "スランプです",
+            "041": "体少しだるいです",
+            "042": "スランプです",
+            "043": "なんとなくが続きます",
+            "044": "スランプです",
+            "045": "言い訳かもしれません",
+            "046": "今だけでも",
+            "047": "見逃してください！",
+            "_en": {
+                "000": "",
+                "001": "SLUMP desu",
+                "002": "kyou mo nanimo dekimasen",
+                "003": "SLUMP desu",
+                "004": "yaruki nanka okimasen",
+                "005": "SLUMP desu",
+                "006": "nantonaku de yarimasen",
+                "007": "SLUMP desu",
+                "008": "iiwake dewaarimasen",
+                "009": "te o tsukete chotto dekiru to omottara",
+                "010": "choushi ni notte SLUMP kidori",
+                "011": "nani-sama sa   omae nani-sama sa",
+                "012": "mita dake de chotto dekiru to omottemo",
+                "013": "dekizu ni kirete gyakugire uzai",
+                "014": "nani-sama sa   omae nani-sama sa",
+                "015": "aah   jikochuushin shisou no isu ni",
+                "016": "wagamonogao de suwatteiru",
+                "017": "omae wa nani-sama sa",
+                "018": "SLUMP desu",
+                "019": "itsumo nanimo dekimasen",
+                "020": "SLUMP desu",
+                "021": "yaruki yori mo kuike desu",
+                "022": "SLUMP desu",
+                "023": "doushiyou mo arimasen",
+                "024": "SLUMP desu",
+                "025": "iiwake dewaarimasen",
+                "026": "nigemichi o sagashiteiru to kizukazu",
+                "027": "nobite shimatta hana ni wa fuan",
+                "028": "nani-sama sa   omae nani-sama sa",
+                "029": "azakeri ni aka o shimeshite okottemo",
+                "030": "jibun ni toi o nagesuteta ima",
+                "031": "nani-sama da   ore wa nani-sama da",
+                "032": "aah   rikoshugiteki taido no ura ni",
+                "033": "kakureta moroku kuzuresou na   jibun wa nani-sama sa",
+                "034": "jinsei ga kantan to omotteitan darou",
+                "035": "tekitou ni ima made ikite koreta dake nan darou",
+                "036": "kore made ga rakusugita dake tte iwarenai ka?",
+                "037": "SLUMP no kotoba ni sukuwareteta dake nan darou",
+                "038": "SLUMP desu",
+                "039": "kyou mo naorisou janai",
+                "040": "SLUMP desu",
+                "041": "karada sukoshi darui desu",
+                "042": "SLUMP desu",
+                "043": "nantonaku ga tsuzukimasu",
+                "044": "SLUMP desu",
+                "045": "iiwake kamo shiremasen",
+                "046": "ima dake demo",
+                "047": "minogashite kudasai!"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "2P": {
+                "00": "CMN_MRA00_13_01"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_430.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "224",
+        "sabi": {
+            "play_time": "36",
+            "start_time": "52"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_430.ogg",
+        "song_name": "slump",
+        "song_name_en": "slump",
+        "song_name_reading": "すらんぷ",
+        "songinfo": {
+            "arranger": "しばいぬ",
+            "illustrator": "RefinedDium(みょー)",
+            "lyrics": "綾取り",
+            "music": "しばいぬ",
+            "pv_editor": "RefinedDium(みょー)",
+            "_en": {
+                "arranger": "Shibainu",
+                "illustrator": "RefinedDium(MyohTaro)",
+                "lyrics": "Ayatori",
+                "music": "Shibainu",
+                "pv_editor": "RefinedDium(MyohTaro)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "pv_417": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_417_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_417_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_417_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_417_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "417"
+        },
+        "edit": "1",
+        "edit_chara_scale": "0",
+        "edit_effect": {
+            "00": "000",
+            "01": "019",
+            "02": "018",
+            "03": "020",
+            "04": "021"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS048"
+            },
+            "02": {
+                "stage": "STGD2NS049"
+            },
+            "length": "2"
+        },
+        "hand_item": {
+            "01": "FAN_R",
+            "02": "FAN_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "寿限無、寿限無　五劫の擦り切れ",
+            "002": "海砂利水魚の水行末 雲来末 風来末",
+            "003": "食う寝る処に住むところがどっこい！",
+            "004": "",
+            "005": "このままこの歌が続くと思ったら",
+            "006": "大間違いですよ！",
+            "007": "",
+            "008": "寿限無、寿限無　五劫の擦り切れ",
+            "009": "海砂利水魚の水行末　雲来末　風来末",
+            "010": "食う寝る処に住むところがどっこい",
+            "011": "",
+            "012": "これより長い名前なんて知らないし",
+            "013": "出会ったコトもないよ",
+            "014": "",
+            "015": "もっと短くて大切な名前を知ってるよ",
+            "016": "",
+            "017": "君を幸せにするため",
+            "018": "組み立てましょ恋の手順",
+            "019": "",
+            "020": "目の前の釦を押すだけで",
+            "021": "幸福の目盛が上がってく",
+            "022": "",
+            "023": "△と×を八回",
+            "024": "○と□だらけテンテコマイ！",
+            "025": "",
+            "026": "東方の嵐みたいな弾幕もたまに来るから",
+            "027": "気をつけて！",
+            "028": "",
+            "029": "君と幸せになるため",
+            "030": "組み立てましょ愛の手順",
+            "031": "",
+            "032": "叩く場所をたまに間違えたら",
+            "033": "幸福の目盛が下がっちゃう！",
+            "034": "",
+            "035": "最後まで諦めないで",
+            "036": "全部の釦を保持したら",
+            "037": "",
+            "038": "?の形をした隠し釦が",
+            "039": "出てくるから迷わず押してね",
+            "040": "",
+            "041": "両手をわざと塞ぐようにしました",
+            "042": "君の口付けを待っています！",
+            "043": "",
+            "044": "寿限無、寿限無　五劫の擦り切れ",
+            "045": "海砂利水魚の水行末　雲来末　風来末",
+            "046": "食う寝る処に住む処",
+            "047": "",
+            "048": "やぶら小路の藪柑子",
+            "049": "パイポパイポパイポの",
+            "050": "シューリンガンシューリンガンの",
+            "051": "グーリンダイグーリンダイの",
+            "052": "ポンポコピーのポンポコ",
+            "053": "",
+            "054": "なんちゃって！",
+            "_en": {
+                "001": "jugemu, jugemu   gokou no surikire",
+                "002": "kaijari suigyo no suigyoumatsu   unraimatsu   fuuraimatsu",
+                "003": "kuu neru tokoro ni sumu tokoro ga dokkoi!",
+                "004": "",
+                "005": "kono mama kono uta ga tsuzuku to omottara",
+                "006": "oomachigai desu yo!",
+                "007": "",
+                "008": "jugemu, jugemu   gokou no surikire",
+                "009": "kaijari suigyo no suigyoumatsu   unraimatsu   fuuraimatsu",
+                "010": "kuu neru tokoro ni sumu tokoro ga dokkoi",
+                "011": "",
+                "012": "kore yori nagai namae nante shiranai shi",
+                "013": "deatta koto mo nai yo",
+                "014": "",
+                "015": "motto mijikakute taisetsu na namae o shitteru yo",
+                "016": "",
+                "017": "kimi o shiawase ni suru tame",
+                "018": "kumitatemasho koi no SEQUENCE",
+                "019": "",
+                "020": "me no mae no BUTTON o osu dake de",
+                "021": "HAPPY no GAUGE ga agatteku",
+                "022": "",
+                "023": "sankaku to batsu o hachikai",
+                "024": "maru to shikaku darake tentekomai!",
+                "025": "",
+                "026": "higashi no hou no arashi mitai na renzoku mo tama ni kuru kara",
+                "027": "ki o tsukete!",
+                "028": "",
+                "029": "kimi to shiawase ni naru tame",
+                "030": "kumitatemasho ai no SEQUENCE",
+                "031": "",
+                "032": "tataku basho o tama ni machigaetara",
+                "033": "HAPPY no GAUGE ga sagacchau!",
+                "034": "",
+                "035": "saigo made akiramenaide",
+                "036": "zenbu no BUTTON o HOLD shitara",
+                "037": "",
+                "038": "HEART no katachi o shita kakushi BUTTON ga",
+                "039": "dete kuru kara mayowazu oshite ne",
+                "040": "",
+                "041": "ryoute o waza to fusagu you ni shimashita",
+                "042": "kimi no kuchizuke o matteimasu!",
+                "043": "",
+                "044": "jugemu, jugemu   gokou no surikire",
+                "045": "kaijari suigyo no suigyoumatsu   unraimatsu   fuuraimatsu",
+                "046": "kuu neru tokoro ni sumu tokoro",
+                "047": "",
+                "048": "yaburakouji no burakouji",
+                "049": "paipo paipo paipo no",
+                "050": "shuuringan shuuringan no",
+                "051": "guurindai guurindai no",
+                "052": "ponpokopii no ponpoko",
+                "053": "",
+                "054": "nanchatte!"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_16",
+            "11": "CMN_MCA00_70_15",
+            "12": "CMN_MCA00_50_42",
+            "13": "CMN_MCA00_70_20",
+            "14": "CMN_MCA00_50_53",
+            "15": "CMN_MCA00_50_47",
+            "16": "CMN_MCA00_70_30",
+            "17": "CMN_MCA00_50_39",
+            "18": "CMN_MCA00_50_46",
+            "19": "CMN_EDT_01_002A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_056A",
+            "02": "CMN_EDT_01_034A",
+            "03": "CMN_EDT_01_030A",
+            "04": "CMN_EDT_01_017A",
+            "05": "CMN_EDT_01_016A",
+            "06": "CMN_EDT_01_014A",
+            "07": "CMN_MRA00_13_01",
+            "08": "CMN_MCA00_70_21",
+            "09": "CMN_MRA00_13_01"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "59",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "211",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "52.00"
+        },
+        "se_name": "06_button6",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_417.ogg",
+        "song_name": "ジュゲムシーケンサー",
+        "song_name_en": "Jugemu Sequencer",
+        "song_name_reading": "じゅげむしーけんさー",
+        "songinfo": {
+            "arranger": "ぼーかりおどP（noa）",
+            "illustrator": "キョー介",
+            "lyrics": "ぼーかりおどP（noa）",
+            "music": "ぼーかりおどP（noa）",
+            "pv_editor": "me",
+            "_en": {
+                "arranger": "vocaliod-P(noa)",
+                "illustrator": "Kyosuke",
+                "lyrics": "vocaliod-P(noa)",
+                "music": "vocaliod-P(noa)",
+                "pv_editor": "me"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff__f",
+            "time": "25"
+        }
+    }
+}

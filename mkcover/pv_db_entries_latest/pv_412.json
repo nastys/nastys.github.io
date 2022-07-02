@@ -1,0 +1,218 @@
+{
+    "pv_412": {
+        "bpm": "150",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_412_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_412_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_412_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_412_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "412"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS034"
+            },
+            "02": {
+                "stage": "STGNS029"
+            },
+            "03": {
+                "stage": "STGNS030"
+            },
+            "04": {
+                "stage": "STGNS004"
+            },
+            "05": {
+                "aet_front": "base_black",
+                "aet_id_front": "AET_GAM_CMN_MAIN",
+                "stage": "STGAETBACK"
+            },
+            "length": "5"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "はるか彼方の星目指し",
+            "002": "今日もお船ゴトゴト",
+            "003": "なんと！これは１００年ぶり",
+            "004": "ひさしぶりにお仕事！",
+            "005": "船長はもういないけど",
+            "006": "あたしちゃんとがんばる",
+            "007": "メカサバ人間と共に",
+            "008": "あたしちゃんとがんばる",
+            "009": "この星の最後の船はポンコツだけど",
+            "010": "お仕事はこなさなきゃ船長の名を汚す",
+            "011": "まっててね！　今すぐ届けに行くよ",
+            "012": "星のあふれる海の中飛んでゆこう",
+            "013": "どこまでも行こう",
+            "014": "メカサバ人間はいつも適当なことばかり",
+            "015": "このままじゃいつになっても",
+            "016": "目的地に着かない",
+            "017": "ずっとそこの荷物を待ってる人がいる",
+            "018": "だからがんばらなくちゃ",
+            "019": "エンジンはまだ動く！",
+            "020": "まっててね！　今すぐ届けに行くよ",
+            "021": "星のあふれる海の中飛んでゆこう",
+            "022": "どこまでも行こう",
+            "023": "この星を救ってくれと言うけれど",
+            "024": "難しいことわからない　でも行こう！",
+            "025": "がんばろう！",
+            "026": "まっててね！　今すぐ届けに行くよ",
+            "027": "星のあふれる海の中飛んでゆこう",
+            "028": "どこまでも行こう",
+            "_en": {
+                "001": "haruka kanata no hoshi mezashi",
+                "002": "kyou mo ofune gotogoto",
+                "003": "nanto! kore wa hyakunenburi",
+                "004": "hisashiburi ni oshigoto!",
+                "005": "senchou wa mou inai kedo",
+                "006": "atashi chanto ganbaru",
+                "007": "mekasaba ningen to tomo ni",
+                "008": "atashi chanto ganbaru",
+                "009": "kono hoshi no saigo no fune wa ponkotsu dakedo",
+                "010": "oshigoto wa konasanakya senchou no na o yogosu",
+                "011": "mattete ne!   ima sugu todoke ni yuku yo",
+                "012": "hoshi no afureru umi no naka tonde yukou",
+                "013": "dokomademo yukou",
+                "014": "mekasaba ningen wa itsumo tekitou na koto bakari",
+                "015": "kono mama ja itsu ni nattemo",
+                "016": "mokutekichi ni tsukanai",
+                "017": "zutto soko no nimotsu o matteru hito ga iru",
+                "018": "dakara ganbaranakucha",
+                "019": "ENGINE wa mada ugoku!",
+                "020": "mattete ne!   ima sugu todoke ni yuku yo",
+                "021": "hoshi no afureru umi no naka tonde yukou",
+                "022": "dokomademo yukou",
+                "023": "kono hoshi o sukutte kure to iu keredo",
+                "024": "muzukashii koto wakaranai   demo yukou!",
+                "025": "ganbarou!",
+                "026": "mattete ne!   ima sugu todoke ni yuku yo",
+                "027": "hoshi no afureru umi no naka tonde yukou",
+                "028": "dokomademo yukou"
+            }
+        },
+        "motion": {
+            "11": "CMN_MCA00_50_41",
+            "12": "CMN_MCA00_50_43",
+            "13": "CMN_MCA00_50_42",
+            "14": "CMN_MCA00_50_60_B",
+            "15": "CMN_MCA00_50_56_B",
+            "16": "CMN_MCA00_50_46",
+            "17": "CMN_MCA00_50_48",
+            "18": "CMN_MCA00_70_23",
+            "19": "CMN_MCA00_70_29",
+            "21": "CMN_MCA00_70_21",
+            "22": "CMN_MCA00_50_26_A",
+            "23": "CMN_MCA00_50_26_B",
+            "24": "CMN_MCA00_50_29",
+            "25": "CMN_MCA00_50_30",
+            "26": "CMN_MCA00_70_15",
+            "27": "CMN_MCA00_70_12",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_20",
+            "02": "CMN_MCA00_50_18_B",
+            "04": "CMN_MCA00_50_12",
+            "05": "CMN_MCA00_50_17",
+            "06": "CMN_MCA00_50_31",
+            "07": "CMN_MCA00_50_49",
+            "08": "CMN_MCA00_50_35",
+            "09": "CMN_MCA00_50_58"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "27",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "206",
+        "sabi": {
+            "play_time": "18.0",
+            "start_time": "53.0"
+        },
+        "se_name": "01_button1",
+        "song_file_name": "rom/sound/song/pv_412.ogg",
+        "song_name": "ペリコ・スペースシッパー",
+        "song_name_en": "Perico Space Shipper",
+        "song_name_reading": "ぺりこすぺーすしっぱー",
+        "songinfo": {
+            "arranger": "ワンカップP",
+            "illustrator": "ワンカップP",
+            "lyrics": "ワンカップP",
+            "music": "ワンカップP",
+            "pv_editor": "ALIN",
+            "_en": {
+                "arranger": "OnecupP",
+                "illustrator": "OnecupP",
+                "lyrics": "OnecupP",
+                "music": "OnecupP",
+                "pv_editor": "ALIN"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

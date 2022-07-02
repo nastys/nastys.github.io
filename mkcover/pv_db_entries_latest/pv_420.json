@@ -1,0 +1,248 @@
+{
+    "pv_420": {
+        "bpm": "140",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_420_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_420_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_420_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "420"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "018",
+            "01": "019",
+            "02": "020",
+            "03": "021",
+            "04": "005"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS078"
+            },
+            "02": {
+                "stage": "STGD2NS046"
+            },
+            "03": {
+                "stage": "STGNS002"
+            },
+            "04": {
+                "stage": "STGNS006"
+            },
+            "05": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "06": {
+                "stage": "STGD2NS082"
+            },
+            "07": {
+                "aet_front": "eff_tear",
+                "stage": "STGNS006"
+            },
+            "length": "7"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "突然の　さようならの",
+            "002": "可能性を導く数式を",
+            "003": "探している　探しているんだ",
+            "004": "僕はそっとペンを下ろした",
+            "005": "誰もが　夢に見ている",
+            "006": "夢のようなその数式を",
+            "007": "僕は見つけた　僕は見つけた",
+            "008": "誰にも教えずに居たいんだ",
+            "009": "ああ　もう二度とさ",
+            "010": "繰り返したくない偶然がさ",
+            "011": "ああ　また別れが",
+            "012": "来ると思うと辛くなるんだ",
+            "013": "偶然と偶然が重なって今が生まれた",
+            "014": "僕はいま　僕はいま",
+            "015": "どこに居る？どこに居る？",
+            "016": "偶然と偶然が重なって今が生まれた",
+            "017": "君はいま　君はいま",
+            "018": "笑ってる？笑ってる？",
+            "019": "突然の　さようならの",
+            "020": "可能性を導く数式を",
+            "021": "僕は捨てた　丸めて捨てたよ",
+            "022": "そんなさよならに意味は無かった",
+            "023": "さよなら、ばいばい、またあした",
+            "024": "どれがほんとうかなわかるかな？",
+            "025": "僕は見えないままこころが",
+            "026": "はじけてきえてしまいそうなの　ああ",
+            "027": "偶然と偶然が重なって今が生まれた",
+            "028": "僕はいま　僕はいま",
+            "029": "どこに居る？どこに居る？",
+            "030": "偶然と偶然が重なって今が生まれた",
+            "031": "君はいま　君はいま",
+            "032": "おこってる？泣いている？",
+            "033": "さよならと　おはようと",
+            "034": "ごめんねと　ありがとうと",
+            "035": "大粒の　涙と",
+            "036": "キミの手と　ボクの手を",
+            "037": "たして引いて　割ってかけて",
+            "038": "かけて割って　引いてたして",
+            "039": "またかけて　またたして",
+            "040": "まぜこねて　x が生まれた。",
+            "_en": {
+                "001": "totsuzen no   sayounara no",
+                "002": "kanousei o michibiku suushiki o",
+                "003": "sagashiteiru   sagashiteirun da",
+                "004": "boku wa sotto PEN o oroshita",
+                "005": "daremo ga   yume ni miteiru",
+                "006": "yume no you na sono suushiki o",
+                "007": "boku wa mitsuketa   boku wa mitsuketa",
+                "008": "dare ni mo oshiezu ni itain da",
+                "009": "aah   mou nido to sa",
+                "010": "kurikaeshitakunai guuzen ga sa",
+                "011": "aah   mata wakare ga",
+                "012": "kuru to omou to tsuraku narun da",
+                "013": "guuzen to guuzen ga kasanatte ima ga umareta",
+                "014": "boku wa ima   boku wa ima",
+                "015": "doko ni iru? doko ni iru?",
+                "016": "guuzen to guuzen ga kasanatte ima ga umareta",
+                "017": "kimi wa ima   kimi wa ima",
+                "018": "waratteru? waratteru?",
+                "019": "totsuzen no   sayounara no",
+                "020": "kanousei o michibiku suushiki o",
+                "021": "boku wa suteta   marumete suteta yo",
+                "022": "sonna sayonara ni imi wa nakatta",
+                "023": "sayonara, BYE BYE, mata ashita",
+                "024": "dore ga hontou ka na wakaru ka na?",
+                "025": "boku wa mienai mama kokoro ga",
+                "026": "hajikete kiete shimaisou na no   aah",
+                "027": "guuzen to guuzen ga kasanatte ima ga umareta",
+                "028": "boku wa ima   boku wa ima",
+                "029": "doko ni iru? doko ni iru?",
+                "030": "guuzen to guuzen ga kasanatte ima ga umareta",
+                "031": "kimi wa ima   kimi wa ima",
+                "032": "okotteru? naiteiru?",
+                "033": "sayonara to   ohayou to",
+                "034": "gomen ne to   arigatou to",
+                "035": "ootsubu no   namida to",
+                "036": "kimi no te to   boku no te o",
+                "037": "tashite hiite   watte kakete",
+                "038": "kakete watte   hiite tashite",
+                "039": "mata kakete   mata tashite",
+                "040": "mazekonete   ai ga umareta."
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_24",
+            "11": "CMN_MCA00_70_21",
+            "12": "CMN_EDT_01_002A",
+            "13": "CMN_EDT_01_005A",
+            "14": "CMN_MRA00_13_01",
+            "15": "CMN_EDT_01_014A",
+            "16": "CMN_EDT_01_016A",
+            "17": "CMN_EDT_01_017A",
+            "18": "CMN_EDT_01_021A",
+            "19": "CMN_EDT_01_024A",
+            "20": "CMN_EDT_01_033A",
+            "21": "CMN_MCA00_70_29",
+            "22": "CMN_MCA00_70_11",
+            "23": "CMN_MCA00_50_21",
+            "24": "CMN_MCA00_50_40",
+            "25": "CMN_EDT_01_055A",
+            "26": "CMN_MCA00_50_12",
+            "27": "CMN_EDT_01_039A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_18_B",
+            "02": "CMN_MCA00_50_31",
+            "03": "CMN_MCA00_50_50",
+            "04": "CMN_MCA00_50_53",
+            "05": "CMN_MCA00_50_42",
+            "06": "CMN_MCA00_70_12",
+            "07": "CMN_MCA00_70_15",
+            "08": "CMN_MCA00_70_16",
+            "09": "CMN_MCA00_70_23"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "6",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "214",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "59.0"
+        },
+        "se_name": "01_button1",
+        "song_file_name": "rom/sound/song/pv_420.ogg",
+        "song_name": "Equation+**",
+        "song_name_en": "Equation+**",
+        "song_name_reading": "いくえいしょん",
+        "songinfo": {
+            "arranger": "ぽわぽわP",
+            "illustrator": "meisa",
+            "lyrics": "ぽわぽわP",
+            "music": "ぽわぽわP",
+            "pv_editor": "ALIN",
+            "_en": {
+                "arranger": "Powapowa P",
+                "illustrator": "meisa",
+                "lyrics": "Powapowa P",
+                "music": "Powapowa P",
+                "pv_editor": "ALIN"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "9"
+        }
+    }
+}

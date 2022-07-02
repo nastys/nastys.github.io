@@ -1,0 +1,226 @@
+{
+    "pv_600": {
+        "bpm": "174",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_600_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_600_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_600_extreme_1.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_600_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_600_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "600"
+        },
+        "effect_se_file_name": "rom/sound/pv600_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv600_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "綺麗に今日もキメちゃって",
+            "002": "だからね　濡らさないで",
+            "003": "見上げた　顔にかけないで",
+            "004": "突然の夕暮れrainy",
+            "005": "寒いわ　水は嫌よ",
+            "006": "拭って　あなたの手で",
+            "007": "どうして　肝心な時に",
+            "008": "居ない人なの",
+            "009": "I need 愛情",
+            "010": "あなたの傍　ひざの上",
+            "011": "I my me mine 私は　まっしぐら",
+            "012": "「あなた」って陽だまり目指し",
+            "013": "そう私は気まぐれlady",
+            "014": "なのにあなたは　どこにも居やしないや",
+            "015": "涙ってこれは雨でしょ",
+            "016": "寒空のモノクロlonely",
+            "017": "早く見つけて　「ごめんね」と傘を広げて",
+            "018": "晴れ後雨宿り今",
+            "019": "花咲く一つ屋根の下で",
+            "020": "夢の中 lalala…",
+            "021": "おいしいご飯があるなら",
+            "022": "一緒に住んであげましょう",
+            "023": "笑えるテレビがあるなら",
+            "024": "一緒に見てあげましょう",
+            "025": "あたたかい寝床があるなら",
+            "026": "一緒に寝てあげましょう",
+            "027": "それ以上何を望むの",
+            "028": "聞いてあげましょう",
+            "029": "たまには甘えたいのよ",
+            "030": "受け止めて　憧れlady",
+            "031": "なのにあなたは　私を分かってないや",
+            "032": "恋だっていつか冷めるわ",
+            "033": "さよならね　涙目maybe",
+            "034": "ドアを開ければ",
+            "035": "そこに広がる「今日も雨」",
+            "036": "止まない雨が降るなら",
+            "037": "このまま一つ屋根の下で",
+            "038": "いつまでも lalala…",
+            "039": "I say nya-o あなたの傍で",
+            "040": "I say nya-o あなたの腕で",
+            "041": "I say nya-o あなたの名前さえ",
+            "042": "どうしてうまく言えないのかな…",
+            "_en": {
+                "001": "kirei ni kyou mo kimechatte",
+                "002": "dakara ne   nurasanaide",
+                "003": "miageta   kao ni kakenaide",
+                "004": "totsuzen no yuugure RAINY",
+                "005": "samui wa   mizu wa kirai yo",
+                "006": "nugutte   anata no te de",
+                "007": "doushite   kanjin na toki ni",
+                "008": "inai hito na no",
+                "009": "I NEED aijou",
+                "010": "anata no soba   hiza no ue",
+                "011": "I MY ME MINE   watashi wa   masshigura",
+                "012": "\"anata\" tte hidamari mezashi",
+                "013": "sou watashi wa kimagure LADY",
+                "014": "na no ni anata wa   dokonimo iyashinai ya",
+                "015": "namida tte kore wa ame desho",
+                "016": "samuzora no monokuro LONELY",
+                "017": "hayaku mitsukete   \"gomen ne\" to kasa o hirogete",
+                "018": "hare nochi amayadori ima",
+                "019": "hana saku hitotsu yane no shita de",
+                "020": "yume no naka   La La La...",
+                "021": "oishii gohan ga aru nara",
+                "022": "issho ni sunde agemashou",
+                "023": "waraeru terebi ga aru nara",
+                "024": "issho ni mite agemashou",
+                "025": "atatakai nedoko ga aru nara",
+                "026": "issho ni nete agemashou",
+                "027": "sore ijou nani o nozomu no",
+                "028": "kiite agemashou",
+                "029": "tama ni wa amaetai no yo",
+                "030": "uketomete   akogare LADY",
+                "031": "na no ni anata wa   watashi o wakattenai ya",
+                "032": "koi datte itsuka sameru wa",
+                "033": "sayonara   namidame MAYBE",
+                "034": "DOOR o akereba",
+                "035": "soko ni hirogaru \"kyou mo ame\"",
+                "036": "yamanai ame ga furu nara",
+                "037": "kono mama hitotsu yane no shita de",
+                "038": "itsumademo   La La La...",
+                "039": "I SAY NYA-O   anata no soba de",
+                "040": "I SAY NYA-O   anata no ude de",
+                "041": "I SAY NYA-O   anata no namae sae",
+                "042": "doushite umaku ienai no ka na..."
+            }
+        },
+        "motion": {
+            "01": "PV600_CAT_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "93",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV600.bin"
+        },
+        "pv_item": {
+            "01": "ITMPV600_MIC_01__DIVSKN"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "74",
+        "sabi": {
+            "play_time": "36.0",
+            "start_time": "51.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_600.ogg",
+        "song_name": "キャットフード",
+        "song_name_en": "Cat Food",
+        "song_name_reading": "きゃっとふーど",
+        "songinfo": {
+            "arranger": "doriko",
+            "illustrator": "nezuki",
+            "lyrics": "doriko",
+            "music": "doriko",
+            "_en": {
+                "arranger": "doriko",
+                "illustrator": "nezuki",
+                "lyrics": "doriko",
+                "music": "doriko"
+            }
+        },
+        "sort_index": "0",
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv600s04.txt",
+                "stage": "STGPV600S04"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "pv_739": {
+        "bpm": "143",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV739_MIK_100",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV739_RIN_001",
+                        "type": "AUTH3D"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV739_LEN_002",
+                        "type": "AUTH3D"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV739_LUK_003",
+                        "type": "AUTH3D"
+                    },
+                    "4": {
+                        "name": "EFFCHRPV739_MEI_004",
+                        "type": "AUTH3D"
+                    },
+                    "5": {
+                        "name": "EFFCHRPV739_KAI_005",
+                        "type": "AUTH3D"
+                    },
+                    "length": "6"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20150807",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_739_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_739_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_739_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_739_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "739"
+        },
+        "effect_se_file_name": "rom/sound/pv739_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv739_effect",
+            "length": "1"
+        },
+        "frame_texture": "F_DIVA_STGPV739_OK_FB05",
+        "frame_texture_a": "F_DIVA_STGPV739_IN_FB01",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "どんな完璧な計算式できても",
+            "002": "君のちょっとで答えは変わるの",
+            "003": "それだけ",
+            "004": "誰かの想いは",
+            "005": "強いからきっと　ねぇ",
+            "006": "明日をつくるの",
+            "007": "僕らが今歩いてる　知らない道は",
+            "008": "誰かが作ろうとして　できたものじゃないから",
+            "009": "もし君の求めるモノが　無かったとしても",
+            "010": "次の今日は　君の手で",
+            "011": "飾り付けるんだ",
+            "012": "どんな完璧なスケジュールを組んでも",
+            "013": "君のちょっとで5分後は変わる",
+            "014": "それだけ",
+            "015": "誰かの未来は",
+            "016": "弱いからきっと　ねぇ",
+            "017": "明日ができるの",
+            "018": "僕らが今歩いてる　知らない道は",
+            "019": "誰かが作ろうとして　できたものじゃないから",
+            "020": "もし君の求めるモノが　無かったとしても",
+            "021": "次の今日は　君の手で",
+            "022": "飾り付けるんだ",
+            "023": "か細くても　君のその声が",
+            "024": "誰かに必要なんだって　気付いて",
+            "025": "僕らが今歩いてる　知らない道は",
+            "026": "誰かが作ろうとして　できたものじゃないから",
+            "027": "もし君の求めるモノが　無かったとしても",
+            "028": "次の今日は　君の手で",
+            "029": "飾り付けるんだ",
+            "_en": {
+                "001": "donna kanpeki na keisanshiki dekitemo",
+                "002": "kimi no chotto de kotae wa kawaru no",
+                "003": "sore dake",
+                "004": "dareka no omoi wa",
+                "005": "tsuyoi kara kitto   nee",
+                "006": "asu o tsukuru no",
+                "007": "bokura ga ima aruiteru   shiranai michi wa",
+                "008": "dareka ga tsukurou to shite   dekita mono janai kara",
+                "009": "moshi kimi no motomeru mono ga   nakatta to shitemo",
+                "010": "tsugi no kyou wa   kimi no te de",
+                "011": "kazaritsukerun da",
+                "012": "donna kanpeki na SCHEDULE o kundemo",
+                "013": "kimi no chotto de gofun go wa kawaru",
+                "014": "sore dake",
+                "015": "dareka no mirai wa",
+                "016": "yowai kara kitto   nee",
+                "017": "asu ga dekiru no",
+                "018": "bokura ga ima aruiteru   shiranai michi wa",
+                "019": "dareka ga tsukurou to shite   dekita mono janai kara",
+                "020": "moshi kimi no motomeru mono ga   nakatta to shitemo",
+                "021": "tsugi no kyou wa   kimi no te de",
+                "022": "kazaritsukerun da",
+                "023": "kabosokutemo   kimi no sono koe ga",
+                "024": "dareka ni hitsuyou nan da tte   kizuite",
+                "025": "bokura ga ima aruiteru   shiranai michi wa",
+                "026": "dareka ga tsukurou to shite   dekita mono janai kara",
+                "027": "moshi kimi no motomeru mono ga   nakatta to shitemo",
+                "028": "tsugi no kyou wa   kimi no te de",
+                "029": "kazaritsukerun da"
+            }
+        },
+        "motion": {
+            "01": "PV739_DRT_P1_00",
+            "02": "PV739_DRT_P1_10",
+            "2P": {
+                "01": "PV739_DRT_P2_00",
+                "02": "PV739_DRT_P2_10"
+            },
+            "3P": {
+                "01": "PV739_DRT_P3_00",
+                "02": "PV739_DRT_P3_10"
+            },
+            "4P": {
+                "01": "PV739_DRT_P4_00",
+                "02": "PV739_DRT_P4_10"
+            },
+            "5P": {
+                "01": "PV739_DRT_P5_00",
+                "02": "PV739_DRT_P5_10"
+            },
+            "6P": {
+                "01": "PV739_DRT_P6_00",
+                "02": "PV739_DRT_P6_10"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_739_001.mp4",
+        "npr": {
+            "chara_lightness": "0.97"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "146",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "LEN",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "3": {
+                "chara": "LUK",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "4": {
+                "chara": "MEI",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "5": {
+                "chara": "KAI",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "6"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV739.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "120",
+        "sabi": {
+            "play_time": "38.5",
+            "start_time": "42.5"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_739.ogg",
+        "song_name": "DECORATOR",
+        "song_name_en": "Decorator",
+        "song_name_reading": "でこれーたー",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "mebae",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "mebae",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

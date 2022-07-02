@@ -1,0 +1,216 @@
+{
+    "pv_249": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20170222",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_249_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_249_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_249_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_249_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "249"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "Sunday　君に惚れたパーティー",
+            "002": "Monday  ちょっとブルーな feeling",
+            "003": "二人出会い過ごした　記憶が騒ぐの",
+            "004": "あの日の続きを　踊りましょうよ",
+            "005": "しゃれたヒールも　ミニのワンピも",
+            "006": "好きなコスで何でもオッケー",
+            "007": "退屈してて　呼んでくれたら",
+            "008": "リアルの街に　飛び出すよ",
+            "009": "アゲアゲアゲアゲアゲイン",
+            "010": "この歌 急に思い出したら",
+            "011": "パーティパティパティパティパーティー・タイム",
+            "012": "そばにいるから",
+            "013": "アゲアゲアゲアゲアゲイン",
+            "014": "君の笑顔を思い出したら",
+            "015": "恋恋恋恋恋しちゃう",
+            "016": "同じリズム　感じてたいの",
+            "017": "Friday　待ちきれない weekend",
+            "018": "Saturday　今日の気分はフィーバー",
+            "019": "子供のとき夢見た　未来は今なの",
+            "020": "ですからハジけて　盛り上がりましょう",
+            "021": "淡いドレスも　デフォ・ノースリーブも",
+            "022": "好きなコスで何でもオッケー",
+            "023": "少しキラキラ　今日の衣装を",
+            "024": "褒めてくれなきゃ　すねちゃうよ",
+            "025": "アゲアゲアゲアゲアゲイン",
+            "026": "この歌 不意に口ずさんだら",
+            "027": "パーティパティパティパティパーティー・タイム",
+            "028": "みんな輝け",
+            "029": "アゲアゲアゲアゲアゲイン",
+            "030": "大事なチャンス射止められたら",
+            "031": "恋恋恋恋恋しちゃう",
+            "032": "本気出すの　女子力上げて",
+            "033": "二つの世界つなぐ　虹色のメロディ wow oh",
+            "034": "素敵な日々を　あげあげあげたい",
+            "035": "明日は心配　ないやいや",
+            "036": "固まった日常　シェケシェケシェケ・ダウン",
+            "037": "めっちゃめっちゃめっちゃ最高～！！",
+            "038": "アゲアゲアゲアゲアゲイン",
+            "039": "この歌 急に思い出したら",
+            "040": "パーティパティパティパティパーティー・タイム",
+            "041": "そばにいるから",
+            "042": "アゲアゲアゲアゲアゲイン",
+            "043": "君の笑顔を思い出したら",
+            "044": "恋恋恋恋恋しちゃう",
+            "045": "同じリズム　感じてたいの",
+            "_en": {
+                "001": "SUNDAY   kimi ni horeta PARTY",
+                "002": "MONDAY   chotto BLUE na FEELING",
+                "003": "futari deai sugoshita   kioku ga sawagu no",
+                "004": "ano hi no tsuzuki o   odorimashou yo",
+                "005": "shareta HEEL mo   MINI no wanpi mo",
+                "006": "suki na kosu de nandemo OKAY",
+                "007": "taikutsu shitete   yonde kuretara",
+                "008": "REAL no machi ni   tobidasu yo",
+                "009": "age age age age AGAIN",
+                "010": "kono uta kyuu ni omoidashitara",
+                "011": "PARTY pati pati pati PARTY TIME",
+                "012": "soba ni iru kara",
+                "013": "age age age age AGAIN",
+                "014": "kimi no egao o omoidashitara",
+                "015": "koi koi koi koi koi shichau",
+                "016": "onaji RHYTHM   kanjitetai no",
+                "017": "FRIDAY   machikirenai   WEEKEND",
+                "018": "SATURDAY   kyou no kibun wa FEVER",
+                "019": "kodomo no toki yume mita   mirai wa ima na no",
+                "020": "desu kara hajikete   moriagarimashou",
+                "021": "awai DRESS mo DEFO-NO SLEEVE mo",
+                "022": "suki na kosu de nandemo OKAY",
+                "023": "sukoshi kirakira   kyou no ishou o",
+                "024": "homete kurenakya   sunechau yo",
+                "025": "age age age age AGAIN",
+                "026": "kono uta fui ni kuchizusandara",
+                "027": "PARTY pati pati pati PARTY TIME",
+                "028": "minna kagayake",
+                "029": "age age age age AGAIN",
+                "030": "daiji na CHANCE itomeraretara",
+                "031": "koi koi koi koi koi shichau",
+                "032": "honki dasu no   joshiryoku agete",
+                "033": "futatsu no sekai tsunagu   nijiiro no MELODY   WOW OH",
+                "034": "suteki na hibi o   age age agetai",
+                "035": "asu wa shinpai   nai yai ya",
+                "036": "katamatta nichijou   SHAKEE-SHAKEE-SHAKEE-DOWN",
+                "037": "meccha meccha meccha meccha saikou!!",
+                "038": "age age age age AGAIN",
+                "039": "kono uta kyuuni omoidashitara",
+                "040": "PARTY pati pati pati PARTY TIME",
+                "041": "soba ni iru kara",
+                "042": "age age age age AGAIN",
+                "043": "kimi no egao o omoidashitara",
+                "044": "koi koi koi koi koi shichau",
+                "045": "onaji RHYTHM   kanjitetai no"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV249_AAA"
+        },
+        "npr": {
+            "chara_lightness": "0.90"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "149",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV249.bin"
+        },
+        "rank_board_id": "152",
+        "resolution_scale_neo": "0.8",
+        "sabi": {
+            "play_time": "27.42",
+            "start_time": "48.34"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_249.ogg",
+        "song_name": "アゲアゲアゲイン",
+        "song_name_en": "Ageage Again",
+        "song_name_reading": "あげあげあげいん",
+        "songinfo": {
+            "arranger": "Mitchie M",
+            "ex_info": {
+                "0": {
+                    "key": "design",
+                    "val": "ねこいた"
+                }
+            },
+            "lyrics": "Mitchie M",
+            "music": "Mitchie M",
+            "_en": {
+                "arranger": "Mitchie M",
+                "ex_info": {
+                    "0": {
+                        "key": "design",
+                        "val": "Nekoita"
+                    }
+                },
+                "lyrics": "Mitchie M",
+                "music": "Mitchie M"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

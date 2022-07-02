@@ -1,0 +1,233 @@
+{
+    "pv_063": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_063_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_063_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_063_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_063_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_063_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "063",
+            "title_end_2d_low_field": "1",
+            "title_start_2d_low_field": "1"
+        },
+        "hand_item": {
+            "01": "PV_POI_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "これからもみんなで遊ぼうなんてさ",
+            "002": "笑いながら私たち話していたけど",
+            "003": "本当は知ってる　分かってること",
+            "004": "こんな風に過ごせることは二度と無いんだと",
+            "005": "何度も歩いた坂道の景色を",
+            "006": "忘れはできないな",
+            "007": "",
+            "008": "春になればこの道もきっと",
+            "009": "ひらひら花びら舞うでしょうね",
+            "010": "その時私たちは",
+            "011": "誰と何処にいるのでしょう",
+            "012": "離れ離れになってても",
+            "013": "過ごした時間は消えないよね",
+            "014": "だから軽く手を振って",
+            "015": "笑顔でさようならするぜ",
+            "016": "",
+            "017": "新しい友達や新しい彼とか",
+            "018": "そんな風にいろんなことが増えていくんだね",
+            "019": "本当にださくて嫌な制服も今",
+            "020": "なんだか愛しいな",
+            "021": "",
+            "022": "春になればそれからはきっと",
+            "023": "少しずつ会えなくなるかもね",
+            "024": "それでも私たちは",
+            "025": "慣れていかなきゃならないでしょ",
+            "026": "留まりたい訳じゃないけど",
+            "027": "やっぱり寂しくなるからさ",
+            "028": "だから最後に手を振って",
+            "029": "笑顔でさようならするぜ",
+            "030": "",
+            "031": "今も春になれば思いだすよ",
+            "032": "あの頃のださい自分たちを",
+            "033": "大人の階段なんてさ",
+            "034": "全然見えてなかったしね",
+            "035": "離れ離れになってから",
+            "036": "みんなはどうしていたのかな",
+            "037": "いつか機会があるのなら",
+            "038": "笑顔で会えたらね",
+            "039": "そうなれるといいよね",
+            "040": "",
+            "_en": {
+                "001": "kore kara mo minna de asobou nante sa",
+                "002": "warainagara watashitachi hanashiteita kedo",
+                "003": "hontou wa shitteru   wakatteru koto",
+                "004": "konna fuu ni sugoseru koto wa nido to nain da to",
+                "005": "nando mo aruita sakamichi no keshiki o",
+                "006": "wasure wa dekinai na",
+                "007": "",
+                "008": "haru ni nareba kono michi mo kitto",
+                "009": "hirahira hanabira mau deshou ne",
+                "010": "sono toki watashitachi wa",
+                "011": "dare to doko ni iru no deshou",
+                "012": "hanarebanare ni nattetemo",
+                "013": "sugoshita jikan wa kienai yo ne",
+                "014": "dakara karuku te o futte",
+                "015": "egao de sayounara suru ze",
+                "016": "",
+                "017": "atarashii tomodachi ya atarashii kare toka",
+                "018": "sonna fuu ni ironna koto ga fuete ikun da ne",
+                "019": "hontou ni dasakute iya na seifuku mo ima",
+                "020": "nandaka itoshii na",
+                "021": "",
+                "022": "haru ni nareba sore kara wa kitto",
+                "023": "sukoshizutsu aenaku naru kamo ne",
+                "024": "sore demo watashitachi wa",
+                "025": "narete ikanakya naranai desho",
+                "026": "todomaritai wake janai kedo",
+                "027": "yappari samishiku naru kara sa",
+                "028": "dakara saigo ni te o futte",
+                "029": "egao de sayounara suru ze",
+                "030": "",
+                "031": "ima mo haru ni nareba omoidasu yo",
+                "032": "ano koro no dasai jibuntachi o",
+                "033": "otona no kaidan nante sa",
+                "034": "zenzen mietenakatta shi ne",
+                "035": "hanarebanare ni nattekara",
+                "036": "minna wa doushiteita no ka na",
+                "037": "itsuka kikai ga aru no nara",
+                "038": "egao de aetara ne",
+                "039": "sou nareru to ii yo ne",
+                "040": ""
+            }
+        },
+        "motion": {
+            "10": "PV063_HTW_00_C09_00A_P1",
+            "11": "PV063_HTW_00_C10_00A_P1",
+            "12": "PV063_HTW_00_C12_00A_P1",
+            "13": "PV063_HTW_00_C13_00A_P1",
+            "14": "PV063_HTW_00_C14_00A_P1",
+            "15": "PV063_HTW_00_C15_00A_P1",
+            "16": "PV063_HTW_00_C16_00A_P1",
+            "17": "PV063_HTW_00_C17_00A_P1",
+            "18": "PV063_HTW_00_C18_00A_P1",
+            "01": "PV063_HTW_00_C00_00A_P1",
+            "02": "PV063_HTW_00_C01_00A_P1",
+            "03": "PV063_HTW_00_C02_00A_P1",
+            "04": "PV063_HTW_00_C03_00A_P1",
+            "05": "PV063_HTW_00_C04_00A_P1",
+            "06": "PV063_HTW_00_C05_00A_P1",
+            "07": "PV063_HTW_00_C06_00A_P1",
+            "08": "PV063_HTW_00_C07_00A_P1",
+            "09": "PV063_HTW_00_C08_00A_P1",
+            "2P": {
+                "01": "PV063_HTW_00_C11_00A_P2"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "type": "PSEUDO_SWIM_S"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "52",
+        "sabi": {
+            "play_time": "33.5",
+            "start_time": "52.5"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_063.ogg",
+        "song_name": "ほんとは分かってる",
+        "song_name_en": "I Really Do Understand",
+        "song_name_reading": "ほんとはわかってる",
+        "songinfo": {
+            "arranger": "フナコシP",
+            "illustrator": "飯田のぎ",
+            "lyrics": "フナコシP",
+            "music": "フナコシP",
+            "_en": {
+                "arranger": "Funakoshi P",
+                "illustrator": "Iida Nogi",
+                "lyrics": "Funakoshi P",
+                "music": "Funakoshi P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

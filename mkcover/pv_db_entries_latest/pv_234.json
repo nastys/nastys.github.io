@@ -1,0 +1,252 @@
+{
+    "pv_234": {
+        "bpm": "170",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150924",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_234_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_234_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_234_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_234_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_234_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "234",
+            "title_end_2d_low_field": "1",
+            "title_start_2d_low_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "仇花すっかり舞い散る季節",
+            "002": "踏切の向こう側で泣いてる",
+            "003": "",
+            "004": "プラスチックベルゼブブの羽音",
+            "005": "愛想笑いで今日もやりすごす",
+            "006": "",
+            "007": "この薄汚れた街角の果て",
+            "008": "埴輪シンドロームに侵された",
+            "009": "",
+            "010": "汽笛の音色をちょっとずらして",
+            "011": "外野からすかしてガムかんでた",
+            "012": "",
+            "013": "",
+            "014": "真夜中の4時にみつけた 四ツ葉のクローバー焼きついた",
+            "015": "三ツ足のカラス 屋根の上で不気味に見つめる",
+            "016": "双子はいつまでも石油で体を清めて ほのかに香る",
+            "017": "有機モノソミー ひとりきり",
+            "018": "",
+            "019": "此処は",
+            "020": "深海シティアンダーグラウンド",
+            "021": "最果ての島　蝦の楽園",
+            "022": "深海シティアンダーグラウンド",
+            "023": "姫は未だパラノイア",
+            "024": "深海シティアンダーグラウンド",
+            "025": "煌めくダイオードの星砕く",
+            "026": "深海シティアンダーグラウンド",
+            "027": "嘘吐きスキゾフレニア",
+            "028": "",
+            "029": "",
+            "030": "廻る廻る金縛りの蝸牛 殻の中から鶏の声",
+            "031": "まるでまるで鋳型に流し込んだあなたのセルロイド",
+            "032": "やがてやがて赤く染まる水面を見上げて沈むあなたの声",
+            "033": "ここはここはいつもの暗い地下室の鋼の扉",
+            "034": "",
+            "035": "",
+            "036": "真昼の発熱四角い金貨 幻から目が醒めた",
+            "037": "三ツ足のカラス 案の定見てほらトリソミー",
+            "038": "二階建てのバス 予定時刻を通り過ぎたさようなら",
+            "039": "一秒間際 塞ぎこんでもう 黒に熔ける",
+            "040": "",
+            "041": "此処は",
+            "042": "深海シティアンダーグラウンド",
+            "043": "煌めくダイオードの星の下",
+            "044": "深海シティアンダーグラウンド",
+            "045": "姫と踊るパラノイド",
+            "046": "深海シティアンダーグラウンド",
+            "047": "狂ったふりで手にしたダイヤ",
+            "048": "深海シティアンダーグラウンド",
+            "049": "嘘吐きスキゾフレニア",
+            "050": "",
+            "_en": {
+                "001": "adabana sukkari maichiru kisetsu",
+                "002": "fumikiri no mukougawa de naiteru",
+                "003": "",
+                "004": "PLASTIC BEELZEBUB no haoto",
+                "005": "aisowarai de kyou mo yarisugosu",
+                "006": "",
+                "007": "kono usuyogoreta machikado no hate",
+                "008": "haniwa SYNDROME ni okasareta",
+                "009": "",
+                "010": "kiteki no neiro o chotto zurashite",
+                "011": "gaiya kara sukashite GUM kandeta",
+                "012": "",
+                "013": "",
+                "014": "mayonaka no yoji ni mitsuketa yotsuba no CLOVER yakitsuita",
+                "015": "mitsuashi no karasu   yane no ue de bukimi ni mitsumeru",
+                "016": "futago wa itsumademo sekiyu de karada o kiyomete   honoka ni kaoru",
+                "017": "yuuki MONOSOMY   hitorikiri",
+                "018": "",
+                "019": "koko wa",
+                "020": "shinkai CITY UNDERGROUND",
+                "021": "saihate no shima   ebi no rakuen",
+                "022": "shinkai CITY UNDERGROUND",
+                "023": "hime wa imada PARANOIA",
+                "024": "shinkai CITY UNDERGROUND",
+                "025": "kirameku DIODE no hoshi kudaku",
+                "026": "shinkai CITY UNDERGROUND",
+                "027": "usotsuki SCHIZOPHRENIA",
+                "028": "",
+                "029": "",
+                "030": "meguru meguru kanashibari no katatsumuri   kara no naka kara tori no koe",
+                "031": "marude marude igata ni nagashikonda anata no CELLULOID",
+                "032": "yagate yagate akaku somaru minamo o miagete shizumu anata no koe",
+                "033": "koko wa koko wa itsumo no kurai chikashitsu no hagane no tobira",
+                "034": "",
+                "035": "",
+                "036": "mahiru no hatsunetsu shikakui kinka   maboroshi kara me ga sameta",
+                "037": "mitsuashi no karasu   an no jou mite hora TRISOMY",
+                "038": "nikaidate no BUS   yoteijikoku o toorisugita sayounara",
+                "039": "ichibyou magiwa   fusagikonde mou   kuro ni tokeru",
+                "040": "",
+                "041": "koko wa",
+                "042": "shinkai CITY UNDERGROUND",
+                "043": "kirameku DIODE no hoshi no shita",
+                "044": "shinkai CITY UNDERGROUND",
+                "045": "hime to odoru PARANOID",
+                "046": "shinkai CITY UNDERGROUND",
+                "047": "kurutta furi de te ni shita daiya",
+                "048": "shinkai CITY UNDERGROUND",
+                "049": "usotsuki SCHIZOPHRENIA",
+                "050": ""
+            }
+        },
+        "motion": {
+            "01": "PV234_CITY_1P",
+            "2P": {
+                "01": "PV234_CITY_2P"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "6083",
+                "motion": "PV234_CITY_1P",
+                "stage": "STGPV234S01"
+            },
+            "1": {
+                "frame": "6120",
+                "motion": "PV234_CITY_1P",
+                "stage": "STGPV234S01"
+            },
+            "2": {
+                "frame": "7030",
+                "motion": "PV234_CITY_1P",
+                "stage": "STGPV234S01"
+            },
+            "length": "3"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "3",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "3",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "186",
+        "sabi": {
+            "play_time": "30.5",
+            "start_time": "68.5"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_234.ogg",
+        "song_name": "深海シティアンダーグラウンド",
+        "song_name_en": "Deep Sea City Underground",
+        "song_name_reading": "しんかいしてぃあんだーぐらうんど",
+        "songinfo": {
+            "arranger": "田中B",
+            "illustrator": "てぬ・とりっちょ・よねしゃっく",
+            "lyrics": "田中B",
+            "music": "田中B",
+            "_en": {
+                "arranger": "Tanaka B",
+                "illustrator": "Tenu",
+                "lyrics": "Tanaka B",
+                "music": "Tanaka B"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

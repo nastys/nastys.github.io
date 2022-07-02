@@ -1,0 +1,208 @@
+{
+    "pv_274": {
+        "bpm": "172",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_274_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_274_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_274_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_274_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "損失　利得　体裁　気にするたびに",
+            "002": "右も左も差し出していく",
+            "003": "穴ボコ開いた　ジグソーの模様",
+            "004": "パズルピース",
+            "005": "あの子と手を繋げるために",
+            "006": "余り物にならないために",
+            "007": "切り取って　すいて　貼って",
+            "008": "何もハマらない　心のトコ",
+            "009": "足りないのだ　足りないのだ",
+            "010": "足りないのばっかで何にもないや",
+            "011": "優しさは　３ピースもないなあ",
+            "012": "砕けた強がりの欠片",
+            "013": "ジグザグの無感情がボクを作り上げる",
+            "014": "いつだって心から笑えないの",
+            "015": "どうして？",
+            "016": "ズタズタに切り裂いた　ハート型のパズル",
+            "017": "どこを探しても埋まらないや",
+            "018": "アイノウ　愛ノー　もう足りないよ",
+            "019": "ジグソー",
+            "020": "「敗戦」「錯綜」「平行線」",
+            "021": "「論争」「逃走」「再公演」",
+            "022": "ただ共通項を見い出して　言葉に意味を宿した",
+            "023": "出来損ないと紐付いた　この上下左右は閑散と",
+            "024": "貴方の帰りを待っている",
+            "025": "ボクに触ってほしくて",
+            "026": "誰にだって当てはまるように　どの色も混ぜてみたのに",
+            "027": "誰にだって侵されてしまう　染みてついた透明の色",
+            "028": "哀　楽　忘却の数ピース",
+            "029": "愛憎　渇望のスパンコール",
+            "030": "嫉妬　絶望のアンコール",
+            "031": "（見ない　見ないフリ）",
+            "032": "ああ　何処かにやってしまった...",
+            "033": "そして何もが",
+            "034": "足りないのだ？　未だ足りないのだ",
+            "035": "メスフラスコ使っていっぱいに満たして？",
+            "036": "優しさは　一滴もないなあ",
+            "037": "穴空くほどの心もない",
+            "038": "ジグザグの無感情がボクを作り上げる",
+            "039": "今日だって　完結した光景をただ切り取るだけの",
+            "040": "人生だ",
+            "041": "ジグザグザグ　もういいよ　ボクを切り刻んで",
+            "042": "いつだって心から笑えないの",
+            "043": "どうして？",
+            "044": "ズタズタに切り裂いた　ハート型のパズル",
+            "045": "どこを探しても埋まらないや",
+            "046": "アイノウ　愛ノー　もう足りないよ",
+            "047": "ジグソー",
+            "048": "嘘吐きの世界は　泥んこの未来は　空っぽの心は",
+            "049": "ジグザグジグザグに切り裂いて",
+            "050": "ジグソー",
+            "_en": {
+                "001": "sonshitsu   ritoku   teisai   ki ni suru tabi ni",
+                "002": "migi mo hidari mo sashidashi te iku",
+                "003": "ana boko aita   JIGSAW no moyou",
+                "004": "PUZZLE PIECE",
+                "005": "anoko to te o tsunageru tame ni",
+                "006": "amarimono ni naranai tame ni",
+                "007": "kiritotte   suite   hatte",
+                "008": "nanimo hamaranai   kokoro no toko",
+                "009": "tarinai noda   tarinai noda",
+                "010": "tarinai no bakka de nannimo nai ya",
+                "011": "yasashisa wa san PIECE mo nai naa",
+                "012": "kudaketa tuyogari no kakera",
+                "013": "ZIGZAG no mukanjou ga boku o tsukuriageru",
+                "014": "itsudatte kokoro kara waraenai no",
+                "015": "doushite?",
+                "016": "zutazuta ni kirisaita   HEART gata no PUZZLE",
+                "017": "doko o sagashitemo umaranai ya",
+                "018": "I KNOW   ai NO   mou tarinai yo",
+                "019": "JIGSAW",
+                "020": "\"haisen\"   \"sakusou\"   \"heikousen\"",
+                "021": "\"ronsou\"   \"tousou\"   \"saikouen\"",
+                "022": "tada kyoutsuukou o miidashite   kotoba ni imi o yadoshita",
+                "023": "dekisokonai to himozuita   kono jougesayuu wa kansan to",
+                "024": "anata no kaeri o matteiru",
+                "025": "boku ni sawatte hoshikute",
+                "026": "dare ni datte atehamaru youni   dono iro mo mazete mitanoni",
+                "027": "dare ni datte okasarete shimau   shimite tsuita toumei no iro",
+                "028": "ai   raku   boukyaku no suu PIECE",
+                "029": "aizou   katsubou no SPANGLE",
+                "030": "shitto   zetsubou no ENCORE",
+                "031": "(minai   minai furi)",
+                "032": "aah!   Dokokani yatte shimatta...",
+                "033": "soshite nanimo ga",
+                "034": "tarinai no da?   imada tarinai no da?",
+                "035": "MESS FLASK tsukatte ippai ni mitashite?",
+                "036": "yasashisa wa   itteki mo nai naa",
+                "037": "ana aku hodo no kokoro mo nai",
+                "038": "ZIGZAG no mukanjou ga boku o tsukuriageru",
+                "039": "kyou datte   kanketsu shita koukei o tada kiritoru dake no",
+                "040": "jinsei da",
+                "041": "ZIGZAG ZAG   mou iiyo   boku o kirikizande",
+                "042": "itsudatte kokoro kara waraenai no",
+                "043": "doushite?",
+                "044": "zutazuta ni kirisaita   HEART gata no PUZZLE",
+                "045": "doko o sagashitemo umaranai ya",
+                "046": "I KNOW   ai NO   mou tarinai yo",
+                "047": "JIGSAW",
+                "048": "usotsuki no sekai wa   doronko no mirai wa   karappo no kokoro wa",
+                "049": "ZIGZAG ZIGZAG ni kirisaite",
+                "050": "JIGSAW"
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T"
+        },
+        "movie_file_name": "rom/movie/pv_274.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "sabi": {
+            "play_time": "25.4",
+            "start_time": "61.2"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_274.ogg",
+        "song_name": "ジグソーパズル",
+        "song_name_en": "Jigsaw puzzle",
+        "song_name_reading": "じぐそーぱずる",
+        "songinfo": {
+            "arranger": "まふまふ",
+            "guitar_player": "まふまふ",
+            "illustrator": "寺田てら",
+            "lyrics": "まふまふ",
+            "music": "まふまふ",
+            "pv_editor": "MONO-Devoid",
+            "_en": {
+                "arranger": "Mafumafu",
+                "guitar_player": "Mafumafu",
+                "illustrator": "Tera Terada",
+                "lyrics": "Mafumafu",
+                "music": "Mafumafu",
+                "pv_editor": "MONO-Devoid"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

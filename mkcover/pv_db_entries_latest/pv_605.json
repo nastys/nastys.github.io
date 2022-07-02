@@ -1,0 +1,198 @@
+{
+    "pv_605": {
+        "bpm": "192",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV605_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20150408",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_605_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_605_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_605_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_605_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_605_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "605"
+        },
+        "effect_se_file_name": "rom/sound/pv605_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv605_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "建前だけの感情論で全てを量ろうなんて",
+            "002": "そんなのはお門違い、笑わせないでよね",
+            "003": "だけどたまには楽しいことも必要だと思うの",
+            "004": "気が済むまで私も満足したいわ",
+            "005": "目の前から消えていった心を刺す嘘みたいに",
+            "006": "ぐるぐるって混ざる様なこの感じがたまらない",
+            "007": "ねぇ、ぶっ飛んじゃうのが良いなら",
+            "008": "私をもっと本気にさせて",
+            "009": "逃げるなんて許さないわ",
+            "010": "やっぱりそんな程度なのかしら",
+            "011": "嬉しいとか気持ち良いとか",
+            "012": "所詮それは自己満足",
+            "013": "そういうのって投げ捨てちゃって",
+            "014": "いいんじゃない？って思わせて",
+            "015": "もうぶっ飛んじゃったら良いでしょ",
+            "016": "一体どこに不満があるの？",
+            "017": "いっそこうなったら逃がさない",
+            "018": "だからね、ほらね、覚悟して",
+            "019": "さぁ、どうなっちゃってもいいから",
+            "020": "その目で最後まで見届けて",
+            "021": "どこまでイッても止まらない",
+            "022": "だけどね、でもね、そろそろ限界",
+            "023": "あぁもうダメ…",
+            "_en": {
+                "001": "tatemae dake no kanjouron de subete o hakarou nante",
+                "002": "sonna no wa okadochigai, warawasenaide yo ne.",
+                "003": "dakedo tama ni wa tanoshii koto mo hitsuyou da to omou no",
+                "004": "ki ga sumu made watashi mo manzoku shitai wa",
+                "005": "me no mae kara kieteitta kokoro o sasu uso mitai ni",
+                "006": "guruguru tte mazaru you na kono kanji ga tamaranai",
+                "007": "nee, buttonjau no ga ii nara",
+                "008": "watashi o motto honki ni sasete",
+                "009": "nigeru nante yurusanai wa",
+                "010": "yappari sonna teido na no kashira",
+                "011": "ureshii toka kimochi ii toka",
+                "012": "shosen sore wa jikomanzoku",
+                "013": "souiu no tte nagesutechatte",
+                "014": "iin janai? tte omowasete",
+                "015": "mou buttonjattara ii desho",
+                "016": "ittai doko ni fuman ga aru no?",
+                "017": "isso kou nattara nigasanai",
+                "018": "dakarane, horane, kakugo shite",
+                "019": "saa, dounachattemo ii kara",
+                "020": "sono me de saigo made mitodokete",
+                "021": "dokomade ittemo tomaranai",
+                "022": "dakedo ne, demo ne, sorosoro genkai",
+                "023": "aah mou dame..."
+            }
+        },
+        "motion": {
+            "01": "PV605_EAA_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "100",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV605.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "79",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "33.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_605.ogg",
+        "song_name": "え？あぁ、そう。",
+        "song_name_en": "Hm? Ah, Yes.",
+        "song_name_reading": "え　あぁ　そう",
+        "songinfo": {
+            "arranger": "papiyon",
+            "illustrator": "riria009",
+            "lyrics": "papiyon",
+            "music": "papiyon",
+            "_en": {
+                "arranger": "papiyon",
+                "illustrator": "riria009",
+                "lyrics": "papiyon",
+                "music": "papiyon"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv605s01.txt",
+                "stage": "STGPV605S01"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "pv_097": {
+        "bpm": "124",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_097_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_097_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_097_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_097_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "097",
+            "title_end_2d_field": "7",
+            "title_start_2d_field": "7"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "いつも待ち合わせの時間に",
+            "002": "早く着きすぎてしまうよ",
+            "003": "あなたが来るのはいつだって",
+            "004": "時間通りじゃないのにね",
+            "005": "そっけない態度をしたって",
+            "006": "我慢できずににやけちゃう",
+            "007": "あなたのペースにはかなわないね",
+            "008": "ちょっとくやしい",
+            "010": "こんな　気持ちはきっと",
+            "011": "初めての　事かもしれない",
+            "012": "どうしよ　そんな無邪気な目で",
+            "013": "私を見ないで",
+            "015": "好きだよと言ってほしいの",
+            "016": "もっと力強く抱きしめて",
+            "017": "私の小さなハートを",
+            "018": "リンと鳴らせるのはあなただけよ",
+            "019": "リンと音が聞こえたなら",
+            "020": "それはあなたへの合図なの",
+            "021": "耳をすませて聞いてね",
+            "022": "よそ見をしてたら聞こえないでしょ",
+            "023": "",
+            "024": "俺の気持ちがわからないって",
+            "025": "お前はいつも言うけれど",
+            "026": "素直な言葉を言ったって",
+            "027": "気持ち悪がるだけだろ？",
+            "028": "こんな性格の俺だけど",
+            "029": "お前にはわかってるはず",
+            "030": "面と向かっては言えないけれど",
+            "031": "感謝している",
+            "033": "これは　恋のかけひき",
+            "034": "いじわるね　そんなことないだろ",
+            "035": "でもね　繋いだ手はなさない",
+            "036": "けっきょくは優しい",
+            "038": "好きだよと言ってあげるよ",
+            "039": "うっとうしいくらい言ってあげるよ",
+            "040": "本当にうっとうしそうだねｗ",
+            "041": "やめろと言われてもやめませんから",
+            "042": "リンリンシグナル無視したら",
+            "043": "違反キップきってしまうぞ",
+            "044": "気付かなかったじゃすまない",
+            "045": "言い訳されたら許しちゃうかも",
+            "_en": {
+                "000": "",
+                "001": "itsumo machiawase no jikan ni",
+                "002": "hayaku tsukisugite shimau yo",
+                "003": "anata ga kuru no wa itsu datte",
+                "004": "jikan doori janai no ni ne",
+                "005": "sokkenai taido o shitatte",
+                "006": "gaman dekizu ni niyakechau",
+                "007": "anata no PACE ni wa kanawanai ne",
+                "008": "chotto kuyashii",
+                "010": "konna   kimochi wa kitto",
+                "011": "hajimete no   koto kamo shirenai",
+                "012": "dou shiyo   sonna mujaki na me de",
+                "013": "watashi o minaide",
+                "015": "suki da yo to itte hoshii no",
+                "016": "motto chikarazuyoku dakishimete",
+                "017": "watashi no chiisana HEART o",
+                "018": "rin to naraseru no wa anata dake yo",
+                "019": "rin to oto ga kikoeta nara",
+                "020": "sore wa anata e no aizu na no",
+                "021": "mimi o sumasete kiite ne",
+                "022": "yosomi o shitetara kikoenai desho",
+                "023": "",
+                "024": "ore no kimochi ga wakaranai tte",
+                "025": "omae wa itsumo iu keredo",
+                "026": "sunao na kotoba o ittatte",
+                "027": "kimochi warugaru dake daro?",
+                "028": "konna seikaku no ore dakedo",
+                "029": "omae ni wa wakatteru hazu",
+                "030": "men to mukatte wa ienai keredo",
+                "031": "kansha shiteiru",
+                "033": "kore wa   koi no kakehiki",
+                "034": "ijiwaru ne   sonna koto nai daro",
+                "035": "demo ne   tsunaida te hanasanai",
+                "036": "kekkyoku wa yasashii",
+                "038": "suki da yo to itte ageru yo",
+                "039": "uttoushii kurai itte ageru yo",
+                "040": "hontou ni uttoushisou da ne (lol)",
+                "041": "yamero to iwaretemo yamemasen kara",
+                "042": "rinrin SIGNAL mushi shitara",
+                "043": "ihan kippu kitte shimau zo",
+                "044": "kizukanakatta ja sumanai",
+                "045": "iiwake saretara yurushichau kamo"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV097_RRS_00_C00_00A_P1",
+            "2P": {
+                "00": "CMN_MRA00_13_01",
+                "01": "PV097_RRS_00_C00_00A_P2"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "11",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "9",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "72",
+        "sabi": {
+            "play_time": "36.0",
+            "start_time": "59.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_097.ogg",
+        "song_name": "リンリンシグナル -Append Mix-",
+        "song_name_en": "RinRin Signal -Append Mix-",
+        "song_name_reading": "りんりんしぐなる",
+        "songinfo": {
+            "arranger": "Dios/シグナルP",
+            "illustrator": "ワタリナルミ",
+            "lyrics": "Dios/シグナルP",
+            "music": "Dios/シグナルP",
+            "_en": {
+                "arranger": "Dios/SignalP",
+                "illustrator": "Watari Narumi",
+                "lyrics": "Dios/SignalP",
+                "music": "Dios/SignalP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

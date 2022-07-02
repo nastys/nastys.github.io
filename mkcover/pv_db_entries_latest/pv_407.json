@@ -1,0 +1,228 @@
+{
+    "pv_407": {
+        "bpm": "125",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151022",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_407_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_407_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_407_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_407_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "407"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS002"
+            },
+            "02": {
+                "stage": "STGNS006"
+            },
+            "03": {
+                "stage": "STGNS008"
+            },
+            "04": {
+                "stage": "STGNS017"
+            },
+            "length": "4"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "人に見せられない想い綴った恋のノート",
+            "002": "「キミ」とか「貴方」とか",
+            "003": "「スキ」とか「キライ」とか",
+            "004": "恋の香りはずかしげもなク",
+            "005": "漂わせて浮かれてるの　バカ////",
+            "006": "秘密のワード　かきつらねて",
+            "007": "今夜もノートで　キミが増殖",
+            "008": "ホントはもっと　距離があるのに",
+            "009": "「君と二人」　だった事ないのに",
+            "010": "まだ伝えられない気持ち隠した恋のノート",
+            "011": "「ラブ」とか「ライク」とか",
+            "012": "「Kiss」とか「オトナ」とか",
+            "013": "恋の香りはずかしげもなク",
+            "014": "背伸びして浮かれてるの　ヤダ////",
+            "015": "秘密のワード　かきつらねて",
+            "016": "今夜もノートで　キミが増殖",
+            "017": "ホントはもっと　距離があるのに",
+            "018": "「君と二人」　だった事ないのに",
+            "019": "想うだけなら　タダだもんね",
+            "020": "今夜も心で　ハート増殖",
+            "021": "ホントはもっと　近くへよって",
+            "022": "「君と二人」　手をつなぎたいのに",
+            "023": "にんにんにんにん忍忍忍....",
+            "024": "秘密のワード　かきつらねて",
+            "025": "今夜もノートで　キミが増殖",
+            "026": "ホントはもっと　距離があるのに",
+            "027": "「君と二人」　だった事ないのに",
+            "028": "想うだけなら　タダだもんね",
+            "029": "今夜も心で　ハート増殖",
+            "030": "明日はきっと　どうか神様",
+            "031": "「おはよう」って　やっぱ言えるわけないかｗ",
+            "_en": {
+                "001": "hito ni miserarenai omoi tsuzutta koi no NOTE",
+                "002": "\"kimi\" toka \"anata\" toka",
+                "003": "\"suki\" toka \"kirai\" toka",
+                "004": "koi no kaori hazukashige mo naku",
+                "005": "tadayowasete ukareteru no   baka ///",
+                "006": "himitsu no WORD   kakitsuranete",
+                "007": "konya mo NOTE de   kimi ga zoushoku",
+                "008": "honto wa motto   kyori ga aru no ni",
+                "009": "\"kimi to futari\"   datta koto nai no ni",
+                "010": "mada tsutaerarenai kimochi kakushita koi no NOTE",
+                "011": "\"LOVE\" toka \"LIKE\" toka",
+                "012": "\"KISS\" toka \"otona\" toka",
+                "013": "koi no kaori hazukashige mo naku",
+                "014": "senobi shite ukareteru no   ya da ///",
+                "015": "himitsu no WORD   kakitsuranete",
+                "016": "konya mo NOTE de   kimi ga zoushoku",
+                "017": "honto wa motto   kyori ga aru no ni",
+                "018": "\"kimi to futari\"   datta koto nai no ni",
+                "019": "omou dake nara   tada da mon ne",
+                "020": "konya mo kokoro de   HEART zoushoku",
+                "021": "honto wa motto   chikaku e yotte",
+                "022": "\"kimi to futari\"   te o tsunagitai no ni",
+                "023": "nin nin nin nin nin nin nin...",
+                "024": "himitsu no WORD   kakitsuranete",
+                "025": "konya mo NOTE de   kimi ga zoushoku",
+                "026": "honto wa motto   kyori ga aru no ni",
+                "027": "\"kimi to futari\"   datta koto nai no ni",
+                "028": "omou dake nara   tada da mon ne",
+                "029": "konya mo kokoro de   HEART zoushoku",
+                "030": "ashita wa kitto   douka kami-sama",
+                "031": "\"ohayou\" tte   yappa ieru wake nai ka (lol)"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_38",
+            "11": "CMN_MCA00_50_40",
+            "12": "CMN_MCA00_50_41",
+            "13": "CMN_MCA00_50_42",
+            "14": "CMN_MCA00_50_60_A",
+            "15": "CMN_MCA00_50_60_C",
+            "16": "CMN_MCA00_70_12",
+            "17": "CMN_MCA00_70_15",
+            "18": "CMN_MCA00_70_16",
+            "19": "CMN_MCA00_50_46",
+            "20": "CMN_MCA00_50_47",
+            "21": "CMN_MCA00_70_23",
+            "22": "CMN_MCA00_70_24",
+            "23": "CMN_MCA00_70_28",
+            "24": "CMN_MCA00_50_28",
+            "25": "CMN_MCA00_70_21",
+            "26": "CMN_MCA00_50_49",
+            "27": "CMN_MCA00_50_25",
+            "29": "CMN_MCA00_50_27",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_22",
+            "02": "CMN_MCA00_50_21",
+            "03": "CMN_MCA00_50_34",
+            "04": "CMN_MCA00_50_43",
+            "05": "CMN_MCA00_50_10",
+            "06": "CMN_MCA00_50_12",
+            "07": "CMN_MCA00_50_26_A",
+            "08": "CMN_MCA00_50_53",
+            "09": "CMN_MCA00_50_37"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "20",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "201",
+        "sabi": {
+            "play_time": "18.0",
+            "start_time": "56.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_407.ogg",
+        "song_name": "恋ノート////",
+        "song_name_en": "Love's note",
+        "song_name_reading": "こいのーと",
+        "songinfo": {
+            "arranger": "ジェバンニP+ハットリP",
+            "lyrics": "Mr.DDR",
+            "music": "ジェバンニP+ハットリP",
+            "pv_editor": "アマシロ",
+            "_en": {
+                "arranger": "Jevanni P + Hattori P",
+                "illustrator": "Numeri",
+                "lyrics": "Mr.DDR",
+                "music": "Jevanni P + Hattori P",
+                "pv_editor": "Amashiro"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "27"
+        }
+    }
+}

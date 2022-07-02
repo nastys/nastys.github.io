@@ -1,0 +1,46 @@
+/* styles.css */
+body
+{
+    padding: 0;
+    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: auto;
+    background: linear-gradient(90deg, rgba(206,238,255,1) 0%, rgba(45,228,208,1) 13%, rgba(0,212,255,1) 100%); 
+}
+
+textarea
+{
+    width: 100%;
+    height: 100%;
+}
+
+table
+{
+    background-color: white;
+    font-size: xx-small;
+}
+
+input
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

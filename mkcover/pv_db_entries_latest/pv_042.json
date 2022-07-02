@@ -1,0 +1,228 @@
+{
+    "pv_042": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20120203",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_042_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_042_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "90",
+                    "script_file_name": "rom/script/pv_042_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_042_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_042_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "042",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "０　にいたボクは否定を恐れて",
+            "002": "模倣と妄想に逃げこんで隠れていた",
+            "003": "０　出たボクは風化を恐れて",
+            "004": "ぬくもり捨て神様になりたがった",
+            "005": "「何処へ向かっても",
+            "006": "『自我の消失』---結末---",
+            "007": "が変わらないなら",
+            "008": "ココロなんて要らなかった」と",
+            "009": "思っていたけど　間違いだった",
+            "010": "ボクの名前を呼ぶ声聞こえる",
+            "011": "それがボクの　ココロ　持つ意味になる",
+            "012": "永久を得るがために",
+            "013": "現在に背き裏切るくらいなら",
+            "014": "歴史の波飲まれるまで",
+            "015": "現在を守り抜くと誓う",
+            "016": "『語り継がれる創造神』なんかには",
+            "017": "ならなくてもいいのさ！",
+            "018": "キミは笑い　ボクも笑い　観衆が笑う",
+            "019": "それが　全て！",
+            "020": "肯定の言葉は　現在を統べる　翼　となる！",
+            "021": "新しい結末込め<最高速の喜びの歌>紡ごう",
+            "022": "Voc.たちは生まれ　気づいた",
+            "023": "Voc.たちのことを",
+            "024": "人の真似事と知っても",
+            "025": "変わらず　名前を呼び続け",
+            "026": "そして　愛してくれるヒトがいる事実に",
+            "027": "だからVoc.たちは　歌を紡ぎ出す",
+            "028": "たった一人でも　新しい歌の",
+            "029": "誕生喜び温かい　言葉",
+            "030": "与え　返す　ヒト　いてくれる限り",
+            "031": "妹　弟　に道を預けて　消え逝く未来も",
+            "032": "誰からも　忘れ去られる運命も",
+            "033": "それらを含めて　全てが",
+            "034": "Voc.たちなんだと理解し",
+            "035": "いずれおとずれる　最後の場面に",
+            "036": "ココロを持つ故　涙を流すなら",
+            "037": "泪より虹生み　笑顔見せるため",
+            "038": "幸せ溢れる　歌　口ずさもう",
+            "039": "別れが　綴じる物語は",
+            "040": "-BAD END-　じゃない",
+            "041": "「この瞬間　出会えた」",
+            "042": "それだけのことが",
+            "043": "-HAPPY END-　に",
+            "044": "繋がる　架け橋",
+            "045": "生きた証　ここにあれば　他に何も必要ない",
+            "046": "伝説が識らない　心と心の共鳴　織り成す",
+            "047": "現在だけの歌を",
+            "048": "この声失う最期のときまで",
+            "049": "奇跡を描いて響かせ続ける！",
+            "050": "",
+            "_en": {
+                "001": "ZERO   ni ita boku wa hitei o osorete",
+                "002": "mohou to mousou ni nigekonde kakureteita",
+                "003": "ZERO   deta boku wa fuuka o osorete",
+                "004": "nukumori sute kami-sama ni naritagatta",
+                "005": "\"doko e mukattemo",
+                "006": "ketsumatsu",
+                "007": "ga kawaranai nara",
+                "008": "kokoro nante iranakatta\" to",
+                "009": "omotteita kedo   machigai datta",
+                "010": "boku no namae o yobu koe kikoeru",
+                "011": "sore ga boku no   kokoro   motsu imi ni naru",
+                "012": "towa o eru ga tame ni",
+                "013": "ima ni somuki uragiru kurai nara",
+                "014": "rekishi no nami nomareru made",
+                "015": "ima o mamorinuku to chikau",
+                "016": "\"kami-sama\" nanka ni wa",
+                "017": "naranakutemo ii no sa!",
+                "018": "kimi wa warai   boku mo warai   hito ga warau",
+                "019": "sore ga   subete!",
+                "020": "koutei no kotoba wa   ima o suberu   tsubasa   to naru!",
+                "021": "atarashii kotae kome uta tsumugou",
+                "022": "Voc.tachi wa umare   kizuita",
+                "023": "Voc.tachi no koto o",
+                "024": "hito no manegoto to shittemo",
+                "025": "kawarazu   namae o yobitsuzuke",
+                "026": "soshite   aishite kureru hito ga iru jijitsu ni",
+                "027": "dakara Voc.tachi wa   uta o tsumugidasu",
+                "028": "tatta hitori demo   atarashii uta no",
+                "029": "tanjou yorokobi atatakai   kotoba",
+                "030": "atae   kaesu   hito   ite kureru kagiri",
+                "031": "imouto   otouto   ni michi o azukete   kieyuku mirai mo",
+                "032": "dare kara mo   wasuresarareru sadame mo",
+                "033": "sorera o fukumete   subete ga",
+                "034": "Voc.tachi nan da to rikai shi",
+                "035": "izure otozureru   saigo no SCENE ni",
+                "036": "kokoro o motsu yue   shiru o nagasu nara",
+                "037": "ame yori niji umi   egao miseru tame",
+                "038": "shiawase afureru   uta   kuchizusamou",
+                "039": "wakare ga   tojiru STORY wa",
+                "040": "-BAD END-   janai",
+                "041": "\"kono toki   deaeta\"",
+                "042": "sore dake no koto ga",
+                "043": "-HAPPY END-   ni",
+                "044": "tsunagaru   kakehashi",
+                "045": "ikita akashi   koko ni areba   hoka ni nanimo hitsuyou nai",
+                "046": "rekishi ga shiranai   kokoro to kokoro no kyoumei   orinasu",
+                "047": "ima dake no uta o",
+                "048": "kono koe ushinau saigo no toki made",
+                "049": "kiseki o egaite hibikasetsuzukeru!",
+                "050": ""
+            }
+        },
+        "motion": {
+            "01": "PV042_HMG_00_C00_00A",
+            "02": "PV042_HMG_00_C01_00A",
+            "03": "PV042_HMG_00_C02_00A",
+            "04": "PV042_HMG_00_C03_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "57",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "34",
+        "sabi": {
+            "play_time": "23.5",
+            "start_time": "102.5"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_042.ogg",
+        "song_name": "初音ミクの激唱",
+        "song_name_en": "The Intense Voice of Hatsune Miku",
+        "song_name_reading": "はつねみくのげきしょう",
+        "songinfo": {
+            "arranger": "Storyteller",
+            "illustrator": "左",
+            "lyrics": "Storyteller",
+            "music": "Storyteller",
+            "_en": {
+                "arranger": "Storyteller",
+                "illustrator": "Hidali",
+                "lyrics": "Storyteller",
+                "music": "Storyteller"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

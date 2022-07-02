@@ -1,0 +1,203 @@
+{
+    "pv_232": {
+        "bpm": "175",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_232_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_232_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_232_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_232_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_232_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "232"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "「はじめまして」とか　何回言ったっけ",
+            "002": "アタシ、ホントは人見知りで",
+            "003": "ドキドキしてるよ　実は今だって",
+            "004": "上手く歌えてる？ねえ怖いんだ今でも",
+            "005": "",
+            "006": "それでも伝えたい　だからきっと頑張れるんだって",
+            "007": "逃げないんだ",
+            "008": "",
+            "009": "君に出会って　みんな出会って",
+            "010": "アタシであって良かったよ",
+            "011": "何回言ったって足りないよ",
+            "012": "声に出して「39!!」",
+            "013": "あれ、なんだかアタシの名前みたい(笑)",
+            "014": "今日もありがとう",
+            "015": "",
+            "016": "「はじめまして」とか　何回言ったっけ",
+            "017": "アタシ、ホントに嬉しかったんだ",
+            "018": "ワクワクしてるよ　これからもずっと",
+            "019": "広がっていくんだ　繋がっていけるんだ",
+            "020": "",
+            "021": "跳ねる音粒　描いてく筆先",
+            "022": "奏でて踊って　生まれてく輪の中で",
+            "023": "泣きたくなること　たくさんあったよ",
+            "024": "でも、笑ってばかりだったな",
+            "025": "ごめんね、ありがとう、幸せだよ",
+            "026": "お返しするよ　プレゼント",
+            "027": "アタシだけもらってばかりじゃ嫌だから",
+            "028": "受け取ってもらえなきゃ困る　この歌を",
+            "029": "",
+            "030": "君に出会って　みんな出会って",
+            "031": "アタシであって良かったよ",
+            "032": "何回言ったって足りないよ",
+            "033": "声に出して「39!!」",
+            "034": "あれ、なんだかアタシの名前みたい(笑)",
+            "035": "今日も、そして",
+            "036": "",
+            "037": "明日だって　この先だって",
+            "038": "アタシはずっとここにいる",
+            "039": "なんかあったら聴きに来てよ　歌うよ何度だって",
+            "040": "「はじめまして」も　はたまた「久しぶり」も",
+            "041": "みんなありがとう",
+            "_en": {
+                "001": "\"hajimemashite\" toka   nankai itta kke",
+                "002": "atashi, honto wa hitomishiri de",
+                "003": "dokidoki shiteru yo   jitsuwa ima datte",
+                "004": "umaku utaeteru? nee kowainda ima demo",
+                "005": "",
+                "006": "sore demo tsutaetai   dakara kitto ganbarerun da tte",
+                "007": "nigenainda",
+                "008": "",
+                "009": "kimi ni deatte   minna deatte",
+                "010": "\"atashi\" de atte yokatta yo",
+                "011": "nankai ittatte tarinai yo",
+                "012": "koe ni dashite \"Thank you (39)!!\"",
+                "013": "are, nandaka atashi no namae mitai (lol)",
+                "014": "kyou mo arigatou",
+                "015": "",
+                "016": "\"hajimemashite\" toka   nankai itta kke",
+                "017": "atashi, honto ni ureshikattan da",
+                "018": "wakuwaku shiteru yo   kore kara mo zutto",
+                "019": "hirogatte ikun da   tsunagatte ikerun da",
+                "020": "",
+                "021": "haneru ototsubu   egaiteku fudesaki",
+                "022": "kanadete odotte   umareteku wa no naka de",
+                "023": "nakitakunaru koto   takusan atta yo",
+                "024": "demo, waratte bakari datta na",
+                "025": "gomen ne, arigatou, shiawase da yo",
+                "026": "okaeshi suru yo   PRESENT",
+                "027": "atashi dake moratte bakari ja iya dakara",
+                "028": "uketottemoraenakya komaru   kono uta o",
+                "029": "",
+                "030": "kimi ni deatte   minna deatte",
+                "031": "\"atashi\" de atte yokatta yo",
+                "032": "nankai ittatte tarinai yo",
+                "033": "koe ni dashite \"Thank you (39)!!\"",
+                "034": "are, nandaka atashi no namae mitai (lol)",
+                "035": "kyou mo, soshite",
+                "036": "",
+                "037": "ashita datte   kono saki datte",
+                "038": "atashi wa zutto koko ni iru",
+                "039": "nanka attara kiki ni kite yo   utau yo nando datte",
+                "040": "\"hajimemashite\" mo   hata mata \"hisashiburi\" mo",
+                "041": "minna arigatou"
+            }
+        },
+        "motion": {
+            "01": "PV232_39"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV232_STANDMIC_04__DIVSKN"
+        },
+        "rank_board_id": "184",
+        "sabi": {
+            "play_time": "27.5",
+            "start_time": "43.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_232.ogg",
+        "song_name": "39",
+        "song_name_en": "39",
+        "song_name_reading": "さんきゅう",
+        "song_name_reading_en": "｛39",
+        "songinfo": {
+            "arranger": "sasakure.UK & DECO*27",
+            "illustrator": "のん",
+            "lyrics": "DECO*27",
+            "music": "sasakure.UK",
+            "_en": {
+                "arranger": "sasakure.UK & DECO*27",
+                "illustrator": "Non",
+                "lyrics": "DECO*27",
+                "music": "sasakure.UK"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

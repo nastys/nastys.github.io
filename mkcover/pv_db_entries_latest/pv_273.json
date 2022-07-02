@@ -1,0 +1,232 @@
+{
+    "pv_273": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_273_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_273_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_273_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_273_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "さあ 眠眠打破　昼夜逆転 VOX AC30W",
+            "002": "テレキャスター背負ったサブカルボーイが",
+            "003": "バンド仲間にやっほー",
+            "004": "アルバイトはネクラモード",
+            "005": "対バンにはATフィールド",
+            "006": "人見知り宣言で逃げる気か BOY",
+            "007": "ゆーて お坊っちゃんお嬢ちゃん",
+            "008": "お金も才能もなまじっかあるだけ厄介でやんす",
+            "009": "Boys be ambitious...",
+            "010": "（ハイハイ）",
+            "011": "like this old man",
+            "012": "長い前髪 君 誰の信者",
+            "013": "信者 信者",
+            "014": "勘違いすんな 教祖はオマエだ",
+            "015": "ロキロキのロックンロックンロール",
+            "016": "かき鳴らすエレクトリックギターは",
+            "017": "Don't Stop！Don't Stop！",
+            "018": "さあ君の全てを 曝け出してみせろよ",
+            "019": "ロキロキのロックンロックンロール",
+            "020": "さあ 日進月歩",
+            "021": "いい曲書いてる？ 動員ふえてる？",
+            "022": "「知名度あるけど人気はそんなにないから",
+            "023": "色々大変ですね。」",
+            "024": "はっきり言うなよ匿名アイコン",
+            "025": "はっきり見せない実写のアイコン",
+            "026": "いい歳こいて自意識まだ BOY",
+            "027": "ぶっちゃけどんだけ賢くあざとくやったって",
+            "028": "10年後にメイクは落ちてんだよ",
+            "029": "Boys be ambitious...",
+            "030": "（ハイハイ）",
+            "031": "like this old man",
+            "032": "（えっ）",
+            "033": "生き抜くためだ キメろTake a \"Selfy\"",
+            "034": "Selfy \"Selfy\"",
+            "035": "死ぬんじゃねえぞ お互いにな！",
+            "036": "ロキロキのロックンロックンロール",
+            "037": "薄っぺらいラブソングでもいい",
+            "038": "Don't Stop！Don't Stop！",
+            "039": "さあ目の前のあの子を 撃ち抜いてみせろよ",
+            "040": "ロキロキのロックンロックンロール",
+            "041": "お茶を濁してちゃ満足できない",
+            "042": "スタジオに運ばれたスロートコートは",
+            "043": "安心不安心 プレッシャーでいっぱい",
+            "044": "「実は昨夜から風邪で声が出ません」",
+            "045": "は？",
+            "046": "は？は？は？",
+            "047": "はあ… 寝言は寝て言え",
+            "048": "ベイビー ベイビー ベイビーベイビー",
+            "049": "ベイビー ベイビー ベイビーベイビー",
+            "050": "死ぬんじゃねえぞ　お互いにな！",
+            "051": "ロキロキのロックンロックンロール",
+            "052": "かき鳴らすエレクトリックギターは",
+            "053": "Don't Stop！Don't Stop！",
+            "054": "さあ君の全てを 曝け出してみせろよ",
+            "055": "ロキロキのロックンロックンロール",
+            "056": "ロキロキのロックンロックンロール",
+            "057": "死ぬんじゃねえぞ　死ぬんじゃねえぞ",
+            "058": "死にたかねえのはお互い様！",
+            "_en": {
+                "001": "saa   min min daha   chuuya gyakuten   VOX AC30W",
+                "002": "TELECASTER seotta SUBCUL-BOY ga",
+                "003": "BAND nakama ni yahhoo",
+                "004": "ARBEIT wa nekura MODE",
+                "005": "tai BAND ni wa A.T. FIELD",
+                "006": "hitomishiri sengen de nigeru ki ka BOY",
+                "007": "yuute obocchan ojouchan",
+                "008": "okane mo sainou mo namajikka arudake yakkai de yansu",
+                "009": "BOYS BE AMBITIOUS...",
+                "010": "(haihai)",
+                "011": "LIKE THIS OLD MAN",
+                "012": "nagai maegami   kimi  dare no shinja",
+                "013": "shinja   shinja",
+                "014": "kanchigai sunna   kyouso wa omae da",
+                "015": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "016": "kaki narasu ELECTIC GUITAR wa",
+                "017": "DON'T STOP! DON'T STOP!",
+                "018": "saa kimi no subete o   sarake dashite misero yo",
+                "019": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "020": "saa nisshingeppo",
+                "021": "ii kyoku kaiteru?   douin fueteru?",
+                "022": "\"chimeido arukedo ninki wa sonnani nai kara",
+                "023": "iroiro taihen desu ne.\"",
+                "024": "hakkiri iuna yo tokumei ICON",
+                "025": "hakkiri misenai jissha no ICON",
+                "026": "ii toshi koite jiishiki mada BOY",
+                "027": "bucchake dondake kashikoku azatoku yattatte",
+                "028": "junengo ni MAKE wa ochitendayo",
+                "029": "BOYS BE AMBITIOUS...",
+                "030": "(haihai)",
+                "031": "LIKE THIS OLD MAN",
+                "032": "(eh)",
+                "033": "ikinuku tame da   kimero TAKE A \"SELFY\"",
+                "034": "\"SELFY\"   \"SELFY\"",
+                "035": "shinunja nee zo   otagai ni na!",
+                "036": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "037": "usupperai LOVE SONG demo ii",
+                "038": "DON'T STOP! DON'T STOP!",
+                "039": "saa me no mae no anoko o   uchinuite misero yo",
+                "040": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "041": "ocha o nigoshitecha manzoku dekinai",
+                "042": "STUDIO ni hakobareta THROAT COAT wa",
+                "043": "anshin fuanshin   PRESSURE de ippai",
+                "044": "\"jitsu wa kinou kara kaze de koe ga demasen\"",
+                "045": "ha?",
+                "046": "ha? ha? ha?",
+                "047": "haa... negoto wa nete ie",
+                "048": "BABY   BABY   BABY BABY",
+                "049": "BABY   BABY   BABY BABY",
+                "050": "shinunja nee zo   otagai ni na!",
+                "051": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "052": "kaki narasu ELECTIC GUITAR wa",
+                "053": "DON'T STOP! DON'T STOP!",
+                "054": "saa kimi no subete o   sarake dashite misero yo",
+                "055": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "056": "rokiroki no ROCK 'N' ROCK 'N' ROLL",
+                "057": "shinunja nee zo   shinunja neezo",
+                "058": "shinitaka nee no wa otagaisama!"
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T",
+            "2P": {
+                "01": "CMN_POSE_DEFAULT_T"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_273.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "sabi": {
+            "play_time": "15.0",
+            "start_time": "56.2"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_273.ogg",
+        "song_name": "ロキ",
+        "song_name_en": "ROKI",
+        "song_name_reading": "ろき",
+        "songinfo": {
+            "arranger": "みきとP",
+            "guitar_player": "みきとP",
+            "illustrator": "みきとP",
+            "lyrics": "みきとP",
+            "manipulator": "みきとP",
+            "music": "みきとP",
+            "_en": {
+                "arranger": "mikitoP",
+                "guitar_player": "mikitoP",
+                "illustrator": "mikitoP",
+                "lyrics": "mikitoP",
+                "manipulator": "mikitoP",
+                "music": "mikitoP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

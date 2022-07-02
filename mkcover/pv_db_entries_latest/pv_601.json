@@ -1,0 +1,205 @@
+{
+    "pv_601": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140210",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_601_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_601_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_601_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_601_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "601"
+        },
+        "effect_se_file_name": "rom/sound/pv601_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv601_effect",
+            "length": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "窓の外はモノクロの世界",
+            "002": "変わりのない日々は退屈",
+            "003": "生きる事がわずかに重たい",
+            "004": "飛び降りたら　軽くなるかな",
+            "005": "心の天気予報　アシタ晴天デスカ？",
+            "006": "瞳に映る毎日（けしき）",
+            "007": "また、どうせ、同じでしょ",
+            "008": "果てしない道のどこかに",
+            "009": "落ちてるかな　探しモノ",
+            "010": "明日になればきっと見つかるから",
+            "011": "今、目を覚まして",
+            "012": "僕に何があるの？　問いかけて",
+            "013": "白いページだけがありました",
+            "014": "多分それは",
+            "015": "自分の絵具で描くための",
+            "016": "最初のページ",
+            "017": "見上げた青い空が　鮮やかに映った",
+            "018": "できればこんな風に",
+            "019": "色　染めてみたいから",
+            "020": "果てしない空の向こうに",
+            "021": "待ってるかな　探しモノ",
+            "022": "昨日より少しだけ前を向き",
+            "023": "今、手を伸ばして",
+            "024": "人間がここに生まれてきた意味なんて、無いよ",
+            "025": "だからみんな見つけ出すんだ",
+            "026": "\"生きる理由\"を・・・",
+            "027": "果てしない道のどこかに",
+            "028": "落ちてるかな　探しモノ",
+            "029": "明日になればきっと見つかるから",
+            "030": "今、目を覚まして",
+            "031": "果てしない空の向こうに",
+            "032": "待ってるかな　探しモノ",
+            "033": "昨日より少しだけ前を向き",
+            "034": "今、手を伸ばして",
+            "035": "さぁ、今、手を伸ばして",
+            "_en": {
+                "001": "mado no soto wa monokuro no sekai",
+                "002": "kawari no nai hibi wa taikutsu",
+                "003": "ikiru koto ga wazuka ni omotai",
+                "004": "tobioritara   karuku naru ka na",
+                "005": "kokoro no tenkiyohou   ashita seiten desu ka?",
+                "006": "hitomi ni utsuru keshiki",
+                "007": "mata, douse, onaji desho",
+                "008": "hateshinai michi no dokoka ni",
+                "009": "ochiteru ka na   sagashimono",
+                "010": "asu ni nareba kitto mitsukaru kara",
+                "011": "ima, me o samashite",
+                "012": "boku ni nani ga aru no?   toikakete",
+                "013": "shiroi PAGE dake ga arimashita",
+                "014": "tabun sore wa",
+                "015": "jibun no enogu de egaku tameno",
+                "016": "saisho no PAGE",
+                "017": "miageta aoi sora ga   azayaka ni utsutta",
+                "018": "dekireba konna fuu ni",
+                "019": "iro   somete mitai kara",
+                "020": "hateshinai sora no mukou ni",
+                "021": "matteru ka na   sagashimono",
+                "022": "kinou yori sukoshi dake mae o muki",
+                "023": "ima, te o nobashite",
+                "024": "ningen ga koko ni umaretekita imi nante, nai yo",
+                "025": "dakara minna mitsukedasun da",
+                "026": "\"ikiru riyuu\" o...",
+                "027": "hateshinai michi no dokoka ni",
+                "028": "ochiteru ka na   sagashimono",
+                "029": "asu ni nareba kitto mitsukaru kara",
+                "030": "ima, me o samashite",
+                "031": "hateshinai sora no mukou ni",
+                "032": "matteru ka na   sagashimono",
+                "033": "kinou yori sukoshi dake mae o muki",
+                "034": "ima, te o nobashite",
+                "035": "saa, ima, te o nobashite"
+            }
+        },
+        "motion": {
+            "01": "PV601_MON_P1_00",
+            "2P": {
+                "01": "PV601_MON_P2_00"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_601.mp4",
+        "movie_surface": "BACK",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "99",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV601.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "75",
+        "sabi": {
+            "play_time": "32.0",
+            "start_time": "165.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_601.ogg",
+        "song_name": "モノクロ∞ブルースカイ",
+        "song_name_en": "Monochrome∞Blue Sky",
+        "song_name_reading": "ものくろぶるーすかい",
+        "songinfo": {
+            "arranger": "のぼる↑",
+            "illustrator": "Nidy-2D-",
+            "lyrics": "のぼる↑",
+            "music": "のぼる↑",
+            "_en": {
+                "arranger": "Noboru↑",
+                "illustrator": "Nidy-2D-",
+                "lyrics": "Noboru↑",
+                "music": "Noboru↑"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv601s04.txt",
+                "stage": "STGPV601S04"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

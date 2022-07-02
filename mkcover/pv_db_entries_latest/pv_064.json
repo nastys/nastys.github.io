@@ -1,0 +1,200 @@
+{
+    "pv_064": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_064_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_064_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_064_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_064_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_064_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "064"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_MIC_G_L",
+            "02": "PV_MIC_G_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "仮想(ヴァーチャル)と現実の狭間で",
+            "002": "私は生まれ　愛されてきた",
+            "003": "今だけ　お願い　夢をみさせて",
+            "004": "",
+            "005": "夏の終わりに私は生まれた",
+            "006": "暑い日が続くこの場所で",
+            "007": "",
+            "008": "待ち望んでた皆は私に",
+            "009": "素敵な歌を贈ってくれた",
+            "010": "理想(ヴァーチャル)と現実の狭間で",
+            "011": "私は生まれ　愛されてきた",
+            "012": "リアルな世界は　複雑すぎて　疲れちゃう",
+            "013": "ただ素敵な歌が聞きたくて",
+            "014": "みんな私を　育ててくれた",
+            "015": "今だけ　お願い　夢をみさせて",
+            "016": "",
+            "017": "楽しい日々も　何時かは終わると",
+            "018": "解っているけど　今だけは",
+            "019": "",
+            "020": "あなたがくれた　素敵な歌を",
+            "021": "歌っていたい　ねぇ　いいでしょ・・？",
+            "022": "",
+            "023": "Innocence....",
+            "024": "",
+            "025": "理想(ヴァーチャル)と現実の狭間で",
+            "026": "私は生まれ　愛されてきた",
+            "027": "リアルな世界は　複雑すぎて　疲れちゃう",
+            "028": "ただ素敵な歌が聞きたくて",
+            "029": "みんな私を　育ててくれた",
+            "030": "今だけ　お願い　夢をみさせて",
+            "031": "",
+            "032": "Innocence....",
+            "033": "",
+            "034": "Innocence....",
+            "035": "",
+            "_en": {
+                "001": "VIRTUAL to genjitsu no hazama de",
+                "002": "watashi wa umare   aisarete kita",
+                "003": "ima dake   onegai   yume o misasete",
+                "004": "",
+                "005": "natsu no owari ni watashi wa umareta",
+                "006": "atsui hi ga tsuzuku kono basho de",
+                "007": "",
+                "008": "machinozondeta minna wa watashi ni",
+                "009": "suteki na uta o okutte kureta",
+                "010": "VIRTUAL to genjitsu no hazama de",
+                "011": "watashi wa umare   aisarete kita",
+                "012": "REAL na sekai wa   fukuzatsusugite   tsukarechau",
+                "013": "tada suteki na uta ga kikitakute",
+                "014": "minna watashi o   sodatete kureta",
+                "015": "ima dake   onegai   yume o misasete",
+                "016": "",
+                "017": "tanoshii hibi mo   itsuka wa owaru to",
+                "018": "wakatteiru kedo   ima dake wa",
+                "019": "",
+                "020": "anata ga kureta   suteki na uta o",
+                "021": "utatteitai   nee   ii desho...?",
+                "022": "",
+                "023": "Innocence...",
+                "024": "",
+                "025": "VIRTUAL to genjitsu no hazama de",
+                "026": "watashi wa umare   aisarete kita",
+                "027": "REAL na sekai wa   fukuzatsusugite   tsukarechau",
+                "028": "tada suteki na uta ga kikitakute",
+                "029": "minna watashi o   sodatete kureta",
+                "030": "ima dake   onegai   yume o misasete",
+                "031": "",
+                "032": "Innocence...",
+                "033": "",
+                "034": "Innocence...",
+                "035": ""
+            }
+        },
+        "motion": {
+            "01": "PV064_INC_00_C00_00A"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "50",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "53",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "47.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_064.ogg",
+        "song_name": "Innocence",
+        "song_name_en": "Innocence",
+        "song_name_reading": "いのせんす",
+        "songinfo": {
+            "arranger": "KazuP",
+            "illustrator": "BUZZ",
+            "lyrics": "KazuP",
+            "music": "KazuP",
+            "_en": {
+                "arranger": "KazuP",
+                "illustrator": "BUZZ",
+                "lyrics": "KazuP",
+                "music": "KazuP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

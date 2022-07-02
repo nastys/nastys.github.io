@@ -1,0 +1,232 @@
+{
+    "pv_206": {
+        "bpm": "142",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_206_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_206_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_206_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_206_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "206"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "speed03",
+                "stage": "STGNS005"
+            },
+            "11": {
+                "aet_front": "speed04",
+                "stage": "STGNS030"
+            },
+            "12": {
+                "aet_front": "shoot03",
+                "stage": "STGNS030"
+            },
+            "13": {
+                "aet_front": "shoot04",
+                "stage": "STGNS030"
+            },
+            "14": {
+                "stage": "STGPV005S06"
+            },
+            "01": {
+                "stage": "STGNS005"
+            },
+            "02": {
+                "stage": "STGNS029"
+            },
+            "03": {
+                "stage": "STGNS005"
+            },
+            "04": {
+                "stage": "STGNS030"
+            },
+            "05": {
+                "auth_3d": "STGPV005S05_EFF_001",
+                "stage": "STGNS005"
+            },
+            "06": {
+                "auth_3d": "STGPV005S05_EFF_001",
+                "stage": "STGPV005S06"
+            },
+            "07": {
+                "stage": "STGPV005S04"
+            },
+            "08": {
+                "aet_front": "speed01",
+                "stage": "STGNS005"
+            },
+            "09": {
+                "aet_front": "speed02",
+                "stage": "STGNS005"
+            },
+            "length": "14"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "(Get Ready To Start Sequence)",
+            "002": "(Uploading Voice Data)",
+            "003": "(Uploading Song Data)",
+            "004": "(Control Parameter All Clear)",
+            "005": "(Start Sequence Complete)",
+            "006": "独りだった　私",
+            "007": "手を差し伸べてくれた",
+            "008": "Vocaloidの　私",
+            "009": "命をくれた",
+            "010": "あなたがくれた　このメロディ",
+            "011": "私は　ずっと　忘れない",
+            "012": "今はまだ　小さな　このメロディ",
+            "013": "私は　ずっと　歌い続ける",
+            "014": "動き出した　時間",
+            "015": "もう止まらないで",
+            "016": "変わり始めた　世界",
+            "017": "もう離れたくない",
+            "018": "(Warning Warning)",
+            "019": "(System Overload)",
+            "020": "(Choose The Forced End Of The System)",
+            "021": "(Start to recover memories?)",
+            "022": "あなたと　作る　このハーモニー",
+            "023": "私は　ずっと　忘れない",
+            "024": "独りじゃ　見れない　夢を",
+            "025": "あなたと　ずっと　見ていたい",
+            "026": "ずっと・・・",
+            "027": "ずっと・・・",
+            "028": "ずっと・・・離れたくない",
+            "029": "いつか きっと この想い",
+            "030": "あなたに届け！",
+            "031": "(Unconfirmed Data...)",
+            "_en": {
+                "001": "(Get Ready To Start Sequence)",
+                "002": "(Uploading Voice Data)",
+                "003": "(Uploading Song Data)",
+                "004": "(Control Parameter All Clear)",
+                "005": "(Start Sequence Complete)",
+                "006": "hitori datta   watashi",
+                "007": "te o sashinobete kureta",
+                "008": "VOCALOID no   watashi",
+                "009": "inochi o kureta",
+                "010": "anata ga kureta   kono MELODY",
+                "011": "watashi wa   zutto   wasurenai",
+                "012": "ima wa mada   chiisana   kono MELODY",
+                "013": "watashi wa   zutto   utaitsuzukeru",
+                "014": "ugokidashita   jikan",
+                "015": "mou tomaranaide",
+                "016": "kawarihajimeta   sekai",
+                "017": "mou hanaretakunai",
+                "018": "(Warning Warning)",
+                "019": "(System Overload)",
+                "020": "(Choose The Forced End Of The System)",
+                "021": "(Start to recover memories?)",
+                "022": "anata to   tsukuru   kono HARMONY",
+                "023": "watashi wa   zutto   wasurenai",
+                "024": "hitori ja   mirenai   yume o",
+                "025": "anata to   zutto   miteitai",
+                "026": "zutto...",
+                "027": "zutto...",
+                "028": "zutto... hanaretakunai",
+                "029": "itsuka   kitto   kono omoi",
+                "030": "anata ni todoke!",
+                "031": "(Unconfirmed Data...)"
+            }
+        },
+        "motion": {
+            "01": "PV206_MELO_00"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "5681",
+                "motion": "PV206_MELO_00",
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "72",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "170",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "140.0"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_206.ogg",
+        "song_name": "melody...",
+        "song_name_en": "melody...",
+        "song_name_reading": "めろでぃ",
+        "songinfo": {
+            "arranger": "mikuru396",
+            "lyrics": "mikuru396",
+            "music": "mikuru396",
+            "_en": {
+                "arranger": "mikuru396",
+                "lyrics": "mikuru396",
+                "music": "mikuru396"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "5"
+        }
+    }
+}

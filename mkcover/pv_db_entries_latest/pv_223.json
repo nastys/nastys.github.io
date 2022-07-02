@@ -1,0 +1,602 @@
+{
+    "pv_223": {
+        "bpm": "109",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_223_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_223_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_223_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "223",
+            "title_end_2d_field": "8",
+            "title_start_2d_field": "6"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "No way out of Garden Eden",
+            "002": "No way それは　死に至る病",
+            "003": "楽園の終末に蛇は誘う",
+            "004": "撫でるよに　確かめあう　この指で",
+            "005": "摘み取る　罪の実",
+            "006": "",
+            "007": "こぼれちゃうミルクね友情",
+            "008": "嘆くなら舐めればいいじゃん？",
+            "009": "凝らしても見えない表情",
+            "010": "飾り窓 Forbidden Fruit",
+            "011": "放課後の残り香　熱病",
+            "012": "あがいても消せない本性",
+            "013": "こすったら噴き出す感情",
+            "014": "むき出しね",
+            "015": "友達の枠　はみだしちゃって",
+            "016": "塗りたい色　ほんとは　何色？",
+            "017": "逢わせたいのは心地",
+            "018": "良い場所へ　潜る　深く",
+            "019": "No way back　もう引き返さない",
+            "020": "No way ジャンクフーズじゃいらない",
+            "021": "征服と降伏（制服と幸福）の枷で絞めあう",
+            "022": "かさねた手　引き寄せあう　じゃれあって",
+            "023": "今は逃げないで",
+            "024": "",
+            "025": "扉越しせがんだ愛情",
+            "026": "",
+            "027": "原罪（現在）の地獄（時刻）は終宵",
+            "028": "",
+            "029": "ぞんざいな小部屋の売笑",
+            "030": "",
+            "031": "一時の極楽往生",
+            "032": "",
+            "033": "友達の輪を　踏み出しちゃって",
+            "034": "つながるのは　ここから　どこなの？",
+            "035": "明日を支払うから",
+            "036": "抱え込む　強く　酷く",
+            "037": "Get away out of Garden Eden",
+            "038": "Get away これは　死に至る病",
+            "039": "楽園の終末に蛇が微笑む",
+            "040": "撫でるよに　確かめあえ　この熱は",
+            "041": "今はこのままで",
+            "042": "",
+            "_en": {
+                "001": "No way out of Garden Eden",
+                "002": "NO WAY   sore wa   shi ni itaru yamai",
+                "003": "rakuen no shuumatsu ni hebi wa izanau",
+                "004": "naderu yo ni   tashikameau   kono yubi de",
+                "005": "tsumitoru   tsumi no mi",
+                "006": "",
+                "007": "koborechau MILK ne yuujou",
+                "008": "nageku nara namereba ii jan?",
+                "009": "korashitemo mienai hyoujou",
+                "010": "kazari mado FORBIDDEN FRUIT",
+                "011": "houkago no nokoriga   netsubyou",
+                "012": "agaitemo kesenai honshou",
+                "013": "kosuttara fukidasu kanjou",
+                "014": "mukidashi ne",
+                "015": "tomodachi no waku   hamidashichatte",
+                "016": "nuritai iro   honto wa   naniiro?",
+                "017": "awasetai no wa kokochi",
+                "018": "yoi basho e   moguru   fukaku",
+                "019": "NO WAY BACK   mou hikikaesanai",
+                "020": "NO WAY JUNK FOODS ja iranai",
+                "021": "seifuku to koufuku no kase de shimeau",
+                "022": "kasaneta te   hikiyoseau   jareatte",
+                "023": "ima wa nigenaide",
+                "024": "",
+                "025": "tobiragoshi seganda aijou",
+                "026": "",
+                "027": "genzai no jigoku wa shuushou",
+                "028": "",
+                "029": "zonzai na kobeya no baishou",
+                "030": "",
+                "031": "hitotoki no gokuraku oujou",
+                "032": "",
+                "033": "tomodachi no wa o   fumidashichatte",
+                "034": "tsunagaru no wa   koko kara   doko na no?",
+                "035": "ashita o shiharau kara",
+                "036": "kakaekomu   tsuyoku   mugoku",
+                "037": "Get away out of Garden Eden",
+                "038": "GET AWAY kore wa   shi ni itaru yamai",
+                "039": "rakuen no shuumatsu ni hebi ga hohoemu",
+                "040": "naderu yo ni   tashikameae   kono netsu wa",
+                "041": "ima wa kono mama de",
+                "042": ""
+            }
+        },
+        "motion": {
+            "01": "PV223_OUT_P1",
+            "2P": {
+                "01": "PV223_OUT_P2"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S07"
+            },
+            "1": {
+                "0": {
+                    "frame": "2490",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "1": {
+                    "frame": "2750",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "2": {
+                    "frame": "3092",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "3": {
+                    "frame": "3133",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "4": {
+                    "frame": "3400",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "5": {
+                    "frame": "3426",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "6": {
+                    "frame": "3450",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "7": {
+                    "frame": "3560",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "8": {
+                    "frame": "3692",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "9": {
+                    "frame": "3957",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "frame": "453",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S10"
+            },
+            "2": {
+                "0": {
+                    "frame": "4151",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "1": {
+                    "frame": "4233",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "2": {
+                    "frame": "4366",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "3": {
+                    "frame": "4452",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "4": {
+                    "frame": "4502",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "5": {
+                    "frame": "4639",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "6": {
+                    "frame": "4765",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "7": {
+                    "frame": "5020",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S08"
+                },
+                "8": {
+                    "frame": "5280",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S08"
+                },
+                "9": {
+                    "frame": "5535",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "frame": "655",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S10"
+            },
+            "3": {
+                "0": {
+                    "frame": "5785",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "1": {
+                    "frame": "6175",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "2": {
+                    "frame": "6450",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S01"
+                },
+                "3": {
+                    "frame": "6600",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "4": {
+                    "frame": "6715",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "5": {
+                    "frame": "6843",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "6": {
+                    "frame": "6974",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "7": {
+                    "frame": "7098",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "8": {
+                    "frame": "7521",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "9": {
+                    "frame": "7793",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "frame": "935",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S02"
+            },
+            "4": {
+                "0": {
+                    "frame": "8043",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "1": {
+                    "frame": "8330",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "2": {
+                    "frame": "8590",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "3": {
+                    "frame": "8850",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S04"
+                },
+                "4": {
+                    "frame": "9387",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "5": {
+                    "frame": "9496",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "6": {
+                    "frame": "9647",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "7": {
+                    "frame": "9750",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "8": {
+                    "frame": "10031",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S07"
+                },
+                "9": {
+                    "frame": "10140",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "frame": "1060",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S10"
+            },
+            "5": {
+                "0": {
+                    "frame": "10425",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "1": {
+                    "frame": "10535",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "2": {
+                    "frame": "10615",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "3": {
+                    "frame": "10719",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "4": {
+                    "frame": "10816",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "5": {
+                    "frame": "10958",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S06"
+                },
+                "6": {
+                    "frame": "11069",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S09"
+                },
+                "7": {
+                    "frame": "11125",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S09"
+                },
+                "8": {
+                    "frame": "11256",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "9": {
+                    "frame": "11763",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S05"
+                },
+                "frame": "1199",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S10"
+            },
+            "6": {
+                "0": {
+                    "frame": "12416",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "1": {
+                    "frame": "12679",
+                    "motion": "PV223_OUT_P1",
+                    "stage": "STGPV223S02"
+                },
+                "2": {
+                    "frame": "0",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "3": {
+                    "frame": "3400",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S02"
+                },
+                "4": {
+                    "frame": "3426",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S02"
+                },
+                "5": {
+                    "frame": "3450",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "6": {
+                    "frame": "4233",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S06"
+                },
+                "7": {
+                    "frame": "4366",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S04"
+                },
+                "8": {
+                    "frame": "5785",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "9": {
+                    "frame": "6175",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S04"
+                },
+                "frame": "1720",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S07"
+            },
+            "7": {
+                "0": {
+                    "frame": "6715",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "1": {
+                    "frame": "6843",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "2": {
+                    "frame": "6974",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "3": {
+                    "frame": "8850",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S04"
+                },
+                "4": {
+                    "frame": "9290",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S04"
+                },
+                "5": {
+                    "frame": "9387",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S06"
+                },
+                "6": {
+                    "frame": "9750",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "7": {
+                    "frame": "10031",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S07"
+                },
+                "8": {
+                    "frame": "11069",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S09"
+                },
+                "9": {
+                    "frame": "11125",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S09"
+                },
+                "frame": "1970",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S07"
+            },
+            "8": {
+                "0": {
+                    "frame": "11256",
+                    "motion": "PV223_OUT_P2",
+                    "stage": "STGPV223S02"
+                },
+                "frame": "2101",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S07"
+            },
+            "9": {
+                "frame": "2213",
+                "motion": "PV223_OUT_P1",
+                "stage": "STGPV223S01"
+            },
+            "length": "81"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "9",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "11",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "181",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "98.0"
+        },
+        "se_name": "02_button2",
+        "song_file_name": "rom/sound/song/pv_223.ogg",
+        "song_name": "アウト オブ エデン",
+        "song_name_en": "Out of Eden",
+        "song_name_reading": "あうとおぶえでん",
+        "songinfo": {
+            "arranger": "Kouhei (K's Sound Project)",
+            "illustrator": "秋 赤音・あちゃ（どあらP）",
+            "lyrics": "orange",
+            "music": "Kouhei (K's Sound Project)",
+            "_en": {
+                "arranger": "Kouhei (K's Sound Project)",
+                "illustrator": "Akiakane･Acha(Doara P)",
+                "lyrics": "orange",
+                "music": "Kouhei (K's Sound Project)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

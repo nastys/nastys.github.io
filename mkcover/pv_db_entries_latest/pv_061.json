@@ -1,0 +1,208 @@
+{
+    "pv_061": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20120203",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_061_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_061_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_061_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_061_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_061_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "061",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "aha 　この世界が",
+            "002": "くるくる回る夢で",
+            "003": "僕ら気付いてるんだ",
+            "004": "みんな知らないフリで",
+            "005": "ずっと気になっていた",
+            "006": "あの子はそっと僕に",
+            "007": "ナイフを突きつけて笑い",
+            "008": "「また明日ね」と残す",
+            "009": "マワルマワルソラ",
+            "010": "ウタウウタウハナ",
+            "011": "メグルメグルキセツノナカデ",
+            "012": "Let it, \"clover club\"the beautiful love.",
+            "013": "レモンジュースを注いで",
+            "014": "Let it, \"clover club\"the beautiful love.",
+            "015": "卵白はよく混ぜてね",
+            "016": "Let it, \"clover club\"the beautiful love.",
+            "017": "グレナデンシロップ入れて",
+            "018": "Let it, \"clover club\"the beautiful love.",
+            "019": "ドライジンも忘れずに",
+            "020": "一寸如何したのかな？",
+            "021": "泣いてばかりいないで",
+            "022": "笑顔になれば届くよ",
+            "023": "きみの心にクローバー",
+            "024": "",
+            "025": "ゆらり　　ゆらり　　ゆれる",
+            "026": "",
+            "027": "ハシルハシルカゼ",
+            "028": "ユレルユレルハート",
+            "029": "アマイアマイユメ",
+            "030": "ニガイニガイコイ",
+            "031": "メグルメグルジダイノナカデ",
+            "032": "Let it, \"clover club\"the beautiful love.",
+            "033": "溶けない氷を入れて",
+            "034": "Let it, \"clover club\"the beautiful love.",
+            "035": "ストレーナー、トップして",
+            "036": "Let it, \"clover club\"the beautiful love.",
+            "037": "両手に想いを込めて",
+            "038": "Let it,\"clover club\"the beautiful love.",
+            "039": "準備が出来たらLet's shake !",
+            "040": "",
+            "_en": {
+                "001": "aha!   kono sekai ga",
+                "002": "kurukuru mawaru yume de",
+                "003": "bokura kizuiterun da",
+                "004": "minna shiranai furi de",
+                "005": "zutto ki ni natteita",
+                "006": "ano ko wa sotto boku ni",
+                "007": "KNIFE o tsukitsukete warai",
+                "008": "\"mata ashita ne\" to nokosu",
+                "009": "mawaru mawaru sora",
+                "010": "utau utau hana",
+                "011": "meguru meguru kisetsu no naka de",
+                "012": "Let it, \"clover club\" the beautiful love.",
+                "013": "LEMON JUICE o sosoide",
+                "014": "Let it, \"clover club\" the beautiful love.",
+                "015": "ranpaku wa yoku mazete ne",
+                "016": "Let it, \"clover club\" the beautiful love.",
+                "017": "GRENADINE SYRUP irete",
+                "018": "Let it, \"clover club\" the beautiful love.",
+                "019": "DRY GIN mo wasurezu ni",
+                "020": "chotto doushita no ka na?",
+                "021": "naite bakari inaide",
+                "022": "egao ni nareba todoku yo",
+                "023": "kimi no kokoro ni CLOVER",
+                "024": "",
+                "025": "yurari   yurari   yureru",
+                "026": "",
+                "027": "hashiru hashiru kaze",
+                "028": "yureru yureru HEART",
+                "029": "amai amai yume",
+                "030": "nigai nigai koi",
+                "031": "meguru meguru jidai no naka de",
+                "032": "Let it, \"clover club\" the beautiful love.",
+                "033": "tokenai koori o irete",
+                "034": "Let it, \"clover club\" the beautiful love.",
+                "035": "STRAINER, TOP shite",
+                "036": "Let it, \"clover club\" the beautiful love.",
+                "037": "ryoute ni omoi o komete",
+                "038": "Let it, \"clover club\" the beautiful love.",
+                "039": "junbi ga dekitara LET'S SHAKE!",
+                "040": ""
+            }
+        },
+        "motion": {
+            "01": "PV061_CLC_00_C00_00A"
+        },
+        "npr": {
+            "chara_lightness": "0.98"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "46",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "150",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "62.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_061.ogg",
+        "song_name": "クローバー・クラブ",
+        "song_name_en": "Clover♣Club",
+        "song_name_reading": "くろーばーくらぶ",
+        "songinfo": {
+            "arranger": "ゆうゆ",
+            "illustrator": "mikki",
+            "lyrics": "ゆうゆ",
+            "music": "ゆうゆ",
+            "_en": {
+                "arranger": "Yuuyu",
+                "illustrator": "mikki",
+                "lyrics": "Yuuyu",
+                "music": "Yuuyu"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

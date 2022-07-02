@@ -1,0 +1,169 @@
+{
+    "pv_254": {
+        "bpm": "190",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20170222",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_254_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_254_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_254_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_254_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "254"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "今宵も天は　明るく",
+            "002": "一際輝く　流星の尾",
+            "003": "愛しき君の　身を案じ",
+            "004": "くるりくるり　回って",
+            "005": "覗く度に足はもう",
+            "006": "燃ゆる定め　その時は間も無く",
+            "007": "天を駆けゆく　アマツキツネは",
+            "008": "ほろり　ほろり　涙雫",
+            "009": "彼方の国の　愛しき君へ",
+            "010": "届け　夜空に舞う",
+            "011": "架けろ　アマツキツネよ",
+            "012": "「願いを叶えたいなら",
+            "013": "おキツネさまに願いなさい」",
+            "014": "遠い幸せ　夢見て",
+            "015": "天目指し　旅立った",
+            "016": "あの日キツネは　流星に",
+            "017": "天を願い　光満ちゆく",
+            "018": "遠い昔に　アマツキツネは",
+            "019": "何を想い　何を詠う",
+            "020": "彼方を目指す　瞳の粒は",
+            "021": "喜びか悲しみか",
+            "022": "この体が消えぬ間に",
+            "023": "生きた証　ここに咲かせましょう",
+            "024": "天を駆けゆく　アマツキツネは",
+            "025": "ほろり　ほろり　涙雫",
+            "026": "彼方の国の　愛しき君へ",
+            "027": "届け　夜空に舞う",
+            "028": "架けろ　アマツキツネよ",
+            "_en": {
+                "001": "koyoi mo sora wa   akaruku",
+                "002": "hitokiwa kagayaku   ryuusei no o",
+                "003": "itoshiki kimi no   mi o anji",
+                "004": "kururi kururi   mawatte",
+                "005": "nozoku tabi ni ashi wa mou",
+                "006": "moyuru sadame   sono toki wa ma mo naku",
+                "007": "sora o kakeyuku   amatsu kitsune wa",
+                "008": "horori   horori   namida shizuku",
+                "009": "kanata no kuni no   itoshiki kimi e",
+                "010": "todoke   yozora ni mau",
+                "011": "kakero   amatsu kitsune yo",
+                "012": "\"negai o kanaetai nara",
+                "013": "okitsunesama ni negainasai\"",
+                "014": "tooi shiawase   yume mite",
+                "015": "sora mezashi   tabidatta",
+                "016": "ano hi kitsune wa   ryuusei ni",
+                "017": "sora o negai   hikari michiyuku",
+                "018": "tooi mukashi ni   amatsu kitsune wa",
+                "019": "nani o omoi   nani o utau",
+                "020": "kanata o mezasu   hitomi no tsubu wa",
+                "021": "yorokobi ka kanashimi ka",
+                "022": "kono karada ga kienu ma ni",
+                "023": "ikita akashi   koko ni sakasemashou",
+                "024": "sora o kakeyuku   amatsu kitsune wa",
+                "025": "horori   horori   namida shizuku",
+                "026": "kanata no kuni no   itoshiki kimi e",
+                "027": "todoke   yozora ni mau",
+                "028": "kakero   amatsu kitsune yo"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV254_AMT"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "42",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV254.bin"
+        },
+        "rank_board_id": "159",
+        "resolution_scale_neo": "0.9",
+        "sabi": {
+            "play_time": "31.5",
+            "start_time": "59.9"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_254.ogg",
+        "song_name": "アマツキツネ",
+        "song_name_en": "Amatsu Kitsune",
+        "song_name_reading": "あまつきつね",
+        "songinfo": {
+            "arranger": "まらしぃ",
+            "illustrator": "キツネ",
+            "lyrics": "まらしぃ",
+            "music": "まらしぃ",
+            "_en": {
+                "arranger": "marasy",
+                "illustrator": "Kitsune",
+                "lyrics": "marasy",
+                "music": "marasy"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

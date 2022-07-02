@@ -1,0 +1,211 @@
+{
+    "pv_025": {
+        "bpm": "90",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_025_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_025_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_025_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_025_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "025"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_NEGI_L",
+            "02": "PV_NEGI_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "音も立てず回る想いには",
+            "002": "白く足跡さえ",
+            "003": "残らないとすねる心見て",
+            "004": "誰のことかしら",
+            "005": "ねえ どこか連れて行って",
+            "006": "もう ひとりきりはヤなの",
+            "007": "冷たい空気のなか 飛び出した街",
+            "008": "うーん外で会うのなんて",
+            "009": "久しぶりだね今日だけ",
+            "010": "恋人みたいに",
+            "011": "でもね…",
+            "012": "楽しいコトが待ってるよ",
+            "013": "感傷的も程々に☆",
+            "014": "イベントたくさん待ってるよ",
+            "015": "女子的計画 秘密でしょ",
+            "016": "ラブリスト更新？",
+            "017": "みんなそろう時間少なくて",
+            "018": "教室そろそろ",
+            "019": "別れの意味感じはじめてる",
+            "020": "春に向かってる",
+            "021": "そう だから準備してる",
+            "022": "はい メアド変わるからね",
+            "023": "憶えておいてちゃんと そっぽ向いちゃ駄目",
+            "024": "えーい なんて進歩ないの",
+            "025": "私がんばりなさい",
+            "026": "これから集中ですよ",
+            "027": "そして…",
+            "028": "嬉しいコトになりたいな",
+            "029": "好きなら好きって言ってみたい",
+            "030": "ムリでもともと なれるかも",
+            "031": "男子の弱点 わかっちゃったんだ",
+            "032": "楽しいコトが待ってるよ",
+            "033": "感傷的も程々に☆",
+            "034": "イベントたくさん待ってるよ",
+            "035": "女子的計画 秘密でしょ（内緒です！）",
+            "036": "嬉しいコトになりたいな",
+            "037": "好きなら好きって言ってみたい",
+            "038": "ムリでもともと なれるかも",
+            "039": "女子的計画 秘密でしょ内緒でしょ",
+            "040": "ラブリスト更新！ 完了！！",
+            "_en": {
+                "001": "oto mo tatezu mawaru omoi ni wa",
+                "002": "shiroku ashiato sae",
+                "003": "nokoranai to suneru kokoro mite",
+                "004": "dare no koto kashira",
+                "005": "nee   dokoka tsureteitte",
+                "006": "mou   hitorikiri wa ya na no",
+                "007": "tsumetai kuuki no naka   tobidashita machi",
+                "008": "uun soto de au no nante",
+                "009": "hisashiburi da ne kyou dake",
+                "010": "koibito mitai ni",
+                "011": "demo ne...",
+                "012": "tanoshii koto ga matteru yo",
+                "013": "kanshouteki mo hodohodo ni☆",
+                "014": "EVENT takusan matteru yo",
+                "015": "joshiteki keikaku   himitsu desho",
+                "016": "LOVE LIST koushin?",
+                "017": "minna sorou jikan sukunakute",
+                "018": "kyoushitsu sorosoro",
+                "019": "wakare no imi kanjihajimeteru",
+                "020": "haru ni mukatteru",
+                "021": "sou   dakara junbi shiteru",
+                "022": "hai   meado kawaru kara ne",
+                "023": "oboete oite chanto   soppo muicha dame",
+                "024": "eei   nante shinpo nai no",
+                "025": "watashi ganbarinasai",
+                "026": "kore kara shuuchuu desu yo",
+                "027": "soshite...",
+                "028": "ureshii koto ni naritai na",
+                "029": "suki nara suki tte itte mitai",
+                "030": "muri de motomoto   nareru kamo",
+                "031": "danshi no jakuten   wakacchattan da",
+                "032": "tanoshii koto ga matteru yo",
+                "033": "kanshouteki mo hodohodo ni☆",
+                "034": "EVENT takusan matteru yo",
+                "035": "joshiteki keikaku   himitsu desho (naisho desu!)",
+                "036": "ureshii koto ni naritai na",
+                "037": "suki nara suki tte itte mitai",
+                "038": "muri de motomoto   nareru kamo",
+                "039": "joshiteki keikaku   himitsu desho naisho desho",
+                "040": "LOVE LIST koushin! kanryou!!"
+            }
+        },
+        "motion": {
+            "10": "PV025_POM00_04_539",
+            "11": "PV025_POM00_04_540",
+            "12": "PV025_POM00_04_541",
+            "13": "PV025_POM00_04_542",
+            "14": "PV025_POM00_04_543",
+            "15": "PV025_POM00_04_544",
+            "16": "PV025_POM00_04_545",
+            "17": "PV025_POM00_04_546",
+            "19": "PV025_POM00_04_548",
+            "20": "PV025_MCA00_50_57",
+            "21": "PV025_MCA00_50_21",
+            "22": "PV025_MCA00_50_33",
+            "23": "PV025_MCA00_50_62_C",
+            "01": "PV025_POM00_04_530",
+            "02": "PV025_POM00_04_531",
+            "03": "PV025_POM00_04_532",
+            "05": "PV025_POM00_04_534",
+            "06": "PV025_POM00_04_535",
+            "07": "PV025_POM00_04_536",
+            "08": "PV025_POM00_04_537",
+            "09": "PV025_POM00_04_538"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "24",
+        "sabi": {
+            "play_time": "18.5",
+            "start_time": "61.5"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_025.ogg",
+        "song_name": "ラブリスト更新中？",
+        "song_name_en": "Updating My Love List?",
+        "song_name_reading": "らぶりすとこうしんちゅう",
+        "songinfo": {
+            "arranger": "並木晃一",
+            "lyrics": "畑 亜貴",
+            "manipulator": "Otomania",
+            "music": "畑 亜貴",
+            "_en": {
+                "arranger": "Koichi Namiki",
+                "lyrics": "Aki Hata",
+                "manipulator": "Otomania",
+                "music": "Aki Hata"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

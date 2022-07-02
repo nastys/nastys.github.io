@@ -1,0 +1,295 @@
+{
+    "pv_616": {
+        "bpm": "205",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_616_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_616_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_616_extreme_1.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_616_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_616_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "616",
+            "target_shadow_type": "1"
+        },
+        "effect_se_file_name": "rom/sound/pv616_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv616_effect",
+            "length": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "散弾銃とテレキャスター",
+            "002": "言葉の整列、アンハッピー",
+            "003": "単身　都会の町並み",
+            "004": "撃ち込んだ音、嫌いですか？",
+            "005": "声が潰れるまで歌って",
+            "006": "何度の時間を棒に振った",
+            "007": "やっとのこと手に入れたアンタ",
+            "008": "手離す訳にいかないでしょ",
+            "009": "「ワンマンライブ大成功！」",
+            "010": "頭の中は少女漫画",
+            "011": "残弾、既に無くなった",
+            "012": "此処で一度引き返そうか",
+            "013": "そっと置いた丁度良い都合を",
+            "014": "何度も拾い上げてたんだ",
+            "015": "みっともない暮らしにもうバイバイ",
+            "016": "そろそろ迎えが来るのでしょ？",
+            "017": "間違い探しばかりふらふら",
+            "018": "振り返り方、教えて頂戴よ",
+            "019": "足りないものはもう無い、もう無い",
+            "020": "そうかい？",
+            "021": "そうかい、そうかい",
+            "022": "言うならそれは、それはラッキー",
+            "023": "繰り返しの三十九秒　廻り廻っていたら",
+            "024": "見えた、それはハッピー？",
+            "025": "納得なんてするはずないわ！",
+            "026": "どんだけ音を重ねたって",
+            "027": "終わりも始まりもやっては来ないな",
+            "028": "つまりつまり意味はないの",
+            "029": "どうやらアンタもわかっちゃいないな？",
+            "030": "画面の向こう　落ちていった",
+            "031": "逆さまのガール、おとなのせかい。",
+            "032": "散弾銃とテレキャスター",
+            "033": "言葉も無いよなアンラッキー",
+            "034": "満身創痍　ゲームオーバー",
+            "035": "目に見えて嫌そうな感じですね？",
+            "036": "散々躓いたソレは",
+            "037": "もう一回を諦めた",
+            "038": "転がりつつも勘違った",
+            "039": "そこでアンタが笑ってたんだ",
+            "040": "ワンマンライブ大成功",
+            "041": "祭りの後のセンチメンタル",
+            "042": "満場一致解散だ",
+            "043": "此処で一度裏返そうか",
+            "044": "声が潰れるまで歌って",
+            "045": "何度の時間を棒に振って",
+            "046": "やっとのこと手に入れたアンタ",
+            "047": "ねえ、ご機嫌は如何ですか",
+            "048": "良くない夢の続きそわそわ",
+            "049": "間違え方を忘れたその末路",
+            "050": "なりたいものを頂戴、頂戴",
+            "051": "「もう無い。」",
+            "052": "そうかい？そうかい？",
+            "053": "どうしてそれが、それがハッピー",
+            "054": "虚ろ目の午前四時　迷い迷って",
+            "055": "辿り着いたそこがハッピー？",
+            "056": "こんなに疲れているのになあ",
+            "057": "どうしてこれが、これがハッピー",
+            "058": "終わりも見えない道に寝そべって",
+            "059": "ぐらりぐらり崩れちゃうわ",
+            "060": "どうやらアンタの姿が邪魔で",
+            "061": "言うならそれは、それはハッピー",
+            "062": "繰り返しの三十九秒　廻り廻っていたら",
+            "063": "見えた、それはラッキー？",
+            "064": "なんだか不思議と報われないなあ",
+            "065": "ただ音を重ねたって",
+            "066": "終わりも始まりもやっては来ないな",
+            "067": "つまりつまり意味は無いよ！",
+            "068": "そうだね今すぐ飛び降りよう",
+            "069": "画面の向こう　落ちていった",
+            "070": "逆さまのガール、おとなのせかい。",
+            "071": "それは？",
+            "_en": {
+                "001": "sandanjuu to TELECASTER",
+                "002": "kotoba no seiretsu, UNHAPPY",
+                "003": "tanshin   tokai no machinami",
+                "004": "uchikonda oto, kirai desu ka?",
+                "005": "koe ga tsubureru made utatte",
+                "006": "nando no jikan o bou ni futta",
+                "007": "yatto no koto te ni ireta anta",
+                "008": "tebanasu wake ni ikanai desho",
+                "009": "\"ONE-MAN LIVE daiseikou!\"",
+                "010": "atama no naka wa shoujo manga",
+                "011": "zandan, sudeni nakunatta",
+                "012": "koko de ichido hikikaesou ka",
+                "013": "sotto oita choudo ii tsugou o",
+                "014": "nandomo hiroiagetetan da",
+                "015": "mittomonai kurashi ni mou BYE BYE",
+                "016": "sorosoro mukae ga kuru no desho?",
+                "017": "machigai sagashi bakari furafura",
+                "018": "furikaerikata, oshiete choudai yo",
+                "019": "tarinai mono wa mou nai, mou nai",
+                "020": "sou kai?",
+                "021": "sou kai, sou kai",
+                "022": "iu nara sore wa, sore wa LUCKY",
+                "023": "kurikaeshi no sanjuukyuubyou   meguri megutteitara",
+                "024": "mieta, sore wa HAPPY?",
+                "025": "nattoku nante suru hazu nai wa!",
+                "026": "dondake oto o kasanetatte",
+                "027": "owari mo hajimari mo yatte wa konai na",
+                "028": "tsumari tsumari imi wa nai no",
+                "029": "douyara anta mo wakacchainai na?",
+                "030": "gamen no mukou   ochiteitta",
+                "031": "sakasama no GIRL, otona no sekai.",
+                "032": "sandanjuu to TELECASTER",
+                "033": "kotoba mo nai yo na UNLUCKY",
+                "034": "manshinsoui   GAME OVER",
+                "035": "me ni miete iyasou na kanji desu ne?",
+                "036": "sanzan tsumazuita sore wa",
+                "037": "mou ikkai o akirameta",
+                "038": "korogaritsutsu mo kanchigatta",
+                "039": "soko de anta ga warattetan da",
+                "040": "ONE-MAN LIVE daiseikou",
+                "041": "matsuri no ato no SENTIMENTAL",
+                "042": "manjouicchi kaisan da",
+                "043": "koko de ichido uragaesou ka",
+                "044": "koe ga tsubureru made utatte",
+                "045": "nando no jikan o bou ni futte",
+                "046": "yatto no koto te ni ireta anta",
+                "047": "nee, gokigen wa ikaga desu ka",
+                "048": "yokunai yume no tsuzuki sowasowa",
+                "049": "machigaekata o wasureta sono matsuro",
+                "050": "naritai mono o choudai, choudai",
+                "051": "\"mounai.\"",
+                "052": "soukai? soukai?",
+                "053": "doushite sore ga, sore ga HAPPY",
+                "054": "utsurome no gozen yoji   mayoi mayotte",
+                "055": "tadoritsuita soko ga HAPPY?",
+                "056": "konna ni tsukareteiru no ni naa",
+                "057": "doushite kore ga, kore ga HAPPY",
+                "058": "owari mo mienai michi ni nesobette",
+                "059": "gurari gurari kuzurechau wa",
+                "060": "douyara anta no sugata ga jama de",
+                "061": "iu nara sore wa, sore wa HAPPY",
+                "062": "kurikaeshi no sanjuukyuubyou   meguri megutteitara",
+                "063": "mieta, sore wa LUCKY?",
+                "064": "nandaka fushigi to mukuwarenai naa",
+                "065": "tada oto o kasanetatte",
+                "066": "owari mo hajimari mo yatte wa konai na",
+                "067": "tsumari tsumari imi wa nai yo!",
+                "068": "sou da ne ima sugu tobioriyou",
+                "069": "gamen no mukou   ochiteitta",
+                "070": "sakasama no GIRL, otona no sekai.",
+                "071": "sore wa?"
+            }
+        },
+        "motion": {
+            "01": "PV616_UHR_P1_00",
+            "2P": {
+                "01": "PV616_UHR_P2_00"
+            },
+            "3P": {
+                "01": "PV616_UHR_P3_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "94",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "19",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "KAI",
+                "pv_costume": "20",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV616.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "89",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "92.0"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_616.ogg",
+        "song_name": "アンハッピーリフレイン",
+        "song_name_en": "Unhappy Refrain",
+        "song_name_reading": "あんはっぴーりふれいん",
+        "songinfo": {
+            "arranger": "wowaka",
+            "illustrator": "wowaka",
+            "lyrics": "wowaka",
+            "music": "wowaka",
+            "_en": {
+                "arranger": "wowaka",
+                "illustrator": "wowaka",
+                "lyrics": "wowaka",
+                "music": "wowaka"
+            }
+        },
+        "sort_index": "24",
+        "sudden_timing": "0.6"
+    }
+}

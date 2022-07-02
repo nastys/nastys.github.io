@@ -1,0 +1,193 @@
+{
+    "pv_604": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150408",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_604_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_604_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_604_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_604_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "604"
+        },
+        "effect_se_file_name": "rom/sound/pv604_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv604_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "0と1が交差する地点",
+            "002": "間違いだらけの　コミュニケーション",
+            "003": "アナタの名前は　何ですか？",
+            "004": "10文字以内で　答エヨ",
+            "005": "過去と未来が　交差する地点",
+            "006": "行く宛を失った　現在地",
+            "007": "アナタはどうして　生きているの？",
+            "008": "100文字以内で　答エヨ",
+            "009": "過去最高速の　夜が明ける",
+            "010": "バランス取ることも　できないまま",
+            "011": "自分だけどこか　取り残された",
+            "012": "音の無い世界　造られた世界",
+            "013": "傷んだ果実を　捨てるだけなら",
+            "014": "2人もいらない　1人で出来るから",
+            "015": "昼と夜が　交差する地点",
+            "016": "誰かに会いたくて　会えなくて",
+            "017": "ワタシの名前は　何ですか？",
+            "018": "10文字以内で　教えて",
+            "019": "嘘と本当が　交差する地点",
+            "020": "呼吸が止まりそうな　閉塞感",
+            "021": "ワタシはどうして　生きているの？",
+            "022": "100文字以内で　教えて",
+            "023": "好き　嫌い　好き　嫌い　の繰り返しで",
+            "024": "疲れきった愛は　もういらない",
+            "025": "時間だけいつも　通り過ぎていく",
+            "026": "1秒ごとに　崩れていく世界",
+            "027": "歪んだ景色に　塗りつぶされた",
+            "028": "真実（こたえ）はいらない　偽りでいいの",
+            "029": "自分だけどこか　取り残された",
+            "030": "色のない世界　夢に見た世界",
+            "031": "傷んだ果実を　捨てることすら",
+            "032": "1人じゃ出来ない　傍にいてほしくて",
+            "_en": {
+                "001": "ZERO to ichi ga kousa suru chiten",
+                "002": "machigai darake no   COMMUNICATION",
+                "003": "anata no namae wa   nan desu ka?",
+                "004": "juu moji inai de   kotaeyo",
+                "005": "kako to mirai ga   kousa suru chiten",
+                "006": "iku ate o ushinatta   genzaichi",
+                "007": "anata wa doushite   ikiteiru no?",
+                "008": "hyaku moji inai de   kotaeyo",
+                "009": "kako saikousoku no   yoru ga akeru",
+                "010": "BALANCE toru koto mo   dekinai mama",
+                "011": "jibun dake dokoka   torinokosareta",
+                "012": "oto no nai sekai   tsukurareta sekai",
+                "013": "itanda kajitsu o   suteru dake nara",
+                "014": "futari mo iranai   hitori de dekiru kara",
+                "015": "hiru to yoru ga   kousa suru chiten",
+                "016": "dareka ni aitakute   aenakute",
+                "017": "watashi no namae wa   nan desu ka?",
+                "018": "juu moji inai de   oshiete",
+                "019": "uso to hontou ga   kousa suru chiten",
+                "020": "kokyuu ga tomarisouna   heisokukan",
+                "021": "watashi wa doushite   ikiteiru no?",
+                "022": "hyaku moji inai de   oshiete",
+                "023": "suki   kirai   suki   kirai   no kurikaeshi de",
+                "024": "tsukarekitta ai wa   mou iranai",
+                "025": "jikan dake itsumo   toorisugiteiku",
+                "026": "ichibyou goto ni   kuzureteiku sekai",
+                "027": "yuganda keshiki ni   nuritsubusareta",
+                "028": "kotae wa iranai   itsuwari de ii no",
+                "029": "jibun dake dokoka   torinokosareta",
+                "030": "iro no nai sekai   yume ni mita sekai",
+                "031": "itanda kajitsu o   suteru koto sura",
+                "032": "hitori ja dekinai   soba ni itehoshikute"
+            }
+        },
+        "motion": {
+            "01": "PV604_TRI_P1_00",
+            "2P": {
+                "01": "PV604_TRI_P2_00"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_604.mp4",
+        "npr": {
+            "chara_lightness": "0.90"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "108",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV604.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "78",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "50.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_604.ogg",
+        "song_name": "トリノコシティ",
+        "song_name_en": "Torinokocity",
+        "song_name_reading": "とりのこしてぃ",
+        "songinfo": {
+            "arranger": "40mP",
+            "illustrator": "40mP",
+            "lyrics": "40mP",
+            "music": "40mP",
+            "_en": {
+                "arranger": "40mP",
+                "illustrator": "40mP",
+                "lyrics": "40mP",
+                "music": "40mP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

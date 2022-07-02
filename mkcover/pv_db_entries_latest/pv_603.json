@@ -1,0 +1,236 @@
+{
+    "pv_603": {
+        "bpm": "158",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_603_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_603_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_603_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "603",
+            "title_end_2d_field": "5",
+            "title_start_2d_field": "5"
+        },
+        "effect_se_file_name": "rom/sound/pv603_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv603_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "To what color am I dyed?",
+            "002": "The size of the dyed thing changes",
+            "003": "because of the difference of the dyed color.",
+            "004": "I can grow up if it dyes to good people color.",
+            "005": "I want to dye me to such a color.",
+            "006": "To what color am I dyed?",
+            "007": "The color to be dyed",
+            "008": "changes under the influence of the private life.",
+            "009": "I degenerate if it dyes to villain color.",
+            "010": "The color for which I hope is a color with high brightness.",
+            "011": "I want to become beautiful mind.",
+            "012": "I want to become it.",
+            "013": "I obtain the conscience.",
+            "014": "And, becomes a luminous color.",
+            "015": "There are a lot of black and white in the private life.",
+            "016": "My color shines by \"Affection\" and \"Esteem\" and",
+            "017": "\"Kindness\" and \"Looking after\" and \"Nursing\" and",
+            "018": "\"Protection\" and \"Consideration\" and \"Respect\" and",
+            "019": "\"Solicitude\" and \"Encouragement\" and \"Friendship\", etc.",
+            "020": "I want to choose color",
+            "021": "that is brighter than the dark color.",
+            "022": "If the surrounding is a dark color, I look large.",
+            "023": "If the surrounding is a luminous color,",
+            "024": "my existence might be thin.",
+            "025": "The luminous color improves the environment.",
+            "026": "The luminous color shines on the dark.",
+            "027": "However, the luminous color shines only in a dark place.",
+            "028": "Still, I do not care.",
+            "029": "A dark color absorbs the luminous color.",
+            "030": "My existence disappears if it winks out.",
+            "031": "I can become energetic by shining on surroundings.",
+            "032": "When I become tired and do not shine.",
+            "033": "The source of \"Vigour\"",
+            "034": "can be gotten from \"Good man color\".",
+            "035": "The color for which other people hope to me.",
+            "036": "It is different from the color for which I hope.",
+            "037": "However, if it is an earth friendly color,",
+            "038": "I like the \"Color that other people like\".",
+            "039": "A dark color in the interior of the spirit",
+            "040": "is also as the case may be necessary.",
+            "041": "Both necessary dark colors and bright colors.",
+            "042": "I want to dye me moderately.",
+            "043": "It is possible to change greatly",
+            "044": "in \"Thing that becomes a luminous color from a dark color\"",
+            "045": "even if my existence is small.",
+            "046": "Now will grow in the future even if it is small.",
+            "047": "いつだって私は今よりもっと求めていたい...",
+            "048": "例え“　　”がわたしの",
+            "049": "最高の“個性色”だとしても・・・",
+            "050": "To what color am I dyed?",
+            "051": "The size of the dyed thing changes",
+            "052": "because of the difference of the dyed color.",
+            "053": "I can grow up if it dyes to good people color.",
+            "054": "I want to dye me to such a color.",
+            "055": "To what color am I dyed?",
+            "056": "The color to be dyed",
+            "057": "changes under the influence of the private life.",
+            "058": "I degenerate if it dyes to villain color.",
+            "059": "The color for which I hope is a color with high brightness.",
+            "060": "I want to become beautiful mind.",
+            "061": "I want to become it.",
+            "_en": {
+                "001": "To what color am I dyed?",
+                "002": "The size of the dyed thing changes",
+                "003": "because of the difference of the dyed color.",
+                "004": "I can grow up if it dyes to good people color.",
+                "005": "I want to dye me to such a color.",
+                "006": "To what color am I dyed?",
+                "007": "The color to be dyed",
+                "008": "changes under the influence of the private life.",
+                "009": "I degenerate if it dyes to villain color.",
+                "010": "The color for which I hope is a color with high brightness.",
+                "011": "I want to become beautiful mind.",
+                "012": "I want to become it.",
+                "013": "I obtain the conscience.",
+                "014": "And, becomes a luminous color.",
+                "015": "There are a lot of black and white in the private life.",
+                "016": "My color shines by \"Affection\" and \"Esteem\" and",
+                "017": "\"Kindness\" and \"Looking after\" and \"Nursing\" and",
+                "018": "\"Protection\" and \"Consideration\" and \"Respect\" and",
+                "019": "\"Solicitude\" and \"Encouragement\" and \"Friendship\", etc.",
+                "020": "I want to choose color",
+                "021": "that is brighter than the dark color.",
+                "022": "If the surrounding is a dark color, I look large.",
+                "023": "If the surrounding is a luminous color,",
+                "024": "my existence might be thin.",
+                "025": "The luminous color improves the environment.",
+                "026": "The luminous color shines on the dark.",
+                "027": "However, the luminous color shines only in a dark place.",
+                "028": "Still, I do not care.",
+                "029": "A dark color absorbs the luminous color.",
+                "030": "My existence disappears if it winks out.",
+                "031": "I can become energetic by shining on surroundings.",
+                "032": "When I become tired and do not shine.",
+                "033": "The source of \"Vigour\"",
+                "034": "can be gotten from \"Good man color\".",
+                "035": "The color for which other people hope to me.",
+                "036": "It is different from the color for which I hope.",
+                "037": "However, if it is an earth friendly color,",
+                "038": "I like the \"Color that other people like\".",
+                "039": "A dark color in the interior of the spirit",
+                "040": "is also as the case may be necessary.",
+                "041": "Both necessary dark colors and bright colors.",
+                "042": "I want to dye me moderately.",
+                "043": "It is possible to change greatly",
+                "044": "in \"Thing that becomes a luminous color from a dark color\"",
+                "045": "even if my existence is small.",
+                "046": "Now will grow in the future even if it is small.",
+                "047": "itsudatte watashi wa ima yori motto motometeitai...",
+                "048": "tatoe \"   \" ga watashi no",
+                "049": "saikou no \"koseishoku\" da to shitemo...",
+                "050": "To what color am I dyed?",
+                "051": "The size of the dyed thing changes",
+                "052": "because of the difference of the dyed color.",
+                "053": "I can grow up if it dyes to good people color.",
+                "054": "I want to dye me to such a color.",
+                "055": "To what color am I dyed?",
+                "056": "The color to be dyed",
+                "057": "changes under the influence of the private life.",
+                "058": "I degenerate if it dyes to villain color.",
+                "059": "The color for which I hope is a color with high brightness.",
+                "060": "I want to become beautiful mind.",
+                "061": "I want to become it."
+            }
+        },
+        "motion": {
+            "01": "PV603_DYE_P1_00",
+            "02": "PV603_DYE_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "25",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV603.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "77",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "13.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_603.ogg",
+        "song_name": "DYE",
+        "song_name_en": "DYE",
+        "song_name_reading": "だい",
+        "songinfo": {
+            "arranger": "AVTechNO!",
+            "illustrator": "kior",
+            "lyrics": "AVTechNO!",
+            "music": "AVTechNO!",
+            "_en": {
+                "arranger": "AVTechNO!",
+                "illustrator": "kior",
+                "lyrics": "AVTechNO!",
+                "music": "AVTechNO!"
+            }
+        },
+        "sort_index": "5",
+        "sudden_timing": "0.6"
+    }
+}

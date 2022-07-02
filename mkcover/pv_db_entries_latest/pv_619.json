@@ -1,0 +1,161 @@
+{
+    "pv_619": {
+        "bpm": "232",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_619_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_619_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_619_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "619",
+            "title_end_2d_field": "5",
+            "title_start_2d_field": "4"
+        },
+        "effect_se_file_name": "rom/sound/pv619_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv619_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "青い時間　さよなら告げる",
+            "002": "雨避けの傘は僕を抛り捨てた",
+            "003": "訪れてた　夏にも気付かずに",
+            "004": "此処は何処だ　僕は誰だと　吼える",
+            "005": "終わりが無い、と　行き先を殺す",
+            "006": "分かるはずが無い、と　景色を刺した",
+            "007": "自分で築いた森の外に踏み出せずに",
+            "008": "何故　歩き出さないの？",
+            "009": "何故　創り上げないの？",
+            "010": "そうして何も始まらないまま",
+            "011": "朽ちて腐り行く人を　屍を　超えて",
+            "012": "今　打ち鳴らす衝動の刃が世界を砕く",
+            "013": "朝焼けが追いつく前に",
+            "014": "ぐしゃぐしゃに割れた音で構わない　天樂を",
+            "015": "何故　立ち止まっていたのか",
+            "016": "何故　拒み続けたのか",
+            "017": "そうして悩み続けた先には",
+            "018": "芽生え狂い咲く音を　帰り道　捨てて",
+            "019": "今　打ち鳴らす衝動の刃が世界を砕く",
+            "020": "目が眩むほど美しい",
+            "021": "泡沫に揺れた音で貫いて　天樂を",
+            "022": "今　咲き誇る狂色の葉が世界を飾る",
+            "023": "朝焼けが追いつく前に",
+            "024": "その核に触れた声を張り上げて　天樂を",
+            "_en": {
+                "001": "aoi jikan   sayonara tsugeru",
+                "002": "amayoke no kasa wa boku o hourisuteta",
+                "003": "otozureteta   natsu ni mo kizukazu ni",
+                "004": "koko wa doko da   boku wa dareda to   hoeru",
+                "005": "owari ga nai, to   yukisaki o korosu",
+                "006": "wakaru hazu ga nai, to   keshiki o sashita",
+                "007": "jibun de kizuita mori no soto ni fumidasezu ni",
+                "008": "naze   arukidasanai no?",
+                "009": "naze   tsukuriagenai no?",
+                "010": "soushite nanimo hajimaranai mama",
+                "011": "kuchite kusariyuku hito o   shikabane o   koete",
+                "012": "ima   uchinarasu shoudou no ha ga sekai o kudaku",
+                "013": "asayake ga oitsuku mae ni",
+                "014": "gushagusha ni wareta oto de kamawanai   tengaku o",
+                "015": "naze   tachidomatteita no ka",
+                "016": "naze   kobamitsuzuketa no ka",
+                "017": "soushite nayamitsuzuketa saki ni wa",
+                "018": "mebae kuruizaku oto o   kaerimichi   sutete",
+                "019": "ima   uchinarasu shoudou no ha ga sekai o kudaku",
+                "020": "me ga kuramu hodo utsukushii",
+                "021": "utakata ni yureta oto de tsuranuite   tengaku o",
+                "022": "ima   sakihokoru kyoushoku no ha ga sekai o kazaru",
+                "023": "asayake ga oitsuku mae ni",
+                "024": "sono kaku ni fureta koe o hariagete   tengaku o"
+            }
+        },
+        "motion": {
+            "01": "PV619_TGK_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "26",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV619.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "92",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "88.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_619.ogg",
+        "song_name": "天樂",
+        "song_name_en": "Tengaku",
+        "song_name_reading": "てんがく",
+        "songinfo": {
+            "arranger": "ゆうゆ",
+            "illustrator": "tamajam",
+            "lyrics": "ゆうゆ",
+            "music": "ゆうゆ",
+            "_en": {
+                "arranger": "Yuuyu",
+                "illustrator": "tamajam",
+                "lyrics": "Yuuyu",
+                "music": "Yuuyu"
+            }
+        },
+        "sort_index": "26",
+        "sudden_timing": "0.57"
+    }
+}

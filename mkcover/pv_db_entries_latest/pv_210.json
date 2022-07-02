@@ -1,0 +1,219 @@
+{
+    "pv_210": {
+        "bpm": "184",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160808",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_210_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_210_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_210_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_210_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "210"
+        },
+        "eyes_base_adjust_type": "OFF",
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "fade02",
+                "stage": "STGD2NS071"
+            },
+            "11": {
+                "aet_front": "fade04",
+                "stage": "STGD2NS071"
+            },
+            "12": {
+                "aet_front": "water_eff",
+                "stage": "STGD2NS071"
+            },
+            "01": {
+                "stage": "STGD2NS071"
+            },
+            "02": {
+                "aet_front": "fade01",
+                "stage": "STGNS008"
+            },
+            "03": {
+                "aet_front": "fade03",
+                "stage": "STGPV008S03"
+            },
+            "04": {
+                "aet_front": "fade05",
+                "stage": "STGD2NS050"
+            },
+            "05": {
+                "aet_front": "fade01",
+                "stage": "STGD2NS071"
+            },
+            "06": {
+                "aet_front": "fade02",
+                "stage": "STGNS008"
+            },
+            "07": {
+                "aet_front": "fade03",
+                "stage": "STGD2NS071"
+            },
+            "08": {
+                "aet_front": "fade04",
+                "stage": "STGPV008S03"
+            },
+            "09": {
+                "aet_front": "fade05",
+                "stage": "STGD2NS071"
+            },
+            "length": "12"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "くすんだ色の 道は続いてゆく",
+            "002": "戻れない 今日を残して",
+            "003": "ほんの僅かな 灯りめざして",
+            "004": "子供みたいに ただ走り続ける日々",
+            "005": "鮮やかな君の色 もしも混ざり合えるのならば",
+            "006": "いつか途切れた思い 言葉 涙 まだ描けるのかな",
+            "007": "幼い頃に見失った 七つの色の世界",
+            "008": "虹のカケラを探すように",
+            "009": "見上げた彼方は 君に繋がっているの？",
+            "010": "滲んだ涙は トウメイスイサイ",
+            "011": "紡いだ言葉が 君に届かず消えても",
+            "012": "溢れ出したこの色彩は 世界を染め上げる",
+            "013": "見上げた彼方は 君に繋がっているの。",
+            "014": "滲んだ涙は トウメイスイサイ",
+            "015": "紡いだ言葉が 君に届かず消えても",
+            "016": "溢れ出したこの色彩は",
+            "017": "世界を染め上げてもやまず",
+            "018": "続いた軌跡が どこに繋がっていても",
+            "019": "見上げた彼方は 無限の色彩",
+            "020": "紡いだ言葉が 君に届くその日まで",
+            "021": "傷付いても描（うた）い続ける",
+            "022": "世界が終わるまで",
+            "_en": {
+                "001": "kusunda iro no   michi wa tsuzuite yuku",
+                "002": "modorenai   kyou o nokoshite",
+                "003": "hon no wazuka na   akari mezashite",
+                "004": "kodomo mitai ni   tada hashiritsuzukeru hibi",
+                "005": "azayaka na kimi no iro   moshimo mazariaeru no naraba",
+                "006": "itsuka togireta omoi   kotoba   namida   mada egakeru no ka na",
+                "007": "osanai koro ni miushinatta   nanatsu no iro no sekai",
+                "008": "niji no kakera o sagasu you ni",
+                "009": "miageta kanata wa   kimi ni tsunagatteiru no?",
+                "010": "nijinda namida wa   toumei suisai",
+                "011": "tsumuida kotoba ga   kimi ni todokazu kietemo",
+                "012": "afuredashita kono shikisai wa   sekai o someageru",
+                "013": "miageta kanata wa   kimi ni tsunagatteiru no.",
+                "014": "nijinda namida wa   toumei suisai",
+                "015": "tsumuida kotoba ga   kimi ni todokazu kietemo",
+                "016": "afuredashita kono shikisai wa",
+                "017": "sekai o someagetemo yamazu",
+                "018": "tsuzuita kiseki ga   doko ni tsunagatteitemo",
+                "019": "miageta kanata wa   mugen no shikisai",
+                "020": "tsumuida kotoba ga   kimi ni todoku sono hi made",
+                "021": "kizutsuitemo utaitsuzukeru",
+                "022": "sekai ga owaru made"
+            }
+        },
+        "motion": {
+            "01": "PV210_TOME_00"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "173",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "60.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_210.ogg",
+        "song_name": "透明水彩",
+        "song_name_en": "Transparent Watercolors",
+        "song_name_reading": "とうめいすいさい",
+        "songinfo": {
+            "arranger": "ヤスオ",
+            "guitar_player": "骨盤P",
+            "illustrator": "縣",
+            "lyrics": "ヤスオ",
+            "music": "ヤスオ",
+            "_en": {
+                "arranger": "Yasuo",
+                "guitar_player": "Kotsuban P",
+                "illustrator": "Agatha",
+                "lyrics": "Yasuo",
+                "music": "Yasuo"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "1"
+        }
+    }
+}

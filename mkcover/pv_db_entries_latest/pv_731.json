@@ -1,0 +1,219 @@
+{
+    "pv_731": {
+        "bpm": "110",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_731_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_731_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_731_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_731_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "731"
+        },
+        "effect_se_file_name": "rom/sound/pv731_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv731_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "今宵　凍りついた刃で",
+            "002": "この身　切り裂いてくれないか",
+            "003": "いずれ　剥がれてしまうならば",
+            "004": "その手で　縛めて",
+            "005": "翳る雲隠れの　月に惑わされ",
+            "006": "闇を駆けて消える　一筋の希望",
+            "007": "君の姿さえも　上手く描けずに",
+            "008": "乱れていく風の　行方追いかける",
+            "009": "（始まりの場所　偽りの同情",
+            "010": "背負うにはあまりにも大きな代償）",
+            "011": "誰も知らない一刻先へ",
+            "012": "（近付いてみな　触れてみたけりゃ",
+            "013": "そこにあるものを全て壊して来な）",
+            "014": "飛び込んでみせてあげる",
+            "015": "今宵　凍りついた刃で",
+            "016": "この身　切り裂いてくれないか",
+            "017": "いずれ　剥がれてしまうならば",
+            "018": "その手で　縛めて",
+            "019": "たとえ星も見えぬ　闇に堕ちるとも",
+            "020": "胸に燃え続ける　紅の炎",
+            "021": "刃持つこの手で　命を散らして",
+            "022": "求めるほど夢は　彼方遠ざかる",
+            "023": "（薄れゆく微笑　降り積もる罪障",
+            "024": "身も心も狂わす永劫の恋情）",
+            "025": "誰も行けない　月の向こうへ",
+            "026": "（傷付いてみな　抱いて欲しけりゃ",
+            "027": "綺麗事言わないで本気で来な）",
+            "028": "忍び込んでみせてあげる",
+            "029": "今宵　腐りかけた腕に",
+            "030": "その身　抱かせてくれないか",
+            "031": "明日　別れる運命ならば",
+            "032": "今すぐ　引き裂いて",
+            "033": "今宵　廻りめぐる縁が",
+            "034": "この身　貫いて消えてゆく",
+            "035": "やがて　移ろう想いならば",
+            "036": "今だけ　くちづけて",
+            "037": "今宵　凍りついた刃で",
+            "038": "この身　切り裂いてくれないか",
+            "039": "いずれ　剥がれてしまうならば",
+            "040": "その手で　縛めて",
+            "_en": {
+                "001": "koyoi   kooritsuita yaiba de",
+                "002": "kono mi   kirisaite kurenai ka",
+                "003": "izure   hagarete shimau naraba",
+                "004": "sono te de   imashimete",
+                "005": "kageru kumogakure no   tsuki ni madowasare",
+                "006": "yami o kakete kieru   hitosuji no kibou",
+                "007": "kimi no sugata sae mo   umaku egakezu ni",
+                "008": "midarete iku kaze no   yukue oikakeru",
+                "009": "(hajimari no basho   itsuwari no doujou",
+                "010": "seou ni wa amari ni mo ookina daishou)",
+                "011": "daremo shiranai ichibyou saki e",
+                "012": "(chikazuite mina   furete mitakerya",
+                "013": "soko ni aru mono o subete kowashite kina)",
+                "014": "tobikonde misete ageru",
+                "015": "koyoi   kooritsuita yaiba de",
+                "016": "kono mi   kirisaite kurenai ka",
+                "017": "izure   hagarete shimau naraba",
+                "018": "sono te de   imashimete",
+                "019": "tatoe hoshi mo mienu   yami ni ochiru tomo",
+                "020": "mune ni moetsuzukeru   kurenai no honoo",
+                "021": "yaiba motsu kono te de   inochi o chirashite",
+                "022": "motomeru hodo yume wa   kanata toozakaru",
+                "023": "(usureyuku bishou   furitsumoru zaishou",
+                "024": "mi mo kokoro mo kuruwasu eigou no renjou)",
+                "025": "daremo ikenai   tsuki no mukou e",
+                "026": "(kizutsuite mina   daite hoshikerya",
+                "027": "kireigoto iwanaide honki de kina)",
+                "028": "shinobikonde misete ageru",
+                "029": "koyoi   kusarikaketa kaina ni",
+                "030": "sono mi   idakasete kurenai ka",
+                "031": "ashita   wakareru sadame naraba",
+                "032": "ima sugu   hikisaite",
+                "033": "koyoi   meguri meguru enishi ga",
+                "034": "kono mi   tsuranuite kiete yuku",
+                "035": "yagate   utsurou omoi naraba",
+                "036": "ima dake   kuchizukete",
+                "037": "koyoi   kooritsuita yaiba de",
+                "038": "kono mi   kirisaite kurenai ka",
+                "039": "izure   hagarete shimau naraba",
+                "040": "sono te de   imashimete"
+            }
+        },
+        "motion": {
+            "01": "PV731_KNF_P1_00",
+            "02": "PV731_KNF_P1_10",
+            "2P": {
+                "01": "PV731_KNF_P2_00",
+                "02": "PV731_KNF_P2_10"
+            },
+            "3P": {
+                "01": "PV731_KNF_P3_00",
+                "02": "PV731_KNF_P3_10"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "36",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "139",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "2": {
+                "chara": "LEN",
+                "pv_costume": "32",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV731.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "126",
+        "resolution_scale": "0.8",
+        "resolution_scale_neo": "0.67",
+        "sabi": {
+            "play_time": "28.1",
+            "start_time": "58.9"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_731.ogg",
+        "song_name": "Knife",
+        "song_name_en": "Knife",
+        "song_name_reading": "ないふ",
+        "songinfo": {
+            "arranger": "れるりり",
+            "illustrator": "エビナ",
+            "lyrics": "れるりり／マル",
+            "music": "れるりり",
+            "_en": {
+                "arranger": "rerulili",
+                "illustrator": "Ebina",
+                "lyrics": "rerulili/mal",
+                "music": "rerulili"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

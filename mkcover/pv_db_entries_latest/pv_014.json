@@ -1,0 +1,172 @@
+{
+    "pv_014": {
+        "bpm": "215",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141003",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_014_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_014_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_014_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_014_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "014",
+            "target_shadow_type": "1",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "夕闇のキャンバスに",
+            "002": "ワインレッドの夕日を",
+            "003": "見送った 帰り道",
+            "004": "あなたのハートは",
+            "005": "もう私のこと描いてるのかな",
+            "006": "今夜は 時間もたっぷりあるから",
+            "007": "あなただけの 私でいてあげるよ",
+            "008": "ゆっくりと深呼吸して 見つめ合ったら",
+            "009": "始まるよ",
+            "010": "miracle painting",
+            "011": "キセキのshow time",
+            "012": "魔法の一筆で 夢中にさせて",
+            "013": "爪の先まで全て あなた色に染めて",
+            "014": "今宵はあなたと 幾つの夢を数えたかな",
+            "015": "溢れる思いは",
+            "016": "数え切れない 伝え切れない",
+            "017": "言い尽くせない まだまだ足りない",
+            "018": "だから まだ終わらないで",
+            "019": "miracle painting",
+            "020": "キセキのshow time",
+            "021": "魔法の一筆に もう夢中よ",
+            "022": "もっともっと頂戴 私だけの色を",
+            "023": "終わらないで miracle painting",
+            "024": "魅惑のテクニック",
+            "025": "仕上げはまだ ちょっと待っていてね",
+            "026": "あなたに伝えるから 心からの",
+            "027": "I love you！",
+            "_en": {
+                "001": "yuuyami no CANVAS ni",
+                "002": "WINE-RED no yuuhi o",
+                "003": "miokutta   kaerimichi",
+                "004": "anata no HEART wa",
+                "005": "mou watashi no koto egaiteru no ka na",
+                "006": "konya wa   jikan mo tappuri aru kara",
+                "007": "anata dake no   watashi de ite ageru yo",
+                "008": "yukkuri to shinkokyuu shite   mitsumeattara",
+                "009": "hajimaru yo",
+                "010": "MIRACLE PAINTING",
+                "011": "kiseki no SHOW TIME",
+                "012": "mahou no hitofude de   muchuu ni sasete",
+                "013": "tsume no saki made subete   anatairo ni somete",
+                "014": "koyoi wa anata to   ikutsu no yume o kazoeta ka na",
+                "015": "afureru omoi wa",
+                "016": "kazoekirenai   tsutaekirenai",
+                "017": "iitsukusenai   mada mada tarinai",
+                "018": "dakara   mada owaranaide",
+                "019": "MIRACLE PAINTING",
+                "020": "kiseki no SHOW TIME",
+                "021": "mahou no hitofude ni   mou muchuu yo",
+                "022": "motto motto choudai   watashi dake no iro o",
+                "023": "owaranaide   MIRACLE PAINTING",
+                "024": "miwaku no TECHNIQUE",
+                "025": "shiage wa mada   chotto matteite ne",
+                "026": "anata ni tsutaeru kara   kokoro kara no",
+                "027": "I LOVE YOU!"
+            }
+        },
+        "motion": {
+            "01": "PV014_MCA00_02_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "25",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "13",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "52.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_014.ogg",
+        "song_name": "ミラクルペイント",
+        "song_name_en": "Miracle Paint",
+        "song_name_reading": "みらくるぺいんと",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "Yおじ",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "Y Oji",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

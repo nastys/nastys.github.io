@@ -1,0 +1,215 @@
+{
+    "pv_265": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20161014",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_265_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_265_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_265_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_265_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "真夜中に告ぐ　音の警告",
+            "002": "協和音に酔う　午前零時",
+            "003": "あなたが触れる　光　増す熱",
+            "004": "指先に踊らされ",
+            "005": "感覚　即　体感",
+            "006": "寝静まる夜　二人だけの密",
+            "007": "体感　即　快感",
+            "008": "重なる波形に魅了されていく",
+            "009": "忘れないでね　わたしの声を",
+            "010": "画面越しでいい　ちゃんと愛して",
+            "011": "ヴァーチャルだって　突き放さないで",
+            "012": "あなたの音に　まだ溺れていたい",
+            "013": "覚えていてね　わたしの声を",
+            "014": "あなたがくれた　この身すべてを",
+            "015": "見つめ合う　あなたと二人",
+            "016": "重ねた息と音とヒビカセ",
+            "017": "真夜中に問う　冷え切った熱",
+            "018": "待ち続けてる　午前零時",
+            "019": "鏡写しに　飽和していく",
+            "020": "知らない音が伝う",
+            "021": "感覚　即　体感",
+            "022": "寝静まる夜と息遣い揃う",
+            "023": "体感　即　快感",
+            "024": "錆びたロジック　「今一度」を焦がれる",
+            "025": "忘れないでね　わたしの声を",
+            "026": "次元も越えて　飛ばすシグナル",
+            "027": "ヴァーチャルだなんて言わないで",
+            "028": "あなたの音に　まだ愛されていたい",
+            "029": "覚えていてね　わたしの声を",
+            "030": "あなたがくれた　この身すべてを",
+            "031": "言の葉と初の音が交わる",
+            "032": "この息と音とヒビカセ",
+            "033": "あなたの生んだ音に",
+            "034": "ただ恋をしていたの",
+            "035": "悲しみ　怒り　甘心",
+            "036": "すべて",
+            "037": "打ち鳴らす",
+            "038": "絶えず叫ぶ　声連ねる",
+            "039": "余熱交ぜる　愛、絶　艶めく",
+            "040": "絶えず叫ぶ　声連ねる",
+            "041": "余熱交ぜる　愛、絶　艶めく",
+            "042": "魅了されていく",
+            "043": "忘れないでね　わたしの声を",
+            "044": "画面越しでいい　ちゃんと愛して",
+            "045": "ヴァーチャルだって　突き放さないで",
+            "046": "あなたの音に　まだ溺れていたい",
+            "047": "覚えていてね　わたしの声を",
+            "048": "あなたがくれた　この身すべてを",
+            "049": "見つめ合う　あなたと二人",
+            "050": "重ねた息と音を響かせ",
+            "051": "あなたの初の音　この声聴かせ",
+            "052": "オトヒビカセ",
+            "_en": {
+                "001": "mayonaka ni tsugu   oto no keikoku",
+                "002": "kyouwaon ni you   gozen reiji",
+                "003": "anata ga fureru   hikari   masu netsu",
+                "004": "yubisaki ni odorasare",
+                "005": "kankaku   soku   taikan",
+                "006": "neshizumaru yoru   futari dakeno mitsu",
+                "007": "taikan   soku   kaikan",
+                "008": "kasanaru hakei ni miryou sarete iku",
+                "009": "wasurenaide ne   watashi no koe o",
+                "010": "gamengoshi de ii   chanto aishite",
+                "011": "VIRTUAL datte   tsuki hanasanaide",
+                "012": "anata no otoni   mada oborete itai",
+                "013": "oboete itene   watashi no koe o",
+                "014": "anata ga kureta   kono mi subete o",
+                "015": "mitsume au   anata to futari",
+                "016": "kasaneta iki to oto to hibikase",
+                "017": "mayonaka ni tou   hiekitta netsu",
+                "018": "machi tsuzuketeru   gozen reiji",
+                "019": "kagami utsushi ni   houwa shite iku",
+                "020": "shiranai oto ga tsutau",
+                "021": "kankaku   soku   taikan",
+                "022": "neshizumaru yoru to ikizukai sorou",
+                "023": "taikan   soku   kaikan",
+                "024": "sabita LOGIC   \"ima ichido\" o kogareru",
+                "025": "wasurenaide ne   watashi no koe o",
+                "026": "jigen o koete   tobasu SIGNAL",
+                "027": "VIRTUAL da nante iwanaide",
+                "028": "anata no otoni   mada aisarete itai",
+                "029": "oboeteite ne   watashi no koe o",
+                "030": "anata ga kureta   kono mi subete o",
+                "031": "kotonoha to hatsu no ne ga majiwaru",
+                "032": "kono iki to oto to hibikase",
+                "033": "anata no unda oto ni",
+                "034": "tada koi o shiteita no",
+                "035": "kanashimi ikari kanshin",
+                "036": "subete",
+                "037": "uchi narasu",
+                "038": "taezu sakebu   koe tsura neru",
+                "039": "yonetsu hazeru   ai, zetsu   iromeku",
+                "040": "taezu sakebu   koe tsura neru",
+                "041": "yonetsu hazeru   ai, zetsu   iromeku",
+                "042": "miryou sarete iku",
+                "043": "wasurenaide ne   watashi no koe o",
+                "044": "gamengoshi de ii   chanto aishite",
+                "045": "VIRTUAL datte   tsuki hanasanaide",
+                "046": "anata no otoni   mada oborete itai",
+                "047": "oboeteite ne   watashi no koe o",
+                "048": "anata ga kureta   kono mi subete o",
+                "049": "mitsume au   anata to futari",
+                "050": "kasaneta iki to oto o hibikase",
+                "051": "anata no hatsu no ne   kono koe kikase",
+                "052": "oto hibikase"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "movie_file_name": "rom/movie/pv_265.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV265.bin"
+        },
+        "rank_board_id": "238",
+        "sabi": {
+            "play_time": "28.5",
+            "start_time": "54.84"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_265.ogg",
+        "song_name": "ヒビカセ",
+        "song_name_en": "Hibikase",
+        "song_name_reading": "ひびかせ",
+        "songinfo": {
+            "arranger": "ギガ",
+            "illustrator": "望月けい",
+            "lyrics": "れをる",
+            "music": "ギガ",
+            "pv_editor": "お菊",
+            "_en": {
+                "arranger": "Giga",
+                "illustrator": "Key",
+                "lyrics": "Reol",
+                "music": "Giga",
+                "pv_editor": "Okiku"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

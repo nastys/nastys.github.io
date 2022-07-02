@@ -1,0 +1,188 @@
+{
+    "pv_277": {
+        "bpm": "132",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_277_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_277_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_277_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_277_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "どんな願いも理想も言えないね",
+            "002": "変わらない同じ答えをいつも",
+            "003": "差し出して腐った昨日は要らないね",
+            "004": "裏切られる前に捨ててみろ",
+            "005": "使い果たせばいい",
+            "006": "飼い慣らせ生命",
+            "007": "明日は譲れない染まれないから覚悟はもう決まってる",
+            "008": "動けない飢えた批評家は",
+            "009": "横目で君を見てる",
+            "010": "どうだっていいから",
+            "011": "馬鹿は放っておいて",
+            "012": "夜においで、踊ってこの手を掴んだ",
+            "013": "両目は私だけ使って照らそうぜ",
+            "014": "焼きつく様な君だけのレーザーライト",
+            "015": "好きに順位付け縦に並べては",
+            "016": "ハートを捨てナンバーに変えた衝動で",
+            "017": "魔法は消えていった",
+            "018": "流れ染み付いた厭世観",
+            "019": "醜い景色に言葉失って",
+            "020": "雨が降る街で濡れた頭で佇む",
+            "021": "晴れを待つ人に愚痴をこぼす人",
+            "022": "傘の中で指を差してる",
+            "023": "どうだっていいから",
+            "024": "今は放っておいて",
+            "025": "さぁ笑って、歌ってこの手を選んだ",
+            "026": "リズムは心の臓で感じて踊ろうぜ",
+            "027": "焼きつく様に照らされたレイニーステージ",
+            "028": "瞳が翳って言葉失って",
+            "029": "色褪せた今日を",
+            "030": "ずっと誰かのせいに終われないでしょう",
+            "031": "どうだっていいから",
+            "032": "馬鹿は放っておいて",
+            "033": "夜においで、踊って憧れを掴んだ",
+            "034": "命は君だけに使って果たそうぜ",
+            "035": "焼きつく様を照らし続けていこう",
+            "036": "手を伸ばせ終わりまで",
+            "_en": {
+                "001": "donna negai mo risou mo ienai ne",
+                "002": "kawaranai onaji kotae o itsumo",
+                "003": "sashidashite kusatta kinou wa iranai ne",
+                "004": "uragirareru mae ni sutete miro",
+                "005": "tsukaihatase ba ii",
+                "006": "kainarase inochi",
+                "007": "asu wa yuzure nai somare nai kara kakugo wa mou kimatteru",
+                "008": "ugokenai ueta hihyouka wa",
+                "009": "yokome de kimi o miteru",
+                "010": "doudatte ii kara",
+                "011": "baka wa houtteoite",
+                "012": "yoru ni oide, odotte kono te o tsukanda",
+                "013": "ryoume wa watashi dake tsukatte terasouze",
+                "014": "yakitsuku you na kimi dake no LASER LIGHT",
+                "015": "suki ni junizuke tate ni narabete wa",
+                "016": "HEART o sute NUMBER ni kaeta shoudou de",
+                "017": "mahou wa kieteitta",
+                "018": "nagare shimitsuita enseikan",
+                "019": "minikui keshiki ni kotoba ushinatte",
+                "020": "ame ga furu machi de nureta atama de tatazumu",
+                "021": "hare o matsu hito ni guchi o kobosu hito",
+                "022": "kasa no naka de yubi o sashite iru",
+                "023": "doudatte ii kara",
+                "024": "ima wa houtteoite",
+                "025": "saa waratte, utatte kono te o eranda",
+                "026": "RHYTHM wa shinnozou de kanjite odorouze",
+                "027": "yakitsuku youni terasareta RAINY STAGE",
+                "028": "hitomi ga kagette kotoba ushinatte",
+                "029": "iroaseta kyou o",
+                "030": "zutto dareka no sei ni oware nai deshou",
+                "031": "doudatte ii kara",
+                "032": "baka wa houtteoite",
+                "033": "yoru ni oide, odotte akogare o tsukanda",
+                "034": "inochi wa kimi dake ni tsukatte hatasouze",
+                "035": "yakitsuku sama o terashi tsuzukete ikou",
+                "036": "te o nobase owari made"
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T",
+            "2P": {
+                "01": "CMN_POSE_DEFAULT_T"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_277.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "sabi": {
+            "play_time": "15.6",
+            "start_time": "119.3"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_277.ogg",
+        "song_name": "ジターバグ",
+        "song_name_en": "JITTERBUG",
+        "song_name_reading": "じたーばぐ",
+        "songinfo": {
+            "arranger": "蜂屋ななし",
+            "guitar_player": "Nagasaki",
+            "illustrator": "頃之介古論",
+            "lyrics": "蜂屋ななし",
+            "music": "蜂屋ななし",
+            "pv_editor": "頃之介古論",
+            "_en": {
+                "arranger": "Nanashi Hachiya",
+                "guitar_player": "Nagasaki",
+                "illustrator": "Koronosuke Koron",
+                "lyrics": "Nanashi Hachiya",
+                "music": "Nanashi Hachiya",
+                "pv_editor": "Koronosuke Koron"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

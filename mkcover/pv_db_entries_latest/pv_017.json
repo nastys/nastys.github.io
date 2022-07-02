@@ -1,0 +1,171 @@
+{
+    "pv_017": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_017_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_017_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_017_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_017_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "017"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_033.ogg",
+                "name": "荒野と森と魔法の歌(リンver.)",
+                "name_en": "A Song of Wastelands, Forests, and Magic(Rin Ver.)"
+            },
+            "1": {
+                "chara": "LEN",
+                "file": "rom/sound/song/pv_035.ogg",
+                "name": "荒野と森と魔法の歌(レンver.)",
+                "name_en": "A Song of Wastelands, Forests, and Magic(Len Ver.)"
+            },
+            "length": "2"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "緑の豊かな生命の森が",
+            "002": "今は砂ぼこり舞う 一面の荒野",
+            "003": "森の再生を心の底から願う",
+            "004": "耐え抜いた小さな命",
+            "005": "荒れ果てた大地でも",
+            "006": "思い出詰まった場所と",
+            "007": "語る瞳の奥に輝く涙",
+            "008": "私に任せて心配しないで",
+            "009": "魔法の歌声なら何でも出来るよ",
+            "010": "願いと想いを私に預けて",
+            "011": "今 輝く力に変えるよ",
+            "012": "空に広がる雲が",
+            "013": "雨を呼び大きな川を作る",
+            "014": "大地は青く色付き",
+            "015": "やがて生まれる新しい数々の命",
+            "016": "私に任せて心配しないで",
+            "017": "魔法の歌声なら何でも叶うよ",
+            "018": "願いと想いが強ければ強いほど",
+            "019": "輝く世界が見えるよ",
+            "_en": {
+                "001": "midori no yutaka na seimei no mori ga",
+                "002": "ima wa sunabokori mau   ichimen no kouya",
+                "003": "mori no saisei o kokoro no soko kara negau",
+                "004": "taenuita chiisana inochi",
+                "005": "arehateta daichi demo",
+                "006": "omoide tsumatta basho to",
+                "007": "kataru hitomi no oku ni kagayaku namida",
+                "008": "watashi ni makasete shinpai shinaide",
+                "009": "mahou no utagoe nara nandemo dekiru yo",
+                "010": "negai to omoi o watashi ni azukete",
+                "011": "ima   kagayaku chikara ni kaeru yo",
+                "012": "sora ni hirogaru kumo ga",
+                "013": "ame o yobi ookina kawa o tsukuru",
+                "014": "daichi wa aoku irozuki",
+                "015": "yagate umareru atarashii kazukazu no inochi",
+                "016": "watashi ni makasete shinpai shinaide",
+                "017": "mahou no utagoe nara nandemo kanau yo",
+                "018": "negai to omoi ga tsuyokereba tsuyoi hodo",
+                "019": "kagayaku sekai ga mieru yo"
+            }
+        },
+        "motion": {
+            "01": "PV017_MCA00_03_00",
+            "02": "PV017_MCA00_03_01",
+            "03": "PV017_MCA00_03_02"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "16",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "67.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_017.ogg",
+        "song_name": "荒野と森と魔法の歌",
+        "song_name_en": "A Song of Wastelands, Forests, and Magic",
+        "song_name_reading": "こうやともりとまほうのうた",
+        "songinfo": {
+            "arranger": "トラボルタ",
+            "lyrics": "トラボルタ",
+            "music": "トラボルタ",
+            "_en": {
+                "arranger": "Toraboruta",
+                "lyrics": "Toraboruta",
+                "music": "Toraboruta"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "pv_428": {
+        "bpm": "194",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160408",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_428_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_428_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_428_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_428_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "涙の数と同じ恋の数",
+            "002": "命　死の血　愛の終わりいつも",
+            "003": "骨砕ける音が鳴く",
+            "004": "愉悦　嗚咽　感じるの",
+            "005": "きっと",
+            "006": "呪いが罹る瞬間に芽生えた",
+            "007": "妬み　恨み　の女亡霊",
+            "008": "英雄にしてあげる",
+            "009": "ホントの主　どこにいるの",
+            "010": "私　闇のフランシスカ",
+            "011": "絶望という名の",
+            "012": "烙印を捺された斧が私　Ah",
+            "013": "パパに隠れて",
+            "014": "冒険に出てみたの",
+            "015": "勇敢な勇者様に",
+            "016": "一目惚れした",
+            "017": "あなたに見つかり",
+            "018": "望んでいない戦闘",
+            "019": "倒して頂戴",
+            "020": "そして武器に取り憑いた",
+            "021": "あなたと共に闘えた時間",
+            "022": "白と黒の大切な思い出",
+            "023": "高速ナブラかまして",
+            "024": "パパのもとに辿り着いたの",
+            "025": "魔王を倒せば私も消える",
+            "026": "迷い　悩み　の結末",
+            "027": "愛を貫けなかった",
+            "028": "ホントの私　どこにいるの",
+            "029": "勇者様と",
+            "030": "さようなら",
+            "031": "涙の数と同じ恋の数",
+            "032": "命　死の血　愛の終わりいつも",
+            "033": "骨砕ける音が鳴く",
+            "034": "愉悦　嗚咽　感じるの",
+            "035": "きっと",
+            "036": "呪いが罹る瞬間に芽生えた",
+            "037": "妬み　恨み　の女亡霊",
+            "038": "人間の愛に飢えきった",
+            "039": "ホントの私　どこにいるの",
+            "040": "何のために　生きているの",
+            "041": "愛と　恋と　夢と　斧と　悪と　闇の",
+            "042": "フランシスカ",
+            "043": "必ず手に入れてみせるわ",
+            "044": "永久の愛を",
+            "_en": {
+                "000": "",
+                "001": "namida no kazu to onaji koi no kazu",
+                "002": "inochi   shi no chi   ai no owari itsumo",
+                "003": "hone kudakeru oto ga naku",
+                "004": "yuetsu   oetsu   kanjiru no",
+                "005": "kitto",
+                "006": "noroi ga kakaru shunkan ni mebaeta",
+                "007": "netami   urami   no katamari",
+                "008": "eiyuu ni shite ageru",
+                "009": "honto no aruji   doko ni iru no",
+                "010": "watashi   yami no FRANCISCA",
+                "011": "zetsubou to iu na no",
+                "012": "rakuin o osareta ono ga watashi   ah",
+                "013": "PAPA ni kakurete",
+                "014": "bouken ni dete mita no",
+                "015": "yuukan na yuusha-sama ni",
+                "016": "hitomebore shita",
+                "017": "anata ni mitsukari",
+                "018": "nozondeinai BATTLE",
+                "019": "taoshite choudai",
+                "020": "soshite buki ni toritsuita",
+                "021": "anata to tomo ni tatakaeta jikan",
+                "022": "shiro to kuro no taisetsu na omoide",
+                "023": "kousoku nabura kamashite",
+                "024": "PAPA no moto ni tadoritsuita no",
+                "025": "maou o taoseba watashi mo kieru",
+                "026": "mayoi   nayami   no ketsumatsu",
+                "027": "ai o tsuranukenakatta",
+                "028": "honto no watashi   doko ni iru no",
+                "029": "yuusha-sama to",
+                "030": "sayounara",
+                "031": "namida no kazu to onaji koi no kazu",
+                "032": "inochi   shi no chi   ai no owari itsumo",
+                "033": "hone kudakeru oto ga naku",
+                "034": "yuetsu   oetsu   kanjiru no",
+                "035": "kitto",
+                "036": "noroi ga kakaru shunkan ni mebaeta",
+                "037": "netami   urami   no katamari",
+                "038": "hito no ai ni uekitta",
+                "039": "honto no watashi   doko ni iru no",
+                "040": "nan no tame ni   ikiteiru no",
+                "041": "ai to   koi to   yume to   ono to   aku to   yami no",
+                "042": "FRANCISCA",
+                "043": "kanarazu te ni irete miseru wa",
+                "044": "towa no ai o"
+            }
+        },
+        "mdata": {
+            "flag": "0"
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_428.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "222",
+        "sabi": {
+            "play_time": "26.7",
+            "start_time": "0.8"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_428.ogg",
+        "song_name": "フランシスカ",
+        "song_name_en": "Francisca",
+        "song_name_reading": "ふらんしすか",
+        "songinfo": {
+            "arranger": "ぢゅ＠メラゾーマP",
+            "illustrator": "TCB",
+            "lyrics": "ぢゅ＠メラゾーマP",
+            "manipulator": "夢光P",
+            "music": "ぢゅ＠メラゾーマP",
+            "pv_editor": "何故これをP",
+            "_en": {
+                "arranger": "Dyu＠Merazoma-P",
+                "illustrator": "TCB",
+                "lyrics": "Dyu＠Merazoma-P",
+                "manipulator": "Yumehikari-P",
+                "music": "Dyu＠Merazoma-P",
+                "pv_editor": "NazekorewoP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

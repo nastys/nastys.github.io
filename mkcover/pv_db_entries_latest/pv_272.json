@@ -1,0 +1,262 @@
+{
+    "pv_272": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV272_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_272_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_272_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_272_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_272_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "272"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "コンコン　優しくノックして",
+            "002": "乗り込め　ココロの奪還戦",
+            "003": "妄想ばかりが　フラッシュして",
+            "004": "加速するパルス　答えはどこだろう",
+            "005": "さあさあ弱音はミュートして",
+            "006": "くだらないことで躊躇して",
+            "007": "冗談ばかりね？あっはっは",
+            "008": "壊せない壁が　キスを迫るでしょう",
+            "009": "嗚呼、厭",
+            "010": "「そんなわけないや」",
+            "011": "嗚呼、厭",
+            "012": "「わかってくれるでしょ」",
+            "013": "その頭を撃ち抜いて",
+            "014": "終わんない愛を抱いていたくないの",
+            "015": "もっとちゃんと不安にしてよ",
+            "016": "いないいないばぁで演じて欲しいの",
+            "017": "もっとちゃんと応えてよ",
+            "018": "nanana",
+            "019": "「未完成」だって何度でも言うんだ",
+            "020": "nanana",
+            "021": "NOを空振った愛の中で",
+            "022": "トントン　これで御相子って",
+            "023": "埋まらない時に篭っちゃって",
+            "024": "完全主義はスモーキーに",
+            "025": "孤黙する声に目眩とモノトニー",
+            "026": "Knock knock! Let me go in and get the ace",
+            "027": "You’ll paint your face",
+            "028": "with tears that don’t feel the same",
+            "029": "Now Heart Reinforce’s up to end this game",
+            "030": "You’d better give up and throw your MP5 away",
+            "031": "嗚呼、厭",
+            "032": "どっちも選んで",
+            "033": "嗚呼、厭",
+            "034": "どっちも壊して",
+            "035": "心の根を引き抜いて",
+            "036": "不甲斐ない　愛を愛したくないの",
+            "037": "もっとちゃんと痛くしてよ",
+            "038": "笑えないくらいが　きっと樂しいの",
+            "039": "もっとちゃんと溶かしてよ",
+            "040": "nanana",
+            "041": "「未完成」だって何度でも言うんだ",
+            "042": "nanana",
+            "043": "NOを空振った愛の中で",
+            "044": "嗚呼、厭",
+            "045": "「そんなわけないや」",
+            "046": "嗚呼、厭",
+            "047": "「わかってくれるでしょ」",
+            "048": "その頭を撃ち抜いて",
+            "049": "撃ち抜いて",
+            "050": "終わんない愛を抱いていたくないの",
+            "051": "もっとちゃんと不安にしてよ",
+            "052": "いないいないばぁで演じて欲しいの",
+            "053": "もっとちゃんと応えてよ",
+            "054": "nanana",
+            "055": "「未完成」だって何度でも言うんだ",
+            "056": "nanana",
+            "057": "NOを空振った愛の中で",
+            "058": "不甲斐ない　愛を愛したくないの",
+            "059": "もっとちゃんと痛くしてよ",
+            "060": "笑えないくらいが　きっと樂しいの",
+            "061": "もっとちゃんと溶かしてよ",
+            "062": "nanana",
+            "063": "「未完成」だって何度でも言うんだ",
+            "064": "nanana",
+            "065": "NOを空振った愛の中で",
+            "066": "nanana",
+            "067": "「未完成」だって何度でも言うんだ",
+            "068": "nanana",
+            "069": "NOを空振った愛の中で",
+            "_en": {
+                "001": "konkon   yasasiku KNOCK shite",
+                "002": "norikome   kokoro no dakkansen",
+                "003": "mousou bakari ga   FLASH shite",
+                "004": "kasoku suru PULSE   kotae wa doko darou",
+                "005": "saasaa yowane wa MUTE shite",
+                "006": "kudaranai koto de chuucho shite",
+                "007": "joudan bakari ne? a ha ha",
+                "008": "kowasenai kabe ga   KISS o semaru deshou",
+                "009": "aah! iya",
+                "010": "\"sonna wake naiya\"",
+                "011": "aah! iya",
+                "012": "\"wakatte kureru desho\"",
+                "013": "sono atama o uchinuite",
+                "014": "owannai ai o daite itaku nai no",
+                "015": "motto chanto fuan ni shite yo",
+                "016": "inai inai baa de enjite hoshii no",
+                "017": "motto chanto kotaete yo",
+                "018": "nanana",
+                "019": "\"mikansei\" datte nando demo iunda",
+                "020": "nanana",
+                "021": "NO o karabutta ai no naka de",
+                "022": "tonton   kore de oaikotte",
+                "023": "umaranai toki ni komocchatte",
+                "024": "kanzensyugi wa SMOKY ni",
+                "025": "kodama suru koe ni memai to MONOTONY",
+                "026": "KNOCK KNOCK! LET ME GO IN AND GET THE ACE",
+                "027": "YOU'LL PAINT YOUR FACE",
+                "028": "WITH TEARS THAT DON'T FEEL THE SAME",
+                "029": "NOW HEART REINFORCES UP TO END THIS GAME",
+                "030": "YOU'D BETTER GIVE UP AND THROW YOUR MP5 AWAY",
+                "031": "aah! iya",
+                "032": "docchi mo erande",
+                "033": "aah! iya",
+                "034": "docchi mo kowashite",
+                "035": "kokoro no ne o hikinuite",
+                "036": "fugainai   ai o aishitaku nai no",
+                "037": "motto chanto itaku shite yo",
+                "038": "waraenai kurai ga   kitto tanoshii no",
+                "039": "motto chanto tokashite yo",
+                "040": "nanana",
+                "041": "\"mikansei\" datte nando demo iunda",
+                "042": "nanana",
+                "043": "NO o karabutta ai no naka de",
+                "044": "aah! iya",
+                "045": "\"sonna wake naiya\"",
+                "046": "aah! iya",
+                "047": "\"wakatte kureru desho\"",
+                "048": "sono atama o uchinuite",
+                "049": "uchinuite",
+                "050": "owannai ai o daite itaku nai no",
+                "051": "motto chanto fuan ni shite yo",
+                "052": "inai inai baa de enjite hoshii no",
+                "053": "motto chanto kotaete yo",
+                "054": "nanana",
+                "055": "\"mikansei\" datte nando demo iunda",
+                "056": "nanana",
+                "057": "NO o karabutta ai no naka de",
+                "058": "fugainai   ai o aishitaku nai no",
+                "059": "motto chanto itaku shite yo",
+                "060": "waraenai kurai ga   kitto tanoshii no",
+                "061": "motto chanto tokashite yo",
+                "062": "nanana",
+                "063": "\"mikansei\" datte nando demo iunda",
+                "064": "nanana",
+                "065": "NO o karabutta ai no naka de",
+                "066": "nanana",
+                "067": "\"mikansei\" datte nando demo iunda",
+                "068": "nanana",
+                "069": "NO o karabutta ai no naka de"
+            }
+        },
+        "motion": {
+            "01": "PV272_HBN"
+        },
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV272.bin"
+        },
+        "sabi": {
+            "play_time": "18.5",
+            "start_time": "104"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_272.ogg",
+        "song_name": "ヒバナ",
+        "song_name_en": "HIBANA",
+        "song_name_reading": "ひばな",
+        "songinfo": {
+            "arranger": "Rockwell",
+            "illustrator": "八三",
+            "lyrics": "DECO*27、Mes",
+            "music": "DECO*27",
+            "_en": {
+                "arranger": "Rockwell",
+                "illustrator": "Hassan",
+                "lyrics": "DECO*27,Mes",
+                "music": "DECO*27"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,270 @@
+{
+    "pv_268": {
+        "bpm": "153",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_268_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_268_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_268_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_268_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "268"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "Catch the wave君と",
+            "002": "掴む音で",
+            "003": "まだまだ歌おう",
+            "004": "Wave your handsもっと",
+            "005": "僕らの未来",
+            "006": "震わせよう",
+            "007": "楽しいこと続くように",
+            "008": "掬い上げた無数の音は",
+            "009": "どれだけ時が経っても",
+            "010": "形を変えて踊るよ",
+            "011": "いつかの君があげた",
+            "012": "プレゼントは今へのしるし",
+            "013": "自由にもっと気ままに",
+            "014": "さんざめいてこう",
+            "015": "Catch the wave君と",
+            "016": "掴む音で",
+            "017": "まだまだ踊ろう",
+            "018": "Wave your handsきっと",
+            "019": "このビートが",
+            "020": "また紡いでく",
+            "021": "Catch the wave僕と",
+            "022": "この時代を",
+            "023": "ただただ歌おう",
+            "024": "Wave your handsもっと",
+            "025": "僕らの未来",
+            "026": "震わせよう",
+            "027": "フューチャーだとかレトロだとか",
+            "028": "好き勝手にミックスしちゃって",
+            "029": "誰かのエンドロールで歌い始めてみようよ",
+            "030": "みんなの遊ぶ声が",
+            "031": "遠くまで響き渡れば",
+            "032": "いつしかその呼吸は",
+            "033": "歓声になる",
+            "034": "Catch the wave君と",
+            "035": "笑う音で",
+            "036": "まだまだ踊ろう",
+            "037": "Wave your handsきっと",
+            "038": "そのエールが",
+            "039": "また繋いでく",
+            "040": "Catch the wave僕と",
+            "041": "この次代へ",
+            "042": "ただただ歌おう",
+            "043": "Wave your handsもっと",
+            "044": "僕らの未来",
+            "045": "震わせよう",
+            "046": "Catch the wave君と",
+            "047": "掴む音で",
+            "048": "まだまだ踊ろう",
+            "049": "Wave your handsきっと",
+            "050": "このビートが",
+            "051": "また紡いでく",
+            "052": "Catch the wave僕と",
+            "053": "この時代を",
+            "054": "ただただ歌おう",
+            "055": "Wave your handsもっと",
+            "056": "僕らの未来",
+            "057": "震わせよう",
+            "_en": {
+                "001": "CATCH THE WAVE kimi to",
+                "002": "tsukamu oto de",
+                "003": "mada mada utaou",
+                "004": "WAVE YOUR HANDS motto",
+                "005": "bokura no mirai",
+                "006": "furuwase you",
+                "007": "tanoshii koto tsuzuku youni",
+                "008": "sukui ageta musuu no oto wa",
+                "009": "doredake toki ga tattemo",
+                "010": "katachi o kaete odoru yo",
+                "011": "itsuka no kimi ga ageta",
+                "012": "PRESENT wa ima e no shirushi",
+                "013": "jiyuu ni motto kimama ni",
+                "014": "sanzameite kou",
+                "015": "CATCH THE WAVE kimi to",
+                "016": "tsukamu oto de",
+                "017": "mada mada odorou",
+                "018": "WAVE YOUR HANDS kitto",
+                "019": "kono BEAT ga",
+                "020": "mata tsumuideku",
+                "021": "CATCH THE WAVE boku to",
+                "022": "kono jidai o",
+                "023": "tada tada utaou",
+                "024": "WAVE YOUR HANDS motto",
+                "025": "bokura no mirai",
+                "026": "furuwase you",
+                "027": "FUTURE datoka RETRO datoka",
+                "028": "suki katte ni MIX sichatte",
+                "029": "dareka no END ROLL de utai hajimete miyou yo",
+                "030": "minna no asobu koe ga",
+                "031": "tooku made hibiki watareba",
+                "032": "itsushika sono kokyuu wa",
+                "033": "kansei ni naru",
+                "034": "CATCH THE WAVE kimi to",
+                "035": "warau oto de",
+                "036": "mada mada odorou",
+                "037": "WAVE YOUR HANDS kitto",
+                "038": "sono YELL ga",
+                "039": "mata tsunaideku",
+                "040": "CATCH THE WAVE boku to",
+                "041": "kono jidai e",
+                "042": "tada tada utaou",
+                "043": "WAVE YOUR HANDS motto",
+                "044": "bokura no mirai",
+                "045": "furuwase you",
+                "046": "CATCH THE WAVE kimi to",
+                "047": "tsukamu oto de",
+                "048": "mada mada odorou",
+                "049": "WAVE YOUR HANDS kitto",
+                "050": "kono BEAT ga",
+                "051": "mata tsumuideku",
+                "052": "CATCH THE WAVE boku to",
+                "053": "kono jidai o",
+                "054": "tada tada utaou",
+                "055": "WAVE YOUR HANDS motto",
+                "056": "bokura no mirai",
+                "057": "furuwase you"
+            }
+        },
+        "motion": {
+            "01": "PV268_CTW_P1",
+            "2P": {
+                "01": "PV268_CTW_P2"
+            },
+            "3P": {
+                "01": "PV268_CTW_P3"
+            },
+            "4P": {
+                "01": "PV268_CTW_P4"
+            },
+            "5P": {
+                "01": "PV268_CTW_P5"
+            },
+            "6P": {
+                "01": "PV268_CTW_P6"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_268_001.mp4",
+        "movie_surface": "BACK",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "181",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "055",
+                "type": "PSEUDO_SAME"
+            },
+            "2": {
+                "pv_costume": "044",
+                "type": "PSEUDO_SAME"
+            },
+            "3": {
+                "pv_costume": "142",
+                "type": "PSEUDO_SAME"
+            },
+            "4": {
+                "pv_costume": "22",
+                "type": "PSEUDO_SAME"
+            },
+            "5": {
+                "pv_costume": "21",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "6"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV268.bin"
+        },
+        "pv_item": {
+            "01": "ITMPV268_CARRYBAG_01__DIVSKN",
+            "02": "ITMPV268_SPHONE_01__DIVSKN",
+            "03": "ITMPV268_SOFT_01__DIVSKN",
+            "04": "ITMPV268_SOFT_02__DIVSKN",
+            "05": "ITMPV268_MATRYOSHKA_01__DIVSKN",
+            "06": "ITMPV268_JIDORIBOU_01__DIVSKN",
+            "07": "ITMPV268_MASK_01__DIVSKN",
+            "08": "ITMPV268_BAGUETTE_01__DIVSKN"
+        },
+        "sabi": {
+            "play_time": "25.3",
+            "start_time": "52.5"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_268.ogg",
+        "song_name": "Catch the Wave",
+        "song_name_en": "Catch the Wave",
+        "song_name_reading": "きゃっちざうぇーぶ",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "LAM",
+            "lyrics": "kz",
+            "manipulator": "kz(livetune)",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "LAM",
+                "lyrics": "kz",
+                "manipulator": "kz(livetune)",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

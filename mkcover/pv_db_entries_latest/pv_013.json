@@ -1,0 +1,175 @@
+{
+    "pv_013": {
+        "bpm": "210",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140807",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_013_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_013_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_013_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_013_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "013"
+        },
+        "hand_item": {
+            "01": "PV_NEGI_L",
+            "02": "PV_NEGI_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ねぇ、ちょっと聞いてよ",
+            "002": "好きな人 出来たんだ",
+            "003": "ガラス玉みたいに",
+            "004": "まあるいキレイな恋なのに",
+            "005": "ねぇ、怒ってるの？",
+            "006": "トゲトゲしい口調で",
+            "007": "じゃれあいを続けてたら",
+            "008": "ひっかき傷が治らないよ",
+            "009": "お互いこれっぽっちも悪気なんて",
+            "010": "無いつもりなのに",
+            "011": "どうして泣いてんだろう",
+            "012": "素直な心やキレイな言葉だけじゃ",
+            "013": "上手くいかないことくらい",
+            "014": "分かっているのに分からない",
+            "015": "弱虫のクセに強がろうとしている",
+            "016": "私の前で君は口ずさむ",
+            "017": "フキゲンな歌を",
+            "018": "悲しみも痛みも",
+            "019": "全部置き去りにして",
+            "020": "いつか君の隣で",
+            "021": "一緒に歌えるかな",
+            "022": "笑いながら",
+            "023": "フキゲンな歌を",
+            "_en": {
+                "001": "nee, chotto kiite yo",
+                "002": "suki na hito   dekitan da",
+                "003": "GLASS dama mitai ni",
+                "004": "maarui kirei na koi na no ni",
+                "005": "nee, okotteru no?",
+                "006": "togetogeshii kuchou de",
+                "007": "jareai o tsuzuketetara",
+                "008": "hikkakikizu ga naoranai yo",
+                "009": "otagai koreppochi mo warugi nante",
+                "010": "nai tsumori na no ni",
+                "011": "doushite naiten darou",
+                "012": "sunao na kokoro ya kirei na kotoba dake ja",
+                "013": "umaku ikanai koto kurai",
+                "014": "wakatteiru no ni wakaranai",
+                "015": "yowamushi no kuse ni tsuyogarou to shiteiru",
+                "016": "watashi no mae de kimi wa kuchizusamu",
+                "017": "fukigen na uta o",
+                "018": "kanashimi mo itami mo",
+                "019": "zenbu okizari ni shite",
+                "020": "itsuka kimi no tonari de",
+                "021": "issho ni utaeru ka na",
+                "022": "warainagara",
+                "023": "fukigen na uta o"
+            }
+        },
+        "motion": {
+            "01": "PV013_POM00_02_20",
+            "02": "PV013_POM00_02_21",
+            "03": "PV013_POM00_02_22",
+            "04": "PV013_POM00_02_23"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "80",
+                "motion": "PV013_POM00_02_23",
+                "stage": "STGPV013S04"
+            },
+            "length": "1"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "12",
+        "sabi": {
+            "play_time": "32.0",
+            "start_time": "57.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_013.ogg",
+        "song_name": "フキゲンワルツ",
+        "song_name_en": "Grumpy Waltz",
+        "song_name_reading": "ふきげんわるつ",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "Yおじ",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "Y Oji",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

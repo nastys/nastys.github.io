@@ -1,0 +1,175 @@
+{
+    "pv_736": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150924",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_736_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_736_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_736_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_736_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "736"
+        },
+        "effect_se_file_name": "rom/sound/pv736_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv736_effect",
+            "length": "1"
+        },
+        "hand_a3d": {
+            "1P": {
+                "0": {
+                    "name": "STGPV736S01_HRC_001"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "「これは僕の進化の過程の１ページ目です。」",
+            "002": "抱きしめたいから　２本足で歩く",
+            "003": "一人じゃ寂しいから　君と息するよ",
+            "004": "「ねえママ、僕好きな人が出来たんだ。」",
+            "005": "\"おめでとう\"",
+            "006": "会いたいよ",
+            "007": "ねえ君は今頃誰の乳を吸って生きてるの？",
+            "008": "言葉はもう覚えたかな？",
+            "009": "「パパ、ママ、ニーナ…」",
+            "010": "\"よく出来ました。今すぐ行くね。\"",
+            "011": "あれ？おかしいな…",
+            "012": "君を抱きしめるために浮かせた前足が",
+            "013": "何故か君を傷つけ始めるんだ",
+            "014": "覚えたての言葉だって　君に突き刺すナイフ",
+            "015": "切り裂く 人生",
+            "016": "じゃあアタシがナイフ放つ前のその口を",
+            "017": "この口で塞いであげましょう",
+            "018": "相対のチュー",
+            "019": "キミは今からアタシの息を吸って生きてくの",
+            "020": "言葉はもう唾液で錆びついた",
+            "021": "ねえ君は今さら僕の息を吸って",
+            "022": "「大好き」だなんて言ってみせるけど",
+            "023": "それならもういっそ　ボンベのように一生",
+            "024": "僕が吐く言葉吸って息絶えて",
+            "_en": {
+                "001": "\"kore wa boku no shinka no katei no ichi PAGE me desu.\"",
+                "002": "dakishimetai kara   nihon ashi de aruku",
+                "003": "hitori ja samishii kara   kimi to iki suru yo",
+                "004": "\"nee MAMA, boku suki na hito ga dekitan da.\"",
+                "005": "\"omedetou\"",
+                "006": "aitai yo",
+                "007": "nee kimi wa imagoro dare no chichi o sutte ikiteru no?",
+                "008": "kotoba wa mou oboeta ka na?",
+                "009": "\"PAPA, MAMA, NINA...\"",
+                "010": "\"yoku dekimashita. ima sugu iku ne.\"",
+                "011": "are? okashii na...",
+                "012": "kimi o dakishimeru tame ni ukaseta maeashi ga",
+                "013": "nazeka kimi o kizutsuke hajimerun da",
+                "014": "oboetate no kotoba datte   kimi ni tsukisasu KNIFE",
+                "015": "kirisaku   LIFE",
+                "016": "jaa atashi ga KNIFE hanatsu mae no sono kuchi o",
+                "017": "kono kuchi de fusaide agemashou",
+                "018": "aitai no chuu",
+                "019": "kimi wa ima kara atashi no iki o sutte ikiteku no",
+                "020": "kotoba wa mou daeki de sabitsuita",
+                "021": "nee kimi wa imasara boku no iki o sutte",
+                "022": "\"daisuki\" da nante itte miseru kedo",
+                "023": "sorenara mou isso   bonbe no you ni isshou",
+                "024": "boku ga haku kotoba sutte ikitaete"
+            }
+        },
+        "motion": {
+            "01": "PV736_NHK_P1_00"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "144",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV736.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "119",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "32.8"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_736.ogg",
+        "song_name": "二息歩行",
+        "song_name_en": "Two Breaths Walking",
+        "song_name_reading": "にそくほこう",
+        "songinfo": {
+            "arranger": "DECO*27",
+            "illustrator": "りょーの",
+            "lyrics": "DECO*27",
+            "music": "DECO*27",
+            "_en": {
+                "arranger": "DECO*27",
+                "illustrator": "Ryo-no",
+                "lyrics": "DECO*27",
+                "music": "DECO*27"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "pv_832": {
+        "bpm": "127",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160808",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_832_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_832_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_832_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_832_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "832"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "目を閉じて　視えるその",
+            "002": "指先へ　めがけた",
+            "003": "口ずさむ　その歌を",
+            "004": "続けて",
+            "005": "そう",
+            "006": "Hand in hand　君のその手は",
+            "007": "知らない誰かの手も",
+            "008": "Hand in hand　握ってるんだ",
+            "009": "ずっと　ずっと",
+            "010": "ミライまで",
+            "011": "まだ　泣かないで",
+            "012": "気付かないだけだよ",
+            "013": "言葉や想い",
+            "014": "見えづらいからね",
+            "015": "好きな人　好きなこと",
+            "016": "好きな場所　めがけた",
+            "017": "優しさが　変えるんだ",
+            "018": "明日を",
+            "019": "そう",
+            "020": "Hand in hand　君が叫んだ",
+            "021": "歌は誰かの手も",
+            "022": "Hand in hand　包みこむから",
+            "023": "途切れないで",
+            "024": "だからね",
+            "025": "Hand in hand　強い気持ちは",
+            "026": "誰かの肩を抱く",
+            "027": "Hand in hand　覚えていてね",
+            "028": "ずっと　ずっと",
+            "029": "ミライまで",
+            "030": "そう",
+            "031": "Hand in hand　君が掴んだ",
+            "032": "その手は遠くまで",
+            "033": "Hand in hand　違う誰かの",
+            "034": "涙拭う",
+            "035": "だからね",
+            "036": "Hand in hand　強い気持ちは",
+            "037": "誰かの肩を抱く",
+            "038": "Hand in hand　覚えていてね",
+            "039": "ずっと　ずっと",
+            "040": "ミライまで",
+            "_en": {
+                "001": "me o tojite   mieru sono",
+                "002": "yubisaki e megaketa",
+                "003": "kuchizusamu sono uta o",
+                "004": "tsuzukete",
+                "005": "sou",
+                "006": "Hand in hand   kimi no sono te wa",
+                "007": "shiranai dareka no te mo",
+                "008": "Hand in hand   nigitterun da",
+                "009": "zutto zutto",
+                "010": "mirai made",
+                "011": "mada nakanaide",
+                "012": "kizukanai dake da yo",
+                "013": "kotoba ya omoi",
+                "014": "miezurai kara ne",
+                "015": "suki na hito   suki na koto",
+                "016": "suki na basho   megaketa",
+                "017": "yasashisa ga kaerun da",
+                "018": "ashita o",
+                "019": "sou",
+                "020": "Hand in hand   kimi ga saken da",
+                "021": "uta wa dareka no te mo",
+                "022": "Hand in hand   tsutsumikomu kara",
+                "023": "togirenai de",
+                "024": "dakara ne",
+                "025": "Hand in hand   tsuyoi kimochi wa",
+                "026": "dareka no kata o daku",
+                "027": "Hand in hand   oboeteite ne",
+                "028": "zutto zutto",
+                "029": "mirai made",
+                "030": "sou",
+                "031": "Hand in hand   kimi ga tsukan da",
+                "032": "sono te wa tooku made",
+                "033": "Hand in hand   chigau dareka no",
+                "034": "namida nuguu",
+                "035": "dakara ne",
+                "036": "Hand in hand   tsuyoi kimochi wa",
+                "037": "dareka no kata o daku",
+                "038": "Hand in hand   oboete itene",
+                "039": "zutto zutto",
+                "040": "mirai made"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV832_HIH_P1_00"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "173",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV832.bin"
+        },
+        "rank_board_id": "195",
+        "sabi": {
+            "play_time": "31.8",
+            "start_time": "13.5"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_832.ogg",
+        "song_name": "Hand in Hand",
+        "song_name_en": "Hand in Hand",
+        "song_name_reading": "はんどいんはんど",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "穂嶋",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "Ho4ma",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

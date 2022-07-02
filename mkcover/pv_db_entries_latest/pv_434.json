@@ -1,0 +1,195 @@
+{
+    "pv_434": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140715",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_434_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_434_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_434_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_434_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "434"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "地球と　お日様と　朝にあいさつ",
+            "002": "通りすがりの 兄さんとかや 姉さんとかに",
+            "003": "ヨンロロローオ　ティオローオ",
+            "004": "ティオローオ　リオ！",
+            "005": "牛乳配達の　おじいちゃんにも あいさつ",
+            "006": "ヨンローロ　ヨロレエヒ　ロロレ　レレレオヒ ロロロ",
+            "007": "レエロロロー　ヲロ　エヲロンレヒ　オー！",
+            "008": "あたらしい朝が 来たわよ 二度寝は通用しないわ",
+            "009": "ヨンロロンレ　ホウアリ　リーオレイホー！",
+            "010": "リーオレイ　ホウホウ　ヨロレイホー！",
+            "011": "ヨレオロオリホロ　ロレリロレリホー",
+            "012": "ヨレヒロレリホロ　ロレヒロレリホロ",
+            "013": "ヨロロヲヒヲロオ　ヒーオ　ロンレヒー　オー！",
+            "014": "草木も　山も　海も　みんな目覚め",
+            "015": "命の歌が　辺り一面に響くよ",
+            "016": "ヤンロロヤーア　ティアラーア",
+            "017": "ティアラーア　レヨ！",
+            "018": "おはようございます　今日もいい天気です",
+            "019": "ヤンラーラ　ヨロレエヒ　ロロレ　レレレオヒ ロロロ",
+            "020": "レエロロロー　ヲロ　エヲロンレヒ　オー！",
+            "021": "ヨロレヒ　ヨロレヒ　ヨ！",
+            "022": "ヨンロロンレ　ホウアリ　リーオレイホー！",
+            "023": "リーオレイ　ホウホウ　ヨロレイホー！",
+            "024": "ヨレヒロレリホロ　ロレリロレリホロ",
+            "025": "ヨレヒロレリホロ　ロレヒロレリホロ",
+            "026": "ヨロロレヒヲロオ　ヒーオ　ロンレヒー　オー！",
+            "027": "ロエヒ　ロエヒ　ロエヒ　ロエヒ",
+            "028": "ロエヒヲ　ロエヒ　ロエヒ　ロエヒー",
+            "029": "ロロロオヒーヤー　ロロロオヒーヤー　ヨロレイヒ！",
+            "030": "ヨーロ…ロエヒ　ロエヒ　ロエヒ　ロエヒ",
+            "031": "ロエヒヲ　ロエヒ　ロエヒ　ロエヒー",
+            "032": "ロロロオヒーヤー　ロロロオヒーヤー　ロオー！",
+            "033": "アー",
+            "_en": {
+                "001": "chikyuu to   ohi-sama to   asa ni aisatsu",
+                "002": "toorisugari no   nii-san toka ya   nee-san toka ni",
+                "003": "yonrororooo   tiorooo",
+                "004": "tiorooo   rio!",
+                "005": "gyuunyuu haitatsu no   ojii-chan ni mo   aisatsu",
+                "006": "yonrooro   yororeehi   rorore   rerereohi   rororo",
+                "007": "reerororoo   woro   eworonrehi   oo!",
+                "008": "atarashii asa ga   kita wa yo   nidone wa tsuuyou shinai wa",
+                "009": "yonroronre   houari   riioreihoo!",
+                "010": "riiorei   houhou   yororeihoo!",
+                "011": "yoreoroorihoro   rorerirorerihoo",
+                "012": "yorehirorerihoro   rorehirorerihoro",
+                "013": "yororowohiworoo   hiio   ronrehii  oo!",
+                "014": "kusaki mo   yama mo   umi mo   minna mezame",
+                "015": "inochi no uta ga   atari ichimen ni hibiku yo",
+                "016": "yanroroyaaa   tiaraaa",
+                "017": "tiaraaa   reyo!",
+                "018": "ohayou gozaimasu   kyou mo ii tenki desu",
+                "019": "yanraara   yororeehi   rorore   rerereohi   rororo",
+                "020": "reerororoo   woro   eworonrehi   oo!",
+                "021": "yororehi   yororehi   yo!",
+                "022": "yonroronre   houari   riioreihoo!",
+                "023": "riiorei   houhou   yororeihoo!",
+                "024": "yorehirorerihoro   rorerirorerihoro",
+                "025": "yorehirorerihoro   rorehirorerihoro",
+                "026": "yorororehiworoo   hiio   ronrehii  oo!",
+                "027": "roehi   roehi   roehi   roehi",
+                "028": "roehiwo   roehi   roehi   roehii",
+                "029": "rororoohiiyaa   rororoohiiyaa   yororeihi!",
+                "030": "yooro... roehi   roehi   roehi   roehi",
+                "031": "roehiwo   roehi   roehi   roehii",
+                "032": "rororoohiiyaa   rororoohiiyaa   rooo!",
+                "033": "aah"
+            }
+        },
+        "motion": {
+            "01": "PV434_OHA"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "46",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV434.bin"
+        },
+        "rank_board_id": "228",
+        "sabi": {
+            "play_time": "27.5",
+            "start_time": "49.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_434.ogg",
+        "song_name": "おはヨーデル (Oha-Yo-del!!)",
+        "song_name_en": "Oha-Yo-del!!",
+        "song_name_reading": "おはよーでる",
+        "songinfo": {
+            "arranger": "爆弾ポピー",
+            "illustrator": "爆弾ポピー",
+            "lyrics": "爆弾ポピー",
+            "music": "爆弾ポピー",
+            "pv_editor": "灰純アエラ",
+            "_en": {
+                "arranger": "Bakudan Poppy",
+                "illustrator": "Bakudan Poppy",
+                "lyrics": "Bakudan Poppy",
+                "music": "Bakudan Poppy",
+                "pv_editor": "Aera Haizumi"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_pv434_mhd3070.txt",
+                "mhd_id": "0"
+            },
+            "1": {
+                "collision_file": "coli_pv434_mhd6677.txt",
+                "mhd_id": "1"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

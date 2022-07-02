@@ -1,0 +1,243 @@
+{
+    "pv_233": {
+        "bpm": "180",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_233_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_233_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_233_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "233",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "午前３時",
+            "002": "眠い瞼　消えない窓",
+            "003": "いつのまにか　狂い出した時計が",
+            "004": "君の影を　うやむやにする　だから",
+            "005": "僕は　扉を　閉じた",
+            "006": "",
+            "007": "（しゃららん　しゃららん　しゃららん）",
+            "008": "扉の奥では",
+            "009": "（しゃららん　しゃららん　しゃららん）",
+            "010": "消したはずの言葉",
+            "011": "（しゃららん　しゃららん　しゃららん）",
+            "012": "夢の中で逢おう",
+            "013": "日が明ければもう聴こえない",
+            "014": "",
+            "015": "咲いた　咲いた　零れんばかりの恋の花",
+            "016": "君が　君が　気付いてなくとも　構わない",
+            "017": "球根の　君を　咲かせる何かが　僕ならば",
+            "018": "きっと",
+            "019": "いつまでもいつまでも　ここで",
+            "020": "待ち続けるよ",
+            "021": "",
+            "022": "「生まれた　意味を探した",
+            "023": "探していた　求めていた",
+            "024": "僕なんか　僕なんか",
+            "025": "消えてしまえばいい」",
+            "026": "",
+            "027": "そんな「タワゴト」はやめにしよう",
+            "028": "思い出した「空」は残しておこう",
+            "029": "",
+            "030": "さようなら、お元気で。またね。",
+            "031": "僕は変わるから。",
+            "032": "",
+            "033": "咲いた　咲いた　零れんばかりの恋の花",
+            "034": "君が　君が　気付いてなくとも　構わない",
+            "035": "球根の　君を　咲かせる何かが　僕ならば",
+            "036": "",
+            "037": "きっと",
+            "038": "",
+            "039": "嗚呼　此処で　僕に　咲いておくれ恋の花",
+            "040": "僕が　僕で　あることの理由が君ならば",
+            "041": "球根が　流す　涙　それを染み込ませ",
+            "042": "僕等",
+            "043": "いつまでもいつまでも　ここで",
+            "044": "咲き続けるよ",
+            "045": "",
+            "_en": {
+                "001": "gozen sanji",
+                "002": "nemui mabuta   kienai mado",
+                "003": "itsunomanika   kuruidashita tokei ga",
+                "004": "kimi no kage o   uyamuya ni suru   dakara",
+                "005": "boku wa   tobira o   tojita",
+                "006": "",
+                "007": "(shararan   shararan   shararan)",
+                "008": "tobira no oku dewa",
+                "009": "(shararan   shararan   shararan)",
+                "010": "keshita hazu no kotoba",
+                "011": "(shararan   shararan   shararan)",
+                "012": "yume no naka de aou",
+                "013": "hi ga akereba mou kikoenai",
+                "014": "",
+                "015": "saita saita koborenbakari no koi no hana",
+                "016": "kimi ga   kimi ga   kizuitenakutomo   kamawanai",
+                "017": "kyuukon no   kimi o   sakaseru nanika ga   boku naraba",
+                "018": "kitto",
+                "019": "itsumademo itsumademo   koko de",
+                "020": "machitsuzukeru yo",
+                "021": "",
+                "022": "\"umareta   imi o sagashita",
+                "023": "sagashiteita   motometeita",
+                "024": "boku nanka   boku nanka",
+                "025": "kiete shimaeba ii\"",
+                "026": "",
+                "027": "sonna \"tawagoto\" wa yame ni shiyou",
+                "028": "omoidashita \"sora\" wa nokoshite okou",
+                "029": "",
+                "030": "sayounara, ogenki de. mata ne.",
+                "031": "boku wa kawaru kara.",
+                "032": "",
+                "033": "saita saita koborenbakari no koi no hana",
+                "034": "kimi ga   kimi ga   kizuitenakutomo   kamawanai",
+                "035": "kyuukon no   kimi o   sakaseru nanika ga   boku naraba",
+                "036": "",
+                "037": "kitto",
+                "038": "",
+                "039": "aah   koko de   boku ni   saite okure koi no hana",
+                "040": "boku ga   boku de   aru koto no riyuu ga kimi naraba",
+                "041": "kyuukon ga   nagasu   namida   sore o shimikomase",
+                "042": "bokura",
+                "043": "itsumademo itsumademo   koko de",
+                "044": "sakitsuzukeru yo",
+                "045": ""
+            }
+        },
+        "motion": {
+            "01": "PV233_FUTA"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "1676",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S02"
+            },
+            "1": {
+                "frame": "2077",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S02"
+            },
+            "2": {
+                "frame": "2341",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S02"
+            },
+            "3": {
+                "frame": "3234",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S03"
+            },
+            "4": {
+                "frame": "5386",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S07"
+            },
+            "5": {
+                "frame": "5522",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S07"
+            },
+            "6": {
+                "frame": "6046",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S03"
+            },
+            "7": {
+                "frame": "6762",
+                "motion": "PV233_FUTA",
+                "stage": "STGPV233S03"
+            },
+            "length": "8"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "55",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV233_KASA_01__DIVSKN"
+        },
+        "rank_board_id": "185",
+        "sabi": {
+            "play_time": "25.5",
+            "start_time": "66.5"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_233.ogg",
+        "song_name": "ふたりで。",
+        "song_name_en": "The Two of Us - Futaride",
+        "song_name_reading": "ふたりで",
+        "songinfo": {
+            "arranger": "ねこぼーろ",
+            "illustrator": "みなも すち",
+            "lyrics": "ねこぼーろ",
+            "music": "ねこぼーろ",
+            "_en": {
+                "arranger": "nekobolo",
+                "illustrator": "Suchi Minamo",
+                "lyrics": "nekobolo",
+                "music": "nekobolo"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv233s02.txt",
+                "stage": "STGPV233S02"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

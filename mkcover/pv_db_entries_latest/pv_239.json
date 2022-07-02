@@ -1,0 +1,181 @@
+{
+    "pv_239": {
+        "bpm": "110",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_239_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_239_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_239_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "239"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_239_rin.ogg"
+            },
+            "1": {
+                "chara": "LUK",
+                "file": "rom/sound/song/pv_239_luka.ogg"
+            },
+            "2": {
+                "chara": "MEI",
+                "file": "rom/sound/song/pv_239_meiko.ogg"
+            },
+            "length": "3"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "今夜　空港で　待ってて",
+            "002": "黄昏の空に浮かぶ　金星のすぐそばで",
+            "003": "ねえ　いつか青い成層圏",
+            "004": "二人きりどこまでも飛べるかな",
+            "005": "夜の雲海越え　1000マイル彼方へと",
+            "006": "旅客飛行",
+            "007": "あなただけのアテンダントの私",
+            "008": "トリコロール・エア・ライン",
+            "009": "遥か異国の空から",
+            "010": "会えないあなたに贈る 絵葉書　恋のエアメール",
+            "011": "ああ私ひとり窓辺で",
+            "012": "誘導灯の輝きが眩しい",
+            "013": "夜の雲海越え　1000マイル彼方へと",
+            "014": "旅客飛行",
+            "015": "あなただけのアテンダントの私",
+            "016": "トリコロール・エア・ライン",
+            "017": "夜の雲海越え　1000マイル彼方へと",
+            "018": "旅客飛行",
+            "019": "あなただけのアテンダントの私",
+            "020": "トリコロール・エア・ライン",
+            "021": "トリコロール・エア・ライン",
+            "_en": {
+                "001": "konya   kuukou de   mattete",
+                "002": "tasogare no sora ni ukabu   kinsei no sugu soba de",
+                "003": "nee   itsuka aoi seisouken",
+                "004": "futarikiri dokomademo toberu ka na",
+                "005": "yoru no unkai koe   sen MILE kanata e to",
+                "006": "ryokakuhikou",
+                "007": "anata dake no ATTENDANT no watashi",
+                "008": "TRICOLORE AIRLINE",
+                "009": "haruka ikoku no sora kara",
+                "010": "aenai anata ni okuru   ehagaki   koi no AIRMAIL",
+                "011": "aah watashi hitori madobe de",
+                "012": "yuudoutou no kagayaki ga mabushii",
+                "013": "yoru no unkai koe   sen MILE kanata e to",
+                "014": "ryokakuhikou",
+                "015": "anata dake no ATTENDANT no watashi",
+                "016": "TRICOLORE AIRLINE",
+                "017": "yoru no unkai koe   sen MILE kanata e to",
+                "018": "ryokakuhikou",
+                "019": "anata dake no ATTENDANT no watashi",
+                "020": "TRICOLORE AIRLINE",
+                "021": "TRICOLORE AIRLINE"
+            }
+        },
+        "motion": {
+            "01": "PV239_TA_1P",
+            "2P": {
+                "01": "PV239_TA_2P"
+            },
+            "3P": {
+                "01": "PV239_TA_3P"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "123",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "34",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "LUK",
+                "pv_costume": "32",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV239.bin"
+        },
+        "rank_board_id": "137",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "104.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_239.ogg",
+        "song_name": "トリコロール・エア・ライン",
+        "song_name_en": "Tricolore Airline",
+        "song_name_reading": "とりころーるえあらいん",
+        "songinfo": {
+            "arranger": "あつぞうくん",
+            "illustrator": "あさひ",
+            "lyrics": "あつぞうくん",
+            "music": "あつぞうくん",
+            "_en": {
+                "arranger": "atsuzokun",
+                "illustrator": "Asahi",
+                "lyrics": "atsuzokun",
+                "music": "atsuzokun"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

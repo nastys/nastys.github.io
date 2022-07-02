@@ -1,0 +1,283 @@
+{
+    "pv_244": {
+        "bpm": "127",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chrcam": {
+            "0": {
+                "chara": "MIK",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "1": {
+                "chara": "RIN",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "2": {
+                "chara": "LUK",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "3": {
+                "chara": "MEI",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "4": {
+                "chara": "NER",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "5": {
+                "chara": "HAK",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "6": {
+                "chara": "SAK",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "7": {
+                "chara": "TET",
+                "id": "0",
+                "name": "CAMPV244_BASE_A",
+                "org_name": "CAMPV244_BASE"
+            },
+            "length": "8"
+        },
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV244_KAI_001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV244_KAI_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "KAI"
+            },
+            "num": "1"
+        },
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_244_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_244_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_244_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_244_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "244"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "LEN",
+                "file": "rom/sound/song/pv_244_len.ogg"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "「そばにいたいよ」",
+            "002": "誰かの願いに命は宿る",
+            "003": "一年に一度きりの冬の魔法",
+            "004": "動きだす僕はスノーマン",
+            "005": "雪が積もる夜に僕は生まれた",
+            "006": "ホウキの腕にバケツの帽子で",
+            "007": "ところで君はここで一体何してんの",
+            "008": "「ママに嘘をついちゃったんだ」",
+            "009": "って泣きだした",
+            "010": "心の黒を吸い出すため",
+            "011": "真っ白に僕はできてる",
+            "012": "そばにいるよ",
+            "013": "固まって転がった君のデタラメ",
+            "014": "殴ったって蹴っ飛ばしても砕けない",
+            "015": "鳴り響くベルに凍りつくマフラー",
+            "016": "冷えた笑顔を温めたくても",
+            "017": "僕の目じゃ笑えもしない",
+            "018": "それにしたってどんな嘘をついたんだい",
+            "019": "「勉強も運動も出来て友達いっぱい」",
+            "020": "それなら冬の間に何とかしよう",
+            "021": "「それじゃ遅すぎなんだ」",
+            "022": "ってしゃがみこんだ",
+            "023": "「もうすぐママは消えちゃうから」",
+            "024": "良い子でいなきゃとまた泣いた",
+            "025": "「そばにいたいよ」",
+            "026": "絡まって重なった君のデタラメ",
+            "027": "ぶった切って払ったって増えていく",
+            "028": "ネオンの街並みにモノクロの雪",
+            "029": "悴んだ指を暖めたくても",
+            "030": "僕の手じゃ握れもしない",
+            "031": "じゃぁこんなのはどうだい",
+            "032": "全ての黒を真っ白に塗り替えるんだ",
+            "033": "コツなら僕が教えよう",
+            "034": "絶対に君ならやれるさ",
+            "035": "淡雪が轍を埋めてく",
+            "036": "君は走った",
+            "037": "みんなを引き連れて",
+            "038": "何もかも手遅れになる前に",
+            "039": "「ねぇ全部ホントでしょ、だからもういかないで」",
+            "040": "我が子を抱き寄せ頷いた",
+            "041": "そばにいるよ",
+            "042": "最後に零れた優しいデタラメ",
+            "043": "笑ったって泣いたって大丈夫",
+            "044": "二人を見守って溶けていく体",
+            "045": "きっともう平気だろう",
+            "046": "どんな冬にだってさ",
+            "047": "春は訪れるから",
+            "_en": {
+                "001": "\"soba ni itai yo\"",
+                "002": "dareka no negai ni inochi wa yadoru",
+                "003": "ichinen ni ichido kiri no fuyu no mahou",
+                "004": "ugokidasu boku wa SNOWMAN",
+                "005": "yuki ga tsumoru yoru ni boku wa umareta",
+                "006": "houki no ude ni BUCKET no boushi de",
+                "007": "tokoro de kimi wa koko de ittai nani shiten no",
+                "008": "\"MAMA ni uso o tsuichattan da\"",
+                "009": "tte nakidashita",
+                "010": "kokoro no kuro o suidasu tame",
+                "011": "masshiro ni boku wa dekiteru",
+                "012": "soba ni iru yo",
+                "013": "katamatte korogatta kimi no detarame",
+                "014": "naguttatte kettobashitemo kudakenai",
+                "015": "narihibiku BELL ni kooritsuku MUFFLER",
+                "016": "hieta egao o atatametakutemo",
+                "017": "boku no me ja warae mo shinai",
+                "018": "sore ni shitatte donna uso o tsuitan dai",
+                "019": "\"benkyou mo undou mo dekite tomodachi ippai\"",
+                "020": "sore nara fuyu no aida ni nantoka shiyou",
+                "021": "\"sore ja ososugi nan da\"",
+                "022": "tte shagamikonda",
+                "023": "\"mousugu MAMA wa kiechau kara\"",
+                "024": "ii ko de inakya to mata naita",
+                "025": "\"soba ni itai yo\"",
+                "026": "karamatte kasanatta kimi no detarame",
+                "027": "buttagitte harattatte fueteiku",
+                "028": "NEON no machinami ni monokuro no yuki",
+                "029": "kajikanda yubi o atatametakutemo",
+                "030": "boku no te ja nigiremo shinai",
+                "031": "jaa konna no wa dou dai",
+                "032": "subete no kuro o masshiro ni nurikaerun da",
+                "033": "kotsu nara boku ga oshieyou",
+                "034": "zettai ni kimi nara yareru sa",
+                "035": "awayuki ga wadachi o umeteku",
+                "036": "kimi wa hashitta",
+                "037": "minna o hikitsurete",
+                "038": "nanimokamo teokure ni naru mae ni",
+                "039": "\"nee zenbu honto desho, dakara mou ikanaide\"",
+                "040": "wagako o dakiyose unazuita",
+                "041": "soba ni iru yo",
+                "042": "saigo ni koboreta yasashii detarame",
+                "043": "warattatte naitatte daijoubu",
+                "044": "futari o mimamotte toketeiku karada",
+                "045": "kitto mou heiki darou",
+                "046": "donna fuyu ni datte sa",
+                "047": "haru wa otozureru kara"
+            }
+        },
+        "motion": {
+            "01": "PV244_SNM"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "27",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV244.bin"
+        },
+        "rank_board_id": "134",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "58.5"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_244.ogg",
+        "song_name": "スノーマン",
+        "song_name_en": "Snowman",
+        "song_name_reading": "すのーまん",
+        "songinfo": {
+            "arranger": "halyosy",
+            "illustrator": "iXima",
+            "lyrics": "halyosy",
+            "music": "halyosy",
+            "_en": {
+                "arranger": "halyosy",
+                "illustrator": "iXima",
+                "lyrics": "halyosy",
+                "music": "halyosy"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

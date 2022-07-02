@@ -1,0 +1,385 @@
+{
+    "pv_401": {
+        "bpm": "300",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140905",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_401_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_401_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_401_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "11": {
+                            "spr_set_back": "SPR_EDIT_PVBACK080"
+                        },
+                        "01": {
+                            "stage": "STGNS013"
+                        },
+                        "02": {
+                            "stage": "STGNS009"
+                        },
+                        "03": {
+                            "stage": "STGNS006"
+                        },
+                        "04": {
+                            "spr_set_back": "SPR_EDIT_PVBACK101"
+                        },
+                        "05": {
+                            "spr_set_back": "SPR_EDIT_PVBACK156"
+                        },
+                        "06": {
+                            "spr_set_back": "SPR_EDIT_PVBACK102"
+                        },
+                        "07": {
+                            "spr_set_back": "SPR_EDIT_PVBACK157"
+                        },
+                        "08": {
+                            "spr_set_back": "SPR_EDIT_PVBACK154"
+                        },
+                        "09": {
+                            "stage": "STGNS017"
+                        },
+                        "length": "11"
+                    },
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "motion": {
+                        "10": "CMN_MCA00_50_30",
+                        "13": "CMN_MCA00_50_36",
+                        "14": "CMN_MCA00_50_32",
+                        "16": "CMN_MCA00_50_42",
+                        "18": "CMN_MCA00_50_53",
+                        "19": "CMN_MCA00_50_60_C",
+                        "21": "CMN_MCA00_70_24",
+                        "22": "CMN_MCA00_70_20",
+                        "23": "CMN_MCA00_70_11",
+                        "24": "CMN_MCA00_50_46",
+                        "25": "CMN_MCA00_50_41",
+                        "00": "CMN_MRA00_13_01",
+                        "01": "CMN_MCA00_50_21",
+                        "02": "CMN_MCA00_50_22",
+                        "03": "CMN_MCA00_50_31",
+                        "04": "CMN_MCA00_50_17",
+                        "05": "CMN_MCA00_50_26_A",
+                        "07": "CMN_MCA00_50_27",
+                        "08": "CMN_MCA00_50_28"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "24"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_401_normal.dsc",
+                    "script_format": "0x14050921",
+                    "se_name": "22_wood2",
+                    "songinfo": {
+                        "pv_editor": "ピジョン",
+                        "_en": {
+                            "pv_editor": "Pigeon"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "401"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS002"
+            },
+            "02": {
+                "stage": "STGNS031"
+            },
+            "03": {
+                "stage": "STGNS006"
+            },
+            "length": "3"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "君が好きで　君が好きで",
+            "002": "この心が　はじけそうだよ",
+            "003": "好きだ　君が好きだ",
+            "004": "この気持ちは　止められないよ",
+            "005": "だから　早く君に",
+            "006": "この心を　知ってほしいよ",
+            "007": "好きだ　君が好きだ",
+            "008": "この気持ちに　早く気付いてよ",
+            "009": "君のことが昔から好きだよ",
+            "010": "君のたよりないとこが好きだよ",
+            "011": "君が好きだよ　恋しているよ",
+            "012": "だけど君は私を見てないよ",
+            "013": "私昔から好きだよ",
+            "014": "君をいつでもどこでも見てるよ",
+            "015": "君が好きだよ　愛しているよ",
+            "016": "だけど君はとてもにぶいよ",
+            "017": "頑張るよ　負けないよ",
+            "018": "君を幸せにしてやんよ",
+            "019": "泣かないよ　前向くよ",
+            "020": "私がなんでもしてやんよ",
+            "021": "私のことは所詮お友達で",
+            "022": "なんにも君は考えてないでしょ",
+            "023": "気付いてよ　苦しいよ",
+            "024": "そろそろ私も泣いちゃうよ",
+            "025": "私の気持ちに気付いてよ",
+            "026": "片想いはもう嫌なんよ",
+            "027": "じらしたりなんかしないでよ",
+            "028": "ホントは気付いているんでしょ",
+            "029": "いいから私を誘ってよ",
+            "030": "断ったりなんかしないよ",
+            "031": "抱きしめてくれるだけでもいいんだよ",
+            "032": "だけど今の関係は好きだよ",
+            "033": "別にこれでも満足してるよ",
+            "034": "君と話すよ　君と笑うよ",
+            "035": "それで私は幸せなんだよ",
+            "036": "私告白はしないよ",
+            "037": "今の関係壊すの嫌だよ",
+            "038": "私話すよ　私笑うよ",
+            "039": "これ以上進むの怖いよ",
+            "040": "行かないよ　やらないよ",
+            "041": "私の気持ちは言わないよ",
+            "042": "知らないよ　止めないよ",
+            "043": "君はこのままでいいんだよ",
+            "044": "私のことは所詮お友達で",
+            "045": "これから先に進むとかないでしょ",
+            "046": "気付いてよ　悲しいよ",
+            "047": "私もたまには泣くんだよ",
+            "048": "私の気持ちに気付いてよ",
+            "049": "片想いはもう嫌なんよ",
+            "050": "じらしたりなんかしないでよ",
+            "051": "ホントは気付いているんでしょ",
+            "052": "私もそろそろ飽きちゃうよ",
+            "053": "嫌なら引き止めてみせてよ",
+            "054": "一言好きだと言ってほしいんだよ",
+            "055": "私やり方間違ってるかな",
+            "056": "私損な生き方してるかな",
+            "057": "君はなに考えているのかな",
+            "058": "君の気持ちを覗きこんでみたいんだ",
+            "059": "二人で遊びに出かける",
+            "060": "そしてそのまま最後はバイバイ",
+            "061": "それはやっぱりなんか変だよね",
+            "062": "だから早く抱いてください",
+            "063": "私の気持ちに気付いてよ",
+            "064": "片想いはもう嫌なんよ",
+            "065": "じらしたりなんかしないでよ",
+            "066": "ホントは気付いているんでしょ",
+            "067": "別れ際に飛びついてみる",
+            "068": "そのままくちびる押しあてる",
+            "069": "慌てる君をニヤリと見つめてみる",
+            "070": "君が好きで　君が好きで",
+            "071": "この心が　はじけそうだよ",
+            "072": "好きだ　君が好きだ",
+            "073": "この気持ちは　止められないよ",
+            "074": "今は　早く君と",
+            "075": "この心を　通わせたくて",
+            "076": "好きだ　君が好きだ",
+            "077": "この気持ちを　忘れたくないよ",
+            "_en": {
+                "001": "kimi ga suki de   kimi ga suki de",
+                "002": "kono kokoro ga   hajikesou da yo",
+                "003": "suki da   kimi ga suki da",
+                "004": "kono kimochi wa   tomerarenai yo",
+                "005": "dakara hayaku kimi ni",
+                "006": "kono kokoro o   shitte hoshii yo",
+                "007": "suki da   kimi ga suki da",
+                "008": "kono kimochi ni   hayaku kizuite yo",
+                "009": "kimi no koto ga mukashi kara suki da yo",
+                "010": "kimi no tayorinai toko ga suki da yo",
+                "011": "kimi ga suki da yo   koi shiteiru yo",
+                "012": "dakedo kimi wa watashi o mitenai yo",
+                "013": "watashi mukashi kara suki da yo",
+                "014": "kimi o itsudemo dokodemo miteru yo",
+                "015": "kimi ga suki da yo   aishiteiru yo",
+                "016": "dakedo kimi wa totemo nibui yo",
+                "017": "ganbaru yo   makenai yo",
+                "018": "kimi o shiawase ni shite yan yo",
+                "019": "nakanai yo   mae muku yo",
+                "020": "watashi ga nandemo shite yan yo",
+                "021": "watashi no koto wa shosen otomodachi de",
+                "022": "nannimo kimi wa kangaetenai desho",
+                "023": "kizuite yo   kurushii yo",
+                "024": "sorosoro watashi mo naichau yo",
+                "025": "watashi no kimochi ni kizuite yo",
+                "026": "kataomoi wa mou iya nan yo",
+                "027": "jirashitari nanka shinaide yo",
+                "028": "honto wa kizuiteirun desho",
+                "029": "ii kara watashi o sasotte yo",
+                "030": "kotowattari nanka shinai yo",
+                "031": "dakishimete kureru dake demo iin da yo",
+                "032": "dakedo ima no kankei wa suki da yo",
+                "033": "betsu ni kore demo manzoku shiteru yo",
+                "034": "kimi to hanasu yo   kimi to warau yo",
+                "035": "sore de watashi wa shiawase nan da yo",
+                "036": "watashi kokuhaku wa shinai yo",
+                "037": "ima no kankei kowasu no iya da yo",
+                "038": "watashi hanasu yo   watashi warau yo",
+                "039": "kore ijou susumu no kowai yo",
+                "040": "ikanai yo   yaranai yo",
+                "041": "watashi no kimochi wa iwanai yo",
+                "042": "shiranai yo   tomenai yo",
+                "043": "kimi wa kono mama de iin da yo",
+                "044": "watashi no koto wa shosen otomodachi de",
+                "045": "kore kara saki ni susumu toka nai desho",
+                "046": "kizuite yo   kanashii yo",
+                "047": "watashi mo tama ni wa nakun da yo",
+                "048": "watashi no kimochi ni kizuite yo",
+                "049": "kataomoi wa mou iya nan yo",
+                "050": "jirashitari nanka shinaide yo",
+                "051": "honto wa kizuiteirun desho",
+                "052": "watashi mo sorosoro akichau yo",
+                "053": "iya nara hikitomete misete yo",
+                "054": "hitokoto suki da to itte hoshiin da yo",
+                "055": "watashi yarikata machigatteru ka na",
+                "056": "watashi son na ikikata shiteru ka na",
+                "057": "kimi wa nani kangaeteiru no ka na",
+                "058": "kimi no kimochi o nozokikonde mitain da",
+                "059": "futari de asobi ni dekakeru",
+                "060": "soshite sono mama saigo wa BYE BYE",
+                "061": "sore wa yappari nanka hen da yo ne",
+                "062": "dakara hayaku daite kudasai",
+                "063": "watashi no kimochi ni kizuite yo",
+                "064": "kataomoi wa mou iya nan yo",
+                "065": "jirashitari nanka shinaide yo",
+                "066": "honto wa kizuiteirun desho",
+                "067": "wakaregiwa ni tobitsuite miru",
+                "068": "sono mama kuchibiru oshiateru",
+                "069": "awateru kimi o niyari to mitsumete miru",
+                "070": "kimi ga suki de   kimi ga suki de",
+                "071": "kono kokoro ga   hajikesou da yo",
+                "072": "suki da   kimi ga suki da",
+                "073": "kono kimochi wa   tomerarenai yo",
+                "074": "ima wa   hayaku kimi to",
+                "075": "kono kokoro o   kayowasetakute",
+                "076": "suki da   kimi ga suki da",
+                "077": "kono kimochi o wasuretakunai yo"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_26_A",
+            "11": "CMN_MCA00_50_27",
+            "12": "CMN_MCA00_50_29",
+            "13": "CMN_MCA00_50_50",
+            "14": "CMN_MCA00_50_30",
+            "15": "CMN_MCA00_50_35",
+            "16": "CMN_MCA00_70_24",
+            "17": "CMN_MCA00_50_57",
+            "18": "CMN_MCA00_50_58",
+            "19": "CMN_MCA00_50_37",
+            "20": "CMN_MCA00_50_40",
+            "21": "CMN_MCA00_50_41",
+            "22": "CMN_MCA00_50_42",
+            "23": "CMN_MCA00_50_43",
+            "24": "CMN_MCA00_50_60_A",
+            "25": "CMN_MCA00_50_56_B",
+            "26": "CMN_MCA00_70_15",
+            "27": "CMN_MCA00_50_60_C",
+            "28": "CMN_MCA00_50_46",
+            "29": "CMN_MCA00_70_21",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_20",
+            "02": "CMN_MCA00_50_39",
+            "03": "CMN_MCA00_50_18_B",
+            "04": "CMN_MCA00_50_19",
+            "05": "CMN_MCA00_70_14",
+            "06": "CMN_MCA00_50_12",
+            "07": "CMN_MCA00_50_13",
+            "08": "CMN_MCA00_50_49",
+            "09": "CMN_MCA00_50_51"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "20",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "196",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "53.0"
+        },
+        "se_name": "24_tambourine",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_401.ogg",
+        "song_name": "片想いサンバ",
+        "song_name_en": "One-Sided Love Samba",
+        "song_name_reading": "かたおもいさんば",
+        "songinfo": {
+            "arranger": "オワタP",
+            "illustrator": "鴨。",
+            "lyrics": "オワタP",
+            "music": "オワタP",
+            "pv_editor": "佳崎未有",
+            "_en": {
+                "arranger": "Owata P",
+                "illustrator": "Kamo｡",
+                "lyrics": "Owata P",
+                "music": "Owata P",
+                "pv_editor": "Miu Kasaki"
+            }
+        },
+        "sudden_timing": "0.57",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

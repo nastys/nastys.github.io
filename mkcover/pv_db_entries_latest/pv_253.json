@@ -1,0 +1,211 @@
+{
+    "pv_253": {
+        "bpm": "138",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20170222",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_253_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_253_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_253_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_253_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "253"
+        },
+        "frame_texture_a": "F_DIVA_STGPV253_SA_CAPTURE_01_HAPPY",
+        "frame_texture_b": "F_DIVA_STGPV253_SA_CAPTURE_02_MERRYGOROUND",
+        "frame_texture_c": "F_DIVA_STGPV253_SA_CAPTURE_03_COFFEECUP",
+        "frame_texture_d": "F_DIVA_STGPV253_SA_CAPTURE_04_PARADE",
+        "frame_texture_e": "F_DIVA_STGPV253_SA_CAPTURE_05_ROLLERCOASTER",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "I'll give you lots of laugh.",
+            "002": "You'll give me lots of laugh.",
+            "003": "I'll give you lots of laugh.",
+            "004": "You'll give me lots of laugh.",
+            "005": "パソコンを投げ出して",
+            "006": "素足で飛び出したの",
+            "007": "気がつけばもう真夜中",
+            "008": "「ここはどこ？」 午前2時半",
+            "009": "ピンク色したウサギ",
+            "010": "「マイゴニナリマシタカ？」",
+            "011": "手をつなぎいざなうの",
+            "012": "みるみるうちに小さく！？",
+            "013": "モノグラムの世界",
+            "014": "ByeByeを告げる時がきた",
+            "015": "プラトニックなチカラなの",
+            "016": "それがすべてでしょう",
+            "017": "ねぇ？ lots of laugh",
+            "018": "チョコレイトバスタブ",
+            "019": "生クリィムのシャボンの中で眠ってた",
+            "020": "あたしは lol（エル オー エル）",
+            "021": "降り出した雨さえも",
+            "022": "舌で踊る sweet sweet キャンディ",
+            "023": "タルトのソファーに座り",
+            "024": "明け方の月を見上げる",
+            "025": "夢が夢じゃなくなる",
+            "026": "デジタルな世の中に",
+            "027": "あたしお疲れ様で",
+            "028": "もう決めた！　ここで暮らす！",
+            "029": "ワクワク止まらない",
+            "030": "今生きている・過去さよなら",
+            "031": "無機質な言葉さえも",
+            "032": "殻を破って今そう！　lots of laugh",
+            "033": "パンケーキ　キャラメルの",
+            "034": "ソースかけて食べつくすリアルな気持ち",
+            "035": "あたしは lol（エル オー エル）",
+            "036": "モノグラムの世界",
+            "037": "ByeBye を告げる時がきた",
+            "038": "プラトニックなチカラなの",
+            "039": "それがすべてでしょう",
+            "040": "ねぇ？　lots of laugh",
+            "041": "チョコレイトバスタブ",
+            "042": "生クリィムのシャボンの中で眠ってた",
+            "043": "あたしは lol（エル オー エル）",
+            "_en": {
+                "001": "I'll give you lots of laugh.",
+                "002": "You'll give me lots of laugh.",
+                "003": "I'll give you lots of laugh.",
+                "004": "You'll give me lots of laugh.",
+                "005": "pasokon o nagedashite",
+                "006": "suashi de tobidashita no",
+                "007": "ki ga tsukeba mou mayonaka",
+                "008": "koko wa doko?    gozen nijihan",
+                "009": "PINK iro shita usagi",
+                "010": "maigo ni narimashita ka?",
+                "011": "te o tsunagi izanau no",
+                "012": "mirumiru uchi ni chiisaku!?",
+                "013": "MONOGRAM no sekai",
+                "014": "BYE-BYE o tsugeru toki ga kita",
+                "015": "PLATONIC na chikara na no",
+                "016": "sore ga subete deshou",
+                "017": "nee?    LOTS OF LAUGH",
+                "018": "CHOCOLATE BATHTUB",
+                "019": "nama-CREAM no shabon no naka de nemutteta",
+                "020": "atashi wa L-O-L",
+                "021": "furidashita ame sae mo",
+                "022": "shita de odoru SWEET SWEET CANDY",
+                "023": "TART no SOFA ni suwari",
+                "024": "akegata no tsuki o miageru",
+                "025": "yume ga yume ja nakunaru",
+                "026": "DIGITAL na yononaka ni",
+                "027": "atashi otsukare-sama de",
+                "028": "mou kimeta!    koko de kurasu!",
+                "029": "wakuwaku tomaranai",
+                "030": "ima ikiteiru - kako sayonara",
+                "031": "mukishitsu na kotoba sae mo",
+                "032": "kara o yabutte ima sou!    LOTS OF LAUGH",
+                "033": "PANCAKE    CARAMEL no",
+                "034": "SAUCE kakete tabetsukusu REAL na kimochi",
+                "035": "atashi wa L-O-L",
+                "036": "MONOGRAM no sekai",
+                "037": "BYE-BYE o tsugeru toki ga kita",
+                "038": "PLATONIC na chikara na no",
+                "039": "sore ga subete deshou",
+                "040": "nee?    LOTS OF LAUGH",
+                "041": "CHOCOLATE BATHTUB",
+                "042": "nama-CREAM no shabon no naka de nemutteta",
+                "043": "atashi wa L-O-L"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV253_LOL"
+        },
+        "npr": {
+            "chara_lightness": "1.05"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "155",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV253.bin"
+        },
+        "rank_board_id": "156",
+        "resolution_scale_neo": "0.95",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "71.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_253.ogg",
+        "song_name": "LOL -lots of laugh-",
+        "song_name_en": "LOL -lots of laugh-",
+        "song_name_reading": "えるおーえる",
+        "songinfo": {
+            "arranger": "KeN",
+            "illustrator": "ほにゃらら",
+            "lyrics": "エンドケイプ",
+            "music": "KeN",
+            "_en": {
+                "arranger": "KeN",
+                "illustrator": "Honyalala",
+                "lyrics": "Endcape",
+                "music": "KeN"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

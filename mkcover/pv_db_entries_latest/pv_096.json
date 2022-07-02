@@ -1,0 +1,204 @@
+{
+    "pv_096": {
+        "bpm": "183",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_096_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_096_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_096_extreme_1.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_096_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_096_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "096",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "にわか雨が通り過ぎてく",
+            "002": "ずぶぬれの僕らは立ち尽くして",
+            "003": "",
+            "004": "夏の匂いが少しした",
+            "005": "ねえこのまま旅に出かけようよ",
+            "006": "どこか遠く",
+            "008": "どれくらい時が過ぎたって",
+            "009": "この思いを胸にしまって",
+            "010": "僕らは生きてゆくんだ",
+            "011": "愛とmusicそれだけでいいんだ",
+            "012": "欲しいものは全てあるから",
+            "013": "僕の中に",
+            "014": "",
+            "015": "海が近づく",
+            "016": "このまま泳げるかもね",
+            "017": "",
+            "018": "窓は全部開けちゃってさ",
+            "019": "風に乗って気の向くまま行こう",
+            "020": "",
+            "021": "調子外れの鼻歌も",
+            "022": "くだらないその冗談もそうね",
+            "023": "悪くない",
+            "025": "この世界はいつか変わっても",
+            "026": "夜を越えてここに戻って",
+            "027": "僕らは確かめるんだ",
+            "028": "おどけたように君が笑って",
+            "029": "少し気取って僕が返した",
+            "030": "過ぎゆく日を",
+            "031": "",
+            "032": "時計の針は回り続ける",
+            "033": "君は何を信じていくの",
+            "034": "それはね",
+            "036": "どれくらい時が過ぎたって",
+            "037": "この思いを胸にしまって",
+            "038": "僕らは生きていくんだ",
+            "039": "愛とmusicそれだけでいいんだ",
+            "040": "大事なものは全てあるのさ",
+            "041": "最初から",
+            "042": "君の中に",
+            "_en": {
+                "000": "",
+                "001": "niwaka ame ga toorisugiteku",
+                "002": "zubunure no bokura wa tachitsukushite",
+                "003": "",
+                "004": "natsu no nioi ga sukoshi shita",
+                "005": "nee kono mama tabi ni dekakeyou yo",
+                "006": "dokoka tooku",
+                "008": "dore kurai toki ga sugitatte",
+                "009": "kono omoi o mune ni shimatte",
+                "010": "bokura wa ikite yukun da",
+                "011": "ai to MUSIC sore dake de iin da",
+                "012": "hoshii mono wa subete aru kara",
+                "013": "boku no naka ni",
+                "014": "",
+                "015": "umi ga chikazuku",
+                "016": "kono mama oyogeru kamo ne",
+                "017": "",
+                "018": "mado wa zenbu akechatte sa",
+                "019": "kaze ni notte ki no muku mama ikou",
+                "020": "",
+                "021": "choushi hazure no hanauta mo",
+                "022": "kudaranai sono joudan mo sou ne",
+                "023": "warukunai",
+                "025": "kono sekai wa itsuka kawattemo",
+                "026": "yoru o koete koko ni modotte",
+                "027": "bokura wa tashikamerun da",
+                "028": "odoketa you ni kimi ga waratte",
+                "029": "sukoshi kidotte boku ga kaeshita",
+                "030": "sugiyuku hi o",
+                "031": "",
+                "032": "tokei no hari wa mawaritsuzukeru",
+                "033": "kimi wa nani o shinjite iku no",
+                "034": "sore wa ne",
+                "036": "dore kurai toki ga sugitatte",
+                "037": "kono omoi o mune ni shimatte",
+                "038": "bokura wa ikite ikun da",
+                "039": "ai to MUSIC sore dake de iin da",
+                "040": "daiji na mono wa subete aru no sa",
+                "041": "saisho kara",
+                "042": "kimi no naka ni"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV096_SRG_00_C00_00A"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "80",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "71",
+        "sabi": {
+            "play_time": "31.0",
+            "start_time": "33.5"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_096.ogg",
+        "song_name": "積乱雲グラフィティ",
+        "song_name_en": "Sekiranun Graffiti",
+        "song_name_reading": "せきらんうんぐらふぃてぃ",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "宇木敦哉",
+            "lyrics": "Dixie Flatline",
+            "manipulator": "Programming&All Instrumental：ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Uki Atsuya",
+                "lyrics": "Dixie Flatline",
+                "manipulator": "Programming&All Instrumental:ryo",
+                "music": "ryo"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

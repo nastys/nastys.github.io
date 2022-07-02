@@ -1,0 +1,212 @@
+{
+    "pv_046": {
+        "bpm": "98",
+        "date": "20120313",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_046_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_046_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_046_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_046_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_046_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "046",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "背中を向けて君は歩き出した",
+            "002": "交わす言葉も無いまま",
+            "003": "揺れる心の中　子供のように叫んだ",
+            "004": "行かないで　行かないで　ねえ…",
+            "005": "背中を向けて僕は歩き出した",
+            "006": "涙落ちる前に行かなきゃ",
+            "007": "幸せすぎるのは嫌いだと偽った",
+            "008": "強がって手放した理想の未来",
+            "009": "取り戻せぬ願い",
+            "010": "",
+            "011": "少し広く感じる　この狭いワンルーム",
+            "012": "心の隙間を広げるようだ",
+            "013": "少し長く感じる　ほんの一分一秒",
+            "014": "君と過ごせたら、と",
+            "015": "願うことさえ許されない世界なのかな",
+            "016": "たった一つの嘘でさえも",
+            "017": "君の涙を生んでしまう",
+            "018": "数え切れないほどの罪を重ねてきた",
+            "019": "その手に触れたこと",
+            "020": "君の隣でそっと生きようとしたこと",
+            "021": "",
+            "022": "孤独の痛みで償うから",
+            "023": "",
+            "024": "君の記憶にそっと居させて",
+            "025": "",
+            "026": "変わらない気持ちでまた出会えたら良いね",
+            "027": "そして手を繋ごう",
+            "028": "そのときまで",
+            "029": "「またね」",
+            "030": "",
+            "_en": {
+                "001": "senaka o mukete kimi wa arukidashita",
+                "002": "kawasu kotoba mo nai mama",
+                "003": "yureru kokoro no naka   kodomo no you ni sakenda",
+                "004": "ikanaide   ikanaide   nee...",
+                "005": "senaka o mukete boku wa arukidashita",
+                "006": "namida ochiru mae ni ikanakya",
+                "007": "shiawasesugiru no wa kirai da to itsuwatta",
+                "008": "tsuyogatte tebanashita risou no mirai",
+                "009": "torimodosenu negai",
+                "010": "",
+                "011": "sukoshi hiroku kanjiru   kono semai ONE ROOM",
+                "012": "kokoro no sukima o hirogeru you da",
+                "013": "sukoshi nagaku kanjiru   hon no ippun ichibyou",
+                "014": "kimi to sugosetara, to",
+                "015": "negau koto sae yurusarenai sekai na no ka na",
+                "016": "tatta hitotsu no uso de sae mo",
+                "017": "kimi no namida o unde shimau",
+                "018": "kazoekirenai hodo no tsumi o kasanete kita",
+                "019": "sono te ni fureta koto",
+                "020": "kimi no tonari de sotto ikiyou to shita koto",
+                "021": "",
+                "022": "kodoku no itami de tsugunau kara",
+                "023": "",
+                "024": "kimi no kioku ni sotto isasete",
+                "025": "",
+                "026": "kawaranai kimochi de mata deaetara ii ne",
+                "027": "soshite te o tsunagou",
+                "028": "sono toki made",
+                "029": "\"mata ne\"",
+                "030": ""
+            }
+        },
+        "motion": {
+            "10": "PV046_FYY_00_C02_01A",
+            "11": "PV046_FYY_00_C06_00A",
+            "12": "PV046_FYY_00_C07_00A",
+            "13": "PV046_FYY_00_C08_00A",
+            "14": "PV046_FYY_00_C08_00A",
+            "15": "PV046_FYY_00_C06_01A",
+            "01": "PV046_FYY_00_C00_00A",
+            "02": "PV046_FYY_00_C01_00A",
+            "03": "PV046_FYY_00_C01_01A",
+            "04": "PV046_FYY_00_C02_00A",
+            "05": "PV046_FYY_00_C02_01A",
+            "06": "PV046_FYY_00_C03_00A",
+            "07": "PV046_FYY_00_C04_00A",
+            "08": "PV046_FYY_00_C04_01A",
+            "09": "PV046_FYY_00_C05_00A"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV046_FYY_00_C04_00A",
+                "stage": "STGD2PV046S04"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV046_FYY_00_C04_01A",
+                "stage": "STGD2PV046S04"
+            },
+            "length": "2"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "37",
+        "sabi": {
+            "play_time": "42.0",
+            "start_time": "98.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_046.ogg",
+        "song_name": "from Y to Y",
+        "song_name_en": "from Y to Y",
+        "song_name_reading": "ふろむわいとぅわい",
+        "songinfo": {
+            "arranger": "ジミーサムP",
+            "illustrator": "ジミーサムP",
+            "lyrics": "ジミーサムP",
+            "music": "ジミーサムP",
+            "_en": {
+                "arranger": "Jimmythumb P",
+                "illustrator": "Jimmythumb P",
+                "lyrics": "Jimmythumb P",
+                "music": "Jimmythumb P"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv046s04.txt",
+                "stage": "STGD2PV046S04"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

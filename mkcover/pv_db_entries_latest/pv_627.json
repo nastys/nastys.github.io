@@ -1,0 +1,189 @@
+{
+    "pv_627": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150312",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_627_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_627_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_627_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_627_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "627"
+        },
+        "effect_se_file_name": "rom/sound/pv627_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv627_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "あの傘が騙した日　空が泣いていた",
+            "002": "街は盲目で　疑わない",
+            "003": "君はその傘に　向けて唾を吐き",
+            "004": "雨に沈んでく　サイレンと",
+            "005": "誰の声も聞かずに",
+            "006": "彼は雨を掴み",
+            "007": "私の手をとりあの傘へ",
+            "008": "走るの",
+            "009": "二人きりの約束をした",
+            "010": "「絵本の中に見つけた空を見に行こう」",
+            "011": "刹那雨さえも引き裂いて",
+            "012": "もう悲しむ事も忘れたまま",
+            "013": "白い影はもう追ってこなくて",
+            "014": "とても悲しそうに消えた",
+            "015": "錆びた匂いも煤けた黒さえも",
+            "016": "やがて色を淡く変え",
+            "017": "何処からか声が聞こえた様な",
+            "018": "気がした様な　忘れた様な",
+            "019": "螺旋階段の突き当たりには",
+            "020": "とても小さな扉が",
+            "021": "埃を纏い待っていた",
+            "022": "そこには何もかもがある様に見えた",
+            "023": "色とりどりに咲いた花　深い青空",
+            "024": "滲んだ世界に二人きり",
+            "025": "もう何もいらないわ",
+            "026": "絵本の中　とじ込んだ空を",
+            "027": "在るべき場所に返した　忘れない様に",
+            "028": "君がくれた　拙い花束を",
+            "029": "笑いながら　そっと肩を寄せた",
+            "030": "世界の最後に傘を差す",
+            "031": "ずっとこんな世界ならば　よかったのに",
+            "032": "悲しくないわ　君の側で...",
+            "033": "花の咲いたその傘の上には",
+            "034": "とても幸せそうな顔で",
+            "035": "小さく眠る二人がいた",
+            "_en": {
+                "001": "ano kasa ga damashita hi   sora ga naiteita",
+                "002": "machi wa moumoku de   utagawanai",
+                "003": "kimi wa sono kasa ni   mukete tsuba o haki",
+                "004": "ame ni shizundeku   SIREN to",
+                "005": "dare no koe mo kikazu ni",
+                "006": "kare wa ame o tsukami",
+                "007": "watashi no te o tori ano kasa e",
+                "008": "hashiru no",
+                "009": "futarikiri no yakusoku o shita",
+                "010": "\"ehon no naka ni mitsuketa sora o mi ni ikou\"",
+                "011": "setsuna ame sae mo hikisaite",
+                "012": "mou kanashimu koto mo wasureta mama",
+                "013": "shiroi kage wa mou ottekonakute",
+                "014": "totemo kanashisou ni kieta",
+                "015": "sabita nioi mo susuketa kuro sae mo",
+                "016": "yagate iro o awaku kae",
+                "017": "doko kara ka koe ga kikoeta you na",
+                "018": "ki ga shita you na   wasureta you na",
+                "019": "rasen kaidan no tsukiatari ni wa",
+                "020": "totemo chiisana tobira ga",
+                "021": "hokori o matoi matteita",
+                "022": "soko ni wa nanimokamo ga aru you ni mieta",
+                "023": "irotoridori ni saita hana   fukai aozora",
+                "024": "nijinda sekai ni futarikiri",
+                "025": "mou nanimo iranai wa",
+                "026": "ehon no naka   tojikonda sora o",
+                "027": "arubeki toko ni kaeshita   wasurenai you ni",
+                "028": "kimi ga kureta   tsutanai hanataba o",
+                "029": "warainagara   sotto kata o yoseta",
+                "030": "sekai no saigo ni kasa o sasu",
+                "031": "zutto konna sekai naraba   yokatta no ni",
+                "032": "kanashikunai wa   kimi no soba de...",
+                "033": "hana no saita sono kasa no ue ni wa",
+                "034": "totemo shiawasesou na kao de",
+                "035": "chiisaku nemuru futari ga ita"
+            }
+        },
+        "motion": {
+            "01": "PV627_WEU_P1_00"
+        },
+        "movie_file_name": "rom/movie/pv_627.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "101",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV627.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "100",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "50.8"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_627.ogg",
+        "song_name": "WORLD'S END UMBRELLA",
+        "song_name_en": "World's End Umbrella",
+        "song_name_reading": "わーるずえんどあんぶれら",
+        "songinfo": {
+            "arranger": "ハチ",
+            "illustrator": "南方研究所",
+            "lyrics": "ハチ",
+            "music": "ハチ",
+            "_en": {
+                "arranger": "Hachi",
+                "illustrator": "MINAKATALABORATORY",
+                "lyrics": "Hachi",
+                "music": "Hachi"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

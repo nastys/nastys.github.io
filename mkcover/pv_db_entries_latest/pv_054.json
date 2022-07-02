@@ -1,0 +1,198 @@
+{
+    "pv_054": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_054_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_054_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_054_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_054_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_054_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "054",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "街明かり 華やか エーテル麻酔の冷たさ",
+            "002": "眠れない 午前二時 全てが急速に変わる",
+            "003": "オイル切れのライター",
+            "004": "焼けつくような胃の中",
+            "005": "全てがそう嘘なら",
+            "006": "本当に　 よかったのにね",
+            "007": "君の首を絞める夢を見た",
+            "008": "光の溢れる昼下がり",
+            "009": "君の細い喉が跳ねるのを",
+            "010": "泣き出しそうな眼で見ていた",
+            "011": "",
+            "012": "核融合炉にさ 飛び込んでみたいと思う",
+            "013": "真っ青な光包まれて奇麗",
+            "014": "核融合炉にさ 飛び込んでみたら そしたら",
+            "015": "すべてが許されるような気がして",
+            "016": "",
+            "017": "時計の秒針や テレビの司会者や",
+            "018": "そこにいるけど 見えない誰かの",
+            "019": "笑い声 飽和して反響する",
+            "020": "アレグロ・アジテート",
+            "021": "耳鳴りが消えない止まない",
+            "022": "",
+            "023": "アレグロ・アジテート",
+            "024": "耳鳴りが消えない止まない",
+            "025": "",
+            "026": "誰も皆消えてく夢を見た",
+            "027": "真夜中の部屋の広さと",
+            "028": "静寂が胸につっかえて",
+            "029": "上手に息ができなくなる",
+            "030": "",
+            "031": "核融合炉にさ 飛び込んでみたら そしたら",
+            "032": "きっと眠るように消えていけるんだ",
+            "033": "僕のいない朝は 今よりずっと素晴らしくて",
+            "034": "全ての歯車が噛み合った",
+            "035": "きっとそんな世界だ",
+            "036": "",
+            "_en": {
+                "001": "machiakari hanayaka ETHER masui no tsumetasa",
+                "002": "nemurenai gozen niji subete ga kyuusoku ni kawaru",
+                "003": "OIL gire no LIGHTER",
+                "004": "yaketsuku you na i no naka",
+                "005": "subete ga sou uso nara",
+                "006": "hontou ni   yokatta no ni ne",
+                "007": "kimi no kubi o shimeru yume o mita",
+                "008": "hikari no afureru hirusagari",
+                "009": "kimi no hosoi nodo ga haneru no o",
+                "010": "nakidashisou na me de miteita",
+                "011": "",
+                "012": "kakuyuugouro ni sa tobikonde mitai to omou",
+                "013": "massao na hikari tsutsumarete kirei",
+                "014": "kakuyuugouro ni sa tobikonde mitara soshitara",
+                "015": "subete ga yurusareru you na ki ga shite",
+                "016": "",
+                "017": "tokei no byoushin ya terebi no shikaisha ya",
+                "018": "soko ni iru kedo mienai dareka no",
+                "019": "waraigoe houwa shite hankyou suru",
+                "020": "ALLEGRO AGITATO",
+                "021": "miminari ga kienai yamanai",
+                "022": "",
+                "023": "ALLEGRO AGITATO",
+                "024": "miminari ga kienai yamanai",
+                "025": "",
+                "026": "daremo minna kieteku yume o mita",
+                "027": "mayonaka no heya no hirosa to",
+                "028": "seijaku ga mune ni tsukkaete",
+                "029": "jouzu ni iki ga dekinakunaru",
+                "030": "",
+                "031": "kakuyuugouro ni sa tobikonde mitara soshitara",
+                "032": "kitto nemuru you ni kiete ikerun da",
+                "033": "boku no inai asa wa ima yori zutto subarashikute",
+                "034": "subete no haguruma ga kamiatta",
+                "035": "kitto sonna sekai da",
+                "036": ""
+            }
+        },
+        "motion": {
+            "01": "PV054_RSY_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "5",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "45",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "51.09"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_054.ogg",
+        "song_name": "炉心融解",
+        "song_name_en": "Roshin Yukai",
+        "song_name_reading": "ろしんゆうかい",
+        "songinfo": {
+            "arranger": "iroha(sasaki)",
+            "illustrator": "なぎみそ",
+            "lyrics": "kuma(alfred)",
+            "manipulator": "iroha(sasaki)",
+            "music": "iroha(sasaki)",
+            "_en": {
+                "arranger": "iroha(sasaki)",
+                "illustrator": "Nagimiso",
+                "lyrics": "kuma(alfred)",
+                "manipulator": "iroha(sasaki)",
+                "music": "iroha(sasaki)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

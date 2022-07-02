@@ -1,0 +1,204 @@
+{
+    "pv_640": {
+        "bpm": "197",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141204",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_640_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_640_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_640_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_640_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "640"
+        },
+        "effect_se_file_name": "rom/sound/pv640_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv640_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "どこから来たの？",
+            "002": "どんな姿をしているの？",
+            "003": "誰も知らない",
+            "004": "そうさ僕が夢喰い白黒バク",
+            "005": "これはお嬢さん",
+            "006": "夜中眠れずにいるのかい？",
+            "007": "それなら僕が",
+            "008": "魔法をかけてあげようか",
+            "009": "…ほら指切りで約束しよう",
+            "010": "怖いユメをみた？　僕に任せなよ",
+            "011": "丸ごと食べてあげよう",
+            "012": "もう心配ない　ゆっくりお休み",
+            "013": "嫌(ヤ)なこと　全部忘れてさ",
+            "014": "これはお嬢さん",
+            "015": "また頼みごとがあるって？",
+            "016": "断らないさ",
+            "017": "これこそが僕の幸せ",
+            "018": "…それならキスで約束しよう",
+            "019": "もっとユメをみたい？　僕に任せなよ",
+            "020": "全部与えてあげよう",
+            "021": "甘美なストーリー　耽美な淫夢を",
+            "022": "心ゆくまで召し上がれ",
+            "023": "もっと、もっと望めばいい",
+            "024": "欲望をさらけ出して",
+            "025": "もう二度と　抜け出せない",
+            "026": "底なしのパラダイスだ",
+            "027": "さあ、月が満ちたなら　役目は終わりさ",
+            "028": "お代は…分かってるよね？",
+            "029": "その瞳の奥　鮮やかな夢",
+            "030": "全部、全部　貰っていこうか",
+            "031": "惨めな顔だね　これが現実",
+            "032": "君が選んだことだろう？",
+            "033": "ユメに溺れたら夢は叶わない",
+            "034": "…モノクロの世界へようこそ！",
+            "_en": {
+                "001": "doko kara kita no?",
+                "002": "donna sugata o shiteiru no?",
+                "003": "dare mo shiranai",
+                "004": "sou sa boku ga yumekui shirokurobaku",
+                "005": "kore wa ojou-san",
+                "006": "yonaka nemurezu ni iru no kai?",
+                "007": "sorenara boku ga",
+                "008": "mahou o kakete ageyou ka",
+                "009": "...hora yubikiri de yakusoku shiyou",
+                "010": "kowai yume o mita?   boku ni makase na yo",
+                "011": "marugoto tabete ageyou",
+                "012": "mou shinpai nai   yukkuri oyasumi",
+                "013": "ya na koto   zenbu wasurete sa",
+                "014": "kore wa ojou-san",
+                "015": "mata tanomigoto ga aru tte?",
+                "016": "kotowaranai sa",
+                "017": "kore koso ga boku no shiawase",
+                "018": "...sorenara KISS de yakusoku shiyou",
+                "019": "motto yume o mitai?   boku ni makase na yo",
+                "020": "zenbu ataete ageyou",
+                "021": "kanbi na STORY   tanbi na inmu o",
+                "022": "kokoroyuku made meshiagare",
+                "023": "motto, motto nozomeba ii",
+                "024": "yokubou o sarakedashite",
+                "025": "mou nido to   nukedasenai",
+                "026": "sokonashi no PARADISE da",
+                "027": "saa, tsuki ga michita nara   yakume wa owari sa",
+                "028": "odai wa... wakatteru yo ne?",
+                "029": "sono hitomi no oku   azayaka na yume",
+                "030": "zenbu, zenbu   moratte ikou ka",
+                "031": "mijime na kao da ne   kore ga genjitsu",
+                "032": "kimi ga eranda koto darou?",
+                "033": "yume ni oboretara yume wa kanawanai",
+                "034": "...monokuro no sekai e youkoso!"
+            }
+        },
+        "motion": {
+            "01": "PV640_YSB_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "25",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV640.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "108",
+        "sabi": {
+            "play_time": "21.0",
+            "start_time": "49.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_640.ogg",
+        "song_name": "夢喰い白黒バク",
+        "song_name_en": "Dream-Eating Monochrome Baku",
+        "song_name_reading": "ゆめくいしろくろばく",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "197"
+                },
+                "length": "1"
+            },
+            "max_frame": "12810",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "0.25"
+        },
+        "songinfo": {
+            "arranger": "Nem",
+            "illustrator": "たま",
+            "lyrics": "Nem",
+            "music": "Nem",
+            "_en": {
+                "arranger": "Nem",
+                "illustrator": "Tama",
+                "lyrics": "Nem",
+                "music": "Nem"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

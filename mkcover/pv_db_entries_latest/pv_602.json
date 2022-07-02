@@ -1,0 +1,262 @@
+{
+    "pv_602": {
+        "bpm": "153",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV602_RIN_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "2",
+                "name": "RIN"
+            },
+            "num": "1"
+        },
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_602_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_602_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_602_extreme_1.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_602_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_602_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "602"
+        },
+        "effect_se_file_name": "rom/sound/pv602_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv602_effect",
+            "1": "pv602_effect_2",
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "\"最初から君を好きでいられて良かった\"",
+            "002": "なんて空に歌うんだ",
+            "003": "詰め込んだ夢を",
+            "004": "打ち上げる場所",
+            "005": "探し求めて",
+            "006": "この街から出た",
+            "007": "震える着信",
+            "008": "電源を切った",
+            "009": "燃え出す導火線",
+            "010": "誰も止められない",
+            "011": "世界の終わりが",
+            "012": "今訪れたとしたら",
+            "013": "全部ほっぽって",
+            "014": "ふたり永遠に一緒なのにね",
+            "015": "Like a Fire Flower",
+            "016": "僕が消えちゃわないように",
+            "017": "火の粉散らせ",
+            "018": "夢打ち上がれ",
+            "019": "\"最初から君を好きにならなきゃ良かった\"",
+            "020": "なんて嘘までついて",
+            "021": "産まれも育ちも",
+            "022": "ばらばらな僕ら",
+            "023": "姿も形も",
+            "024": "それぞれな僕ら",
+            "025": "男も女も",
+            "026": "ちぐはぐな僕ら",
+            "027": "それでも心を",
+            "028": "ひとつに出来たなら",
+            "029": "人生の途中が",
+            "030": "線香花火だとしたら",
+            "031": "一瞬でも",
+            "032": "ふたり照らす向日葵の様に",
+            "033": "Like a Fire Flower",
+            "034": "いつか夜空に大輪を",
+            "035": "咲かすその時まで待ってくれ",
+            "036": "\"最初から君を好きでいられて良かった\"",
+            "037": "なんて空に歌うんだ",
+            "_en": {
+                "001": "\"saisho kara kimi o suki de irarete yokatta\"",
+                "002": "nante sora ni utaun da",
+                "003": "tsumekonda yume o",
+                "004": "uchiageru basho",
+                "005": "sagashimotomete",
+                "006": "kono machi kara deta",
+                "007": "furueru chakushin",
+                "008": "dengen o kitta",
+                "009": "moedasu doukasen",
+                "010": "daremo tomerarenai",
+                "011": "sekai no owari ga",
+                "012": "ima otozureta to shitara",
+                "013": "zenbu hoppotte",
+                "014": "futari eien ni issho na no ni ne",
+                "015": "Like a Fire Flower",
+                "016": "boku ga kiechawanai you ni",
+                "017": "hi no ko chirase",
+                "018": "yume uchiagare",
+                "019": "\"saisho kara kimi o suki ni naranakya yokatta\"",
+                "020": "nante uso made tsuite",
+                "021": "umare mo sodachi mo",
+                "022": "barabara na bokura",
+                "023": "sugata mo katachi mo",
+                "024": "sorezore na bokura",
+                "025": "otoko mo onna mo",
+                "026": "chiguhagu na bokura",
+                "027": "sore demo kokoro o",
+                "028": "hitotsu ni dekita nara",
+                "029": "jinsei no tochuu ga",
+                "030": "senkou hanabi da to shitara",
+                "031": "isshun demo",
+                "032": "futari terasu himawari no you ni",
+                "033": "Like a Fire Flower",
+                "034": "itsuka yozora ni tairin o",
+                "035": "sakasu sono toki made mattekure",
+                "036": "\"saisho kara kimi o suki de irarete yokatta\"",
+                "037": "nante sora ni utaun da"
+            }
+        },
+        "motion": {
+            "01": "PV602_FIF_P1_00",
+            "02": "PV602_FIF_P1_10",
+            "2P": {
+                "01": "PV602_FIF_P2_00",
+                "02": "PV602_FIF_P2_10"
+            },
+            "3P": {
+                "01": "PV602_FIF_P3_00",
+                "02": "PV602_FIF_P3_10"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.9"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "21",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "17",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "RIN",
+                "pv_costume": "21",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV602.bin"
+        },
+        "pv_item": {
+            "01": "ITMPV602_HANABI_01",
+            "02": "ITMPV602_CAMERA_01__DIVSKN",
+            "03": "ITMPV602_KAKIKOHRI_01__DIVSKN"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "76",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "60.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_602.ogg",
+        "song_name": "Fire◎Flower",
+        "song_name_en": "Fire◎Flower",
+        "song_name_reading": "ふぁいやーふらわー",
+        "songinfo": {
+            "arranger": "halyosy",
+            "illustrator": "ixima",
+            "lyrics": "halyosy",
+            "music": "halyosy",
+            "_en": {
+                "arranger": "halyosy",
+                "illustrator": "ixima",
+                "lyrics": "halyosy",
+                "music": "halyosy"
+            }
+        },
+        "sort_index": "6",
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv602s01.txt",
+                "stage": "STGPV602S01"
+            },
+            "1": {
+                "collision_file": "coli_stgpv602s03.txt",
+                "stage": "STGPV602S03"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,264 @@
+{
+    "pv_038": {
+        "bpm": "185",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_038_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_038_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_038_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_038_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_038_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "038"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "強がってばっかでなんか",
+            "002": "損してる気がする　だってそうじゃん",
+            "003": "言えないようなコトがしたいの",
+            "004": "あんなコトとか",
+            "005": "やだ……どんなコト？",
+            "006": "オトコってバカばっかね",
+            "007": "変なコト今考えたでしょ",
+            "008": "キミって嘘がつけないタイプ",
+            "009": "だいぶ顔に出てる　Are you ok?",
+            "010": "情状酌量の余地ナシ",
+            "011": "まるでお話にならないわ",
+            "012": "",
+            "013": "壮大なロマン語る前に",
+            "014": "現状分析できてる？",
+            "015": "ああ！キミって鈍感",
+            "016": "ねえ",
+            "017": "ちゃんとこっち向いて Baby",
+            "018": "NO なんて言わせないわ",
+            "019": "本気モードなんだから",
+            "020": "思わず見とれちゃうぷるぷる唇で",
+            "021": "キミを虜にするの",
+            "022": "今日こそ勝負なんです！",
+            "023": "",
+            "024": "意地張ってばっかでなんか",
+            "025": "正直になれない　しょうがないじゃん",
+            "026": "後ろからぎゅってして欲しいの",
+            "027": "なんてね　えへへ",
+            "028": "……ってちょっと待って！？",
+            "029": "焦らせないで　まったく",
+            "030": "そういうのってもっとムードとかあるでしょ",
+            "031": "",
+            "032": "こんな気持ちにさせておいて",
+            "033": "ほっとかれるなんて許さない",
+            "034": "もう！責任取って？",
+            "035": "ねえ",
+            "036": "ちょっとこっち向いて Baby",
+            "037": "NO なんて言わせないわ",
+            "038": "その気にさせるんだから",
+            "039": "思わず拝みたくなるようなおみ足で",
+            "040": "キミを虜にするの",
+            "041": "デレデレしないでよ",
+            "042": "",
+            "043": "言葉じゃ伝わんない",
+            "044": "大きな大きなハートマーク",
+            "045": "",
+            "046": "どうしよう　胸がきゅんとして",
+            "047": "なんにも考えらんない",
+            "048": "うう　キミってやつは",
+            "049": "ねえ",
+            "050": "もっとこっち向いて Baby",
+            "051": "何度も言わせないで",
+            "052": "私もう知らないんだから",
+            "053": "思わず構っちゃいたくなるようなのも",
+            "054": "いいかな",
+            "055": "えっと今のはナシナシ",
+            "056": "なによもう　文句あんの",
+            "057": "",
+            "_en": {
+                "001": "tsuyogatte bakka de nanka",
+                "002": "son shiteru ki ga suru   datte soujan",
+                "003": "ienai you na koto ga shitai no",
+                "004": "anna koto toka",
+                "005": "yada... donna koto?",
+                "006": "otoko tte baka bakka ne",
+                "007": "hen na koto ima kangaeta desho",
+                "008": "kimi tte uso ga tsukenai TYPE",
+                "009": "daibu kao ni deteru   Are you ok?",
+                "010": "joujoushakuryou no yochi nashi",
+                "011": "marude ohanashi ni naranai wa",
+                "012": "",
+                "013": "soudai na roman kataru mae ni",
+                "014": "genjou bunseki dekiteru?",
+                "015": "aah! kimi tte donkan",
+                "016": "nee",
+                "017": "chanto kocchi muite BABY",
+                "018": "NO nante iwasenai wa",
+                "019": "honki MODE nan dakara",
+                "020": "omowazu mitorechau purupuru kuchibiru de",
+                "021": "kimi o toriko ni suru no",
+                "022": "kyou koso shoubu nan desu!",
+                "023": "",
+                "024": "iji hatte bakka de nanka",
+                "025": "shoujiki ni narenai   shouganai jan",
+                "026": "ushiro kara gyu tte shite hoshii no",
+                "027": "nante ne ehehe",
+                "028": "...tte chotto matte!?",
+                "029": "aserasenaide   mattaku",
+                "030": "souiu no tte motto MOOD toka aru desho",
+                "031": "",
+                "032": "konna kimochi ni sasete oite",
+                "033": "hottokareru nante yurusanai",
+                "034": "mou! sekinin totte?",
+                "035": "nee",
+                "036": "chotto kocchi muite BABY",
+                "037": "NO nante iwasenai wa",
+                "038": "sono ki ni saserun dakara",
+                "039": "omowazu ogamitakunaru you na omiashi de",
+                "040": "kimi o toriko ni suru no",
+                "041": "deredere shinaide yo",
+                "042": "",
+                "043": "kotoba ja tsutawannai",
+                "044": "ookina ookina HEART MARK",
+                "045": "",
+                "046": "doushiyou   mune ga kyun to shite",
+                "047": "nannimo kangaerannai",
+                "048": "uu   kimi tte yatsu wa",
+                "049": "nee",
+                "050": "motto kocchi muite BABY",
+                "051": "nando mo iwasenaide",
+                "052": "watashi mou shiranain dakara",
+                "053": "omowazu kamacchaitakunaru you na no mo",
+                "054": "ii ka na",
+                "055": "etto ima no wa nashi nashi",
+                "056": "nani yo mou   monku anno",
+                "057": ""
+            }
+        },
+        "motion": {
+            "01": "PV038_KMB_00_C00_00A",
+            "02": "PV038_KMB_00_C01_00A",
+            "03": "PV038_KMB_00_C02_00A",
+            "04": "PV038_KMB_00_C03_00A",
+            "05": "PV038_KMB_00_C04_00A",
+            "06": "PV038_KMB_00_C05_00A",
+            "07": "PV038_KMB_00_C06_00A",
+            "08": "PV038_KMB_00_C07_00A"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV038_KMB_00_C06_00A",
+                "stage": "STGD2PV038S01"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV038_KMB_00_C03_00A",
+                "stage": "STGD2PV038S01"
+            },
+            "length": "2"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "51",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "31",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "50.91"
+        },
+        "se_name": "06_button6",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_038.ogg",
+        "song_name": "こっち向いて Baby",
+        "song_name_en": "Look This Way, Baby",
+        "song_name_reading": "こっちむいてべいびー",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "宇木敦哉",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Uki Atsuya",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv038s01.txt",
+                "stage": "STGD2PV038S01"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

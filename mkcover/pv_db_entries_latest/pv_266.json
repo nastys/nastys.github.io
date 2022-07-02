@@ -1,0 +1,196 @@
+{
+    "pv_266": {
+        "bpm": "210",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20170301",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_266_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_266_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_266_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_266_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "266"
+        },
+        "frame_texture_a": "F_DIVA_STGNS266_SA_CHROMATICABERRATION_01_D",
+        "frame_texture_b": "F_DIVA_STGNS266_SA_CHROMATICABERRATION_02_D",
+        "frame_texture_c": "F_DIVA_STGNS266_SA_CHROMATICABERRATION_03_D",
+        "frame_texture_d": "F_DIVA_STGNS266_SA_GHOSTEFFECT_04_D",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "どうだっていい言を 嘘って吐いて戻れない",
+            "002": "時効なんてやってこない 奪ったように奪われて",
+            "003": "今日だって叶わない 思ったように騙せない",
+            "004": "腐っている僕には 腐ったものが理解らない",
+            "005": "おいでココまで 捨てい",
+            "006": "「隠して仕舞ったんだ」",
+            "007": "メーデー 僕と判っても もう抱き締めなくて易々んだよ",
+            "008": "メーデー 僕が解ったら もう一度嘲笑ってくれるかな",
+            "009": "マボロシだって知るんだよ",
+            "010": "嘘憑きだって知るんだよ",
+            "011": "ネェ",
+            "012": "NOだって言う筈が キョドってYESを声に出す",
+            "013": "後悔の脆弱は 騙したほうが正義なの",
+            "014": "卑怯だって構わない 祈っておいてそれはない",
+            "015": "飾っていた饒舌が 墓穴を掘って焼ける様",
+            "016": "負い目どこまで 灰色",
+            "017": "被害者ヅラしたって",
+            "018": "メーデー 僕を叱ってよ 正直者が夢見たいなら",
+            "019": "メーデー 僕を裁いてよ 最後まで甘えてしまうのは",
+            "020": "亡霊だって知るんだよ",
+            "021": "空白だって知るんだよ",
+            "022": "ネェ",
+            "023": "足りないものを望んだら 僕じゃない僕に出逢ったよ",
+            "024": "それでも前に進んだの クラクラしちゃう夜も",
+            "025": "足りない僕を愛してよ EGO-MAMAが僕を育てたの",
+            "026": "きみには僕が見えるかな 孤毒なピエロが",
+            "027": "メーデー 僕と判っても もう抱き締めなくて易々んだよ",
+            "028": "メーデー 僕が解ったら もう一度嘲笑ってくれるかな",
+            "029": "メーデー 僕を叱ってよ 正直者が夢見たいなら",
+            "030": "メーデー 僕を裁いてよ 最後まで甘えてしまうのは",
+            "031": "メーデー 僕を暴いてよ もう直終わるこの世界から",
+            "032": "メーデー 僕と踊ってよ 最初からイナイと理解ってた？",
+            "033": "嗚呼",
+            "034": "マボロシだって知るんだよ",
+            "035": "嘘憑きだって知るんだよ",
+            "036": "亡霊だって知るんだよ",
+            "037": "空白だって知るんだよ",
+            "038": "どうだっていい言を 嘘って吐いて戻れない",
+            "039": "時効なんてやってこない 奪ったように奪われて",
+            "_en": {
+                "001": "dou datte ii koto o   uso tte haite modorenai",
+                "002": "jikou nante yattekonai   ubatta you ni ubawarete",
+                "003": "kyou datte kanawanai   omotta you ni damasenai",
+                "004": "kusatteiru boku ni wa   kusatta mono ga wakaranai",
+                "005": "oide koko made   sutei",
+                "006": "“kakushite shimattan da”",
+                "007": "MAYDAY! boku to wakattemo  mou dakishimenakute iin da yo",
+                "008": "MAYDAY! boku ga wakattara mou ichido waratte kureru ka na",
+                "009": "maboroshi datte shirun da yo",
+                "010": "usotsuki datte shirun da yo",
+                "011": "nee",
+                "012": "NO datte iu hazu ga kyodo tte YES o koe ni dasu",
+                "013": "koukai no zeijaku wa   damashita hou ga seigi na no",
+                "014": "hikyou datte kamawanai   inotteoite sore wa nai",
+                "015": "kazatteita jouzetsu ga   boketsu wo hotte yakeru sama",
+                "016": "oime doko made   GREY",
+                "017": "higaisha zura shita tte",
+                "018": "MAYDAY! boku o shikatte yo   shoujikimono ga yume mitai nara",
+                "019": "MAYDAY! boku o sabaite yo   saigo made amaeteshimau no wa",
+                "020": "bourei datte shirun da yo",
+                "021": "kuuhaku datte shirun da yo",
+                "022": "nee",
+                "023": "tarinai mono wo nozondara   boku janai boku ni deatta yo",
+                "024": "sore demo mae ni susunda no   kurakura shichau yoru mo",
+                "025": "tarinai boku o aishite yo EGO-MAMA ga boku wo sodateta no",
+                "026": "kimi ni wa boku ga mieru ka na   kodoku na PIERO ga",
+                "027": "MAYDAY! boku to wakattemo  mou dakishimenakute iin da yo",
+                "028": "MAYDAY! boku ga wakattara mou ichido waratte kureru ka na",
+                "029": "MAYDAY! boku o shikatte yo   shoujikimono ga yume mitai nara",
+                "030": "MAYDAY! boku o sabaite yo   saigo made amaeteshimau no wa",
+                "031": "MAYDAY! boku o abaite yo mou jiki owaru kono sekai kara",
+                "032": "MAYDAY! boku to odotte yo   saisho kara inai to wakatteta?",
+                "033": "Aaah!",
+                "034": "maboroshi datte shirun da yo",
+                "035": "usotsuki datte shirun da yo",
+                "036": "bourei datte shirun da yo",
+                "037": "kuuhaku datte shirun da yo",
+                "038": "dou datte ii koto o   uso tte haite modorenai",
+                "039": "jikou nante yattekonai   ubatta you ni ubawarete"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV266_GST"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "175",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV266.bin"
+        },
+        "rank_board_id": "239",
+        "resolution_scale_neo": "0.9",
+        "sabi": {
+            "play_time": "22.86",
+            "start_time": "48.86"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_266.ogg",
+        "song_name": "ゴーストルール",
+        "song_name_en": "Ghost Rule",
+        "song_name_reading": "ごーすとるーる",
+        "songinfo": {
+            "arranger": "Naoki Itai (MUSIC FOR MUSIC)",
+            "illustrator": "八三",
+            "lyrics": "DECO*27",
+            "music": "DECO*27",
+            "pv_editor": "",
+            "_en": {
+                "arranger": "Naoki Itai (MUSIC FOR MUSIC)",
+                "illustrator": "HASSAN",
+                "lyrics": "DECO*27",
+                "music": "DECO*27"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

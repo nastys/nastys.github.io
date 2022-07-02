@@ -1,0 +1,190 @@
+{
+    "pv_088": {
+        "bpm": "183",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_088_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_088_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_088_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_088_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_088_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "088",
+            "title_end_2d_field": "4",
+            "title_start_2d_field": "4"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "6",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "ひとり灰色の丘　乾いた枯草踏みしめて",
+            "002": "思い巡らせる　空の彼方に",
+            "003": "風に揺れる花びら　柔らかなあなたの微笑み",
+            "004": "淡い記憶のかけら　セピア色の向こうの幻",
+            "006": "誰も知らない歌を奏でよう",
+            "007": "この身が錆びて停まろうとも",
+            "008": "崩れかけた墓標に歌い続けよう",
+            "009": "あなたの残した歌を",
+            "010": "",
+            "011": "この体は全て　作り物でしかないけど",
+            "012": "この心はせめて　歌に捧げていよう",
+            "014": "かすかに軋む銀の歯車",
+            "015": "響いてゆく鈍色の鼓動",
+            "016": "ガラスの瞳に映るこの空は",
+            "017": "どんなまやかしだろう",
+            "018": "",
+            "019": "あなたと出逢ったすみれの丘も",
+            "020": "幾千の夜に灰色の亡骸",
+            "021": "",
+            "022": "この体は全て　作り物でしかないけど",
+            "023": "この心はせめて　歌に捧げていよう",
+            "024": "この月の下で",
+            "025": "もうめぐり逢うこともないけど",
+            "026": "この空に向かって　歌い続けていよう",
+            "_en": {
+                "000": "",
+                "001": "hitori haiiro no oka   kawaita karekusa fumishimete",
+                "002": "omoi meguraseru   sora no kanata ni",
+                "003": "kaze ni yureru hanabira   yawaraka na anata no hohoemi",
+                "004": "awai kioku no kakera   SEPIA iro no mukou no maboroshi",
+                "006": "daremo shiranai uta o kanadeyou",
+                "007": "kono mi ga sabite tomarou tomo",
+                "008": "kuzurekaketa bohyou ni utaitsuzukeyou",
+                "009": "anata no nokoshita uta o",
+                "010": "",
+                "011": "kono karada wa subete   tsukurimono de shika nai kedo",
+                "012": "kono kokoro wa semete   uta ni sasageteiyou",
+                "014": "kasuka ni kishimu gin no haguruma",
+                "015": "hibiite yuku nibiiro no kodou",
+                "016": "GLASS no hitomi ni utsuru kono sora wa",
+                "017": "donna mayakashi darou",
+                "018": "",
+                "019": "anata to deatta sumire no oka mo",
+                "020": "ikusen no yoru ni haiiro no nakigara",
+                "021": "",
+                "022": "kono karada wa subete   tsukurimono de shika nai kedo",
+                "023": "kono kokoro wa semete   uta ni sasageteiyou",
+                "024": "kono tsuki no shita de",
+                "025": "mou meguriau koto mo nai kedo",
+                "026": "kono sora ni mukatte   utaitsuzuketeiyou"
+            }
+        },
+        "motion": {
+            "10": "PV088_SDK_00_C09_00A",
+            "11": "PV088_SDK_00_C10_00A",
+            "12": "PV088_SDK_00_C01_01A",
+            "00": "CMN_MRA00_13_01",
+            "01": "PV088_SDK_00_C00_00A",
+            "02": "PV088_SDK_00_C01_00A",
+            "03": "PV088_SDK_00_C02_00A",
+            "04": "PV088_SDK_00_C03_00A",
+            "05": "PV088_SDK_00_C04_00A",
+            "06": "PV088_SDK_00_C05_00A",
+            "07": "PV088_SDK_00_C06_00A",
+            "08": "PV088_SDK_00_C07_00A",
+            "09": "PV088_SDK_00_C08_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "11",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV088_GUITAR_05__DIVSKN"
+        },
+        "rank_board_id": "63",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "82.2"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_088.ogg",
+        "song_name": "千年の独奏歌 (DIVA edit)",
+        "song_name_en": "Thousand Year Solo (DIVA Edit)",
+        "song_name_reading": "せんねんのどくそうか",
+        "songinfo": {
+            "arranger": "yanagi",
+            "illustrator": "憂",
+            "lyrics": "yanagi",
+            "music": "yanagi",
+            "_en": {
+                "arranger": "yanagi",
+                "illustrator": "Yuu",
+                "lyrics": "yanagi",
+                "music": "yanagi"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

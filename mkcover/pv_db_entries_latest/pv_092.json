@@ -1,0 +1,151 @@
+{
+    "pv_092": {
+        "bpm": "82",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_092_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_092_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_092_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_092_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "092",
+            "title_end_2d_field": "4",
+            "title_start_2d_field": "4"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "誰より大切な君に",
+            "002": "愛されないことを恐れて",
+            "003": "一万年先の星まで",
+            "004": "ひとっ跳びで逃げた",
+            "006": "吸い込んだ真空の温度で",
+            "007": "感覚が凍りつく前に",
+            "008": "この身体一つ分の",
+            "009": "愛を",
+            "010": "",
+            "011": "愛を　今すぐ",
+            "012": "愛を　私に",
+            "013": "愛を　どうか",
+            "014": "愛を",
+            "015": "",
+            "016": "愛を…",
+            "_en": {
+                "000": "",
+                "001": "dare yori taisetsu na kimi ni",
+                "002": "aisarenai koto o osorete",
+                "003": "ichimannen saki no hoshi made",
+                "004": "hitottobi de nigeta",
+                "006": "suikonda shinkuu no ondo de",
+                "007": "kankaku ga kooritsuku mae ni",
+                "008": "kono karada hitotsubun no",
+                "009": "ai o",
+                "010": "",
+                "011": "ai o   ima sugu",
+                "012": "ai o   watashi ni",
+                "013": "ai o   douka",
+                "014": "ai o",
+                "015": "",
+                "016": "ai o..."
+            }
+        },
+        "motion": {
+            "10": "PV092_STD_00_C09_00A",
+            "11": "PV092_STD_00_C10_00A",
+            "12": "PV092_STD_00_C11_00A",
+            "13": "PV092_STD_00_C12_00A",
+            "14": "PV092_STD_00_C09_01A",
+            "00": "CMN_MRA00_13_01",
+            "01": "PV092_STD_00_C00_00A",
+            "02": "PV092_STD_00_C01_00A",
+            "03": "PV092_STD_00_C02_00A",
+            "04": "PV092_STD_00_C03_00A",
+            "05": "PV092_STD_00_C04_00A",
+            "06": "PV092_STD_00_C05_00A",
+            "07": "PV092_STD_00_C06_00A",
+            "08": "PV092_STD_00_C07_00A",
+            "09": "PV092_STD_00_C08_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "68",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "67",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "95.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_092.ogg",
+        "song_name": "Starduster",
+        "song_name_en": "Starduster",
+        "song_name_reading": "すたーだすたー",
+        "songinfo": {
+            "arranger": "ジミーサムP",
+            "illustrator": "さゆ吉",
+            "lyrics": "ジミーサムP",
+            "music": "ジミーサムP",
+            "_en": {
+                "arranger": "Jimmythumb P",
+                "illustrator": "Sayukichi",
+                "lyrics": "Jimmythumb P",
+                "music": "Jimmythumb P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

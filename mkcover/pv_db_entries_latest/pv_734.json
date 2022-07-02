@@ -1,0 +1,191 @@
+{
+    "pv_734": {
+        "bpm": "116",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151022",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_734_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_734_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_734_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_734_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "734"
+        },
+        "effect_se_file_name": "rom/sound/pv734_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv734_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "遠くでは　夜の匂いがする",
+            "002": "湿った風の音に　君が歩いて入ってくる",
+            "003": "今君が思ってること",
+            "004": "僕が全部　当てたげようか",
+            "005": "作り笑いの裏側を",
+            "006": "つかんで剥いで見せてやるよ",
+            "007": "その目を僕に向けたら",
+            "008": "話などしなくていいから",
+            "009": "その冷めた笑顔　ただちに捨ててしまえ",
+            "010": "意味のない声もぬくもりも",
+            "011": "お前が持ってるもの全部　あきらめよう",
+            "012": "壊してあげよう",
+            "013": "階段のぼりきった時から",
+            "014": "何も残らない気がしてたんだ",
+            "015": "大きな目　斜めそれても",
+            "016": "向けられているのは　白い目",
+            "017": "話すならこっち見ろよ",
+            "018": "叫びだす風の音引きずって",
+            "019": "まるで聞こえない　美しくもない言葉",
+            "020": "壊せ壊せ壊せ壊せ",
+            "021": "いらない　なにもいらない",
+            "022": "ああ　なんて下らない",
+            "023": "君という人",
+            "024": "遠くでは　雨の音がしてる",
+            "025": "重い夜空に　ふたりでただ黙って座ってる",
+            "026": "君といると少しずつ",
+            "027": "少しずつ少しずつ僕が削られて",
+            "028": "静かになって寒くなって",
+            "029": "白くなる硬くなる",
+            "030": "ああ　冷たくなる",
+            "031": "壊せ壊せ壊せ壊せ",
+            "032": "壊せ壊せ壊せいらない壊せ",
+            "033": "赤い赤い言葉も全部",
+            "034": "いらない　何もいらない",
+            "035": "ああ　なんて下らない",
+            "036": "会えない方がいい",
+            "_en": {
+                "001": "tooku de wa   yoru no nioi ga suru",
+                "002": "shimetta kaze no oto ni   kimi ga aruite haitte kuru",
+                "003": "ima kimi ga omotteru koto",
+                "004": "boku ga zenbu   atetageyou ka",
+                "005": "tsukuriwarai no uragawa o",
+                "006": "tsukande haide misete yaru yo",
+                "007": "sono me o boku ni muketara",
+                "008": "hanashi nado shinakute ii kara",
+                "009": "sono sameta egao   tadachi ni sutete shimae",
+                "010": "imi no nai koe mo nukumori mo",
+                "011": "omae ga motteru mono zenbu   akirameyou",
+                "012": "kowashite ageyou",
+                "013": "kaidan noborikitta toki kara",
+                "014": "nanimo nokoranai ki ga shitetan da",
+                "015": "ookina me   naname soretemo",
+                "016": "mukerareteiru no wa   shiroi me",
+                "017": "hanasu nara kocchi miro yo",
+                "018": "sakebidasu kaze no oto hikizutte",
+                "019": "marude kikoenai   utsukushikumonai kotoba",
+                "020": "kowase kowase kowase kowase",
+                "021": "iranai   nanimo iranai",
+                "022": "aah   nante kudaranai",
+                "023": "kimi to iu hito",
+                "024": "tooku de wa   ame no oto ga shiteru",
+                "025": "omoi yozora ni   futari de tada damatte suwatteru",
+                "026": "kimi to iru to sukoshizutsu",
+                "027": "sukoshizutsu sukoshizutsu boku ga kezurarete",
+                "028": "shizuka ni natte samuku natte",
+                "029": "shiroku naru kataku naru",
+                "030": "aah   tsumetaku naru",
+                "031": "kowase kowase kowase kowase",
+                "032": "kowase kowase kowase iranai kowase",
+                "033": "akai akai kotoba mo zenbu",
+                "034": "iranai   nanimo iranai",
+                "035": "aah   nante kudaranai",
+                "036": "aenai hou ga ii"
+            }
+        },
+        "motion": {
+            "01": "PV734_KKW_P1_00",
+            "02": "PV734_KKW_P1_10"
+        },
+        "movie_file_name": "rom/movie/pv_734.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "27",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV734.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "122",
+        "resolution_scale_neo": "0.75",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "59.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_734.ogg",
+        "song_name": "壊セ壊セ",
+        "song_name_en": "Break It, Break It!",
+        "song_name_reading": "こわせこわせ",
+        "songinfo": {
+            "arranger": "E.L.V.N",
+            "illustrator": "セツジ",
+            "lyrics": "E.L.V.N",
+            "music": "E.L.V.N",
+            "_en": {
+                "arranger": "E.L.V.N",
+                "illustrator": "Setsuji",
+                "lyrics": "E.L.V.N",
+                "music": "E.L.V.N"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

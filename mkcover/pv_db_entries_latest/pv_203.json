@@ -1,0 +1,162 @@
+{
+    "pv_203": {
+        "bpm": "120",
+        "date": "20130131",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_203_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_203_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_203_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "過ぎた季節 静かに滲む寒空",
+            "002": "通りを望むこの景色も移ろい行く",
+            "003": "戸惑いも悲しみも",
+            "004": "この声に乗せて",
+            "005": "孤独の果ての蜃気楼",
+            "006": "その背中に刺さる欠けた月",
+            "007": "路傍の果てに見えるのは",
+            "008": "ただ物言わぬ窓の影",
+            "009": "喰潰され 忘れ去られ",
+            "010": "形も無く消えていくだけ",
+            "011": "この歌さえ忘れ去られ",
+            "012": "風に流れ塵になり",
+            "013": "此処に在れど 其処に在れど",
+            "014": "忘れ去られ記憶の果てへ",
+            "015": "あの歌さえ この歌さえ",
+            "016": "世の無常を歌うように",
+            "017": "戸惑いも悲しみも",
+            "018": "この声に乗せてく",
+            "019": "後悔も絶望も",
+            "020": "この声が運んで",
+            "021": "孤独の果ての蜃気楼",
+            "022": "その背中に刺さる欠けた月",
+            "023": "路傍の果てに見えるのは",
+            "024": "ただ物言わぬ窓の影だけなのか",
+            "025": "孤独の果ての蜃気楼",
+            "026": "その背中に刺さる青い月",
+            "027": "繰り返しの果てに見えるのは",
+            "028": "ただ穏やかな星の夢の後先よ",
+            "_en": {
+                "001": "sugita kisetsu   shizuka ni nijimu samuzora",
+                "002": "toori o nozomu kono keshiki mo utsuroiyuku",
+                "003": "tomadoi mo   kanashimi mo",
+                "004": "kono koe ni nosete",
+                "005": "kodoku no hate no shinkirou",
+                "006": "sono senaka ni sasaru kaketa tsuki",
+                "007": "robou no hate ni mieru no wa",
+                "008": "tada mono iwanu mado no kage",
+                "009": "kuitsubusare   wasuresarare",
+                "010": "katachi mo naku kiete iku dake",
+                "011": "kono uta sae   wasuresarare",
+                "012": "kaze ni nagare chiri ni nari",
+                "013": "koko ni aredo   soko ni aredo",
+                "014": "wasuresarare kioku no hate e",
+                "015": "ano uta sae   kono uta sae",
+                "016": "yo no mujou o utau you ni",
+                "017": "tomadoi mo   kanashimi mo",
+                "018": "kono koe ni noseteku",
+                "019": "koukai mo   zetsubou mo",
+                "020": "kono koe ga hakonde",
+                "021": "kodoku no hate no shinkirou",
+                "022": "sono senaka ni sasaru kaketa tsuki",
+                "023": "robou no hate ni mieru no wa",
+                "024": "tada mono iwanu mado no kage dake na no ka",
+                "025": "kodoku no hate no shinkirou",
+                "026": "sono senaka ni sasaru aoi tsuki",
+                "027": "kurikaeshi no hate ni mieru no wa",
+                "028": "tada odayaka na hoshi no yume no atosaki yo"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_203.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "191",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "46.0"
+        },
+        "se_name": "06_button6",
+        "song_file_name": "rom/sound/song/pv_203.ogg",
+        "song_name": "孤独の果て",
+        "song_name_en": "Solitude's End",
+        "song_name_reading": "こどくのはて",
+        "songinfo": {
+            "arranger": "光収容",
+            "illustrator": "NEGI",
+            "lyrics": "光収容",
+            "music": "光収容",
+            "pv_editor": "NEGI",
+            "_en": {
+                "arranger": "Hikarisyuyo",
+                "illustrator": "NEGI",
+                "lyrics": "Hikarisyuyo",
+                "music": "Hikarisyuyo",
+                "pv_editor": "NEGI"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

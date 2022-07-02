@@ -1,0 +1,178 @@
+{
+    "pv_214": {
+        "bpm": "140",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_214_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_214_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_214_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "214",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "002": "切ないという感情を知る",
+            "003": "響くピアノ　不協和音",
+            "004": "悪い夢にうなされた私を早く起こして",
+            "005": "どんなことでも",
+            "006": "始まりは些細なことでしょう？",
+            "007": "どこがいいかなんて　聞かれても困る",
+            "008": "綺麗な夜に惑わされたまま行方不明だから",
+            "009": "長いまつげ",
+            "010": "三日月アイライン まぶたに乗せて",
+            "011": "光るリップ",
+            "012": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "013": "切ないという感情を知る",
+            "014": "響くピアノ　不協和音",
+            "015": "",
+            "016": "傷口から溶け出したものは",
+            "017": "愛情それとも　Ah...",
+            "018": "",
+            "019": "後悔は死ぬほどしてる",
+            "020": "その分だけ快感を呼び覚ます",
+            "021": "狂いだした私を止めて",
+            "022": "一瞬でラクにしてよ",
+            "023": "抱き寄せて　歪んだ体",
+            "024": "埋めるのはあなたしかいない",
+            "025": "そうでしょう？　わかってるくせに",
+            "026": "境界線とっくに越えてる",
+            "027": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "028": "切ないという感情を知る",
+            "029": "響くピアノ　不協和音",
+            "030": "右肩に紫蝶々",
+            "031": "",
+            "032": "切ないという感情を知る",
+            "033": "",
+            "034": "不協和音",
+            "035": "",
+            "_en": {
+                "001": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "002": "setsunai to iu kanjou o shiru",
+                "003": "hibiku PIANO   fukyouwaon",
+                "004": "warui yume ni unasareta watashi o hayaku okoshite",
+                "005": "donna koto demo",
+                "006": "hajimari wa sasai na koto deshou?",
+                "007": "doko ga ii ka nante   kikaretemo komaru",
+                "008": "kirei na yoru ni madowasareta mama yukue fumei dakara",
+                "009": "nagai matsuge",
+                "010": "mikazuki EYELINE   mabuta ni nosete",
+                "011": "hikaru LIP",
+                "012": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "013": "setsunai to iu kanjou o shiru",
+                "014": "hibiku PIANO   fukyouwaon",
+                "015": "",
+                "016": "kizuguchi kara tokedashita mono wa",
+                "017": "aijou soretomo   ah...",
+                "018": "",
+                "019": "koukai wa shinu hodo shiteru",
+                "020": "sono bun dake kaikan o yobisamasu",
+                "021": "kuruidashita watashi o tomete",
+                "022": "isshun de raku ni shite yo",
+                "023": "dakiyosete   yuganda karada",
+                "024": "umeru no wa anata shika inai",
+                "025": "sou deshou?   wakatteru kuse ni",
+                "026": "kyoukaisen tokku ni koeteru",
+                "027": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "028": "setsunai to iu kanjou o shiru",
+                "029": "hibiku PIANO   fukyouwaon",
+                "030": "migikata ni murasaki chouchou",
+                "031": "",
+                "032": "setsunai to iu kanjou o shiru",
+                "033": "",
+                "034": "fukyouwaon",
+                "035": ""
+            }
+        },
+        "motion": {
+            "01": "PV214_MIG_P1",
+            "2P": {
+                "01": "PV214_MIG_P2"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "176",
+        "sabi": {
+            "play_time": "20.0",
+            "start_time": "148.0"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_214.ogg",
+        "song_name": "右肩の蝶 -39's Giving Day Edition-",
+        "song_name_en": "Butterfly on Your Right Shoulder -39's Giving Day Edition-",
+        "song_name_reading": "みぎかたのちょう　さんくすぎびんぐでいえでぃしょん",
+        "songinfo": {
+            "arranger": "のりぴー",
+            "lyrics": "水野悠良",
+            "manipulator": "のりぴー",
+            "music": "のりぴー",
+            "_en": {
+                "arranger": "noripy",
+                "lyrics": "Yura Mizuno",
+                "manipulator": "noripy",
+                "music": "noripy"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

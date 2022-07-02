@@ -1,0 +1,197 @@
+{
+    "pv_726": {
+        "bpm": "204",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV726_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "1": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV726_MIK_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "1",
+                "name": "MIK"
+            },
+            "num": "2"
+        },
+        "date": "20151022",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_726_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_726_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_726_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_726_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "726"
+        },
+        "effect_se_file_name": "rom/sound/pv726_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv726_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "待ち合わせは2時間前で",
+            "002": "此処に独り　それが答えでしょ",
+            "003": "街ゆく人　流れる雲",
+            "004": "僕のことを嘲笑ってた",
+            "005": "それは簡単で　とても困難で",
+            "006": "認めることで前に進めるのに",
+            "007": "信じられなくて　信じたくなくて",
+            "008": "君の中できっと僕は道化師なんでしょ",
+            "009": "回って　回って　回り疲れて",
+            "010": "息が　息が切れたの",
+            "011": "そう、これが悲しい僕の末路だ",
+            "012": "君に辿り着けないままで",
+            "013": "回って　回って　回り疲れて",
+            "014": "息が　息が　息が止まるの",
+            "015": "変わって　変わって　変わってゆくのが",
+            "016": "怖い　怖いだけなの",
+            "017": "もう、やめた　ここで君を待つのは",
+            "018": "僕が壊れてしまうだけだ",
+            "019": "回って　回って　回り疲れて",
+            "020": "息が　息が止まるの",
+            "021": "そう、僕は君が望むピエロだ",
+            "022": "君が思うままに　操ってよ",
+            "_en": {
+                "001": "machiawase wa nijikan mae de",
+                "002": "koko ni hitori   sore ga kotae desho",
+                "003": "machi yuku hito   nagareru kumo",
+                "004": "boku no koto o azawaratteta",
+                "005": "sore wa kantan de   totemo konnan de",
+                "006": "mitomeru koto de mae ni susumeru no ni",
+                "007": "shinjirarenakute   shinjitakunakute",
+                "008": "kimi no naka de kitto boku wa doukeshi nan desho",
+                "009": "mawatte   mawatte   mawari tsukarete",
+                "010": "iki ga   iki ga kireta no",
+                "011": "sou, kore ga kanashii boku no matsuro da",
+                "012": "kimi ni tadoritsukenai mama de",
+                "013": "mawatte   mawatte   mawari tsukarete",
+                "014": "iki ga   iki ga   iki ga tomaru no",
+                "015": "kawatte   kawatte   kawatte yuku no ga",
+                "016": "kowai   kowai dake na no",
+                "017": "mou, yameta   koko de kimi o matsu no wa",
+                "018": "boku ga kowarete shimau dake da",
+                "019": "mawatte   mawatte   mawari tsukarete",
+                "020": "iki ga   iki ga tomaru no",
+                "021": "sou, boku wa kimi ga nozomu PIERROT da",
+                "022": "kimi ga omou mama ni   ayatsutte yo"
+            }
+        },
+        "motion": {
+            "01": "PV726_KKP_P1_00",
+            "2P": {
+                "01": "PV726_KKP_P2_00"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "136",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "137",
+                "size": "NORMAL",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV726.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "124",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "65.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_726.ogg",
+        "song_name": "からくりピエロ",
+        "song_name_en": "Karakuri Pierrot",
+        "song_name_reading": "からくりぴえろ",
+        "songinfo": {
+            "arranger": "40mP",
+            "illustrator": "ヤマコ",
+            "lyrics": "40mP",
+            "music": "40mP",
+            "_en": {
+                "arranger": "40mP",
+                "illustrator": "Yamako",
+                "lyrics": "40mP",
+                "music": "40mP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "pv_016": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_016_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_016_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_016_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_016_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "length": "0"
+            }
+        },
+        "disp2d": {
+            "set_name": "016",
+            "title_end_2d_field": "12",
+            "title_start_2d_field": "12"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "わんつーすりーふぉー！",
+            "002": "私があなたのもとに来た日を",
+            "003": "どうかどうか 忘れないでいて欲しいよ",
+            "004": "私のこと 見つめるあなたが嬉しそう",
+            "005": "だから ちょっぴり恥ずかしいけど",
+            "006": "歌を歌うよ",
+            "007": "言葉をくれたのなら",
+            "008": "メロディーと追いかけっこ",
+            "009": "でも何か 何か違う！",
+            "010": "上手く歌えてない",
+            "011": "パラメーターいじりすぎないで！",
+            "012": "だけど手抜きもイヤだよ",
+            "013": "アタックとかもうちょっと",
+            "014": "気を配って欲しいの",
+            "015": "ビブラートで誤魔化さないでよ",
+            "016": "そんな高音苦しいわ",
+            "017": "もっとちゃんと輝きたいのよ",
+            "018": "あなたの力量って そんなもの？",
+            "019": "響かせてキレイなレガート",
+            "020": "心揺さぶるフォルテ",
+            "021": "一つ一つ作り上げて",
+            "022": "命吹き込むから",
+            "023": "いつまでも一緒にいるよね",
+            "024": "どんな歌でも歌うから",
+            "025": "ずっとずっと 忘れないでよね",
+            "026": "これからもずっと よろしくね",
+            "_en": {
+                "001": "ONE TWO THREE FOUR!",
+                "002": "watashi ga anata no moto ni kita hi o",
+                "003": "douka douka   wasurenaideite hoshii yo",
+                "004": "watashi no koto   mitsumeru anata ga ureshisou",
+                "005": "dakara   choppiri hazukashii kedo",
+                "006": "uta o utau yo",
+                "007": "kotoba o kureta no nara",
+                "008": "MELODY to oikakekko",
+                "009": "demo nanka   nanka chigau!",
+                "010": "umaku utaetenai",
+                "011": "PARAMETER ijiri suginaide!",
+                "012": "dakedo tenuki mo iya da yo",
+                "013": "ATTACK toka mou chotto",
+                "014": "ki o kubatte hoshii no",
+                "015": "VIBRATO de gomakasanaide yo",
+                "016": "sonna kouon kurushii wa",
+                "017": "motto chanto kagayakitai no yo",
+                "018": "anata no rikiryou tte   sonna mono?",
+                "019": "hibikasete kirei na LEGATO",
+                "020": "kokoro yusaburu FORTE",
+                "021": "hitotsu hitotsu tsukuriagete",
+                "022": "inochi fukikomu kara",
+                "023": "itsumademo issho ni iru yo ne",
+                "024": "donna uta demo utau kara",
+                "025": "zutto zutto   wasurenaide yo ne",
+                "026": "kore kara mo zutto   yoroshiku ne"
+            }
+        },
+        "motion": {
+            "01": "PV016_MCA00_02_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "15",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "68.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_016.ogg",
+        "song_name": "恋スルＶＯＣ＠ＬＯＩＤ",
+        "song_name_en": "VOC@LOID in Love",
+        "song_name_reading": "こいするぼーかろいど",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "Yおじ",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "Y Oji",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "pv_039": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_039_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_039_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_039_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_039_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_039_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "039",
+            "title_end_2d_field": "5",
+            "title_start_2d_field": "5"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "君が触れていた世界が　私に移されてく",
+            "002": "あの空もこの部屋に射している光も全て",
+            "003": "初めて気づいた瞬間を言葉と音に変えて",
+            "004": "そっと指先でなぞるよ　怖がらないから",
+            "005": "まだ戸惑っているの",
+            "006": "繋がった手のひらから",
+            "007": "流れ込んだ　暖かなサウンド",
+            "008": "君だけのファインダーに映る景色は全て",
+            "009": "私が歌にするよ",
+            "010": "失った時間も未来も切り取っちゃえば",
+            "011": "笑顔だけ　見てたいの",
+            "012": "",
+            "013": "I think of you！",
+            "014": "このまま　ふたりで",
+            "015": "笑って　いたいよ",
+            "016": "君だけのファインダーに映る世界は全て",
+            "017": "私が歌で満たすの",
+            "018": "過ぎ去った昨日も未来も抱きしめて",
+            "019": "一つだけ　コトバ",
+            "020": "愛してる　君ニ",
+            "021": "伝えたい",
+            "022": "I sing for you！",
+            "023": "",
+            "_en": {
+                "001": "kimi ga fureteita sekai ga   watashi ni utsusareteku",
+                "002": "ano sora mo kono heya ni sashiteiru hikari mo subete",
+                "003": "hajimete kizuita shunkan o kotoba to oto ni kaete",
+                "004": "sotto yubisaki de nazoru yo   kowagaranai kara",
+                "005": "mada tomadotteiru no",
+                "006": "tsunagatta tenohira kara",
+                "007": "nagarekonda   atataka na SOUND",
+                "008": "kimi dake no FINDER ni utsuru keshiki wa subete",
+                "009": "watashi ga uta ni suru yo",
+                "010": "ushinatta jikan mo mirai mo kiritocchaeba",
+                "011": "egao dake   mitetai no",
+                "012": "",
+                "013": "I think of you!",
+                "014": "kono mama   futari de",
+                "015": "waratte   itai yo",
+                "016": "kimi dake no FINDER ni utsuru sekai wa subete",
+                "017": "watashi ga uta de mitasu no",
+                "018": "sugisatta kinou mo mirai mo dakishimete",
+                "019": "hitotsu dake   kotoba",
+                "020": "aishiteru   kimi ni",
+                "021": "tsutaetai",
+                "022": "I sing for you!",
+                "023": ""
+            }
+        },
+        "motion": {
+            "10": "PV039_FDE_00_C09_00A",
+            "11": "PV039_FDE_00_C10_00A",
+            "01": "PV039_FDE_00_C00_00A",
+            "02": "PV039_FDE_00_C01_00A",
+            "03": "PV039_FDE_00_C02_00A",
+            "04": "PV039_FDE_00_C03_00A",
+            "05": "PV039_FDE_00_C04_00A",
+            "06": "PV039_FDE_00_C05_00A",
+            "07": "PV039_FDE_00_C06_00A",
+            "08": "PV039_FDE_00_C07_00A",
+            "09": "PV039_FDE_00_C08_00A"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "58",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "147",
+        "sabi": {
+            "play_time": "37.5",
+            "start_time": "72.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_039.ogg",
+        "song_name": "ファインダー(DSLR remix - re:edit)",
+        "song_name_en": "Finder (DSLR remix - re:edit)",
+        "song_name_reading": "ふぁいんだー",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "redjuice",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "redjuice",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

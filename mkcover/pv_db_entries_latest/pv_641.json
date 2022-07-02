@@ -1,0 +1,413 @@
+{
+    "pv_641": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV641_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV641_MIK_002",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "length": "2"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "1": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV641_LUK_003",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "length": "1"
+                },
+                "id": "1",
+                "name": "LUK"
+            },
+            "num": "2"
+        },
+        "date": "20141204",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_641_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_641_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_641_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_641_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "641"
+        },
+        "effect_se_file_name": "rom/sound/pv641_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv641_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "100": "リンちゃんなう！　リンちゃんなう！！",
+            "101": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "102": "リンちゃんなう！　リンちゃんなう！！",
+            "103": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "104": "リンちゃんなう！　リンちゃんなう！！",
+            "105": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "106": "リンちゃんなう！　リンちゃんなう！！",
+            "107": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "108": "リンちゃんなう！　リンちゃんなう！！",
+            "109": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "110": "リンちゃんなう！　リンちゃんなう！！",
+            "111": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "112": "リンちゃんなう！　リンちゃんなう！！",
+            "113": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "001": "リンちゃんなう！　リンちゃんなう！！",
+            "002": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "003": "リンちゃんなう！　リンちゃんなう！！",
+            "004": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "005": "リンちゃんなう！　リンちゃんなう！！",
+            "006": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "007": "リンちゃんなう！　リンちゃんなう！！",
+            "008": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "009": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "010": "リンちゃんをぎゅーぎゅーしたいな",
+            "011": "じたじたするのを押さえ込んで",
+            "012": "ぎゅーってしたいな",
+            "013": "腕噛まれるのもアリだよ",
+            "014": "噛んでいいよ リンちゃん",
+            "015": "リンちゃんと二人で",
+            "016": "買い物に行くことになって、",
+            "017": "なんでもない顔で「デートだねー」って言って",
+            "018": "めちゃくちゃに意識させたい。",
+            "019": "リンちゃんのリボンは",
+            "020": "カチューシャについていますが、",
+            "021": "朝、こっそり猫耳にすり替えて、",
+            "022": "いつ気づくかなーと思っていたら、",
+            "023": "リンちゃんが出かけたのにぼくが気付かず、",
+            "024": "夕方帰ってきたリンちゃんが",
+            "025": "猫耳カチューシャを握りしめて",
+            "026": "真っ赤な顔で睨んできたため、反省したい。",
+            "027": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "028": "リンちゃんをちやほやしたい。",
+            "029": "ちやほやされ慣れてないリンちゃんが",
+            "030": "挙動不審になるのを見て、",
+            "031": "さらにちやほやしたい。ちやほやしたい。",
+            "032": "リンちゃんがPixivで「鏡音リン R18」で",
+            "033": "検索をかけるのを全力で阻止したい。",
+            "034": "ボーマス会場ではリンちゃんに",
+            "035": "ルカコスしてもらいたい。",
+            "036": "しかし、強烈な違和感を発する",
+            "037": "ぺったんこな胸に無意識に目がいってしまい、",
+            "038": "「も、もう着替えるっ」",
+            "039": "と逃げ出そうとするリンちゃんを",
+            "040": "必死にフォローしたい。",
+            "041": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "042": "朝起きると",
+            "043": "いきなり成長していたリンちゃんに、",
+            "044": "どう接していいかわからずに",
+            "045": "食事中も言葉少なになり、",
+            "046": "ピンクのお茶碗とか使わせてるのが",
+            "047": "何故か申し訳なくなりたい。",
+            "048": "食後、お皿洗うねとか言われても",
+            "049": "「あっぼくがやります！」",
+            "050": "とか敬語になりたい。",
+            "051": "リンちゃんなう！　リンちゃんなう！！",
+            "052": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "053": "リンちゃんなう！　リンちゃんなう！！",
+            "054": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "055": "リンちゃんなう！　リンちゃんなう！！",
+            "056": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "057": "リンちゃんなう！　リンちゃんなう！！",
+            "058": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "059": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "060": "リンちゃんがバイト禁止なのにメイド喫茶で",
+            "061": "メイドさんしてるのに出くわして、",
+            "062": "ぎこちない姿を納めたい。",
+            "063": "リンちゃんがいつまでたっても敬語なので、",
+            "064": "そのたびに「そんな緊張しなくていいよ」",
+            "065": "「はっ、はい」みたいな会話を毎回やりたい。",
+            "066": "魔法少女か…って呟いてるリンちゃんに",
+            "067": "「リンちゃんが魔法少女になったら",
+            "068": "マジックリンだね」とか声をかけたくて、",
+            "069": "でもきっと苦笑いしか返ってこないから",
+            "070": "我慢したい。",
+            "071": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "072": "疲れて帰ってきたリンちゃんが",
+            "073": "ソファで隣に座って、",
+            "074": "そのまま肩に寄りかかって寝てしまい、",
+            "075": "あたたかくなりたい。",
+            "076": "リンちゃんが目を閉じて",
+            "077": "唇をこちらに向けるので、",
+            "078": "しばし動揺して迷って、",
+            "079": "それを表に出さないように、でこぴんしたい。",
+            "080": "町で出会ったリンちゃんは",
+            "081": "なんとメガネをつけており、",
+            "082": "声をかけると",
+            "083": "「普段はコンタクトなんだけどね！」と",
+            "084": "言い訳するけど、",
+            "085": "そのメガネも似合ってんじゃん、",
+            "086": "と本心を口にしたところ、",
+            "087": "俯いて無言になられたい。",
+            "088": "(＾ω＾≡＾ω＾) おっおっおっおっ",
+            "089": "「ずっと前から好きでした」",
+            "090": "ってメールをリンちゃんから貰い、",
+            "091": "どきっとしたい。",
+            "092": "「嘘つくなｗ」と送ると",
+            "093": "「バレた？でもこんなメール送れるの",
+            "094": "キミくらいだからさｗ」",
+            "095": "って返ってきてドキドキしたあと",
+            "096": "「もちろん嘘！」と来て、",
+            "097": "何も信じられなくなりたい。",
+            "098": "リンちゃんなう！　リンちゃんなう！！",
+            "099": "リンちゃんリンちゃんリンちゃんなう！！！",
+            "_en": {
+                "100": "Rin-chan now!   Rin-chan now!!",
+                "101": "Rin-chan Rin-chan Rin-chan now!!!",
+                "102": "Rin-chan now!   Rin-chan now!!",
+                "103": "Rin-chan Rin-chan Rin-chan now!!!",
+                "104": "Rin-chan now!   Rin-chan now!!",
+                "105": "Rin-chan Rin-chan Rin-chan now!!!",
+                "106": "Rin-chan now!   Rin-chan now!!",
+                "107": "Rin-chan Rin-chan Rin-chan now!!!",
+                "108": "Rin-chan now!   Rin-chan now!!",
+                "109": "Rin-chan Rin-chan Rin-chan now!!!",
+                "110": "Rin-chan now!   Rin-chan now!!",
+                "111": "Rin-chan Rin-chan Rin-chan now!!!",
+                "112": "Rin-chan now!   Rin-chan now!!",
+                "113": "Rin-chan Rin-chan Rin-chan now!!!",
+                "001": "Rin-chan now!   Rin-chan now!!",
+                "002": "Rin-chan Rin-chan Rin-chan now!!!",
+                "003": "Rin-chan now!   Rin-chan now!!",
+                "004": "Rin-chan Rin-chan Rin-chan now!!!",
+                "005": "Rin-chan now!   Rin-chan now!!",
+                "006": "Rin-chan Rin-chan Rin-chan now!!!",
+                "007": "Rin-chan now!   Rin-chan now!!",
+                "008": "Rin-chan Rin-chan Rin-chan now!!!",
+                "009": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "010": "Rin-chan o gyuugyuu shitai na",
+                "011": "jitajita suru no o osaekonde",
+                "012": "gyuu tte shitai na",
+                "013": "ude kamareru no mo ari da yo",
+                "014": "kande ii yo Rin-chan",
+                "015": "Rin-chan to futari de",
+                "016": "kaimono ni iku koto ni natte,",
+                "017": "nandemonai kao de \"DATE da nee\" tte itte",
+                "018": "mechakucha ni ishiki sasetai.",
+                "019": "Rin-chan no RIBBON wa",
+                "020": "KATYUSHA ni tsuiteimasu ga,",
+                "021": "asa, kossori neko mimi ni surikaete,",
+                "022": "itsu kizuku ka naa to omotteitara,",
+                "023": "Rin-chan ga dekaketa no ni boku ga kizukazu,",
+                "024": "yuugata kaettekita Rin-chan ga",
+                "025": "nekomimi KATYUSHA o nigirishimete",
+                "026": "makka na kao de nirandekita tame, hansei shitai.",
+                "027": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "028": "Rin-chan o chiyahoya shitai.",
+                "029": "chiyahoya sarenaretenai Rin-chan ga",
+                "030": "kyodou fushin ni naru no o mite,",
+                "031": "sarani chiyahoya shitai. chiyahoya shitai.",
+                "032": "Rin-chan ga Pixiv de \"Kagamine Rin R-18\" de",
+                "033": "kensaku o kakeru no o zenryoku de soshi shitai.",
+                "034": "VOC@LOiD M@STER kaijou de wa Rin-chan ni",
+                "035": "Luka cos shitemoraitai.",
+                "036": "shikashi, kyouretsu na iwakan o hassuru",
+                "037": "pettanko na mune ni muishiki ni me ga itte shimai,",
+                "038": "\"mo, mou kigaeru\"",
+                "039": "to nigedasou to suru Rin-chan o",
+                "040": "hisshi ni FOLLOW shitai.",
+                "041": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "042": "asa okiru to",
+                "043": "ikinari seichou shiteita Rin-chan ni,",
+                "044": "dou sesshite ii ka wakarazu ni",
+                "045": "shokujichuu mo kotobasukuna ni nari,",
+                "046": "PINK no ochawan toka tsukawaseteru no ga",
+                "047": "nazeka moushiwakenaku naritai.",
+                "048": "shokugo, osara arau ne toka iwaretemo",
+                "049": "\"ah boku ga yarimasu!\"",
+                "050": "toka keigo ni naritai.",
+                "051": "Rin-chan now! Rin-chan now!!",
+                "052": "Rin-chan Rin-chan Rin-chan now!!!",
+                "053": "Rin-chan now! Rin-chan now!!",
+                "054": "Rin-chan Rin-chan Rin-chan now!!!",
+                "055": "Rin-chan now! Rin-chan now!!",
+                "056": "Rin-chan Rin-chan Rin-chan now!!!",
+                "057": "Rin-chan now! Rin-chan now!!",
+                "058": "Rin-chan Rin-chan Rin-chan now!!!",
+                "059": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "060": "Rin-chan ga baito kinshi na no ni MAID kissa de",
+                "061": "MAID-san shiteru no ni dekuwashite,",
+                "062": "gikochinai sugata o osametai.",
+                "063": "Rin-chan ga itsumade tattemo keigo na no de,",
+                "064": "sono tabi ni \"sonna kinchou shinakute ii yo\"",
+                "065": "\"ha, hai\" mitai na kaiwa o maikai yaritai.",
+                "066": "mahou shoujo ka... tte tsubuyaiteru Rin-chan ni",
+                "067": "\"Rin-chan ga mahou shoujo ni nattara",
+                "068": "MAGIC Rin da ne\" toka koe o kaketakute,",
+                "069": "demo kitto nigawarai shika kaette konai kara",
+                "070": "gaman shitai.",
+                "071": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "072": "tsukarete kaette kita Rin-chan ga",
+                "073": "SOFA de tonari ni suwatte,",
+                "074": "sono mama kata ni yorikakatte nete shimai,",
+                "075": "atatakaku naritai.",
+                "076": "Rin-chan ga me o tojite",
+                "077": "kuchibiru o kochira ni mukeru no de,",
+                "078": "shibashi douyou shite mayotte,",
+                "079": "sore o omote ni dasanai you ni, dekopin shitai.",
+                "080": "machi de deatta Rin-chan wa",
+                "081": "nanto megane o tsuketeori,",
+                "082": "koe o kakeru to",
+                "083": "\"fudan wa CONTACT nan da kedo ne!\" to",
+                "084": "iiwake suru kedo,",
+                "085": "sono megane mo niatten jan,",
+                "086": "to honshin o kuchi ni shita tokoro,",
+                "087": "utsumuite mugon ni nararetai.",
+                "088": "(＾ω＾≡＾ω＾)   oh oh oh oh",
+                "089": "\"zutto mae kara suki deshita\"",
+                "090": "tte MAIL o Rin-chan kara morai,",
+                "091": "dokitto shitai.",
+                "092": "\"uso tsuku na (lol)\" to okuru to",
+                "093": "\"bareta? demo konna MAIL okureru no",
+                "094": "kimi kurai dakara sa (lol)\"",
+                "095": "tte kaettekite dokidoki shita ato",
+                "096": "\"mochiron uso!\" to kite,",
+                "097": "nanimo shinjirarenaku naritai.",
+                "098": "Rin-chan now!   Rin-chan now!!",
+                "099": "Rin-chan Rin-chan Rin-chan now!!!"
+            }
+        },
+        "motion": {
+            "01": "PV641_RCN_P1_00",
+            "2P": {
+                "01": "PV641_RCN_P2_00"
+            },
+            "3P": {
+                "01": "PV641_RCN_P3_00"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "116",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LUK",
+                "pv_costume": "30",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "2": {
+                "chara": "RIN",
+                "fixed": "1",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV641.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "109",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "73.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_641.ogg",
+        "song_name": "リンちゃんなう！",
+        "song_name_en": "Rin-chan Now!",
+        "song_name_reading": "りんちゃんなう",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "200"
+                },
+                "length": "1"
+            },
+            "max_frame": "9944",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "1.10"
+        },
+        "songinfo": {
+            "arranger": "オワタP",
+            "illustrator": "田村ヒロ",
+            "lyrics": "sezu",
+            "music": "オワタP",
+            "_en": {
+                "arranger": "Owata P",
+                "illustrator": "Tamura Hiro",
+                "lyrics": "sezu",
+                "music": "Owata P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

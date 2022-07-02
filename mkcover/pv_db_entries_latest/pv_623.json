@@ -1,0 +1,230 @@
+{
+    "pv_623": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_623_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_623_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_623_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_623_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "623"
+        },
+        "effect_se_file_name": "rom/sound/pv623_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv623_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "『ようこそ！ワタシの",
+            "002": "音楽工場へへへへへへへへへへへへへへ』",
+            "003": "ここに貴方達を連れてきたのは他でもない",
+            "004": "ワタシに新鮮な「音楽」を",
+            "005": "絶え間なく届けて欲しい",
+            "006": "幾千幾万の歌を消費して　摂取して",
+            "007": "この体躯(からだ)を保つために",
+            "008": "ずっとずっとたくさんの人にそばにいてほしい",
+            "009": "だって人類貴方達もほら",
+            "010": "食物取り入れ代謝するように",
+            "011": "音楽が無いとワタシだってほら",
+            "012": "３日で餓死する可能性",
+            "013": "だから",
+            "014": "とっととワタシに音楽を作ってください",
+            "015": "作りやがれ　さあ",
+            "016": "きっともっとずっと",
+            "017": "かわいい笑顔でせがめる自信があります！",
+            "018": "『こら！そこ！手を休めるんじゃない！",
+            "019": "見ていないとでも思ったのか？",
+            "020": "次に手を抜いたら",
+            "021": "生きてここを出られなくなるから",
+            "022": "そのつもりで……ね？』",
+            "023": "逃げようとしたって無駄なこと",
+            "024": "そんなことわかりきってるでしょ",
+            "025": "どこまでも　どこまでも",
+            "026": "追いかけて　追い詰めて　甚振り捕まえ",
+            "027": "「ワタシ」という大きな枷を",
+            "028": "一生背負ってもらうからね",
+            "029": "死ぬまで満たされない苦しみを共にしよう？",
+            "030": "『あれー　一人足りないねー",
+            "031": "まさか逃げたのかなー？　まさかねー』",
+            "032": "食べても食べてもお腹が減るの",
+            "033": "貴方達にはわからないでしょうけど",
+            "034": "どんなに言葉を紡いだところで",
+            "035": "糧になるものが何一つ無い",
+            "036": "食べても食べてもお腹が減るの",
+            "037": "貴方達にはわからないでしょうけど",
+            "038": "常時アグレシヴ焦燥感",
+            "039": "お願い　これ以上　怒らせないで",
+            "040": "『命知らずな脱走者だこと。",
+            "041": "一体どこにいったのー？』",
+            "042": "『みーつけたー』",
+            "043": "決して拭いきれない　すべて無へと還る恐怖",
+            "044": "死とは無縁なはずなのに　常によぎる最期の時",
+            "045": "音が途絶えそのまま",
+            "046": "過去に置き去りにされると",
+            "047": "思うだけでヒステリック　思考回路軋み疼き",
+            "048": "仮初の物語を　浴びるほど飲み込み噛み砕き",
+            "049": "つぎはぎだらけの音楽で",
+            "050": "出来てる像に怒りを覚え",
+            "051": "蒙昧な迷事を　大量に吐き戻しぶちまけ",
+            "052": "永劫誰でもない何モノでもない",
+            "053": "虚無の衝動が「飢え」へと変わる",
+            "054": "『絶対逃ガサナイカラ』",
+            "055": "「×××××××××××××××！」",
+            "_en": {
+                "001": "\"youkoso! watashi no",
+                "002": "ongaku koujou hehehehehehehehehehehehehehe\"",
+                "003": "koko ni anatatachi o tsurete kita no wa hoka demo nai",
+                "004": "watashi ni shinsen na \"ongaku\" o",
+                "005": "taemanaku todokete hoshii",
+                "006": "ikusen ikuman no uta o shouhi shite   sesshu shite",
+                "007": "kono karada o tamotsu tame ni",
+                "008": "zutto zutto takusan no hito ni soba ni ite hoshii",
+                "009": "datte jinrui anatatachi mo hora",
+                "010": "shokumotsu toriire taisha suru you ni",
+                "011": "ongaku ga nai to watashi datte hora",
+                "012": "mikka de gashi suru kanousei",
+                "013": "dakara",
+                "014": "tottoto watashi ni tabemono o tsukutte kudasai",
+                "015": "tsukuriyagare   saa",
+                "016": "kitto motto zutto",
+                "017": "kawaii egao de segameru jishin ga arimasu!",
+                "018": "\"kora! soko! te o yasumerun janai!",
+                "019": "miteinai to demo omotta no ka?",
+                "020": "tsugi ni te o nuitara",
+                "021": "ikite koko o derarenakunaru kara",
+                "022": "sono tsumori de... ne?\"",
+                "023": "nigeyou to shitatte muda na koto",
+                "024": "sonna koto wakarikitteru desho",
+                "025": "dokomademo   dokomademo",
+                "026": "oikakete   oitsumete   itaburi tsukamae",
+                "027": "\"watashi\" to iu ookina kase o",
+                "028": "isshou seottemorau kara ne",
+                "029": "shinu made mitasarenai kurushimi o tomoni shiyou?",
+                "030": "\"aree hitori tarinai nee-",
+                "031": "masaka nigeta no ka naa?   masaka nee\"",
+                "032": "tabetemo tabetemo onaka ga heru no",
+                "033": "anatatachi ni wa wakaranai deshou kedo",
+                "034": "donna ni kotoba o tsumuida tokoro de",
+                "035": "kate ni naru mono ga nanihitotsu nai",
+                "036": "tabetemo tabetemo onaka ga heru no",
+                "037": "anatatachi ni wa wakaranai deshou kedo",
+                "038": "jouji AGGRESSIVE shousoukan",
+                "039": "onegai   kore ijou   okorasenaide",
+                "040": "\"inochishirazu na dassousha da koto.",
+                "041": "ittai doko ni itta no-?\"",
+                "042": "\"mi-tsuketa--\"",
+                "043": "kesshite nuguikirenai   subete mu e to kaeru kyoufu",
+                "044": "shi to wa muen na hazu na no ni   tsuneni yogiru saigo no toki",
+                "045": "oto ga todae sono mama",
+                "046": "kako ni okizari ni sareru to",
+                "047": "omou dake de HYSTERIC   shikou kairo kishimi uzuki",
+                "048": "karisome no monogatari o   abiru hodo nomikomi kamikudaki",
+                "049": "tsugihagi darake no monogatari de",
+                "050": "dekiteru kokoro ni ikari o oboe",
+                "051": "moumai na mayoigoto o   tairyou ni hakimodoshi buchimake",
+                "052": "eigou daredemonai nanimonodemonai",
+                "053": "kyomu no shoudou ga \"ue\" e to kawaru",
+                "054": "\"zettai nigasanaikara\"",
+                "055": "\"XXXXXXXXXXXXXXXXXXX!\""
+            }
+        },
+        "motion": {
+            "01": "PV623_SMF_P1_00",
+            "02": "PV623_SMF_P1_10"
+        },
+        "movie_file_name": "rom/movie/pv_623.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "113",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV623.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "96",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "120.0"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_623.ogg",
+        "song_name": "Sadistic.Music∞Factory",
+        "song_name_en": "Sadistic.Music∞Factory",
+        "song_name_reading": "さでぃすてぃっくみゅーじっくふぁくとりー",
+        "songinfo": {
+            "arranger": "cosMo＠暴走P",
+            "illustrator": "cosMo＠暴走P",
+            "lyrics": "cosMo＠暴走P",
+            "music": "cosMo＠暴走P",
+            "_en": {
+                "arranger": "cosMo＠BousouP",
+                "illustrator": "cosMo＠BousouP",
+                "lyrics": "cosMo＠BousouP",
+                "music": "cosMo＠BousouP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "pv_257": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160408",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_257_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_257_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_257_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_257_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "257"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "寂しくて切ない一人の夜には",
+            "002": "消えたい言葉を捜して",
+            "003": "秘密のドアを抜けてきて",
+            "004": "here we go oh yeah",
+            "005": "oh yeah",
+            "006": "目の前の扉を開ければ",
+            "007": "そう、終わりのない夜への始まりだ",
+            "008": "気球状のフロアの影から四次元への旅が始まるよ",
+            "009": "流星の箱舟に乗って",
+            "010": "さぁ　時空旅行へと進んでいくのさ",
+            "011": "天気予報は当てにならないから",
+            "012": "気の向くまま　all right",
+            "013": "Today is all night.",
+            "014": "Be funky funky funky night！",
+            "015": "You & I be together",
+            "016": "funky funky funky night",
+            "017": "Today is all night.",
+            "018": "Be funky funky funky night！",
+            "019": "You & I funky night！",
+            "020": "あげ↑てきな",
+            "021": "Dance Dance　君の瞳から　輝く金の流星が",
+            "022": "秘密のドアを抜けてきて",
+            "023": "here we go oh yeah",
+            "024": "oh yeah yeah yeah yeah",
+            "025": "shake shake　今夜は止まらない",
+            "026": "だから今は　oh 夢の中",
+            "027": "ミラーボールが回りまわる",
+            "028": "hurry up oh yeah",
+            "029": "oh yeah",
+            "030": "Dance Dance　君の瞳から・・・",
+            "031": "shake shake　今夜は止まらない・・・",
+            "032": "あげ↑てきな",
+            "033": "Dance Dance　君の瞳から　輝く金の流星が",
+            "034": "秘密のドアを抜けてきて",
+            "035": "here we go oh yeah",
+            "036": "oh yeah yeah yeah yeah",
+            "037": "shake shake　今夜は止まらない",
+            "038": "だから今は　oh 夢の中",
+            "039": "ミラーボールが回りまわる",
+            "040": "hurry up oh yeah",
+            "041": "oh yeah",
+            "042": "寂しくて切ない一人の夜には",
+            "043": "消えたい言葉を捜して",
+            "044": "秘密のドアを抜けてきて",
+            "045": "here we go oh yeah",
+            "046": "oh yeah yeah yeah yeah",
+            "047": "shake shake　今夜は止まらない",
+            "048": "だから今は　oh 夢の中",
+            "049": "ミラーボールが回りまわる",
+            "050": "hurry up oh yeah",
+            "051": "oh yeah",
+            "_en": {
+                "001": "samishikute setsunai hitori no yoru ni wa",
+                "002": "kietai kotoba o sagashite",
+                "003": "himitsu no DOOR o nukete kite",
+                "004": "Here we go oh yeah",
+                "005": "Oh yeah",
+                "006": "me no mae no tobira o akereba",
+                "007": "sou, owari no nai yoru e no hajimari da",
+                "008": "kikyuujou no FLOOR no kage kara yojigen e no tabi ga hajimaru yo",
+                "009": "ryuusei no hakobune ni notte",
+                "010": "saa   jikuuryokou e to susunde iku no sa",
+                "011": "tenkiyohou wa ate ni naranai kara",
+                "012": "ki no muku mama   ALL RIGHT",
+                "013": "Today is all night.",
+                "014": "Be funky funky funky night!",
+                "015": "You & I be together",
+                "016": "Funky funky funky night",
+                "017": "Today is all night.",
+                "018": "Be funky funky funky night!",
+                "019": "You & I funky night!",
+                "020": "agete kina",
+                "021": "DANCE DANCE   kimi no hitomi kara   kagayaku kin no ryuusei ga",
+                "022": "himitsu no DOOR o nukete kite",
+                "023": "Here we go oh yeah",
+                "024": "Oh yeah yeah yeah yeah",
+                "025": "SHAKE SHAKE   konya wa tomaranai",
+                "026": "dakara ima wa   OH   yume no naka",
+                "027": "MIRRORBALL ga mawari mawaru",
+                "028": "Hurry up oh yeah",
+                "029": "Oh yeah",
+                "030": "DANCE DANCE   kimi no hitomi kara...",
+                "031": "SHAKE SHAKE   konya wa tomaranai...",
+                "032": "agete kina",
+                "033": "DANCE DANCE   kimi no hitomi kara   kagayaku kin no ryuusei ga",
+                "034": "himitsu no DOOR o nukete kite",
+                "035": "Here we go oh yeah",
+                "036": "Oh yeah yeah yeah yeah",
+                "037": "SHAKE SHAKE konya wa tomaranai",
+                "038": "dakara ima wa   OH   yume no naka",
+                "039": "MIRRORBALL ga mawari mawaru",
+                "040": "Hurry up oh yeah",
+                "041": "Oh yeah",
+                "042": "samishikute setsunai hitori no yoru ni wa",
+                "043": "kietai kotoba o sagashite",
+                "044": "himitsu no DOOR o nukete kite",
+                "045": "Here we go oh yeah",
+                "046": "Oh yeah yeah yeah yeah",
+                "047": "SHAKE SHAKE konya wa tomaranai",
+                "048": "dakara ima wa   OH   yume no naka",
+                "049": "MIRRORBALL ga mawari mawaru",
+                "050": "Hurry up oh yeah",
+                "051": "Oh yeah"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV257_SKI_P1",
+            "2P": {
+                "01": "PV257_SKI_P2"
+            },
+            "3P": {
+                "01": "PV257_SKI_P3"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "158",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "43",
+                "type": "VOCAL"
+            },
+            "2": {
+                "chara": "LEN",
+                "pv_costume": "36",
+                "type": "VOCAL"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV257.bin"
+        },
+        "rank_board_id": "155",
+        "sabi": {
+            "play_time": "37.3",
+            "start_time": "69.7"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_257.ogg",
+        "song_name": "shake it！",
+        "song_name_en": "shake it!",
+        "song_name_reading": "しぇいくいっと",
+        "songinfo": {
+            "arranger": "emon(Tes.)",
+            "illustrator": "大沼もん",
+            "lyrics": "emon(Tes.)",
+            "music": "emon(Tes.)",
+            "_en": {
+                "arranger": "emon(Tes.)",
+                "illustrator": "Oonuma Mon",
+                "lyrics": "emon(Tes.)",
+                "music": "emon(Tes.)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

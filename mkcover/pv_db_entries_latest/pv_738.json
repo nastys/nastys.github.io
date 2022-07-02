@@ -1,0 +1,174 @@
+{
+    "pv_738": {
+        "bpm": "228",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_738_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_738_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_738_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "738"
+        },
+        "effect_se_file_name": "rom/sound/pv738_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv738_effect",
+            "1": "pv738_effect_2",
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "これから辞めるわ　　　『もう一回』",
+            "002": "ただ飽きたら捨てるわ　『もう一回』",
+            "003": "でもこれだけ試して　　『もう一回』",
+            "004": "気を引きたいだけの人",
+            "005": "月夜を切裂く　赤い雑音(ノイズ)",
+            "006": "叫んで　響いて　『もう一回』",
+            "007": "ほら冷たい唇差し出して",
+            "008": "嘘こぼれ出ちゃうかもね",
+            "009": "唐突にかざした感情",
+            "010": "優劣に悩んだ干渉",
+            "011": "恍惚に照らした愛情",
+            "012": "一人占めで",
+            "013": "有限に気付いた反証",
+            "014": "盲目に愛した代償",
+            "015": "全て壊して",
+            "016": "狂いましょう",
+            "017": "制約の犬に　今ナイフを突き刺して",
+            "018": "現実を睨む手前　『もう一回』",
+            "019": "ああ　二十一の感情をただ吐き出しただけの",
+            "020": "這いずるだけの唄",
+            "021": "悠然に見出した絶望",
+            "022": "必然に感付いた欲望",
+            "023": "整然に片付いて消耗",
+            "024": "今日も独り",
+            "025": "雄弁に慣らされて服従",
+            "026": "傲慢に逆らえず追従",
+            "027": "全て失くして",
+            "028": "追いすぎた理想に　今刃物で切り裂かれ",
+            "029": "競争に沈む手前",
+            "030": "『もう一回』",
+            "031": "ああ　二十二の現実にただ押し潰されただけの",
+            "032": "敗北者の為の唄",
+            "_en": {
+                "001": "kore kara yameru wa   \"mou ikkai\"",
+                "002": "tada akitara suteru wa   \"mou ikkai\"",
+                "003": "demo kore dake tameshite   \"mou ikkai\"",
+                "004": "ki o hikitai dake no hito",
+                "005": "tsukiyo o kirisaku   akai NOISE",
+                "006": "sakende   hibiite   \"mou ikkai\"",
+                "007": "hora tsumetai kuchibiru sashidashite",
+                "008": "uso koboredechau kamo ne",
+                "009": "toutotsu ni kazashita kanjou",
+                "010": "yuuretsu ni nayanda kanshou",
+                "011": "koukotsu ni terashita aijou",
+                "012": "hitorijime de",
+                "013": "yuugen ni kizuita hanshou",
+                "014": "moumoku ni aishita daishou",
+                "015": "subete kowashite",
+                "016": "kuruimashou",
+                "017": "seiyaku no inu ni   ima KNIFE o tsukisashite",
+                "018": "genjitsu o niramu temae   \"mou ikkai\"",
+                "019": "aah! nijuuichi no kanjou o tada hakidashita dake no",
+                "020": "haizuru dake no uta",
+                "021": "yuuzen ni miidashita zetsubou",
+                "022": "hitsuzen ni kanzuita yokubou",
+                "023": "seizen ni katazuite shoumou",
+                "024": "kyou mo hitori",
+                "025": "yuuben ni narasarete fukujuu",
+                "026": "gouman ni sakaraezu tsuijuu",
+                "027": "subete nakushite",
+                "028": "oisugita risou ni   ima hamono de kirisakare",
+                "029": "kyousou ni shizumu temae",
+                "030": "\"mou ikkai\"",
+                "031": "aah!   nijuuni no genjitsu ni tada oshitsubusareta dake no",
+                "032": "haibokusha no tame no uta"
+            }
+        },
+        "motion": {
+            "01": "PV738_BLJ_P1_00",
+            "02": "PV738_BLJ_P1_10"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "36",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV738.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "129",
+        "sabi": {
+            "play_time": "26.8",
+            "start_time": "56.8"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_738.ogg",
+        "song_name": "Blackjack",
+        "song_name_en": "Blackjack",
+        "song_name_reading": "ぶらっくじゃっく",
+        "songinfo": {
+            "arranger": "ゆちゃＰ",
+            "illustrator": "hatsuko",
+            "lyrics": "ゆちゃＰ",
+            "music": "ゆちゃＰ",
+            "_en": {
+                "arranger": "Yucha P",
+                "illustrator": "hatsuko",
+                "lyrics": "Yucha P",
+                "music": "Yucha P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

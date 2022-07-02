@@ -1,0 +1,344 @@
+{
+    "pv_424": {
+        "bpm": "183",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150312",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_424_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_424_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_424_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_424_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_424_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "424"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "000",
+            "01": "008",
+            "02": "013",
+            "03": "018",
+            "04": "019",
+            "05": "006",
+            "06": "002"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "eff_petal_green_left",
+                "stage": "STGD2NS074"
+            },
+            "11": {
+                "aet_front": "eff_fire_flower",
+                "stage": "STGD2NS076"
+            },
+            "12": {
+                "aet_front": "eff_petal_green_right",
+                "stage": "STGNS002"
+            },
+            "13": {
+                "aet_front": "eff_star_all",
+                "stage": "STGNS002"
+            },
+            "14": {
+                "aet_front": "fuki_set_a",
+                "stage": "STGNS002"
+            },
+            "15": {
+                "aet_front": "fuki_set_b",
+                "stage": "STGNS002"
+            },
+            "16": {
+                "aet_front": "fuki_set_c",
+                "stage": "STGD2NS075"
+            },
+            "17": {
+                "aet_front": "eff_heart_all",
+                "stage": "STGNS006"
+            },
+            "18": {
+                "aet_front": "fuki_set_d",
+                "stage": "STGNS002"
+            },
+            "19": {
+                "aet_front": "eff_petal_green_left",
+                "stage": "STGNS002"
+            },
+            "01": {
+                "stage": "STGNS006"
+            },
+            "02": {
+                "stage": "STGNS002"
+            },
+            "03": {
+                "stage": "STGNS009"
+            },
+            "04": {
+                "stage": "STGD2NS075"
+            },
+            "05": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "06": {
+                "stage": "STGD2NS074"
+            },
+            "07": {
+                "stage": "STGD2NS077"
+            },
+            "08": {
+                "stage": "STGNS008"
+            },
+            "09": {
+                "stage": "STGD2NS076"
+            },
+            "length": "19"
+        },
+        "hand_item": {
+            "01": "NEGI_BOTH",
+            "02": "DRINK_PACK_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "Hurry Up 急がなくちゃ",
+            "002": "楽しい High School Days",
+            "003": "駆け抜けよう",
+            "004": "やっぱ １番",
+            "005": "Precious Memory",
+            "006": "Best My Place",
+            "007": "昨日の宿題",
+            "008": "ラクショーだったし",
+            "009": "今日はなんだかネ",
+            "010": "気分もワクワク♪",
+            "011": "洗い立ての髪なびく",
+            "012": "朝１番に感じた風",
+            "013": "ハッピーな一日の予感",
+            "014": "させるわ★",
+            "015": "Hurry Up 急がなくちゃ",
+            "016": "楽しい High School Days",
+            "017": "駆け抜けよう",
+            "018": "Lets go さぁ 飛び出そうよ",
+            "019": "楽しい High School Days",
+            "020": "駆け出そうよ",
+            "021": "ほら放課後のチャイムも",
+            "022": "ドキドキ　トキメキ　リズミカル",
+            "023": "やっぱ １番",
+            "024": "Precious Memory",
+            "025": "Best My Place My Friends",
+            "026": "（My Place My Friends...）",
+            "027": "結んでいた髪ほどき",
+            "028": "沈んでゆく夕陽眺め",
+            "029": "ハッピーな一日の終わり",
+            "030": "感じる",
+            "031": "Hurry Up 急がなくちゃ",
+            "032": "楽しい High School Days",
+            "033": "駆け抜けよう",
+            "034": "Lets go さぁ 飛び出そうよ",
+            "035": "楽しい High School Days",
+            "036": "駆け出そうよ",
+            "037": "ほら放課後のチャイムも",
+            "038": "ドキドキ　トキメキ　リズミカル",
+            "039": "やっぱ １番",
+            "040": "Precious Memory",
+            "041": "Best My Place",
+            "042": "Don't Stop もう止まらない",
+            "043": "楽しい High School Days",
+            "044": "駆け抜けよう",
+            "045": "Jump up さぁ 飛び出そうよ",
+            "046": "楽しい High School Days",
+            "047": "駆け出そうよ",
+            "048": "ほら放課後のチャイムも",
+            "049": "ドキドキ　トキメキ　リズミカル",
+            "050": "やっぱ １番",
+            "051": "Precious Memory",
+            "052": "Best My Place My Friends",
+            "053": "（My Place My Friends...）",
+            "_en": {
+                "001": "HURRY UP isoganakucha",
+                "002": "tanoshii HIGH SCHOOL DAYS",
+                "003": "kakenukeyou",
+                "004": "yappa   ichiban",
+                "005": "PRECIOUS MEMORY",
+                "006": "BEST MY PLACE",
+                "007": "kinou no shukudai",
+                "008": "rakushou datta shi",
+                "009": "kyou wa nandaka ne",
+                "010": "kibun mo wakuwaku ♪",
+                "011": "araitate no kami nabiku",
+                "012": "asa ichiban ni kanjita kaze",
+                "013": "HAPPY na ichinichi no yokan",
+                "014": "saseru wa ★",
+                "015": "HURRY UP isoganakucha",
+                "016": "tanoshii HIGH SCHOOL DAYS",
+                "017": "kakenukeyou",
+                "018": "LET'S GO saa   tobidasou yo",
+                "019": "tanoshii HIGH SCHOOL DAYS",
+                "020": "kakedasou yo",
+                "021": "hora houkago no CHIME mo",
+                "022": "dokidoki   tokimeki   RHYTHMICAL",
+                "023": "yappa   ichiban",
+                "024": "PRECIOUS MEMORY",
+                "025": "BEST MY PLACE MY FRIENDS",
+                "026": "(MY PLACE MY FRIENDS...)",
+                "027": "musundeita kami hodoki",
+                "028": "shizunde yuku yuuhi nagame",
+                "029": "HAPPY na ichinichi no owari",
+                "030": "kanjiru",
+                "031": "HURRY UP isoganakucha",
+                "032": "tanoshii HIGH SCHOOL DAYS",
+                "033": "kakenukeyou",
+                "034": "LET'S GO   saa   tobidasou yo",
+                "035": "tanoshii HIGH SCHOOL DAYS",
+                "036": "kakedasou yo",
+                "037": "hora houkago no CHIME mo",
+                "038": "dokidoki   tokimeki   RHYTHMICAL",
+                "039": "yappa   ichiban",
+                "040": "PRECIOUS MEMORY",
+                "041": "BEST MY PLACE",
+                "042": "DON'T STOP   mou tomaranai",
+                "043": "tanoshii HIGH SCHOOL DAYS",
+                "044": "kakenukeyou",
+                "045": "JUMP UP saa   tobidasou yo",
+                "046": "tanoshii HIGH SCHOOL DAYS",
+                "047": "kakedasou yo",
+                "048": "hora houkago no CHIME mo",
+                "049": "dokidoki   tokimeki   RHYTHMICAL",
+                "050": "yappa   ichiban",
+                "051": "PRECIOUS MEMORY",
+                "052": "BEST MY PLACE MY FRIENDS",
+                "053": "(MY PLACE MY FRIENDS...)"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_21",
+            "11": "CMN_MCA00_50_29",
+            "12": "CMN_MCA00_50_19",
+            "13": "CMN_MCA00_50_10",
+            "14": "CMN_MCA00_50_12",
+            "15": "CMN_MCA00_70_20",
+            "16": "CMN_EDT_01_041A",
+            "17": "CMN_EDT_01_043A",
+            "18": "CMN_MCA00_70_23",
+            "19": "CMN_MCA00_50_40",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_18_B",
+            "02": "CMN_MCA00_50_21",
+            "03": "CMN_MCA00_50_24",
+            "04": "CMN_MCA00_50_49",
+            "05": "CMN_MCA00_50_36",
+            "06": "CMN_MCA00_50_39",
+            "07": "CMN_EDT_01_048A",
+            "08": "CMN_EDT_01_050A",
+            "09": "CMN_EDT_01_051A"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "32",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "218",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "45.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_424.ogg",
+        "song_name": "ハイスクール Days - DIVA EDIT",
+        "song_name_en": "High School Days - DIVA EDIT",
+        "song_name_reading": "はいすくーるでいず",
+        "songinfo": {
+            "arranger": "U-ji（霊長類P）",
+            "illustrator": "オカヒジキ/つみれ",
+            "lyrics": "U-SUKE",
+            "music": "U-ji（霊長類P）",
+            "pv_editor": "竹楽",
+            "_en": {
+                "arranger": "U-ji(RaychoruiP)",
+                "illustrator": "Okahijiki/Tsumire",
+                "lyrics": "U-SUKE",
+                "music": "U-ji(RaychoruiP)",
+                "pv_editor": "Tsuzura"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "12.6"
+        }
+    }
+}

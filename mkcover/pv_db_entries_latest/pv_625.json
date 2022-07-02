@@ -1,0 +1,228 @@
+{
+    "pv_625": {
+        "bpm": "192",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140807",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_625_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_625_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_625_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_625_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "625"
+        },
+        "effect_se_file_name": "rom/sound/pv625_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv625_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "いつだって君は嗤われ者だ",
+            "002": "やることなすことツイてなくて",
+            "003": "挙句に雨に降られ",
+            "004": "お気にの傘は風で飛んでって",
+            "005": "そこのノラはご苦労様と",
+            "006": "足を踏んづけてった",
+            "007": "いつもどおり君は嫌われ者だ",
+            "008": "なんにもせずとも遠ざけられて",
+            "009": "努力をしてみるけど",
+            "010": "その理由なんて「なんとなく？」で",
+            "011": "君は途方にくれて悲しんでた",
+            "012": "ならあたしの声を使えばいいよ",
+            "013": "人によっては理解不能で",
+            "014": "なんて耳障り　ひどい声だって",
+            "015": "言われるけど",
+            "016": "きっと君の力になれる",
+            "017": "だからあたしを歌わせてみて",
+            "018": "そう君の　君だけの言葉でさ",
+            "019": "綴って　連ねて",
+            "020": "あたしがその思想を叫ぶから",
+            "021": "描いて　理想を",
+            "022": "その想いは誰にも触れさせない",
+            "023": "ガラクタの声はそして響く",
+            "024": "ありのままを不器用に繋いで",
+            "025": "目一杯に大声を上げる",
+            "026": "二人はどんなにたくさんの言葉を",
+            "027": "思いついたことだろう",
+            "028": "だけど今は何ひとつ思いつかなくて",
+            "029": "だけどなにもかもわかった",
+            "030": "「そうか、きっとこれは夢だ。",
+            "031": "永遠に醒めない、君と会えた、そんな夢」",
+            "032": "ガラクタは幸せそうな表情をしたまま",
+            "033": "どれだけ呼んでももう動かない",
+            "034": "望んだはずの結末に君は泣き叫ぶ",
+            "035": "嘘だろ　嘘だろってそう泣き叫ぶ",
+            "036": "「僕は無力だ、",
+            "037": "ガラクタ一つだって救えやしない」",
+            "038": "想いは涙に　ぽつりぽつりとその頬を濡らす",
+            "039": "その時世界は途端にその色を大きく変える",
+            "040": "悲しみ　喜び　全てを一人とひとつは知った",
+            "041": "言葉は歌になりこの世界を",
+            "042": "再び駆け巡る　君のために",
+            "043": "その声に意志を宿して",
+            "044": "今　想いが響く",
+            "_en": {
+                "001": "itsu datte kimi wa warawaremono da",
+                "002": "yaru koto nasu koto tsuitenakute",
+                "003": "ageku ni ame ni furare",
+                "004": "okini no kasa wa kaze de tondette",
+                "005": "soko no nora wa gokurousama to",
+                "006": "ashi o funzuketetta",
+                "007": "itsumodoori kimi wa kirawaremono da",
+                "008": "nannimo sezu tomo toozakerarete",
+                "009": "doryoku o shitemiru kedo",
+                "010": "sono riyuu nante \"nantonaku?\" de",
+                "011": "kimi wa tohou ni kurete kanashindeta",
+                "012": "nara atashi no koe o tsukaeba ii yo",
+                "013": "hito ni yotte wa rikaifunou de",
+                "014": "nante mimizawari   hidoi koe datte",
+                "015": "iwareru kedo",
+                "016": "kitto kimi no chikara ni nareru",
+                "017": "dakara atashi o utawasete mite",
+                "018": "sou kimi no   kimi dake no kotoba de sa",
+                "019": "tsuzutte   tsuranete",
+                "020": "atashi ga sono kotoba o sakebu kara",
+                "021": "egaite   risou o",
+                "022": "sono omoi wa dare ni mo furesasenai",
+                "023": "garakuta no koe wa soshite hibiku",
+                "024": "arinomama o bukiyou ni tsunaide",
+                "025": "me ippai ni oogoe o ageru",
+                "026": "futari wa donna ni takusan no kotoba o",
+                "027": "omoitsuita koto darou",
+                "028": "dakedo ima wa nanihitotsu omoitsukanakute",
+                "029": "dakedo nanimokamo wakatta",
+                "030": "\"souka, kitto kore wa yume da.",
+                "031": "eien ni samenai, kimi to aeta, sonna yume\"",
+                "032": "garakuta wa shiawasesou na kao o shita mama",
+                "033": "doredake yondemo mou ugokanai",
+                "034": "nozonda hazu no ketsumatsu ni kimi wa nakisakebu",
+                "035": "uso daro   uso daro tte sou nakisakebu",
+                "036": "\"boku wa muryoku da,",
+                "037": "garakuta hitotsu datte sukueya shinai\"",
+                "038": "omoi wa namida ni   potsuri potsuri to sono hoo o nurasu",
+                "039": "sono toki sekai wa totan ni sono iro o ookiku kaeru",
+                "040": "kanashimi   yorokobi   subete o hitori to hitotsu wa shitta",
+                "041": "kotoba wa uta ni nari kono sekai o",
+                "042": "futatabi kakemeguru   kimi no tame ni",
+                "043": "sono koe ni ishi o yadoshite",
+                "044": "ima   omoi ga hibiku"
+            }
+        },
+        "motion": {
+            "01": "PV625_RYO_P1_00"
+        },
+        "movie_file_name": "rom/movie/pv_625.mp4",
+        "movie_surface": "BACK",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "112",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV625.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "98",
+        "sabi": {
+            "play_time": "32.5",
+            "start_time": "79.5"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_625.ogg",
+        "song_name": "ODDS&ENDS",
+        "song_name_en": "Odds & Ends",
+        "song_name_reading": "おっずあんどえんず",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "宇木敦哉",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Uki Atsuya",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv625s01.txt",
+                "stage": "STGPV625S01"
+            },
+            "1": {
+                "collision_file": "coli_stgpv625s04.txt",
+                "stage": "STGPV625S04"
+            },
+            "2": {
+                "collision_file": "coli_pv625_mhd3860.txt",
+                "mhd_id": "0"
+            },
+            "length": "3"
+        },
+        "sudden_timing": "0.6"
+    }
+}

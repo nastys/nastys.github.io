@@ -1,0 +1,201 @@
+{
+    "pv_242": {
+        "bpm": "125",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140807",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_242_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_242_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_242_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_242_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "242"
+        },
+        "hand_item": {
+            "01": "PV_MIC_C_L",
+            "02": "PV_MIC_C_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "君を探してあの街へ",
+            "002": "さ迷い歩いた夜の道",
+            "003": "受話器越しに聞こえた声が",
+            "004": "なぜか　とても　気になったの",
+            "005": "見つけた君は赤い瞳",
+            "006": "何事もないフリはナシにして",
+            "007": "黒い沼に沈む君を放っておくわけにはいかない",
+            "008": "いつか重力のクサリを解き放ち",
+            "009": "宇宙へ飛ぶサテライト",
+            "010": "そこに行けば体の重さも1/6",
+            "011": "君が抱えてる悲しみが",
+            "012": "少しでも軽くなればそれでいい",
+            "013": "いつかそこに君を連れていくよ",
+            "014": "重力の外へ",
+            "015": "宇宙旅行は無理ですが",
+            "016": "物理的に高い所へ",
+            "017": "色々考えてみた結果",
+            "018": "目指すは港の赤い塔",
+            "019": "走ってきたフリして",
+            "020": "胸の鼓動の速さを隠してみたの",
+            "021": "今日は君の手を救い上げる権利をもらうよ",
+            "022": "軌道エレベータのように",
+            "023": "雲を抜けて昇るよサテライト",
+            "024": "300メートル昇れば少しは軽くなるかもね",
+            "025": "つまり子供ダマシだけれど",
+            "026": "意味が少しでも伝わればいい",
+            "027": "地上よりも上に連れていきたいの",
+            "028": "重力の外へ",
+            "029": "見え隠れしてる気持ちは",
+            "030": "多分バレているんだろうけれど",
+            "031": "今はそれ以上　君を救いたいエゴイズム",
+            "032": "太陽の力を借りて",
+            "033": "白く輝いているお月様",
+            "034": "同じように頼ってくれませんか？",
+            "035": "いつか重力のクサリを断ち切り",
+            "036": "君を連れてサテライト",
+            "037": "辛いコトや悲しいコトも全部　1/6",
+            "038": "宇宙船はまだ先だけれど",
+            "039": "そこに辿りつけるまでの間",
+            "040": "僕の左手を握っててくれますか？",
+            "041": "いつか重力の外へ",
+            "042": "out of the gravity",
+            "_en": {
+                "001": "kimi o sagashite ano machi e",
+                "002": "samayoiaruita yoru no michi",
+                "003": "juwakigoshi ni kikoeta koe ga",
+                "004": "nazeka   totemo   ki ni natta no",
+                "005": "mitsuketa kimi wa akai hitomi",
+                "006": "nanigoto mo nai furi wa nashi ni shite",
+                "007": "kuroi numa ni shizumu kimi o houtte oku wake ni wa ikanai",
+                "008": "itsuka juuryoku no kusari o tokihanachi",
+                "009": "sora e tobu SATELLITE",
+                "010": "soko ni ikeba karada no omosa mo rokubun no ichi (1/6)",
+                "011": "kimi ga kakaeteru kanashimi ga",
+                "012": "sukoshi demo karuku nareba sore de ii",
+                "013": "itsuka soko ni kimi o tsureteyuku yo",
+                "014": "juuryoku no soto e",
+                "015": "uchuu ryokou wa muri desu ga",
+                "016": "butsuriteki ni takai tokoro e",
+                "017": "iroiro kangaete mita kekka",
+                "018": "mezasu wa minato no akai tou",
+                "019": "hashitte kita furi shite",
+                "020": "mune no kodou no hayasa o kakushite mita no",
+                "021": "kyou wa kimi no te o sukuiageru kenri o morau yo",
+                "022": "kidou ELEVATOR no you ni",
+                "023": "kumo o nukete noboru yo SATELLITE",
+                "024": "300 METER noboreba sukoshi wa karuku naru kamo ne",
+                "025": "tsumari kodomo damashi dakeredo",
+                "026": "imi ga sukoshi demo tsutawareba ii",
+                "027": "chijou yori mo ue ni tsurete ikitai no",
+                "028": "juuryoku no soto e",
+                "029": "miekakure shiteru kimochi wa",
+                "030": "tabun bareteirun darou keredo",
+                "031": "ima wa sore ijou   kimi o sukuitai EGOISM",
+                "032": "taiyou no chikara o karite",
+                "033": "shiroku kagayaiteiru otsuki-sama",
+                "034": "onaji you ni tayotte kuremasen ka?",
+                "035": "itsuka juuryoku no kusari o tachikiri",
+                "036": "kimi o tsurete SATELLITE",
+                "037": "tsurai koto ya kanashii koto mo zenbu   rokubun no ichi (1/6)",
+                "038": "uchuusen wa mada saki dakeredo",
+                "039": "soko ni tadoritsukeru made no aida",
+                "040": "boku no hidarite o nigittete kuremasu ka?",
+                "041": "itsuka juuryoku no soto e",
+                "042": "Out of the gravity"
+            }
+        },
+        "motion": {
+            "01": "PV242_RKB"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "124",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV242.bin"
+        },
+        "rank_board_id": "130",
+        "sabi": {
+            "play_time": "38.0",
+            "start_time": "38.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_242.ogg",
+        "song_name": "1/6 -out of the gravity-",
+        "song_name_en": "1/6 -out of the gravity-",
+        "song_name_reading": "ろくぶんのいち",
+        "song_name_reading_en": "｛1/6 -out of the gravity-",
+        "songinfo": {
+            "arranger": "ぼーかりおどP(noa)",
+            "illustrator": "太朗",
+            "lyrics": "ぼーかりおどP(noa)",
+            "music": "ぼーかりおどP(noa)",
+            "_en": {
+                "arranger": "vocaliod-P(noa)",
+                "illustrator": "Tarou",
+                "lyrics": "vocaliod-P(noa)",
+                "music": "vocaliod-P(noa)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

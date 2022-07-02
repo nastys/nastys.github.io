@@ -1,0 +1,174 @@
+{
+    "pv_202": {
+        "bpm": "195",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_202_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_202_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_202_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_202_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "202"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGNS012"
+            },
+            "length": "1"
+        },
+        "hand_item": {
+            "01": "MIC_L",
+            "02": "MIC_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "空見上げた夜　流れる雲",
+            "002": "手を伸ばして星をなぞる",
+            "003": "届かなくて見送るけど",
+            "004": "惑星は回ってく",
+            "005": "夢見た平行と連続に追われる日々",
+            "006": "眺めてた零れる幾千の旋律を残さず重ねて",
+            "007": "弧を描いた眼差しのその奥に世界",
+            "008": "雲は音乗せて廻る詩を数える",
+            "009": "流星を見送って",
+            "010": "此処に在る意味を知ったスターゲイザー",
+            "011": "霞む光、紡いだ音！",
+            "012": "あの日かけた、言葉の意味？",
+            "013": "繋ぐ唄は宙に溶けて",
+            "014": "声が届く時を待つ",
+            "015": "抱きしめてるその想い離さずに",
+            "016": "言葉、空間に響け",
+            "017": "巡る日を想って",
+            "018": "眼差しのその先に世界",
+            "019": "廻り回る日も\"此処\"に居る気付いて！",
+            "020": "流星に手を振って",
+            "021": "此処に咲く事を決めたスターゲイザー",
+            "_en": {
+                "001": "sora miageta yoru   nagareru kumo",
+                "002": "te o nobashite hoshi o nazoru",
+                "003": "todokanakute miokuru kedo",
+                "004": "hoshi wa mawatteku",
+                "005": "yumemita heikou to renzoku ni owareru hibi",
+                "006": "nagameteta koboreru ikusen no senritsu o nokosazu kasanete",
+                "007": "ko o egaita manazashi no sono oku ni sekai",
+                "008": "kumo wa oto nosete meguru shi o kazoeru",
+                "009": "ryuusei o miokutte",
+                "010": "koko ni aru imi o shitta STARGAZER",
+                "011": "kasumu hikari, tsumuida oto!",
+                "012": "ano hi kaketa, kotoba no imi?",
+                "013": "tsunagu uta wa sora ni tokete",
+                "014": "koe ga todoku toki o matsu",
+                "015": "dakishimeteru sono omoi hanasazu ni",
+                "016": "kotoba, kuukan ni hibike",
+                "017": "meguru hi o omotte",
+                "018": "manazashi no sono saki ni sekai",
+                "019": "mawari mawaru hi mo \"koko\" ni iru kizuite!",
+                "020": "ryuusei ni te o futte",
+                "021": "koko ni saku koto o kimeta STARGAZER"
+            }
+        },
+        "mdata": {
+            "flag": "0"
+        },
+        "motion": {
+            "01": "PV202_MCA00_16_60"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "167",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "87.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_202.ogg",
+        "song_name": "StargazeR",
+        "song_name_en": "StargazeR",
+        "song_name_reading": "すたーげいざー",
+        "songinfo": {
+            "arranger": "骨盤P",
+            "illustrator": "東385",
+            "lyrics": "骨盤P",
+            "music": "骨盤P",
+            "_en": {
+                "arranger": "Kotsuban P",
+                "illustrator": "Higashi 385",
+                "lyrics": "Kotsuban P",
+                "music": "Kotsuban P"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

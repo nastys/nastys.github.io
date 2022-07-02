@@ -1,0 +1,215 @@
+{
+    "pv_236": {
+        "bpm": "189",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_236_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_236_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_236_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "236",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "3"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "sha ru din lan",
+            "002": "sha ru din lan",
+            "003": "la sha ru di la tan lan tan",
+            "004": "la sha ba la din tan lan tan tan tan",
+            "005": "",
+            "006": "la",
+            "007": "sha ru din tan",
+            "008": "sha ru din tan",
+            "009": "la sha ru di la tan lan tan",
+            "010": "ta sha ba din tan lan tan",
+            "011": "",
+            "012": "ふわふわ溶ける木漏れ日",
+            "013": "春風が運ぶ香り",
+            "014": "比べてばかりの音階達を",
+            "015": "浮かべた空で歌い続けてた",
+            "016": "きらきら光る言葉",
+            "017": "遠く響く旋律とリズム",
+            "018": "歌う私抱きしめて踊り出した",
+            "019": "",
+            "020": "幾つもの風が吹く",
+            "021": "知らない国の歌",
+            "022": "降り注いでは散りばめられていくの",
+            "023": "一つ一つ光る中で「私の詩」をウタウ。",
+            "024": "",
+            "025": "la la la…",
+            "026": "",
+            "027": "加護（いら）ない音なんてひとつも無いの",
+            "028": "",
+            "029": "煌めく時間",
+            "030": "淡く染まる五線譜（キャンパス）と音符（雫）",
+            "031": "踊る私いつまでも海の底まで沈む様に",
+            "032": "",
+            "033": "溜め息は囁きに",
+            "034": "傷ついた心は",
+            "035": "優しく響く言葉に変えていくの",
+            "036": "崩れそうなこの世界で「私の詩」をウタウ。",
+            "037": "",
+            "038": "sha ru din lan",
+            "039": "sha ru din lan",
+            "040": "lan sha ru di la tan lan tan",
+            "041": "tan sha ba din lan tan tan tan tan",
+            "042": "",
+            "043": "la",
+            "044": "sha ru din lan",
+            "045": "sha ru din lan",
+            "046": "la sha ru di la lan tan tan tan…",
+            "047": "",
+            "_en": {
+                "001": "sha ru din lan",
+                "002": "sha ru din lan",
+                "003": "la sha ru di la tan lan tan",
+                "004": "la sha ba la din tan lan tan tan tan",
+                "005": "",
+                "006": "la",
+                "007": "sha ru din tan",
+                "008": "sha ru din tan",
+                "009": "la sha ru di la tan lan tan",
+                "010": "ta sha ba din tan lan tan",
+                "011": "",
+                "012": "fuwafuwa tokeru komorebi",
+                "013": "harukaze ga hakobu kaori",
+                "014": "kurabete bakari no onkai tachi o",
+                "015": "ukabeta sora de utai tsuzuketeta",
+                "016": "kirakira hikaru kotoba",
+                "017": "tooku hibiku senritsu to RHYTHM",
+                "018": "utau watashi dakishimete odoridashita",
+                "019": "",
+                "020": "ikutsumo no kaze ga fuku",
+                "021": "shiranai kuni no uta",
+                "022": "furisosoide wa chiribamerarete iku no",
+                "023": "hitotsu hitotsu hikaru naka de   \"watashi no uta\"   o utau.",
+                "024": "",
+                "025": "la la la...",
+                "026": "",
+                "027": "iranai oto nante hitotsu mo nai no",
+                "028": "",
+                "029": "kirameku jikan",
+                "030": "awaku somaru CANVAS to shizuku",
+                "031": "odoru watashi itsumademo umi no soko made shizumu you ni",
+                "032": "",
+                "033": "tameiki wa sasayaki ni",
+                "034": "kizutsuita kokoro wa",
+                "035": "yasashiku hibiku kotoba ni kaete iku no",
+                "036": "kuzuresou na kono sekai de \"watashi no uta\" o utau.",
+                "037": "",
+                "038": "sha ru din lan",
+                "039": "sha ru din lan",
+                "040": "lan sha ru di la tan lan tan",
+                "041": "tan sha ba din lan tan tan tan tan",
+                "042": "",
+                "043": "la",
+                "044": "sha ru din lan",
+                "045": "sha ru din lan",
+                "046": "la sha ru di la lan tan tan tan...",
+                "047": ""
+            }
+        },
+        "motion": {
+            "01": "PV236_ABSO"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "6284",
+                "motion": "PV236_ABSO",
+                "stage": "STGPV236S07"
+            },
+            "1": {
+                "frame": "6491",
+                "motion": "PV236_ABSO",
+                "stage": "STGPV236S07"
+            },
+            "length": "2"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "47",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "188",
+        "sabi": {
+            "play_time": "28.5",
+            "start_time": "71.5"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_236.ogg",
+        "song_name": "Absolunote",
+        "song_name_en": "Absolunote",
+        "song_name_reading": "あぶそるのーと",
+        "songinfo": {
+            "arranger": "Lemm",
+            "illustrator": "号・Ciel",
+            "lyrics": "Lemm",
+            "music": "Lemm",
+            "_en": {
+                "arranger": "Lemm",
+                "illustrator": "Gou･Ciel",
+                "lyrics": "Lemm",
+                "music": "Lemm"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv236s07.txt",
+                "stage": "STGPV236S07"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

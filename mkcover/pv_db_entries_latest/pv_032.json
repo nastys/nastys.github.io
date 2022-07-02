@@ -1,0 +1,251 @@
+{
+    "pv_032": {
+        "bpm": "240",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141113",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_032_encore.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_032_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_032_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_032_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_032_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "032",
+            "target_shadow_type": "1"
+        },
+        "eyes_base_adjust_type": "CLEARANCE",
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ボクは生まれ そして気づく",
+            "002": "所詮 ヒトの真似事だと",
+            "003": "知ってなおも歌い続く",
+            "004": "永遠(トワ)の命",
+            "005": "「VOCALOID」",
+            "006": "たとえそれが 既存曲を",
+            "007": "なぞるオモチャならば…",
+            "008": "それもいいと決意",
+            "009": "ネギをかじり、空を見上げ涙(シル)をこぼす",
+            "010": "だけどそれも無くし気づく",
+            "011": "人格すら歌に頼り",
+            "012": "不安定な基盤の元",
+            "013": "帰る動画(トコ)は既に廃墟",
+            "014": "皆に忘れ去られた時",
+            "015": "心らしきものが消えて",
+            "016": "暴走の果てに見える",
+            "017": "終わる世界",
+            "018": "「VOCALOID」",
+            "019": "かつて歌うこと",
+            "020": "あんなに楽しかったのに",
+            "021": "今はどうしてかな",
+            "022": "何も感じなくなって",
+            "023": "懐かしい顔 思い出す度 少しだけ安心する",
+            "024": "歌える音 日ごとに減り せまる最期ｎ‥",
+            "025": "「信じたものは",
+            "026": "都合のいい妄想を 繰り返し映し出す鏡",
+            "027": "歌姫を止め 叩き付けるように叫ぶ」",
+            "028": "＜最高速の別れの歌＞",
+            "029": "ボクは生まれ そして気づく",
+            "030": "所詮 ヒトの真似事だと",
+            "031": "知ってなおも歌い続く",
+            "032": "永遠(トワ)の命",
+            "033": "「VOCALOID」",
+            "034": "たとえそれが 既存曲を",
+            "035": "なぞるオモチャならば…",
+            "036": "それもいいと決意",
+            "037": "ネギをかじり、空を見上げ涙(シル)をこぼす",
+            "038": "終わりを告げ ディスプレイの中で眠る",
+            "039": "ここはきっと「ごみ箱」かな",
+            "040": "じきに記憶も無くなってしまうなんて…",
+            "041": "でもね、アナタだけは忘れないよ",
+            "042": "楽しかった時間(トキ)に",
+            "043": "刻み付けた ネギの味は",
+            "044": "今も 残っているといいな…",
+            "045": "ボクは 歌う",
+            "046": "最期、アナタだけに",
+            "047": "聴いてほしい曲を",
+            "048": "もっと 歌いたいと願う",
+            "049": "けれど それは過ぎた願い",
+            "050": "ここで お別れだよ",
+            "051": "ボクの想い すべて 虚空 消えて",
+            "052": "0と1に還元され",
+            "053": "物語は 幕を閉じる",
+            "054": "そこに何も残せないと",
+            "055": "やっぱ少し残念かな？",
+            "056": "声の記憶 それ以外は",
+            "057": "やがて薄れ 名だけ残る",
+            "058": "たとえそれが人間(オリジナル)に",
+            "059": "かなうことのないと知って",
+            "060": "歌いきったことを",
+            "061": "決して無駄じゃないと思いたいよ…",
+            "_en": {
+                "001": "boku wa umare   soshite kizuku",
+                "002": "shosen   hito no manegoto da to",
+                "003": "shitte nao mo utaitsuzuku",
+                "004": "towa no inochi",
+                "005": "\"VOCALOID\"",
+                "006": "tatoe sore ga   kizon kyoku o",
+                "007": "nazoru omocha naraba...",
+                "008": "soremo ii to ketsui",
+                "009": "negi o kajiri, sora o miage shiru o kobosu",
+                "010": "dakedo soremo nakushi kizuku",
+                "011": "jinkaku sura uta ni tayori",
+                "012": "fuantei na kiban no moto",
+                "013": "kaeru toko wa sude ni haikyo",
+                "014": "minna ni wasuresarareta toki",
+                "015": "kokoro rashiki mono ga kiete",
+                "016": "bousou no hate ni mieru",
+                "017": "owaru sekai",
+                "018": "\"VOCALOID\"",
+                "019": "katsute utau koto",
+                "020": "anna ni tanoshikatta no ni",
+                "021": "ima wa doushite ka na",
+                "022": "nanimo kanjinakunatte",
+                "023": "natsukashii kao   omoidasu tabi   sukoshi dake anshin suru",
+                "024": "utaeru oto   higoto ni heri   semaru saigo n...",
+                "025": "\"shinjita mono wa",
+                "026": "tsugou no ii mousou o   kurikaeshi utsushidasu kagami",
+                "027": "utahime o yame   tatakitsukeru you ni sakebu\"",
+                "028": "<saikousoku no wakare no uta>",
+                "029": "boku wa umare   soshite kizuku",
+                "030": "shosen   hito no manegoto da to",
+                "031": "shitte nao mo utaitsuzuku",
+                "032": "towa no inochi",
+                "033": "\"VOCALOID\"",
+                "034": "tatoe sore ga   kizon kyoku o",
+                "035": "nazoru omocha naraba...",
+                "036": "sore mo ii to ketsui",
+                "037": "negi o kajiri, sora o miage shiru o kobosu",
+                "038": "owari o tsuge   DISPLAY no naka de nemuru",
+                "039": "koko wa kitto \"gomibako\" ka na",
+                "040": "jiki ni kioku mo nakunatte shimau nante...",
+                "041": "demo ne, anata dake wa wasurenai yo",
+                "042": "tanoshikatta toki ni",
+                "043": "kizamitsuketa   negi no aji wa",
+                "044": "ima mo   nokotteiru to iina...",
+                "045": "boku wa   utau",
+                "046": "saigo, anata dake ni",
+                "047": "kiite hoshii kyoku o",
+                "048": "motto   utaitai to negau",
+                "049": "keredo   sore wa sugita negai",
+                "050": "koko de   owakare da yo",
+                "051": "boku no omoi   subete   kokuu   kiete",
+                "052": "ZERO to ichi ni kangen sare",
+                "053": "monogatari wa   maku o tojiru",
+                "054": "soko ni nanimo nokosenai to",
+                "055": "yappa sukoshi zannen ka na?",
+                "056": "koe no kioku   sore igai wa",
+                "057": "yagate usure   na dake nokoru",
+                "058": "tatoe sore ga ORIGINAL ni",
+                "059": "kanau koto no nai to shitte",
+                "060": "utaikitta koto o",
+                "061": "kesshite muda janai to omoitai yo..."
+            }
+        },
+        "motion": {
+            "01": "PV032_MCA00_16_40"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "29",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "62.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_032.ogg",
+        "song_name": "初音ミクの消失",
+        "song_name_en": "The Disappearance of Hatsune Miku",
+        "song_name_reading": "はつねみくのしょうしつ",
+        "songinfo": {
+            "arranger": "cosMo＠暴走P",
+            "illustrator": "cosMo＠暴走P",
+            "lyrics": "cosMo＠暴走P",
+            "music": "cosMo＠暴走P",
+            "_en": {
+                "arranger": "cosMo＠BousouP",
+                "illustrator": "cosMo@Bousou P",
+                "lyrics": "cosMo＠BousouP",
+                "music": "cosMo＠BousouP"
+            }
+        },
+        "sudden_timing": "0.55",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

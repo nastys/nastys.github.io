@@ -1,0 +1,194 @@
+{
+    "pv_611": {
+        "bpm": "114",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_611_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_611_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_611_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_611_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "611"
+        },
+        "effect_se_file_name": "rom/sound/pv611_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv611_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "このままでいいと思ってた",
+            "002": "逃げ出した夜の中で",
+            "003": "雨音が窓を打ち鳴らす　後悔に 苛まれた",
+            "004": "私だけを見てほしいなんて",
+            "005": "素直に言える訳もない",
+            "006": "歪んだ愛の結末には　何が見える？",
+            "007": "闇が深まり　放たれる欲望",
+            "008": "今この場所で　 応えて欲しい",
+            "009": "誰かの影が　見え隠れしている",
+            "010": "怯える様に　その胸に体を 埋めて",
+            "011": "カラカラと鈍い音をたて　歯車は 廻っている",
+            "012": "飽きもしないでアナタを信じ",
+            "013": "慣れた作業がくるくると",
+            "014": "確かめあったつもりになって　 誤魔化される",
+            "015": "突然のベル　絡み合う友情",
+            "016": "嘘を重ねて　 微笑んだまま",
+            "017": "苦し 紛れの　言い訳に 縋れば",
+            "018": "錆びたココロは",
+            "019": "ゆっくりと 麻痺していくだけ",
+            "020": "冷たい部屋を　交差する感情",
+            "021": "今この場所で 　応えて欲しい",
+            "022": "悪魔の声は　突き刺さり消えない",
+            "023": "仮面の裏を　さあ引き 剥がして",
+            "024": "闇が深まり　戻れない愛情",
+            "025": "鋭く 抉る　濡れた 矛先",
+            "026": "花火の様に　弾けて消えるまで",
+            "027": "互いを 焦がし　全てを燃やしてく",
+            "028": "優しく…",
+            "_en": {
+                "001": "kono mama de ii to omotteta",
+                "002": "nigedashita yoru no naka de",
+                "003": "amaoto ga mado o uchinarasu   koukai ni   sainamareta",
+                "004": "watashi dake o mite hoshii nante",
+                "005": "sunao ni ieru wake mo nai",
+                "006": "yuganda ai no ketsumatsu ni wa   nani ga mieru?",
+                "007": "yami ga fukamari   hanatareru yokubou",
+                "008": "ima kono basho de   kotaete hoshii",
+                "009": "dareka no kage ga   miekakure shiteiru",
+                "010": "obieru you ni   sono mune ni karada o   uzumete",
+                "011": "karakara to nibui oto o tate   haguruma wa mawatteiru",
+                "012": "akimoshinaide anata o shinji",
+                "013": "nareta sagyou ga kurukuru to",
+                "014": "tashikameatta tsumori ni natte   gomakasareru",
+                "015": "totsuzen no BELL   karamiau yuujou",
+                "016": "uso o kasanete   hohoenda mama",
+                "017": "kurushi   magire no   iiwake ni   sugareba",
+                "018": "sabita kokoro wa",
+                "019": "yukkuri to mahi shiteiku dake",
+                "020": "tsumetai heya o   kousa suru kanjou",
+                "021": "ima kono basho de   kotaete hoshii",
+                "022": "akuma no koe wa   tsukisasari kienai",
+                "023": "kamen no ura o   saa hiki   hagashite",
+                "024": "yami ga fukamari   modorenai aijou",
+                "025": "surudoku   eguru   nureta   hokosaki",
+                "026": "hanabi no you ni   hajikete kieru made",
+                "027": "tagai o   kogashi   subete o moyashiteku",
+                "028": "yasashiku..."
+            }
+        },
+        "motion": {
+            "01": "PV611_ACT_P1_00",
+            "2P": {
+                "01": "PV611_ACT_P2_00"
+            },
+            "3P": {
+                "01": "PV611_ACT_P3_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "23",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "103",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "2": {
+                "chara": "LUK",
+                "pv_costume": "27",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV611.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "84",
+        "sabi": {
+            "play_time": "23.3",
+            "start_time": "62.7"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_611.ogg",
+        "song_name": "ACUTE",
+        "song_name_en": "ACUTE",
+        "song_name_reading": "あきゅーと",
+        "songinfo": {
+            "arranger": "黒うさ",
+            "illustrator": "一葉モカ",
+            "lyrics": "黒うさ",
+            "music": "黒うさ",
+            "_en": {
+                "arranger": "Kurousa",
+                "illustrator": "Ichiyo Moka",
+                "lyrics": "Kurousa",
+                "music": "Kurousa"
+            }
+        },
+        "sort_index": "8",
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "pv_269": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_269_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_269_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_269_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_269_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "269"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "39みゅーじっくだ！",
+            "002": "新作動画　投稿だ　ほらWa・Ku・Wa・Kuする人",
+            "003": "みんなハンドサインでアイラブユウ……「♡」",
+            "004": "テレパシー受けとってね",
+            "005": "チャンネル“39”にあわせて",
+            "006": "一同 全裸になって待機セヨ",
+            "007": "嗚呼　NIPPON(日本)の魂が　感情が　一つになって",
+            "008": "そう 海越えて　空を越えて",
+            "009": "繋がるWorld(世界) 君の中へ……",
+            "010": "39みゅーじっく！",
+            "011": "大大大……大サービス！（Oh Yeah！）",
+            "012": "大大大……大熱唱！（Hey！）",
+            "013": "Making Groovy Night……未体験Night！（Oh Yeah！）",
+            "014": "さぁ 日は出づるぞ 準備OK？（Yes！）",
+            "015": "満場一致だ！",
+            "016": "前進だ　いや後退だ　いやそんな目で見ないで",
+            "017": "もう一度名前呼んで！「初音ミク！」",
+            "018": "テレパシー受けとってね　チャンネル“25”にあわせて",
+            "019": "弾ちまくれ画面いっぱいの“3と9”",
+            "020": "嗚呼　NIPPON(日本)の神唄だ",
+            "021": "デンデンと大漁旗あげて",
+            "022": "そう 塗り替えろ その“MIRAI”を",
+            "023": "39みゅーじっく！",
+            "024": "大大大……大サービス！（Oh Yeah！）",
+            "025": "大大大……大熱唱！（Hey！）",
+            "026": "Making Groovy Night……未体験Night！（Oh Yeah！）",
+            "027": "Don`t worry＆be happy！(Yes！)",
+            "028": "完全勝利だ！",
+            "029": "嗚呼　NIPPON(日本)の魂が　感情が　一つになって",
+            "030": "そう 海越えて　空を越えて",
+            "031": "繋がるWorld(世界) 君の中へ……",
+            "032": "39みゅーじっく！",
+            "033": "大大大……大サービス！（Oh Yeah！）",
+            "034": "大大大……大熱唱！（Hey！）",
+            "035": "Making Groovy Night……未体験Night！（Oh Yeah！）",
+            "036": "さぁ まだまだイってくれますカ？（Yes！）",
+            "037": "39みゅーじっくだ！",
+            "038": "大サービス（Oh Yeah！）大大大……大熱唱！（Hey！）",
+            "039": "Making Groovy Night　未体験Night！（Oh Yeah！）",
+            "040": "さぁ日は出づるぞ 準備ok？（Yes！）",
+            "041": "満場一致だ！　満場一致だ！",
+            "_en": {
+                "001": "san kyuu (39) MUSIC da!",
+                "002": "shinsaku douga   toukou da   hora wa-ku-wa-ku suru hito",
+                "003": "minna HAND SIGN de I LOVE YOU... \"♡\"",
+                "004": "TELEPATHY uketotte ne",
+                "005": "CHANNEL \"san kyuu (39)\" ni awasete",
+                "006": "ichidou zenra ni natte taiki seyo",
+                "007": "aah   nippon (NIPPON) no tamashii ga   kanjou ga   hitotsu ni natte",
+                "008": "sou   umi koete   sora o koete",
+                "009": "tsunagaru sekai (WORLD)   kimi no naka e...",
+                "010": "san kyuu (39) MUSIC!",
+                "011": "dai dai dai... dai SERVICE (OH YEAH!)",
+                "012": "dai dai dai...  dai nesshou (HEY!)",
+                "013": "MAKING GROOVY NIGHT... mitaiken NIGHT! (OH YEAH!)",
+                "014": "saa   hi wa izuru zo junbi OK? (YES!)",
+                "015": "manjou icchi da!",
+                "016": "zenshin da   iya koudai da   iya sonna me de minaide",
+                "017": "mou ichido namae yonde! \"Hatsune MIKU!\"",
+                "018": "TELEPATHY uketotte ne CHANNEL \"ni go (25)\" ni awasete",
+                "019": "uchi makure gamen ippai no \"san (3) to kyu (9)\"",
+                "020": "aah   nippon (NIPPON) no kamiuta da",
+                "021": "den den to tairyouki agete",
+                "022": "sou   nurikaero   sono \"mirai\" o",
+                "023": "san kyuu (39) MUSIC!",
+                "024": "dai dai dai...  dai SERVICE (OH YEAH!)",
+                "025": "dai dai dai...  dai nesshou (OH YEAH!)",
+                "026": "MAKING GROOVY NIGHT... mitaiken NIGHT! (OH YEAH!)",
+                "027": "DON’T WORRY & BE HAPPY! (YES!)",
+                "028": "kanzen shouri da!",
+                "029": "aah   nippon (NIPPON) no tamashii ga   kanjou ga   hitotsu ni natte",
+                "030": "sou   umi koete   sora o koete",
+                "031": "tsunagaru sekai (WORLD)   kimi no naka e...",
+                "032": "san kyuu (39) MUSIC!",
+                "033": "dai dai dai...  dai SERVICE (OH YEAH!)",
+                "034": "dai dai dai...  dai nesshou (OH YEAH!)",
+                "035": "MAKING GROOVY NIGHT... mitaiken NIGHT! (OH YEAH!)",
+                "036": "saa   mada mada itte kuremasuka? (YES!)",
+                "037": "san kyuu (39) MUSIC da!",
+                "038": "dai SERVICE (OH YEAH!) dai dai dai...  dai nesshou (HEY!)",
+                "039": "MAKING GROOVY NIGHT... mitaiken NIGHT! (OH YEAH!)",
+                "040": "saa   hi wa izuru zo junbi OK? (YES!)",
+                "041": "manjou icchi da!   manjou icchi da!"
+            }
+        },
+        "motion": {
+            "01": "PV269_39M"
+        },
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV269.bin"
+        },
+        "sabi": {
+            "play_time": "18.5",
+            "start_time": "79.4"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_269.ogg",
+        "song_name": "39みゅーじっく！",
+        "song_name_en": "39 Music!",
+        "song_name_reading": "さんきゅーみゅーじっく",
+        "songinfo": {
+            "arranger": "みきとP",
+            "illustrator": "（Not-116）、LEN[A-7]",
+            "lyrics": "みきとP",
+            "music": "みきとP",
+            "_en": {
+                "arranger": "mikitoP",
+                "illustrator": "（Not-116）,LEN[A-7]",
+                "lyrics": "mikitoP",
+                "music": "mikitoP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "pv_007": {
+        "bpm": "125",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_007_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_007_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_007_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_007_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "length": "0"
+            }
+        },
+        "disp2d": {
+            "set_name": "007"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "キラリと流れてる",
+            "002": "見つけて欲しいから ここにいるの",
+            "003": "誰かが手を伸ばす合図で",
+            "004": "そっとまわる星青く 光って",
+            "005": "初めての冬がきたよ",
+            "006": "誰もいない公園で",
+            "007": "星がぶつかる音に胸が鳴る",
+            "008": "ブランコから見上げた空",
+            "009": "名前はわからないけれど",
+            "010": "近づきたいよほうき星になって",
+            "011": "キラリと走る星は",
+            "012": "思い出すの、遊んでいたあの空",
+            "013": "はじけて消えてく光の軌跡",
+            "014": "また会おうね、この空で",
+            "015": "きっと",
+            "_en": {
+                "001": "kirari to nagareteru",
+                "002": "mitsukete hoshii kara   koko ni iru no",
+                "003": "dareka ga te o nobasu aizu de",
+                "004": "sotto mawaru hoshi aoku   hikatte",
+                "005": "hajimete no fuyu ga kita yo",
+                "006": "daremo inai kouen de",
+                "007": "hoshi ga butsukaru oto ni mune ga naru",
+                "008": "buranko kara miageta sora",
+                "009": "namae wa wakaranai keredo",
+                "010": "chikazukitai yo houkiboshi ni natte",
+                "011": "kirari to hashiru hoshi wa",
+                "012": "omoidasu no, asondeita ano sora",
+                "013": "hajikete kieteku hikari no kiseki",
+                "014": "mata aou ne, kono sora de",
+                "015": "kitto"
+            }
+        },
+        "motion": {
+            "01": "PV007_MCA00_01_10",
+            "02": "PV007_MCA00_01_11",
+            "03": "PV007_MCA00_01_12"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "6",
+        "sabi": {
+            "play_time": "38.0",
+            "start_time": "104.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_007.ogg",
+        "song_name": "ストロボナイツ",
+        "song_name_en": "Strobo Nights",
+        "song_name_reading": "すとろぼないつ",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "redjuice",
+            "lyrics": "yae",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "redjuice",
+                "lyrics": "yae",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

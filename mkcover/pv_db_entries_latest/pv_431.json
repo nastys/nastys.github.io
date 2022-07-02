@@ -1,0 +1,235 @@
+{
+    "pv_431": {
+        "bpm": "157",
+        "date": "20161208",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_431_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_10_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_431_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_431_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_431_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "field": {
+            "01": {
+                "stage": "STGTST"
+            },
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "闇夜の月　暗い森に",
+            "002": "散りばめられた　星をたどり",
+            "003": "扉の向こうで微笑する",
+            "004": "「お上がりなさい　ようこそ我が館へ」",
+            "005": "ランプの燈　揺れる光",
+            "006": "出迎えた猫　右足無し",
+            "007": "蠢く気配はとめどなく",
+            "008": "少年の帰路を　遠ざけた",
+            "009": "白馬の王子様",
+            "010": "さあ",
+            "011": "私の手を",
+            "012": "取って",
+            "013": "指に",
+            "014": "誓いのキスをして",
+            "015": "焦げついた魂は",
+            "016": "病的に狂わしく",
+            "017": "何度でもあなたを求める",
+            "018": "紅茶に混ぜた媚薬から",
+            "019": "分岐する運命の",
+            "020": "選択肢は渡さないわ",
+            "021": "もしあなた",
+            "022": "逃げるなら",
+            "023": "分かるでしょ？",
+            "024": "あの猫(ペット)",
+            "025": "可哀想",
+            "026": "迷路に迷い込んで",
+            "027": "引き千切られた　華のように",
+            "028": "美しく孤独に",
+            "029": "ひらり",
+            "030": "ひらり",
+            "031": "舞い我の下(もと)へ",
+            "032": "間違い探しはもう　したくない",
+            "033": "あなたでもう　何人目？",
+            "034": "幻の生身の人間",
+            "035": "老いない身体に　とり憑いた",
+            "036": "螺旋状の幻想に",
+            "037": "幾度となく騙された",
+            "038": "触れられない",
+            "039": "不老の実体",
+            "040": "触れられない",
+            "041": "不死の実体",
+            "042": "侵すこと　許されぬ事実",
+            "043": "受け継いできた　呪いの種",
+            "044": "気付かずに　華咲かせた",
+            "045": "罪と罰は自らに",
+            "046": "終わらない　呪いの展開",
+            "047": "地縛する　主の喝采",
+            "048": "暗黒なイデア劇場",
+            "049": "主役の席を改めよう",
+            "050": "お前はそう、猫になれ",
+            "051": "右手はいただこう",
+            "052": "人里に降り立った",
+            "053": "新たなる　言い伝え",
+            "054": "「森の奥、そこには妖精が」",
+            "055": "冒険心をかきたて",
+            "056": "騙し討つオーディションが",
+            "057": "今まさに始まろうとする",
+            "_en": {
+                "000": "",
+                "001": "yamiyo no tsuki   kurai mori ni",
+                "002": "chiribamerareta   hoshi o tadori",
+                "003": "tobira no mukou de bishou suru",
+                "004": "\"oagarinasai   youkoso waga yakata e\"",
+                "005": "LAMP no tou   yureru hikari",
+                "006": "demukaeta neko   migiashi nashi",
+                "007": "ugomeku kehai wa tomedonaku",
+                "008": "shounen no kiro o   toozaketa",
+                "009": "hakuba no ouji-sama",
+                "010": "saa",
+                "011": "watashi no te o",
+                "012": "totte",
+                "013": "yubi ni",
+                "014": "chikai no KISS o shite",
+                "015": "kogetsuita tamashii wa",
+                "016": "byouteki ni kuruwashiku",
+                "017": "nando demo anata o motomeru",
+                "018": "koucha ni mazeta biyaku kara",
+                "019": "bunki suru unmei no",
+                "020": "sentakushi wa watasanai wa",
+                "021": "moshi anata",
+                "022": "nigeru nara",
+                "023": "wakaru desho?",
+                "024": "ano PET",
+                "025": "kawaisou",
+                "026": "meiro ni mayoikonde",
+                "027": "hikichigirareta   hana no you ni",
+                "028": "utsukushiku kodoku ni",
+                "029": "hirari",
+                "030": "hirari",
+                "031": "mai ware no moto e",
+                "032": "machigai sagashi wa mou   shitakunai",
+                "033": "anata de mou   nanninme?",
+                "034": "maboroshi no namami no ningen",
+                "035": "oinai karada ni   toritsuita",
+                "036": "rasenjou no gensou ni",
+                "037": "ikudo to naku damasareta",
+                "038": "furerarenai",
+                "039": "furou no jittai",
+                "040": "furerarenai",
+                "041": "fushi no jittai",
+                "042": "okasu koto   yurusarenu jijitsu",
+                "043": "uketsuide kita   noroi no tane",
+                "044": "kizukazu ni   hanasakaseta",
+                "045": "tsumi to batsu wa mizukara ni",
+                "046": "owaranai   noroi no tenkai",
+                "047": "jibaku suru   nushi no kassai",
+                "048": "ankoku na idea gekijou",
+                "049": "shuyaku no seki o aratameyou",
+                "050": "omae wa sou, neko ni nare",
+                "051": "migite wa itadakou",
+                "052": "hitosato ni oritatta",
+                "053": "aratanaru   iitsutae",
+                "054": "\"mori no oku, soko ni wa yousei ga\"",
+                "055": "boukenshin o kakitate",
+                "056": "damashiutsu AUDITION ga",
+                "057": "ima masani hajimarou to suru"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01"
+        },
+        "movie_file_name": "rom/movie/pv_431.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "225",
+        "sabi": {
+            "play_time": "32.2",
+            "start_time": "68.5"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_431.ogg",
+        "song_name": "Gothic and Loneliness 〜I'm the very DIVA〜",
+        "song_name_en": "Gothic and Loneliness ～I'm the very DIVA～",
+        "song_name_reading": "ごしっくあんどろんりねす",
+        "songinfo": {
+            "arranger": "なるしまたかし",
+            "illustrator": "桜羽りん",
+            "lyrics": "なるしまたかし",
+            "music": "なるしまたかし",
+            "pv_editor": "桜羽りん",
+            "_en": {
+                "arranger": "Takashi Narushima",
+                "illustrator": "Rin Sakuraba",
+                "lyrics": "Takashi Narushima",
+                "music": "Takashi Narushima",
+                "pv_editor": "Rin Sakuraba"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

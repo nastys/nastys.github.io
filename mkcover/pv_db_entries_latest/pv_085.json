@@ -1,0 +1,207 @@
+{
+    "pv_085": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_085_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_085_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_085_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_085_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "085",
+            "title_end_2d_field": "11",
+            "title_start_2d_field": "11"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_PICK_RED_R",
+            "02": "PV_PICK_RED_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "過ぎた季節　静かに滲む寒空",
+            "002": "通りを望むこの景色も移ろい行く",
+            "004": "戸惑いも",
+            "005": "悲しみも",
+            "006": "この声に乗せて",
+            "007": "",
+            "008": "孤独の果ての蜃気楼",
+            "009": "その背中に刺さる欠けた月",
+            "010": "路傍の果てに見えるのは",
+            "011": "ただ物言わぬ窓の影",
+            "012": "",
+            "013": "喰潰され　忘れ去られ",
+            "014": "形も無く消えていくだけ",
+            "015": "この歌さえ　忘れ去られ",
+            "016": "風に流れ塵になり",
+            "017": "此処に在れど　其処に在れど",
+            "018": "忘れ去られ記憶の果てへ",
+            "019": "あの歌さえ　この歌さえ",
+            "020": "世の無常を歌うように",
+            "021": "",
+            "022": "戸惑いも",
+            "023": "悲しみも",
+            "024": "この声に乗せてく",
+            "025": "後悔も",
+            "026": "絶望も",
+            "027": "この声が運んで",
+            "028": "",
+            "029": "孤独の果ての蜃気楼",
+            "030": "その背中に刺さる欠けた月",
+            "031": "路傍の果てに見えるのは",
+            "032": "ただ物言わぬ窓の影だけなのか",
+            "034": "孤独の果ての蜃気楼",
+            "035": "その背中に刺さる青い月",
+            "036": "繰り返しの果てに見えるのは",
+            "037": "ただ穏やかな星の夢の後先よ",
+            "_en": {
+                "001": "sugita kisetsu   shizuka ni nijimu samuzora",
+                "002": "toori o nozomu kono keshiki mo utsuroiyuku",
+                "004": "tomadoi mo",
+                "005": "kanashimi mo",
+                "006": "kono koe ni nosete",
+                "007": "",
+                "008": "kodoku no hate no shinkirou",
+                "009": "sono senaka ni sasaru kaketa tsuki",
+                "010": "robou no hate ni mieru no wa",
+                "011": "tada mono iwanu mado no kage",
+                "012": "",
+                "013": "kuitsubusare   wasuresarare",
+                "014": "katachi mo naku kiete iku dake",
+                "015": "kono uta sae   wasuresarare",
+                "016": "kaze ni nagare chiri ni nari",
+                "017": "koko ni aredo   soko ni aredo",
+                "018": "wasuresarare kioku no hate e",
+                "019": "ano uta sae   kono uta sae",
+                "020": "yo no mujou o utau you ni",
+                "021": "",
+                "022": "tomadoi mo",
+                "023": "kanashimi mo",
+                "024": "kono koe ni noseteku",
+                "025": "koukai mo",
+                "026": "zetsubou mo",
+                "027": "kono koe ga hakonde",
+                "028": "",
+                "029": "kodoku no hate no shinkirou",
+                "030": "sono senaka ni sasaru kaketa tsuki",
+                "031": "robou no hate ni mieru no wa",
+                "032": "tada mono iwanu mado no kage dake na no ka",
+                "034": "kodoku no hate no shinkirou",
+                "035": "sono senaka ni sasaru aoi tsuki",
+                "036": "kurikaeshi no hate ni mieru no wa",
+                "037": "tada odayaka na hoshi no yume no atosaki yo"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV085_KNH_00_C00_00A_P1_M",
+            "2P": {
+                "00": "CMN_MRA00_13_01",
+                "01": "PV085_KNH_00_C00_00A_P2_M"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "14",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "10",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_item": {
+            "01": "ITMPV085_GUITAR_03__DIVSKN",
+            "02": "ITMPV085_BASS_01__DIVSKN"
+        },
+        "rank_board_id": "60",
+        "sabi": {
+            "play_time": "28.5",
+            "start_time": "153.0"
+        },
+        "se_name": "06_button6",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_203.ogg",
+        "song_name": "孤独の果て -extend edition-",
+        "song_name_en": "Solitude's End -extend edition-",
+        "song_name_reading": "こどくのはて　えくすてんどえでぃしょん",
+        "songinfo": {
+            "arranger": "光収容",
+            "illustrator": "NEGI",
+            "lyrics": "光収容",
+            "music": "光収容",
+            "_en": {
+                "arranger": "Hikarisyuyo",
+                "illustrator": "NEGI",
+                "lyrics": "Hikarisyuyo",
+                "music": "Hikarisyuyo"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

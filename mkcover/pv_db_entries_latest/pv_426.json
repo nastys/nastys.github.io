@@ -1,0 +1,249 @@
+{
+    "pv_426": {
+        "bpm": "183",
+        "date": "20111215",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_426_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_426_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_426_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "426"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "021",
+            "01": "020",
+            "02": "019",
+            "03": "018",
+            "04": "007"
+        },
+        "eyes_base_adjust_type": "CLEARANCE",
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "eff_rouge_b",
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "11": {
+                "aet_front": "eff_rouge_c",
+                "stage": "STGNS020"
+            },
+            "01": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "02": {
+                "stage": "STGNS014"
+            },
+            "03": {
+                "stage": "STGNS020"
+            },
+            "04": {
+                "stage": "STGNS023"
+            },
+            "05": {
+                "stage": "STGNS003"
+            },
+            "06": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKWHITE"
+            },
+            "07": {
+                "aet_front": "eff_tears_all",
+                "stage": "STGNS014"
+            },
+            "08": {
+                "aet_front": "eff_rouge_a",
+                "stage": "STGNS014"
+            },
+            "09": {
+                "aet_front": "eff_rouge_b",
+                "stage": "STGNS020"
+            },
+            "length": "11"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "あなたの体温(ねつ)を欲しがって",
+            "002": "空を探す右のうで",
+            "003": "ねむれない午前2時　秒針の音が響く",
+            "004": "あなたはもう眠ってるんでしょ？",
+            "005": "ヒトの気など知らないで",
+            "006": "胸疼き雫落ち　ひとりきりで眠れない",
+            "007": "オフィスで視線交わして",
+            "008": "目配せをしてみたところで",
+            "009": "あなたはそう気付かないのよ",
+            "010": "待ちきれない週末の夜",
+            "011": "甘い香り纏ってあなたの胸に頬よせてゆく",
+            "012": "とまどった顔しないで",
+            "013": "その腕の中に閉じ込めてよ",
+            "014": "甘い吐息ふきかけ",
+            "015": "触れて欲しいの高鳴る胸に",
+            "016": "望んでいるのはひとつだけ",
+            "017": "あなたを感じて眠りにおちる",
+            "018": "タイムカード指で弾き",
+            "019": "ルージュなおす薬指",
+            "020": "あなたからコール音",
+            "021": "いつもの場所待ってるわ",
+            "022": "赤いグラスの色に",
+            "023": "深く酔わせてくれるかしら",
+            "024": "頬を染めて肌染まるほど",
+            "025": "全てを融かしてほしいの",
+            "026": "甘いあまいひととき",
+            "027": "あなたの胸に顔を埋めて",
+            "028": "一晩中だきしめて　あなたの全て感じたいの",
+            "029": "甘い吐息ふきこむ",
+            "030": "あなたの中にもっと私を",
+            "031": "ひとつに溶けあってしまうほど",
+            "032": "今夜はずっと眠らせないわ",
+            "_en": {
+                "001": "anata no netsu o hoshigatte",
+                "002": "kuu o sagasu migi no ude",
+                "003": "nemurenai gozen niji   byoushin no oto ga hibiku",
+                "004": "anata wa mou nemutterun desho?",
+                "005": "hito no ki nado shiranaide",
+                "006": "mune uzuki shizuku ochi   hitori kiri de nemurenai",
+                "007": "OFFICE de shisen kawashite",
+                "008": "mekubase o shite mita tokoro de",
+                "009": "anata wa sou kizukanai no yo",
+                "010": "machikirenai shuumatsu no yoru",
+                "011": "amai kaori matotte anata no mune ni hoho yosete yuku",
+                "012": "tomadotta kao shinaide",
+                "013": "sono ude no naka ni tojikomete yo",
+                "014": "amai toiki fukikake",
+                "015": "furete hoshii no takanaru mune ni",
+                "016": "nozondeiru no wa hitotsu dake",
+                "017": "anata o kanjite nemuri ni ochiru",
+                "018": "TIME CARD yubi de hajiki",
+                "019": "ROUGE naosu kusuriyubi",
+                "020": "anata kara CALL on",
+                "021": "itsumo no basho matteru wa",
+                "022": "akai GLASS no iro ni",
+                "023": "fukaku yowasete kureru kashira",
+                "024": "hoho o somete hada somaru hodo",
+                "025": "subete o tokashite hoshii no",
+                "026": "amai amai hitotoki",
+                "027": "anata no mune ni kao o uzumete",
+                "028": "hitobanjuu dakishimete   anata no subete kanjitai no",
+                "029": "amai toiki fukikomu",
+                "030": "anata no naka ni motto watashi o",
+                "031": "hitotsu ni tokeatte shimau hodo",
+                "032": "konya wa zutto nemurasenai wa"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_12",
+            "11": "CMN_MCA00_50_42",
+            "12": "CMN_MCA00_50_34",
+            "13": "CMN_MCA00_50_56_B",
+            "14": "CMN_MCA00_70_20",
+            "15": "CMN_MCA00_70_11",
+            "16": "CMN_MCA00_50_48",
+            "17": "CMN_MCA00_50_47",
+            "18": "CMN_EDT_01_034A",
+            "19": "CMN_MCA00_50_46",
+            "20": "CMN_MCA00_70_22",
+            "21": "CMN_MCA00_50_54",
+            "22": "CMN_EDT_01_014A",
+            "23": "CMN_EDT_01_017A",
+            "24": "CMN_MCA00_70_28",
+            "25": "CMN_MCA00_70_29",
+            "26": "CMN_MCA00_70_30",
+            "27": "CMN_MCA00_50_53",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_016A",
+            "02": "CMN_EDT_01_046A",
+            "03": "CMN_EDT_01_048A",
+            "04": "CMN_MCA00_50_43",
+            "05": "CMN_MCA00_50_22",
+            "06": "CMN_MCA00_50_28",
+            "07": "CMN_MCA00_50_60_C",
+            "08": "CMN_MCA00_70_15",
+            "09": "CMN_EDT_01_011A"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "62",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "220",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "123.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_426.ogg",
+        "song_name": "break;down",
+        "song_name_en": "break;down",
+        "song_name_reading": "ぶれいくだうん",
+        "songinfo": {
+            "arranger": "hmtk",
+            "illustrator": "手鞠",
+            "lyrics": "クマー＠Taken",
+            "music": "hmtk",
+            "pv_editor": "mistieue",
+            "_en": {
+                "arranger": "hmtk",
+                "illustrator": "Temari",
+                "lyrics": "Kuma＠Taken",
+                "music": "hmtk",
+                "pv_editor": "mistieue"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff__f",
+            "time": "5.18"
+        }
+    }
+}

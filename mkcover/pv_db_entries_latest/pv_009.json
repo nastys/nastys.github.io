@@ -1,0 +1,151 @@
+{
+    "pv_009": {
+        "bpm": "84",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_009_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_009_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_009_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "length": "0"
+            }
+        },
+        "disp2d": {
+            "set_name": "009",
+            "title_end_2d_field": "6",
+            "title_start_2d_field": "6"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "すやすや 夢を見てる",
+            "002": "君の横顔",
+            "003": "気付かず 零れた涙",
+            "004": "頬を伝う",
+            "005": "何も伝えないまま",
+            "006": "さよならは言えないよ",
+            "007": "Last night,Good night",
+            "008": "Last night,Good night",
+            "009": "いつかは むかえる",
+            "010": "最後を 想うよ",
+            "011": "夜空に 願うの",
+            "012": "ときわの 笑顔を",
+            "013": "おやすみ",
+            "_en": {
+                "001": "suyasuya   yume o miteru",
+                "002": "kimi no yokogao",
+                "003": "kizukazu   koboreta namida",
+                "004": "hoo o tsutau",
+                "005": "nanimo tsutaenai mama",
+                "006": "sayonara wa ienai yo",
+                "007": "Last night, Good night",
+                "008": "Last night, Good night",
+                "009": "itsuka wa   mukaeru",
+                "010": "saigo o   omou yo",
+                "011": "yozora ni   negau no",
+                "012": "tokiwa no   egao o",
+                "013": "oyasumi"
+            }
+        },
+        "motion": {
+            "10": "PV009_MCA00_50_21",
+            "11": "PV009_MCA00_50_47",
+            "01": "PV009_POM00_01_30",
+            "02": "PV009_POM00_01_31",
+            "03": "PV009_POM00_01_32",
+            "04": "PV009_POM00_01_33",
+            "05": "PV009_POM00_01_34",
+            "06": "PV009_POM00_01_35",
+            "07": "PV009_POM00_01_36",
+            "08": "PV009_POM00_01_37",
+            "09": "PV009_POM00_01_38"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV009_POM00_01_30",
+                "stage": "STGPV009S02"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV009_POM00_01_31",
+                "stage": "STGPV009S02"
+            },
+            "2": {
+                "frame": "0",
+                "motion": "PV009_POM00_01_33",
+                "stage": "STGPV009S01"
+            },
+            "length": "3"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "8",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "122.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_009.ogg",
+        "song_name": "Last Night, Good Night",
+        "song_name_en": "Last Night, Good Night",
+        "song_name_reading": "らすとないとぐっどないと",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "redjuice",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "redjuice",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

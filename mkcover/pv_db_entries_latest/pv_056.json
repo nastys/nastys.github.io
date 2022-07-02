@@ -1,0 +1,175 @@
+{
+    "pv_056": {
+        "bpm": "140",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_056_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_056_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_056_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_056_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "056",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "002": "切ないという感情を知る",
+            "003": "響くピアノ　不協和音",
+            "004": "悪い夢にうなされた私を早く起こして",
+            "005": "どんなことでも",
+            "006": "始まりは些細なことでしょう？",
+            "007": "どこがいいかなんて　聞かれても困る",
+            "008": "綺麗な夜に惑わされたまま行方不明だから",
+            "009": "長いまつげ　三日月アイライン",
+            "010": "まぶたに乗せて　光るリップ",
+            "011": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "012": "切ないという感情を知る",
+            "013": "響くピアノ　不協和音",
+            "014": "",
+            "015": "傷口から溶け出したものは",
+            "016": "愛情それとも　Ah...",
+            "017": "",
+            "018": "後悔は死ぬほどしてる",
+            "019": "その分だけ快感を呼び覚ます",
+            "020": "狂いだした私を止めて",
+            "021": "一瞬でラクにしてよ",
+            "022": "抱き寄せて　歪んだ体",
+            "023": "埋めるのはあなたしかいない",
+            "024": "そうでしょう？　わかってるくせに",
+            "025": "境界線とっくに越えてる",
+            "026": "右肩に紫蝶々　キスをしたこの部屋の隅で",
+            "027": "切ないという感情を知る",
+            "028": "響くピアノ　不協和音",
+            "029": "右肩に紫蝶々",
+            "030": "",
+            "031": "切ないという感情を知る",
+            "032": "",
+            "033": "不協和音",
+            "034": "",
+            "_en": {
+                "001": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "002": "setsunai to iu kanjou o shiru",
+                "003": "hibiku PIANO   fukyouwaon",
+                "004": "warui yume ni unasareta watashi o hayaku okoshite",
+                "005": "donna koto demo",
+                "006": "hajimari wa sasai na koto deshou?",
+                "007": "doko ga ii ka nante   kikaretemo komaru",
+                "008": "kirei na yoru ni madowasareta mama yukue fumei dakara",
+                "009": "nagai matsuge   mikazuki EYELINE",
+                "010": "mabuta ni nosete   hikaru LIP",
+                "011": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "012": "setsunai to iu kanjou o shiru",
+                "013": "hibiku PIANO   fukyouwaon",
+                "014": "",
+                "015": "kizuguchi kara tokedashita mono wa",
+                "016": "aijou soretomo   ah...",
+                "017": "",
+                "018": "koukai wa shinu hodo shiteru",
+                "019": "sono bun dake kaikan o yobisamasu",
+                "020": "kuruidashita watashi o tomete",
+                "021": "isshun de raku ni shite yo",
+                "022": "dakiyosete   yuganda karada",
+                "023": "umeru no wa anata shika inai",
+                "024": "sou deshou?   wakatteru kuse ni",
+                "025": "kyoukaisen tokku ni koeteru",
+                "026": "migikata ni murasaki chouchou   KISS o shita kono heya no sumi de",
+                "027": "setsunai to iu kanjou o shiru",
+                "028": "hibiku PIANO   fukyouwaon",
+                "029": "migikata ni murasaki chouchou",
+                "030": "",
+                "031": "setsunai to iu kanjou o shiru",
+                "032": "",
+                "033": "fukyouwaon",
+                "034": ""
+            }
+        },
+        "motion": {
+            "01": "PV056_MKT_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "4",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "46",
+        "sabi": {
+            "play_time": "17.0",
+            "start_time": "73.71"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_056.ogg",
+        "song_name": "右肩の蝶",
+        "song_name_en": "Butterfly on Your Right Shoulder",
+        "song_name_reading": "みぎかたのちょう",
+        "songinfo": {
+            "arranger": "のりぴー",
+            "illustrator": "秋 赤音",
+            "lyrics": "水野悠良",
+            "manipulator": "のりぴー",
+            "music": "のりぴー",
+            "_en": {
+                "arranger": "noripy",
+                "illustrator": "Akiakane",
+                "lyrics": "Yura Mizuno",
+                "manipulator": "noripy",
+                "music": "noripy"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

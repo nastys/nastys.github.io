@@ -1,0 +1,195 @@
+{
+    "pv_057": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_057_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_057_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_057_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_057_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_057_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "057",
+            "title_end_2d_field": "14",
+            "title_start_2d_field": "14"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "半径85センチがこの手の届く距離",
+            "002": "今から振り回しますので離れていてください",
+            "003": "",
+            "004": "ただ回る事が楽しかった",
+            "005": "このままでいたかった",
+            "006": "ただ回る事を続けていたら",
+            "007": "止まり方を忘れていた",
+            "008": "周りの仲間達が自分より上手く回れるのを",
+            "009": "仕方ないと一言",
+            "010": "つぶやいて諦めたフリをしていた",
+            "011": "半径250センチはこの手の届く距離",
+            "012": "今から動き回りますので離れていてください",
+            "013": "",
+            "014": "から回る事も楽しかった",
+            "015": "このままでいたかった",
+            "016": "から回る事を続けていたら",
+            "017": "報われると信じていた",
+            "018": "周りの仲間達は自分より高く回れるから",
+            "019": "下から眺めるのは",
+            "020": "首が痛いと拗ねたフリをしていた",
+            "021": "半径5200センチはこの手の届く距離",
+            "022": "今から飛び回りますので離れていてください",
+            "023": "",
+            "024": "どうでしょう？",
+            "025": "昔の自分が見たら褒めてくれるかな？",
+            "026": "目が回り軸もぶれてるけど",
+            "027": "23.4度傾いて眺めた街並みは",
+            "028": "いつの間にか見た事のない",
+            "029": "色に染まっていた",
+            "030": "半径6300キロはこの手の届く距離",
+            "031": "今ならできる気がしますので",
+            "032": "離れていてください",
+            "033": "半径85センチがこの手の届く距離",
+            "034": "いつの日か回り疲れた時は側にいてください",
+            "035": "",
+            "_en": {
+                "001": "hankei 85cm ga kono te no todoku kyori",
+                "002": "ima kara furimawashimasu no de hanareteite kudasai",
+                "003": "",
+                "004": "tada mawaru koto ga tanoshikatta",
+                "005": "kono mama de itakatta",
+                "006": "tada mawaru koto o tsuzuketeitara",
+                "007": "tomarikata o wasureteita",
+                "008": "mawari no nakamatachi ga jibun yori umaku mawareru no o",
+                "009": "shikata nai to hitokoto",
+                "010": "tsubuyaite akirameta furi o shiteita",
+                "011": "hankei 250cm wa kono te no todoku kyori",
+                "012": "ima kara ugokimawarimasu no de hanareteite kudasai",
+                "013": "",
+                "014": "karamawaru koto mo tanoshikatta",
+                "015": "kono mama de itakatta",
+                "016": "karamawaru koto o tsuzuketeitara",
+                "017": "mukuwareru to shinjiteita",
+                "018": "mawari no nakamatachi wa jibun yori takaku mawareru kara",
+                "019": "shita kara nagameru no wa",
+                "020": "kubi ga itai to suneta furi o shiteita",
+                "021": "hankei 5200cm wa kono te no todoku kyori",
+                "022": "ima kara tobimawarimasu no de hanareteite kudasai",
+                "023": "",
+                "024": "doudeshou?",
+                "025": "mukashi no jibun ga mitara homete kureru ka na?",
+                "026": "me ga mawari jiku mo bureteru kedo",
+                "027": "23.4 do katamuite nagameta machinami wa",
+                "028": "itsunomanika mita koto no nai",
+                "029": "iro ni somatteita",
+                "030": "hankei 6300km wa kono te no todoku kyori",
+                "031": "ima nara dekiru ki ga shimasu no de",
+                "032": "hanareteite kudasai",
+                "033": "hankei 85cm ga kono te no todoku kyori",
+                "034": "itsu no hi ka mawaritsukareta toki wa soba ni ite kudasai",
+                "035": ""
+            }
+        },
+        "motion": {
+            "01": "PV057_DBR_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "47",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "55.5"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_057.ogg",
+        "song_name": "ダブルラリアット",
+        "song_name_en": "Double Lariat",
+        "song_name_reading": "だぶるらりあっと",
+        "songinfo": {
+            "arranger": "アゴアニキ",
+            "illustrator": "アゴアニキ",
+            "lyrics": "アゴアニキ",
+            "music": "アゴアニキ",
+            "_en": {
+                "arranger": "Agoaniki",
+                "illustrator": "Agoaniki",
+                "lyrics": "Agoaniki",
+                "music": "Agoaniki"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

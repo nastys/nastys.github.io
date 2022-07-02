@@ -1,0 +1,193 @@
+{
+    "pv_002": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_002_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_002_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_002_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_002_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_002_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "002",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "世界でいちばんおひめさま",
+            "002": "そういう扱い心得てよね",
+            "003": "その一",
+            "004": "いつもと違う髪形に気がつくこと",
+            "005": "その二",
+            "006": "ちゃんと靴までみること いいね？",
+            "007": "その三",
+            "008": "わたしの一言には三つの言葉で返事すること",
+            "009": "わかったら右手がお留守なのを",
+            "010": "なんとかして！",
+            "011": "べつにわがままなんて言ってないんだから",
+            "012": "キミに心から思って欲しいの",
+            "013": "かわいいって",
+            "014": "世界でいちばんおひめさま",
+            "015": "気がついて ねえねえ",
+            "016": "待たせるなんて論外よ",
+            "017": "わたしを誰だと思ってるの？",
+            "018": "もうなんだか あまいものが食べたい！",
+            "019": "いますぐによ",
+            "020": "いちごの乗ったショートケーキ",
+            "021": "こだわりたまごのとろけるプリン",
+            "022": "みんな みんな 我慢します…",
+            "023": "わがままな子だとおもわないで",
+            "024": "わたしだってやればできるの",
+            "025": "あとで後悔するわよ",
+            "026": "当然です！だってわたしは",
+            "027": "世界で一番おひめさま",
+            "028": "ちゃんと見ててよね",
+            "029": "どこかに行っちゃうよ？",
+            "030": "ふいに抱きしめられた",
+            "031": "急に そんな！ えっ？",
+            "032": "「轢かれる 危ないよ」",
+            "033": "そう言ってそっぽ向くキミ",
+            "034": "……こっちのが危ないわよ",
+            "_en": {
+                "001": "sekai de ichiban ohime-sama",
+                "002": "souiu atsukai kokoroete yo ne",
+                "003": "sono ichi",
+                "004": "itsumo to chigau kamigata ni ki ga tsuku koto",
+                "005": "sono ni",
+                "006": "chanto kutsu made miru koto   ii ne?",
+                "007": "sono san",
+                "008": "watashi no hitokoto ni wa mittsu no kotoba de henji suru koto",
+                "009": "wakattara migite ga orusu na no o",
+                "010": "nantoka shite!",
+                "011": "betsu ni wagamama nante ittenain dakara",
+                "012": "kimi ni kokoro kara omotte hoshii no",
+                "013": "kawaii tte",
+                "014": "sekai de ichiban ohime-sama",
+                "015": "kigatsuite   nee nee",
+                "016": "mataseru nante rongai yo",
+                "017": "watashi o dare da to omotteru no?",
+                "018": "mou nandaka   amai mono ga tabetai!",
+                "019": "ima sugu ni yo",
+                "020": "ichigo no notta SHORTCAKE",
+                "021": "kodawari tamago no torokeru purin",
+                "022": "minna   minna   gaman shimasu...",
+                "023": "wagamama na ko da to omowanaide",
+                "024": "watashi datte yareba dekiru no",
+                "025": "ato de koukai suru wa yo",
+                "026": "touzen desu! datte watashi wa",
+                "027": "sekai de ichiban ohime-sama",
+                "028": "chanto mitete yo ne",
+                "029": "dokoka ni icchau yo?",
+                "030": "fui ni dakishimerareta",
+                "031": "kyuu ni   sonna!   eh?",
+                "032": "\"hikareru   abunai yo\"",
+                "033": "sou itte soppo muku kimi",
+                "034": "...kocchi no ga abunai wa yo"
+            }
+        },
+        "motion": {
+            "01": "PV002_MCA00_00_10"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "130",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "145",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "67.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_002.ogg",
+        "song_name": "ワールドイズマイン",
+        "song_name_en": "The World is Mine",
+        "song_name_reading": "わーるどいずまいん",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "三輪士郎",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Miwa Shirow",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

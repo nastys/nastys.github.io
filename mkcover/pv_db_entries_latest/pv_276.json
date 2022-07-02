@@ -1,0 +1,218 @@
+{
+    "pv_276": {
+        "bpm": "144",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202001001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_276_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_276_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_276_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_276_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "「よっ！初音屋！」",
+            "002": "一、二、一二三 Yo!",
+            "003": "へい旦那　Break it down now",
+            "004": "バブルなり全員集合",
+            "005": "Do 爆買い No buts, guys",
+            "006": "期間限定 Party Time",
+            "007": "こんこんちきなこんちきな　大江戸1690’s",
+            "008": "今宵お祭りじゃ ダンスホールへGo!!",
+            "009": "時は元禄　泡の浮世はよ",
+            "010": "湯水のように銭溢るるわいな",
+            "011": "景気上昇に酔ひしれてる",
+            "012": "芝の浦の麗舞[レイヴ]ディスコティーク",
+            "013": "（かっぽれ かっぽれ）",
+            "014": "夜もすがらドンチャンしても　嗚呼、許してちょんまげ",
+            "015": "大江戸ジュリアナイト　伝説の舞踏サイト",
+            "016": "月下美人の本能は",
+            "017": "乱れ咲き（ちょいなささ）",
+            "018": "明けに散る（へい！散る散るらむ）",
+            "019": "大江戸ジュリアナイト（DJ）",
+            "020": "見せ場はT99よ（アナスタシア）",
+            "021": "現ぬき踊りゃんせ（Come on）あはれを汗に変へ",
+            "022": "女子衆の美府[VIP]座敷去りて",
+            "023": "色香争う欲望の御立ち台へ",
+            "024": "艶やかな晴れ姿",
+            "025": "婆娑羅なあたしゃ超々[ハイパー]ディスコクイーン",
+            "026": "（かっぽれ かっぽれ）",
+            "027": "ちょい過激でも　ネェお奉行さん",
+            "028": "見逃してちょんまげ（御用だ御用だ！）",
+            "029": "大江戸ジュリアナイト　時代照らす御神灯",
+            "030": "光彩陸離の華は",
+            "031": "空に咲き（ちょいなささ）闇に消ゆ（たまや！）",
+            "032": "大江戸ジュリアナイト（DJ）",
+            "033": "鼓音はTR-909よ（八百屋でない）",
+            "034": "羽の扇子振りゃしゃんせ（Oh yeah）　煽ぎ請う天つ風",
+            "035": "「大江戸～！」",
+            "036": "「Here we go!」",
+            "037": "丑三つのスペシャルショー",
+            "038": "ゲストは松尾芭蕉",
+            "039": "奥の細道徘徊し",
+            "040": "天晴れな句詠む俳諧師",
+            "041": "ゴシップよ芭蕉忍者説",
+            "042": "五・七・五「ここで一句！」",
+            "043": "夏芝やボデコンどもが夢の跡",
+            "044": "大江戸ジュリアナイト　伝説の舞踏サイト",
+            "045": "月下美人の本能は",
+            "046": "乱れ咲き明けに散る（へいらっしゃい！）",
+            "047": "大江戸ジュリアナイト（DJ）",
+            "048": "見せ場はT99よ（アナスタシア）",
+            "049": "現ぬき踊りゃんせ　あはれを汗に変へ",
+            "050": "「どうも失礼」",
+            "_en": {
+                "001": "\"yo! Hatsune ya!\"",
+                "002": "hi, fu, hi fu mi Yo!",
+                "003": "hei danna   BREAK IT DOWN NOW",
+                "004": "BUBBLE nari zenin shuugou",
+                "005": "DO bakugai NO BUTS, GUYS",
+                "006": "kikan gentei PARTY TIME",
+                "007": "konkonchiki na konchiki na   Ooedo 1690'S",
+                "008": "koyoi omatsuri ja  DANCE HALL e GO!!",
+                "009": "toki wa genroku   abuku no ukiyo wa yo",
+                "010": "yumizu no you ni zeni afururu wai na",
+                "011": "keiki jyoushou ni yoishireteru",
+                "012": "Shibanoura no \"RAVE\" DISCOTHEQUE",
+                "013": "(kappore kappore)",
+                "014": "yo mo sugara donchan shitemo   ah! yurushite chonmage",
+                "015": "Ooedo Julianight   densetsu no butou SITE",
+                "016": "gekkabijin no honnou wa",
+                "017": "midarezaki  (choina sasa)",
+                "018": "ake ni chiru  (hei! chiiru chiru ran)",
+                "019": "Ooedo Julianight   (DJ)",
+                "020": "miseba wa T99 yo   (ANASTASIA)",
+                "021": "utsutsu nuki odoryanse   (COME ON) aware o ase ni ka e",
+                "022": "onagoshuu no \"VIP\" zashiki sarite",
+                "023": "iroka arasou yokubou no otachidai e",
+                "024": "adeyaka na haresugata",
+                "025": "basara na atasha \"HYPER\" DISCO QUEEN",
+                "026": "(kappore kappore)",
+                "027": "choi kageki demo nee obugyousan",
+                "028": "minogashite chonmage (goyouda! goyouda!)",
+                "029": "Ooedo Julianight   jidai terasu goshintou",
+                "030": "kousairikuri no hana wa",
+                "031": "sora ni saki (choi nasasa) yami ni kiyu (tamaya!)",
+                "032": "Ooedo Julianight   (DJ)",
+                "033": "tsuzune wa TR-909 yo  (yaoya de nai)",
+                "034": "hane no sensu furya shanse (OH YEAH)  aogi kou amatsukaze",
+                "035": "\"Ooedo!\"",
+                "036": "\"HERE WE GO!\"",
+                "037": "ushimitsu no SPECIAL SHOW",
+                "038": "GUEST wa Matsuo Basho",
+                "039": "okunohosomichi haikai shi",
+                "040": "apparena ku yomu haikaishi",
+                "041": "GOSSIP yo Basho ninja setsu",
+                "042": "go-sichi-go \"koko de ikku!\"",
+                "043": "natsushiba ya   bodekon domo ga   yume no ato",
+                "044": "Ooedo Julianight   densetsu no butou SITE",
+                "045": "gekkabijin no honnou wa",
+                "046": "midarezaki ake ni chiru  (hei irasshai!)",
+                "047": "Ooedo Julianight   (DJ)",
+                "048": "miseba wa T99 yo   (ANASTASIA)",
+                "049": "utsutsu nuki odoryanse   aware o ase ni ka e",
+                "050": "\"doumo shitsurei\""
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T",
+            "2P": {
+                "01": "CMN_POSE_DEFAULT_T"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_276.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "KAI",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "sabi": {
+            "play_time": "28.8",
+            "start_time": "120"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_276.ogg",
+        "song_name": "大江戸ジュリアナイト",
+        "song_name_en": "Ooedo Julianight",
+        "song_name_reading": "おおえどじゅりあないと",
+        "songinfo": {
+            "arranger": "Mitchie M",
+            "guitar_player": "Mitchie M",
+            "illustrator": "竜宮ツカサ",
+            "lyrics": "Mitchie M",
+            "manipulator": "Mitchie M",
+            "music": "Mitchie M",
+            "pv_editor": "Not-116",
+            "_en": {
+                "arranger": "Mitchie M",
+                "guitar_player": "Mitchie M",
+                "illustrator": "Tsukasa Ryugu",
+                "lyrics": "Mitchie M",
+                "manipulator": "Mitchie M",
+                "music": "Mitchie M",
+                "pv_editor": "Not-116"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

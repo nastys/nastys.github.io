@@ -1,0 +1,197 @@
+{
+    "pv_102": {
+        "bpm": "150",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_102_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_102_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_102_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_102_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "102"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "10": {
+                "aet_front": "warp_eff03",
+                "stage": "STGNS033"
+            },
+            "11": {
+                "aet_front": "warp_eff02",
+                "stage": "STGNS030"
+            },
+            "12": {
+                "aet_front": "warp_eff03",
+                "stage": "STGNS010"
+            },
+            "01": {
+                "stage": "STGNS030"
+            },
+            "02": {
+                "aet_front": "warp_eff02",
+                "stage": "STGNS032"
+            },
+            "03": {
+                "stage": "STGNS033"
+            },
+            "04": {
+                "stage": "STGNS005"
+            },
+            "05": {
+                "stage": "STGNS010"
+            },
+            "06": {
+                "aet_front": "star_eff",
+                "stage": "STGNS032"
+            },
+            "07": {
+                "aet_front": "earth_eff__f",
+                "stage": "STGNS032"
+            },
+            "08": {
+                "aet_front": "earth_eff__f",
+                "stage": "STGNS030"
+            },
+            "09": {
+                "aet_front": "warp_eff01",
+                "stage": "STGNS030"
+            },
+            "length": "12"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "So far away from you",
+            "002": "星屑のメモリーズ",
+            "003": "またたき集めて　浮かべたミルキーウェイ",
+            "004": "涙の色だね",
+            "005": "こぼれ落ちたシューティングスター",
+            "006": "重ねた願い響け！　明日に",
+            "007": "抱きしめてる　夢の続きは進行形",
+            "008": "加速してる　想いのメロディー",
+            "009": "Jumpin' Up",
+            "010": "Fly High その手で つかまえて奇跡",
+            "011": "聴こえるでしょセカイのハーモニー",
+            "012": "Sky High 希望の鍵を探して",
+            "013": "生まれたての未来はそう QUARTET",
+            "014": "運命の鼓動　奏でた波の流線型",
+            "015": "連れて行くよ ヒカリの先へ",
+            "016": "Jumpin' Up",
+            "017": "Fly High ツバサで 切り裂いて軌跡",
+            "018": "感じるでしょセカイのハーモニー",
+            "019": "Sky High 明日の扉開いて",
+            "020": "巡り合える未来はそう QUARTET",
+            "_en": {
+                "001": "So far away from you",
+                "002": "hoshikuzu no MEMORIES",
+                "003": "matataki atsumete   ukabeta MILKY WAY",
+                "004": "namida no iro da ne",
+                "005": "koboreochita SHOOTING STAR",
+                "006": "kasaneta negai hibike!   ashita ni",
+                "007": "dakishimeteru   yume no tsuzuki wa shinkoukei",
+                "008": "kasoku shiteru   omoi no MELODY",
+                "009": "JUMPIN' UP",
+                "010": "FLY HIGH   sono te de   tsukamaete kiseki",
+                "011": "kikoeru desho sekai no HARMONY",
+                "012": "SKY HIGH kibou no kagi o sagashite",
+                "013": "umaretate no mirai wa sou   QUARTET",
+                "014": "unmei no kodou   kanadeta nami no ryuusenkei",
+                "015": "tsurete iku yo   hikari no saki e",
+                "016": "JUMPIN' UP",
+                "017": "FLY HIGH   tsubasa de   kirisaite kiseki",
+                "018": "kanjiru desho sekai no HARMONY",
+                "019": "SKY HIGH   ashita no tobira hiraite",
+                "020": "meguriaeru mirai wa sou   QUARTET"
+            }
+        },
+        "motion": {
+            "01": "PV102_QUAR_00"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "29",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "163",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "71.0"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_102.ogg",
+        "song_name": "多重未来のカルテット -Quartet Theme-",
+        "song_name_en": "Quartet of Multiple Futures -Quartet Theme-",
+        "song_name_reading": "たじゅうみらいのかるてっと",
+        "songinfo": {
+            "arranger": "Kusemono/SWANTONE",
+            "guitar_player": "G@POPO/freesia farm",
+            "illustrator": "NAK(SEGA)",
+            "lyrics": "Kusemono/SWANTONE",
+            "music": "Funky K.H",
+            "_en": {
+                "arranger": "Kusemono/SWANTONE",
+                "guitar_player": "G@POPO/freesia farm",
+                "illustrator": "NAK(SEGA)",
+                "lyrics": "Kusemono/SWANTONE",
+                "music": "Funky K.H"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "3"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "pv_250": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_250_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_250_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_250_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_250_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "250"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "名前も顔も知らない 君に会いに行く",
+            "002": "優しい人なのかな 既にサイボーグかな",
+            "003": "天文学的確率 無駄遣いしながら",
+            "004": "くだらない馬鹿話したいな",
+            "005": "月に監視されて 踊ろうよ",
+            "006": "朝日に煙る ラーメン食べたいよ",
+            "007": "未来で一緒に",
+            "008": "そう 愛を歌い 愛を疑う",
+            "009": "めんどくさい生物に",
+            "010": "ささやかな日常のぬくもりを",
+            "011": "少し期待しながら",
+            "012": "ああ 天国と地獄の中間点 君がいた",
+            "013": "はじめまして地球人さん",
+            "014": "まだ 撃たないでね",
+            "015": "はじめまして地球人さん",
+            "016": "聞こえますか？　ねえ",
+            "017": "息をしたり 引き取ったり 枝分かれのルート",
+            "018": "好かれたり 嫌われたり 雲を掴む思考",
+            "019": "ボディランゲージじゃ足りないし",
+            "020": "テレパシーは もう使えない",
+            "021": "虫の居所はいかがでしょうか",
+            "022": "涙でたぷたぷの海で 泳ごうよ",
+            "023": "ヘタクソな歌 もっと聴かせてよ",
+            "024": "胸打つ ひっそり",
+            "025": "そう 共感したり 幻滅されたり",
+            "026": "壊れやすい生物に",
+            "027": "忘れかけていた コメディを",
+            "028": "発見して 笑いながら",
+            "029": "ああ 現実と理想の中間点 君がいた",
+            "030": "はじめまして地球人さん",
+            "031": "すぐ いかないでね",
+            "032": "はじめまして地球人さん",
+            "033": "また明日",
+            "034": "言葉の意味通じてますか？",
+            "035": "誤解を生み出していますか？",
+            "036": "ああ 正解 不正解 言えるかい",
+            "037": "そう　夢をみたり　諦めたり",
+            "038": "愛を歌い 愛を疑う",
+            "039": "めんどくさい生物に",
+            "040": "ささやかな日常のぬくもりを",
+            "041": "少し期待しながら",
+            "042": "ああ 天国と地獄の中間点 君がいた",
+            "043": "はじめまして地球人さん",
+            "044": "まだ 撃たないでね",
+            "045": "はじめまして地球人さん",
+            "046": "これからもよろしくね",
+            "047": "いぇい",
+            "_en": {
+                "001": "namae mo kao mo shiranai   kimi ni ai ni yuku",
+                "002": "yasashii hito na no ka na   sude ni CYBORG ka na",
+                "003": "tenmongakuteki kakuritsu   mudazukai shinagara",
+                "004": "kudaranai bakabanashi shitai na",
+                "005": "tsuki ni kanshi sarete   odorou yo",
+                "006": "asahi ni kemuru   RAMEN tabetai yo",
+                "007": "mirai de issho ni",
+                "008": "sou   ai o utai   ai o utagau",
+                "009": "mendokusai seibutsu ni",
+                "010": "sasayaka na nichijou no nukumori o",
+                "011": "sukoshi kitai shinagara",
+                "012": "aah   tengoku to jigoku no chuukanten   kimi ga ita",
+                "013": "hajimemashite chikyuujin-san",
+                "014": "mada   utanaide ne",
+                "015": "hajimemashite chikyuujin-san",
+                "016": "kikoemasu ka?   nee",
+                "017": "iki o shitari   hikitottari   edawakare no ROOT",
+                "018": "sukaretari   kirawaretari   kumo o tsukamu shikou",
+                "019": "BODY LANGUAGE ja tarinai shi",
+                "020": "TELEPATHY wa   mou tsukaenai",
+                "021": "mushi no idokoro wa ikaga deshou ka",
+                "022": "namida de taputapu no umi de   oyogou yo",
+                "023": "hetakuso na uta   motto kikasete yo",
+                "024": "mune utsu   hissori",
+                "025": "sou   kyoukan shitari   genmetsu saretari",
+                "026": "kowareyasui seibutsu ni",
+                "027": "wasurekaketeita   COMEDY o",
+                "028": "hakken shite   warainagara",
+                "029": "aah   genjitsu to risou no chuukanten   kimi ga ita",
+                "030": "hajimemashite chikyuujin-san",
+                "031": "sugu   ikanaide ne",
+                "032": "hajimemashite chikyuujin-san",
+                "033": "mata ashita",
+                "034": "kotoba no imi tsuujitemasu ka?",
+                "035": "gokai o umidashiteimasu ka?",
+                "036": "aah   seikai   fuseikai   ieru kai",
+                "037": "sou   yume o mitari   akirametari",
+                "038": "ai o utai   ai o utagau",
+                "039": "mendokusai seibutsu ni",
+                "040": "sasayaka na nichijou no nukumori o",
+                "041": "sukoshi kitai shinagara",
+                "042": "aah   tengoku to jigoku no chuukanten   kimi ga ita",
+                "043": "hajimemashite chikyuujin-san",
+                "044": "mada   utanaide ne",
+                "045": "hajimemashite chikyuujin-san",
+                "046": "kore kara mo yoroshiku ne",
+                "047": "Yay!"
+            }
+        },
+        "motion": {
+            "01": "PV250_HJM"
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "151",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV250.bin"
+        },
+        "rank_board_id": "144",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "53.1"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_250.ogg",
+        "song_name": "はじめまして地球人さん",
+        "song_name_en": "Nice To Meet You, Mr. Earthling",
+        "song_name_reading": "はじめましてちきゅうじんさん",
+        "songinfo": {
+            "arranger": "ピノキオピー",
+            "illustrator": "おぐち",
+            "lyrics": "ピノキオピー",
+            "music": "ピノキオピー",
+            "_en": {
+                "arranger": "PinocchioP",
+                "illustrator": "Oguchi",
+                "lyrics": "PinocchioP",
+                "music": "PinocchioP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

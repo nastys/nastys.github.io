@@ -1,0 +1,204 @@
+{
+    "pv_003": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140807",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_003_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_003_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_003_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_003_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_003_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "003"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "長い長い下り坂",
+            "002": "寝ぐせをつけたわたし",
+            "003": "駆け足で転ばないように",
+            "004": "間に合え いつものバス",
+            "005": "息を切らせて走る",
+            "006": "昨日の雨 水たまりをよけて",
+            "007": "おろしたての靴を汚さないように",
+            "008": "気をつけて跳んだ",
+            "009": "あがる水しぶき、波打つ雲",
+            "010": "ぶつかる 振り向くキミ",
+            "011": "スローモーション",
+            "012": "衝撃が駆け抜けていく",
+            "013": "ほっぺをつねる",
+            "014": "落ち着いて……舞い上がらないで……",
+            "015": "止まらないドキドキ",
+            "016": "スピード上げる心臓の音",
+            "017": "キミは歩く",
+            "018": "思わず後ろからシャツを引っ張っていた",
+            "019": "ひとすじの風 木の葉を揺らして",
+            "020": "雨露が頭にパラリと降りかかる",
+            "021": "ワタシは見上げる",
+            "022": "まっすぐにキミの瞳を見る",
+            "023": "これは恋なんですか",
+            "024": "この気持ちに気がつかれないように",
+            "025": "あわてて後ずさりしながら",
+            "026": "「なんでもないです！」",
+            "027": "まずい……ばれた……？",
+            "028": "お願い 気が付かないで",
+            "029": "スローモーション",
+            "030": "耳まで赤く染まる どうしよう",
+            "031": "怒らないで 早歩きで先に行かないで",
+            "032": "あとを追いかける",
+            "033": "停留所からバスが走っていく",
+            "034": "「あーあ、遅刻……」",
+            "035": "とっさに「はい！」って元気よく返事した",
+            "036": "うれしい",
+            "_en": {
+                "001": "nagai nagai kudarizaka",
+                "002": "neguse o tsuketa watashi",
+                "003": "kakeashi de korobanai you ni",
+                "004": "ma ni ae   itsumo no BUS",
+                "005": "iki o kirasete hashiru",
+                "006": "kinou no ame   mizutamari o yokete",
+                "007": "oroshitate no kutsu o yogosanai you ni",
+                "008": "ki o tsukete tonda",
+                "009": "agaru mizushibuki, namiutsu kumo",
+                "010": "butsukaru   furimuku kimi",
+                "011": "SLOW MOTION",
+                "012": "shougeki ga kakenukete iku",
+                "013": "hoppe o tsuneru",
+                "014": "ochitsuite... maiagaranaide...",
+                "015": "tomaranai dokidoki",
+                "016": "SPEED ageru shinzou no oto",
+                "017": "kimi wa aruku",
+                "018": "omowazu ushiro kara SHIRT o hippatteita",
+                "019": "hitosuji no kaze   konoha o yurashite",
+                "020": "ametsuyu ga atama ni parari to furikakaru",
+                "021": "watashi wa miageru",
+                "022": "massugu ni kimi no me o miru",
+                "023": "kore wa koi nan desu ka",
+                "024": "kono kimochi ni ki ga tsukarenai you ni",
+                "025": "awatete atozusari shinagara",
+                "026": "\"nandemonai desu!\"",
+                "027": "mazui... bareta...?",
+                "028": "onegai   ki ga tsukanaide",
+                "029": "SLOW MOTION",
+                "030": "mimi made akaku somaru   dou shiyou",
+                "031": "okoranaide   hayaaruki de saki ni ikanaide",
+                "032": "ato o oikakeru",
+                "033": "teiryuujo kara BUS ga hashitte iku",
+                "034": "\"aaa, chikoku...\"",
+                "035": "tossa ni \"hai!\" tte genki yoku henji shita",
+                "036": "ureshii"
+            }
+        },
+        "motion": {
+            "10": "PV003_POM00_00_529",
+            "13": "PV003_POM00_00_534",
+            "16": "PV003_POM00_00_531",
+            "01": "PV003_POM00_00_520",
+            "03": "PV003_POM00_00_522",
+            "06": "PV003_POM00_00_525",
+            "09": "PV003_POM00_00_528"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "2",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "47.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_003.ogg",
+        "song_name": "その一秒スローモーション",
+        "song_name_en": "That One Second in Slow Motion",
+        "song_name_reading": "そのいちびょうすろーもーしょん",
+        "songinfo": {
+            "arranger": "ryo",
+            "illustrator": "三輪士郎",
+            "lyrics": "ryo",
+            "music": "ryo",
+            "_en": {
+                "arranger": "ryo",
+                "illustrator": "Miwa Shirow",
+                "lyrics": "ryo",
+                "music": "ryo"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "pv_261": {
+        "bpm": "220",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150617",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_261_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_261_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_261_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_261_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "261"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "lyric": {
+            "001": "鮮やかに光るその色に",
+            "002": "捕らわれて歩みを止めた",
+            "003": "無くしてただ切なくて",
+            "004": "追い求めたのはまぼろし",
+            "005": "懐かしい君の声を聞いたよ",
+            "006": "今はもうはるか遠く響く音",
+            "007": "温もりが欲しくて繋いだ手を",
+            "008": "僕ら愛なんてよんだ",
+            "009": "花が咲いて月が満ちて",
+            "010": "また景色を塗り替えて",
+            "011": "ここにいたこと 君の体温",
+            "012": "忘れていつか冷たく それだけさ",
+            "013": "見慣れた街を独りで歩く",
+            "014": "君のいない場所を探して",
+            "015": "綺麗な記憶がちらつくから",
+            "016": "目を瞑ってはまた転んだ",
+            "017": "もしもなんてさ口にしたって",
+            "018": "変わらない未来があるだけと",
+            "019": "気付いてるのに手を伸ばして",
+            "020": "また悲しい嘘を付く",
+            "021": "花が枯れて 月が消えて",
+            "022": "また季節は過ぎ去って",
+            "023": "そばにいたこと 君の感触",
+            "024": "消えて まるで何もなかったかのように",
+            "025": "僕らが誓った永遠は",
+            "026": "惰性の果てに腐ったね",
+            "027": "冬が明け 春が咲き",
+            "028": "夏が暮れ 秋が眠ったなら",
+            "029": "出会えたことを良かったと",
+            "030": "思える日が来るかな？",
+            "031": "いつまでも いつまでも",
+            "032": "君と笑っていたかったよ",
+            "033": "寂しい夜も 二人の朝も",
+            "034": "誰かが僕を塗り替えて",
+            "035": "それでいいよ 君の体温",
+            "036": "忘れていつか眠って",
+            "037": "さようなら 愛し君よ",
+            "038": "戻れないなら僕から消えてよ",
+            "_en": {
+                "001": "azayaka ni hikaru sono iro ni",
+                "002": "torawarete ayumi o tometa",
+                "003": "nakushite tada setsunakute",
+                "004": "oimotometa no wa maboroshi",
+                "005": "natsukashii kimi no koe o kiita yo",
+                "006": "ima wa mou haruka tooku hibiku oto",
+                "007": "nukumori ga hoshikute tsunaida te o",
+                "008": "bokura ai nante yonda",
+                "009": "hana ga saite  tsuki ga michite",
+                "010": "mata keshiki o nurikaete",
+                "011": "koko ni ita koto  kimi no taion",
+                "012": "wasurete itsuka tsumetaku  sore dake sa",
+                "013": "minareta machi o hitori de aruku",
+                "014": "kimi no inai basho o sagashite",
+                "015": "kirei na kioku ga chiratsuku kara",
+                "016": "me o tsumutte wa mata koronda",
+                "017": "moshimo nante sa kuchi ni shita tte",
+                "018": "kawaranai mirai ga arudake to",
+                "019": "kizuiteru no ni te o nobashite",
+                "020": "mata kanashii uso o tsuku",
+                "021": "hana ga karete  tsuki ga kiete",
+                "022": "mata kisetsu wa sugisatte",
+                "023": "soba ni ita koto  kimi no kanshoku",
+                "024": "kiete  marude nanimo nakattaka no you ni",
+                "025": "bokura ga chikatta eien wa",
+                "026": "dasei no hate ni kusatta ne",
+                "027": "fuyu ga ake  haru ga saki",
+                "028": "natsu ga kure  aki ga nemutta nara",
+                "029": "deaeta koto o yokatta to",
+                "030": "omoeru hi ga kuru ka na?",
+                "031": "itsumademo  itsumademo",
+                "032": "kimi to waratte itakatta yo",
+                "033": "samishii yoru mo  futari no asa mo",
+                "034": "dareka ga boku o nurikaete",
+                "035": "sore de ii yo  kimi no taion",
+                "036": "wasurete itsuka nemutte",
+                "037": "sayounara  itoshi kimi yo",
+                "038": "modorenai nara boku kara kiete yo"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV261_KTO"
+        },
+        "npr": {
+            "chara_lightness": "0.9"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "162",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV261.bin"
+        },
+        "rank_board_id": "158",
+        "sabi": {
+            "play_time": "30.4",
+            "start_time": "50.3"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_261.ogg",
+        "song_name": "君の体温",
+        "song_name_en": "Kimi no Taion",
+        "song_name_reading": "きみのたいおん",
+        "songinfo": {
+            "arranger": "クワガタP",
+            "illustrator": "りょーの",
+            "lyrics": "クワガタP",
+            "music": "クワガタP",
+            "_en": {
+                "arranger": "Kuwagata P",
+                "illustrator": "Ryo-no",
+                "lyrics": "Kuwagata P",
+                "music": "Kuwagata P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

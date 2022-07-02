@@ -1,0 +1,175 @@
+{
+    "pv_432": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140527",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_432_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_432_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_432_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_432_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "432",
+            "title_2d_layer": "title_eff"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "雨に塗られて轆轤 織るは闇の半",
+            "002": "一点凝視な傘おばけ",
+            "003": "派手に揺らめく赤目に吊られて",
+            "004": "狂い踊るは 喧し破廉",
+            "005": "曇天が死んだくらいで 哀しむようには生きちゃいない",
+            "006": "日暮れ紫 梅の村雨",
+            "007": "夕べと二人でごっつんこ",
+            "008": "天陽よりも艶やかな 唐傘が街を行く",
+            "009": "ちらちら降りまき ゆらゆら揺らめく",
+            "010": "汝の瞳は釘付けに",
+            "011": "差すように見つめられて 涌きに中る恋心",
+            "012": "目から飛び出る舌に濡らされた",
+            "013": "雨に振られて轆轤 織るは闇の半",
+            "014": "一点凝視な傘おばけ",
+            "015": "たたみ抱える傘を脱がして",
+            "016": "唄い踊るは 響き狂乱",
+            "017": "一寸法師に殺された 赤鬼坊やは二厘咲き",
+            "018": "吹けよ五十嵐 打てど五月雨",
+            "019": "夕べと二人でごっつんこ",
+            "020": "轟き舞え",
+            "021": "轆轤 織るは雨の半",
+            "022": "一点凝視な傘おばけ",
+            "023": "ガマを連ねる旅人誘惑って",
+            "024": "踊り狂うは 軋轢妖艶",
+            "025": "曇天が死んだくらいで 哀しむよりはそりゃ踊ろ",
+            "026": "嫁の裏作 今宵怨めし",
+            "027": "夕べと二人でごっつんこ",
+            "_en": {
+                "001": "ame ni nurarete rokuro   oru wa yami no naka",
+                "002": "itten gyoushi na kasa obake",
+                "003": "hade ni yurameku akame ni tsurarete",
+                "004": "kuruiodoru wa   yakamashi haren",
+                "005": "donten ga shinda kurai de   kanashimu you ni wa ikichainai",
+                "006": "higure murasaki   ume no murasame",
+                "007": "yuube to futari de gottsunko",
+                "008": "amehi yori mo adeyaka na   karakasa ga machi o yuku",
+                "009": "chirachira furimaki   yurayura yurameku",
+                "010": "nanji no me wa kugizuke ni",
+                "011": "sasu you ni mitsumerarete   waki ni ataru koigokoro",
+                "012": "me kara tobideru shita ni nurasareta",
+                "013": "ame ni furarete rokuro   oru wa yami no naka",
+                "014": "itten gyoushi na kasa obake",
+                "015": "tatamikakaeru kasa o nugashite",
+                "016": "utaiodoru wa   doyomeki kyouran",
+                "017": "issunboushi ni korosareta   akaoni bouya wa nirinzaki",
+                "018": "fukeyo igarashi   utedo samidare",
+                "019": "yuube to futari de gottsunko",
+                "020": "todoroki mae",
+                "021": "rokuro   oru wa ame no naka",
+                "022": "itten gyoushi na kasa obake",
+                "023": "gama o tsuraneru tabibito sasotte",
+                "024": "odorikuruu wa   atsureki youen",
+                "025": "donten ga shinda kurai de   kanashimu yori wa sorya odoro",
+                "026": "yome no urasaku   koyoi urameshi",
+                "027": "yuube to futari de gottsunko"
+            }
+        },
+        "motion": {
+            "01": "PV432_KAR"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "18",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV432.bin"
+        },
+        "rank_board_id": "226",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "70.3"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_432.ogg",
+        "song_name": "唐傘さんが通る",
+        "song_name_en": "Here Comes Karakasa-san",
+        "song_name_reading": "からかささんがとおる",
+        "songinfo": {
+            "arranger": "イヤイヤP",
+            "guitar_player": "トシユキタカミ",
+            "illustrator": "まぐ",
+            "lyrics": "イヤイヤP",
+            "music": "イヤイヤP",
+            "pv_editor": "Λkiranu",
+            "_en": {
+                "arranger": "IyaiyaP",
+                "guitar_player": "Toshiyuki Takami",
+                "illustrator": "Magu",
+                "lyrics": "IyaiyaP",
+                "music": "IyaiyaP",
+                "pv_editor": "Λkiranu"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

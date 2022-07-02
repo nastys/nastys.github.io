@@ -1,0 +1,186 @@
+{
+    "pv_084": {
+        "bpm": "198",
+        "date": "20161208",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_084_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_084_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_084_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_084_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "084",
+            "title_end_2d_field": "12",
+            "title_start_2d_field": "10"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_PICK_RED_R",
+            "02": "PV_PICK_RED_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "一滴の夢を追いかけている君が居た",
+            "002": "答えを探して埃にまみれても",
+            "003": "現実「いま」に押し潰されても",
+            "005": "光の射す空を見上げ",
+            "006": "少しずつでも歩んでいる",
+            "007": "振り返らず",
+            "008": "真っ直ぐ未来「まえ」を見て（色褪せぬ）",
+            "009": "憧憬（探して）",
+            "010": "那由多の彼方まで",
+            "011": "疾走って（響いた）",
+            "012": "君の足音",
+            "013": "",
+            "014": "胸に灯る無意識「イド」",
+            "015": "真実「イデア」と理想の",
+            "016": "軋轢に心阻まれても",
+            "018": "乾ききった自我「エゴ」",
+            "019": "この衝動が例え",
+            "020": "泡沫「うたかた」の夢でも…（刹那から）",
+            "021": "疾走った（オメガへ）",
+            "022": "あの向こうの先まで",
+            "023": "見たくて…（信じた）",
+            "024": "路「みち」を行きたい（色褪せぬ）",
+            "025": "憧憬（探して）",
+            "026": "那由多の彼方まで",
+            "027": "疾走って（響いた）",
+            "028": "君の足音",
+            "_en": {
+                "001": "hitoshizuku no yume o oikaketeiru kimi ga ita",
+                "002": "kotae o sagashite hokori ni mamiretemo",
+                "003": "ima ni oshitsubusaretemo",
+                "005": "hikari no sasu sora o miage",
+                "006": "sukoshizutsu demo ayundeiru",
+                "007": "furikaerazu",
+                "008": "massugu mae o mite (iroasenu)",
+                "009": "doukei (sagashite)",
+                "010": "nayuta no kanata made",
+                "011": "hashitte (hibiita)",
+                "012": "kimi no ashioto",
+                "013": "",
+                "014": "mune ni tomoru ID",
+                "015": "IDEA to risou no",
+                "016": "atsureki ni kokoro habamaretemo",
+                "018": "kawakikitta EGO",
+                "019": "kono shoudou ga tatoe",
+                "020": "utakata no yume demo... (setsuna kara)",
+                "021": "hashitta (OMEGA e)",
+                "022": "ano mukou no saki made",
+                "023": "mitakute... (shinjita)",
+                "024": "michi o yukitai (iroasenu)",
+                "025": "shoukei (sagashite)",
+                "026": "nayuta no kanata made",
+                "027": "hashitte (hibiita)",
+                "028": "kimi no ashioto"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV084_NNK_00_C00_00A_P1_M",
+            "2P": {
+                "00": "CMN_MRA00_13_01",
+                "01": "PV084_NNK_00_C00_00A_P2_M"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "10",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "14",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_item": {
+            "01": "ITMPV085_BASS_01__DIVSKN",
+            "02": "ITMPV085_GUITAR_03__DIVSKN"
+        },
+        "rank_board_id": "59",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "57.1"
+        },
+        "se_name": "01_button1",
+        "song_file_name": "rom/sound/song/pv_084.ogg",
+        "song_name": "那由他の彼方まで",
+        "song_name_en": "To the End of Infinity",
+        "song_name_reading": "なゆたのかなたまで",
+        "songinfo": {
+            "arranger": "釣り師P",
+            "illustrator": "なかばやし黎明",
+            "lyrics": "釣り師P",
+            "music": "釣り師P",
+            "_en": {
+                "arranger": "Tsurishi P",
+                "illustrator": "Nakabayashi ReiMei",
+                "lyrics": "Tsurishi P",
+                "music": "Tsurishi P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

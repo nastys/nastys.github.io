@@ -1,0 +1,315 @@
+{
+    "pv_440": {
+        "bpm": "192",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141204",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_440_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_440_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_440_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_440_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "440"
+        },
+        "edit": "2",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "10": "042",
+            "11": "000",
+            "00": "055",
+            "01": "066",
+            "02": "040",
+            "03": "050",
+            "04": "018",
+            "05": "000",
+            "06": "010",
+            "07": "009",
+            "08": "019",
+            "09": "054"
+        },
+        "field": {
+            "10": {
+                "light": "STGPV440_EFF_STGNS263_LT_002",
+                "stage": "STGNS263"
+            },
+            "11": {
+                "light": "STGPV440_EFF_FPVBACKWHITE_LT_001",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "12": {
+                "light": "STGPV440_EFF_STGNS016_LT_001",
+                "stage": "STGNS016"
+            },
+            "13": {
+                "light": "STGPV440_EFF_STGD2NS082_LT_002",
+                "stage": "STGD2NS082"
+            },
+            "14": {
+                "light": "STGPV440_EFF_STGD2NS082_LT_003",
+                "stage": "STGD2NS082"
+            },
+            "15": {
+                "light": "STGPV440_EFF_FPVBACKWHITE_LT_002",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "16": {
+                "aet_front": "eff066__f",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "stage": "STGNS016"
+            },
+            "17": {
+                "aet_front": "eff066__f",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "light": "STGPV440_EFF_STGNS016_LT_001",
+                "stage": "STGNS016"
+            },
+            "18": {
+                "aet_front": "eff050__f",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "stage": "STGNS263"
+            },
+            "19": {
+                "aet_front": "eff066__f",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "stage": "STGNS263"
+            },
+            "20": {
+                "aet_front": "eff055",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "stage": "STGNS263"
+            },
+            "21": {
+                "aet_front": "eff055",
+                "aet_front_low": "eff125__f",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "light": "STGPV440_EFF_STGD2NS082_LT_001",
+                "stage": "STGD2NS082"
+            },
+            "22": {
+                "aet_front": "eff055",
+                "aet_front_low": "eff",
+                "aet_id_front": "AET_GAM_PV440_MAIN",
+                "aet_id_front_low": "AET_GAM_EFF000_MAIN",
+                "stage": "STGD2NS082"
+            },
+            "01": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "02": {
+                "stage": "STGNS263"
+            },
+            "03": {
+                "stage": "STGNS016"
+            },
+            "04": {
+                "stage": "STGD2NS082"
+            },
+            "05": {
+                "light": "STGPV440_EFF_FPVBACK5017_LT_001",
+                "spr_set_back": "SPR_EDIT_FPVBACK5017"
+            },
+            "06": {
+                "aet_front": "eff125__f",
+                "light": "STGPV440_EFF_STGD2NS082_LT_001",
+                "stage": "STGD2NS082"
+            },
+            "07": {
+                "stage": "STGD2NS082"
+            },
+            "08": {
+                "aet_front": "eff",
+                "aet_id_front": "AET_GAM_EFF000_MAIN",
+                "stage": "STGD2NS082"
+            },
+            "09": {
+                "light": "STGPV440_EFF_STGNS263_LT_001",
+                "stage": "STGNS263"
+            },
+            "length": "22"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "刻まれた時間の渦の中で僕たちは再び出逢えたんだ",
+            "002": "過去を取り戻せた一億分の一の奇跡",
+            "003": "誰もまだ見ぬこの道の先に何が待っているのだとしても",
+            "004": "僕が君を護るよ　君は僕の希望だから",
+            "005": "一人で苦しむ事なんて無いんだよ",
+            "006": "君の痛みを僕に分けて欲しい",
+            "007": "玉座の人形はもういらない　君の手を引き走り出す",
+            "008": "君はやっと微笑んだ　光栄でございます僕のお姫様",
+            "009": "ここにいるよ離れたりしないよ",
+            "010": "どんな時も僕は君だけの騎士だから",
+            "011": "何処にいても君の微笑みは",
+            "012": "歪んだこの世界に咲く一輪の花",
+            "013": "(ありがとう…ありがとう…あなたに出逢えた奇跡)",
+            "014": "ナイト・オブ・ライト",
+            "_en": {
+                "001": "kizamareta jikan no uzu no naka de bokutachi wa futatabi deaetan da",
+                "002": "kako o torimodoseta ichiokubun no ichi no kiseki",
+                "003": "daremo mada minu kono michi no saki ni nani ga matteiru no da to shitemo",
+                "004": "boku ga kimi o mamoru yo   kimi wa boku no kibou dakara",
+                "005": "hitori de kurushimu koto nante nain da yo",
+                "006": "kimi no itami o boku ni wakete hoshii",
+                "007": "gyokuza no ningyou wa mou iranai   kimi no te o hiki hashiridasu",
+                "008": "kimi wa yatto hohoenda   kouei de gozaimasu boku no ohime-sama",
+                "009": "koko ni iru yo hanaretari shinai yo",
+                "010": "donna toki mo boku wa kimi dake no kishi dakara",
+                "011": "doko ni itemo kimi no hohoemi wa",
+                "012": "yuganda kono sekai ni saku ichirin no hana",
+                "013": "(arigatou... arigatou... anata ni deaeta kiseki)",
+                "014": "KNIGHT OF LIGHT"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_PSP02_034A",
+            "11": "CMN_EDT_PSP01_70_21",
+            "12": "CMN_EDT_EX_PSP03_058A",
+            "13": "CMN_EDT_PSP02_017A",
+            "14": "CMN_EDT_PS3_012A",
+            "15": "CMN_EDT_PSP01_70_14",
+            "16": "CMN_EDT_PSP01_50_18_B",
+            "17": "CMN_EDT_PSP01_70_11",
+            "18": "CMN_EDT_PSP01_70_20",
+            "19": "CMN_EDT_VITA01_003A",
+            "20": "CMN_EDT_PSP01_70_29",
+            "21": "CMN_EDT_EX_PSP03_057A",
+            "22": "CMN_EDT_PSP02_013A",
+            "23": "CMN_EDT_PS3_022A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_VITA01_IDLE",
+            "02": "CMN_EDT_PS3_021A",
+            "03": "CMN_EDT_PSP01_70_16",
+            "04": "CMN_EDT_PSP01_70_15",
+            "05": "CMN_EDT_PSP01_70_24",
+            "06": "CMN_EDT_PSP02_014A",
+            "07": "CMN_EDT_PS3_011A",
+            "08": "CMN_EDT_PSP01_70_13",
+            "09": "CMN_EDT_EX_PSP03_036A",
+            "2P": {
+                "10": "CMN_EDT_PSP02_034A",
+                "11": "CMN_EDT_PSP01_70_21",
+                "12": "CMN_EDT_EX_PSP03_058A",
+                "13": "CMN_EDT_PSP02_017A",
+                "14": "CMN_EDT_PS3_012A",
+                "15": "CMN_EDT_PSP01_70_14",
+                "16": "CMN_EDT_PSP01_50_18_B",
+                "17": "CMN_EDT_PSP01_70_11",
+                "18": "CMN_EDT_PSP01_70_20",
+                "19": "CMN_EDT_VITA01_003A",
+                "20": "CMN_EDT_PSP01_70_29",
+                "21": "CMN_EDT_EX_PSP03_057A",
+                "22": "CMN_EDT_PSP02_013A",
+                "23": "CMN_EDT_PS3_022A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_VITA01_IDLE",
+                "02": "CMN_EDT_PS3_021A",
+                "03": "CMN_EDT_PSP01_70_16",
+                "04": "CMN_EDT_PSP01_70_15",
+                "05": "CMN_EDT_PSP01_70_24",
+                "06": "CMN_EDT_PSP02_014A",
+                "07": "CMN_EDT_PS3_011A",
+                "08": "CMN_EDT_PSP01_70_13",
+                "09": "CMN_EDT_EX_PSP03_036A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "9",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "26",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "234",
+        "sabi": {
+            "play_time": "35.0",
+            "start_time": "83.5"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_440.ogg",
+        "song_name": "ナイト・オブ・ライト",
+        "song_name_en": "Knight of Light",
+        "song_name_reading": "ないとおぶらいと",
+        "songinfo": {
+            "arranger": "いーえるP @ TinySymphony",
+            "illustrator": "ももぱん",
+            "lyrics": "いーえるP @ TinySymphony",
+            "music": "いーえるP @ TinySymphony",
+            "pv_editor": "Λkiranu",
+            "_en": {
+                "arranger": "ELP@TinySymphony",
+                "illustrator": "Momopan",
+                "lyrics": "ELP@TinySymphony",
+                "music": "ELP@TinySymphony",
+                "pv_editor": "Λkiranu"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "13.8"
+        }
+    }
+}

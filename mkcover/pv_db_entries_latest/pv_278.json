@@ -1,0 +1,190 @@
+{
+    "pv_278": {
+        "bpm": "152",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "202007001",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_278_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_278_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_278_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_278_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "ツギハギだらけの身体みたいな この歌を",
+            "002": "「作り物だ」「偽物だ」と 耳を塞ぐ人",
+            "003": "ねぇ なんで？",
+            "004": "コレはきっと 僕自身の歌だった",
+            "005": "生命を持たない君に乗せた",
+            "006": "僕ら今 恐る恐る 声をかける",
+            "007": "ハロー、ハロー、ハロー",
+            "008": "世界は まだ 夢の中さ",
+            "009": "ハロー、ハロー",
+            "010": "歌え！",
+            "011": "言葉は今 風になって",
+            "012": "世界に散らばってる",
+            "013": "どうせ妄言 この世界なんて蝶の見る夢で",
+            "014": "だけどその羽ばたきで 全てが塗り替わってく",
+            "015": "託した 言葉たちが",
+            "016": "君の命になった",
+            "017": "生命が確かにそこにあった",
+            "018": "君は今 産声を上げ始めた",
+            "019": "ハロー、ハロー、ハロー",
+            "020": "世界がついに 目を覚ました",
+            "021": "ハロー、ハロー",
+            "022": "だけど",
+            "023": "言葉は全部 君になって",
+            "024": "僕のものじゃ なくなった",
+            "025": "僕らの夢 願い そして呪いが 君の形だった",
+            "026": "見る人次第で 姿は違っていた",
+            "027": "今やもう 誰の目にも同じ ひとりの人間",
+            "028": "もう君に 僕なんか必要ない",
+            "029": "僕に君も必要ない",
+            "030": "そんな君の誕生日を",
+            "031": "お祝いできるかな",
+            "032": "ああそうか 僕らきっと 対等になって",
+            "033": "ハロー、ハロー、ハロー",
+            "034": "それぞれ 歩き出すんだ",
+            "035": "さぁ、ミライへ――",
+            "036": "生まれてしまった命に",
+            "037": "ハロー、ハロー、ハロー",
+            "038": "僕からの贈り物",
+            "039": "最後の言葉を",
+            "040": "歌え！",
+            "041": "言葉はまた 風になって",
+            "042": "未来へ繋がってく",
+            "_en": {
+                "001": "tsugihagi darake no karada mitai na   kono uta o",
+                "002": "\"tsukurimono da\" \"nisemono da\" to   mimi o fusagu hito",
+                "003": "nee   nande?",
+                "004": "kore wa kitto   boku jishin no uta datta",
+                "005": "seimei o motanai kimi ni noseta",
+                "006": "bokura ima   osoru osoru   koe o kakeru",
+                "007": "HELLO, HELLO, HELLO",
+                "008": "sekai wa   mada   yume no naka sa",
+                "009": "HELLO, HELLO",
+                "010": "utae!",
+                "011": "kotoba wa ima   kaze ni natte",
+                "012": "sekai ni chirabatteru",
+                "013": "douse mougen   kono sekai nante chou no miru yume de",
+                "014": "dakedo sono habataki de    subete ga nurikawatteku",
+                "015": "takushita kotoba tachi ga",
+                "016": "kimi no inochi ni natta",
+                "017": "seimei ga tashikani soko ni atta",
+                "018": "kimi wa ima   ubugoe o agehajimeta",
+                "019": "HELLO, HELLO, HELLO",
+                "020": "sekai ga tsuini   me o samashita",
+                "021": "HELLO, HELLO",
+                "022": "dakedo",
+                "023": "kotoba wa zenbu   kimi ni natte",
+                "024": "boku no mono ja   nakunatta",
+                "025": "bokura no yume   negai   soshite noroi ga   kimi no katachi datta",
+                "026": "miru hito shidai de   sugata wa chigatteita",
+                "027": "imaya mou   dare no me nimo onaji   hitori no ningen",
+                "028": "mou kimi ni   boku nanka hitsuyou nai",
+                "029": "boku ni kimi mo hitsuyou nai",
+                "030": "sonna kimi no tanjoubi o",
+                "031": "oiwai dekiru kana",
+                "032": "aa souka   bokura kitto   taitou ni natte",
+                "033": "HELLO, HELLO, HELLO",
+                "034": "sorezore   arukidasun da",
+                "035": "saa, MIRAI e--",
+                "036": "umarete shimatta inochi ni",
+                "037": "HELLO, HELLO, HELLO",
+                "038": "boku kara no okurimono",
+                "039": "saigo no kotoba o",
+                "040": "utae!",
+                "041": "kotoba wa mata   kaze ni natte",
+                "042": "mirai e tsunagatteku"
+            }
+        },
+        "motion": {
+            "01": "CMN_POSE_DEFAULT_T"
+        },
+        "movie_file_name": "rom/movie/pv_278.mp4",
+        "movie_pv_type": "ONLY",
+        "movie_surface": "FRONT",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "sabi": {
+            "play_time": "30.8",
+            "start_time": "41.4"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_278.ogg",
+        "song_name": "ブレス・ユア・ブレス",
+        "song_name_en": "Bless Your Breath",
+        "song_name_reading": "ぶれすゆあぶれす",
+        "songinfo": {
+            "arranger": "和田たけあき",
+            "illustrator": "チェリ子",
+            "lyrics": "和田たけあき",
+            "music": "和田たけあき",
+            "pv_editor": "サイトウユウマ(OTOIRO)",
+            "_en": {
+                "arranger": "WADATAKEAKI",
+                "illustrator": "Cherico",
+                "lyrics": "WADATAKEAKI",
+                "music": "WADATAKEAKI",
+                "pv_editor": "Yuma Saito （OTOIRO）"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

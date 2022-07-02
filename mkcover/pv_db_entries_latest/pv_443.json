@@ -1,0 +1,331 @@
+{
+    "pv_443": {
+        "bpm": "175",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140523",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_443_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_443_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_443_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_443_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "443"
+        },
+        "edit": "2",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "10": "068",
+            "00": "019",
+            "01": "039",
+            "02": "021",
+            "03": "028",
+            "04": "070",
+            "05": "018",
+            "06": "066",
+            "07": "052",
+            "08": "044",
+            "09": "041"
+        },
+        "field": {
+            "10": {
+                "aet_front": "eff041",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "11": {
+                "aet_front": "eff041",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS267"
+            },
+            "12": {
+                "aet_front": "eff041",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "13": {
+                "aet_front": "eff041_70",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS267"
+            },
+            "14": {
+                "aet_front": "eff041_50",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS267"
+            },
+            "15": {
+                "aet_front": "eff041",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "16": {
+                "aet_front": "eff041",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "17": {
+                "aet_front": "eff070_80",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS210"
+            },
+            "18": {
+                "aet_front": "eff070",
+                "aet_front_low": "eff_fade_1",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "aet_id_front_low": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "19": {
+                "aet_front": "eff068",
+                "aet_front_low": "eff_fade_2",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "aet_id_front_low": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "20": {
+                "aet_front": "eff__f",
+                "aet_id_front": "AET_GAM_EFF066_MAIN",
+                "stage": "STGNS016"
+            },
+            "21": {
+                "aet_front": "eff068",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "22": {
+                "aet_front": "eff068",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "23": {
+                "aet_front": "eff039_54",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "24": {
+                "aet_front": "eff039",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "25": {
+                "aet_front": "eff039_173",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "01": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "02": {
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "03": {
+                "stage": "STGNS210"
+            },
+            "04": {
+                "stage": "STGNS267"
+            },
+            "05": {
+                "stage": "STGNS016"
+            },
+            "06": {
+                "aet_front": "eff070",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS267"
+            },
+            "07": {
+                "aet_front": "eff070",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKBLACK"
+            },
+            "08": {
+                "aet_front": "eff070",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "09": {
+                "aet_front": "eff070_80",
+                "aet_id_front": "AET_GAM_PV443_MAIN",
+                "stage": "STGNS210"
+            },
+            "length": "25"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "嘘つきの神様に背中を向けた",
+            "002": "悪戯な微笑みは夜空に溶ける",
+            "003": "イカれた無線（ラジオ）のスピーカーからはまだ",
+            "004": "強がりと後悔の「SOS」（たすけて）",
+            "005": "まだ僕も分からないんだ",
+            "006": "君を信じてもいいかすら",
+            "007": "手を伸ばす先の人々の",
+            "008": "視線は明後日の裏っ側",
+            "009": "また君は笑いだすんだ",
+            "010": "「何も見なくてもいいよ」って",
+            "011": "「こぼれてく雫の行方を",
+            "012": "見届ける価値はあるのか」って",
+            "013": "深く青い空へ　僕の夢は引かれ",
+            "014": "細いアンテナが拾う歌も",
+            "015": "歪な声のノイズに変わる",
+            "016": "嘘つきの神様に背中を向けた",
+            "017": "悪戯な微笑みは夜空に溶ける",
+            "018": "イカれた無線（ラジオ）のスピーカーからはまだ",
+            "019": "強がりと後悔の「SOS」（たすけて）",
+            "_en": {
+                "001": "usotsuki no kami-sama ni senaka o muketa",
+                "002": "itazura na hohoemi wa yozora ni tokeru",
+                "003": "ikareta RADIO no SPEAKER kara wa mada",
+                "004": "tsuyogari to koukai no tasukete",
+                "005": "mada boku mo wakaranain da",
+                "006": "kimi o shinjitemo ii ka sura",
+                "007": "te o nobasu saki no hitobito no",
+                "008": "shisen wa asatte no urakkawa",
+                "009": "mata kimi wa waraidasun da",
+                "010": "\"nanimo minakutemo ii yo\" tte",
+                "011": "\"koboreteku shizuku no yukue o",
+                "012": "mitodokeru kachi wa aru no ka\" tte",
+                "013": "fukaku aoi sora e   boku no yume wa hikare",
+                "014": "hosoi ANTENNA ga hirou uta mo",
+                "015": "ibitsu na koe no NOISE ni kawaru",
+                "016": "usotsuki no kami-sama ni senaka o muketa",
+                "017": "itazura na hohoemi wa yozora ni tokeru",
+                "018": "ikareta RADIO no SPEAKER kara wa mada",
+                "019": "tsuyogari to koukai no tasukete"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_EX_PSP03_018A",
+            "11": "CMN_EDT_PSP01_70_23",
+            "12": "CMN_EDT_PSP01_70_32",
+            "13": "CMN_EDT_EX_PSP03_028A",
+            "14": "CMN_EDT_PSP01_70_14",
+            "15": "CMN_EDT_EX_PSP03_032A",
+            "16": "CMN_EDT_PSP02_024A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_VITA01_IDLE",
+            "02": "CMN_EDT_PSP02_056A",
+            "03": "CMN_EDT_EX_PSP03_015A",
+            "04": "CMN_EDT_EX_PSP03_035A",
+            "05": "CMN_EDT_PSP02_014A",
+            "06": "CMN_EDT_EX_PSP03_020A",
+            "07": "CMN_EDT_EX_PSP03_058A",
+            "08": "CMN_EDT_PSP01_70_31",
+            "09": "CMN_EDT_EX_PSP03_013A",
+            "2P": {
+                "10": "CMN_EDT_EX_PSP03_018A",
+                "11": "CMN_EDT_PSP01_70_23",
+                "12": "CMN_EDT_PSP01_70_32",
+                "13": "CMN_EDT_EX_PSP03_028A",
+                "14": "CMN_EDT_PSP01_70_14",
+                "15": "CMN_EDT_EX_PSP03_032A",
+                "16": "CMN_EDT_PSP02_024A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_VITA01_IDLE",
+                "02": "CMN_EDT_PSP02_056A",
+                "03": "CMN_EDT_EX_PSP03_015A",
+                "04": "CMN_EDT_EX_PSP03_035A",
+                "05": "CMN_EDT_PSP02_014A",
+                "06": "CMN_EDT_EX_PSP03_020A",
+                "07": "CMN_EDT_EX_PSP03_058A",
+                "08": "CMN_EDT_PSP01_70_31",
+                "09": "CMN_EDT_EX_PSP03_013A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "1",
+                "size": "TALL",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "21",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "237",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "104.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_443.ogg",
+        "song_name": "偶像無線(Game edit)",
+        "song_name_en": "Idol Radio (Game Edit)",
+        "song_name_reading": "ぐうぞうらじおげーむえでぃっと",
+        "songinfo": {
+            "arranger": "Daisuke Ohnuma(大福P)",
+            "illustrator": "山葵",
+            "lyrics": "紫川札喰",
+            "music": "Daisuke Ohnuma(大福P)",
+            "pv_editor": "reveriey",
+            "_en": {
+                "arranger": "Daisuke Ohnuma(Daifuku P)",
+                "illustrator": "wasabi",
+                "lyrics": "F.S.",
+                "music": "Daisuke Ohnuma(Daifuku P)",
+                "pv_editor": "reveriey"
+            }
+        },
+        "sort_index": "25",
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "23.483"
+        }
+    }
+}

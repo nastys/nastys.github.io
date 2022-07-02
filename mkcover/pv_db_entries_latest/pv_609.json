@@ -1,0 +1,203 @@
+{
+    "pv_609": {
+        "bpm": "163",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV609_MIK_001",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "1": {
+                        "name": "EFFCHRPV609_RIN_002",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "2": {
+                        "name": "EFFCHRPV609_LEN_003",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "3": {
+                        "name": "EFFCHRPV609_LUK_004",
+                        "type": "AUTH3D_OBJ"
+                    },
+                    "length": "4"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20150513",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_609_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_609_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_609_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_609_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "609"
+        },
+        "effect_se_file_name": "rom/sound/pv609_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv609_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "神曲だとか　神ゲームだとか",
+            "002": "巷にあふれる　神のバーゲンセール",
+            "003": "紙のように薄い中身かもしれないが",
+            "004": "私はそんなもので救われるのですから",
+            "005": "曲であったり　歌であったり",
+            "006": "絵であったり　夢であったり",
+            "007": "くだらない　　森羅万象",
+            "008": "信じるものに救われる",
+            "009": "神動画だとか　神番組だとか",
+            "010": "この世にあふれる　神の出血サービス",
+            "011": "髪のように　薄く散ってくかもしれないが",
+            "012": "私はこんなもので救われるのですから",
+            "013": "草木だったり　砂漠だったり",
+            "014": "大気だったり　水面だったり",
+            "015": "ありふれた　森羅万象",
+            "016": "気がつくものに救われる",
+            "017": "神話のような英雄になれやしないけど",
+            "018": "全智全能になんてなれやしないけど",
+            "019": "GODじゃなくてGOODと言われ",
+            "020": "誰かの救いになりたくて",
+            "021": "それは、それは――",
+            "022": "あなただったり　私だったり",
+            "023": "君だったり　僕だったり",
+            "024": "つまらない　奴らどうし",
+            "025": "救われたいし　救いたい",
+            "026": "曲つくり　歌うたい",
+            "027": "絵を描き　夢をみて",
+            "028": "ちっぽけな　森羅万象",
+            "029": "今日も誰かに救われる",
+            "_en": {
+                "001": "kami kyoku da toka   kami GAME da toka",
+                "002": "chimata ni afureru   kami no BARGAIN SALE",
+                "003": "kami no you ni usui nakami kamo shirenai ga",
+                "004": "watashi wa sonna mono de sukuwareru no desu kara",
+                "005": "kyoku de attari   uta de attari",
+                "006": "e de attari   yume de attari",
+                "007": "kudaranai   shinrabanshou",
+                "008": "shinjiru mono ni sukuwareru",
+                "009": "kami douga da toka   kami bangumi da toka",
+                "010": "konoyo ni afureru   kami no shukketsu SERVICE",
+                "011": "kami no you ni   usuku chitteku kamo shirenai ga",
+                "012": "watashi wa konna mono de sukuwareru no desu kara",
+                "013": "kusaki dattari   sabaku dattari",
+                "014": "taiki dattari   minamo dattari",
+                "015": "arifureta   shinrabanshou",
+                "016": "ki ga tsuku mono ni sukuwareru",
+                "017": "shinwa no you na eiyuu ni nareyashinai kedo",
+                "018": "zenchi zennou ni nante nareyashinai kedo",
+                "019": "GOD janakute GOOD to iware",
+                "020": "dareka no sukui ni naritakute",
+                "021": "sore wa, sore wa--",
+                "022": "anata dattari   watashi dattari",
+                "023": "kimi dattari   boku dattari",
+                "024": "tsumaranai   yatsura doushi",
+                "025": "sukuwaretaishi   sukuitai",
+                "026": "kyoku tsukuri   uta utai",
+                "027": "e o egaki   yume o mite",
+                "028": "chippoke na   shinrabanshou",
+                "029": "kyou mo dareka ni sukuwareru"
+            }
+        },
+        "motion": {
+            "01": "PV609_KMK_P1_00"
+        },
+        "movie_file_name": "rom/movie/pv_609.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "109",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV609.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "82",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "50.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_609.ogg",
+        "song_name": "神曲",
+        "song_name_en": "God-Tier Tune",
+        "song_name_reading": "かみきょく",
+        "songinfo": {
+            "arranger": "ピノキオピー",
+            "illustrator": "はんにゃG",
+            "lyrics": "おにゅうP",
+            "music": "おにゅうP",
+            "_en": {
+                "arranger": "PinocchioP",
+                "illustrator": "Han'nya G",
+                "lyrics": "Onyuu P",
+                "music": "Onyuu P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

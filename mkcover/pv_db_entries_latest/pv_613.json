@@ -1,0 +1,188 @@
+{
+    "pv_613": {
+        "bpm": "130",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_613_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_613_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_613_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_613_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_613_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "613",
+            "title_end_2d_field": "2",
+            "title_start_2d_field": "2"
+        },
+        "effect_se_file_name": "rom/sound/pv613_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv613_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "lyric": {
+            "001": "灰は灰に　塵は塵に",
+            "002": "荒涼たる　鋼の森",
+            "003": "喝采に似た　鳴動に　黄銅羊の夢を見る",
+            "004": "玲瓏たる　音の響き",
+            "005": "海を渡れ 高らかに　三千世界を踏みしめて",
+            "006": "刃の叢　揺れる",
+            "007": "衣擦れの音密やかに　惑うは黯たる静謐",
+            "008": "朱く浮きつ消えつ",
+            "009": "無間回廊に佇む　永久のまどろみ身を任せ",
+            "010": "さらば　現身の華　露と消えぬ",
+            "011": "∞　鏡　巡る　連なる影",
+            "012": "昏き　眠り 絡まった 孤独の糸",
+            "013": "廻り 惑う　真鍮の　精神",
+            "014": "煌煌たる闇の天蓋",
+            "015": "ぬばたまの夢に　滅び行く　王道楽土の安逸に",
+            "016": "千年の眠りを覚ます",
+            "017": "鐘の音に似た響きあれ　黄銅羊の夢を見る",
+            "018": "絢爛たる　毛氈の海",
+            "019": "魔窟に消え入る　道化師の",
+            "020": "揺らめく鼓動に共振えゆく",
+            "021": "繚乱たる歯車咲く　掛け金下ろし　滑り込む",
+            "022": "妙なる響きに身を任せ",
+            "023": "奈落　隘路　悦楽　飲み込まれて",
+            "024": "たわむ　ひしぐ　奏でる　亡びの音",
+            "025": "集う　積もる　重なる　最期の唄",
+            "026": "響け　謳え　唱えよ　還れ",
+            "027": "灰は灰に　塵は塵に",
+            "_en": {
+                "001": "hai wa hai ni   chiri wa chiri ni",
+                "002": "kouryou taru   hagane no mori",
+                "003": "kassai ni nita   meidou ni   oudou hitsuji no yume o miru",
+                "004": "reirou taru   oto no hibiki",
+                "005": "umi o watare   takaraka ni   sanzensekai o fumishimete",
+                "006": "yaiba no kusamura   yureru",
+                "007": "kinuzure no oto hisoyaka ni   madou wa anzen taru seihitsu",
+                "008": "akaku ukitsu kietsu",
+                "009": "mugen kairou ni tatazumu   eikyuu no madoromi mi o makase",
+                "010": "saraba   utsushimi no hana   tsuyu to kienu",
+                "011": "∞ (mugen)  kagami   meguru   tsuranaru kage",
+                "012": "kuraki   nemuri   karamatta   kodoku no ito",
+                "013": "mawari   madou   shinchuu no   kokoro",
+                "014": "koukou taru yami no tengai",
+                "015": "nubatama no yume ni   horobiyuku   oudou rakudo no anitsu ni",
+                "016": "sennen no nemuri o samasu",
+                "017": "kane no oto ni nita hibiki are   koudou hitsuji no yume o miru",
+                "018": "kenran taru   mousen no umi",
+                "019": "makutsu ni kieiru   doukeshi no",
+                "020": "yurameku kodou ni kotaeyuku",
+                "021": "ryouran taru haguruma saku   kakegane oroshi   suberikomu",
+                "022": "taenaru hibiki ni mi o makase",
+                "023": "naraku   airo   etsuraku   nomikomarete",
+                "024": "tawamu   hishigu   kanaderu   horobi no oto",
+                "025": "tsudou   tsumoru   kasanaru   saigo no uta",
+                "026": "hibike   utae   tonaeyo   kaere",
+                "027": "hai wa hai ni   chiri wa chiri ni"
+            }
+        },
+        "motion": {
+            "01": "PV613_HHH_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "KAI",
+                "pv_costume": "22",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV613.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "86",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "136.0"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_613.ogg",
+        "song_name": "ハイハハイニ",
+        "song_name_en": "Ashes to Ashes",
+        "song_name_reading": "はいははいに",
+        "songinfo": {
+            "arranger": "テンネン",
+            "illustrator": "うむ",
+            "lyrics": "niboshi",
+            "music": "テンネン",
+            "_en": {
+                "arranger": "Tennen",
+                "illustrator": "Umu",
+                "lyrics": "niboshi",
+                "music": "Tennen"
+            }
+        },
+        "sort_index": "14",
+        "sudden_timing": "0.6"
+    }
+}

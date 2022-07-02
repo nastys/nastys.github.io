@@ -1,0 +1,341 @@
+{
+    "pv_104": {
+        "bpm": "124",
+        "date": "20130831",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_104_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_104_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_104_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "104",
+            "title_end_2d_field": "8",
+            "title_start_2d_field": "8"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "Welcome to Exciting World",
+            "002": "気分は Higher (I feel so Higher)",
+            "003": "Do your best,for NO.1",
+            "004": "We gonna carry on",
+            "005": "あふれてくる POWER",
+            "006": "",
+            "007": "おちこんでないでベイビー",
+            "008": "本気をみせて Keep on Shining",
+            "009": "追い風が凪いでメイビー",
+            "010": "走りだす瞬間",
+            "011": "",
+            "012": "ふみこんでみせてベイビー",
+            "013": "期待を乗せて Start your Engine",
+            "014": "めまいが見せたデイドリーム",
+            "015": "ゆれてる Heart and Soul",
+            "016": "",
+            "017": "まぶしさのカケラが　あふれだす未来は迷宮",
+            "018": "ためいきだけの時間はオーバーテイク",
+            "019": "",
+            "020": "おさきに！ スロー・キッス！",
+            "021": "みつけた夢が羽ばたきだすように",
+            "022": "もうちょっと急いでよ LIKE THE WIND",
+            "023": "",
+            "024": "なんてことないさ Hey Boy",
+            "025": "あきらめないで Keep on Rolling",
+            "026": "アップ＆ダウンのストーリーだって",
+            "027": "たまにはいーんじゃない？",
+            "028": "",
+            "029": "一瞬のキラメキ　おいかけていたいよ熱中",
+            "030": "加速する期待と不安　サイドバイサイド",
+            "031": "",
+            "032": "おいで！ スロー・キッス！",
+            "033": "生まれた星が輝き増すように",
+            "034": "ねえもっと抱きしめて LIKE THE WIND",
+            "035": "(Everything gonna be your power, Oh LIKE THE WIND)",
+            "036": "",
+            "037": "スタートのシグナル",
+            "038": "灯らせてほしいの Let You",
+            "039": "泣きだしそうな気持ちはオーバーパス",
+            "040": "",
+            "041": "とどけ！ スロー・キッス！",
+            "042": "ココロがキミにつながりますように",
+            "043": "ねえ早くつかまえて LIKE THE WIND",
+            "044": "",
+            "045": "スロー・キッス！",
+            "046": "みつけた夢がはばたきだすように",
+            "047": "もうちょっと急いでよ LIKE THE WIND",
+            "048": "(Everything gonna be your power, Oh LIKE THE WIND)",
+            "049": "",
+            "050": "Welcome to Exciting World",
+            "051": "気分は Higher (I feel so Higher)",
+            "052": "Do your best,for NO.1",
+            "053": "We gonna carry on",
+            "054": "あふれてくる POWER",
+            "055": "LIKE THE WIND",
+            "_en": {
+                "001": "Welcome to exciting world",
+                "002": "kibun wa HIGHER (I feel so higher)",
+                "003": "Do your best for number one",
+                "004": "We gonna carry on",
+                "005": "afurete kuru POWER",
+                "006": "",
+                "007": "ochikondenaide BABY",
+                "008": "honki o misete   KEEP ON SHINING",
+                "009": "oikaze ga naide MAYBE",
+                "010": "hashiridasu shunkan",
+                "011": "",
+                "012": "fumikonde misete BABY",
+                "013": "kitai o nosete   Start your engine",
+                "014": "memai ga miseta DAYDREAM",
+                "015": "yureteru   HEART AND SOUL",
+                "016": "",
+                "017": "mabushisa no kakera ga   afuredasu mirai wa meikyuu",
+                "018": "tameiki dake no jikan wa OVERTAKE",
+                "019": "",
+                "020": "osaki ni!   SLOW KISS!",
+                "021": "mitsuketa yume ga habatakidasu you ni",
+                "022": "mou chotto isoide yo   LIKE THE WIND",
+                "023": "",
+                "024": "nante koto nai sa   HEY BOY",
+                "025": "akiramenaide   KEEP ON ROLLING",
+                "026": "UP AND DOWN no STORY datte",
+                "027": "tama ni wa iin janai?",
+                "028": "",
+                "029": "isshun no kirameki   oikaketeitai yo necchuu",
+                "030": "kasoku suru kitai to fuan   SIDE BY SIDE",
+                "031": "",
+                "032": "oide!   SLOW KISS!",
+                "033": "umareta hoshi ga kagayaki masu you ni",
+                "034": "nee motto dakishimete   LIKE THE WIND",
+                "035": "(Everything gonna be your power, oh like the wind)",
+                "036": "",
+                "037": "START no SIGNAL",
+                "038": "tomorasete hoshii no   LET YOU",
+                "039": "nakidashisou na kimochi wa OVERPASS",
+                "040": "",
+                "041": "todoke!   SLOW KISS!",
+                "042": "kokoro ga kimi ni tsunagarimasu you ni",
+                "043": "nee hayaku tsukamaete   LIKE THE WIND",
+                "044": "",
+                "045": "SLOW KISS!",
+                "046": "mitsuketa yume ga habatakidasu you ni",
+                "047": "mou chotto isoide yo   LIKE THE WIND",
+                "048": "(Everything gonna be your power, oh like the wind)",
+                "049": "",
+                "050": "Welcome to exciting world",
+                "051": "kibun wa HIGHER (I feel so higher)",
+                "052": "Do your best for number one",
+                "053": "We gonna carry on",
+                "054": "afurete kuru POWER",
+                "055": "LIKE THE WIND"
+            }
+        },
+        "motion": {
+            "01": "PV104_LIKE",
+            "2P": {
+                "01": "PV104_LIKE_P2"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "1": {
+                "0": {
+                    "frame": "122",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "1": {
+                    "frame": "134",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "2": {
+                    "frame": "226",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "3": {
+                    "frame": "300",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "4": {
+                    "frame": "368",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "5": {
+                    "frame": "497",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "6": {
+                    "frame": "573",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "7": {
+                    "frame": "2036",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "8": {
+                    "frame": "2357",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "9": {
+                    "frame": "4809",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "frame": "134",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "2": {
+                "0": {
+                    "frame": "7291",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "1": {
+                    "frame": "7983",
+                    "motion": "PV104_LIKE_P2",
+                    "stage": "STGPV104S02"
+                },
+                "frame": "300",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "3": {
+                "frame": "423",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "4": {
+                "frame": "9565",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "5": {
+                "frame": "9831",
+                "motion": "PV104_LIKE",
+                "stage": "STGPV104S02"
+            },
+            "6": {
+                "frame": "0",
+                "motion": "PV104_LIKE_P2",
+                "stage": "STGPV104S02"
+            },
+            "7": {
+                "frame": "71",
+                "motion": "PV104_LIKE_P2",
+                "stage": "STGPV104S02"
+            },
+            "8": {
+                "frame": "91",
+                "motion": "PV104_LIKE_P2",
+                "stage": "STGPV104S02"
+            },
+            "9": {
+                "frame": "111",
+                "motion": "PV104_LIKE_P2",
+                "stage": "STGPV104S02"
+            },
+            "length": "22"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "13",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LUK",
+                "pv_costume": "14",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "165",
+        "sabi": {
+            "play_time": "22.5",
+            "start_time": "86.0"
+        },
+        "se_name": "41_button9",
+        "song_file_name": "rom/sound/song/pv_104.ogg",
+        "song_name": "LIKE THE WIND",
+        "song_name_en": "LIKE THE WIND",
+        "song_name_reading": "らいくざうぃんど",
+        "songinfo": {
+            "arranger": "Kusemono/SWANTONE",
+            "illustrator": "A*HAWA（SEGA）",
+            "lyrics": "Kusemono/SWANTONE",
+            "music": "HIRO",
+            "_en": {
+                "arranger": "Kusemono/SWANTONE",
+                "illustrator": "A*HAWA(SEGA)",
+                "lyrics": "Kusemono/SWANTONE",
+                "music": "HIRO"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv104s02.txt",
+                "stage": "STGPV104S02"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "pv_615": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_615_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_615_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_615_extreme_1.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_615_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_615_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "615",
+            "title_end_2d_field": "8",
+            "title_start_2d_field": "8"
+        },
+        "effect_se_file_name": "rom/sound/pv615_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv615_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "全然つかめないきみのこと",
+            "002": "全然しらないうちに",
+            "003": "ココロ奪われるなんてこと",
+            "004": "あるはずないでしょ",
+            "005": "それは無愛想な笑顔だったり",
+            "006": "それは日曜日の日暮れだったり",
+            "007": "それはテスト∞（ばっか）の期間だったり",
+            "008": "それはきみとゆう名のメランコリンニスト。",
+            "009": "手当たり次第強気でぶつかっても",
+            "010": "なんにも手には残らないって思い込んでる",
+            "011": "ちょっとぐらいの勇気にだって",
+            "012": "ちっちゃくなって塞ぎこんでる",
+            "013": "わたしだから",
+            "014": "全然つかめないきみのこと",
+            "015": "全然しらないうちに",
+            "016": "ココロ奪われるなんてこと",
+            "017": "あるはずないでしょ",
+            "018": "全然気づかないきみなんて",
+            "019": "全然知らない×知らないもん",
+            "020": "「ねぇねぇ」じゃないわ　この笑顔",
+            "021": "また眠れないでしょ",
+            "022": "明日も　おんなじ　わたしが　いるのかな",
+            "023": "無愛想で無口なままの　カワいくないヤツ",
+            "024": "あの夢にきみが出てきたときから",
+            "025": "素直じゃないの　だって",
+            "026": "全然つかめないきみのこと",
+            "027": "全然しらないうちに",
+            "028": "こころ奪おうとしてたのは",
+            "029": "わたしのほうだもん×××",
+            "030": "そういう時期なの",
+            "031": "おぼれたいのいとしの",
+            "032": "メランコリー",
+            "_en": {
+                "001": "zenzen tsukamenai kimi no koto",
+                "002": "zenzen shiranai uchi ni",
+                "003": "kokoro ubawareru nante koto",
+                "004": "aru hazu nai desho",
+                "005": "sore wa buaisou na egao dattari",
+                "006": "sore wa nichiyoubi no higure dattari",
+                "007": "sore wa TEST bakka no kikan dattari",
+                "008": "sore wa kimi to iu na no MELANCHOLIST.",
+                "009": "teatari shidai tsuyoki de butsukattemo",
+                "010": "nannimo te ni wa nokoranai tte omoikonderu",
+                "011": "chotto gurai no yuuki ni datte",
+                "012": "chicchakunatte fusagikonderu",
+                "013": "watashi dakara",
+                "014": "zenzen tsukamenai kimi no koto",
+                "015": "zenzen shiranai uchi ni",
+                "016": "kokoro ubawareru nante koto",
+                "017": "aru hazu nai desho",
+                "018": "zenzen kizukanai kimi nante",
+                "019": "zenzen shiranai x shiranai mon",
+                "020": "\"nee nee\" janai wa   kono egao",
+                "021": "mata nemurenai desho",
+                "022": "ashita mo   onnaji   watashi ga   iru no ka na",
+                "023": "buaisou de mukuchi na mama no   kawaikunai yatsu",
+                "024": "ano yume ni kimi ga detekita toki kara",
+                "025": "sunao janai no   datte",
+                "026": "zenzen tsukamenai kimi no koto",
+                "027": "zenzen shiranai uchi ni",
+                "028": "kokoro ubaou to shiteta no wa",
+                "029": "watashi no hou damon XXX",
+                "030": "souiu jiki na no",
+                "031": "oboretai no itoshi no",
+                "032": "MELANCHOLY"
+            }
+        },
+        "motion": {
+            "01": "PV615_MLL_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "27",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV615.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "88",
+        "sabi": {
+            "play_time": "29.0",
+            "start_time": "71.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_615.ogg",
+        "song_name": "メランコリック",
+        "song_name_en": "Melancholic",
+        "song_name_reading": "めらんこりっく",
+        "songinfo": {
+            "arranger": "Junky",
+            "illustrator": "ちほ",
+            "lyrics": "Junky",
+            "music": "Junky",
+            "_en": {
+                "arranger": "Junky",
+                "illustrator": "Chiho",
+                "lyrics": "Junky",
+                "music": "Junky"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,296 @@
+{
+    "pv_637": {
+        "another_song": {
+            "0": {
+                "name": "千本桜 -F edition-",
+                "name_en": "Senbonzakura -F edition-",
+                "vocal_chara_num": "MIK"
+            },
+            "1": {
+                "name": "千本桜 -F edition All Version-",
+                "name_en": "Senbonzakura -F edition All Version-",
+                "song_file_name": "rom/sound/song/pv_637_all.ogg",
+                "vocal_disp_name": "ALL Version",
+                "vocal_disp_name_en": "All Version"
+            },
+            "length": "2"
+        },
+        "bpm": "154",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150312",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_637_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_637_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_637_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_637_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "637"
+        },
+        "effect_se_file_name": "rom/sound/pv637_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv637_effect",
+            "1": "pv637_effect_2",
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_extra": "1",
+        "lyric": {
+            "001": "大胆不敵にハイカラ革命",
+            "002": "磊々落々反戦国家",
+            "003": "日の丸印の二輪車転がし",
+            "004": "悪霊退散　ＩＣＢＭ",
+            "005": "環状線を走り抜けて",
+            "006": "東奔西走なんのその",
+            "007": "少年少女戦国無双",
+            "008": "浮世の随に",
+            "009": "千本桜　夜ニ紛レ",
+            "010": "君ノ声モ届カナイヨ",
+            "011": "此処は宴　鋼の檻",
+            "012": "その断頭台で見下ろして",
+            "013": "三千世界　常世之闇",
+            "014": "嘆ク唄モ聞コエナイヨ",
+            "015": "青藍の空　遥か彼方",
+            "016": "その光線銃で打ち抜いて",
+            "017": "百戦錬磨の見た目は将校",
+            "018": "いったりきたりの花魁道中",
+            "019": "アイツもコイツも皆で集まれ",
+            "020": "聖者の行進　わんっ　つー　さん　しっ",
+            "021": "禅定門を潜り抜けて",
+            "022": "安楽浄土厄払い",
+            "023": "きっと終幕は大団円",
+            "024": "拍手の合間に",
+            "025": "千本桜　夜ニ紛レ",
+            "026": "君ノ声モ届カナイヨ",
+            "027": "此処は宴　鋼の檻",
+            "028": "その断頭台で見下ろして",
+            "029": "三千世界　常世之闇",
+            "030": "嘆ク唄モ聞コエナイヨ",
+            "031": "希望の丘　遥か彼方",
+            "032": "その閃光弾を打ち上げろ",
+            "033": "環状線を走り抜けて",
+            "034": "東奔西走なんのその",
+            "035": "少年少女戦国無双",
+            "036": "浮世の随に",
+            "037": "千本桜　夜ニ紛レ",
+            "038": "君ノ声モ届カナイヨ",
+            "039": "此処は宴　鋼の檻",
+            "040": "その断頭台を飛び降りて",
+            "041": "千本桜　夜ニ紛レ",
+            "042": "君が歌い僕は踊る",
+            "043": "此処は宴　鋼の檻",
+            "044": "さあ光線銃を撃ちまくれ",
+            "_en": {
+                "001": "daitan futeki ni haikara kakumei",
+                "002": "rairai rakuraku hansen kokka",
+                "003": "hinomaru jirushi no nirinsha korogashi",
+                "004": "akuryou taisan   ICBM",
+                "005": "kanjousen o hashirinukete",
+                "006": "touhonseisou nanno sono",
+                "007": "shounen shoujo sengoku musou",
+                "008": "ukiyo no manima ni",
+                "009": "senbonzakura   yoru ni magire",
+                "010": "kimi no koe mo todokanai yo",
+                "011": "koko wa utage   hagane no ori",
+                "012": "sono dantoudai de mioroshite",
+                "013": "sanzensekai   tokoyo no yami",
+                "014": "nageku uta mo kikoenai yo",
+                "015": "seiran no sora   haruka kanata",
+                "016": "sono kousenjuu de uchinuite",
+                "017": "hyakusenrenma no mitame wa shoukou",
+                "018": "ittari kitari no oiran douchuu",
+                "019": "aitsu mo koitsu mo mina de atsumare",
+                "020": "seija no koushin   ONE   TWO   san   shi",
+                "021": "zenjoumon o kugurinukete",
+                "022": "anrakujoudo yakubarai",
+                "023": "kitto saigo wa daidanen",
+                "024": "hakushu no aima ni",
+                "025": "senbonzakura   yoru ni magire",
+                "026": "kimi no koe mo todokanai yo",
+                "027": "koko wa utage   hagane no ori",
+                "028": "sono dantoudai de mioroshite",
+                "029": "sanzensekai   tokoyo no yami",
+                "030": "nageku uta mo kikoenai yo",
+                "031": "kibou no oka   haruka kanata",
+                "032": "sono senkoudan o uchiagero",
+                "033": "kanjousen o hashirinukete",
+                "034": "touhonseisou nanno sono",
+                "035": "shounen shoujo sengoku musou",
+                "036": "ukiyo no manima ni",
+                "037": "senbonzakura   yoru ni magire",
+                "038": "kimi no koe mo todokanai yo",
+                "039": "koko wa utage   hagane no ori",
+                "040": "sono dantoudai o tobiorite",
+                "041": "senbonzakura   yoru ni magire",
+                "042": "kimi ga utai   boku wa odoru",
+                "043": "koko wa utage   hagane no ori",
+                "044": "saa kousenjuu o uchimakure"
+            }
+        },
+        "motion": {
+            "01": "PV637_SBZ_P1_00",
+            "02": "PV637_SBZ_P1_10",
+            "2P": {
+                "01": "PV637_SBZ_P2_00",
+                "02": "PV637_SBZ_P2_10"
+            },
+            "3P": {
+                "01": "PV637_SBZ_P3_00",
+                "02": "PV637_SBZ_P3_10"
+            },
+            "4P": {
+                "01": "PV637_SBZ_P4_00",
+                "02": "PV637_SBZ_P4_10"
+            },
+            "5P": {
+                "01": "PV637_SBZ_P5_00",
+                "02": "PV637_SBZ_P5_10"
+            },
+            "6P": {
+                "01": "PV637_SBZ_P6_00",
+                "02": "PV637_SBZ_P6_10"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "115",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "31",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "LEN",
+                "pv_costume": "26",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "3": {
+                "chara": "LUK",
+                "pv_costume": "29",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "4": {
+                "chara": "MEI",
+                "pv_costume": "23",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "5": {
+                "chara": "KAI",
+                "pv_costume": "24",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "6"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV637.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "105",
+        "sabi": {
+            "play_time": "22.0",
+            "start_time": "184.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_637.ogg",
+        "song_name": "千本桜 -F edition-",
+        "song_name_en": "Senbonzakura -F edition-",
+        "song_name_reading": "せんぼんざくらえふえでぃしょん",
+        "song_play_param": {
+            "bpm": {
+                "0": {
+                    "bar": "0",
+                    "data": "154"
+                },
+                "length": "1"
+            },
+            "max_frame": "12996",
+            "rhythm": {
+                "0": {
+                    "bar": "0",
+                    "data": "3"
+                },
+                "length": "1"
+            },
+            "start_time": "-0.99"
+        },
+        "songinfo": {
+            "arranger": "黒うさ",
+            "illustrator": "一斗まる",
+            "lyrics": "黒うさ",
+            "music": "黒うさ",
+            "_en": {
+                "arranger": "Kurousa",
+                "illustrator": "Ittomaru",
+                "lyrics": "Kurousa",
+                "music": "Kurousa"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

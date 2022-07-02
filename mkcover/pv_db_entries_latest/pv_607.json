@@ -1,0 +1,167 @@
+{
+    "pv_607": {
+        "bpm": "200",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_607_extreme.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_607_hard.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_607_normal.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "607",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "effect_se_file_name": "rom/sound/pv607_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv607_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "GO！",
+            "002": "オマエが　のうのうと　暮らしてる間に",
+            "003": "協力者は　増えてる",
+            "004": "オマエの　周りの　すべての者たち",
+            "005": "例えば隣人、同僚",
+            "006": "さらには　恋人、家族までもが",
+            "007": "オマエを　監視してる",
+            "008": "我ら　秘密警察　政府直属",
+            "009": "国家保安部なのだ！",
+            "010": "秘密警察　闇に紛れる",
+            "011": "スパイ活動　取り締まり",
+            "012": "朝から　晩まで　オマエを　監視する（みる）",
+            "013": "オマエを　自白に　追い込むため",
+            "014": "あらゆる手段使う",
+            "015": "繰り返される　拷問　或いは　静脈注射の薬物",
+            "016": "或いは　オマエの　大事な者を　人質",
+            "017": "容赦はしない！",
+            "018": "だから　秘密警察　政府直属",
+            "019": "国家保安部なのだ！",
+            "020": "秘密警察　思想弾圧　不満分子を　取調べ",
+            "021": "来る日も　来る日も",
+            "022": "オマエを　調査する（みる）",
+            "023": "秘密警察　政府直属",
+            "024": "国家保安部なのだ！",
+            "025": "秘密警察　闇に紛れる",
+            "026": "スパイ活動　取り締まり",
+            "027": "朝から　晩まで　オマエを　監視する（みる）",
+            "_en": {
+                "001": "GO!",
+                "002": "omae ga   nounou to   kurashiteru ma ni",
+                "003": "kyouryokusha wa   fueteru",
+                "004": "omae no   mawari no   subete no monotachi",
+                "005": "tatoeba rinjin, douryou",
+                "006": "sara ni wa   koibito, kazoku made mo ga",
+                "007": "omae o   kanshi shiteru",
+                "008": "warera   himitsu keisatsu   seifu chokuzoku",
+                "009": "kokkahoanbu na no da!",
+                "010": "himitsu keisatsu   yami ni magireru",
+                "011": "SPY katsudou   torishimari",
+                "012": "asa kara   ban made   omae o   miru",
+                "013": "omae o   jihaku ni   oikomu tame",
+                "014": "arayuru shudan tsukau",
+                "015": "kurikaesareru   goumon   aruiwa   joumyakuchuusha no yakubutsu",
+                "016": "aruiwa   omae no   daiji na mono o   hitojichi",
+                "017": "yousha wa shinai!",
+                "018": "dakara   himitsu keisatsu   seifu chokuzoku",
+                "019": "kokkahoanbu na no da!",
+                "020": "himitsu keisatsu   shisou danatsu   fumanbunshi o   torishirabe",
+                "021": "kuru hi mo   kuru hi mo",
+                "022": "omae o   miru",
+                "023": "himitsu keisatsu   seifu chokuzoku",
+                "024": "kokkahoanbu na no da!",
+                "025": "himitsu keisatsu   yami ni magireru",
+                "026": "SPY katsudou   torishimari",
+                "027": "asa kara   ban made   omae o   miru"
+            }
+        },
+        "motion": {
+            "01": "PV607_HIM_P1_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "104",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV607.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "80",
+        "sabi": {
+            "play_time": "34.0",
+            "start_time": "23.0"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_607.ogg",
+        "song_name": "秘密警察",
+        "song_name_en": "Secret Police",
+        "song_name_reading": "ひみつけいさつ",
+        "songinfo": {
+            "arranger": "ぶりる",
+            "illustrator": "栗栖 歳",
+            "lyrics": "ぶりる",
+            "music": "ぶりる",
+            "_en": {
+                "arranger": "Buriru",
+                "illustrator": "Toshi Kurisu",
+                "lyrics": "Buriru",
+                "music": "Buriru"
+            }
+        },
+        "sort_index": "1",
+        "sudden_timing": "0.6"
+    }
+}

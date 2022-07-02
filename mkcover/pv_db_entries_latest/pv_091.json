@@ -1,0 +1,224 @@
+{
+    "pv_091": {
+        "bpm": "195",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_091_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_091_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_091_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_091_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "091",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "ロンリーガールはいつまでも",
+            "002": "届かない夢見て",
+            "003": "騒ぐ頭の中を",
+            "004": "掻き回して、掻き回して。",
+            "005": "",
+            "006": "「問題ない。」と呟いて、",
+            "007": "言葉は失われた？",
+            "008": "もう失敗、もう失敗。",
+            "009": "間違い探しに終われば、また、回るの！",
+            "011": "もう一回、もう一回。",
+            "012": "「私は今日も転がります。」と、",
+            "013": "少女は言う　少女は言う",
+            "014": "言葉に意味を奏でながら！",
+            "016": "「もう良いかい？」",
+            "017": "「まだですよ、まだまだ先は見えないので。",
+            "018": "息を止めるの、今。」",
+            "019": "",
+            "020": "ローリンガールの成れの果て",
+            "021": "届かない、向こうの色",
+            "022": "重なる声と声を",
+            "023": "混ぜあわせて、混ぜあわせて。",
+            "025": "「問題ない。」と呟いた言葉は失われた。",
+            "026": "どうなったって良いんだってさ、",
+            "027": "間違いだって起こしちゃおうと誘う、坂道。",
+            "028": "",
+            "029": "もう一回、もう一回。",
+            "030": "私をどうか転がしてと",
+            "031": "少女は言う　少女は言う",
+            "032": "無口に意味を重ねながら！",
+            "034": "「もう良いかい？」",
+            "035": "「もう少し、もうすぐ何か見えるだろうと。",
+            "036": "息を止めるの、今。」",
+            "038": "もう一回、もう一回。",
+            "039": "「私は今日も転がります。」と、",
+            "040": "少女は言う　少女は言う",
+            "041": "言葉に笑みを奏でながら！",
+            "043": "「もう良いかい？　もう良いよ。",
+            "044": "そろそろ君も疲れたろう、ね。」",
+            "046": "息を止（や）めるの、今。",
+            "_en": {
+                "001": "LONELY GIRL wa itsumademo",
+                "002": "todokanai yume mite",
+                "003": "sawagu atama no naka o",
+                "004": "kakimawashite, kakimawashite.",
+                "005": "",
+                "006": "\"mondai nai.\" to tsubuyaite,",
+                "007": "kotoba wa ushinawareta?",
+                "008": "mou shippai, mou shippai.",
+                "009": "machigai sagashi ni owareba, mata, mawaru no!",
+                "011": "mou ikkai, mou ikkai.",
+                "012": "\"watashi wa kyou mo korogarimasu.\" to,",
+                "013": "shoujo wa iu   shoujo wa iu",
+                "014": "kotoba ni imi o kanadenagara",
+                "016": "\"mou iikai?\"",
+                "017": "\"mada desu yo, mada mada saki wa mienai no de.",
+                "018": "iki o tomeru no, ima.\"",
+                "019": "",
+                "020": "ROLLING GIRL no nare no hate",
+                "021": "todokanai, mukou no iro",
+                "022": "kasanaru koe to koe o",
+                "023": "mazeawasete, mazeawasete.",
+                "025": "\"mondai nai.\" to tsubuyaita kotoba wa ushinawareta.",
+                "026": "dounattatte iin da tte sa,",
+                "027": "machigai datte okoshichaou to sasou, sakamichi.",
+                "028": "",
+                "029": "mou ikkai, mou ikkai.",
+                "030": "watashi o douka korogashite to",
+                "031": "shoujo wa iu   shoujo wa iu",
+                "032": "mukuchi ni imi o kasanenagara!",
+                "034": "\"mou iikai?\"",
+                "035": "\"mou sukoshi, mou sugu nanika mieru darou to.",
+                "036": "iki o tomeru no, ima.\"",
+                "038": "mou ikkai, mou ikkai.",
+                "039": "\"watashi wa kyou mo korogarimasu.\" to,",
+                "040": "shoujo wa iu   shoujo wa iu",
+                "041": "kotoba ni emi o kanadenagara!",
+                "043": "\"mou iikai?   mou ii yo.",
+                "044": "sorosoro kimi mo tsukaretarou, ne.\"",
+                "046": "iki o yameru no, ima."
+            }
+        },
+        "motion": {
+            "10": "PV091_LLG_00_B10",
+            "00": "CMN_MRA00_13_01",
+            "01": "PV091_LLG_00_B01",
+            "02": "PV091_LLG_00_B02",
+            "03": "PV091_LLG_00_B03",
+            "04": "PV091_LLG_00_B04",
+            "05": "PV091_LLG_00_B05",
+            "06": "PV091_LLG_00_B06",
+            "07": "PV091_LLG_00_B07",
+            "08": "PV091_LLG_00_B08",
+            "09": "PV091_LLG_00_B09"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV091_LLG_00_B01",
+                "stage": "STGPV091S09"
+            },
+            "length": "1"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "73",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "66",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "79.5"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_091.ogg",
+        "song_name": "ローリンガール",
+        "song_name_en": "Rolling Girl",
+        "song_name_reading": "ろーりんがーる",
+        "songinfo": {
+            "arranger": "wowaka",
+            "illustrator": "wowaka",
+            "lyrics": "wowaka",
+            "music": "wowaka",
+            "_en": {
+                "arranger": "wowaka",
+                "illustrator": "wowaka",
+                "lyrics": "wowaka",
+                "music": "wowaka"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv091s09.txt",
+                "stage": "STGPV091S09"
+            },
+            "1": {
+                "collision_file": "coli_stgpv091s15.txt",
+                "stage": "STGPV091S15"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.57"
+    }
+}

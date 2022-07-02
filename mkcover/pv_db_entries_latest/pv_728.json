@@ -1,0 +1,264 @@
+{
+    "pv_728": {
+        "bpm": "138",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20151203",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_728_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_728_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_728_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_728_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "728"
+        },
+        "effect_se_file_name": "rom/sound/pv728_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv728_effect",
+            "1": "pv728_effect_2",
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "掴んだ腕も",
+            "002": "未来の闇も",
+            "003": "キミの",
+            "004": "となり、と",
+            "005": "願った",
+            "006": "はじまる朝に　還れぬ夜に",
+            "007": "涙も",
+            "008": "ボクも",
+            "009": "なんにも　残せずに・・・",
+            "010": "踏み出せば、埋もれ　倒れても",
+            "011": "ピュアな自由に",
+            "012": "強気に",
+            "013": "笑い返す",
+            "014": "ただ、観たいのは　ラスト。",
+            "015": "ナイーヴな　沈黙をよむ",
+            "016": "システム",
+            "017": "眠らぬ空。",
+            "018": "瞳、焼き付けた　熱さ",
+            "019": "忘レテモ、覚エテテ",
+            "020": "千切れそうな",
+            "021": "運命を",
+            "022": "押しのけ、届かせて",
+            "023": "こんなボクらは　いつもどうして",
+            "024": "カワす　言葉に",
+            "025": "つまづき",
+            "026": "崩れ、壊れて、引き換えに生まれ",
+            "027": "おしえて？",
+            "028": "理由（わけ）の　イミを",
+            "029": "今、スグに。",
+            "030": "差し出せば　閉ざす　その、向こう",
+            "031": "辿り着きたい　一緒に",
+            "032": "「行けずゴメン。」",
+            "033": "汚すコトを知る　欠けた　白色の目的は",
+            "034": "朱に交ざって",
+            "035": "コワイって",
+            "036": "震えるの、でしょうか？",
+            "037": "遠い夕陽も　同じ夜明けも",
+            "038": "隣をゆずれ",
+            "039": "なくても",
+            "040": "でも、結局ボクら　何か変われた？",
+            "041": "こたえは",
+            "042": "「…もう一度。」",
+            "043": "さえ　消せなくて・・・",
+            "044": "千切れそうな",
+            "045": "運命を",
+            "046": "押しのけ、届かせたい",
+            "047": "「掴ンダ腕モ」",
+            "048": "「未来ノ闇モ、」",
+            "049": "キミの隣、と　願った…！",
+            "050": "はじまる朝に、還れぬ夜に、",
+            "051": "涙も",
+            "052": "ボクも",
+            "053": "なんにも",
+            "054": "こんなボクらは　いつもどうして",
+            "055": "カワす　言葉につまづき。",
+            "056": "崩れ、壊れて　引き換えに生まれ",
+            "057": "おしえて？",
+            "058": "理由（わけ）の",
+            "059": "イミを…！",
+            "060": "遠イ夕陽モ",
+            "061": "同ジ夜明ケモ",
+            "062": "コンナボクラハ　イツモ　ドウシテ…",
+            "_en": {
+                "001": "tsukanda ude mo",
+                "002": "mirai no yami mo",
+                "003": "kimi no",
+                "004": "tonari, to",
+                "005": "negatta",
+                "006": "hajimaru asa ni   kaerenu yoru ni",
+                "007": "namida mo",
+                "008": "boku mo",
+                "009": "nannimo   nokosezu ni...",
+                "010": "fumidaseba, umore   taoretemo",
+                "011": "PURE na jiyuu ni",
+                "012": "tsuyoki ni",
+                "013": "waraikaesu",
+                "014": "tada, mitai no wa   LAST.",
+                "015": "NAIVE na   chinmoku o yomu",
+                "016": "SYSTEM",
+                "017": "nemuranu sora.",
+                "018": "hitomi, yakitsuketa   atsusa",
+                "019": "wasuretemo, oboetete",
+                "020": "chigiresou na",
+                "021": "unmei o",
+                "022": "oshinoke, todokasete",
+                "023": "konna bokura wa   itsumo doushite",
+                "024": "kawasu   kotoba ni",
+                "025": "tsumazuki",
+                "026": "kuzure, kowarete, hikikae ni umare",
+                "027": "oshiete?",
+                "028": "wake no   imi o",
+                "029": "ima, sugu ni.",
+                "030": "sashidaseba   tozasu   sono, mukou",
+                "031": "tadoritsukitai   issho ni",
+                "032": "\"ikezu gomen.\"",
+                "033": "kegasu koto o shiru   kaketa   hakushoku no mokuteki wa",
+                "034": "shu ni mazatte",
+                "035": "kowai tte",
+                "036": "furueru no, deshou ka?",
+                "037": "tooi yuuhi mo   onaji yoake mo",
+                "038": "tonari o yuzure",
+                "039": "nakutemo",
+                "040": "demo, kekkyoku bokura   nanika kawareta?",
+                "041": "kotae wa",
+                "042": "\"...mou ichido.\"",
+                "043": "sae kesenakute...",
+                "044": "chigiresou na",
+                "045": "unmei o",
+                "046": "oshinoke, todokasetai",
+                "047": "\"tsukanda ude mo\"",
+                "048": "\"mirai no yami mo,\"",
+                "049": "kimi no tonari, to   negatta...!",
+                "050": "hajimaru asa ni, kaerenu yoru ni,",
+                "051": "namida mo",
+                "052": "boku mo",
+                "053": "nannimo",
+                "054": "konna bokura wa   itsumo doushite",
+                "055": "kawasu   kotoba ni tsumazuki.",
+                "056": "kuzure, kowarete   hikikae ni umare",
+                "057": "oshiete?",
+                "058": "wake no",
+                "059": "imi o...!",
+                "060": "tooi yuuhi mo",
+                "061": "onaji yoake mo",
+                "062": "konna bokura wa   itsumo   doushite..."
+            }
+        },
+        "motion": {
+            "01": "PV728_EOZ_P1_00",
+            "02": "PV728_EOZ_P1_10",
+            "2P": {
+                "01": "PV728_EOZ_P2_00",
+                "02": "PV728_EOZ_P2_10"
+            },
+            "3P": {
+                "01": "PV728_EOZ_P3_00"
+            }
+        },
+        "movie_file_name": "rom/movie/pv_728.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "31",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "KAI",
+                "pv_costume": "31",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "2": {
+                "chara": "LEN",
+                "fixed": "1",
+                "pseudo_same_id": "0",
+                "size": "PLAY_CHARA",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV728.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "125",
+        "resolution_scale_neo": "0.85",
+        "sabi": {
+            "play_time": "24.0",
+            "start_time": "64.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_728.ogg",
+        "song_name": "erase or zero",
+        "song_name_en": "Erase or Zero",
+        "song_name_reading": "いれーすおあぜろ",
+        "songinfo": {
+            "arranger": "クリスタルP",
+            "illustrator": "壱村×色合mdd",
+            "lyrics": "クリスタルP",
+            "music": "クリスタルP",
+            "_en": {
+                "arranger": "Crystal P",
+                "illustrator": "Ichimura×Iroai mmd",
+                "lyrics": "Crystal P",
+                "music": "Crystal P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

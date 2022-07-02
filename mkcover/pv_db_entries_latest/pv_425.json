@@ -1,0 +1,321 @@
+{
+    "pv_425": {
+        "bpm": "183",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20111215",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_425_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_425_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_425_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_425_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "425"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "000",
+            "01": "019",
+            "02": "021",
+            "03": "018",
+            "04": "020"
+        },
+        "eyes_base_adjust_type": "CLEARANCE",
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS048"
+            },
+            "02": {
+                "stage": "STGD2NS049"
+            },
+            "03": {
+                "stage": "STGD2NS038"
+            },
+            "04": {
+                "stage": "STGD2NS079"
+            },
+            "05": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "06": {
+                "aet_front": "eff_flash_red",
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "07": {
+                "aet_front": "eff_flash_red",
+                "stage": "STGD2NS048"
+            },
+            "08": {
+                "aet_front": "game_txt_a",
+                "stage": "STGD2NS049"
+            },
+            "09": {
+                "aet_front": "eff_petal_set",
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "length": "9"
+        },
+        "hand_item": {
+            "01": "FAN_R",
+            "02": "FAN_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "(はぁ!)",
+            "002": "(そいやっさぁ!!)",
+            "003": "(さぁ！さぁ！)",
+            "004": "(それそれそれそれっ!)",
+            "005": "(そいやっさぁ!!)",
+            "006": "さぁさぁはじまる大活劇",
+            "007": "主役はもちろん俺様さ",
+            "008": "いっさいがっさいやっさいもっさい",
+            "009": "俺の背に見蕩レンな",
+            "010": "遥ルカ上から俺たちを",
+            "011": "ミク出してるつもりのあんたらも",
+            "012": "いっさいやっさいがっさいもっさい",
+            "013": "俺らに夢中だ　なぁ鈴？",
+            "014": "先の見えない浮世を",
+            "015": "照らすはアタイらの御威光",
+            "016": "唯我独尊",
+            "017": "天上天下",
+            "018": "アタイらの後ろ通リンせ",
+            "019": "(そーれそれそれ！)",
+            "020": "(そーらほいさっさ！)",
+            "021": "(そいやっは！)",
+            "022": "愛なんて",
+            "023": "(そーれそれそれ！)",
+            "024": "(そーらほいさっさ！)",
+            "025": "(さささささぁ!)",
+            "026": "しゃらくせぇ",
+            "027": "風より迅く飛び去れ",
+            "028": "鳥より鷹く",
+            "029": "この胸の鼓動が終る前に",
+            "030": "その手の先に示した運命ならば",
+            "031": "きっと変えるさ",
+            "032": "(そーらそらよっさっさの)",
+            "033": "(そーらそらどっこいせ！)",
+            "034": "(あらよっとさ！そらよっとさ！)",
+            "035": "(せらさそいやっさ！)",
+            "036": "(せらさそいやっさっさぁ!!)",
+            "037": "(ほいさ！)",
+            "038": "(ほいさ！)",
+            "039": "(そーれそれそれ！)",
+            "040": "(そーらほいさっさ！)",
+            "041": "(そいやっは！)",
+            "042": "アタイらには",
+            "043": "(そーれそれそれ！)",
+            "044": "(そーらほいさっさ！)",
+            "045": "(さささささぁ!)",
+            "046": "敵わねぇぜ？",
+            "047": "永話【とわ】より詠く語り継げ",
+            "048": "仁【ひと】より篤【あつ】く",
+            "049": "この道の轍が消えぬ為に",
+            "050": "その背の仲で繋がる仁人【ふたり】ならば",
+            "051": "きっとやれるさ",
+            "052": "(もういっちょ!!)",
+            "053": "風より迅く飛び去れ",
+            "054": "鳥より鷹く",
+            "055": "この胸の鼓動が終る前に",
+            "056": "(それそれそれ!)",
+            "057": "(それそれそれ！)",
+            "058": "(それそれそれ！)",
+            "059": "(それそれそれ！)",
+            "060": "(は！は！は！は！)",
+            "061": "(そいやっさささささぁ!!)",
+            "_en": {
+                "001": "(haa!)",
+                "002": "(soiyassaa!!)",
+                "003": "(saa! saa!)",
+                "004": "(sore sore sore sore!)",
+                "005": "(soiyassaa!!)",
+                "006": "saa saa hajimaru daikatsugeki",
+                "007": "shuyaku wa mochiron ore-sama sa",
+                "008": "issai gassai yassai mossai",
+                "009": "ore no se ni mitoLENna",
+                "010": "haLUKA ue kara oretachi o",
+                "011": "MIKUdashiteru tsumori no antara mo",
+                "012": "issai yassai gassai mossai",
+                "013": "orera ni muchuu da   naa Rin?",
+                "014": "saki no mienai ukiyo o",
+                "015": "terasu wa ataira no goikou",
+                "016": "yuiga dokuson",
+                "017": "tenjou tenge",
+                "018": "ataira no ushiro toorinse",
+                "019": "(soore sore sore!)",
+                "020": "(soora hoi sassa!)",
+                "021": "(soiyahha!)",
+                "022": "ai nante",
+                "023": "(soore sore sore!)",
+                "024": "(soora hoi sassa!)",
+                "025": "(sa sa sa sa saa!)",
+                "026": "sharakusee",
+                "027": "kaze yori hayaku tobisare",
+                "028": "tori yori takaku",
+                "029": "kono mune no kodou ga owaru mae ni",
+                "030": "sono te no saki ni shimeshita unmei naraba",
+                "031": "kitto kaeru sa",
+                "032": "(soora sora yossassa no)",
+                "033": "(soora sora dokkoise!)",
+                "034": "(arayotto sa! sorayotto sa!)",
+                "035": "(serasa soiyassa!)",
+                "036": "(serasa soiyassassaa!!)",
+                "037": "(hoisa!)",
+                "038": "(hoisa!)",
+                "039": "(soore sore sore!)",
+                "040": "(soora hoi sassa!)",
+                "041": "(soiyahha!)",
+                "042": "ataira ni wa",
+                "043": "(soore sore sore!)",
+                "044": "(soora hoi sassa!)",
+                "045": "(sa sa sa sa saa!)",
+                "046": "kanawanee ze?",
+                "047": "towa yori nagaku kataritsuge",
+                "048": "hito yori atsuku",
+                "049": "kono michi no wadachi ga kienu tame ni",
+                "050": "sono se no naka de tsunagaru futari naraba",
+                "051": "kitto yareru sa",
+                "052": "(mou iccho!!)",
+                "053": "kaze yori hayaku tobisare",
+                "054": "tori yori takaku",
+                "055": "kono mune no kodou ga owaru mae ni",
+                "056": "(sore sore sore!)",
+                "057": "(sore sore sore!)",
+                "058": "(sore sore sore!)",
+                "059": "(sore sore sore!)",
+                "060": "(ha! ha! ha! ha!)",
+                "061": "(soiyassa sa sa sa saa!!)"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_024A",
+            "02": "CMN_EDT_01_056A",
+            "03": "CMN_EDT_01_002A",
+            "04": "CMN_EDT_01_014A",
+            "05": "CMN_EDT_01_017A",
+            "06": "CMN_EDT_01_019A",
+            "07": "CMN_EDT_01_009A",
+            "08": "CMN_EDT_01_042A",
+            "2P": {
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_01_024A",
+                "02": "CMN_EDT_01_056A",
+                "03": "CMN_EDT_01_002A",
+                "04": "CMN_EDT_01_014A",
+                "05": "CMN_EDT_01_017A",
+                "06": "CMN_EDT_01_019A",
+                "07": "CMN_EDT_01_009A",
+                "08": "CMN_EDT_01_042A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LEN",
+                "pv_costume": "1",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "1",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "219",
+        "sabi": {
+            "play_time": "27.0",
+            "start_time": "53.00"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_425.ogg",
+        "song_name": "そいやっさぁ!!",
+        "song_name_en": "Soiyassa!!",
+        "song_name_reading": "そいやっさぁ",
+        "songinfo": {
+            "arranger": "囚人P",
+            "illustrator": "ネコノミミコ",
+            "lyrics": "囚人P",
+            "music": "囚人P",
+            "pv_editor": "樹",
+            "_en": {
+                "arranger": "SyujinP",
+                "illustrator": "Nekonomimiko",
+                "lyrics": "SyujinP",
+                "music": "SyujinP",
+                "pv_editor": "Itsuki"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "10.5"
+        }
+    }
+}

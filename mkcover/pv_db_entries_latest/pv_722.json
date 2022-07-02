@@ -1,0 +1,202 @@
+{
+    "pv_722": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV722_MIK_100",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20150716",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_722_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_722_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_722_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_722_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "722"
+        },
+        "effect_se_file_name": "rom/sound/pv722_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv722_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "真夜中 奏でる",
+            "002": "時計のつぶやき",
+            "003": "チクタクと夢の",
+            "004": "はじまりを告げる",
+            "005": "僕らは君を探しながら唄うよ",
+            "006": "遠く想う声がいつか届けられるように",
+            "007": "星の流れる夜に",
+            "008": "北風が通りを吹き抜け",
+            "009": "待ち人から便りはなく",
+            "010": "明くる日を描くだけ",
+            "011": "外灯のストロボと",
+            "012": "波紋のように広がる雲",
+            "013": "浮かぶ水 ゆらめく髪",
+            "014": "鳥たちの群れは飛び去り",
+            "015": "まるで奇跡を予感し",
+            "016": "飛び起きたかのような幼子の背を",
+            "017": "包む母の指先が震えている",
+            "018": "僕はただ立ち尽くし",
+            "019": "寝ぼけながら記憶を巡る",
+            "020": "歩んだ時間のすべてが",
+            "021": "ここに蘇った今",
+            "022": "動き出した歯車に",
+            "023": "この身を奪われるときまで",
+            "024": "強く ただ強く あなたを想ってる",
+            "025": "星の降り注ぐ夜",
+            "026": "北風が光の粉を運んで",
+            "027": "僕たちは眠れないまま",
+            "028": "明くる日を願うだけ",
+            "029": "星屑の泣き声と",
+            "030": "耳鳴りが最期に途切れて",
+            "031": "音のない景色のなかで",
+            "032": "終わらない夢を見る",
+            "033": "星は遠くの空へ",
+            "034": "僕らの願いを届けて",
+            "035": "幸せな朝を呼ぶ",
+            "_en": {
+                "001": "mayonaka kanaderu",
+                "002": "tokei no tsubuyaki",
+                "003": "TICK-TOCK to yume no",
+                "004": "hajimari o tsugeru",
+                "005": "bokura wa kimi o sagashinagara utau yo",
+                "006": "tooku omou koe ga itsuka todokerareru you ni",
+                "007": "hoshi no nagareru yoru ni",
+                "008": "kitakaze ga toori o fukinuke",
+                "009": "machibito kara tayori wa naku",
+                "010": "akuru hi o egaku dake",
+                "011": "gaitou no STROBE to",
+                "012": "hamon no you ni hirogaru kumo",
+                "013": "ukabu mizu yurameku kami",
+                "014": "toritachi no mure wa tobisari",
+                "015": "marude kiseki o yokan shi",
+                "016": "tobiokita ka no you na osanago no se o",
+                "017": "tsutsumu haha no yubisaki ga furueteiru",
+                "018": "boku wa tada tachitsukushi",
+                "019": "nebokenagara kioku o meguru",
+                "020": "ayunda jikan no subete ga",
+                "021": "koko ni yomigaetta ima",
+                "022": "ugokidashita haguruma ni",
+                "023": "kono mi o ubawareru toki made",
+                "024": "tsuyoku tada tsuyoku anata o omotteru",
+                "025": "hoshi no furisosogu yoru",
+                "026": "kitakaze ga hi no ko o hakonde",
+                "027": "bokutachi wa nemurenai mama",
+                "028": "akuru hi o negau dake",
+                "029": "hoshikuzu no nakigoe to",
+                "030": "miminari ga saigo ni togirete",
+                "031": "oto no nai keshiki no naka de",
+                "032": "owaranai yume o miru",
+                "033": "hoshi wa tooku no sora e",
+                "034": "bokura no negai o todokete",
+                "035": "shiawase na asa o yobu"
+            }
+        },
+        "motion": {
+            "01": "PV722_MTO_P1_00",
+            "02": "PV722_MTO_P1_10"
+        },
+        "movie_file_name": "rom/movie/pv_722.mp4",
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "131",
+                "size": "NORMAL",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV722.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "112",
+        "sabi": {
+            "play_time": "26.0",
+            "start_time": "152.5"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_722.ogg",
+        "song_name": "メテオ",
+        "song_name_en": "Meteor",
+        "song_name_reading": "めてお",
+        "songinfo": {
+            "arranger": "じょん",
+            "illustrator": "SOE",
+            "lyrics": "じょん",
+            "music": "じょん",
+            "_en": {
+                "arranger": "John Zeroness",
+                "illustrator": "SOE",
+                "lyrics": "John Zeroness",
+                "music": "John Zeroness"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "pv_095": {
+        "bpm": "160",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_095_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_095_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_095_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_095_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "095",
+            "title_end_2d_field": "10",
+            "title_start_2d_field": "6"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "ねぼけまなこでウトウト",
+            "002": "定休日の昼下がり",
+            "003": "ねまき姿でウロウロ",
+            "004": "アツアツの甘い香り",
+            "006": "鉄分　ミネラル　要らないけど",
+            "007": "寝覚めのカフェイン　いつものこと",
+            "008": "「おはよう」挨拶交わす君の頭上にねこみみ",
+            "009": "寝ぼけてるのさ",
+            "011": "君と私でにゃあにゃぁ",
+            "012": "ねこみみは量子力学",
+            "013": "△×￥○＠％＆＄＃☆□！",
+            "014": "「落ち着け、カフェオレ飲もう」",
+            "016": "メモリ不足でアタフタ",
+            "017": "頭がオーバーフローする",
+            "018": "11次元のスケール",
+            "019": "宇宙の神秘が加速する",
+            "020": "",
+            "021": "夢か現か幻",
+            "022": "ナツばて誘う太陽",
+            "023": "コドモみたいな笑顔で",
+            "024": "見つめる先に向日葵",
+            "026": "ねこみみ姿が似合う君の横顔",
+            "027": "ああ　クラクラする",
+            "028": "例えば非科学的なことも",
+            "029": "信じてしまう夕暮れどきには",
+            "031": "君と私でフラフラ",
+            "032": "すかさず片手繋いだら",
+            "033": "ふたりの相乗効果で",
+            "034": "世界が動転してる",
+            "036": "オレンジ色の雲間に",
+            "037": "しましま模様の光線",
+            "038": "頭の上でピカピカ",
+            "039": "いちばん星とにばん星",
+            "040": "",
+            "041": "真夏の夜の帳がおりる頃に",
+            "042": "君と私で見つけた",
+            "043": "謎めいた黄色いスイッチ",
+            "044": "ためしに押した",
+            "045": "だけど地球崩壊だとか",
+            "046": "起こるはずないね",
+            "047": "だから安心しておやすみ",
+            "049": "君と私で　ヒュー↑ヒュー↑",
+            "050": "アツい鼓動刻んだら",
+            "051": "かわいいねこみみつけて",
+            "052": "ふたりでゴロゴロしましょ",
+            "054": "ナツいアツだね　フー→フー→",
+            "055": "扇風機の風浴びたら",
+            "056": "アイスが溶けてポタポタ",
+            "057": "あらら　ちょっぴりせつないね",
+            "_en": {
+                "000": "",
+                "001": "nebokemanako de utouto",
+                "002": "teikyuubi no hirusagari",
+                "003": "nemaki sugata de urouro",
+                "004": "atsuatsu no amai kaori",
+                "006": "tetsubun   MINERAL   iranai kedo",
+                "007": "nezame no CAFFEINE   itsumo no koto",
+                "008": "\"ohayou\" aisatsu kawasu kimi no zujou ni nekomimi",
+                "009": "neboketeru no sa",
+                "011": "kimi to watashi de nyaanyaa",
+                "012": "nekomimi wa ryoushirikigaku",
+                "013": "△×￥○＠％＆＄＃☆□！",
+                "014": "\"ochitsuke, CAFE AU LAIT nomou\"",
+                "016": "MEMORY busoku de atafuta",
+                "017": "atama ga OVERFLOW suru",
+                "018": "juuichi jigen no SCALE",
+                "019": "uchuu no shinpi ga kasoku suru",
+                "020": "",
+                "021": "yume ka utsutsu ka maboroshi",
+                "022": "natsubate sasou taiyou",
+                "023": "kodomo mitai na egao de",
+                "024": "mitsumeru saki ni himawari",
+                "026": "nekomimi sugata ga niau kimi no yokogao",
+                "027": "aah   kurakura suru",
+                "028": "tatoeba hikagakuteki na koto mo",
+                "029": "shinjite shimau yuuguredoki ni wa",
+                "031": "kimi to watashi de furafura",
+                "032": "sukasazu katate tsunaidara",
+                "033": "futari no soujoukouka de",
+                "034": "sekai ga douten shiteru",
+                "036": "ORANGE iro no kumoma ni",
+                "037": "shimashima moyou no kousen",
+                "038": "atama no ue de pikapika",
+                "039": "ichibanboshi to nibanboshi",
+                "040": "",
+                "041": "manatsu no yoru no tobari ga oriru koro ni",
+                "042": "kimi to watashi de mitsuketa",
+                "043": "nazomeita kiiroi SWITCH",
+                "044": "tameshi ni oshita",
+                "045": "dakedo chikyuu houkai da toka",
+                "046": "okoru hazu nai ne",
+                "047": "dakara anshin shite oyasumi",
+                "049": "kimi to watashi de   hyuu↑hyuu↑",
+                "050": "atsui kodou kizandara",
+                "051": "kawaii nekomimi tsukete",
+                "052": "futari de gorogoro shimasho",
+                "054": "natsui atsu da ne   fuu→fuu→",
+                "055": "senpuuki no kaze abitara",
+                "056": "ICE ga tokete potapota",
+                "057": "arara   choppiri setsunai ne"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV095_NMS_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "70",
+        "sabi": {
+            "play_time": "29.5",
+            "start_time": "36.5"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_095.ogg",
+        "song_name": "ねこみみスイッチ",
+        "song_name_en": "NekoMimi Switch",
+        "song_name_reading": "ねこみみすいっち",
+        "songinfo": {
+            "arranger": "daniwell",
+            "illustrator": "ミロ",
+            "lyrics": "daniwell",
+            "music": "daniwell",
+            "_en": {
+                "arranger": "daniwell",
+                "illustrator": "Milo",
+                "lyrics": "daniwell",
+                "music": "daniwell"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

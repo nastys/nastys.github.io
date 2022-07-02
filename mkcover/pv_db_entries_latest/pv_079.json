@@ -1,0 +1,206 @@
+{
+    "pv_079": {
+        "bpm": "162",
+        "date": "20121026",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_079_easy.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_079_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_079_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_079_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "079",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_MIC_C_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "君と眺めてた",
+            "002": "星を集めた窓に",
+            "003": "映してた",
+            "005": "また　指折り数えた",
+            "006": "瞬間（とき）を重ねた夜に",
+            "007": "問いかけた",
+            "009": "時を止めた",
+            "010": "すきだよと言えば　はぐらかした",
+            "011": "気がつかないフリは",
+            "012": "もうやめて＞＜",
+            "014": "隣にいるとき",
+            "015": "私の軌道はいつも",
+            "016": "周極星",
+            "018": "トレモロみたいに",
+            "019": "波打つ思考の角度",
+            "020": "つかめない　君を追えば",
+            "022": "なにかを失ってしまいそうな",
+            "023": "想い浮かべ　船を出す",
+            "025": "抱きしめて　出会わなければ　個々",
+            "026": "受け止めて　デネボラを　飛び越え行くわ",
+            "027": "ワガママな歳差（さいさ）",
+            "028": "星（キミ）のようだね",
+            "029": "追いかけて　うかぶパノラマ",
+            "030": "五線の上で　流れ星",
+            "031": "いま歌うから　照らしてよね　スピカ",
+            "032": "",
+            "033": "笑っていたいよ　ひとりはイヤだよ",
+            "034": "答えが聞きたい　怖くて聞けない",
+            "035": "夜を　いくつも　過ごして",
+            "036": "未来へ　繋ぐの",
+            "038": "またたく星をよけ　探してた",
+            "039": "神話は　誰の味方なの",
+            "041": "ため息で　落ち込んでいた　午後",
+            "042": "想うだけ　君の名をひとりつぶやくわ",
+            "043": "あさはかな愛じゃ　届かないよね",
+            "044": "会いたくて　ピアノ奏でた　音",
+            "045": "苦しくて　溢れ出す",
+            "046": "余韻嫋々（よいんじょうじょう）　君に届け",
+            "048": "抱きしめて　出会わなければ　個々",
+            "049": "受け止めて　デネボラを　飛び越え行くわ",
+            "050": "ワガママな歳差（さいさ）",
+            "051": "星（キミ）のようだね",
+            "052": "追いかけて　うかぶパノラマ",
+            "053": "五線の上で　流れ星",
+            "054": "いま歌うから　照らしてよね　スピカ",
+            "_en": {
+                "001": "kimi to nagameteta",
+                "002": "hoshi o atsumeta mado ni",
+                "003": "utsushiteta",
+                "005": "mata   yubi ori kazoeta",
+                "006": "toki o kasaneta yoru ni",
+                "007": "toikaketa",
+                "009": "toki o tometa",
+                "010": "suki da yo to ieba   hagurakashita",
+                "011": "ki ga tsukanai furi wa",
+                "012": "mou yamete ><",
+                "014": "tonari ni iru toki",
+                "015": "watashi no kidou wa itsumo",
+                "016": "shuukyokusei",
+                "018": "TREMOLO mitai ni",
+                "019": "namiutsu shikou no kakudo",
+                "020": "tsukamenai   kimi o oeba",
+                "022": "nanika o ushinatte shimaisou na",
+                "023": "omoiukabe   fune o dasu",
+                "025": "dakishimete   deawanakereba koko",
+                "026": "uketomete   DENEBOLA o   tobikoe yuku wa",
+                "027": "wagamama na saisa",
+                "028": "kimi no you da ne",
+                "029": "oikakete   ukabu PANORAMA",
+                "030": "gosen no ue de   nagareboshi",
+                "031": "ima utau kara   terashite yo ne   SPiCa",
+                "032": "",
+                "033": "waratteitai yo   hitori wa iya da yo",
+                "034": "kotae ga kikitai   kowakute kikenai",
+                "035": "yoru o   ikutsumo   sugoshite",
+                "036": "mirai e   tsunagu no",
+                "038": "matataku hoshi o yoke   sagashiteta",
+                "039": "shinwa wa   dare no mikata na no",
+                "041": "tameiki de   ochikondeita gogo",
+                "042": "omou dake   kimi no na o hitori tsubuyaku wa",
+                "043": "asahaka na ai ja   todokanai yo ne",
+                "044": "aitakute   PIANO kanadeta   oto",
+                "045": "kurushikute   afuredasu",
+                "046": "yoin joujou   kimi ni todoke",
+                "048": "dakishimete   deawanakereba koko",
+                "049": "uketomete   DENEBOLA o   tobikoe yuku wa",
+                "050": "wagamama na saisa",
+                "051": "kimi no you da ne",
+                "052": "oikakete   ukabu PANORAMA",
+                "053": "gosen no ue de   nagareboshi",
+                "054": "ima utau kara   terashite yo ne   SPiCa"
+            }
+        },
+        "motion": {
+            "00": "CMN_MRA00_13_01",
+            "01": "PV079_SPC_00_C00_00A",
+            "02": "PV079_SPC_00_C01_00A",
+            "03": "PV079_SPC_00_C02_00A",
+            "04": "PV079_SPC_00_C03_00A",
+            "05": "PV079_SPC_00_C04_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "75",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "56",
+        "sabi": {
+            "play_time": "23.3",
+            "start_time": "76.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_079.ogg",
+        "song_name": "SPiCa -39's Giving Day Edition-",
+        "song_name_en": "SPiCa -39's Giving Day Edition-",
+        "song_name_reading": "すぴか",
+        "songinfo": {
+            "arranger": "とく",
+            "illustrator": "refeia",
+            "lyrics": "kentax vs とく",
+            "manipulator": "とく",
+            "music": "とく",
+            "_en": {
+                "arranger": "toku",
+                "illustrator": "refeia",
+                "lyrics": "kentax vs toku",
+                "manipulator": "toku",
+                "music": "toku"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

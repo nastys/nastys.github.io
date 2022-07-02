@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Cover maker</title>
+    <meta name="theme-color" content="#9a8cee" />
+</head>
+
+<body>
+    <div>
+        Want to add alternate versions of songs? We've got you <i>covered!</i>
+    </div>
+    <br>
+    <div class="row">
+        <div class="another_song column">
+            another_song
+            <br>
+            <label for="name_jp">Name (JP):</label><input autocomplete="off" type="text" id="name_jp"
+                value="MySong -Cover Edition-">
+            <label for="voc_jp">Vocal (JP):</label><input autocomplete="off" type="text" id="voc_jp"
+                value="Cover Edition">
+            <label for="name_en">Name (EN):</label><input autocomplete="off" type="text" id="name_en"
+                value="MySong -Cover Edition-">
+            <label for="voc_en">Vocal (EN):</label><input autocomplete="off" type="text" id="voc_en"
+                value="Cover Edition">
+            <label for="as_file">File name and extension:</label><input autocomplete="off" type="text" id="as_file"
+                value="rom/sound/song/pv_123_all.ogg">
+            <br>
+            <input type="button" id="addasbtn" onclick="addas_clicked();" value="Add">
+            <br>
+            <table id="as_table">
+                <tr>
+                    <th>Name (JP)</th>
+                    <th>Vocal (JP)</th>
+                    <th>Name (EN)</th>
+                    <th>Vocal (EN)</th>
+                    <th>File</th>
+                </tr>
+            </table>
+            <br>
+            <input type="button" id="clearasbtn" onclick="clearas_clicked();" value="Clear">
+        </div>
+        <br>
+        <div class="filter_area column">
+            <label for="filter">Filter:</label><input type="text" id="filter" oninput="filter(this.value);">
+            <br>
+            <select id="dropdown_db" size="10"
+                oninput="document.getElementById('okbtn').removeAttribute('disabled');"></select>
+            <input type="button" id="okbtn" onclick="ok_clicked();" value="Generate" disabled="true">
+        </div>
+        <br>
+        <div class="entry_area column">
+            <br>
+            <textarea id="newentry"></textarea>
+            <br>
+            <input type="button" id="dwbtn" onclick="download_clicked();" value="Save mod_pv_db.txt">
+        </div>
+    </div>
+</body>
+<script src="./pv_db_list.min.js"></script>
+<script>
+    var getJSON = function (url, callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'text';
+        xhr.onload = function () {
+            var status = xhr.status;
+            if (status === 200) {
+                callback(null, xhr.response);
+            } else {
+                callback(status, xhr.response);
+            }
+        };
+        xhr.send();
+    };
+
+    const entries = Object.entries(pv_db_list);
+    for (const dben of entries) {
+        const op = document.createElement('option');
+        op.classList.add('songoption');
+        op.value = dben[0];
+        op.innerText = dben[0] + ': ' + dben[1].song_name_en;
+        const select = document.getElementById('dropdown_db');
+        select.appendChild(op);
+    }
+
+    function ok_clicked() {
+        getJSON('./pv_db_entries_latest/' + document.getElementById('dropdown_db').value + '.json',
+            function (err, data) {
+                if (err !== null) {
+                    alert('Something went wrong: ' + err);
+                } else {
+                    js2db(add_another_song(JSON.parse(data.replaceAll('.length=', '.lengthset='))));
+                }
+            });
+    }
+
+    function add_another_song(jsdb) {
+        const table = document.getElementById('as_table');
+        const amount = table.rows.length - 1;
+        const jsen = jsdb[Object.entries(jsdb)[0][0]];
+        jsen.date = new Date().toLocaleDateString('sv').replaceAll('-', '');
+        if (amount > 0) {
+            if (typeof jsen.another_song === 'undefined') {
+                jsen.another_song = [];
+                const chara = (typeof jsen.performer === 'undefined' || typeof jsen.performer[0] === 'undefined' || typeof jsen.performer[0].chara === 'undefined') ? "Original" : jsen.performer[0].chara;
+                jsen.another_song.push({ "name": jsen.song_name, "name_en": jsen.song_name_en, "vocal_disp_name": chara, "vocal_disp_name_en": chara });
+                jsen.another_song.lengthset = '1';
+            }
+            for (let i = 1; i < table.rows.length; i++) {
+                const cells = table.rows[i].cells;
+                try {
+                    jsen.another_song.push({ "name": cells[0].innerText, "name_en": cells[2].innerText, "song_file_name": cells[4].innerText, "vocal_disp_name": cells[1].innerText, "vocal_disp_name_en": cells[3].innerText });
+                    jsen.another_song.lengthset = parseInt(jsen.another_song.lengthset) + 1;
+                }
+                catch {
+                    jsen.another_song[jsen.another_song.length] = { "name": cells[0].innerText, "name_en": cells[2].innerText, "song_file_name": cells[4].innerText, "vocal_disp_name": cells[1].innerText, "vocal_disp_name_en": cells[3].innerText };
+                    jsen.another_song.length = parseInt(jsen.another_song.length) + 1;
+                }
+            }
+        }
+        return jsdb;
+    }
+
+    function filter(text) {
+        const options = document.getElementsByClassName('songoption');
+        Array.prototype.forEach.call(options, function (option) {
+            if (text == '') {
+                option.removeAttribute('hidden');
+            }
+            else {
+                if (!option.innerText.toLowerCase().includes(text.toLowerCase())) {
+                    option.setAttribute('hidden', 'true');
+                }
+                else {
+                    option.removeAttribute('hidden');
+                }
+            }
+        });
+    }
+
+    function js2db(oentry) {
+        const dotted = dotNotate(oentry);
+        const dottedentries = Object.entries(dotted);
+        let allentries = [];
+        Array.prototype.forEach.call(dottedentries, function (n) {
+            allentries.push(n[0].replaceAll('._', '_') + '=' + n[1]);
+        });
+        document.getElementById('newentry').value = allentries.sort().join('\n').replaceAll('.lengthset=', '.length=');
+    }
+
+    function dotNotate(obj, target, prefix) {
+        target = target || {},
+            prefix = prefix || "";
+
+        Object.keys(obj).forEach(function (key) {
+            if (typeof (obj[key]) === "object" && obj[key] !== null) {
+                dotNotate(obj[key], target, prefix + key + ".");
+            } else {
+                return target[prefix + key] = obj[key];
+            }
+        });
+
+        return target;
+    }
+
+    function addas_clicked() {
+        const table = document.getElementById('as_table');
+        const namej = document.getElementById('name_jp');
+        const vocj = document.getElementById('voc_jp');
+        const namee = document.getElementById('name_en');
+        const voce = document.getElementById('voc_en');
+        const filen = document.getElementById('as_file');
+        const row = table.insertRow(-1);
+        row.insertCell(0).innerText = namej.value;
+        row.insertCell(1).innerText = vocj.value;
+        row.insertCell(2).innerText = namee.value;
+        row.insertCell(3).innerText = voce.value;
+        row.insertCell(4).innerText = filen.value;
+    }
+
+    function clearas_clicked() {
+        const table = document.getElementById('as_table');
+        while (table.rows.length > 1) {table.deleteRow(1);}
+    }
+
+    function download_clicked() {
+        const fileblob = new Blob([document.getElementById('newentry').value], { type: 'text/plain' });
+        const filelink = document.createElement('a');
+        const fileurl = URL.createObjectURL(fileblob);
+        filelink.href = fileurl;
+        filelink.target = "_blank";
+        filelink.download = "mod_pv_db.txt";
+        filelink.click();
+        filelink.remove();
+    }
+
+    document.getElementById('newentry').value = '';
+    document.getElementById('filter').value = '';
+</script>
+
+</html>

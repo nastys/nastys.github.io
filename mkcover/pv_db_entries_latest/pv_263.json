@@ -1,0 +1,215 @@
+{
+    "pv_263": {
+        "bpm": "145",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20161209",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_263_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_263_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_263_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_263_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "263"
+        },
+        "ex_song": {
+            "0": {
+                "chara": "RIN",
+                "file": "rom/sound/song/pv_263_rin.ogg"
+            },
+            "1": {
+                "chara": "LEN",
+                "file": "rom/sound/song/pv_263_len.ogg"
+            },
+            "2": {
+                "chara": "LUK",
+                "file": "rom/sound/song/pv_263_luk.ogg"
+            },
+            "3": {
+                "chara": "KAI",
+                "file": "rom/sound/song/pv_263_kai.ogg"
+            },
+            "4": {
+                "chara": "MEI",
+                "file": "rom/sound/song/pv_263_mei.ogg"
+            },
+            "length": "5"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "いたいけなモーション　振り切れるテンション",
+            "002": "意外、意外　いけるものね",
+            "003": "繰り返す問答　答えなら無用",
+            "004": "嫌い、嫌い　縛らないで",
+            "005": "ひとりぼっちの　「ぼっち」を押すの",
+            "006": "やめて、よしての妄想で",
+            "007": "買えないものなどないのです",
+            "008": "転じて言えば何物にも",
+            "009": "値段をつけて売るのです",
+            "010": "尊徳の感情はないの",
+            "011": "ホンノリと少々　チラミセの本性",
+            "012": "ズルい　ズルい　可愛くない",
+            "013": "それならばこうしよう　ズルムケの本性",
+            "014": "臭い　臭い　はしたないわ",
+            "015": "間違い探しのペアルック",
+            "016": "あれとこれとそれとどれ",
+            "017": "飽きたらガムを捨てるように",
+            "018": "新たな恋を探す道理",
+            "019": "パズルの凸凹意外にも",
+            "020": "誰とでもハマるようだ",
+            "021": "降りしきる雨の中　止まるべき錨を捨て",
+            "022": "人生は「コウカイ」と　いう名の船旅だ",
+            "023": "遮るものをあげるならば",
+            "024": "心と道徳、法律か",
+            "025": "お高い壁も遠回りをしたならば　ほら",
+            "026": "「こんにちは」",
+            "027": "「アイ」とはなんぞと問われれば",
+            "028": "それは「ワタシ」と答えようぞ",
+            "029": "ひび割れしにくいだけなので",
+            "030": "ダイヤなどいらないのです",
+            "_en": {
+                "001": "itaike na MOTION   furikireru TENSION",
+                "002": "igai, igai   ikeru mono ne",
+                "003": "kurikaesu mondou   kotae nara muyou",
+                "004": "kirai, kirai   shibaranaide",
+                "005": "hitoribocchi no   \"bocchi\" o osu no",
+                "006": "yamete, yoshite no mousou de",
+                "007": "kaenai mono nado nai no desu",
+                "008": "tenjite ieba nanimono ni mo",
+                "009": "nedan o tsukete uru no desu",
+                "010": "sontoku no kanjou wa nai no",
+                "011": "honnori to shoushou   chiramise no honshou",
+                "012": "zurui   zurui   kawaikunai",
+                "013": "sore naraba kou shiyou   zurumuke no honshou",
+                "014": "kusai kusai   hashitanai wa",
+                "015": "machigai sagashi no PAIR LOOK",
+                "016": "are to kore to sore to dore",
+                "017": "akitara GUM o suteru you ni",
+                "018": "arata na koi o sagasu douri",
+                "019": "PUZZLE no dekoboko igai ni mo",
+                "020": "dare to demo hamaru you da",
+                "021": "furishikiru ame no naka   tomaru beki ikari o sute",
+                "022": "jinsei wa \"koukai\" to   iu na no funatabi da",
+                "023": "saegiru mono o ageru naraba",
+                "024": "kokoro to doutoku, houritsu ka",
+                "025": "otakai kabe mo toomawari o shita naraba   hora",
+                "026": "\"konnichiwa\"",
+                "027": "\"ai\" to wa nanzo to towarereba",
+                "028": "sore wa \"watashi\" to kotaeyou zo",
+                "029": "hibiware shinikui dake na no de",
+                "030": "daiya nado iranai no desu"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV263_1925_P1",
+            "2P": {
+                "01": "PV263_1925_P2"
+            },
+            "3P": {
+                "01": "PV263_1925_P3"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "171",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "KAI",
+                "pv_costume": "43",
+                "type": "GUEST"
+            },
+            "2": {
+                "chara": "MIK",
+                "fixed": "1",
+                "pseudo_same_id": "0",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "3"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV263.bin"
+        },
+        "rank_board_id": "161",
+        "sabi": {
+            "play_time": "25.5",
+            "start_time": "46.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_263.ogg",
+        "song_name": "1925",
+        "song_name_en": "1925",
+        "song_name_reading": "いちきゅうにいご",
+        "song_name_reading_en": "｛1925",
+        "songinfo": {
+            "arranger": "T-POCKET",
+            "illustrator": "ちほ",
+            "lyrics": "T-POCKET",
+            "manipulator": "オレジナルP",
+            "music": "T-POCKET",
+            "_en": {
+                "arranger": "T-POCKET",
+                "illustrator": "Chiho",
+                "lyrics": "T-POCKET",
+                "manipulator": "Ordinal P",
+                "music": "T-POCKET"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

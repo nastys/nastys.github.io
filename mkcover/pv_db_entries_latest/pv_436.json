@@ -1,0 +1,333 @@
+{
+    "pv_436": {
+        "bpm": "140",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20120927",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_436_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_436_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_436_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_436_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "436"
+        },
+        "edit": "2",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "069",
+            "01": "052",
+            "02": "019",
+            "03": "041",
+            "04": "051",
+            "05": "020",
+            "06": "070",
+            "07": "008",
+            "08": "018",
+            "09": "068",
+            "_low_field": {
+                "00": "0",
+                "01": "6"
+            }
+        },
+        "field": {
+            "10": {
+                "aet_front": "eff",
+                "aet_id_front": "AET_GAM_EFF052_MAIN",
+                "stage": "STGNS005"
+            },
+            "11": {
+                "aet_front": "eff",
+                "aet_id_front": "AET_GAM_EFF052_MAIN",
+                "stage": "STGNS263"
+            },
+            "01": {
+                "stage": "STGNS266"
+            },
+            "02": {
+                "stage": "STGNS020"
+            },
+            "03": {
+                "spr_set_back": "SPR_EDIT_FPVBACKWHITE"
+            },
+            "04": {
+                "stage": "STGNS005"
+            },
+            "05": {
+                "stage": "STGNS263"
+            },
+            "06": {
+                "spr_set_back": "SPR_EDIT_FPVBACKSKY"
+            },
+            "07": {
+                "spr_set_back": "SPR_EDIT_FPVBACKPGREEN"
+            },
+            "08": {
+                "aet_front": "eff",
+                "aet_id_front": "AET_GAM_EFF052_MAIN",
+                "stage": "STGNS266"
+            },
+            "09": {
+                "aet_front": "eff",
+                "aet_id_front": "AET_GAM_EFF019_MAIN",
+                "stage": "STGNS005"
+            },
+            "length": "11"
+        },
+        "hand_item": {
+            "01": "PV_MIC_E_L",
+            "02": "SMARTPHONE_L"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "案外　キミの色々なこと",
+            "002": "知らないでいるのかもね",
+            "003": "そうだ　今度　行きたいとこまで",
+            "004": "連れて行ってくれませんか",
+            "005": "I want to go to various places with you.",
+            "006": "Let's go to space travel together someday.",
+            "007": "yeah. yeah.",
+            "008": "That beyond the clouds, beyond the sky,",
+            "009": "to the universe on the other side of the moon.",
+            "010": "A voyage to the moon in a spaceship",
+            "011": "is no longer a dream.",
+            "012": "泣き虫だったことも",
+            "013": "すぐ笑っちゃうことも",
+            "014": "それはそれで分かってる",
+            "015": "わりとうまくハマってる",
+            "016": "クセの強い髪型も",
+            "017": "今では見慣れたものです",
+            "018": "好きなもの　嫌いなもの",
+            "019": "得意なこと　苦手なこと",
+            "020": "ふたりとも少しずつ　違うけど",
+            "021": "こういうのも　そういうのも",
+            "022": "ああいうのも　どういうの（？）も",
+            "023": "話してよ　そう話してよ",
+            "024": "案外　キミの色々なこと",
+            "025": "知らないでいるのかもね",
+            "026": "そうだ　今度　行きたいとこまで",
+            "027": "連れて行ってくれませんか",
+            "028": "駅までの短いルートじゃ",
+            "029": "全然話せないね",
+            "030": "そうだ　いつか　月の向こうまで",
+            "031": "連れて行ってくれませんか",
+            "032": "I want to go to various places with you.",
+            "033": "Let's go to space travel together someday.",
+            "034": "yeah. yeah.",
+            "035": "That beyond the clouds, beyond the sky,",
+            "036": "to the universe on the other side of the moon.",
+            "037": "A voyage to the moon in a spaceship",
+            "038": "is no longer a dream.",
+            "039": "好きなひと　苦手なひと",
+            "040": "昔のこと　将来のこと",
+            "041": "言いにくいことだって　少しはあるけれど",
+            "042": "こういうのも　そういうのも",
+            "043": "ああいうのも　どういうの（？）も",
+            "044": "聞かせてよ　ねぇ聞かせてよ",
+            "045": "案外　キミの色々なこと",
+            "046": "知らないでいるのかもね",
+            "047": "そうだ　今度　行きたいとこまで",
+            "048": "連れて行ってくれませんか",
+            "049": "もっと　キミと色々なとこ",
+            "050": "見に行ってみたいよね",
+            "051": "そうだ　今度　月の向こうまで",
+            "052": "連れて行ってくれませんか",
+            "_en": {
+                "001": "angai   kimi no iroiro na koto",
+                "002": "shiranaideiru no kamo ne",
+                "003": "sou da   kondo   ikitai toko made",
+                "004": "tsurete itte kuremasen ka",
+                "005": "I want to go to various places with you.",
+                "006": "Let's go to space travel together someday.",
+                "007": "Yeah. Yeah.",
+                "008": "That beyond the clouds, beyond the sky,",
+                "009": "to the universe on the other side of the moon.",
+                "010": "A voyage to the moon in a spaceship",
+                "011": "is no longer a dream.",
+                "012": "nakimushi datta koto mo",
+                "013": "sugu waracchau koto mo",
+                "014": "sore wa sore de wakatteru",
+                "015": "wari to umaku hamatteru",
+                "016": "kuse no tsuyoi kamigata mo",
+                "017": "ima dewa minareta mono desu",
+                "018": "suki na mono   kirai na mono",
+                "019": "tokui na koto   nigate na koto",
+                "020": "futari tomo sukoshizutsu   chigau kedo",
+                "021": "kou iu no mo   sou iu no mo",
+                "022": "aa iu no mo   dou iu no (?) mo",
+                "023": "hanashite yo   sou hanashite yo",
+                "024": "angai   kimi no iroiro na koto",
+                "025": "shiranaideiru no kamo ne",
+                "026": "sou da   kondo   ikitai toko made",
+                "027": "tsurete itte kuremasen ka",
+                "028": "eki made no mijikai ROUTE ja",
+                "029": "zenzen hanasenai ne",
+                "030": "sou da   itsuka   tsuki no mukou made",
+                "031": "tsurete itte kuremasen ka",
+                "032": "I want to go to various places with you.",
+                "033": "Let's go to space travel together someday.",
+                "034": "Yeah. Yeah.",
+                "035": "That beyond the clouds, beyond the sky,",
+                "036": "to the universe on the other side of the moon.",
+                "037": "A voyage to the moon in a spaceship",
+                "038": "is no longer a dream.",
+                "039": "suki na hito   nigate na hito",
+                "040": "mukashi no koto   shourai no koto",
+                "041": "iinikui koto datte   sukoshi wa aru keredo",
+                "042": "kou iu no mo   sou iu no mo",
+                "043": "aa iu no mo   dou iu no (?) mo",
+                "044": "kikasete yo   nee kikasete yo",
+                "045": "angai   kimi no iroiro na koto",
+                "046": "shiranaideiru no kamo ne",
+                "047": "sou da   kondo   ikitai toko made",
+                "048": "tsurete itte kuremasen ka",
+                "049": "motto   kimi to iroiro na toko",
+                "050": "mi ni itte mitai yo ne",
+                "051": "sou da   kondo   tsuki no mukou made",
+                "052": "tsurete itte kuremasen ka"
+            }
+        },
+        "motion": {
+            "10": "CMN_EDT_PSP01_50_22",
+            "11": "CMN_EDT_PSP01_70_17",
+            "12": "CMN_EDT_PS3_022A",
+            "13": "CMN_EDT_EX_PSP03_031A",
+            "14": "CMN_EDT_EX_PSP03_041A",
+            "15": "CMN_EDT_PSP02_024A",
+            "16": "CMN_EDT_EX_PSP03_015A",
+            "17": "CMN_EDT_PSP01_50_29",
+            "18": "CMN_EDT_PS3_002A",
+            "19": "CMN_EDT_VITA01_012A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_PSP01_50_28",
+            "02": "CMN_EDT_VITA01_IDLE",
+            "03": "CMN_EDT_PSP01_50_60_A",
+            "04": "CMN_EDT_PSP02_002A",
+            "05": "CMN_EDT_PSP02_011A",
+            "06": "CMN_EDT_PSP02_014A",
+            "07": "CMN_EDT_PSP02_016A",
+            "08": "CMN_EDT_PSP01_70_13",
+            "09": "CMN_EDT_PS3_011A",
+            "2P": {
+                "10": "CMN_EDT_PSP01_50_22",
+                "11": "CMN_EDT_PSP01_70_17",
+                "12": "CMN_EDT_PS3_022A",
+                "13": "CMN_EDT_EX_PSP03_031A",
+                "14": "CMN_EDT_EX_PSP03_041A",
+                "15": "CMN_EDT_PSP02_024A",
+                "16": "CMN_EDT_EX_PSP03_015A",
+                "17": "CMN_EDT_PSP01_50_29",
+                "18": "CMN_EDT_PS3_002A",
+                "19": "CMN_EDT_VITA01_012A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_PSP01_50_28",
+                "02": "CMN_EDT_VITA01_IDLE",
+                "03": "CMN_EDT_PSP01_50_60_A",
+                "04": "CMN_EDT_PSP02_002A",
+                "05": "CMN_EDT_PSP02_011A",
+                "06": "CMN_EDT_PSP02_014A",
+                "07": "CMN_EDT_PSP02_016A",
+                "08": "CMN_EDT_PSP01_70_13",
+                "09": "CMN_EDT_PS3_011A"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "32",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "1",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "230",
+        "sabi": {
+            "play_time": "32.0",
+            "start_time": "81.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_436.ogg",
+        "song_name": "月向うまでのトラベル",
+        "song_name_en": "Travel to The Other Side of The Moon",
+        "song_name_reading": "つきむこうまでのとらべる",
+        "songinfo": {
+            "arranger": "vilP",
+            "illustrator": "有識",
+            "lyrics": "vilP",
+            "music": "vilP",
+            "pv_editor": "TOMOHISA",
+            "_en": {
+                "arranger": "vilP",
+                "illustrator": "Arishiki",
+                "lyrics": "vilP",
+                "music": "vilP",
+                "pv_editor": "TOMOHISA"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff__f",
+            "time": "1.9"
+        }
+    }
+}

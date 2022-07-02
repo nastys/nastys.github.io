@@ -1,0 +1,184 @@
+{
+    "pv_059": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_059_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_059_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_059_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_059_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_059_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "059",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "強い力 背中押されて",
+            "002": "グルルまわる景色が",
+            "003": "何がどうとか分からないのよ",
+            "004": "どうしてかな・・・",
+            "005": "うまく言えず 独りぼっちね",
+            "006": "まわり見ても素通り",
+            "007": "誰かわたしを助けて欲しい",
+            "008": "お願い・・・",
+            "009": "うまく言えないけど わたしは",
+            "010": "思考停止なのよ・・・フリーズ",
+            "011": "未知の場所にただ独り・・・",
+            "012": "仕方ないね・・・",
+            "013": "少しずつ感じてゆけば きっと見える",
+            "014": "生まれて初めてなのよ この領域",
+            "015": "怖がらず前を向いて さぁ、踏み出そう！",
+            "016": "",
+            "017": "誰が操作しているのだろう",
+            "018": "わたしのココロ操る",
+            "019": "機械的な冷たいココロ",
+            "020": "薄れてく・・・",
+            "021": "振り向く人たちが流れて",
+            "022": "目の前の世界が変わった",
+            "023": "ココロから変わろうとしたこの瞬間",
+            "024": "今度はわたしがあなたに手を差し伸べて",
+            "025": "",
+            "026": "生まれて初めてなのよ この領域",
+            "027": "怖がらず前を向いて さぁ、踏み出そう！",
+            "028": "ココロから変わろうとしたこの瞬間",
+            "029": "今度はわたしがあなたに手を差し伸べて",
+            "030": "",
+            "_en": {
+                "001": "tsuyoi chikara senaka osarete",
+                "002": "gururu mawaru keshiki ga",
+                "003": "nani ga dou toka wakaranai no yo",
+                "004": "doushite ka na...",
+                "005": "umaku iezu hitoribocchi ne",
+                "006": "mawari mitemo sudoori",
+                "007": "dareka watashi o tasukete hoshii",
+                "008": "onegai...",
+                "009": "umaku ienai kedo watashi wa",
+                "010": "shikou teishi na no yo... FREEZE",
+                "011": "michi no basho ni tada hitori...",
+                "012": "shikata nai ne...",
+                "013": "sukoshizutsu kanjite yukeba kitto mieru",
+                "014": "umarete hajimete na no yo kono ryouiki",
+                "015": "kowagarazu mae o muite saa, fumidasou!",
+                "016": "",
+                "017": "dare ga sousa shiteiru no darou",
+                "018": "watashi no kokoro ayatsuru",
+                "019": "kikaiteki na tsumetai kokoro",
+                "020": "usureteku...",
+                "021": "furimuku hitotachi ga nagarete",
+                "022": "me no mae no sekai ga kawatta",
+                "023": "kokoro kara kawarou to shita kono shunkan",
+                "024": "kondo wa watashi ga anata ni te o sashinobete",
+                "025": "",
+                "026": "umarete hajimete na no yo kono ryouiki",
+                "027": "kowagarazu mae o muite saa, fumidasou!",
+                "028": "kokoro kara kawarou to shita kono shunkan",
+                "029": "kondo wa watashi ga anata ni te o sashinobete",
+                "030": ""
+            }
+        },
+        "motion": {
+            "01": "PV059_CHM_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "4",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "49",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "63.33"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_059.ogg",
+        "song_name": "Change me",
+        "song_name_en": "Change Me",
+        "song_name_reading": "ちぇんじみー",
+        "songinfo": {
+            "arranger": "shu-t",
+            "illustrator": "かわごえ",
+            "lyrics": "shu-t",
+            "music": "shu-t",
+            "_en": {
+                "arranger": "shu-t",
+                "illustrator": "Kawagoe",
+                "lyrics": "shu-t",
+                "music": "shu-t"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

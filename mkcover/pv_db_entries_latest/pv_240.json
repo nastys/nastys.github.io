@@ -1,0 +1,208 @@
+{
+    "pv_240": {
+        "bpm": "136",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_240_extreme.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_240_hard.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_240_normal.dsc",
+                    "script_format": "0x13122519",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "240"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "SYSTEMATIC LOVE",
+            "002": "SYSTEMATIC LOVE",
+            "003": "",
+            "004": "SYSTEMATIC LOVE",
+            "005": "熱を帯びて求め合う明日のフローチャート",
+            "006": "SYSTEMATIC LOVE",
+            "007": "瞳閉じた瞬間に処理落ちしてく",
+            "008": "",
+            "009": "(ボクノコエ キコエル？)",
+            "010": "(キミノウタ...)",
+            "011": "",
+            "012": "当たり障りの無い◯と×",
+            "013": "システム通りに描かれたグラスのひびに",
+            "014": "疑問覚えたの",
+            "015": "決まり切ったbetterな相槌",
+            "016": "君からのコール待ち続けてる",
+            "017": "こんな気持ちはどうプロットすればいいの",
+            "018": "",
+            "019": "SYSTEMATIC LOVE",
+            "020": "その場凌ぎにもならないずさんなフローチャート",
+            "021": "SYSTEMATIC LOVE",
+            "022": "膝を抱いた退屈にさよならしてく",
+            "023": "",
+            "024": "(ボクノコエ キコエル？)",
+            "025": "(キミノウタ...)",
+            "026": "",
+            "027": "絡ませた脚と脚の間が",
+            "028": "君からのコール待ち続けてる",
+            "029": "こんな気持ちはどうプロットすればいいの",
+            "030": "",
+            "031": "(ボクノコエ キコエル？)",
+            "032": "(キミノウタ ウタッテ)",
+            "033": "(ボクノコエ キコエル？)",
+            "034": "(キミノウタ...)",
+            "035": "",
+            "036": "SYSTEMATIC LOVE",
+            "037": "電子ノイズ巻き込んで響くシグナル",
+            "038": "SYSTEMATIC LOVE",
+            "039": "こころがエラーに錆びて動けなくなる",
+            "040": "SYSTEMATIC LOVE",
+            "041": "熱を帯びて求め合う明日のフローチャート",
+            "042": "SYSTEMATIC LOVE",
+            "043": "瞳閉じた瞬間に処理落ちしてく",
+            "044": "",
+            "045": "SYSTEMATIC LOVE",
+            "046": "SYSTEMATIC LOVE",
+            "047": "SYSTEMATIC LOVE",
+            "048": "SYSTEMATIC LOVE",
+            "_en": {
+                "001": "SYSTEMATIC LOVE",
+                "002": "SYSTEMATIC LOVE",
+                "003": "",
+                "004": "SYSTEMATIC LOVE",
+                "005": "netsu o obite motomeau asu no FLOW CHART",
+                "006": "SYSTEMATIC LOVE",
+                "007": "hitomi tojita shunkan ni shoriochi shiteku",
+                "008": "",
+                "009": "(boku no koe   kikoeru?)",
+                "010": "(kimi no uta...)",
+                "011": "",
+                "012": "atarisawari no nai maru to batsu",
+                "013": "SYSTEM doori ni kakareta GLASS no hibi ni",
+                "014": "gimon oboeta no",
+                "015": "kimarikitta BETTER na aizuchi",
+                "016": "kimi kara no CALL machitsuzuketeru",
+                "017": "konna kimochi wa dou PLOT sureba ii no",
+                "018": "",
+                "019": "SYSTEMATIC LOVE",
+                "020": "sonobashinogi ni mo naranai zusan na FLOW CHART",
+                "021": "SYSTEMATIC LOVE",
+                "022": "hiza o daita taikutsu ni sayonara shiteku",
+                "023": "",
+                "024": "(boku no koe   kikoeru?)",
+                "025": "(kimi no uta...)",
+                "026": "",
+                "027": "karamaseta ashi to ashi no aida ga",
+                "028": "kimi kara no CALL machitsuzuketeru",
+                "029": "konna kimochi wa dou PLOT sureba ii no",
+                "030": "",
+                "031": "(boku no koe   kikoeru?)",
+                "032": "(kimi no uta utatte)",
+                "033": "(boku no koe   kikoeru?)",
+                "034": "(kimi no uta...)",
+                "035": "",
+                "036": "SYSTEMATIC LOVE",
+                "037": "denshi NOISE makikonde hibiku SIGNAL",
+                "038": "SYSTEMATIC LOVE",
+                "039": "kokoro ga ERROR ni sabite ugokenakunaru",
+                "040": "SYSTEMATIC LOVE",
+                "041": "netsu o obite motomeau asu no FLOW CHART",
+                "042": "SYSTEMATIC LOVE",
+                "043": "hitomi tojita shunkan ni shoriochi shiteku",
+                "044": "",
+                "045": "SYSTEMATIC LOVE",
+                "046": "SYSTEMATIC LOVE",
+                "047": "SYSTEMATIC LOVE",
+                "048": "SYSTEMATIC LOVE"
+            }
+        },
+        "motion": {
+            "01": "PV240_SYS"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "98",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV240.bin"
+        },
+        "rank_board_id": "189",
+        "sabi": {
+            "play_time": "30.5",
+            "start_time": "142.0"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_240.ogg",
+        "song_name": "システマティック・ラヴ",
+        "song_name_en": "Systematic Love",
+        "song_name_reading": "しすてまてぃっくらぶ",
+        "songinfo": {
+            "arranger": "かめりあ",
+            "illustrator": "マクロ",
+            "lyrics": "さつき が てんこもり",
+            "music": "かめりあ",
+            "_en": {
+                "arranger": "Camellia",
+                "illustrator": "Macro",
+                "lyrics": "TENKOMORI",
+                "music": "Camellia"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv240s01.txt",
+                "stage": "STGPV240S01"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

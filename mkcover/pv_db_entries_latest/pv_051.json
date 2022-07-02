@@ -1,0 +1,220 @@
+{
+    "pv_051": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160218",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_051_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_051_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_051_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_051_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_051_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "051",
+            "title_end_2d_low_field": "6",
+            "title_start_2d_low_field": "6"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "切なく降り積もる雪のように眩しすぎて",
+            "002": "儚く解けてゆく音のように泣かずにいるよ",
+            "003": "",
+            "004": "何も無いと思っていた",
+            "005": "けれど実は辛く苦しく",
+            "006": "長い階段上り疲れ",
+            "007": "やっと会えると思ったのに",
+            "008": "もう居ないのね　受け止められず",
+            "009": "しかたないから　このsong聴こうか",
+            "010": "今何してるの、何したいの　俺はここだ",
+            "011": "メッセージ伝えるよ　愛してた",
+            "012": "いや、愛してる",
+            "013": "",
+            "014": "今何してるの、何したいの　俺はここだ",
+            "015": "メッセージ伝えるよ　愛してる",
+            "016": "切なく降り積もる雪のように眩しすぎて",
+            "017": "強く生きてゆく花のように幸せになれ",
+            "018": "",
+            "_en": {
+                "001": "setsunaku furitsumoru yuki no you ni mabushisugite",
+                "002": "hakanaku tokete yuku oto no you ni nakazu ni iru yo",
+                "003": "",
+                "004": "nanimo nai to omotteita",
+                "005": "keredo jitsu wa tsuraku kurushiku",
+                "006": "nagai kaidan noboritsukare",
+                "007": "yatto aeru to omotta no ni",
+                "008": "mou inai no ne   uketomerarezu",
+                "009": "shikata nai kara   kono SONG kikou ka",
+                "010": "ima nani shiteru no, nani shitai no   ore wa koko da",
+                "011": "MESSAGE tsutaeru yo   aishiteta",
+                "012": "iya, aishiteru",
+                "013": "",
+                "014": "ima nani shiteru no, nani shitai no   ore wa koko da",
+                "015": "MESSAGE tsutaeru yo   aishiteru",
+                "016": "setsunaku furitsumoru yuki no you ni mabushisugite",
+                "017": "tsuyoku ikite yuku hana no you ni shiawase ni nare",
+                "018": ""
+            }
+        },
+        "mdata": {
+            "flag": "0"
+        },
+        "motion": {
+            "10": "PV051_VIC_00_C08_00A_P1",
+            "11": "PV051_VIC_00_C08_01A_P1",
+            "12": "PV051_VIC_00_C08_02A_P1",
+            "13": "PV051_VIC_00_C09_00A_P1",
+            "14": "PV051_VIC_00_C11_00A_P1",
+            "15": "PV051_VIC_00_C11_01A_P1",
+            "16": "PV051_VIC_00_C11_02A_P1",
+            "17": "PV051_VIC_00_C12_00A_P1",
+            "18": "PV051_VIC_00_C13_00A_P1",
+            "19": "PV051_VIC_00_C14_00A_P1",
+            "20": "PV051_VIC_00_C16_00A_P1",
+            "21": "PV051_VIC_00_C17_00A_P1",
+            "22": "PV051_VIC_00_C18_00A_P1",
+            "01": "PV051_VIC_00_C00_00A_P1",
+            "02": "PV051_VIC_00_C01_00A_P1",
+            "03": "PV051_VIC_00_C02_00A_P1",
+            "04": "PV051_VIC_00_C03_00A_P1",
+            "05": "PV051_VIC_00_C04_00A_P1",
+            "06": "PV051_VIC_00_C05_00A_P1",
+            "07": "PV051_VIC_00_C05_01A_P1",
+            "08": "PV051_VIC_00_C05_02A_P1",
+            "09": "PV051_VIC_00_C06_00A_P1",
+            "2P": {
+                "01": "PV051_VIC_00_C06_00A_P2",
+                "02": "PV051_VIC_00_C07_00A_P2",
+                "03": "PV051_VIC_00_C02_01A_P2",
+                "04": "PV051_VIC_00_C05_01A_P2"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV051_VIC_00_C02_01A_P2",
+                "stage": "STGD2PV051S05"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV051_VIC_00_C05_01A_P2",
+                "stage": "STGD2PV051S05"
+            },
+            "2": {
+                "frame": "1112",
+                "motion": "PV051_VIC_00_C05_01A_P2",
+                "stage": "STGD2PV051S05"
+            },
+            "length": "3"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "42",
+                "type": "VOCAL"
+            },
+            "1": {
+                "pv_costume": "42",
+                "type": "PSEUDO_DEFAULT"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "42",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "76.0"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_051.ogg",
+        "song_name": "VOiCE -DIVA　MIX-",
+        "song_name_en": "VOiCE -DIVA　MIX-",
+        "song_name_reading": "ぼいす",
+        "songinfo": {
+            "arranger": "ラヴリーP",
+            "illustrator": "都希子",
+            "lyrics": "ラヴリーP",
+            "music": "ラヴリーP",
+            "_en": {
+                "arranger": "Lovely P",
+                "illustrator": "Tokiko",
+                "lyrics": "Lovely P",
+                "music": "Lovely P"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv051s05.txt",
+                "stage": "STGD2PV051S05"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

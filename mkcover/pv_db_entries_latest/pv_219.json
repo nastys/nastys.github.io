@@ -1,0 +1,476 @@
+{
+    "pv_219": {
+        "bpm": "100",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150610",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_219_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_219_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_219_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_219_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_219_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "219",
+            "title_end_2d_field": "65",
+            "title_start_2d_field": "65"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "悲しみの海に沈んだ私　目を開けるのも億劫",
+            "002": "このままどこまでも堕ちて行き",
+            "003": "誰にも見つけられないのかな",
+            "004": "",
+            "005": "どこへ向かい、何をすれば？　ふと射し込む一筋の光",
+            "006": "手を伸ばせば届きそうだけど　波に拐われて見失った",
+            "007": "",
+            "008": "あれは一体なんだったのかな",
+            "009": "あたたかくて眩しかったの",
+            "010": "無意識のカウンターイルミネーション",
+            "011": "嘘つきは誰？",
+            "012": "",
+            "013": "深海少女　まだまだ沈む",
+            "014": "暗闇の彼方へ閉じこもる",
+            "015": "深海少女　だけど知りたい",
+            "016": "心惹かれるあの人を見つけたから",
+            "017": "",
+            "018": "昼も夜も無かったこの場所　なのに眠れない夜は続く",
+            "019": "自由の羽大きく広げて　泳ぐあなたは綺麗でした",
+            "020": "",
+            "021": "そしてまた光は降りそそぐ　見とれていたら目が合った",
+            "022": "気付いてこっちを振り返るあなたに",
+            "023": "嘘つきな私・・・",
+            "024": "",
+            "025": "深海少女　わざわざ沈む",
+            "026": "暗闇のさなかに赤い頬",
+            "027": "深海少女　ハダカの心を見せる勇気",
+            "028": "黒い海がまだ許さない",
+            "029": "",
+            "030": "こんなに服は汚れてしまった",
+            "031": "笑顔も醜くゆがんでいった",
+            "032": "誰にも合わせる顔なんて無いの　もう放っておいてよ！",
+            "033": "",
+            "034": "声にならない気持ちが溢れてとけた",
+            "035": "次の瞬間、君が突然姿を消した",
+            "036": "",
+            "037": "心配性の　彼女は焦る",
+            "038": "闇が彼を隠しひとりきり",
+            "039": "限界少女　その手を伸ばす",
+            "040": "",
+            "041": "「ほらね、君も素敵な色を隠してた」",
+            "042": "",
+            "043": "深海少女　腕を引かれる",
+            "044": "歌う祝福のマリンスノー",
+            "045": "深海少女　もっと知りたい",
+            "046": "心惹かれるあの人を見つけたから",
+            "047": "",
+            "048": "この海を出て　今飛び立つの",
+            "049": "",
+            "_en": {
+                "001": "kanashimi no umi ni shizunda watashi   me o akeru no mo okkuu",
+                "002": "kono mama dokomademo ochite yuki",
+                "003": "dare ni mo mitsukerarenai no ka na",
+                "004": "",
+                "005": "doko e mukai, nani o sureba?   futo sashikomu hitosuji no hikari",
+                "006": "te o nobaseba todokisou dakedo   nami ni sarawarete miushinatta",
+                "007": "",
+                "008": "are wa ittai nan datta no ka na",
+                "009": "atatakakute mabushikatta no",
+                "010": "muishiki no COUNTER ILLUMINATION",
+                "011": "usotsuki wa dare?",
+                "012": "",
+                "013": "shinkaishoujo   mada mada shizumu",
+                "014": "kurayami no kanata e tojikomoru",
+                "015": "shinkaishoujo   dakedo shiritai",
+                "016": "kokoro hikareru ano hito o mitsuketa kara",
+                "017": "",
+                "018": "hiru mo yoru mo nakatta kono basho   na no ni nemurenai yoru wa tsuzuku",
+                "019": "jiyuu no hane ookiku hirogete   oyogu anata wa kirei deshita",
+                "020": "",
+                "021": "soshite mata hikari wa furisosogu   mitoreteitara me ga atta",
+                "022": "kizuite kocchi o furikaeru anata ni",
+                "023": "usotsuki na watashi...",
+                "024": "",
+                "025": "shinkaishoujo   wazawaza shizumu",
+                "026": "kurayami no sanaka ni akai hoo",
+                "027": "shinkaishoujo   hadaka no kokoro o miseru yuuki",
+                "028": "kuroi umi ga mada yurusanai",
+                "029": "",
+                "030": "konna ni fuku wa yogorete shimatta",
+                "031": "egao mo minikuku yugandeitta",
+                "032": "dare ni mo awaseru kao nante naino   mou hootte oite yo!",
+                "033": "",
+                "034": "koe ni naranai kimochi ga afurete toketa",
+                "035": "tsugi no shunkan, kimi ga totsuzen sugata o keshita",
+                "036": "",
+                "037": "shinpaishou no   kanojo wa aseru",
+                "038": "yami ga kare o kakushi hitorikiri",
+                "039": "genkaishoujo   sono te o nobasu",
+                "040": "",
+                "041": "\"hora ne, kimi mo suteki na iro o kakushiteta\"",
+                "042": "",
+                "043": "shinkaishoujo   ude o hikareru",
+                "044": "utau shukufuku no MARINE SNOW",
+                "045": "shinkaishoujo   motto shiritai",
+                "046": "kokoro hikareru ano hito o mitsuketa kara",
+                "047": "",
+                "048": "kono umi o dete   ima tobitatsu no",
+                "049": ""
+            }
+        },
+        "motion": {
+            "01": "PV219_GIRL"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S01"
+            },
+            "1": {
+                "0": {
+                    "frame": "3834",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "1": {
+                    "frame": "4182",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "2": {
+                    "frame": "4724",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "3": {
+                    "frame": "5148",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S12"
+                },
+                "4": {
+                    "frame": "5230",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "5": {
+                    "frame": "5360",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S12"
+                },
+                "6": {
+                    "frame": "5528",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "7": {
+                    "frame": "5570",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S09"
+                },
+                "8": {
+                    "frame": "5622",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S04"
+                },
+                "9": {
+                    "frame": "6634",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "frame": "100",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S01"
+            },
+            "2": {
+                "0": {
+                    "frame": "6762",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "1": {
+                    "frame": "6808",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "2": {
+                    "frame": "6830",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "3": {
+                    "frame": "7040",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "4": {
+                    "frame": "7180",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "5": {
+                    "frame": "7304",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S07"
+                },
+                "6": {
+                    "frame": "7770",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S07"
+                },
+                "7": {
+                    "frame": "8330",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "8": {
+                    "frame": "8398",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "9": {
+                    "frame": "8746",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "frame": "618",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S01"
+            },
+            "3": {
+                "0": {
+                    "frame": "9058",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "1": {
+                    "frame": "9152",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "2": {
+                    "frame": "9258",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "3": {
+                    "frame": "9460",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S13"
+                },
+                "4": {
+                    "frame": "9800",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S13"
+                },
+                "5": {
+                    "frame": "9882",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S13"
+                },
+                "6": {
+                    "frame": "9938",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S13"
+                },
+                "7": {
+                    "frame": "10154",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "8": {
+                    "frame": "10216",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S08"
+                },
+                "9": {
+                    "frame": "10298",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "frame": "800",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S01"
+            },
+            "4": {
+                "0": {
+                    "frame": "10920",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "1": {
+                    "frame": "11356",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "2": {
+                    "frame": "11730",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "3": {
+                    "frame": "11780",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "4": {
+                    "frame": "12026",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "5": {
+                    "frame": "12164",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S02"
+                },
+                "6": {
+                    "frame": "12624",
+                    "motion": "PV219_GIRL",
+                    "stage": "STGPV219S05"
+                },
+                "frame": "876",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S01"
+            },
+            "5": {
+                "frame": "950",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S10"
+            },
+            "6": {
+                "frame": "1482",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S10"
+            },
+            "7": {
+                "frame": "1790",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S10"
+            },
+            "8": {
+                "frame": "1930",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S10"
+            },
+            "9": {
+                "frame": "2638",
+                "motion": "PV219_GIRL",
+                "stage": "STGPV219S03"
+            },
+            "length": "47"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "95",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "143",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "40.0"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_219.ogg",
+        "song_name": "深海少女",
+        "song_name_en": "Deep Sea Girl",
+        "song_name_reading": "しんかいしょうじょ",
+        "songinfo": {
+            "arranger": "ゆうゆ",
+            "illustrator": "ODESSA(はるよ&マクー)",
+            "lyrics": "ゆうゆ",
+            "music": "ゆうゆ",
+            "_en": {
+                "arranger": "Yuuyu",
+                "illustrator": "ODESSA(Haruyo&Maku-)",
+                "lyrics": "Yuuyu",
+                "music": "Yuuyu"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv219s10.txt",
+                "stage": "STGPV219S10"
+            },
+            "1": {
+                "collision_file": "coli_stgpv219s09.txt",
+                "stage": "STGPV219S09"
+            },
+            "2": {
+                "collision_file": "coli_stgpv219s09.txt",
+                "stage": "STGPV219S12"
+            },
+            "length": "3"
+        },
+        "sudden_timing": "0.6"
+    }
+}

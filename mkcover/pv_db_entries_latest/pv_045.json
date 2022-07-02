@@ -1,0 +1,187 @@
+{
+    "pv_045": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_045_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_045_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_045_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_045_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_045_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "045",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hand_item": {
+            "01": "PV_PICK_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "頭の中で聞こえる君の声が",
+            "002": "今も私の心を揺さ振る",
+            "003": "記憶の中で君はいつでも",
+            "004": "優しく微笑んでいるよ",
+            "005": "",
+            "006": "あの日帰る途中君と二人",
+            "007": "笑いながら手を繋いで",
+            "008": "ずっとずっとこんな時が",
+            "009": "続くと思っていたのに",
+            "010": "君が最後に言った言葉",
+            "011": "「今までありがとう」が",
+            "012": "ずっと鳴り止まないんだ…",
+            "013": "逢いたくて逢いたくて　声にならない声で",
+            "014": "君の名前を呼び続ける",
+            "015": "悲しくて苦しくて　一人の夜が怖いから",
+            "016": "夜空見上げて",
+            "017": "君を探してる…",
+            "018": "",
+            "019": "逢いたくて逢いたくて　声にならない声で",
+            "020": "君の名前を呼び続ける",
+            "021": "大好きな君の事を ずっと忘れないよ",
+            "022": "移り変わる　景色の中でも",
+            "023": "最後まで言えなかった",
+            "024": "この言葉を君に送るよ",
+            "025": "君の事をずっと",
+            "026": "愛しているから…",
+            "027": "",
+            "_en": {
+                "001": "atama no naka de kikoeru kimi no koe ga",
+                "002": "ima mo watashi no kokoro o yusaburu",
+                "003": "kioku no naka de kimi wa itsudemo",
+                "004": "yasashiku hohoendeiru yo",
+                "005": "",
+                "006": "ano hi kaeru tochuu kimi to futari",
+                "007": "warainagara te o tsunaide",
+                "008": "zutto zutto konna toki ga",
+                "009": "tsuzuku to omotteita no ni",
+                "010": "kimi ga saigo ni itta kotoba",
+                "011": "\"ima made arigatou\" ga",
+                "012": "zutto nariyamanain da...",
+                "013": "aitakute aitakute   koe ni naranai koe de",
+                "014": "kimi no namae o yobitsuzukeru",
+                "015": "kanashikute kurushikute   hitori no yoru ga kowai kara",
+                "016": "yozora miagete",
+                "017": "kimi o sagashiteru...",
+                "018": "",
+                "019": "aitakute aitakute   koe ni naranai koe de",
+                "020": "kimi no namae o yobitsuzukeru",
+                "021": "daisuki na kimi no koto o   zutto wasurenai yo",
+                "022": "utsurikawaru   keshiki no naka demo",
+                "023": "saigo made ienakatta",
+                "024": "kono kotoba o kimi ni okuru yo",
+                "025": "kimi no koto o zutto",
+                "026": "aishiteiru kara...",
+                "027": ""
+            }
+        },
+        "motion": {
+            "01": "PV045_DER_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "47",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "pv_item": {
+            "01": "ITMPV045_GUITAR_01__DIVSKN"
+        },
+        "rank_board_id": "36",
+        "sabi": {
+            "play_time": "32.0",
+            "start_time": "72.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_045.ogg",
+        "song_name": "Dear",
+        "song_name_en": "Dear",
+        "song_name_reading": "でぃあ",
+        "songinfo": {
+            "arranger": "19-iku-",
+            "illustrator": "皓",
+            "lyrics": "19-iku-",
+            "manipulator": "19's Sound Factory",
+            "music": "19-iku-",
+            "_en": {
+                "arranger": "19-iku-",
+                "illustrator": "Kou",
+                "lyrics": "19-iku-",
+                "manipulator": "19's Sound Factory",
+                "music": "19-iku-"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

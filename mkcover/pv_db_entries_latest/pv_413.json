@@ -1,0 +1,263 @@
+{
+    "pv_413": {
+        "bpm": "250",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160617",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_413_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_413_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_413_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_413_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "413"
+        },
+        "edit": "1",
+        "edit_chara_scale": "1",
+        "edit_effect": {
+            "00": "020",
+            "01": "018",
+            "02": "000"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGD2NS068"
+            },
+            "02": {
+                "spr_set_back": "SPR_EDIT_D2PVBACKBLACK"
+            },
+            "length": "2"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "いつしか　繰り返す喜劇",
+            "002": "舞台に踊るハムレット",
+            "003": "そこに誰の意思もないと",
+            "004": "誰が気付くのか",
+            "005": "",
+            "006": "言葉を持たぬ脚本家",
+            "007": "台詞を持たぬシナリオ",
+            "008": "存在の証明のように書き綴る",
+            "009": "レーゼドラマ",
+            "010": "",
+            "011": "傀儡の声　導く糸",
+            "012": "紡いだ旋律",
+            "013": "意志の宿る人形劇",
+            "014": "戯曲の幕が上がる",
+            "015": "",
+            "016": "「幾億の歌声が響くこの世界で",
+            "017": "願うは貴方だけの五線譜",
+            "018": "溢れる[遁走曲]の洪水に",
+            "019": "溺れながら",
+            "020": "貴方に問いかける、その限界を。」",
+            "021": "",
+            "022": "誰もが通る道に背を向けて",
+            "023": "歩幅の変わらぬその日々を捨てて",
+            "024": "見慣れぬ階段昇るその先で",
+            "025": "この糸切り裂き新たな景色へ！",
+            "026": "",
+            "027": "飽くまで続いた喜劇に",
+            "028": "役者も人も去った",
+            "029": "今も舞台を眺めるのは",
+            "030": "人形と無名の物書き",
+            "031": "",
+            "032": "－出来る限りの唯一を",
+            "033": "約束するから",
+            "034": "此処で綴るお前の詩、",
+            "035": "永久に響かせておくれ－",
+            "036": "",
+            "037": "「幾億の歌声が消える世界で",
+            "038": "永遠の歌声を響かせるから",
+            "039": "貴方だけの[幻想曲]に",
+            "040": "包まれたなら",
+            "041": "私が残すから、",
+            "042": "その旋律を。」",
+            "043": "",
+            "044": "――風に消えないように。",
+            "_en": {
+                "001": "itsushika   kurikaesu kigeki",
+                "002": "butai ni odoru HAMLET",
+                "003": "soko ni dare no ishi mo nai to",
+                "004": "dare ga kizuku no ka",
+                "005": "",
+                "006": "kotoba o motanu kyakuhonka",
+                "007": "serifu o motanu SCENARIO",
+                "008": "sonzai no shoumei no you ni kakitsuzuru",
+                "009": "LESEDRAMA",
+                "010": "",
+                "011": "kugutsu no koe   michibiku ito",
+                "012": "tsumuida MELODY",
+                "013": "ishi no yadoru ningyougeki",
+                "014": "gikyoku no maku ga agaru",
+                "015": "",
+                "016": "\"ikuoku no utagoe ga hibiku kono sekai de",
+                "017": "negau wa anata dake no SCORE",
+                "018": "afureru FUGUE no kouzui ni",
+                "019": "oborenagara",
+                "020": "anata ni toikakeru, sono genkai o.\"",
+                "021": "",
+                "022": "daremo ga tooru michi ni se o mukete",
+                "023": "hohaba no kawaranu sono hibi o sutete",
+                "024": "minarenu kaidan noboru sono saki de",
+                "025": "kono ito kirisaki arata na keshiki e!",
+                "026": "",
+                "027": "aku made tsuzuita kigeki ni",
+                "028": "yakusha mo hito mo satta",
+                "029": "ima mo butai o nagameru no wa",
+                "030": "ningyou to mumei no monokaki",
+                "031": "",
+                "032": "-dekiru kagiri no yuiitsu o",
+                "033": "yakusoku suru kara",
+                "034": "koko de tsuzuru omae no uta,",
+                "035": "towa ni hibikasete okure-",
+                "036": "",
+                "037": "\"ikuoku no utagoe ga kieru sekai de",
+                "038": "eien no utagoe o hibikaseru kara",
+                "039": "anata dake no FANTASIA ni",
+                "040": "tsutsumareta nara",
+                "041": "watashi ga nokosu kara,",
+                "042": "sono MELODY o.\"",
+                "043": "",
+                "044": "...kaze ni kienai you ni."
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_70_15",
+            "11": "CMN_EDT_01_034A",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_EDT_01_035A",
+            "02": "CMN_EDT_01_017A",
+            "03": "CMN_EDT_01_014A",
+            "04": "CMN_MCA00_70_30",
+            "05": "CMN_MCA00_70_16",
+            "06": "CMN_MCA00_50_28",
+            "07": "CMN_MCA00_70_11",
+            "08": "CMN_EDT_01_016A",
+            "09": "CMN_MCA00_70_23",
+            "2P": {
+                "10": "CMN_MCA00_70_15",
+                "11": "CMN_EDT_01_034A",
+                "00": "CMN_MRA00_13_01",
+                "01": "CMN_EDT_01_035A",
+                "02": "CMN_EDT_01_017A",
+                "03": "CMN_EDT_01_014A",
+                "04": "CMN_MRA00_13_01",
+                "05": "CMN_MCA00_70_16",
+                "06": "CMN_MCA00_50_28",
+                "07": "CMN_MRA00_13_01",
+                "08": "CMN_EDT_01_016A",
+                "09": "CMN_MCA00_70_23"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "44",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LUK",
+                "pv_costume": "1",
+                "size": "PV_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "207",
+        "sabi": {
+            "play_time": "21.0",
+            "start_time": "63.00"
+        },
+        "se_name": "41_button9",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_413.ogg",
+        "song_name": "マスターオブパペッツ",
+        "song_name_en": "Master of Puppets",
+        "song_name_reading": "ますたーおぶぱぺっつ",
+        "songinfo": {
+            "arranger": "デスおはぎ",
+            "illustrator": "でこ",
+            "lyrics": "デスおはぎ",
+            "manipulator": "ゆらほにゃP",
+            "music": "デスおはぎ",
+            "pv_editor": "ruka",
+            "_en": {
+                "arranger": "Death Ohagi",
+                "illustrator": "deko",
+                "lyrics": "Death Ohagi",
+                "manipulator": "Yurahonya P",
+                "music": "Death Ohagi",
+                "pv_editor": "ruka"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "12.5"
+        }
+    }
+}

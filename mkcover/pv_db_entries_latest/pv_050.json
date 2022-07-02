@@ -1,0 +1,190 @@
+{
+    "pv_050": {
+        "bpm": "150",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150212",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_050_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_09_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_050_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_050_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_050_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_050_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "050",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hand_item": {
+            "01": "PV_MIC_D_L",
+            "02": "PV_MIC_D_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "むこうはどんな所なんだろうね？",
+            "002": "無事に着いたら　便りでも欲しいよ",
+            "003": "扉を開いて",
+            "004": "彼方へと向かうあなたへ",
+            "005": "この歌声と祈りが",
+            "006": "届けばいいなぁ",
+            "007": "雲ひとつないような",
+            "008": "抜けるほど晴天の今日は",
+            "009": "悲しいくらいに",
+            "010": "お別れ日和で",
+            "011": "ありふれた人生を",
+            "012": "紅く色付ける様な",
+            "013": "たおやかな恋でした",
+            "014": "たおやかな恋でした",
+            "015": "さよなら",
+            "016": "",
+            "017": "またいつの日にか",
+            "018": "出会えると信じられたら",
+            "019": "これからの日々も",
+            "020": "変わらず",
+            "021": "やり過ごせるね",
+            "022": "扉が閉まれば",
+            "023": "このまま離ればなれだ",
+            "024": "あなたの煙は",
+            "025": "雲となり雨になるよ",
+            "026": "ありふれた人生を",
+            "027": "紅く色付ける様な",
+            "028": "たおやかな恋でした",
+            "029": "たおやかな恋でした",
+            "030": "さよなら",
+            "031": "",
+            "_en": {
+                "001": "mukou wa donna tokoro nan darou ne?",
+                "002": "buji ni tsuitara   tayori demo hoshii yo",
+                "003": "tobira o hiraite",
+                "004": "kanata e to mukau anata e",
+                "005": "kono utagoe to inori ga",
+                "006": "todokeba ii naa",
+                "007": "kumo hitotsu nai you na",
+                "008": "nukeru hodo seiten no kyou wa",
+                "009": "kanashii kurai ni",
+                "010": "owakare biyori de",
+                "011": "arifureta jinsei o",
+                "012": "akaku irozukeru you na",
+                "013": "taoyaka na koi deshita",
+                "014": "taoyaka na koi deshita",
+                "015": "sayonara",
+                "016": "",
+                "017": "mata itsu no hi ni ka",
+                "018": "deaeru to shinjiraretara",
+                "019": "kore kara no hibi mo",
+                "020": "kawarazu",
+                "021": "yarisugoseru ne",
+                "022": "tobira ga shimareba",
+                "023": "kono mama hanarebanare da",
+                "024": "anata no kemuri wa",
+                "025": "kumo to nari ame ni naru yo",
+                "026": "arifureta jinsei o",
+                "027": "akaku irozukeru you na",
+                "028": "taoyaka na koi deshita",
+                "029": "taoyaka na koi deshita",
+                "030": "sayonara",
+                "031": ""
+            }
+        },
+        "motion": {
+            "01": "PV050_SHA_00_C00_00A"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "56",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "41",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "52.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_050.ogg",
+        "song_name": "サイハテ",
+        "song_name_en": "Saihate",
+        "song_name_reading": "さいはて",
+        "songinfo": {
+            "arranger": "小林オニキス",
+            "illustrator": "小林オニキス",
+            "lyrics": "小林オニキス",
+            "music": "小林オニキス",
+            "_en": {
+                "arranger": "Onyx Kobayashi",
+                "illustrator": "Kobayashi Onyx",
+                "lyrics": "Onyx Kobayashi",
+                "music": "Onyx Kobayashi"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

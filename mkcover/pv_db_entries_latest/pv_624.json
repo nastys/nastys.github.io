@@ -1,0 +1,203 @@
+{
+    "pv_624": {
+        "bpm": "180",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV624_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "1": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV624_RIN_002",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "1",
+                "name": "RIN"
+            },
+            "num": "2"
+        },
+        "date": "20140715",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_624_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_624_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_624_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_624_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "624"
+        },
+        "effect_se_file_name": "rom/sound/pv624_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv624_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "真夏の海岸　あなたと私でドライビング",
+            "002": "ラジオのチャンネル",
+            "003": "ちょっぴりレトロなオールディーズ",
+            "004": "スピード違反も蹴散らし",
+            "005": "二人でロックンロール",
+            "006": "妄想ばっかり　アクセル踏んで加速して",
+            "007": "結局去年は悲しいことに売れ残り",
+            "008": "私たちだって　愛されたいんだもん！",
+            "009": "あざといくらいじゃなきゃ",
+            "010": "チャンス逃しちゃう",
+            "011": "恋のアクセルを踏み込むのよ！",
+            "012": "決戦は砂浜で",
+            "013": "追いかけるだけの恋は　もう終わりにして",
+            "014": "絶対幸せ見つけようね！",
+            "015": "決戦の砂浜で",
+            "016": "夏のアイドルになる",
+            "017": "よく考えると二人で恋人探しは",
+            "018": "抜け駆けされたらきっともう立ち直れない",
+            "019": "ライバル同士なんてゴメンよ！",
+            "020": "私だってそう思うから",
+            "021": "いっそこのまま二人で付き合っちゃおっか？",
+            "022": "（…なワケないでしょ）",
+            "023": "（…うん）",
+            "_en": {
+                "001": "manatsu no kaigan   anata to watashi de DRIVING",
+                "002": "RADIO no CHANNEL",
+                "003": "choppiri RETRO na OLDIES",
+                "004": "SPEED ihan mo kechirashi",
+                "005": "futari de ROCK 'N ROLL",
+                "006": "mousou bakkari   ACCEL funde kasokushite",
+                "007": "kekkyoku kyonen wa kanashii koto ni urenokori",
+                "008": "watashitachi datte   aisaretain da mon!",
+                "009": "azatoi kurai janakya",
+                "010": "CHANCE nogashichau",
+                "011": "koi no ACCEL o fumikomu no yo!",
+                "012": "kessen wa sunahama de",
+                "013": "oikakeru dake no koi wa   mou owari ni shite",
+                "014": "zettai shiawase mitsukeyou ne!",
+                "015": "kessen no sunahama de",
+                "016": "natsu no IDOL ni naru",
+                "017": "yoku kangaeru to futari de koibito sagashi wa",
+                "018": "nukegake saretara kitto mou tachinaorenai",
+                "019": "RIVAL doushi nante gomen yo!",
+                "020": "watashi datte sou omou kara",
+                "021": "isso kono mama futari de tsukiacchaokka?",
+                "022": "(...na wake nai desho)",
+                "023": "(...un)"
+            }
+        },
+        "motion": {
+            "01": "PV624_SID_P1_00",
+            "2P": {
+                "01": "PV624_SID_P2_00"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.90"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "89",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "RIN",
+                "pv_costume": "21",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV624.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "97",
+        "sabi": {
+            "play_time": "25.0",
+            "start_time": "56.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_624.ogg",
+        "song_name": "サマーアイドル",
+        "song_name_en": "Summer Idol",
+        "song_name_reading": "さまーあいどる",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "illustrator": "にぼし",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "illustrator": "Niboshi",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sort_index": "7",
+        "sudden_timing": "0.6"
+    }
+}

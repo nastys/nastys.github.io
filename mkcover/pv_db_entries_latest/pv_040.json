@@ -1,0 +1,181 @@
+{
+    "pv_040": {
+        "bpm": "127",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20111018",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_040_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_040_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_040_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_040_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_040_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "040",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "いつからだろう　君の笑う声遠く",
+            "002": "幸せの終わりなんてあっけないものだね",
+            "003": "数え切れない　涙も気だるい明日も",
+            "004": "交わした言葉全て想い出にはさせない",
+            "005": "君の笑顔取り戻す為",
+            "006": "何度でも僕は歌を止めない",
+            "007": "いくつもの夜を越え",
+            "008": "この願いかなうその日まで",
+            "009": "諦めていた　壊れかけた旋律を",
+            "010": "拾い集めて　もう一度魔法かけるの",
+            "011": "君の笑顔取り返す為",
+            "012": "いつだって僕は歌を止めない",
+            "013": "流れる星に願う",
+            "014": "この想い届くその日まで",
+            "015": "ピリオドはまだ早すぎるよ",
+            "016": "伝えたい言葉はたくさん",
+            "017": "あの朝の光をOne More Time",
+            "018": "あの場所を誰もがそう　みんな待っている",
+            "019": "輝くようなYellowの朝",
+            "020": "いつだって僕ら忘れられない",
+            "021": "音と光のシャワー",
+            "022": "終わることのないStep & Clap",
+            "023": "君の笑顔取り戻す為",
+            "024": "何度でも僕は歌を止めない",
+            "025": "いくつもの夜を越え",
+            "026": "この願いかなうその時まで",
+            "027": "",
+            "_en": {
+                "001": "itsukara darou   kimi no warau koe tooku",
+                "002": "shiawase no owari nante akkenai mono da ne",
+                "003": "kazoekirenai   namida mo kedarui asu mo",
+                "004": "kawashita kotoba subete omoide ni wa sasenai",
+                "005": "kimi no egao torimodosu tame",
+                "006": "nando demo boku wa uta o yamenai",
+                "007": "ikutsumo no yoru o koe",
+                "008": "kono negai kanau sono hi made",
+                "009": "akirameteita   kowarekaketa senritsu o",
+                "010": "hiroiatsumete   mou ichido mahou kakeru no",
+                "011": "kimi no egao torikaesu tame",
+                "012": "itsu datte boku wa uta o yamenai",
+                "013": "nagareru hoshi ni negau",
+                "014": "kono omoi todoku sono hi made",
+                "015": "PERIOD wa mada hayasugiru yo",
+                "016": "tsutaetai kotoba wa takusan",
+                "017": "ano asa no hikari o ONE MORE TIME",
+                "018": "ano basho o daremo ga sou   minna matteiru",
+                "019": "kagayaku you na YELLOW no asa",
+                "020": "itsudatte bokura wasurerarenai",
+                "021": "oto to hikari no SHOWER",
+                "022": "owaru koto no nai STEP & CLAP",
+                "023": "kimi no egao torimodosu tame",
+                "024": "nando demo boku wa uta o yamenai",
+                "025": "ikutsumo no yoru o koe",
+                "026": "kono negai kanau sono toki made",
+                "027": ""
+            }
+        },
+        "motion": {
+            "01": "PV040_YEL_00_C00_00A"
+        },
+        "npr": {
+            "chara_lightness": "0.98"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "54",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "32",
+        "sabi": {
+            "play_time": "16.0",
+            "start_time": "63.0"
+        },
+        "se_name": "42_button10",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_040.ogg",
+        "song_name": "Yellow",
+        "song_name_en": "Yellow",
+        "song_name_reading": "いえろー",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "宇木敦哉",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "Uki Atsuya",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

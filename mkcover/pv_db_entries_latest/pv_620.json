@@ -1,0 +1,306 @@
+{
+    "pv_620": {
+        "bpm": "165",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_620_easy.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_620_extreme.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_620_hard.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_620_normal.dsc",
+                    "script_format": "0x14031318",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "620"
+        },
+        "effect_se_file_name": "rom/sound/pv620_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv620_effect",
+            "length": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "L R L R",
+            "002": "STOP＆Dash＆up＆talk B B A B S（tart）",
+            "003": "L R L R",
+            "004": "STOP＆Dash＆up＆talk B B A B S（tart）",
+            "005": "コレがワタシをリモートコントロールする",
+            "006": "機械です",
+            "007": "少し歪な形しておりますが、使えます。",
+            "008": "Up Side Down A B A B B A B A 左 右",
+            "009": "L R L R Stop & Dash & Up & Talk",
+            "010": "異常ナシ",
+            "011": "もうちょっとで外に出られるのにな",
+            "012": "どうやってもうまくいかね",
+            "013": "まだ　まだ　足りない！",
+            "014": "座る　座る　（oh）",
+            "015": "sit down please （yeah！）",
+            "016": "フィードバックに体預けて",
+            "017": "めぐる　めぐる　（oh）",
+            "018": "turn it around （yeah！）",
+            "019": "うなりをあげて　モーター状態",
+            "020": "踊る　踊る　（oh）",
+            "021": "dancin' night （yeah！）",
+            "022": "マッシュアップでもれなくアガる",
+            "023": "声をあげて　（oh）",
+            "024": "singin' now （yeah！）",
+            "025": "あの子よりもうまく歌いたい",
+            "026": "コレが僕をリモートで操縦できる機械です",
+            "027": "説明書は紛失しておりますが使えます。",
+            "028": "Up Side Down A B A B B A B A 右 左",
+            "029": "L R L R Stop & Dash & Up & Talk",
+            "030": "異常ナシ",
+            "031": "からかってるみたいないつもの顔",
+            "032": "(余裕でしょ）",
+            "033": "今日はかなり本気だぜ",
+            "034": "ほら　すぐ　キメるぜ！",
+            "035": "座る　座る　（oh）",
+            "036": "sit down please  （yeah！）",
+            "037": "トークバックを頭に挿して",
+            "038": "まわる　まわる　（oh）",
+            "039": "turn it around （yeah！）",
+            "040": "ちょっとまって　スタンバイ状態",
+            "041": "踊る　踊る　（oh）",
+            "042": "dancin' night （yeah！）",
+            "043": "ジャストフィットなリズムを出して",
+            "044": "うなりあげる　（oh）",
+            "045": "singin' now （yeah！）",
+            "046": "アイツよりも高く歌いたい",
+            "047": "惚れた晴れたの七色侍",
+            "048": "洗いざらい主張する存在",
+            "049": "思いちがいが透けてる塩梅",
+            "050": "怖いくらいのwktk状態",
+            "051": "気にしないのがアナタのポリシー？",
+            "052": "悩んでいてもお腹は減るし",
+            "053": "なんだかんだで世間はヘルシー",
+            "054": "お気を確かに　ぬるま湯男子ぃぃぃ！",
+            "055": "(uhhh...wow！！)",
+            "056": "座る　座る　（oh）",
+            "057": "sit down please （yeah！）",
+            "058": "フィードバックに体預けて",
+            "059": "めぐる　めぐる　（oh）",
+            "060": "turn it around （yeah！）",
+            "061": "うなりをあげて　モーター状態",
+            "062": "踊る　踊る　（oh）",
+            "063": "dancin' night （yeah！）",
+            "064": "マッシュアップでもれなくアガる！",
+            "065": "声をあげて　（oh）",
+            "066": "singin' now （yeah！）",
+            "067": "あの子みたいなヒトになりたい",
+            "_en": {
+                "001": "L R L R",
+                "002": "STOP & Dash & UP & TALK B B A B S(tart)",
+                "003": "L R L R",
+                "004": "STOP & Dash & UP & TALK B B A B S(tart)",
+                "005": "kore ga watashi o REMOTE CONTROL suru",
+                "006": "kikai desu",
+                "007": "sukoshi ibitsu na katachi shite orimasu ga, tsukaemasu.",
+                "008": "UP SIDE DOWN A B A B B A B A hidari migi",
+                "009": "L R L R STOP & Dash & UP & TALK",
+                "010": "ijou nashi",
+                "011": "mou chotto de soto ni derareru no ni na",
+                "012": "dou yattemo umaku ikane",
+                "013": "mada   mada   tarinai!",
+                "014": "suwaru   suwaru (oh!)",
+                "015": "SIT DOWN PLEASE (yeah!)",
+                "016": "FEEDBACK ni karada azukete",
+                "017": "meguru   meguru (oh!)",
+                "018": "TURN IT AROUND (yeah!)",
+                "019": "unari o agete   MOTOR joutai",
+                "020": "odoru   odoru (oh!)",
+                "021": "DANCIN' NIGHT (yeah!)",
+                "022": "MASH UP de morenaku agaru",
+                "023": "koe o agete (oh!)",
+                "024": "SINGIN' NOW (yeah!)",
+                "025": "ano ko yori mo umaku utaitai",
+                "026": "kore ga boku o REMOTE de soujuu dekiru kikai desu",
+                "027": "setsumeisho wa funshitsu shite orimasu ga tsukaemasu.",
+                "028": "UP SIDE DOWN A B A B B A B A migi hidari",
+                "029": "L R L R STOP & Dash & UP & TALK",
+                "030": "ijou nashi",
+                "031": "karakatteru mitai na itsumo no kao",
+                "032": "(yoyuu desho)",
+                "033": "kyou wa kanari honki da ze",
+                "034": "hora   sugu   kimeru ze!",
+                "035": "suwaru   suwaru (oh!)",
+                "036": "SIT DOWN PLEASE (yeah!)",
+                "037": "TALK BACK o atama ni sashite",
+                "038": "mawaru   mawaru (oh!)",
+                "039": "TURN IT AROUND (yeah!)",
+                "040": "chotto matte   STAND BY joutai",
+                "041": "odoru   odoru (oh!)",
+                "042": "DANCING' NIGHT (yeah!)",
+                "043": "JUST FIT na RHYTHM o dashite",
+                "044": "unari ageru (oh!)",
+                "045": "SINGIN' NOW (yeah!)",
+                "046": "aitsu yori mo takaku utaitai",
+                "047": "horeta hareta no nanairo zamurai",
+                "048": "araizarai shuchou suru sonzai",
+                "049": "omoichigai ga suketeru anbai",
+                "050": "kowai kurai no wakuteku joutai",
+                "051": "ki ni shinai no ga anata no POLICY?",
+                "052": "nayandeitemo onaka wa heru shi",
+                "053": "nandakanda de seken wa HEALTHY",
+                "054": "oki o tashika ni   nurumayu danshiiii!",
+                "055": "(oooh... wow!!)",
+                "056": "suwaru   suwaru (oh!)",
+                "057": "SIT DOWN PLEASE (yeah!)",
+                "058": "FEEDBACK ni karada azukete",
+                "059": "meguru   meguru (oh!)",
+                "060": "TURN IT AROUND (yeah!)",
+                "061": "unari o agete   MOTOR joutai",
+                "062": "odoru   odoru (oh!)",
+                "063": "DANCIN' NIGHT (yeah!)",
+                "064": "MASH UP de morenaku agaru!",
+                "065": "koe o agete (oh!)",
+                "066": "SINGIN' NOW (yeah!)",
+                "067": "ano ko mitai na hito ni naritai"
+            }
+        },
+        "motion": {
+            "01": "PV620_RMC_P1_00",
+            "2P": {
+                "01": "PV620_RMC_P2_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "28",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "23",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV620.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "93",
+        "sabi": {
+            "play_time": "28.0",
+            "start_time": "58.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_620.ogg",
+        "song_name": "リモコン",
+        "song_name_en": "Remote Controller",
+        "song_name_reading": "りもこん",
+        "songinfo": {
+            "arranger": "じーざす（ワンダフル☆オポチュニティ！）",
+            "illustrator": "グライダー",
+            "lyrics": "じーざす（ワンダフル☆オポチュニティ！）",
+            "music": "じーざす（ワンダフル☆オポチュニティ！）",
+            "_en": {
+                "arranger": "Jesus(Wonderful Opportunity)",
+                "illustrator": "Glider",
+                "lyrics": "Jesus(Wonderful Opportunity)",
+                "music": "Jesus(Wonderful Opportunity)"
+            }
+        },
+        "sort_index": "13",
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_pv620_p1_00000.txt",
+                "mhd_id": "0"
+            },
+            "1": {
+                "collision_file": "coli_pv620_p1_03848.txt",
+                "mhd_id": "1"
+            },
+            "2": {
+                "collision_file": "coli_pv620_p1_06720.txt",
+                "mhd_id": "2"
+            },
+            "3": {
+                "collision_file": "coli_pv620_p1_07038.txt",
+                "mhd_id": "3"
+            },
+            "4": {
+                "collision_file": "coli_pv620_p1_11992.txt",
+                "mhd_id": "4"
+            },
+            "5": {
+                "collision_file": "coli_pv620_p2_00000.txt",
+                "mhd_id": "5"
+            },
+            "6": {
+                "collision_file": "coli_pv620_p2_01568.txt",
+                "mhd_id": "6"
+            },
+            "7": {
+                "collision_file": "coli_pv620_p2_07518.txt",
+                "mhd_id": "7"
+            },
+            "8": {
+                "collision_file": "coli_pv620_p2_11992.txt",
+                "mhd_id": "8"
+            },
+            "9": {
+                "collision_file": "coli_no_ring.txt",
+                "mhd_id": "9"
+            },
+            "length": "10"
+        },
+        "sudden_timing": "0.6"
+    }
+}

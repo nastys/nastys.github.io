@@ -1,0 +1,198 @@
+{
+    "pv_011": {
+        "bpm": "135",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140523",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_011_easy.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_011_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_011_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_011_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_011_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "011"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "溢れ出す悲しみの",
+            "002": "シャワーに押し流されるように",
+            "003": "飛び出した街並みは deep blue world",
+            "004": "心映し出す",
+            "005": "天気予報 的外れ ウソツキ やつあたり",
+            "006": "荒れてるのは only my world",
+            "007": "分かってる でも言わせて",
+            "008": "雨宿り 滲む視界の隅っこで",
+            "009": "君は立ち止まり耳元で囁いた",
+            "010": "You're lookin' at this world,",
+            "011": "but the way is too simple to live",
+            "012": "with a light heart",
+            "013": "世界が愛おしく回り出す",
+            "014": "魔法をかけてあげるよ",
+            "015": "お気に入りパジャマに着替えて",
+            "016": "目を閉じたなら",
+            "017": "明日も雨のち drops",
+            "018": "You're lookin' at this world,",
+            "019": "but the way is too simple to live",
+            "020": "with a light heart",
+            "021": "世界があるんじゃない",
+            "022": "僕たちが創り出していくんだ",
+            "023": "君にも教えてあげるよ",
+            "024": "とっておきのこの魔法を",
+            "025": "まずキャンディー口に入れて",
+            "026": "溶け出したら",
+            "027": "Let's sing it together!!",
+            "_en": {
+                "001": "afuredasu kanashimi no",
+                "002": "SHOWER ni oshinagasareru you ni",
+                "003": "tobidashita machinami wa DEEP BLUE WORLD",
+                "004": "kokoro utsushidasu",
+                "005": "tenki yohou   matohazure   usotsuki   yatsuatari",
+                "006": "areteru no wa ONLY MY WORLD",
+                "007": "wakatteru   demo iwasete",
+                "008": "amayadori   nijimu shikai no sumikko de",
+                "009": "kimi wa tachidomari mimimoto de sasayaita",
+                "010": "You're lookin' at this world,",
+                "011": "but the way is too simple to live",
+                "012": "with a light heart",
+                "013": "sekai ga itooshiku mawaridasu",
+                "014": "mahou o kakete ageru yo",
+                "015": "okiniiri PAJAMA ni kigaete",
+                "016": "me o tojita nara",
+                "017": "ashita mo ame nochi DROPS",
+                "018": "You're lookin' at this world,",
+                "019": "but the way is too simple to live",
+                "020": "with a light heart",
+                "021": "sekai ga arun janai",
+                "022": "bokutachi ga tsukuridashite ikun da",
+                "023": "kimi ni mo oshiete ageru yo",
+                "024": "totteoki no kono mahou o",
+                "025": "mazu CANDY kuchi ni irete",
+                "026": "tokedashitara",
+                "027": "Let's sing it together!!"
+            }
+        },
+        "motion": {
+            "10": "PV011_MCA00_50_11",
+            "11": "PV011_MCA00_50_40",
+            "13": "PV011_POM00_02_07",
+            "15": "PV011_POM00_02_501",
+            "16": "PV011_POM00_02_502",
+            "01": "PV011_POM00_02_00",
+            "02": "PV011_POM00_02_01",
+            "03": "PV011_POM00_02_02",
+            "04": "PV011_POM00_02_03",
+            "05": "PV011_POM00_02_04",
+            "06": "PV011_POM00_02_05",
+            "07": "PV011_POM00_02_06",
+            "08": "PV011_MCA00_50_24"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV011_POM00_02_07",
+                "stage": "STGPV011S01"
+            },
+            "length": "1"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "10",
+        "sabi": {
+            "play_time": "33.0",
+            "start_time": "116.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_011.ogg",
+        "song_name": "雨のちSweet*Drops",
+        "song_name_en": "Rain With A Chance of Sweet*Drops",
+        "song_name_reading": "あめのちすいーとどろっぷす",
+        "songinfo": {
+            "arranger": "OSTER project",
+            "lyrics": "OSTER project",
+            "music": "OSTER project",
+            "_en": {
+                "arranger": "OSTER project",
+                "lyrics": "OSTER project",
+                "music": "OSTER project"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "pv_101": {
+        "bpm": "120",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20140905",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_101_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_101_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_101_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_101_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "101"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS011"
+            },
+            "02": {
+                "stage": "STGNS001"
+            },
+            "03": {
+                "stage": "STGNS025"
+            },
+            "04": {
+                "stage": "STGNS007"
+            },
+            "length": "4"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "the shiny world there is.",
+            "002": "passing blue breeze.",
+            "003": "splashing waves singing.",
+            "004": "the sound is a MAGIC.",
+            "005": "肩をすべる風が　波の歌を運ぶ",
+            "006": "街並みが途切れて　青の世界広がる",
+            "007": "Magic　時間がこぼれだす",
+            "008": "Magic　駆け抜けた波間に",
+            "009": "Magic　世界を包み込む",
+            "010": "Magic　きらめく音のシャワー",
+            "011": "the shiny world there is.",
+            "012": "passing blue breeze.",
+            "013": "splashing waves singing.",
+            "014": "the sound is a MAGIC.",
+            "015": "砂浜の足跡　脱ぎ捨てたサンダル",
+            "016": "振り上げたかかとで　青のしずく目覚める",
+            "017": "Magic　ココロがこぼれだす",
+            "018": "Magic　打ち寄せる波間に",
+            "019": "Magic　カラダを抱きしめる",
+            "020": "Magic　はじける音のシャワー",
+            "021": "傾く　視界に",
+            "022": "プリズム　虹を引く",
+            "023": "Magic　時間がこぼれだす",
+            "024": "Magic　駆け抜けた波間に",
+            "025": "Magic　世界を包み込む",
+            "026": "Magic　きらめく音のシャワー",
+            "027": "Magic　ココロがこぼれだす",
+            "028": "Magic　打ち寄せる波間に",
+            "029": "Magic　カラダを抱きしめる",
+            "030": "Magic　はじける音のシャワー",
+            "_en": {
+                "001": "The shiny world there is.",
+                "002": "Passing blue breeze.",
+                "003": "Splashing waves singing.",
+                "004": "The sound is a magic.",
+                "005": "kata o suberu kaze ga   nami no uta o hakobu",
+                "006": "machinami ga togirete   ao no sekai hirogaru",
+                "007": "MAGIC   jikan ga koboredasu",
+                "008": "MAGIC   kakenuketa namima ni",
+                "009": "MAGIC   sekai o tsutsumikomu",
+                "010": "MAGIC   kirameku oto no SHOWER",
+                "011": "The shiny world there is.",
+                "012": "Passing blue breeze.",
+                "013": "Splashing waves singing.",
+                "014": "The sound is a magic.",
+                "015": "sunahama no ashiato   nugisuteta SANDAL",
+                "016": "furiageta kakato de   ao no shizuku mezameru",
+                "017": "MAGIC   kokoro ga koboredasu",
+                "018": "MAGIC   uchiyoseru namima ni",
+                "019": "MAGIC   karada o dakishimeru",
+                "020": "MAGIC   hajikeru oto no SHOWER",
+                "021": "katamuku   shikai ni",
+                "022": "PRISM   niji o hiku",
+                "023": "MAGIC   jikan ga koboredasu",
+                "024": "MAGIC   kakenuketa namima ni",
+                "025": "MAGIC   sekai o tsutsumikomu",
+                "026": "MAGIC   kirameku oto no SHOWER",
+                "027": "MAGIC   kokoro ga koboredasu",
+                "028": "MAGIC   uchiyoseru namima ni",
+                "029": "MAGIC   karada o dakishimeru",
+                "030": "MAGIC   hajikeru oto no SHOWER"
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_32",
+            "11": "CMN_MCA00_50_56_A",
+            "12": "CMN_MCA00_50_53",
+            "13": "CMN_MCA00_50_40",
+            "14": "CMN_MCA00_70_26",
+            "15": "CMN_MCA00_50_18_B",
+            "16": "CMN_MCA00_50_30",
+            "17": "CMN_MCA00_50_43",
+            "18": "CMN_MCA00_50_31",
+            "19": "CMN_MCA00_70_30",
+            "20": "CMN_MCA00_70_23",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_70_17",
+            "02": "CMN_MCA00_50_21",
+            "03": "CMN_MCA00_50_19",
+            "04": "CMN_MCA00_50_33",
+            "05": "CMN_MCA00_50_34",
+            "06": "CMN_MCA00_50_60_A",
+            "07": "CMN_MCA00_50_47",
+            "08": "CMN_MCA00_50_46",
+            "09": "CMN_MCA00_70_21"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "162",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "74.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_101.ogg",
+        "song_name": "Magical Sound Shower",
+        "song_name_en": "Magical Sound Shower",
+        "song_name_reading": "まじかるさうんどしゃわー",
+        "songinfo": {
+            "arranger": "Kusemono/SWANTONE",
+            "lyrics": "Kusemono/SWANTONE",
+            "music": "HIRO",
+            "pv_editor": "Kusemono/SWANTONE",
+            "_en": {
+                "arranger": "Kusemono/SWANTONE",
+                "lyrics": "Kusemono/SWANTONE",
+                "music": "HIRO",
+                "pv_editor": "Kusemono/SWANTONE"
+            }
+        },
+        "sudden_timing": "0.6",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}

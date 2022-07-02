@@ -1,0 +1,188 @@
+{
+    "pv_260": {
+        "bpm": "148",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160408",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_260_easy.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_260_extreme.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_260_hard.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_260_normal.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "260"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "二人でずっと踊る約束",
+            "002": "ふくらむ胸がウソにする",
+            "003": "亜麻色の髪　鏡写して",
+            "004": "順番互いに梳いていく",
+            "005": "同じベッド揺られてた",
+            "006": "二人触れ合う　手と手結んでた糸",
+            "007": "見知らぬ顔映る　ささやく声低く",
+            "008": "にぎるハンマーたたきつけるの　飛び散れガラスと",
+            "009": "二人で積んだ城　積み木細工崩して",
+            "010": "軋む骨　騎士と姫へと　鐘が告げるエンド",
+            "011": "歪む鏡　手と手合わせ　ずれる指の長さ",
+            "012": "これから違うベッドで寝るの？",
+            "013": "君が呟く「お休み」",
+            "014": "ドアノブ回し扉をあける",
+            "015": "音に跳ね起きつかむ裾へ",
+            "016": "伸びた指に口付けて",
+            "017": "走る衝動　背骨抜けていく刹那",
+            "018": "明かりは消さないで　一人で寝る夜は",
+            "019": "まだイヤと叫んだ右手で　ぶつけるの枕",
+            "020": "「お化けが怖い」なんて子供だね僕の姫",
+            "021": "濡れた瞳　違う言葉　いいたげに　見つめる",
+            "022": "パパとママの知らない時間は",
+            "023": "終わるのかな？　遠い夢",
+            "024": "薄いタオル越し届く熱が",
+            "025": "壊す僕の止め金",
+            "026": "声を押し殺して　扉は鍵閉めて",
+            "027": "見つめ合う瞳と瞳が　答えを探す",
+            "028": "幼い言い訳を明かりごと消していく",
+            "029": "その髪をすくえないなら　僕はウソもつくよ",
+            "030": "時を止めて今は　二人で抱き合って",
+            "031": "刻む鼓動一つ一つを　シンクロさせたい",
+            "032": "とけてく熱い息　抱きとめたぬくもりに",
+            "033": "これ以上は動かないよ",
+            "034": "まるで君の騎士（ナイト）",
+            "_en": {
+                "001": "futari de zutto odoru yakusoku",
+                "002": "fukuramu mune ga uso ni suru",
+                "003": "amairo no kami   kagami utsushite",
+                "004": "junban tagai ni suite iku",
+                "005": "onaji BED yurareteta",
+                "006": "futari fureau   te to te musundeta ito",
+                "007": "mishiranu kao utsuru   sasayaku koe hikuku",
+                "008": "nigiru HAMMER tatakitsukeru no   tobichire GLASS to",
+                "009": "futari de tsunda shiro   tsumikizaiku kuzushite",
+                "010": "kishimu hone   kishi to hime e to   kane ga tsugeru END",
+                "011": "yugamu kagami   te to te awase   zureru yubi no nagasa",
+                "012": "kore kara chigau BED de neru no?",
+                "013": "kimi ga tsubuyaku \"oyasumi\"",
+                "014": "DOORKNOB mawashi tobira o akeru",
+                "015": "oto ni haneoki tsukamu suso e",
+                "016": "nobita yubi ni kuchizukete",
+                "017": "hashiru shoudou   sebone nuketeiku setsuna",
+                "018": "akari wa kesanaide   hitori de neru yoru wa",
+                "019": "mada iya to sakenda migite de   butsukeru no makura",
+                "020": "\"obake ga kowai\" nante kodomo da ne boku no hime",
+                "021": "nureta hitomi   chigau kotoba   iitage ni   mitsumeru",
+                "022": "PAPA to MAMA no shiranai jikan wa",
+                "023": "owaru no ka na?   tooi yume",
+                "024": "usui TOWEL goshi todoku netsu ga",
+                "025": "kowasu boku no tomegane",
+                "026": "koe o oshikoroshite   tobira wa kagi shimete",
+                "027": "mitsumeau hitomi to hitomi ga   kotae o sagasu",
+                "028": "osanai iiwake o akari goto keshite iku",
+                "029": "sono kami o sukuenai nara   boku wa uso mo tsuku yo",
+                "030": "toki o tomete ima wa   futari de dakiatte",
+                "031": "kizamu kodou hitotsu hitotsu o   SYNCRO sasetai",
+                "032": "toketeku atsui iki   dakitometa nukumori ni",
+                "033": "kore ijou wa ugokanai yo",
+                "034": "marude kimi no KNIGHT"
+            }
+        },
+        "mdata": {
+            "flag": "1"
+        },
+        "motion": {
+            "01": "PV260_ADS_P1",
+            "2P": {
+                "01": "PV260_ADS_P2"
+            }
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "44",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "37",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV260.bin"
+        },
+        "rank_board_id": "154",
+        "sabi": {
+            "play_time": "28.1",
+            "start_time": "55.1"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_260.ogg",
+        "song_name": "アドレサンス",
+        "song_name_en": "Adolescence",
+        "song_name_reading": "あどれさんす",
+        "songinfo": {
+            "arranger": "Dios/シグナルP",
+            "illustrator": "田村ヒロ & sacrow",
+            "lyrics": "orange",
+            "music": "Dios/シグナルP",
+            "_en": {
+                "arranger": "Dios/SignalP",
+                "illustrator": "Tamura Hiro & sacrow",
+                "lyrics": "orange",
+                "music": "Dios/SignalP"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

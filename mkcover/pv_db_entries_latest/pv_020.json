@@ -1,0 +1,183 @@
+{
+    "pv_020": {
+        "bpm": "150",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_020_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_020_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_020_extreme_1.dsc",
+                    "script_format": "0x15122517",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_020_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_020_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "020",
+            "target_shadow_type": "1",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "そばにいるよ",
+            "002": "きょうはないてるね",
+            "003": "かなしいことがあったの？",
+            "004": "きみがないてると",
+            "005": "ぼくもさみしい",
+            "006": "きょうはえがおだね",
+            "007": "うれしいことがあったんだね",
+            "008": "きみがえがおだと",
+            "009": "ぼくもうれしい",
+            "010": "ぼくはそばにいるよ",
+            "011": "かなしいおもいかくさないで",
+            "012": "ふたりでよろこぼうね",
+            "013": "うれしいおもいふくらませよう",
+            "014": "ぼくは ここにいるよ",
+            "015": "よるになったらあいにきてね",
+            "016": "ときにはみえないけど",
+            "017": "ぼくはいつもきみをみてる",
+            "018": "そばにいるよ",
+            "019": "ぼくは ここにいるよ",
+            "020": "よるになったらあいにきてね",
+            "021": "ときにはみえないけど",
+            "022": "ぼくはいつもきみをみてる",
+            "023": "きみはひとりじゃないよ",
+            "024": "ぼくはそばにいるよ",
+            "_en": {
+                "001": "soba ni iru yo",
+                "002": "kyou wa naiteru ne",
+                "003": "kanashii koto ga atta no?",
+                "004": "kimi ga naiteru to",
+                "005": "boku mo samishii",
+                "006": "kyou wa egao da ne",
+                "007": "ureshii koto ga attan da ne",
+                "008": "kimi ga egao da to",
+                "009": "boku mo ureshii",
+                "010": "boku wa soba ni iru yo",
+                "011": "kanashii omoi kakusanaide",
+                "012": "futari de yorokobou ne",
+                "013": "ureshii omoi fukuramaseyou",
+                "014": "boku wa   koko ni iru yo",
+                "015": "yoru ni nattara ai ni kite ne",
+                "016": "toki ni wa mienai kedo",
+                "017": "boku wa itsumo kimi o miteru",
+                "018": "soba ni iru yo",
+                "019": "boku wa koko ni iru yo",
+                "020": "yoru ni nattara ai ni kite ne",
+                "021": "toki ni wa mienai kedo",
+                "022": "boku wa itsumo kimi o miteru",
+                "023": "kimi wa hitori janai yo",
+                "024": "boku wa soba ni iru yo"
+            }
+        },
+        "motion": {
+            "01": "PV020_MCA00_03_20"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "6527",
+                "motion": "PV020_MCA00_03_20",
+                "stage": "STGPV020S02"
+            },
+            "1": {
+                "frame": "7288",
+                "motion": "PV020_MCA00_03_20",
+                "stage": "STGPV020S02"
+            },
+            "length": "2"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "19",
+        "sabi": {
+            "play_time": "27.0",
+            "start_time": "81.0"
+        },
+        "se_name": "42_button10",
+        "song_file_name": "rom/sound/song/pv_020.ogg",
+        "song_name": "moon",
+        "song_name_en": "moon",
+        "song_name_reading": "むーん",
+        "songinfo": {
+            "arranger": "iroha(sasaki)",
+            "illustrator": "なぎみそ",
+            "lyrics": "はっか＋iroha(sasaki)",
+            "music": "iroha(sasaki)",
+            "_en": {
+                "arranger": "iroha(sasaki)",
+                "illustrator": "Nagimiso",
+                "lyrics": "Hakka+iroha(sasaki)",
+                "music": "iroha(sasaki)"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

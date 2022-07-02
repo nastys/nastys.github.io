@@ -1,0 +1,160 @@
+{
+    "pv_010": {
+        "bpm": "125",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_010_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_010_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_010_extreme_1.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_010_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "length": "0"
+            }
+        },
+        "disp2d": {
+            "set_name": "010",
+            "title_end_2d_field": "11",
+            "title_start_2d_field": "11"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "この世界のメロディー",
+            "002": "わたしの歌声",
+            "003": "届いているかな",
+            "004": "響いているかな",
+            "005": "この世界のメロディー",
+            "006": "わたしの歌声",
+            "007": "届いているかな",
+            "008": "響いているかな",
+            "009": "手のひらから 零れ落ちた",
+            "010": "音の粒を 探してるの",
+            "011": "Packageに詰めた この想いを",
+            "012": "伝えたいの あなたにだけ",
+            "013": "うまく歌えるといいな",
+            "014": "ちゃんとできるようにがんばるよ！",
+            "015": "この世界のメロディー",
+            "016": "わたしの歌声",
+            "017": "届いているかな",
+            "018": "響いているかな",
+            "019": "この世界に笑顔を",
+            "020": "わたしとあなたで",
+            "021": "届いているでしょ",
+            "022": "響いているよね",
+            "_en": {
+                "001": "kono sekai no MELODY",
+                "002": "watashi no utagoe",
+                "003": "todoiteiru ka na",
+                "004": "hibiiteiru ka na",
+                "005": "kono sekai no MELODY",
+                "006": "watashi no utagoe",
+                "007": "todoiteiru ka na",
+                "008": "hibiiteiru ka na",
+                "009": "tenohira kara koboreochita",
+                "010": "oto no tsubu o sagashiteru no",
+                "011": "PACKAGE ni tsumeta kono omoi o",
+                "012": "tsutaetai no anata ni dake",
+                "013": "umaku utaeru to ii na",
+                "014": "chanto dekiru you ni ganbaru yo!",
+                "015": "kono sekai no MELODY",
+                "016": "watashi no utagoe",
+                "017": "todoiteiru ka na",
+                "018": "hibiiteiru ka na",
+                "019": "kono sekai ni egao o",
+                "020": "watashi to anata de",
+                "021": "todoiteiru desho",
+                "022": "hibiiteiru yo ne"
+            }
+        },
+        "motion": {
+            "01": "PV010_MCA00_01_00"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "1",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "9",
+        "sabi": {
+            "play_time": "30.5",
+            "start_time": "1.5"
+        },
+        "se_name": "06_button6",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_010.ogg",
+        "song_name": "Packaged",
+        "song_name_en": "Packaged",
+        "song_name_reading": "ぱっけーじど",
+        "songinfo": {
+            "arranger": "kz",
+            "illustrator": "redjuice",
+            "lyrics": "kz",
+            "music": "kz",
+            "_en": {
+                "arranger": "kz",
+                "illustrator": "redjuice",
+                "lyrics": "kz",
+                "music": "kz"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

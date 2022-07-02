@@ -1,0 +1,285 @@
+{
+    "pv_047": {
+        "bpm": "150",
+        "date": "20111130",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_047_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_047_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_047_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_047_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "047",
+            "title_end_2d_field": "3",
+            "title_start_2d_field": "1"
+        },
+        "eyes_xrot_adjust": "1",
+        "hidden_timing": "0.3",
+        "high_speed_rate": "6",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "離れていても　そうさ僕らは",
+            "002": "天かける星座の裏表",
+            "003": "さざめく昼も　切ない夜も",
+            "004": "空をこえ惹かれあうジェミニさ",
+            "005": "",
+            "006": "ふと目が覚めた午前二時",
+            "007": "とても　こわい　夢をみたんだ",
+            "008": "ひとり震えるこんな時",
+            "009": "誰か　誰か　助けてよ",
+            "010": "(この空が落ちたような悲しみも)",
+            "011": "胸の奥から聴こえてくる",
+            "012": "(溶かしてゆく暖かなリズムさ)",
+            "013": "消えないように抱きしめて",
+            "014": "",
+            "015": "道に迷って　不安な時は",
+            "016": "目を閉じて鼓動を感じて",
+            "017": "かじかむ朝も　気だるい午後も",
+            "018": "この音でふたりは繋がってる",
+            "019": "迷い込んだ　その鳥は",
+            "020": "叶わぬ恋に胸を焦がした",
+            "021": "不確かな明日ただ生きるのも",
+            "022": "ささやかな力も消える程",
+            "023": "ここに来て　羽を休めて",
+            "024": "そして傷ついた心癒して",
+            "025": "泣き止んだら歌おう愛の歌",
+            "026": "歌えなかったいつかの愛の歌",
+            "027": "",
+            "028": "ねぇ　泣かないで　寂しい時は",
+            "029": "僕の声に耳をすまして",
+            "030": "雨が降っても　夜が明けても",
+            "031": "君と僕とでまわる地球さ",
+            "032": "離れていても　そうさ僕らは",
+            "033": "天かける星座の裏表",
+            "034": "さざめく昼も　切ない夜も",
+            "035": "空をこえ惹かれあうジェミニさ",
+            "036": "",
+            "037": "惹かれあうジェミニさ",
+            "038": "",
+            "039": "惹かれあうジェミニさ",
+            "040": "",
+            "_en": {
+                "001": "hanareteitemo   sou sa bokura wa",
+                "002": "amakakeru seiza no uraomote",
+                "003": "sazameku hiru mo   setsunai yoru mo",
+                "004": "sora o koe hikareau GEMINI sa",
+                "005": "",
+                "006": "futo me ga sameta gozen niji",
+                "007": "totemo   kowai   yume o mitan da",
+                "008": "hitori furueru konna toki",
+                "009": "dareka   dareka   tasukete yo",
+                "010": "(kono sora ga ochita you na kanashimi mo)",
+                "011": "mune no oku kara kikoete kuru",
+                "012": "(tokashite yuku atatakana RHYTHM sa)",
+                "013": "kienai you ni dakishimete",
+                "014": "",
+                "015": "michi ni mayotte   fuan na toki wa",
+                "016": "me o tojite kodou o kanjite",
+                "017": "kajikamu asa mo   kedarui gogo mo",
+                "018": "kono oto de futari wa tsunagatteru",
+                "019": "mayoikonda   sono tori wa",
+                "020": "kanawanu koi ni mune o kogashita",
+                "021": "futashika na ashita tada ikiru no mo",
+                "022": "sasayaka na chikara mo kieru hodo",
+                "023": "koko ni kite   hane o yasumete",
+                "024": "soshite kizutsuita kokoro iyashite",
+                "025": "nakiyandara utaou ai no uta",
+                "026": "utaenakatta itsuka no ai no uta",
+                "027": "",
+                "028": "nee   nakanaide   samishii toki wa",
+                "029": "boku no koe ni mimi o sumashite",
+                "030": "ame ga futtemo   yoru ga aketemo",
+                "031": "kimi to boku to de mawaru chikyuu sa",
+                "032": "hanareteitemo   sou sa bokura wa",
+                "033": "amakakeru seiza no uraomote",
+                "034": "sazameku hiru mo   setsunai yoru mo",
+                "035": "sora o koe hikareau GEMINI sa",
+                "036": "",
+                "037": "hikareau GEMINI sa",
+                "038": "",
+                "039": "hikareau GEMINI sa",
+                "040": ""
+            }
+        },
+        "motion": {
+            "10": "PV047_GMN_00_C11_00A_P1",
+            "11": "PV047_GMN_00_C13_00A_P1",
+            "12": "PV047_GMN_00_C20_00A_P1",
+            "13": "PV047_GMN_00_C20_01A",
+            "14": "PV047_GMN_00_C21_00A_P1",
+            "15": "PV047_GMN_00_C22_00A_P1",
+            "16": "PV047_GMN_00_C23_00A_P1",
+            "17": "PV047_GMN_00_C24_00A_P1",
+            "18": "PV047_GMN_00_C25_00A_P1",
+            "19": "PV047_GMN_00_C25_01A_P1",
+            "20": "PV047_GMN_00_C25_02A_P1",
+            "21": "PV047_GMN_00_C26_00A_P1",
+            "22": "PV047_GMN_00_C27_00A_P1",
+            "01": "PV047_GMN_00_C00_00A_P1",
+            "02": "PV047_GMN_00_C01_00A_P1",
+            "03": "PV047_GMN_00_C02_00A_P1",
+            "04": "PV047_GMN_00_C03_00A_P1",
+            "05": "PV047_GMN_00_C04_00A_P1",
+            "06": "PV047_GMN_00_C05_00A_P1",
+            "07": "PV047_GMN_00_C06_00A_P1",
+            "08": "PV047_GMN_00_C08_00A_P1",
+            "09": "PV047_GMN_00_C10_00A_P1",
+            "2P": {
+                "10": "PV047_GMN_00_C15_00A_P2",
+                "11": "PV047_GMN_00_C16_00A_P2",
+                "12": "PV047_GMN_00_C17_00A_P2",
+                "13": "PV047_GMN_00_C18_00A_P2",
+                "14": "PV047_GMN_00_C19_00A_P2",
+                "15": "PV047_GMN_00_C20_00A_P2",
+                "16": "PV047_GMN_00_C20_01A_P2",
+                "17": "PV047_GMN_00_C21_00A_P2",
+                "18": "PV047_GMN_00_C22_00A_P2",
+                "19": "PV047_GMN_00_C23_00A_P2",
+                "20": "PV047_GMN_00_C24_00A_P2",
+                "21": "PV047_GMN_00_C25_00A_P2",
+                "22": "PV047_GMN_00_C25_01A_P2",
+                "23": "PV047_GMN_00_C25_02A_P2",
+                "24": "PV047_GMN_00_C26_00A_P2",
+                "25": "PV047_GMN_00_C27_00A_P2",
+                "01": "PV047_GMN_00_C00_00A_P2",
+                "02": "PV047_GMN_00_C01_00A_P2",
+                "03": "PV047_GMN_00_C02_00A_P2",
+                "04": "PV047_GMN_00_C04_00A_P2",
+                "05": "PV047_GMN_00_C05_00A_P2",
+                "06": "PV047_GMN_00_C07_00A_P2",
+                "07": "PV047_GMN_00_C09_00A_P2",
+                "08": "PV047_GMN_00_C12_00A_P2",
+                "09": "PV047_GMN_00_C14_00A_P2"
+            }
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C13_00A_P1",
+                "stage": "STGD2PV047S04"
+            },
+            "1": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C20_00A_P1",
+                "stage": "STGD2PV047S04"
+            },
+            "2": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C20_01A",
+                "stage": "STGD2PV047S04"
+            },
+            "3": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C21_00A_P1",
+                "stage": "STGD2PV047S04"
+            },
+            "4": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C26_00A_P1",
+                "stage": "STGD2PV047S03"
+            },
+            "5": {
+                "frame": "0",
+                "motion": "PV047_GMN_00_C26_00A_P2",
+                "stage": "STGD2PV047S03"
+            },
+            "length": "6"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "RIN",
+                "pv_costume": "3",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "LEN",
+                "pv_costume": "3",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "38",
+        "sabi": {
+            "play_time": "23.0",
+            "start_time": "88.0"
+        },
+        "se_name": "43_button11",
+        "song_file_name": "rom/sound/song/pv_047.ogg",
+        "song_name": "ジェミニ",
+        "song_name_en": "Gemini",
+        "song_name_reading": "じぇみに",
+        "songinfo": {
+            "arranger": "Dixie Flatline",
+            "illustrator": "Closure(SEGA)",
+            "lyrics": "Dixie Flatline",
+            "music": "Dixie Flatline",
+            "_en": {
+                "arranger": "Dixie Flatline",
+                "illustrator": "Closure(SEGA)",
+                "lyrics": "Dixie Flatline",
+                "music": "Dixie Flatline"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgd2pv047s03.txt",
+                "stage": "STGD2PV047S03"
+            },
+            "1": {
+                "collision_file": "coli_stgd2pv047s04.txt",
+                "stage": "STGD2PV047S04"
+            },
+            "length": "2"
+        },
+        "sudden_timing": "0.6"
+    }
+}

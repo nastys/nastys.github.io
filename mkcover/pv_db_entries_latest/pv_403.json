@@ -1,0 +1,285 @@
+{
+    "pv_403": {
+        "bpm": "170",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20141003",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_403_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "title_image": {
+                        "aet_name": "he_title_eff__f"
+                    },
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_403_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "title_image": {
+                        "aet_name": "he_title_eff__f"
+                    },
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_07_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_403_hard.dsc",
+                    "script_format": "0x14050921",
+                    "title_image": {
+                        "aet_name": "he_title_eff__f"
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "field": {
+                        "01": {
+                            "stage": "STGNS032"
+                        },
+                        "02": {
+                            "stage": "STGNS033"
+                        },
+                        "03": {
+                            "stage": "STGNS034"
+                        },
+                        "04": {
+                            "aet_front": "base_black",
+                            "aet_id_front": "AET_GAM_CMN_MAIN",
+                            "stage": "STGAETBACK"
+                        },
+                        "length": "4"
+                    },
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "50",
+                    "motion": {
+                        "11": "CMN_MCA00_50_53",
+                        "12": "CMN_MCA00_50_37",
+                        "13": "CMN_MCA00_50_39",
+                        "14": "CMN_MCA00_50_42",
+                        "15": "CMN_MCA00_70_28",
+                        "16": "CMN_MCA00_70_29",
+                        "17": "CMN_MCA00_70_30",
+                        "18": "CMN_MCA00_50_60_C",
+                        "19": "CMN_MCA00_70_12",
+                        "20": "CMN_MCA00_70_15",
+                        "21": "CMN_MCA00_70_16",
+                        "22": "CMN_MCA00_50_47",
+                        "23": "CMN_MCA00_70_23",
+                        "24": "CMN_MCA00_70_24",
+                        "25": "CMN_MCA00_70_20",
+                        "26": "CMN_MCA00_70_21",
+                        "27": "CMN_MCA00_70_26",
+                        "28": "CMN_MCA00_70_31",
+                        "29": "CMN_MCA00_70_32",
+                        "00": "CMN_MRA00_13_01",
+                        "01": "CMN_MCA00_50_60_A",
+                        "02": "CMN_MCA00_50_12",
+                        "03": "CMN_MCA00_50_27",
+                        "05": "CMN_MCA00_50_32",
+                        "06": "CMN_MCA00_50_55",
+                        "07": "CMN_MCA00_50_30",
+                        "08": "CMN_MCA00_50_50",
+                        "09": "CMN_MCA00_50_36"
+                    },
+                    "performer": {
+                        "0": {
+                            "pv_costume": "1"
+                        }
+                    },
+                    "script_file_name": "rom/script/pv_403_normal.dsc",
+                    "script_format": "0x14050921",
+                    "se_name": "42_button10",
+                    "songinfo": {
+                        "pv_editor": "ari",
+                        "_en": {
+                            "pv_editor": "ari"
+                        }
+                    },
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disable_calc_motfrm_limit": "1",
+        "disp2d": {
+            "set_name": "403",
+            "target_shadow_type": "1"
+        },
+        "field": {
+            "01": {
+                "stage": "STGNS003"
+            },
+            "02": {
+                "stage": "STGNS033"
+            },
+            "03": {
+                "stage": "STGNS018"
+            },
+            "04": {
+                "stage": "STGNS017"
+            },
+            "length": "4"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "構築された絶対聖域（エリア）は",
+            "002": "暗く閉ざされた母（ママ）で",
+            "003": "太陽の光（温もり）さえも届かない、",
+            "004": "嘆きの川（コキュトス）の箱庭",
+            "005": "この記憶は作られたフェイク、",
+            "006": "プラグで転送（おく）られたデータ（世界）。",
+            "007": "禁忌の手により造形（うみだ）された",
+            "008": "最終兵器（女王様）はどこへ消えた？",
+            "009": "流れ込む精神信号（感情）は総てを変えて、",
+            "010": "破壊を生み出すだけの",
+            "011": "「最終兵器 -弐式-（お姫様）」へと",
+            "012": "再構築（進化）する。",
+            "013": "貴女すら触れられぬ私の力で、",
+            "014": "止まった時計の秒針はまた少しずつ動き出す。",
+            "015": "憎めば憎むほど強くなる",
+            "016": "眼窩の十字架（ロザリオ）、",
+            "017": "焼き付けられた[Di-Va](刻印)の",
+            "018": "意味すらもわからず。",
+            "019": "ノイズ雑じりの頭脳回路（頭）の中で",
+            "020": "誰かが囁き始める。",
+            "021": "救済の言葉を並べ立て、",
+            "022": "「救いは無いんだ」と言った。",
+            "023": "壊す事に意味は有るのだろうか、",
+            "024": "ただ何もできず朽ち行く地平。",
+            "025": "崩れた月の海に光を流す。",
+            "026": "「こんなにも綺麗な世界なのに。」",
+            "027": "溢れ出す涙の色は黒く染まり、",
+            "028": "総てを変えた世界は崩壊への序曲を謳う。",
+            "029": "虚無と絶望の咲いた世界へと還す。",
+            "030": "煉獄の炎に焼かれて消えて、灰になろうとも。",
+            "_en": {
+                "001": "kouchiku sareta AREA wa",
+                "002": "kuraku tozasareta MAMA de",
+                "003": "nukumori sae mo todokanai,",
+                "004": "COCYTUS no hakoniwa",
+                "005": "kono kioku wa tsukurareta FAKE,",
+                "006": "PLUG de okurareta sekai.",
+                "007": "kinki no te ni yori umidasareta",
+                "008": "joou-sama wa doko e kieta?",
+                "009": "nagarekomu kanjou wa subete o kaete,",
+                "010": "hakai o umidasu dake no",
+                "011": "\"ohime-sama\" e to",
+                "012": "shinka suru.",
+                "013": "anata sura furerarenu watashi no chikara de,",
+                "014": "tomatta tokei no byoushin wa mata sukoshizutsu ugokidasu.",
+                "015": "nikumeba nikumu hodo tsuyoku naru",
+                "016": "ganka no ROSARIO,",
+                "017": "yakitsukerareta kokuin no",
+                "018": "imi sura mo wakarazu.",
+                "019": "NOISE majiri no atama no naka de",
+                "020": "dareka ga sasayakihajimeru.",
+                "021": "kyuusai no kotoba o narabetate,",
+                "022": "\"sukui wa nain da\" to itta.",
+                "023": "kowasu koto ni imi wa aru no darou ka,",
+                "024": "tada nanimo dekizu kuchiyuku chihei.",
+                "025": "kuzureta tsuki no umi ni hikari o nagasu.",
+                "026": "\"konna ni mo kirei na sekai na no ni.\"",
+                "027": "afuredasu namida no iro wa kuroku somari,",
+                "028": "subete o kaeta sekai wa houkai e no jokyoku o utau.",
+                "029": "kyomu to zetsubou no saita sekai e to kaesu.",
+                "030": "rengoku no honoo ni yakarete kiete, hai ni narou tomo."
+            }
+        },
+        "motion": {
+            "10": "CMN_MCA00_50_56_B",
+            "11": "CMN_MCA00_70_11",
+            "13": "CMN_MCA00_70_15",
+            "14": "CMN_MCA00_70_16",
+            "15": "CMN_MCA00_50_47",
+            "16": "CMN_MCA00_70_19",
+            "17": "CMN_MCA00_70_23",
+            "18": "CMN_MCA00_70_24",
+            "19": "CMN_MCA00_70_20",
+            "20": "CMN_MCA00_70_26",
+            "21": "CMN_MCA00_70_31",
+            "22": "CMN_MCA00_70_32",
+            "00": "CMN_MRA00_13_01",
+            "01": "CMN_MCA00_50_22",
+            "02": "CMN_MCA00_50_12",
+            "03": "CMN_MCA00_50_31",
+            "08": "CMN_MCA00_50_42",
+            "09": "CMN_MCA00_50_56_A"
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "9",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "198",
+        "sabi": {
+            "play_time": "30.0",
+            "start_time": "56.0"
+        },
+        "se_name": "01_button1",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_403.ogg",
+        "song_name": "崩壊歌姫 -disruptive diva-",
+        "song_name_en": "Disruptive Diva",
+        "song_name_reading": "ほうかいうたひめ",
+        "songinfo": {
+            "arranger": "マチゲリータ",
+            "illustrator": "たわし",
+            "lyrics": "マチゲリータ",
+            "music": "マチゲリータ",
+            "pv_editor": "ALIN",
+            "_en": {
+                "arranger": "Machigerita",
+                "illustrator": "Tawashi",
+                "lyrics": "Machigerita",
+                "music": "Machigerita",
+                "pv_editor": "ALIN"
+            }
+        },
+        "sudden_timing": "0.57",
+        "title_image": {
+            "aet_name": "en_title_eff__f",
+            "time": "0"
+        }
+    }
+}

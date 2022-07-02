@@ -1,0 +1,235 @@
+{
+    "pv_094": {
+        "bpm": "102",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20150924",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_02_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_094_easy.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_094_extreme.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_09_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_094_extreme_1.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_094_hard.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "20",
+                    "script_file_name": "rom/script/pv_094_normal.dsc",
+                    "script_format": "0x15021718",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "094",
+            "title_end_2d_field": "1",
+            "title_start_2d_field": "1"
+        },
+        "hand_item": {
+            "01": "PV_KATANA_R",
+            "02": "PV_FAN_PINK_R"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "5",
+        "is_old_pv": "1",
+        "lyric": {
+            "000": "",
+            "001": "かわいた木枯らし　そよそよと",
+            "002": "かわいた木の葉は　ひらひらと",
+            "003": "相見える日を　待ちながら",
+            "004": "刻を数え歩く",
+            "006": "綴る言の葉に　彩られ",
+            "007": "紅く色めき　刹那に踊る",
+            "008": "紅葉一枚　手の平に滑り",
+            "009": "語るは…",
+            "011": "焼けた故郷に　別れを告げて",
+            "012": "木の葉の手に引かれ　走り去る",
+            "013": "未だ見ぬ未来への　不安など",
+            "014": "感じる暇など　ありもせず",
+            "015": "",
+            "016": "かわいた木の葉は　ひらひらと",
+            "017": "かわいた木枯らし　そよそよと",
+            "018": "繋いだ手と手を　離さずに",
+            "019": "刻を数え翔ける",
+            "021": "普くヒトの命　背負い",
+            "022": "その小さき手で　何を紡ぐ",
+            "023": "ほんの微かな　綻びに",
+            "024": "死ぬるこの世で",
+            "026": "信ずる道を　 ただひたすらに",
+            "027": "歩むお前の　支えとならん",
+            "028": "紅の剣を　携えて",
+            "029": "この身　木の葉と　吹かれて行こう",
+            "030": "",
+            "031": "紅、黄金に　彩られ",
+            "032": "揺れる樹々たち　横切りながら",
+            "033": "枯れ葉　共に　道連れに",
+            "034": "翔け抜ける　木の葉と　つがゐこがらし",
+            "036": "擦れさざめく　木の葉と共に",
+            "037": "翔ける一陣の　風と共に",
+            "038": "留まる事なく　直走る",
+            "039": "かわいた唄と　つがゐこがらし",
+            "_en": {
+                "000": "",
+                "001": "kawaita kogarashi   soyosoyo to",
+                "002": "kawaita konoha wa   hirahira to",
+                "003": "aimamieru hi o   machinagara",
+                "004": "toki o kazoe aruku",
+                "006": "tsuzuru kotonoha ni   irodorare",
+                "007": "akaku iromeki   setsuna ni odoru",
+                "008": "kureha ichimai   tenohira ni suberi",
+                "009": "kataru wa...",
+                "011": "yaketa kokyou ni   wakare o tsugete",
+                "012": "konoha no te ni hikare   hashirisaru",
+                "013": "mada minu mirai e no   fuan nado",
+                "014": "kanjiru itoma nado   ari mo sezu",
+                "015": "",
+                "016": "kawaita konoha wa   hirahira to",
+                "017": "kawaita kogarashi   soyosoyo to",
+                "018": "tsunaida te to te o   hanasazu ni",
+                "019": "toki o kazoe kakeru",
+                "021": "amaneku hito no inochi   seoi",
+                "022": "sono chiisaki te de   nani o tsumugu",
+                "023": "honno kasuka na   hokorobi ni",
+                "024": "shinuru kono se de",
+                "026": "shinzuru michi o   tada hitasura ni",
+                "027": "ayumu omae no   sasae to naran",
+                "028": "kurenai no tsurugi o   tazusaete",
+                "029": "kono mi   konoha to   fukarete yukou",
+                "030": "",
+                "031": "kurenai, ougon ni   irodorare",
+                "032": "yureru kigi tachi   yokogirinagara",
+                "033": "kareha   tomo ni   michizure ni",
+                "034": "kakenukeru   konoha to   tsugai kogarashi",
+                "036": "kosure sazameku   konoha to tomo ni",
+                "037": "kakeru ichijin no   kaze to tomo ni",
+                "038": "todomaru koto naku   hitahashiru",
+                "039": "kawaita uta to   tsugai kogarashi"
+            }
+        },
+        "motion": {
+            "10": "PV094_TGK_00_C11_00A_P1",
+            "11": "PV094_TGK_00_C12_00A_P1",
+            "12": "PV094_TGK_00_C13_00A_P1",
+            "01": "PV094_TGK_00_C00_00A_P1",
+            "02": "PV094_TGK_00_C01_00A_P1",
+            "03": "PV094_TGK_00_C02_00A_P1",
+            "04": "PV094_TGK_00_C03_00A_P1",
+            "05": "PV094_TGK_00_C04_00A_P1",
+            "06": "PV094_TGK_00_C05_00A_P1",
+            "07": "PV094_TGK_00_C06_00A_P1",
+            "08": "PV094_TGK_00_C07_00A_P1",
+            "09": "PV094_TGK_00_C08_00A_P1",
+            "2P": {
+                "10": "PV094_TGK_00_C09_00A_P2",
+                "11": "PV094_TGK_00_C10_00A_P2",
+                "12": "PV094_TGK_00_C11_00A_P2",
+                "13": "PV094_TGK_00_C12_00A_P2",
+                "14": "PV094_TGK_00_C13_00A_P2",
+                "01": "PV094_TGK_00_C00_00A_P2",
+                "02": "PV094_TGK_00_C01_00A_P2",
+                "03": "PV094_TGK_00_C02_00A_P2",
+                "04": "PV094_TGK_00_C03_00A_P2",
+                "05": "PV094_TGK_00_C04_00A_P2",
+                "06": "PV094_TGK_00_C05_00A_P2",
+                "07": "PV094_TGK_00_C06_00A_P2",
+                "08": "PV094_TGK_00_C07_00A_P2",
+                "09": "PV094_TGK_00_C08_00A_P2"
+            }
+        },
+        "npr": {
+            "chara_lightness": "0.95"
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MEI",
+                "pv_costume": "36",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "KAI",
+                "pv_costume": "10",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "69",
+        "sabi": {
+            "play_time": "33",
+            "start_time": "150"
+        },
+        "se_name": "43_button11",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_094.ogg",
+        "song_name": "番凩",
+        "song_name_en": "Wintry Winds",
+        "song_name_reading": "つがゐこがらし",
+        "songinfo": {
+            "arranger": "hinayukki@仕事してP",
+            "illustrator": "hinayukki@仕事してP",
+            "lyrics": "hinayukki@仕事してP",
+            "music": "hinayukki@仕事してP",
+            "_en": {
+                "arranger": "hinayukki@shigotoshite P",
+                "illustrator": "hinayukki@shigotoshite P",
+                "lyrics": "hinayukki@shigotoshite P",
+                "music": "hinayukki@shigotoshite P"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

@@ -1,0 +1,520 @@
+{
+    "pv_235": {
+        "bpm": "180",
+        "date": "20131220",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_03_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_235_easy.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_235_extreme.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_235_hard.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_235_normal.dsc",
+                    "script_format": "0x14012316",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "235"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "大体いつでも迷子で",
+            "002": "思考がぶれて　時間ごと",
+            "003": "跳ね飛ばす",
+            "004": "",
+            "005": "スケッチ　転がるイメージ",
+            "006": "どうせほら　すぐ　手放すし",
+            "007": "棄てといて",
+            "008": "",
+            "009": "曖昧　存在",
+            "010": "ぐるぐる　惑い日和",
+            "011": "右手に甘いシガレット",
+            "012": "笑い合い　僕に突き刺す",
+            "013": "",
+            "014": "呼吸困難みたい　倒錯は今更だ",
+            "015": "忘れたい顔が僕を埋め尽くしてく",
+            "016": "",
+            "017": "色褪せたビビット　君のこと塗り潰す",
+            "018": "もうダメだ、やめた！",
+            "019": "いいや　逃げてしまおう",
+            "020": "",
+            "021": "「――そうだ、妄想回路で踊ろうか。",
+            "022": "それなら僕も僕に優しいし。",
+            "023": "怖気づいて、逃げだしちゃうのなら、",
+            "024": "始めないで、放りだして、ジエンド。」",
+            "025": "",
+            "026": "思うだけ未来　歪な形",
+            "027": "やり直し　それで逃げて",
+            "028": "だけど欲しくて",
+            "029": "",
+            "030": "ぐちゃぐちゃな想い　片付けも済んでない",
+            "031": "汚くて　なのに君に逢いに行かなきゃ",
+            "032": "",
+            "033": "変則世界　進むたび不安定",
+            "034": "「逃げようか？」",
+            "035": "よぎる前に僕を離した",
+            "036": "",
+            "037": "スイッチ　投げ棄てて",
+            "038": "散らかった僕の部屋",
+            "039": "瞑ってた目を開けたら",
+            "040": "僕じゃない君の傍",
+            "041": "",
+            "_en": {
+                "001": "daitai itsudemo maigo de",
+                "002": "shikou ga burete   jikan goto",
+                "003": "hanetobasu",
+                "004": "",
+                "005": "SKETCH   korogaru IMAGE",
+                "006": "douse hora   sugu   tebanasu shi",
+                "007": "sutetoite",
+                "008": "",
+                "009": "aimai   sonzai",
+                "010": "guruguru   madoibiyori",
+                "011": "migite ni amai CIGARETTE",
+                "012": "waraiai   boku ni tsukisasu",
+                "013": "",
+                "014": "kokyuu konnan mitai   tousaku wa imasara da",
+                "015": "wasuretai kao ga boku o umetsukushiteku",
+                "016": "",
+                "017": "iroaseta VIVID   kimi no koto nuritsubusu",
+                "018": "mou dame da, yameta!",
+                "019": "iiya   nigete shimaou",
+                "020": "",
+                "021": "\"...sou da, mousou kairo de odorou ka.",
+                "022": "sore nara boku mo boku ni yasashii shi.",
+                "023": "ojikezuite, nigedashichau no nara,",
+                "024": "hajimenaide, houridashite, THE END.\"",
+                "025": "",
+                "026": "omou dake mirai   ibitsu na katachi",
+                "027": "yarinaoshi   sore de nigete",
+                "028": "dakedo hoshikute",
+                "029": "",
+                "030": "guchagucha na omoi   katazuke mo sundenai",
+                "031": "kitanakute   na no ni kimi ni ai ni ikanakya",
+                "032": "",
+                "033": "hensoku sekai   susumu tabi fuantei",
+                "034": "\"nigeyou ka?\"",
+                "035": "yogiru mae ni boku o hanashita",
+                "036": "",
+                "037": "SWITCH   nagesutete",
+                "038": "chirakatta boku no heya",
+                "039": "tsumutteta me o aketara",
+                "040": "boku janai kimi no soba",
+                "041": ""
+            }
+        },
+        "motion": {
+            "01": "PV235_LECID_1P",
+            "2P": {
+                "01": "PV235_LECID_2P"
+            }
+        },
+        "npr": {
+            "chara_lightness": "1.0"
+        },
+        "osage_init": {
+            "0": {
+                "frame": "0",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S01"
+            },
+            "1": {
+                "0": {
+                    "frame": "3568",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "1": {
+                    "frame": "3673",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "2": {
+                    "frame": "3753",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "3": {
+                    "frame": "3913",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "4": {
+                    "frame": "4553",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S04"
+                },
+                "5": {
+                    "frame": "4731",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S04"
+                },
+                "6": {
+                    "frame": "4873",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S04"
+                },
+                "7": {
+                    "frame": "5033",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S05"
+                },
+                "8": {
+                    "frame": "5193",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "9": {
+                    "frame": "5593",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "frame": "553",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S02"
+            },
+            "2": {
+                "0": {
+                    "frame": "5678",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "1": {
+                    "frame": "5808",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "2": {
+                    "frame": "5971",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "3": {
+                    "frame": "6050",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "4": {
+                    "frame": "6131",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "5": {
+                    "frame": "6233",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "6": {
+                    "frame": "6291",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "7": {
+                    "frame": "6473",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "8": {
+                    "frame": "6713",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "9": {
+                    "frame": "7035",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "frame": "633",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S06"
+            },
+            "3": {
+                "0": {
+                    "frame": "7412",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S02"
+                },
+                "1": {
+                    "frame": "7510",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S02"
+                },
+                "2": {
+                    "frame": "7605",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "3": {
+                    "frame": "7766",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "4": {
+                    "frame": "7913",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "5": {
+                    "frame": "7993",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "6": {
+                    "frame": "8047",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "7": {
+                    "frame": "8127",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "8": {
+                    "frame": "8207",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "9": {
+                    "frame": "8527",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "frame": "713",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S07"
+            },
+            "4": {
+                "0": {
+                    "frame": "8689",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "1": {
+                    "frame": "9009",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "2": {
+                    "frame": "9169",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "3": {
+                    "frame": "9330",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S08"
+                },
+                "4": {
+                    "frame": "9487",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "5": {
+                    "frame": "9567",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "6": {
+                    "frame": "9647",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S03"
+                },
+                "7": {
+                    "frame": "9809",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "8": {
+                    "frame": "9967",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "9": {
+                    "frame": "10153",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "frame": "1193",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S02"
+            },
+            "5": {
+                "0": {
+                    "frame": "10233",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "1": {
+                    "frame": "10313",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "2": {
+                    "frame": "10633",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S01"
+                },
+                "3": {
+                    "frame": "10953",
+                    "motion": "PV235_LECID_1P",
+                    "stage": "STGPV235S07"
+                },
+                "4": {
+                    "frame": "0",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S01"
+                },
+                "5": {
+                    "frame": "2153",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "6": {
+                    "frame": "2473",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "7": {
+                    "frame": "2603",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "8": {
+                    "frame": "2933",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "9": {
+                    "frame": "3075",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "frame": "1274",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S02"
+            },
+            "6": {
+                "0": {
+                    "frame": "3273",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S03"
+                },
+                "1": {
+                    "frame": "4553",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S04"
+                },
+                "2": {
+                    "frame": "4873",
+                    "motion": "PV235_LECID_2P",
+                    "stage": "STGPV235S04"
+                },
+                "frame": "1353",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S07"
+            },
+            "7": {
+                "frame": "2603",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S03"
+            },
+            "8": {
+                "frame": "2790",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S03"
+            },
+            "9": {
+                "frame": "3273",
+                "motion": "PV235_LECID_1P",
+                "stage": "STGPV235S03"
+            },
+            "length": "63"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "51",
+                "type": "VOCAL"
+            },
+            "1": {
+                "fixed": "1",
+                "type": "PSEUDO_SAME"
+            },
+            "num": "2"
+        },
+        "rank_board_id": "187",
+        "sabi": {
+            "play_time": "37.0",
+            "start_time": "137.0"
+        },
+        "se_name": "05_button5",
+        "song_file_name": "rom/sound/song/pv_235.ogg",
+        "song_name": "ルシッドドリーミング",
+        "song_name_en": "Lucid Dreaming",
+        "song_name_reading": "るしっどどりーみんぐ",
+        "songinfo": {
+            "arranger": "くぇ（ナイーヴP）",
+            "illustrator": "独楽子",
+            "lyrics": "灯下はこ、",
+            "music": "くぇ（ナイーヴP）",
+            "_en": {
+                "arranger": "qwe(Naive P)",
+                "illustrator": "Komako",
+                "lyrics": "Hako Touka,",
+                "music": "qwe(Naive P)"
+            }
+        },
+        "stage_param": {
+            "0": {
+                "collision_file": "coli_stgpv235s04.txt",
+                "stage": "STGPV235S04"
+            },
+            "length": "1"
+        },
+        "sudden_timing": "0.6"
+    }
+}

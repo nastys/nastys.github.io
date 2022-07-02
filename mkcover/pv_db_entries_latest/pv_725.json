@@ -1,0 +1,662 @@
+{
+    "pv_725": {
+        "auth_replace_by_module": {
+            "0": {
+                "id": "0",
+                "module_id": "5",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "1": {
+                "0": {
+                    "id": "0",
+                    "module_id": "87",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "71",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "62",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "77",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "167",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "125",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "126",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "127",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "128",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "132",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "6",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "2": {
+                "0": {
+                    "id": "0",
+                    "module_id": "133",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "208",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "197",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "207",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "213",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "290",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "291",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "313",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "318",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "314",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "7",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "3": {
+                "0": {
+                    "id": "0",
+                    "module_id": "304",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "306",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "310",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "317",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "371",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "402",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "380",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "139",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "113",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "114",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "17",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "4": {
+                "0": {
+                    "id": "0",
+                    "module_id": "75",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "252",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "257",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "250",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "279",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "296",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "298",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "367",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "366",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "151",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "21",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "5": {
+                "0": {
+                    "id": "0",
+                    "module_id": "275",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "276",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "294",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "368",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "98",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "121",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "119",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "153",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "154",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "241",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "30",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "6": {
+                "0": {
+                    "id": "0",
+                    "module_id": "288",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "76",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "122",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "162",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "164",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "5": {
+                    "id": "0",
+                    "module_id": "258",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "6": {
+                    "id": "0",
+                    "module_id": "259",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "7": {
+                    "id": "0",
+                    "module_id": "289",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "8": {
+                    "id": "0",
+                    "module_id": "63",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "9": {
+                    "id": "0",
+                    "module_id": "142",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "34",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "7": {
+                "0": {
+                    "id": "0",
+                    "module_id": "143",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "1": {
+                    "id": "0",
+                    "module_id": "287",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "2": {
+                    "id": "0",
+                    "module_id": "323",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "3": {
+                    "id": "0",
+                    "module_id": "372",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "4": {
+                    "id": "0",
+                    "module_id": "332",
+                    "name": "NULL",
+                    "org_name": "EFFCHRPV725_MIK_001"
+                },
+                "id": "0",
+                "module_id": "36",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "8": {
+                "id": "0",
+                "module_id": "85",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "9": {
+                "id": "0",
+                "module_id": "70",
+                "name": "NULL",
+                "org_name": "EFFCHRPV725_MIK_001"
+            },
+            "length": "75"
+        },
+        "bpm": "195",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "chreff": {
+            "0": {
+                "data": {
+                    "0": {
+                        "name": "EFFCHRPV725_MIK_001",
+                        "type": "AUTH3D"
+                    },
+                    "length": "1"
+                },
+                "id": "0",
+                "name": "MIK"
+            },
+            "num": "1"
+        },
+        "date": "20160108",
+        "difficulty": {
+            "attribute": {
+                "original": "1",
+                "slide": "1"
+            },
+            "easy": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_01_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_725_easy.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_725_extreme.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_725_hard.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_04_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_725_normal.dsc",
+                    "script_format": "0x16030121",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "725"
+        },
+        "effect_se_file_name": "rom/sound/pv725_effect.farc",
+        "effect_se_name_list": {
+            "0": "pv725_effect",
+            "length": "1"
+        },
+        "hand_a3d": {
+            "1P": {
+                "0": {
+                    "name": "STGPV725S01_HRC_006"
+                },
+                "1": {
+                    "name": "STGPV725S01_HRC_010"
+                },
+                "2": {
+                    "name": "STGPV725S01_HRC_015"
+                },
+                "3": {
+                    "name": "EFFCHRPV725_MIK_001"
+                },
+                "length": "4"
+            }
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "4",
+        "lyric": {
+            "001": "今宵は貴方のため",
+            "002": "この身を授けましょう",
+            "003": "貴方とは特別なの",
+            "004": "これは世辞とか口説じゃないの",
+            "005": "嗚呼",
+            "006": "あたし恋をして",
+            "007": "貴方の目に映るもの全て",
+            "008": "憎く見えるの",
+            "009": "あたし以外は見ないで",
+            "010": "心の音がするわ",
+            "011": "汚い擦れた声",
+            "012": "前の男の行方よりも",
+            "013": "貴方の未来気になります",
+            "014": "嗚呼",
+            "015": "満たされるくらい",
+            "016": "体も心も全部強く奥の奥まで",
+            "017": "さあもっと熱くさせてよ",
+            "018": "小さな見世で　横たわる",
+            "019": "埃まみれの　この恋を",
+            "020": "誠の恋と　呼ばぬなら",
+            "021": "今示しましょう　愛の証を",
+            "022": "嗚呼",
+            "023": "あたし貴方なら",
+            "024": "髪切りも爪剥ぎも超えて指切りするわ",
+            "025": "交わして変わらぬ愛を",
+            "026": "指切った",
+            "_en": {
+                "001": "koyoi wa anata no tame",
+                "002": "kono mi o sazukemashou",
+                "003": "anata to wa tokubetsu na no",
+                "004": "kore wa seji toka kuzetsu janai no",
+                "005": "aah!",
+                "006": "atashi koi o shite",
+                "007": "anata no me ni utsuru mono subete",
+                "008": "nikuku mieru no",
+                "009": "atashi igai wa minaide",
+                "010": "kokoro no oto ga suru wa",
+                "011": "kitanai kasureta koe",
+                "012": "mae no otoko no yukue yori mo",
+                "013": "anata no mirai ki ni narimasu",
+                "014": "aah!",
+                "015": "mitasareru kurai",
+                "016": "karada mo kokoro mo zenbu tsuyoku oku no oku made",
+                "017": "saa motto atsuku sasete yo",
+                "018": "chiisana mise de   yokotawaru",
+                "019": "hokorimamire no   kono koi o",
+                "020": "makoto no koi to   yobanu nara",
+                "021": "ima shimeshimashou   ai no akashi o",
+                "022": "aah!",
+                "023": "atashi anata nara",
+                "024": "kamikiri mo tsumehagi mo koete yubikiri suru wa",
+                "025": "kawashite kawaranu ai o",
+                "026": "yubi kitta"
+            }
+        },
+        "motion": {
+            "01": "PV725_YBK_P1_00",
+            "02": "PV725_YBK_P1_10",
+            "2P": {
+                "01": "PV725_YBK_P2_00"
+            }
+        },
+        "pack": "1",
+        "performer": {
+            "0": {
+                "chara": "MIK",
+                "pv_costume": "134",
+                "size": "PLAY_CHARA",
+                "type": "VOCAL"
+            },
+            "1": {
+                "chara": "MIK",
+                "pv_costume": "135",
+                "size": "PLAY_CHARA",
+                "type": "GUEST"
+            },
+            "num": "2"
+        },
+        "pv_expression": {
+            "file_name": "rom/pv_expression/exp_PV725.bin"
+        },
+        "pvbranch_success_se_name": "pvchange04",
+        "rank_board_id": "123",
+        "sabi": {
+            "play_time": "21.1",
+            "start_time": "38.0"
+        },
+        "se_name": "05_button5",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_725.ogg",
+        "song_name": "指切り",
+        "song_name_en": "Pinky Swear",
+        "song_name_reading": "ゆびきり",
+        "songinfo": {
+            "arranger": "すこっぷ",
+            "illustrator": "まつとり",
+            "lyrics": "すこっぷ",
+            "music": "すこっぷ",
+            "_en": {
+                "arranger": "Scop",
+                "illustrator": "Matsutori",
+                "lyrics": "Scop",
+                "music": "Scop"
+            }
+        },
+        "sudden_timing": "0.6"
+    }
+}

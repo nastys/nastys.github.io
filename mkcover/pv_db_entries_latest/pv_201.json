@@ -1,0 +1,191 @@
+{
+    "pv_201": {
+        "bpm": "240",
+        "chainslide_failure_name": "slide_ng03",
+        "chainslide_first_name": "slide_long02a",
+        "chainslide_sub_name": "slide_button08",
+        "chainslide_success_name": "slide_ok03",
+        "date": "20101125",
+        "difficulty": {
+            "attribute": {
+                "original": "1"
+            },
+            "easy": {
+                "length": "0"
+            },
+            "encore": {
+                "length": "0"
+            },
+            "extreme": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_08_0",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_201_extreme.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "1": {
+                    "attribute": {
+                        "extra": "1",
+                        "original": "0",
+                        "slide": "1"
+                    },
+                    "edition": "1",
+                    "level": "PV_LV_08_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_201_extreme_1.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "2"
+            },
+            "hard": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_06_5",
+                    "level_sort_index": "50",
+                    "script_file_name": "rom/script/pv_201_hard.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            },
+            "normal": {
+                "0": {
+                    "edition": "0",
+                    "level": "PV_LV_05_0",
+                    "level_sort_index": "80",
+                    "script_file_name": "rom/script/pv_201_normal.dsc",
+                    "script_format": "0x14050921",
+                    "version": "1"
+                },
+                "length": "1"
+            }
+        },
+        "disp2d": {
+            "set_name": "201"
+        },
+        "eyes_xrot_adjust": "1",
+        "field": {
+            "01": {
+                "stage": "STGNS032"
+            },
+            "02": {
+                "stage": "STGNS033_NOSNOW"
+            },
+            "03": {
+                "stage": "STGNS004"
+            },
+            "length": "3"
+        },
+        "hidden_timing": "0.3",
+        "high_speed_rate": "3",
+        "is_old_pv": "1",
+        "lyric": {
+            "001": "今日も夜空に浮かべた非現実の中",
+            "002": "真っ黒なキャンバスに星を描く",
+            "003": "静寂、巡る本能と縋るべき何か",
+            "004": "また響き渡る天使の叫び",
+            "005": "奏でる悲鳴は背徳の調べ",
+            "006": "綺麗な星空を切り裂いて降らせた涙",
+            "007": "舞い踊る星屑眺めた夜は",
+            "008": "まだ笑ってた",
+            "009": "泣いていた",
+            "010": "息をしていた",
+            "011": "静寂、流れる時間と守るべき何か",
+            "012": "映り込んだ不安と歪な月",
+            "013": "描いた希望は無彩色の花",
+            "014": "届かぬ星空見上げて",
+            "015": "零れてしまいそうな星屑",
+            "016": "消えてしまわぬように守ってた",
+            "017": "願ってた",
+            "018": "幸せだった",
+            "019": "もしも空が剥がれ落ちても",
+            "020": "何度でも塗り潰せるから",
+            "021": "この螺旋の中",
+            "022": "奏でる悲鳴は背徳の調べ",
+            "023": "綺麗な星空を切り裂いて降らせた涙",
+            "024": "輝いた想い",
+            "025": "舞い踊る星屑描いたこの理想郷で",
+            "026": "笑ってる",
+            "027": "泣いている",
+            "028": "生きている",
+            "029": "今日もまた夜空に描いた非現実",
+            "030": "何もかも逃れようのない現実",
+            "_en": {
+                "001": "kyou mo yozora ni ukabeta higenjitsu no naka",
+                "002": "makkuro na CANVAS ni hoshi o egaku",
+                "003": "seijaku, meguru honnou to sugarubeki nanika",
+                "004": "mata hibikiwataru tenshi no sakebi",
+                "005": "kanaderu himei wa haitoku no shirabe",
+                "006": "kirei na hoshizora o kirisaite furaseta namida",
+                "007": "maiodoru hoshikuzu nagameta yoru wa",
+                "008": "mada waratteta",
+                "009": "naiteita",
+                "010": "iki o shiteita",
+                "011": "seijaku, nagareru jikan to mamorubeki nanika",
+                "012": "utsurikonda fuan to ibitsu na tsuki",
+                "013": "egaita kibou wa musaishoku no hana",
+                "014": "todokanu hoshizora miagete",
+                "015": "koborete shimaisou na hoshikuzu",
+                "016": "kiete shimawanu you ni mamotteta",
+                "017": "negatteta",
+                "018": "shiawase datta",
+                "019": "moshimo sora ga hagareochitemo",
+                "020": "nando demo nuritsubuseru kara",
+                "021": "kono rasen no naka",
+                "022": "kanaderu himei wa haitoku no shirabe",
+                "023": "kirei na hoshizora o kirisaite furaseta namida",
+                "024": "kagayaita omoi",
+                "025": "maiodoru hoshikuzu egaita kono machi de",
+                "026": "waratteru",
+                "027": "naiteiru",
+                "028": "ikiteiru",
+                "029": "kyou mo mata yozora ni egaita higenjitsu",
+                "030": "nanimokamo nogareyou no nai genjitsu"
+            }
+        },
+        "motion": {
+            "01": "PV201_MCA00_16_50"
+        },
+        "pack": "2",
+        "performer": {
+            "0": {
+                "chara": "LUK",
+                "pv_costume": "11",
+                "type": "VOCAL"
+            },
+            "num": "1"
+        },
+        "rank_board_id": "166",
+        "sabi": {
+            "play_time": "19.0",
+            "start_time": "55.0"
+        },
+        "se_name": "02_button2",
+        "slide_name": "slide_se13",
+        "slidertouch_name": "slide_windchime",
+        "song_file_name": "rom/sound/song/pv_201.ogg",
+        "song_name": "星屑ユートピア",
+        "song_name_en": "Stardust Utopia",
+        "song_name_reading": "ほしくずゆーとぴあ",
+        "songinfo": {
+            "arranger": "otetsu",
+            "illustrator": "meola",
+            "lyrics": "otetsu",
+            "music": "otetsu",
+            "_en": {
+                "arranger": "otetsu",
+                "illustrator": "meola",
+                "lyrics": "otetsu",
+                "music": "otetsu"
+            }
+        },
+        "sudden_timing": "0.55",
+        "title_image": {
+            "aet_name": "title_eff",
+            "time": "0"
+        }
+    }
+}
