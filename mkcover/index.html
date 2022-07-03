@@ -16,12 +16,13 @@
     </div>
     <br>
     <div class="row">
-        <div id="step0" calss="metadata row"> <!-- Metadata part 1 -->
+        <div id="step0" calss="metadata row">
+            <!-- Metadata part 1 -->
             <div class="column">
                 <label for="md_name">Mod name:</label><input autocomplete="on" type="text" id="md_name"
                     placeholder="My Cover Mod">
-                <label for="md_description">Mod description:</label><input autocomplete="on" type="text" id="md_description"
-                    placeholder="Adds covers.">
+                <label for="md_description">Mod description:</label><input autocomplete="on" type="text"
+                    id="md_description" placeholder="Adds covers.">
                 <label for="md_version">Mod version:</label><input autocomplete="on" type="text" id="md_version"
                     placeholder="1.0">
                 <label for="md_author">Mod author:</label><input autocomplete="on" type="text" id="md_author"
@@ -32,71 +33,126 @@
                 </div>
             </div>
         </div>
-        <div id="step0p2" class="metadata2 column" style="display: none;"> <!-- Metadata part 2: result -->
+        <div id="step0p2" class="metadata2 column" style="display: none;">
+            <!-- Metadata part 2: result -->
             <br>
             <textarea autocomplete="off" id="newtoml"></textarea>
             <br>
             <btn id="tomldwbtn" class="modalbtn modalbtn_blue" onclick="toml_download_clicked();">Save</btn>
-            <div class="row footer">
-                <btn id="to_step0btn" class="modalbtn modalbtn_red" onclick="to_step0();">Back</btn>
-                <btn id="to_step1btn" class="modalbtn modalbtn_blue" onclick="to_step1();">Next</btn>
+            <div class="filetree struct1" id="struct1">
+                <div class="row file"><img src="./icons/folder-multi.png" alt="[]" width="32" height="32">Hatsune Miku
+                    Project Diva Mega Mix+</div>
+                <div class="row file indent1 indentarrow"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                        height="32">mods</div>
+                <div class="row file indent1 indent2 indentarrow customfld"><img src="./icons/folder-multi.png" alt="[]"
+                        width="32" height="32""><div id="modfld1">Template Mod</div>
             </div>
+            <div class="row file indent1 indent2 indent3 indentarrow puthere customfld"><img src="./icons/text-x-generic.png"
+                    alt="[]" width="32" height="32">config.toml</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/text-x-generic.png" alt="[]" width="32"
+                    height="32">config.toml</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-x-sharedlib.png" alt="[]" width="32"
+                    height="32">dinput8.dll</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-x-executable.png" alt="[]"
+                    width="32" height="32">DivaMegaMix.exe</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-octet-stream.png" alt="[]"
+                    width="32" height="32">...</div>
         </div>
-        <div id="step1" class="filter_area column" style="display: none;"> <!-- Step 1: song -->
-            <label for="filter">Filter:</label><input autocomplete="off" type="text" id="filter"
-                oninput="filter(this.value);">
-            <br>
-            <select id="dropdown_db" size="10"></select>
-            <div class="row footer">
-                <btn id="to_step1btn" class="modalbtn modalbtn_red" onclick="to_step0p2();">Back</btn>
-                <btn id="to_step2btn" class="modalbtn modalbtn_blue" onclick="to_step2();">Next</btn>
-            </div>
+        <div class="row footer">
+            <btn id="to_step0btn" class="modalbtn modalbtn_red" onclick="to_step0();">Back</btn>
+            <btn id="to_step1btn" class="modalbtn modalbtn_blue" onclick="to_step1();">Next</btn>
         </div>
+    </div>
+    <div id="step1" class="filter_area column" style="display: none;">
+        <!-- Step 1: song -->
+        <label for="filter">Filter:</label><input autocomplete="off" type="text" id="filter"
+            oninput="filter(this.value);">
         <br>
-        <div id="step2" class="another_song row" style="display: none;"> <!-- Step 2: cover -->
-            <div class="column">
-                <label for="name_jp">Name (JP):</label><input autocomplete="on" type="text" id="name_jp"
-                    placeholder="MySong -Cover Edition-">
-                <label for="voc_jp">Vocal (JP):</label><input autocomplete="on" type="text" id="voc_jp"
-                    placeholder="Cover Edition">
-                <label for="name_en">Name (EN):</label><input autocomplete="on" type="text" id="name_en"
-                    placeholder="MySong -Cover Edition-">
-                <label for="voc_en">Vocal (EN):</label><input autocomplete="on" type="text" id="voc_en"
-                    placeholder="Cover Edition">
-                <label for="as_file">File name and extension:</label><input autocomplete="on" type="text" id="as_file"
-                    placeholder="pv_123_all.ogg">
-                <br>
-                <div class="row">
-                    <btn id="remlastbtn" class="modalbtn modalbtn_red" onclick="remlast_clicked();">Remove last</btn>
-                    <btn id="addasbtn" class="modalbtn modalbtn_blue" onclick="addas_clicked();">Add</btn>
-                </div>
-                <div class="row footer">
-                    <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step1();">Back</btn>
-                    <btn id="to_step3btn" class="modalbtn modalbtn_blue" onclick="step2to3();">Next</btn>
-                </div>
-            </div>
-            <div class="column">
-                <table id="as_table">
-                    <tr>
-                        <th>Name (JP)</th>
-                        <th>Vocal (JP)</th>
-                        <th>Name (EN)</th>
-                        <th>Vocal (EN)</th>
-                        <th>File</th>
-                    </tr>
-                </table>
-                <br>
-            </div>
+        <select id="dropdown_db" size="10"></select>
+        <div class="row footer">
+            <btn id="to_step1btn" class="modalbtn modalbtn_red" onclick="to_step0p2();">Back</btn>
+            <btn id="to_step2btn" class="modalbtn modalbtn_blue" onclick="to_step2();">Next</btn>
         </div>
-        <div id="step3" class="entry_area column" style="display: none;"> <!-- Step 3: result -->
+    </div>
+    <br>
+    <div id="step2" class="another_song row" style="display: none;">
+        <!-- Step 2: cover -->
+        <div class="column">
+            <label for="name_jp">Name (JP):</label><input autocomplete="on" type="text" id="name_jp"
+                placeholder="MySong -Cover Edition-">
+            <label for="voc_jp">Vocal (JP):</label><input autocomplete="on" type="text" id="voc_jp"
+                placeholder="Cover Edition">
+            <label for="name_en">Name (EN):</label><input autocomplete="on" type="text" id="name_en"
+                placeholder="MySong -Cover Edition-">
+            <label for="voc_en">Vocal (EN):</label><input autocomplete="on" type="text" id="voc_en"
+                placeholder="Cover Edition">
+            <label for="as_file">File name and extension:</label><input autocomplete="on" type="text" id="as_file"
+                placeholder="pv_123_all.ogg">
             <br>
-            <textarea autocomplete="off" id="newentry"></textarea>
-            <br>
-            <btn id="dwbtn" class="modalbtn modalbtn_blue" onclick="download_clicked();">Save</btn>
+            <div class="row">
+                <btn id="remlastbtn" class="modalbtn modalbtn_red" onclick="remlast_clicked();">Remove last</btn>
+                <btn id="addasbtn" class="modalbtn modalbtn_blue" onclick="addas_clicked();">Add</btn>
+            </div>
             <div class="row footer">
-                <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step2();">Back</btn>
+                <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step1();">Back</btn>
+                <btn id="to_step3btn" class="modalbtn modalbtn_blue" onclick="step2to3();">Next</btn>
             </div>
         </div>
+        <div class="column">
+            <table id="as_table">
+                <tr>
+                    <th>Name (JP)</th>
+                    <th>Vocal (JP)</th>
+                    <th>Name (EN)</th>
+                    <th>Vocal (EN)</th>
+                    <th>File</th>
+                </tr>
+            </table>
+            <br>
+        </div>
+    </div>
+    <div id="step3" class="entry_area column" style="display: none;">
+        <!-- Step 3: result -->
+        <textarea autocomplete="off" id="newentry"></textarea>
+        <btn id="dwbtn" class="modalbtn modalbtn_blue" onclick="download_clicked();">Save</btn>
+        <div class="filetree struct1" id="struct1">
+            <div class="row file"><img src="./icons/folder-multi.png" alt="[]" width="32" height="32">Hatsune Miku
+                Project Diva Mega Mix+</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                    height="32">mods</div>
+            <div class="row file indent2 indentarrow customfld"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                    height="32">
+                <div id="modfld2">Template Mod</div>
+            </div>
+            <div class="row file indent3 indentarrow customfld"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                    height="32">rom</div>
+            <div class="row file indent4 indentarrow puthere customfld"><img src="./icons/text-x-generic.png" alt="[]" width="32"
+                    height="32">mod_pv_db.txt</div>
+            <div class="row file indent4 indentarrow customfld"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                    height="32">sound</div>
+            <div class="row file indent5 indentarrow customfld"><img src="./icons/folder-multi.png" alt="[]" width="32"
+                    height="32">song</div>
+            <div class="row file indent6 indentarrow putsongshere customfld"><img src="./icons/audio-x-generic.png" alt="[]"
+                    width="32" height="32">
+                <div id="modaud1">pv_123_all.ogg</div>
+            </div>
+            <div class="row file indent6 indentarrow customfld"><img src="./icons/audio-x-generic.png" alt="[]" width="32"
+                    height="32" id="modaud2">...</div>
+            <div class="row file indent3 indentarrow customfld"><img src="./icons/text-x-generic.png" alt="[]" width="32"
+                    height="32">config.toml</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/text-x-generic.png" alt="[]" width="32"
+                    height="32">config.toml</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-x-sharedlib.png" alt="[]" width="32"
+                    height="32">dinput8.dll</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-x-executable.png" alt="[]"
+                    width="32" height="32">DivaMegaMix.exe</div>
+            <div class="row file indent1 indentarrow"><img src="./icons/application-octet-stream.png" alt="[]"
+                    width="32" height="32">...</div>
+        </div>
+        <div class="row footer">
+            <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step2();">Back</btn>
+        </div>
+    </div>
     </div>
 </body>
 <script src="./pv_db_list.min.js"></script>
@@ -180,12 +236,13 @@
         if (name == '' || description == '' || version == '' || author == '') {
             alert("Some fields are empty.")
         }
-        else
-        {
+        else {
             const today = new Date();
-            const date = String(today.getDate()).padStart(2, '0') + '.' + String(today.getMonth()+1).padStart(2, '0') + '.' + String(today.getFullYear()).padStart(4, '0');
+            const date = String(today.getDate()).padStart(2, '0') + '.' + String(today.getMonth() + 1).padStart(2, '0') + '.' + String(today.getFullYear()).padStart(4, '0');
             const tomlarea = document.getElementById('newtoml');
             tomlarea.value = `enabled = true\ninclude = ["."]\n\nname = "${name}"\ndescription = "${description}"\nversion = "${version}"\ndate = "${date}"\nauthor = "${author}"`;
+            document.getElementById('modfld1').innerText = name;
+            document.getElementById('modfld2').innerText = name;
             to_step0p2();
         }
     }
@@ -194,6 +251,8 @@
         const table = document.getElementById('as_table');
         if (table.rows.length > 1) {
             ok_clicked();
+            const splitpath = table.rows[1].cells[4].innerText.split('/');
+            document.getElementById('modaud1').innerText = splitpath[splitpath.length-1];
             to_step3();
         }
         else {
@@ -297,6 +356,10 @@
         else if (!filen.value.toLowerCase().endsWith('.ogg')) {
             alert("Unsupported file format.");
         }
+        else if (filen.value.length < 5)
+        {
+            alert("Missing file name.")
+        }
         else {
             const filep = 'rom/sound/song/' + filen.value;
             const row = table.insertRow(-1);
@@ -315,8 +378,7 @@
 
     function remlast_clicked() {
         const table = document.getElementById('as_table');
-        if (table.rows.length > 1)
-        {
+        if (table.rows.length > 1) {
             table.deleteRow(-1);
         }
     }
