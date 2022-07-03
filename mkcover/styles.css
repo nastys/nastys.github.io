@@ -44,3 +44,10 @@ input
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.footer
+{
+    position: fixed;
+    bottom: 20px;
+    border-top: none;
+}

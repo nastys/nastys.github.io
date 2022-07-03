@@ -93,11 +93,11 @@ function window_rmcommands()
     headerlab.innerText = " commands";
     header.appendChild(headerlab);
 
-    const btnok = document.createElement('btn1');
+    const btnok = document.createElement('btn');
     btnok.classList.add('modalbtn');
     btnok.classList.add('modalbtn_blue');
     btnok.innerText = 'OK';
-    const btncanc = document.createElement('btn2');
+    const btncanc = document.createElement('btn');
     btncanc.classList.add('modalbtn');
     btncanc.classList.add('modalbtn_red');
     btncanc.innerText = 'Cancel';

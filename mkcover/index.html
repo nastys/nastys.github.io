@@ -3,59 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="../dsceditor/styles.css" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
-    <title>Cover maker</title>
+    <title>Cover Helper</title>
     <meta name="theme-color" content="#9a8cee" />
 </head>
 
 <body>
     <div>
-        Want to add alternate versions of songs? We've got you <i>covered!</i>
+        Want to add alternate versions of songs but don't know where to begin?<br>
+        Don't worry, we've got you <i>covered!</i>
     </div>
     <br>
     <div class="row">
-        <div class="another_song column">
-            another_song
+        <div id="step0" calss="metadata row"> <!-- Metadata part 1 -->
+            <div class="column">
+                <label for="md_name">Mod name:</label><input autocomplete="on" type="text" id="md_name"
+                    placeholder="My Cover Mod">
+                <label for="md_description">Mod description:</label><input autocomplete="on" type="text" id="md_description"
+                    placeholder="Adds covers.">
+                <label for="md_version">Mod version:</label><input autocomplete="on" type="text" id="md_version"
+                    placeholder="1.0">
+                <label for="md_author">Mod author:</label><input autocomplete="on" type="text" id="md_author"
+                    placeholder="MeTheModder, CoverMaker-P">
+                <br>
+                <div class="row footer">
+                    <btn id="to_step0p2btn" class="modalbtn modalbtn_blue" onclick="step0to0p2();">Next</btn>
+                </div>
+            </div>
+        </div>
+        <div id="step0p2" class="metadata2 column" style="display: none;"> <!-- Metadata part 2: result -->
             <br>
-            <label for="name_jp">Name (JP):</label><input autocomplete="off" type="text" id="name_jp"
-                value="MySong -Cover Edition-">
-            <label for="voc_jp">Vocal (JP):</label><input autocomplete="off" type="text" id="voc_jp"
-                value="Cover Edition">
-            <label for="name_en">Name (EN):</label><input autocomplete="off" type="text" id="name_en"
-                value="MySong -Cover Edition-">
-            <label for="voc_en">Vocal (EN):</label><input autocomplete="off" type="text" id="voc_en"
-                value="Cover Edition">
-            <label for="as_file">File name and extension:</label><input autocomplete="off" type="text" id="as_file"
-                value="rom/sound/song/pv_123_all.ogg">
+            <textarea autocomplete="off" id="newtoml"></textarea>
             <br>
-            <input type="button" id="addasbtn" onclick="addas_clicked();" value="Add">
+            <btn id="tomldwbtn" class="modalbtn modalbtn_blue" onclick="toml_download_clicked();">Save</btn>
+            <div class="row footer">
+                <btn id="to_step0btn" class="modalbtn modalbtn_red" onclick="to_step0();">Back</btn>
+                <btn id="to_step1btn" class="modalbtn modalbtn_blue" onclick="to_step1();">Next</btn>
+            </div>
+        </div>
+        <div id="step1" class="filter_area column" style="display: none;"> <!-- Step 1: song -->
+            <label for="filter">Filter:</label><input autocomplete="off" type="text" id="filter"
+                oninput="filter(this.value);">
             <br>
-            <table id="as_table">
-                <tr>
-                    <th>Name (JP)</th>
-                    <th>Vocal (JP)</th>
-                    <th>Name (EN)</th>
-                    <th>Vocal (EN)</th>
-                    <th>File</th>
-                </tr>
-            </table>
-            <br>
-            <input type="button" id="clearasbtn" onclick="clearas_clicked();" value="Clear">
+            <select id="dropdown_db" size="10"></select>
+            <div class="row footer">
+                <btn id="to_step1btn" class="modalbtn modalbtn_red" onclick="to_step0p2();">Back</btn>
+                <btn id="to_step2btn" class="modalbtn modalbtn_blue" onclick="to_step2();">Next</btn>
+            </div>
         </div>
         <br>
-        <div class="filter_area column">
-            <label for="filter">Filter:</label><input type="text" id="filter" oninput="filter(this.value);">
-            <br>
-            <select id="dropdown_db" size="10"
-                oninput="document.getElementById('okbtn').removeAttribute('disabled');"></select>
-            <input type="button" id="okbtn" onclick="ok_clicked();" value="Generate" disabled="true">
+        <div id="step2" class="another_song row" style="display: none;"> <!-- Step 2: cover -->
+            <div class="column">
+                <label for="name_jp">Name (JP):</label><input autocomplete="on" type="text" id="name_jp"
+                    placeholder="MySong -Cover Edition-">
+                <label for="voc_jp">Vocal (JP):</label><input autocomplete="on" type="text" id="voc_jp"
+                    placeholder="Cover Edition">
+                <label for="name_en">Name (EN):</label><input autocomplete="on" type="text" id="name_en"
+                    placeholder="MySong -Cover Edition-">
+                <label for="voc_en">Vocal (EN):</label><input autocomplete="on" type="text" id="voc_en"
+                    placeholder="Cover Edition">
+                <label for="as_file">File name and extension:</label><input autocomplete="on" type="text" id="as_file"
+                    placeholder="pv_123_all.ogg">
+                <br>
+                <div class="row">
+                    <btn id="remlastbtn" class="modalbtn modalbtn_red" onclick="remlast_clicked();">Remove last</btn>
+                    <btn id="addasbtn" class="modalbtn modalbtn_blue" onclick="addas_clicked();">Add</btn>
+                </div>
+                <div class="row footer">
+                    <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step1();">Back</btn>
+                    <btn id="to_step3btn" class="modalbtn modalbtn_blue" onclick="step2to3();">Next</btn>
+                </div>
+            </div>
+            <div class="column">
+                <table id="as_table">
+                    <tr>
+                        <th>Name (JP)</th>
+                        <th>Vocal (JP)</th>
+                        <th>Name (EN)</th>
+                        <th>Vocal (EN)</th>
+                        <th>File</th>
+                    </tr>
+                </table>
+                <br>
+            </div>
         </div>
-        <br>
-        <div class="entry_area column">
+        <div id="step3" class="entry_area column" style="display: none;"> <!-- Step 3: result -->
             <br>
-            <textarea id="newentry"></textarea>
+            <textarea autocomplete="off" id="newentry"></textarea>
             <br>
-            <input type="button" id="dwbtn" onclick="download_clicked();" value="Save mod_pv_db.txt">
+            <btn id="dwbtn" class="modalbtn modalbtn_blue" onclick="download_clicked();">Save</btn>
+            <div class="row footer">
+                <btn id="to_step2btn" class="modalbtn modalbtn_red" onclick="to_step2();">Back</btn>
+            </div>
         </div>
     </div>
 </body>
@@ -84,6 +124,81 @@
         op.innerText = dben[0] + ': ' + dben[1].song_name_en;
         const select = document.getElementById('dropdown_db');
         select.appendChild(op);
+    }
+
+    function to_step0() {
+        document.getElementById('step0p2').style.display = 'none';
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'none';
+        document.getElementById('step0').style.display = '';
+    }
+
+    function to_step0p2() {
+        document.getElementById('step0').style.display = 'none';
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'none';
+        document.getElementById('step0p2').style.display = '';
+    }
+
+    function to_step1() {
+        document.getElementById('step0').style.display = 'none';
+        document.getElementById('step0p2').style.display = 'none';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'none';
+        document.getElementById('step1').style.display = '';
+    }
+
+    function to_step2() {
+        const selected = document.getElementById('dropdown_db').value;
+        if (selected) {
+            document.getElementById('step0').style.display = 'none';
+            document.getElementById('step0p2').style.display = 'none';
+            document.getElementById('step1').style.display = 'none';
+            document.getElementById('step3').style.display = 'none';
+            document.getElementById('step2').style.display = '';
+        }
+        else {
+            alert("No song selected.");
+        }
+    }
+
+    function to_step3() {
+        document.getElementById('step0').style.display = 'none';
+        document.getElementById('step0p2').style.display = 'none';
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = '';
+    }
+
+    function step0to0p2() {
+        const name = document.getElementById('md_name').value;
+        const description = document.getElementById('md_description').value;
+        const version = document.getElementById('md_version').value;
+        const author = document.getElementById('md_author').value;
+        if (name == '' || description == '' || version == '' || author == '') {
+            alert("Some fields are empty.")
+        }
+        else
+        {
+            const today = new Date();
+            const date = String(today.getDate()).padStart(2, '0') + '.' + String(today.getMonth()+1).padStart(2, '0') + '.' + String(today.getFullYear()).padStart(4, '0');
+            const tomlarea = document.getElementById('newtoml');
+            tomlarea.value = `enabled = true\ninclude = ["."]\n\nname = "${name}"\ndescription = "${description}"\nversion = "${version}"\ndate = "${date}"\nauthor = "${author}"`;
+            to_step0p2();
+        }
+    }
+
+    function step2to3() {
+        const table = document.getElementById('as_table');
+        if (table.rows.length > 1) {
+            ok_clicked();
+            to_step3();
+        }
+        else {
+            alert("No entries to add.");
+        }
     }
 
     function ok_clicked() {
@@ -173,32 +288,57 @@
         const namee = document.getElementById('name_en');
         const voce = document.getElementById('voc_en');
         const filen = document.getElementById('as_file');
-        const row = table.insertRow(-1);
-        row.insertCell(0).innerText = namej.value;
-        row.insertCell(1).innerText = vocj.value;
-        row.insertCell(2).innerText = namee.value;
-        row.insertCell(3).innerText = voce.value;
-        row.insertCell(4).innerText = filen.value;
+        if (namej.value == '' || vocj.value == '' || namee.value == '' || voce.value == '') {
+            alert("Some fields are empty.")
+        }
+        else if (filen.value === '') {
+            alert("No file specified.");
+        }
+        else if (!filen.value.toLowerCase().endsWith('.ogg')) {
+            alert("Unsupported file format.");
+        }
+        else {
+            const filep = 'rom/sound/song/' + filen.value;
+            const row = table.insertRow(-1);
+            row.insertCell(0).innerText = namej.value;
+            row.insertCell(1).innerText = vocj.value;
+            row.insertCell(2).innerText = namee.value;
+            row.insertCell(3).innerText = voce.value;
+            row.insertCell(4).innerText = filep;
+        }
     }
 
     function clearas_clicked() {
         const table = document.getElementById('as_table');
-        while (table.rows.length > 1) {table.deleteRow(1);}
+        while (table.rows.length > 1) { table.deleteRow(1); }
     }
 
-    function download_clicked() {
-        const fileblob = new Blob([document.getElementById('newentry').value], { type: 'text/plain' });
+    function remlast_clicked() {
+        const table = document.getElementById('as_table');
+        if (table.rows.length > 1)
+        {
+            table.deleteRow(-1);
+        }
+    }
+
+    function download(text, filename, filetype) {
+        const fileblob = new Blob([text], { type: filetype });
         const filelink = document.createElement('a');
         const fileurl = URL.createObjectURL(fileblob);
         filelink.href = fileurl;
         filelink.target = "_blank";
-        filelink.download = "mod_pv_db.txt";
+        filelink.download = filename;
         filelink.click();
         filelink.remove();
     }
 
-    document.getElementById('newentry').value = '';
-    document.getElementById('filter').value = '';
+    function download_clicked() {
+        download(document.getElementById('newentry').value, "mod_pv_db.txt", 'text/plain');
+    }
+
+    function toml_download_clicked() {
+        download(document.getElementById('newtoml').value, "config.toml", 'application/toml');
+    }
 </script>
 
 </html>
