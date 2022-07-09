@@ -16,10 +16,11 @@ function remove_command(opcode)
 
 function time_adjacent_cleanup()
 {
+    // todo cleanup "TIME();PV_BRANCH_MODE();TIME();"
     const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
     const model = editor.getModel();
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
-    console.log(`Found ${matches.length} commands.`);
+    //console.log(`Found ${matches.length} commands.`);
 
     let ops = [];
     for (let i = 0; i < matches.length - 1; i++)
@@ -31,8 +32,78 @@ function time_adjacent_cleanup()
         }
     };
 
-    console.log(`Will only delete ${ops.length} of them.`);
+    //console.log(`Will only delete ${ops.length} of them.`);
     model.pushEditOperations([], ops, () => null);
+}
+
+function push_ops(ops, op)
+{
+    let exists = false;
+    ops.forEach(function(eop)
+    {
+        if (eop.range == op.range)
+        {
+            exists = true;
+            return;
+        }
+    });
+
+    if (!exists)
+    {
+        ops.push(op);
+    }
+}
+
+function time_cleanup()
+{
+    const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    const model = editor.getModel();
+    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
+    //console.log(`Found ${matches.length} commands.`);
+
+    let ops = [];
+    let last_time;
+    let last_linen;
+    for (let i = 0; i < matches.length; i++)
+    {
+        const line = model.getValueInRange(matches[i].range).trim();
+        const par_start = line.indexOf('(');
+        const par_end = line.indexOf(')');
+        const par_in = line.substring(par_start + 1, par_end);
+        const params = par_in.split(',');
+        const current_time = params[0];
+        const current_linen = matches[i].range.startLineNumber;
+        if (params.length != 1 || current_time == '')
+        {
+            console.error(`Invalid TIME command at line ${linen}.`);
+            alert(`Invalid TIME command at line ${linen}.`);
+            continue;
+        }
+
+        if (i > 0)
+        {
+            if (parseInt(current_time) <= parseInt(last_time))
+            {
+                const op = {range: matches[i].range, text: ''};
+                push_ops(ops, op);
+            }
+        }
+
+        last_time = current_time;
+        last_linen = current_linen;
+    };
+
+    //console.log(`Deleting ${ops.length} of them.`);
+    model.pushEditOperations([], ops, () => null);
+
+    if (ops.length > 0) 
+    {
+        time_cleanup();
+    }
+    else
+    {
+        time_adjacent_cleanup();
+    }
 }
 
 function window_rmcommands()

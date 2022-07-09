@@ -84,12 +84,12 @@ document.getElementById('menuitem_rmtargets').onclick = function ()
     remove_command('TARGET');
     remove_command('TARGET_FLYING_TIME');
     remove_command('BAR_TIME_SET');
-    time_adjacent_cleanup();
+    time_cleanup();
 }
 
 document.getElementById('menuitem_timecleanup').onclick = function ()
 {
-    time_adjacent_cleanup();
+    time_cleanup();
 }
 
 document.getElementById('menuitem_rmcommands').onclick = function ()
