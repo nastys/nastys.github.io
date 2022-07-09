@@ -51,12 +51,17 @@ async function open_dsc()
 document.getElementById('toolsaveas').onclick = saveas_dsc;
 document.getElementById('menuitem_saveas').onclick = saveas_dsc;
 
+function getFmtToNum()
+{
+    return parseInt(id_ver.value, 16);
+}
+
 function saveas_dsc()
 {
     setProgress(0);
     const worker = new Worker("./dsc_worker_write.js");
     const lines = editor.getValue().split(/\r?\n/);
-    worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: id_ver.value});
+    worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: getFmtToNum()});
     worker.onmessage = worker_message_handler;
 };
 
@@ -64,7 +69,7 @@ function read_dsc(files)
 {
     setProgress(0);
     const worker = new Worker("./dsc_worker_read.js");
-    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: id_ver.value});
+    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum()});
     worker.onmessage = worker_message_handler;
 }
 
@@ -79,7 +84,7 @@ function worker_message_handler(e)
             id_fmt.value = e.data.data;
             break;
         case 'setver':
-            id_ver.value = e.data.data;
+            id_ver.value = e.data.data.toString(16);
             break;
         case 'datatext':
             editor.setValue(e.data.data);

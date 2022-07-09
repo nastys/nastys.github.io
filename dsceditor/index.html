@@ -32,12 +32,12 @@
     <div id="container" class="editor"></div>
 
     <div id="footer" class="footer gradient">
-      <label for="format">Format:</label><select name="Format" id="dscfmt" style="margin-left: 10px;">
+      <label for="format">Game:</label><select name="Format" id="dscfmt" autocomplete="off" style="margin-left: 5px;">
         <option value="ft">FT</option>
         <option value="dt2">DT 2nd</option>
       </select>
 
-      <label for="dscver" style="margin-left: 10px;">Version:</label><input type="text" id="dscver" name="dscver" style="margin-left: 10px;">
+      <label for="dscver" style="margin-left: 10px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off">
     </div>
 
     <div class="menu gradient" id="menu_file" hidden>
@@ -91,7 +91,7 @@
     }
 
     document.getElementById('dscfmt').value = 'ft';
-    document.getElementById('dscver').value = '353510679';
+    document.getElementById('dscver').value = '15122517';
 	</script>
   <script src="./editor_util.js"></script>
   <script src="./menu.js"></script>
