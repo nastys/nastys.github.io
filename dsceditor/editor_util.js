@@ -202,3 +202,110 @@ function window_rmcommands()
 
     bg.style.display = '';
 }
+
+function bookmark_toggle() 
+{
+    const id_to_remove = [];
+    const line = editor.getPosition().lineNumber;
+    const decorations = editor.getModel().getAllDecorations();
+    decorations.forEach(function(decoration)
+    {
+        bookmarks.forEach(function(bookmark)
+        {
+            if (bookmark.includes(decoration.id) && decoration.range.startLineNumber == line)
+            {
+                id_to_remove.push(decoration.id);
+            }
+        });
+    });
+
+    if (id_to_remove.length > 0)
+    {
+        editor.deltaDecorations(id_to_remove,[]);
+        const index = bookmarks.indexOf(id_to_remove[0]);
+        bookmarks.splice(index, 1);
+    }
+    else
+    {
+        bookmarks.push(editor.deltaDecorations(
+            [],
+            [
+                {
+                    range: new monaco.Range(line, 1, line, 1),
+                    options:
+                    {
+                        isWholeLine: true,
+                        stickiness: 1,
+                        minimap: true,
+                        overviewRuler: true,
+                        glyphMarginClassName: 'm_bookmark'
+                    }
+                }
+            ]
+        ));
+    }
+}
+
+function bookmark_find(next) 
+{
+    var BreakException = {};
+
+    const line = editor.getPosition().lineNumber;
+    const decorations = editor.getModel().getAllDecorations();
+    let bookmap = [];
+    bookmarks.forEach(function(bookmark) {
+        decorations.forEach(function(dec) {
+            if (bookmark.includes(dec.id))
+            {
+                bookmap.push(dec.range.startLineNumber);
+            }
+        })
+    });
+    bookmap.sort((a, b) => {
+        if (next)
+        {
+            return a > b;
+        }
+        else
+        {
+            return a < b;
+        }
+    });
+    bookmap = bookmap.filter((a) => {
+        if (next)
+        {
+            return a > line;
+        }
+        else
+        {
+            return a < line;
+        }
+    });
+    if (bookmap.length)
+    {
+        editor.revealLineInCenter(bookmap[0]);
+        editor.setPosition({column: 1, lineNumber: bookmap[0]});
+    }
+}
+
+function bookmark_clear() 
+{
+    const ids_to_remove = [];
+    const decorations = editor.getModel().getAllDecorations();
+    decorations.forEach(function(decoration)
+    {
+        bookmarks.forEach(function(bookmark)
+        {
+            if (bookmark.includes(decoration.id))
+            {
+                ids_to_remove.push(decoration.id);
+                bookmarks.splice(bookmark.indexOf(decoration.id), 1);
+            }
+        });
+    });
+
+    if (ids_to_remove.length > 0)
+    {
+        editor.deltaDecorations(ids_to_remove,[]);
+    }
+}

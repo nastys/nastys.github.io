@@ -87,6 +87,7 @@ function worker_message_handler(e)
             id_ver.value = e.data.data.toString(16);
             break;
         case 'datatext':
+            bookmarks = [];
             editor.setValue(e.data.data);
             editor.revealLineInCenter(1);
             editor.setPosition({column: 1, lineNumber: 1});

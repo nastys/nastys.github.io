@@ -9,6 +9,7 @@ require(['vs/editor/editor.main'], function () {
         value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'javascript',
         automaticLayout: true,
+        glyphMargin: true,
         theme: browser_dark ? 'vs-dark' : 'vs-light',
     });
 });

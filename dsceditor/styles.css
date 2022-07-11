@@ -198,6 +198,7 @@ body
     border-radius: 0.2rem !important;
     position: fixed;
     top: 24px;
+    min-width: 80px;
 }
 
 .menuitem
@@ -352,4 +353,36 @@ body
     padding: 0;
     font-family: 'Open Sans';
 }
-/* Add styles here to customize the appearance of your app */
+
+.myGlyphMarginClass {
+	background: red;
+}
+
+.myContentClass {
+	background: lightblue;
+}
+
+.m_triangle::before
+{
+    content: url("./icons/m_triangle.png") !important;
+}
+
+.m_square::before
+{
+    content: url("./icons/m_square.png") !important;
+}
+
+.m_cross::before
+{
+    content: url("./icons/m_cross.png") !important;
+}
+
+.m_circle::before
+{
+    content: url("./icons/m_circle.png") !important;
+}
+
+.m_bookmark
+{
+    background: blue;
+}

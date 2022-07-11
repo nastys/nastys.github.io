@@ -21,8 +21,10 @@
     </div>
     <div class="menubar gradient" id="menubar">
       <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
+      <div class="menubaritem" id="menubaritem_edit"><div class=menubaritemtext>Edit</div></div>
       <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
-      <div class="menubaritem" id="menubaritem_edits"><div class=menubaritemtext>Edits</div></div>
+      <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
+      <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
       <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
     </div>
     <div class="toolbar gradient" id="toolbar">
@@ -44,13 +46,26 @@
       <div class="menuitem" id="menuitem_open"><div class="menuitemtext">Open...</div></div>
       <div class="menuitem" id="menuitem_saveas"><div class="menuitemtext">Save as...</div></div>
     </div>
+    <div class="menu gradient" id="menu_edit" hidden>
+      <div class="menuitem" id="menuitem_undo"><div class="menuitemtext">Undo</div></div>
+      <div class="menuitem" id="menuitem_redo"><div class="menuitemtext">Redo</div></div>
+      <div class="menuitem" id="menuitem_find"><div class="menuitemtext">Find...</div></div>
+      <div class="menuitem" id="menuitem_replace"><div class="menuitemtext">Replace...</div></div>
+    </div>
     <div class="menu gradient" id="menu_tools" hidden>
       <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove TARGET, BAR_TIME_SET, and TARGET_FLYING_TIME</div></div>
       <div class="menuitem" id="menuitem_timecleanup"><div class="menuitemtext">Remove unused TIME commands</div></div>
       <div class="menuitem" id="menuitem_rmcommands"><div class="menuitemtext">Remove or isolate commands...</div></div>
     </div>
-    <div class="menu gradient" id="menu_edits" hidden>
-      <div class="menuitem" id="menuitem_edit_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
+    <div class="menu gradient" id="menu_convert" hidden>
+      <!--<div class="menuitem" id="menuitem_convert_f_ft"><div class="menuitemtext">DT 2nd/f to FT...</div></div>-->
+      <div class="menuitem" id="menuitem_convert_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
+    </div>
+    <div class="menu gradient" id="menu_bookmarks" hidden>
+      <div class="menuitem" id="menuitem_togglebkm"><div class="menuitemtext">Toggle bookmark</div></div>
+      <div class="menuitem" id="menuitem_nextbkm"><div class="menuitemtext">Next bookmark</div></div>
+      <div class="menuitem" id="menuitem_prevbkm"><div class="menuitemtext">Previous bookmark</div></div>
+      <!--<div class="menuitem" id="menuitem_rmallbkm"><div class="menuitemtext">Remove all bookmarks</div></div>-->
     </div>
     <div class="menu gradient" id="menu_help" hidden>
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
@@ -60,6 +75,7 @@
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
     var editor;
+    var bookmarks = [];
 
     var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
