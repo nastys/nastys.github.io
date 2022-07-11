@@ -19,32 +19,33 @@
         <div id="modalwndfooter" class="modalwndfooter"></div>
       </div>
     </div>
-    <div class="menubar gradient" id="menubar">
-      <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
-      <div class="menubaritem" id="menubaritem_edit"><div class=menubaritemtext>Edit</div></div>
-      <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
-      <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
-      <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
-      <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
-    </div>
-    <div class="toolbar gradient" id="toolbar">
-      <div class="toolbutton hastooltip" id="toolopen"><span class="menu gradient tooltip">Open...</span><img class="toolicon" src="./icons/OpenFile.svg" draggable="false"/></div>
-      <div class="toolbutton hastooltip" id="toolsaveas"><span class="menu gradient tooltip">Save as...</span><img class="toolicon" src="./icons/SaveAs.svg" draggable="false"/></div>
-      <div class="toolseparator"></div>
-      <div class="toolbutton hastooltip" id="toolundo"><span class="menu gradient tooltip">Undo</span><img class="toolicon" src="./icons/Undo.svg" draggable="false"/></div>
-      <div class="toolbutton hastooltip" id="toolredo"><span class="menu gradient tooltip">Redo</span><img class="toolicon" src="./icons/Redo.svg" draggable="false"/></div>
-      <div class="toolseparator"></div>
-      <div class="toolbutton hastooltip" id="toolsearch"><span class="menu gradient tooltip">Find...</span><img class="toolicon" src="./icons/Search.svg" draggable="false"/></div>
-      <div class="toolseparator"></div>
-      <div class="toolbutton hastooltip" id="toolbktoggle"><span class="menu gradient tooltip">Toggle bookmark</span><img class="toolicon" src="./icons/Bookmark.svg" draggable="false"/></div>
-      <div class="toolbutton hastooltip" id="toolbkprev"><span class="menu gradient tooltip">Previous bookmark</span><img class="toolicon" src="./icons/PreviousBookmark.svg" draggable="false"/></div>
-      <div class="toolbutton hastooltip" id="toolbknext"><span class="menu gradient tooltip">Next bookmark</span><img class="toolicon" src="./icons/NextBookmark.svg" draggable="false"/></div>
-      <div class="toolbutton hastooltip" id="toolbkclear"><span class="menu gradient tooltip">Remove all bookmarks</span><img class="toolicon" src="./icons/ClearBookmark.svg" draggable="false"/></div>
-
+    <div class="gradient2">
+      <div class="menubar" id="menubar">
+        <div class="menubaritem" id="menubaritem_file"><div class=menubaritemtext>File</div></div>
+        <div class="menubaritem" id="menubaritem_edit"><div class=menubaritemtext>Edit</div></div>
+        <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
+        <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
+        <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
+        <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
+      </div>
+      <div class="toolbar" id="toolbar">
+        <div class="toolbutton hastooltip" id="toolopen"><span class="menu gradient tooltip">Open...</span><img class="toolicon" src="./icons/OpenFile.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolsaveas"><span class="menu gradient tooltip">Save as...</span><img class="toolicon" src="./icons/SaveAs.svg" draggable="false"/></div>
+        <div class="toolseparator"></div>
+        <div class="toolbutton hastooltip" id="toolundo"><span class="menu gradient tooltip">Undo</span><img class="toolicon" src="./icons/Undo.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolredo"><span class="menu gradient tooltip">Redo</span><img class="toolicon" src="./icons/Redo.svg" draggable="false"/></div>
+        <div class="toolseparator"></div>
+        <div class="toolbutton hastooltip" id="toolsearch"><span class="menu gradient tooltip">Find...</span><img class="toolicon" src="./icons/Search.svg" draggable="false"/></div>
+        <div class="toolseparator"></div>
+        <div class="toolbutton hastooltip" id="toolbktoggle"><span class="menu gradient tooltip">Toggle bookmark</span><img class="toolicon" src="./icons/Bookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolbkprev"><span class="menu gradient tooltip">Previous bookmark</span><img class="toolicon" src="./icons/PreviousBookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolbknext"><span class="menu gradient tooltip">Next bookmark</span><img class="toolicon" src="./icons/NextBookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolbkclear"><span class="menu gradient tooltip">Remove all bookmarks</span><img class="toolicon" src="./icons/ClearBookmark.svg" draggable="false"/></div>
+      </div>
     </div>
     <div id="container" class="editor"></div>
 
-    <div id="footer" class="footer gradient">
+    <div id="footer" class="footer gradient2">
       <label for="format">Game:</label><select name="Format" id="dscfmt" autocomplete="off" style="margin-left: 5px;">
         <option value="ft">FT</option>
         <option value="dt2">DT 2nd</option>
@@ -53,32 +54,32 @@
       <label for="dscver" style="margin-left: 10px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off">
     </div>
 
-    <div class="menu gradient" id="menu_file" hidden>
+    <div class="menu gradient2" id="menu_file" hidden>
       <div class="menuitem" id="menuitem_open"><img src="./icons/OpenFile.svg" class="menuicon-small"><div class="menuitemtext">Open...</div></div>
       <div class="menuitem" id="menuitem_saveas"><img src="./icons/SaveAs.svg" class="menuicon-small"><div class="menuitemtext">Save as...</div></div>
     </div>
-    <div class="menu gradient" id="menu_edit" hidden>
+    <div class="menu gradient2" id="menu_edit" hidden>
       <div class="menuitem" id="menuitem_undo"><img src="./icons/Undo.svg" class="menuicon-small"><div class="menuitemtext">Undo</div></div>
       <div class="menuitem" id="menuitem_redo"><img src="./icons/Redo.svg" class="menuicon-small"><div class="menuitemtext">Redo</div></div>
       <div class="menuitem" id="menuitem_find"><img src="./icons/Search.svg" class="menuicon-small"><div class="menuitemtext">Find...</div></div>
       <div class="menuitem" id="menuitem_replace"><div class="menuicon-small"></div><div class="menuitemtext">Replace...</div></div>
     </div>
-    <div class="menu gradient" id="menu_tools" hidden>
+    <div class="menu gradient2" id="menu_tools" hidden>
       <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove TARGET, BAR_TIME_SET, and TARGET_FLYING_TIME</div></div>
       <div class="menuitem" id="menuitem_timecleanup"><div class="menuitemtext">Remove unused TIME commands</div></div>
       <div class="menuitem" id="menuitem_rmcommands"><div class="menuitemtext">Remove or isolate commands...</div></div>
     </div>
-    <div class="menu gradient" id="menu_convert" hidden>
+    <div class="menu gradient2" id="menu_convert" hidden>
       <!--<div class="menuitem" id="menuitem_convert_f_ft"><div class="menuitemtext">DT 2nd/f to FT...</div></div>-->
       <div class="menuitem" id="menuitem_convert_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
     </div>
-    <div class="menu gradient" id="menu_bookmarks" hidden>
+    <div class="menu gradient2" id="menu_bookmarks" hidden>
       <div class="menuitem" id="menuitem_togglebkm"><img src="./icons/Bookmark.svg" class="menuicon-small"><div class="menuitemtext">Toggle bookmark</div></div>
       <div class="menuitem" id="menuitem_nextbkm"><img src="./icons/NextBookmark.svg" class="menuicon-small"><div class="menuitemtext">Next bookmark</div></div>
       <div class="menuitem" id="menuitem_prevbkm"><img src="./icons/PreviousBookmark.svg" class="menuicon-small"><div class="menuitemtext">Previous bookmark</div></div>
       <div class="menuitem" id="menuitem_rmallbkm"><img src="./icons/ClearBookmark.svg" class="menuicon-small"><div class="menuitemtext">Remove all bookmarks</div></div>
     </div>
-    <div class="menu gradient" id="menu_help" hidden>
+    <div class="menu gradient2" id="menu_help" hidden>
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
       <div class="menuitem" id="menuitem_src"><div class="menuitemtext">Source code...</div></div>
     </div>
