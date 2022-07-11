@@ -31,8 +31,7 @@ document.getElementById('dscfmt').onchange = function()
     }
 }
 
-document.getElementById('toolopen').onclick = open_dsc;
-document.getElementById('menuitem_open').onclick = open_dsc;
+document.getElementById('toolopen').onclick = document.getElementById('menuitem_open').onclick = open_dsc;
 
 async function open_dsc()
 {
@@ -48,8 +47,7 @@ async function open_dsc()
     file_picker.remove();
 }
 
-document.getElementById('toolsaveas').onclick = saveas_dsc;
-document.getElementById('menuitem_saveas').onclick = saveas_dsc;
+document.getElementById('toolsaveas').onclick = document.getElementById('menuitem_saveas').onclick = saveas_dsc;
 
 function getFmtToNum()
 {
@@ -87,7 +85,7 @@ function worker_message_handler(e)
             id_ver.value = e.data.data.toString(16);
             break;
         case 'datatext':
-            bookmarks = [];
+            bookmarks = []; // todo deleting a bookmarked line should delete the decoration and the bookmark instead
             editor.setValue(e.data.data);
             editor.revealLineInCenter(1);
             editor.setPosition({column: 1, lineNumber: 1});

@@ -71,36 +71,12 @@ setmenubaritem('tools');
 setmenubaritem('convert');
 setmenubaritem('help');
 
-document.getElementById('menuitem_undo').onclick = function ()
-{
-    editor.getModel().undo();
-}
-
-document.getElementById('menuitem_redo').onclick = function ()
-{
-    editor.getModel().redo();
-}
-
-document.getElementById('menuitem_find').onclick = function ()
-{
-    editor.getAction('actions.find').run();
-}
-
-document.getElementById('menuitem_replace').onclick = function ()
-{
-    editor.getAction('editor.action.startFindReplaceAction').run();
-}
-
-document.getElementById('menuitem_about').onclick = function ()
-{
-    alert("Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nMonaco Editor by Microsoft\n\nSee CREDITS");
-}
-
-document.getElementById('menuitem_src').onclick = function ()
-{
-    window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank');
-}
-
+document.getElementById('toolundo').onclick = document.getElementById('menuitem_undo').onclick = function() { editor.getModel().undo(); }
+document.getElementById('toolredo').onclick = document.getElementById('menuitem_redo').onclick = function() { editor.getModel().redo(); }
+document.getElementById('toolsearch').onclick = document.getElementById('menuitem_find').onclick = function() { editor.getAction('actions.find').run(); }
+document.getElementById('menuitem_replace').onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
+document.getElementById('menuitem_about').onclick = function() { alert("Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nMonaco Editor and Visual Studio 2022 Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+document.getElementById('menuitem_src').onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
 document.getElementById('menuitem_rmtargets').onclick = function ()
 {
     remove_command('TARGET');
@@ -108,33 +84,9 @@ document.getElementById('menuitem_rmtargets').onclick = function ()
     remove_command('BAR_TIME_SET');
     time_cleanup();
 }
-
-document.getElementById('menuitem_timecleanup').onclick = function ()
-{
-    time_cleanup();
-}
-
-document.getElementById('menuitem_rmcommands').onclick = function ()
-{
-    window_rmcommands();
-}
-
-document.getElementById('menuitem_togglebkm').onclick = function ()
-{
-    bookmark_toggle();
-}
-
-document.getElementById('menuitem_nextbkm').onclick = function ()
-{
-    bookmark_find(1);
-}
-
-document.getElementById('menuitem_prevbkm').onclick = function ()
-{
-    bookmark_find(0);
-}
-
-document.getElementById('menuitem_rmallbkm').onclick = function ()
-{
-    bookmark_clear();
-}
+document.getElementById('menuitem_timecleanup').onclick = function() { time_cleanup(); }
+document.getElementById('menuitem_rmcommands').onclick = function() { window_rmcommands(); }
+document.getElementById('toolbktoggle').onclick = document.getElementById('menuitem_togglebkm').onclick = function() { bookmark_toggle(); }
+document.getElementById('toolbknext').onclick = document.getElementById('menuitem_nextbkm').onclick = function() { bookmark_find(1); }
+document.getElementById('toolbkprev').onclick = document.getElementById('menuitem_prevbkm').onclick = function() { bookmark_find(0); }
+document.getElementById('toolbkclear').onclick = document.getElementById('menuitem_rmallbkm').onclick = function() { bookmark_clear(); }

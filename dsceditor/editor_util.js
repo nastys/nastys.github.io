@@ -174,10 +174,13 @@ function window_rmcommands()
     btncanc.innerText = 'Cancel';
     function closewnd()
     {
-        header.innerHTML = '';
-        container.innerHTML = '';
-        footer.innerHTML = '';
-        bg.style.display = 'none';
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
     }
     btncanc.onclick = function()
     {
@@ -200,7 +203,9 @@ function window_rmcommands()
     footer.appendChild(btncanc);
     footer.appendChild(btnok);
 
-    bg.style.display = '';
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
 }
 
 function bookmark_toggle() 
@@ -296,10 +301,9 @@ function bookmark_clear()
     {
         bookmarks.forEach(function(bookmark)
         {
-            if (bookmark.includes(decoration.id))
+            if (bookmark[0] == decoration.id)
             {
                 ids_to_remove.push(decoration.id);
-                bookmarks.splice(bookmark.indexOf(decoration.id), 1);
             }
         });
     });
@@ -307,5 +311,6 @@ function bookmark_clear()
     if (ids_to_remove.length > 0)
     {
         editor.deltaDecorations(ids_to_remove,[]);
+        bookmarks = [];
     }
 }
