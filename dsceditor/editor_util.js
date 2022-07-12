@@ -228,7 +228,9 @@ function bookmark_toggle()
     {
         editor.deltaDecorations(id_to_remove,[]);
         const index = bookmarks.indexOf(id_to_remove[0]);
-        bookmarks.splice(index, 1);
+        bookmarks = bookmarks.filter(function(bookmark){
+            return bookmark != id_to_remove[0];
+        });
     }
     else
     {
