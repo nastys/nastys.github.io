@@ -275,7 +275,7 @@
         const table = document.getElementById('as_table');
         const amount = table.rows.length - 1;
         const jsen = jsdb[Object.entries(jsdb)[0][0]];
-        jsen.date = new Date().toLocaleDateString('sv').replaceAll('-', '');
+        jsen.date = new Date().toLocaleDateString('sv').replaceAll('-', '') + '9';
         if (amount > 0) {
             if (typeof jsen.another_song === 'undefined') {
                 jsen.another_song = [];
