@@ -320,7 +320,8 @@
         const dottedentries = Object.entries(dotted);
         let allentries = [];
         Array.prototype.forEach.call(dottedentries, function (n) {
-            allentries.push(n[0].replaceAll('._', '_') + '=' + n[1]);
+            // using json was a bad idea
+            allentries.push(n[0].replaceAll('._', '_').replaceAll('.motion.2P.', '.motion2P.').replaceAll('.motion.3P.', '.motion3P.').replaceAll('.motion.4P.', '.motion4P.').replaceAll('.motion.5P.', '.motion5P.').replaceAll('.motion.6P.', '.motion6P.') + '=' + n[1]);
         });
         document.getElementById('newentry').value = allentries.sort().join('\n').replaceAll('.lengthset=', '.length=');
     }
