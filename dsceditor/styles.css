@@ -4,7 +4,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
 
@@ -39,7 +39,8 @@ body {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: fit-content;
+    max-height: 90vh;
     box-shadow: 0px 10px 30px #00000040;
     min-width: 400px;
     max-width: 400px;
@@ -57,7 +58,7 @@ body {
     background: linear-gradient(#9a8cee, #7d6fca);
     color: white;
     border-radius: 1rem 1rem 0 0;
-    padding-top: 10px;
+    padding-top: 13px;
     border-bottom: 1px solid grey;
 }
 
@@ -67,6 +68,9 @@ body {
     cursor: default;
     overflow: auto;
     height: 100%;
+    font-size: smaller;
+    padding: 10px;
+    line-height: 1.28;
 }
 
 .modalwndfooter {
@@ -88,11 +92,12 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0px 3px 10px #000000bb;
     display: inline-block;
-    line-height: 33px;
+    line-height: 32px;
     user-select: none;
     -webkit-user-select: none;
     cursor: default;
     margin: 12px 12px 12px 12px;
+    overflow: hidden;
 }
 
 .modalbtn_blue {
@@ -198,7 +203,7 @@ body {
     cursor: default;
 }
 
-.menuitem:hover {
+.menuitem:hover:not(.menuitem-disabled) {
     background: linear-gradient(#9a8cee, #7d6fca);
     color: white;
 }
@@ -332,17 +337,21 @@ body {
     transition: all linear 0.1s;
 }
 
-.toolbutton:hover {
+.toolbutton:hover:not(.toolbutton-disabled) {
     background-color: #ffffff22;
     border: 1px solid rgb(159, 159, 159);
     border-radius: 0.2rem;
 }
 
-.toolbutton:active {
+.toolbutton:active:not(.toolbutton-disabled) {
     background-color: #00000022;
     border: 1px solid rgb(159, 159, 159);
     border-radius: 0.2rem;
     transition: none;
+}
+
+.toolbutton-disabled, .menuitem-disabled {
+    opacity: 0.5;
 }
 
 .hastooltip .tooltip {
@@ -361,6 +370,10 @@ body {
 .hastooltip:hover .tooltip {
     visibility: visible;
     opacity: 1;
+}
+
+.toolbutton-disabled .tooltip {
+    visibility: hidden !important;
 }
 
 .editor {

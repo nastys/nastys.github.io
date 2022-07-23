@@ -200,12 +200,34 @@ function window_rmcommands()
 
         closewnd();
     }
-    footer.appendChild(btncanc);
     footer.appendChild(btnok);
+    footer.appendChild(btncanc);
 
     bg.classList.remove('hidden');
     bg.clientWidth;
     bg.classList.remove('invisible');
+}
+
+function bookmark_update()
+{
+    if(bookmarks.length)
+    {
+        document.getElementById('toolbkprev').classList.remove('toolbutton-disabled');
+        document.getElementById('menuitem_prevbkm').classList.remove('menuitem-disabled');
+        document.getElementById('toolbknext').classList.remove('toolbutton-disabled');
+        document.getElementById('menuitem_nextbkm').classList.remove('menuitem-disabled');
+        document.getElementById('toolbkclear').classList.remove('toolbutton-disabled');
+        document.getElementById('menuitem_rmallbkm').classList.remove('menuitem-disabled');
+    }
+    else
+    {
+        document.getElementById('toolbkprev').classList.add('toolbutton-disabled');
+        document.getElementById('menuitem_prevbkm').classList.add('menuitem-disabled');
+        document.getElementById('toolbknext').classList.add('toolbutton-disabled');
+        document.getElementById('menuitem_nextbkm').classList.add('menuitem-disabled');
+        document.getElementById('toolbkclear').classList.add('toolbutton-disabled');
+        document.getElementById('menuitem_rmallbkm').classList.add('menuitem-disabled');
+    }
 }
 
 function bookmark_toggle() 
@@ -251,6 +273,8 @@ function bookmark_toggle()
             ]
         ));
     }
+
+    bookmark_update();
 }
 
 function bookmark_find(next) 
@@ -315,4 +339,6 @@ function bookmark_clear()
         editor.deltaDecorations(ids_to_remove,[]);
         bookmarks = [];
     }
+
+    bookmark_update();
 }

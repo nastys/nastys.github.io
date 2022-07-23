@@ -9,13 +9,16 @@
   <body>
     <div id="progresswnd" class="progresswnd translucent">
       <div id="progressflex" class="progresswnd progresswndinner">
-        <progress id="progressbar" style="height: unset; width: 50%; margin: auto;" max="1"></progress>
+        <div id="progresscontainer" class="modalwnd" style="height: 80px; cursor: progress !important;">
+          <div id="progressheader" class="modalwndheader" style="cursor: progress !important;">Loading...</div>
+          <div id="progressinside" class="modalwndinside" style="cursor: progress !important;"><progress id="progressbar" style="height: revert; width: 100%; margin: auto; accent-color: #8074c9; cursor: progress !important;" max="1"></progress></div>
+        </div>
       </div>
     </div>
     <div id="modalbg" class="modalbg translucent invisible hidden">
       <div id="modalwnd" class="modalwnd">
         <div id="modalwndheader" class="modalwndheader"></div>
-        <div id="modalwndinside" class="modalwndinside"></div>
+        <div id="modalwndinside" class="modalwndinside" style="min-height: 50px;"></div>
         <div id="modalwndfooter" class="modalwndfooter"></div>
       </div>
     </div>
@@ -32,15 +35,15 @@
         <div class="toolbutton hastooltip" id="toolopen"><span class="menu gradient tooltip">Open...</span><img class="toolicon" src="./icons/OpenFile.svg" draggable="false"/></div>
         <div class="toolbutton hastooltip" id="toolsaveas"><span class="menu gradient tooltip">Save as...</span><img class="toolicon" src="./icons/SaveAs.svg" draggable="false"/></div>
         <div class="toolseparator"></div>
-        <div class="toolbutton hastooltip" id="toolundo"><span class="menu gradient tooltip">Undo</span><img class="toolicon" src="./icons/Undo.svg" draggable="false"/></div>
-        <div class="toolbutton hastooltip" id="toolredo"><span class="menu gradient tooltip">Redo</span><img class="toolicon" src="./icons/Redo.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolundo"><span class="menu gradient tooltip">Undo</span><img class="toolicon" src="./icons/Undo.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolredo"><span class="menu gradient tooltip">Redo</span><img class="toolicon" src="./icons/Redo.svg" draggable="false"/></div>
         <div class="toolseparator"></div>
         <div class="toolbutton hastooltip" id="toolsearch"><span class="menu gradient tooltip">Find...</span><img class="toolicon" src="./icons/Search.svg" draggable="false"/></div>
         <div class="toolseparator"></div>
         <div class="toolbutton hastooltip" id="toolbktoggle"><span class="menu gradient tooltip">Toggle bookmark</span><img class="toolicon" src="./icons/Bookmark.svg" draggable="false"/></div>
-        <div class="toolbutton hastooltip" id="toolbkprev"><span class="menu gradient tooltip">Previous bookmark</span><img class="toolicon" src="./icons/PreviousBookmark.svg" draggable="false"/></div>
-        <div class="toolbutton hastooltip" id="toolbknext"><span class="menu gradient tooltip">Next bookmark</span><img class="toolicon" src="./icons/NextBookmark.svg" draggable="false"/></div>
-        <div class="toolbutton hastooltip" id="toolbkclear"><span class="menu gradient tooltip">Remove all bookmarks</span><img class="toolicon" src="./icons/ClearBookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolbkprev"><span class="menu gradient tooltip">Previous bookmark</span><img class="toolicon" src="./icons/PreviousBookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolbknext"><span class="menu gradient tooltip">Next bookmark</span><img class="toolicon" src="./icons/NextBookmark.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolbkclear"><span class="menu gradient tooltip">Remove all bookmarks</span><img class="toolicon" src="./icons/ClearBookmark.svg" draggable="false"/></div>
       </div>
     </div>
     <div id="container" class="editor"></div>
@@ -59,8 +62,8 @@
       <div class="menuitem" id="menuitem_saveas"><img src="./icons/SaveAs.svg" class="menuicon-small"><div class="menuitemtext">Save as...</div></div>
     </div>
     <div class="menu gradient2" id="menu_edit" hidden>
-      <div class="menuitem" id="menuitem_undo"><img src="./icons/Undo.svg" class="menuicon-small"><div class="menuitemtext">Undo</div></div>
-      <div class="menuitem" id="menuitem_redo"><img src="./icons/Redo.svg" class="menuicon-small"><div class="menuitemtext">Redo</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_undo"><img src="./icons/Undo.svg" class="menuicon-small"><div class="menuitemtext">Undo</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_redo"><img src="./icons/Redo.svg" class="menuicon-small"><div class="menuitemtext">Redo</div></div>
       <div class="menuitem" id="menuitem_find"><img src="./icons/Search.svg" class="menuicon-small"><div class="menuitemtext">Find...</div></div>
       <div class="menuitem" id="menuitem_replace"><div class="menuicon-small"></div><div class="menuitemtext">Replace...</div></div>
     </div>
@@ -75,9 +78,9 @@
     </div>
     <div class="menu gradient2" id="menu_bookmarks" hidden>
       <div class="menuitem" id="menuitem_togglebkm"><img src="./icons/Bookmark.svg" class="menuicon-small"><div class="menuitemtext">Toggle bookmark</div></div>
-      <div class="menuitem" id="menuitem_nextbkm"><img src="./icons/NextBookmark.svg" class="menuicon-small"><div class="menuitemtext">Next bookmark</div></div>
-      <div class="menuitem" id="menuitem_prevbkm"><img src="./icons/PreviousBookmark.svg" class="menuicon-small"><div class="menuitemtext">Previous bookmark</div></div>
-      <div class="menuitem" id="menuitem_rmallbkm"><img src="./icons/ClearBookmark.svg" class="menuicon-small"><div class="menuitemtext">Remove all bookmarks</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_prevbkm"><img src="./icons/PreviousBookmark.svg" class="menuicon-small"><div class="menuitemtext">Previous bookmark</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_nextbkm"><img src="./icons/NextBookmark.svg" class="menuicon-small"><div class="menuitemtext">Next bookmark</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_rmallbkm"><img src="./icons/ClearBookmark.svg" class="menuicon-small"><div class="menuitemtext">Remove all bookmarks</div></div>
     </div>
     <div class="menu gradient2" id="menu_help" hidden>
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
@@ -88,6 +91,7 @@
 	<script>
     var editor;
     var bookmarks = [];
+    var modified = false;
 
     var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
@@ -104,7 +108,7 @@
       e => e.matches && setDarkMode(false)
     );
 
-    function setProgress(progress)
+    function setProgress(progress, caption)
     {
       const wnd = document.getElementById("progresswnd");
       if (progress == -1)
@@ -113,13 +117,77 @@
       }
       else
       {
+        if (typeof caption !== 'undefined')
+        {
+          document.getElementById("progressheader").innerText = caption;
+        }
         document.getElementById("progressbar").value = progress;
         wnd.removeAttribute('hidden');
       }
     }
 
+    function dialogEx(caption, content, fnok)
+    {
+      const bg = document.getElementById('modalbg');
+      const container = document.getElementById('modalwndinside');
+      const header = document.getElementById('modalwndheader');
+      const footer = document.getElementById('modalwndfooter');
+      footer.classList.add('gradient');
+      header.innerText = caption;
+      container.innerText = content;
+      
+      const btnok = document.createElement('btn');
+      btnok.classList.add('modalbtn');
+      btnok.classList.add('modalbtn_blue');
+      btnok.innerText = fnok ? 'Yes' : 'OK';
+      function closewnd()
+      {
+          bg.classList.add('invisible');
+          setTimeout(function() { 
+              bg.classList.add('hidden');
+              header.innerHTML = '';
+              container.innerHTML = '';
+              footer.innerHTML = '';
+          }, 300);
+      }
+      btnok.onclick = function()
+      {
+          closewnd();
+          if (fnok)
+          {
+            fnok();
+          }
+      }
+      footer.appendChild(btnok);
+
+      if (fnok)
+      {
+        const btnno = document.createElement('btn');
+        btnno.classList.add('modalbtn');
+        btnno.classList.add('modalbtn_red');
+        btnno.innerText = 'No';
+        btnno.onclick = function()
+        {
+            closewnd();
+        }
+        footer.appendChild(btnno);
+      }
+
+      bg.classList.remove('hidden');
+      bg.clientWidth;
+      bg.classList.remove('invisible');
+    }
+
     document.getElementById('dscfmt').value = 'ft';
     document.getElementById('dscver').value = '15122517';
+
+    window.onbeforeunload = function ()
+    {
+      if (modified)
+      {
+        return "Discard changes and leave?";
+      }
+    };
 	</script>
   <script src="./editor_util.js"></script>
   <script src="./menu.js"></script>

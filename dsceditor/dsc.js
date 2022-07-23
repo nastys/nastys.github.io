@@ -31,7 +31,17 @@ document.getElementById('dscfmt').onchange = function()
     }
 }
 
-document.getElementById('toolopen').onclick = document.getElementById('menuitem_open').onclick = open_dsc;
+document.getElementById('toolopen').onclick = document.getElementById('menuitem_open').onclick = function()
+{
+    if(modified)
+    {
+        dialogEx("Open file...", "Discard changes and open another file?", open_dsc);
+    }
+    else
+    {
+        open_dsc();
+    }
+}
 
 async function open_dsc()
 {
@@ -56,7 +66,7 @@ function getFmtToNum()
 
 function saveas_dsc()
 {
-    setProgress(0);
+    setProgress(0, "Saving file...");
     const worker = new Worker("./dsc_worker_write.js");
     const lines = editor.getValue().split(/\r?\n/);
     worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: getFmtToNum()});
@@ -65,7 +75,7 @@ function saveas_dsc()
 
 function read_dsc(files)
 {
-    setProgress(0);
+    setProgress(0, "Reading file...");
     const worker = new Worker("./dsc_worker_read.js");
     worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum()});
     worker.onmessage = worker_message_handler;
@@ -85,7 +95,7 @@ function worker_message_handler(e)
             id_ver.value = e.data.data.toString(16);
             break;
         case 'datatext':
-            bookmarks = []; // todo deleting a bookmarked line should delete the decoration and the bookmark instead
+            bookmark_clear(); // todo deleting a bookmarked line should delete the decoration and the bookmark instead
             editor.setValue(e.data.data);
             editor.revealLineInCenter(1);
             editor.setPosition({column: 1, lineNumber: 1});
@@ -110,7 +120,7 @@ function worker_message_handler(e)
             setProgress(-1);
         case 'warning':
             console.error(e.data.data);
-            alert(e.data.data);
+            dialogEx("Warning", e.data.data);
             break;
     }
 }
