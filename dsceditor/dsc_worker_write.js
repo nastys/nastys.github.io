@@ -105,7 +105,7 @@ onmessage = function(e)
         return true;
     }
     catch (e) {
-        postMessage({type: 'exception', data: e.toString()});
+        postMessage({type: 'exception', data: e.stack.toString()});
     }
 
     return false;

@@ -33,6 +33,7 @@
       </div>
       <div class="toolbar" id="toolbar">
         <div class="toolbutton hastooltip" id="toolopen"><span class="menu gradient tooltip">Open...</span><img class="toolicon" src="./icons/OpenFile.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip toolbutton-disabled" id="toolsave"><span class="menu gradient tooltip">Save</span><img class="toolicon" src="./icons/Save.svg" draggable="false"/></div>
         <div class="toolbutton hastooltip" id="toolsaveas"><span class="menu gradient tooltip">Save as...</span><img class="toolicon" src="./icons/SaveAs.svg" draggable="false"/></div>
         <div class="toolseparator"></div>
         <div class="toolbutton hastooltip toolbutton-disabled" id="toolundo"><span class="menu gradient tooltip">Undo</span><img class="toolicon" src="./icons/Undo.svg" draggable="false"/></div>
@@ -59,6 +60,7 @@
 
     <div class="menu gradient2" id="menu_file" hidden>
       <div class="menuitem" id="menuitem_open"><img src="./icons/OpenFile.svg" class="menuicon-small"><div class="menuitemtext">Open...</div></div>
+      <div class="menuitem menuitem-disabled" id="menuitem_save"><img src="./icons/Save.svg" class="menuicon-small"><div class="menuitemtext">Save</div></div>
       <div class="menuitem" id="menuitem_saveas"><img src="./icons/SaveAs.svg" class="menuicon-small"><div class="menuitemtext">Save as...</div></div>
     </div>
     <div class="menu gradient2" id="menu_edit" hidden>
@@ -91,8 +93,10 @@
 	<script>
     var editor;
     var bookmarks = [];
+    var fileHandle;
     var modified = false;
 
+    var fileApi = 'showSaveFilePicker' in window;
     var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     function setDarkMode(value) {
@@ -107,6 +111,16 @@
     window.matchMedia("(prefers-color-scheme: light)").addListener(
       e => e.matches && setDarkMode(false)
     );
+
+    if (fileApi)
+    {
+      document.getElementById('toolsave').classList.remove('toolbutton-disabled');
+      document.getElementById('menuitem_save').classList.remove('menuitem-disabled');
+    }
+    else
+    {
+      document.getElementById('menuitem_save').childNodes[1].innerText = 'Save (requires Chrome)';
+    }
 
     function setProgress(progress, caption)
     {
