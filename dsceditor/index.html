@@ -192,6 +192,23 @@
       bg.classList.remove('invisible');
     }
 
+    function setModified(_modified)
+    {
+      if (modified != _modified)
+      {
+        modified = _modified;
+        const hasModifiedStr = document.title.startsWith('* ');
+        if (modified && !hasModifiedStr)
+        {
+          document.title = '* ' + document.title;
+        }
+        else if (!modified && hasModifiedStr)
+        {
+          document.title = document.title.substring(2);
+        }
+      }
+    }
+
     document.getElementById('dscfmt').value = 'ft';
     document.getElementById('dscver').value = '15122517';
 

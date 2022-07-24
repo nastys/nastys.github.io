@@ -192,6 +192,7 @@ async function worker_message_handler(e)
         case 'datatext':
             bookmark_clear(); // todo deleting a bookmarked line should delete the decoration and the bookmark instead
             editor.setValue(e.data.data);
+            document.title = lastfilename + ' - DSC Editor';
             editor.revealLineInCenter(1);
             editor.setPosition({column: 1, lineNumber: 1});
             setProgress(-1);
@@ -225,7 +226,7 @@ async function worker_message_handler(e)
                 filelink.click();
                 filelink.remove();
             }
-            modified = false;
+            setModified(false);
             setProgress(-1);
             break;
         case 'seteditorpos':

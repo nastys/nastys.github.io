@@ -20,7 +20,7 @@ require(['vs/editor/editor.main'], function () {
         const allowUndo = model.canUndo();
         const allowRedo = model.canRedo();
 
-        modified = allowUndo; // TODO not sure if the undo stack has a limit
+        setModified(allowUndo); // TODO not sure if the undo stack has a limit
         if (allowUndo) {
             document.getElementById('toolundo').classList.remove('toolbutton-disabled');
             document.getElementById('menuitem_undo').classList.remove('menuitem-disabled');
