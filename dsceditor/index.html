@@ -11,7 +11,7 @@
       <div id="progressflex" class="progresswnd progresswndinner">
         <div id="progresscontainer" class="modalwnd" style="height: 80px; cursor: progress !important;">
           <div id="progressheader" class="modalwndheader" style="cursor: progress !important;">Loading...</div>
-          <div id="progressinside" class="modalwndinside" style="cursor: progress !important;"><progress id="progressbar" style="height: revert; width: 100%; margin: auto; accent-color: #8074c9; cursor: progress !important;" max="1"></progress></div>
+          <div id="progressinside" class="modalwndinside" style="cursor: progress !important; overflow: hidden !important;"><progress id="progressbar" style="height: revert; width: 100%; margin: auto; accent-color: #8074c9; cursor: progress !important;" max="1"></progress></div>
         </div>
       </div>
     </div>
@@ -50,12 +50,16 @@
     <div id="container" class="editor"></div>
 
     <div id="footer" class="footer gradient2">
-      <label for="format">Game:</label><select name="Format" id="dscfmt" autocomplete="off" style="margin-left: 5px;">
+      <label for="format">Game:&nbsp;</label><select name="Format" id="dscfmt" autocomplete="off">
         <option value="ft">FT</option>
         <option value="dt2">DT 2nd</option>
       </select>
-
-      <label for="dscver" style="margin-left: 10px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off">
+      <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
+      <div class="toolseparator" style="margin-left: 20px;"></div>
+      <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="width: 140px; text-align: center;">
+      <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame">0</span>
+      <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch">Global</span>
+      <span style="margin-left: 20px;">Cursor:&nbsp;</span><span id="indicator_line">(1,1)</span>
     </div>
 
     <div class="menu gradient2" id="menu_file" hidden>

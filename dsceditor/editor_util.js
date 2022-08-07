@@ -36,6 +36,22 @@ function time_adjacent_cleanup()
     model.pushEditOperations([], ops, () => null);
 }
 
+function get_previous_command_int(command)
+{
+    const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
+    const model = editor.getModel();
+    const position = editor.getPosition();
+
+    const match = model.findPreviousMatch(regex, {lineNumber: position.lineNumber + 1, column: 1}, true, true, null, true);
+    if (match && match.range.startLineNumber <= position.lineNumber)
+    {
+        const out = parseInt(match.matches[1]);
+        return out ? out : 0;
+    }
+
+    return 0;
+}
+
 function push_ops(ops, op)
 {
     let exists = false;
@@ -341,4 +357,45 @@ function bookmark_clear()
     }
 
     bookmark_update();
+}
+
+function get_current_time()
+{
+    return get_previous_command_int('TIME');
+}
+
+function time_to_string(pdtime)
+{
+    // thanks to somewhatlurker
+
+    const frac = pdtime % 100000;
+    pdtime -= frac;
+    pdtime /= 100000;
+
+    const seconds = pdtime % 60;
+    pdtime -= seconds;
+    pdtime /= 60;
+
+    const minutes = pdtime % 60;
+    pdtime -= minutes;
+    pdtime /= 60;
+
+    return `${String(pdtime).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}.${String(frac).padStart(5, '0')}`;
+}
+
+function get_current_branch()
+{
+    return get_previous_command_int('PV_BRANCH_MODE');
+}
+
+function branch_to_string(branch)
+{
+    switch (branch)
+    {
+        case 0: return 'Global';
+        case 1: return 'Failure';
+        case 2: return 'Success';
+    }
+
+    return `Invalid/${branch}`;
 }

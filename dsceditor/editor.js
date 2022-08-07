@@ -13,7 +13,6 @@ require(['vs/editor/editor.main'], function () {
         theme: browser_dark ? 'vs-dark' : 'vs-light',
     });
 
-
     const model = editor.getModel();
 
     model.onDidChangeContent(() => {
@@ -38,5 +37,15 @@ require(['vs/editor/editor.main'], function () {
             document.getElementById('toolredo').classList.add('toolbutton-disabled');
             document.getElementById('menuitem_redo').classList.add('menuitem-disabled');
         }
+    });
+
+    editor.onDidChangeCursorPosition(() => {
+        const time = get_current_time();
+        const position = editor.getPosition();
+
+        document.getElementById('indicator_time').value = time_to_string(time);
+        document.getElementById('indicator_frame').innerText = String(6 * time / 10000);
+        document.getElementById('indicator_branch').innerText = branch_to_string(get_current_branch());
+        document.getElementById('indicator_line').innerText = position;
     });
 });
