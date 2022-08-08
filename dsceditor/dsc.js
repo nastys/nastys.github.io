@@ -241,3 +241,27 @@ async function worker_message_handler(e)
             break;
     }
 }
+
+
+async function loadQueue()
+{
+    if ('launchQueue' in window && 'files' in LaunchParams.prototype) {
+        launchQueue.setConsumer(async (launchParams) => {
+            if (!launchParams.files.length) {
+                return;
+            }
+            async function ensureEditor() {
+                if (typeof editor === 'undefined')
+                {
+                    setTimeout(ensureEditor, 100);
+                }
+                else
+                {
+                    await do_open_dsc(launchParams.files);
+                }
+            }
+            await ensureEditor();
+        });
+    }
+}
+await loadQueue();

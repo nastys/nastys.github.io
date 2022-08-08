@@ -1,19 +1,18 @@
 require.config({ paths: { vs: './node_modules/monaco-editor/min/vs' } });
 
-require(['vs/editor/editor.main'], function () {
+require(['vs/editor/editor.main'], async function () {
     monaco.editor.onDidCreateEditor(function () {
         setProgress(-1);
     });
 
-    editor = monaco.editor.create(document.getElementById('container'), {
+    editor = await monaco.editor.create(document.getElementById('container'), {
         value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'javascript',
         automaticLayout: true,
         glyphMargin: true,
         theme: browser_dark ? 'vs-dark' : 'vs-light',
     });
-
-    const model = editor.getModel();
+    model = await editor.getModel();
 
     model.onDidChangeContent(() => {
         const allowUndo = model.canUndo();

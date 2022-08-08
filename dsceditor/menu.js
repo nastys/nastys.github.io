@@ -71,10 +71,10 @@ setmenubaritem('tools');
 setmenubaritem('convert');
 setmenubaritem('help');
 
-document.getElementById('toolundo').onclick = () => { editor.getModel().undo(); };
-document.getElementById('menuitem_undo').onclick = () => { setTimeout(function() { editor.getModel().undo(); }, 100 ); };
-document.getElementById('toolredo').onclick = () => { editor.getModel().redo(); };
-document.getElementById('menuitem_redo').onclick = () => { setTimeout(function() { editor.getModel().redo(); }, 100 );}
+document.getElementById('toolundo').onclick = () => { model.undo(); };
+document.getElementById('menuitem_undo').onclick = () => { setTimeout(function() { model.undo(); }, 100 ); };
+document.getElementById('toolredo').onclick = () => { model.redo(); };
+document.getElementById('menuitem_redo').onclick = () => { setTimeout(function() { model.redo(); }, 100 );}
 document.getElementById('toolsearch').onclick = document.getElementById('menuitem_find').onclick = function() { editor.getAction('actions.find').run(); }
 document.getElementById('menuitem_replace').onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
 document.getElementById('menuitem_about').onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }

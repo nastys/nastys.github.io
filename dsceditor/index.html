@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="manifest" href="./manifest.json">
     <link href="./styles.css" rel="stylesheet">
     <title>DSC Editor</title>
     <meta name="theme-color" content="#9a8cee" />
@@ -55,11 +56,11 @@
         <option value="dt2">DT 2nd</option>
       </select>
       <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
-      <div class="toolseparator" style="margin-left: 20px;"></div>
+      <div class="toolseparator" style="margin-left: 21px;"></div>
       <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="width: 140px; text-align: center;">
       <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame">0</span>
       <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch">Global</span>
-      <span style="margin-left: 20px;">Cursor:&nbsp;</span><span id="indicator_line">(1,1)</span>
+      <span style="margin-left: 20px;">Cursor:&nbsp;</span><span id="indicator_line" style="margin-right: 20px;">(1,1)</span>
     </div>
 
     <div class="menu gradient2" id="menu_file" hidden>
@@ -95,7 +96,12 @@
   </body>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register("./serviceworker.js");
+    }
+
     var editor;
+    var model;
     var bookmarks = [];
     var fileHandle;
     var modified = false;

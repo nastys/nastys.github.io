@@ -1,0 +1,45 @@
+{
+    "name": "DSC Editor",
+    "icons": [
+      {
+        "src": "/dsceditor/icons/pokeslow.png",
+        "type": "image/png",
+        "sizes": "32x26"
+      },
+      {
+        "src": "/dsceditor/icons/pokeslow-a.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/dsceditor/icons/pokeslow-a2.png",
+        "type": "image/png",
+        "sizes": "320x320"
+      }
+    ],
+    "start_url": "/dsceditor/index.html",
+    "background_color": "#9a8cee",
+    "display": "standalone",
+    "scope": "/dsceditor/",
+    "file_handlers": [
+      {
+        "action": "/dsceditor/index.html",
+        "accept": { "application/octet-stream" : ".dsc" },
+        "icons": [
+          {
+            "src": "/dsceditor/icons/dsc256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+          },
+          {
+            "src": "/dsceditor/icons/dsc512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ],
+        "launch_type": "single-client"
+      }
+    ],
+    "theme_color": "#9a8cee",
+    "description": "DSC editor for Project DXXX"
+  }

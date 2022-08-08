@@ -1,7 +1,6 @@
 function remove_command(opcode)
 {
     const regex = `^[\\t\\f\\v ]*${opcode}[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
-    const model = editor.getModel();
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
     console.log(`Found ${matches.length} ${opcode} commands.`);
 
@@ -18,7 +17,6 @@ function time_adjacent_cleanup()
 {
     // todo cleanup "TIME();PV_BRANCH_MODE();TIME();"
     const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
-    const model = editor.getModel();
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
     //console.log(`Found ${matches.length} commands.`);
 
@@ -39,7 +37,6 @@ function time_adjacent_cleanup()
 function get_previous_command_int(command)
 {
     const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
-    const model = editor.getModel();
     const position = editor.getPosition();
 
     const match = model.findPreviousMatch(regex, {lineNumber: position.lineNumber + 1, column: 1}, true, true, null, true);
@@ -250,7 +247,7 @@ function bookmark_toggle()
 {
     const id_to_remove = [];
     const line = editor.getPosition().lineNumber;
-    const decorations = editor.getModel().getAllDecorations();
+    const decorations = model.getAllDecorations();
     decorations.forEach(function(decoration)
     {
         bookmarks.forEach(function(bookmark)
@@ -337,26 +334,29 @@ function bookmark_find(next)
 
 function bookmark_clear() 
 {
-    const ids_to_remove = [];
-    const decorations = editor.getModel().getAllDecorations();
-    decorations.forEach(function(decoration)
+    if (typeof model !== 'undefined')
     {
-        bookmarks.forEach(function(bookmark)
+        const ids_to_remove = [];
+        const decorations = model.getAllDecorations();
+        decorations.forEach(function(decoration)
         {
-            if (bookmark[0] == decoration.id)
+            bookmarks.forEach(function(bookmark)
             {
-                ids_to_remove.push(decoration.id);
-            }
+                if (bookmark[0] == decoration.id)
+                {
+                    ids_to_remove.push(decoration.id);
+                }
+            });
         });
-    });
 
-    if (ids_to_remove.length > 0)
-    {
-        editor.deltaDecorations(ids_to_remove,[]);
-        bookmarks = [];
+        if (ids_to_remove.length > 0)
+        {
+            editor.deltaDecorations(ids_to_remove,[]);
+            bookmarks = [];
+        }
+
+        bookmark_update();
     }
-
-    bookmark_update();
 }
 
 function get_current_time()
