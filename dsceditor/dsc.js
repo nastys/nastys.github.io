@@ -164,6 +164,8 @@ async function saveas_dsc()
         }
 
         fileHandle = newHandle;
+        lastfilename = fileHandle.name;
+        document.title = lastfilename + ' - DSC Editor';
     }
     do_save_dsc();
 };
