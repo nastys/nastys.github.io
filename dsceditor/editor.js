@@ -5,9 +5,28 @@ require(['vs/editor/editor.main'], async function () {
         setProgress(-1);
     });
 
+    monaco.languages.register({ id: 'dsc_basic' });
+    monaco.languages.setMonarchTokensProvider('dsc_basic',
+    {
+        defaultToken: 'invalid',
+        ignoreCase: false,
+        tokenizer: {
+            root: [
+                [/[A-Z][\w\$]*/, 'type.identifier' ],
+                { include: '@whitespace' },
+                [/[()]/, '@brackets'],
+                [/\d+/, 'number'],
+                [/[;,]/, 'delimiter'],
+            ],
+            whitespace: [
+                [/[ \t\r\n]+/, 'white'],
+            ],
+        },
+    });
+
     editor = await monaco.editor.create(document.getElementById('container'), {
         value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'PV_END();', 'END();', ''].join('\n'),
-        language: 'javascript',
+        language: 'dsc_basic',
         automaticLayout: true,
         glyphMargin: true,
         theme: browser_dark ? 'vs-dark' : 'vs-light',
