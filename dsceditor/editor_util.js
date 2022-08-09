@@ -34,17 +34,39 @@ function time_adjacent_cleanup()
     model.pushEditOperations([], ops, () => null);
 }
 
-function get_previous_command_int(command)
+function get_previous_command_par(command)
 {
     const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
     const position = editor.getPosition();
 
+    let out = [];
+    let pos = -1;
+
     const match = model.findPreviousMatch(regex, {lineNumber: position.lineNumber + 1, column: 1}, true, true, null, true);
     if (match && match.range.startLineNumber <= position.lineNumber)
     {
-        const out = parseInt(match.matches[1]);
-        return out ? out : 0;
+        const outStr = match.matches[1];
+        if (outStr)
+        pos = match.range.startLineNumber;
+
+        outStr.split(',').forEach(function (param)
+        {
+            out.push(parseInt(param));
+        });
     }
+
+    return {params: out, line: pos};
+}
+
+function get_previous_command_int(command)
+{
+    try
+    {
+        const str = get_previous_command_par(command);
+        const num = parseInt(str.params[0]);
+        return num ? num : 0;
+    }
+    catch {}
 
     return 0;
 }
@@ -398,4 +420,13 @@ function branch_to_string(branch)
     }
 
     return `Invalid/${branch}`;
+}
+
+function get_ts()
+{
+    const lastTft = get_previous_command_par('TARGET_FLYING_TIME');
+    const lastBts = get_previous_command_par('BAR_TIME_SET');
+
+    if (lastBts.line == -1 && lastTft.line == -1) return "Undefined";
+    return lastBts.line > lastTft.line ? `${lastBts.params[0]} BPM, ${lastBts.params[1] + 1}/4` : `${lastTft.params[0]} (~${Math.round(240000/lastTft.params[0])} BPM)`;
 }

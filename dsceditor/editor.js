@@ -6,7 +6,7 @@ require(['vs/editor/editor.main'], async function () {
     });
 
     editor = await monaco.editor.create(document.getElementById('container'), {
-        value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'PV_END();', 'END();', ''].join('\n'),
+        value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'javascript',
         automaticLayout: true,
         glyphMargin: true,
@@ -40,11 +40,9 @@ require(['vs/editor/editor.main'], async function () {
 
     editor.onDidChangeCursorPosition(() => {
         const time = get_current_time();
-        const position = editor.getPosition();
-
         document.getElementById('indicator_time').value = time_to_string(time);
         document.getElementById('indicator_frame').innerText = String(6 * time / 10000);
         document.getElementById('indicator_branch').innerText = branch_to_string(get_current_branch());
-        document.getElementById('indicator_line').innerText = position;
+        document.getElementById('indicator_ts').innerText = get_ts();
     });
 });
