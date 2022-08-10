@@ -15,7 +15,7 @@ require(['vs/editor/editor.main'], async function () {
                 [/[A-Z][\w\$]*/, 'type.identifier' ],
                 { include: '@whitespace' },
                 [/[()]/, '@brackets'],
-                [/\d+/, 'number'],
+                [/-?\d+/, 'number'],
                 [/[;,]/, 'delimiter'],
             ],
             whitespace: [
