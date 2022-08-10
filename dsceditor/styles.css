@@ -416,3 +416,57 @@ label {
 .m_bookmark {
     background: blue;
 }
+
+#preview_background {
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    left: 0;
+    top: 0; 
+    background-color: #8888;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#preview_window {
+    position: absolute;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#preview_body {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#preview_container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+#preview_canvas {
+    width: 1280px;
+    height: 720px;
+    background-color: #8888;
+}
+
+.preview_target {
+    width: 64px;
+    height: 64px;
+    /*filter: drop-shadow(0 0 1rem #00000040);*/
+    /*filter: drop-shadow(4px 4px 0 #00000040);*/
+    position: absolute;
+    /*transition: all;*/
+    /*transition-property: left, top;*/
+    transition-timing-function: linear;
+    opacity: 1;
+    image-rendering: pixelated;
+}

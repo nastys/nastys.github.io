@@ -47,12 +47,14 @@ function get_previous_command_par(command)
     {
         const outStr = match.matches[1];
         if (outStr)
-        pos = match.range.startLineNumber;
-
-        outStr.split(',').forEach(function (param)
         {
-            out.push(parseInt(param));
-        });
+            pos = match.range.startLineNumber;
+
+            outStr.split(',').forEach(function (param)
+            {
+                out.push(parseInt(param));
+            });
+        }
     }
 
     return {params: out, line: pos};
@@ -427,6 +429,8 @@ function get_ts()
     const lastTft = get_previous_command_par('TARGET_FLYING_TIME');
     const lastBts = get_previous_command_par('BAR_TIME_SET');
 
-    if (lastBts.line == -1 && lastTft.line == -1) return "Undefined";
-    return lastBts.line > lastTft.line ? `${lastBts.params[0]} BPM, ${lastBts.params[1] + 1}/4` : `${lastTft.params[0]} (~${Math.round(240000/lastTft.params[0])} BPM)`;
+    if (lastBts.line == -1 && lastTft.line == -1) return { undefined: true };
+    return lastBts.line > lastTft.line ?
+    { bpm: lastBts.params[0], ts: lastBts.params[1] + 1, tft: 1000 / (lastBts.params[0] / ((lastBts.params[1] + 1) * 60.0)) } :
+    { bpm: Math.round(240000/lastTft.params[0]), ts: NaN, tft: lastTft.params[0]};
 }

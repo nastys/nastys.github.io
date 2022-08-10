@@ -88,6 +88,10 @@ document.getElementById('menuitem_rmtargets').onclick = function ()
 }
 document.getElementById('menuitem_timecleanup').onclick = function() { time_cleanup(); }
 document.getElementById('menuitem_rmcommands').onclick = function() { window_rmcommands(); }
+document.getElementById('toolpreview').onclick = function() { preview_play(); };
+document.getElementById('menuitem_preview').onclick = () => { setTimeout(function() { preview_play(); }, 100 ); };
+document.getElementById('toolpreviewall').onclick = function() { previewall(); };
+document.getElementById('menuitem_previewall').onclick = () => { setTimeout(function() { previewall(); }, 100 ); };
 document.getElementById('toolbktoggle').onclick = function() { bookmark_toggle(); };
 document.getElementById('menuitem_togglebkm').onclick = () => { setTimeout(function() { bookmark_toggle(); }, 100 ); };
 document.getElementById('toolbkprev').onclick = function() { bookmark_find(0); };

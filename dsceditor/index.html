@@ -42,6 +42,9 @@
         <div class="toolseparator"></div>
         <div class="toolbutton hastooltip" id="toolsearch"><span class="menu gradient tooltip">Find...</span><img class="toolicon" src="./icons/Search.svg" draggable="false"/></div>
         <div class="toolseparator"></div>
+        <div class="toolbutton hastooltip" id="toolpreview"><span class="menu gradient tooltip">Preview from here</span><img class="toolicon" src="./icons/Run.svg" draggable="false"/></div>
+        <div class="toolbutton hastooltip" id="toolpreviewall"><span class="menu gradient tooltip">Preview from the start</span><img class="toolicon" src="./icons/RunAll.svg" draggable="false"/></div>
+        <div class="toolseparator"></div>
         <div class="toolbutton hastooltip" id="toolbktoggle"><span class="menu gradient tooltip">Toggle bookmark</span><img class="toolicon" src="./icons/Bookmark.svg" draggable="false"/></div>
         <div class="toolbutton hastooltip toolbutton-disabled" id="toolbkprev"><span class="menu gradient tooltip">Previous bookmark</span><img class="toolicon" src="./icons/PreviousBookmark.svg" draggable="false"/></div>
         <div class="toolbutton hastooltip toolbutton-disabled" id="toolbknext"><span class="menu gradient tooltip">Next bookmark</span><img class="toolicon" src="./icons/NextBookmark.svg" draggable="false"/></div>
@@ -60,7 +63,7 @@
       <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="width: 140px; text-align: center;">
       <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame">0</span>
       <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch">Global</span>
-      <span style="margin-left: 20px;">Signature:&nbsp;</span><span id="indicator_ts" style="margin-right: 20px;">Undefined</span>
+      <span style="margin-left: 20px;">Signature:&nbsp;</span><span id="indicator_ts" style="margin-right: 20px; min-width: fit-content;">Undefined</span>
     </div>
 
     <div class="menu gradient2" id="menu_file" hidden>
@@ -73,6 +76,8 @@
       <div class="menuitem menuitem-disabled" id="menuitem_redo"><img src="./icons/Redo.svg" class="menuicon-small"><div class="menuitemtext">Redo</div></div>
       <div class="menuitem" id="menuitem_find"><img src="./icons/Search.svg" class="menuicon-small"><div class="menuitemtext">Find...</div></div>
       <div class="menuitem" id="menuitem_replace"><div class="menuicon-small"></div><div class="menuitemtext">Replace...</div></div>
+      <div class="menuitem" id="menuitem_preview"><img src="./icons/Run.svg" class="menuicon-small"><div class="menuitemtext">Preview from here</div></div>
+      <div class="menuitem" id="menuitem_previewall"><img src="./icons/RunAll.svg" class="menuicon-small"><div class="menuitemtext">Preview from the start</div></div>
     </div>
     <div class="menu gradient2" id="menu_tools" hidden>
       <div class="menuitem" id="menuitem_rmtargets"><div class="menuitemtext">Remove TARGET, BAR_TIME_SET, and TARGET_FLYING_TIME</div></div>
@@ -93,6 +98,8 @@
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
       <div class="menuitem" id="menuitem_src"><div class="menuitemtext">Source code...</div></div>
     </div>
+    <div id="preview_background" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"></div>
+    <div id="preview_window" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"><div id="preview_body"><div id="preview_container"><span id="preview_canvas"></span></div></div></div>
   </body>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
@@ -219,6 +226,14 @@
       }
     }
 
+    function setSize ()
+    {
+      document.getElementById('preview_window').style.transform = `scale(${Math.min(window.innerWidth / 1280, window.innerHeight / 720)})`;
+    }
+
+    setSize();
+    window.onresize = setSize;
+
     document.getElementById('dscfmt').value = 'ft';
     document.getElementById('dscver').value = '15122517';
 
@@ -235,4 +250,5 @@
   <script src="./fmtlist.js"></script>
   <script type="module" src="./editor.js"></script>
   <script type="module" src="./dsc.js"></script>
+  <script src="./preview.js"></script>
 </html>
