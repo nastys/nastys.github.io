@@ -79,15 +79,10 @@ document.getElementById('toolsearch').onclick = document.getElementById('menuite
 document.getElementById('menuitem_replace').onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
 document.getElementById('menuitem_about').onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
 document.getElementById('menuitem_src').onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
-document.getElementById('menuitem_rmtargets').onclick = function ()
-{
-    remove_command('TARGET');
-    remove_command('TARGET_FLYING_TIME');
-    remove_command('BAR_TIME_SET');
-    time_cleanup();
-}
+document.getElementById('menuitem_rmtargets').onclick = function () { remove_targets(); }
 document.getElementById('menuitem_timecleanup').onclick = function() { time_cleanup(); }
 document.getElementById('menuitem_rmcommands').onclick = function() { window_rmcommands(); }
+document.getElementById('menuitem_normalizetime').onclick = function() { normalize_time(); }
 document.getElementById('toolpreview').onclick = function() { preview_play(); };
 document.getElementById('menuitem_preview').onclick = () => { setTimeout(function() { preview_play(); }, 100 ); };
 document.getElementById('toolpreviewall').onclick = function() { previewall(); };

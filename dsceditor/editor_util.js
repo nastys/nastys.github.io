@@ -6,8 +6,7 @@ function remove_command(opcode)
 
     let ops = [];
     matches.forEach(match => {
-        const op = {range: match.range, text: ''};
-        ops.push(op);
+        ops.push({range: match.range, text: ''});
     });
 
     model.pushEditOperations([], ops, () => null);
@@ -25,8 +24,7 @@ function time_adjacent_cleanup()
     {
         if (matches[i].range.endLineNumber == matches[i+1].range.startLineNumber)
         {
-            const op = {range: matches[i].range, text: ''};
-            ops.push(op);
+            ops.push({range: matches[i].range, text: ''});
         }
     };
 
@@ -121,8 +119,7 @@ function time_cleanup()
         {
             if (parseInt(current_time) <= parseInt(last_time))
             {
-                const op = {range: matches[i].range, text: ''};
-                push_ops(ops, op);
+                push_ops(ops, {range: matches[i].range, text: ''});
             }
         }
 
@@ -243,6 +240,14 @@ function window_rmcommands()
     bg.classList.remove('hidden');
     bg.clientWidth;
     bg.classList.remove('invisible');
+}
+
+function remove_targets()
+{
+    remove_command('TARGET');
+    remove_command('TARGET_FLYING_TIME');
+    remove_command('BAR_TIME_SET');
+    time_cleanup();
 }
 
 function bookmark_update()
@@ -433,4 +438,40 @@ function get_ts()
     return lastBts.line > lastTft.line ?
     { bpm: lastBts.params[0], ts: lastBts.params[1] + 1, tft: 1000 / (lastBts.params[0] / ((lastBts.params[1] + 1) * 60.0)) } :
     { bpm: Math.round(240000/lastTft.params[0]), ts: NaN, tft: lastTft.params[0]};
+}
+
+function reload_indicators()
+{
+    const time = get_current_time();
+    const ts = get_ts();
+    document.getElementById('indicator_time').value = time_to_string(time);
+    document.getElementById('indicator_frame').innerText = String(6 * time / 10000);
+    document.getElementById('indicator_branch').innerText = branch_to_string(get_current_branch());
+    document.getElementById('indicator_ts').innerText = ts.undefined ? "Undefined" : ts.ts ? `${ts.bpm}, ${ts.ts}/4` : `~${ts.bpm}`;
+}
+
+function normalize_time()
+{
+        const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
+        const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+        let ops = [];
+        let diff = NaN;
+        for (const match of matches)
+        {
+            const num = parseInt(match.matches[1]);
+            if (!isNaN(num))
+            {
+                if (isNaN(diff))
+                {
+                    diff = num * -1;
+                }
+
+                ops.push({range: match.range, text: `TIME(${String(num + diff)});\n`});
+            }
+        };
+    
+        model.pushEditOperations([], ops, () => null);
+
+        reload_indicators();
 }
