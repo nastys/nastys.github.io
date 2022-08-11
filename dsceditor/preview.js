@@ -33,10 +33,10 @@ function preview_play()
         {
             switch (type)
             {
-                case 0: case 4: case 18: return './icons/target_triangle.svg';
-                case 1: case 5: case 19: return './icons/target_circle.svg';
-                case 2: case 6: case 20: return './icons/target_cross.svg';
-                case 3: case 7: case 21: return './icons/target_square.svg';
+                case 0: case 4: case 8: case 18: return './icons/target_triangle.svg';
+                case 1: case 5: case 9: case 19: return './icons/target_circle.svg';
+                case 2: case 6: case 10: case 20: return './icons/target_cross.svg';
+                case 3: case 7: case 11: case 21: return './icons/target_square.svg';
                 case 12: return './icons/target_slidel.svg';
                 case 13: return './icons/target_slider.svg';
                 case 15: return './icons/target_chainl.svg';
@@ -55,10 +55,10 @@ function preview_play()
         {
             switch (type)
             {
-                case 0: case 4: case 18: return './icons/icon_triangle.svg';
-                case 1: case 5: case 19: return './icons/icon_circle.svg';
-                case 2: case 6: case 20: return './icons/icon_cross.svg';
-                case 3: case 7: case 21: return './icons/icon_square.svg';
+                case 0: case 4: case 8: case 18: return './icons/icon_triangle.svg';
+                case 1: case 5: case 9: case 19: return './icons/icon_circle.svg';
+                case 2: case 6: case 10: case 20: return './icons/icon_cross.svg';
+                case 3: case 7: case 11: case 21: return './icons/icon_square.svg';
                 case 12: return './icons/icon_slidel.svg';
                 case 13: return './icons/icon_slider.svg';
                 case 15: return './icons/icon_chainl.svg';
@@ -67,8 +67,8 @@ function preview_play()
             }
         })(tgt.type);
         icon.classList.add('preview_target');
-        icon.style.left = `${(tgt.x + Math.sin((tgt.angle/1000) * Math.PI / 180) * tgt.distance)}px`;
-        icon.style.top  = `${(tgt.y - Math.cos((tgt.angle/1000) * Math.PI / 180) * tgt.distance)}px`;
+        icon.style.left = `${(tgt.x + Math.sin((tgt.angle/1000) * Math.PI / 180) * (tgt.distance / 500))}px`;
+        icon.style.top  = `${(tgt.y - Math.cos((tgt.angle/1000) * Math.PI / 180) * (tgt.distance / 500))}px`;
         icon.style.zIndex = 2;
         icon.style.transitionDuration = `${tgt.tft}ms`;
         //console.log(`initial: left: ${icon.style.left}, top: ${icon.style.top}`);

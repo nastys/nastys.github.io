@@ -77,18 +77,20 @@ function extract_command_pw(cont)
 
 function set_target(command, tft, classicHolds)
 {
-    const offset = classicHolds ? 2 : 0;
     postMessage({
         msg: "target",
         tgt: {
             type:       command.params[0],
-            x:          command.params[1 + offset]*0.002666667,
-            y:          command.params[2 + offset]*0.002666667,
-            angle:      command.params[3 + offset],
-            wavecount:  command.params[4 + offset],
-            distance:   command.params[5 + offset],
-            amplitudde: command.params[6 + offset],
-            tft: tft,
+            hold_timer: classicHolds ? command.params[1] : NaN,
+            hold_end:   classicHolds ? command.params[2] : NaN,
+            x:          command.params[classicHolds ? 3 : 1]*0.002666667,
+            y:          command.params[classicHolds ? 4 : 2]*0.002666667,
+            angle:      command.params[classicHolds ? 5 : 3],
+            wavecount:  command.params[6],
+            distance:   command.params[classicHolds ? 7 : 4],
+            amplitude:  command.params[classicHolds ? 8 : 5],
+            tft:        classicHolds ? command.params[9] : tft,
+            ts:         classicHolds ? command.params[10] : NaN,
         },
     })
 }
