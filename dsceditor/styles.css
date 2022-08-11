@@ -151,6 +151,13 @@ body {
     justify-content: flex-start;
     padding-left: 2px;
     padding-top: 2px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menubar::-webkit-scrollbar { 
+    display: none;
 }
 
 .menubaritem {
@@ -240,6 +247,13 @@ body {
     padding-top: 2px;
     margin-top: auto;
     margin-bottom: auto;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.toolbar::-webkit-scrollbar { 
+    display: none;
 }
 
 .footer {
@@ -257,7 +271,13 @@ body {
     user-select: none;
     -webkit-user-select: none;
     cursor: default;
-    overflow: auto;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.footer::-webkit-scrollbar { 
+    display: none;
 }
 
 label {
