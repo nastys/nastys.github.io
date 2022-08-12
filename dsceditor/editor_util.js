@@ -247,6 +247,7 @@ function remove_targets()
     remove_command('TARGET');
     remove_command('TARGET_FLYING_TIME');
     remove_command('BAR_TIME_SET');
+    remove_command('MODE_SELECT');
     time_cleanup();
 }
 
