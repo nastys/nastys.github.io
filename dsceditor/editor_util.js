@@ -12,10 +12,10 @@ function remove_command(opcode)
     model.pushEditOperations([], ops, () => null);
 }
 
-function time_adjacent_cleanup()
+function dupe_adjacent_cleanup(command = "TIME")
 {
-    // todo cleanup "TIME();PV_BRANCH_MODE();TIME();"
-    const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    // todo cleanup "TIME(A);PV_BRANCH_MODE(any);TIME(B);"
+    const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
     //console.log(`Found ${matches.length} commands.`);
 
@@ -32,10 +32,9 @@ function time_adjacent_cleanup()
     model.pushEditOperations([], ops, () => null);
 }
 
-function get_previous_command_par(command)
+function get_previous_command_par(command, position = editor.getPosition())
 {
     const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
-    const position = editor.getPosition();
 
     let out = [];
     let pos = -1;
@@ -58,11 +57,11 @@ function get_previous_command_par(command)
     return {params: out, line: pos};
 }
 
-function get_previous_command_int(command)
+function get_previous_command_int(command, position)
 {
     try
     {
-        const str = get_previous_command_par(command);
+        const str = get_previous_command_par(command, position);
         const num = parseInt(str.params[0]);
         return num ? num : 0;
     }
@@ -89,9 +88,9 @@ function push_ops(ops, op)
     }
 }
 
-function time_cleanup()
+function dupe_cleanup(command = "TIME")
 {
-    const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
     const model = editor.getModel();
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
     //console.log(`Found ${matches.length} commands.`);
@@ -110,8 +109,8 @@ function time_cleanup()
         const current_linen = matches[i].range.startLineNumber;
         if (params.length != 1 || current_time == '')
         {
-            console.error(`Invalid TIME command at line ${linen}.`);
-            alert(`Invalid TIME command at line ${linen}.`);
+            console.error(`Invalid command at line ${linen}.`);
+            alert(`Invalid command at line ${linen}.`);
             continue;
         }
 
@@ -132,11 +131,11 @@ function time_cleanup()
 
     if (ops.length > 0) 
     {
-        time_cleanup();
+        dupe_cleanup(command);
     }
     else
     {
-        time_adjacent_cleanup();
+        dupe_adjacent_cleanup(command);
     }
 }
 
@@ -248,7 +247,8 @@ function remove_targets()
     remove_command('TARGET_FLYING_TIME');
     remove_command('BAR_TIME_SET');
     remove_command('MODE_SELECT');
-    time_cleanup();
+    dupe_cleanup();
+    dupe_cleanup("TARGET_FLYING_TIME");
 }
 
 function bookmark_update()
@@ -430,10 +430,10 @@ function branch_to_string(branch)
     return `Invalid/${branch}`;
 }
 
-function get_ts()
+function get_ts(position)
 {
-    const lastTft = get_previous_command_par('TARGET_FLYING_TIME');
-    const lastBts = get_previous_command_par('BAR_TIME_SET');
+    const lastTft = get_previous_command_par('TARGET_FLYING_TIME', position);
+    const lastBts = get_previous_command_par('BAR_TIME_SET', position);
 
     if (lastBts.line == -1 && lastTft.line == -1) return { undefined: true };
     return lastBts.line > lastTft.line ?
@@ -449,6 +449,7 @@ function reload_indicators()
     document.getElementById('indicator_frame').innerText = String(6 * time / 10000);
     document.getElementById('indicator_branch').innerText = branch_to_string(get_current_branch());
     document.getElementById('indicator_ts').innerText = ts.undefined ? "Undefined" : ts.ts ? `${ts.bpm}, ${ts.ts}/4` : `~${ts.bpm}`;
+    document.getElementById('indicator_hit').innerText = ts.undefined ? "Undefined" : `${time_to_string((ts.tft*100) + time)}`;
 }
 
 function normalize_time()
@@ -475,4 +476,40 @@ function normalize_time()
         model.pushEditOperations([], ops, () => null);
 
         reload_indicators();
+}
+
+function analyze_targets(begin, end)
+{
+    const regex = `^[\\t\\f\\v ]*TARGET[\\t\\f\\v ]*\\((?:\\s*-?\\d{1,}\\s*,){6}\\s*-?\\d{1,}\\s*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+
+    let counter = 0;
+
+    for (const match of matches)
+    {
+        if (++counter < begin)
+        {
+            continue;
+        }
+        else if (counter > end)
+        {
+            break;
+        }
+
+        const time_tgt = get_previous_command_par('TIME', {lineNumber: match.range.startLineNumber, column: 1});
+        const current_time = parseInt(time_tgt.params[0]);
+        if (isNaN(current_time))
+        {
+            console.error(`Invalid timestamp for ${match.range.startLineNumber}.`);
+            continue;
+        }
+        const tft = get_ts({lineNumber: match.range.startLineNumber, column: 1}).tft;
+        if (isNaN(tft))
+        {
+            console.error(`Invalid target duration for ${match.range.startLineNumber}.`);
+            continue;
+        }
+        
+        console.log(`${counter} - LINE ${match.range.startLineNumber} - SPAWN ${time_to_string(current_time)} - HIT ${time_to_string(current_time + (tft*100))}`);
+    }
 }

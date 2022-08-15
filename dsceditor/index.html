@@ -61,10 +61,11 @@
       </select>
       <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
       <div class="toolseparator" style="margin-left: 21px;"></div>
-      <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="width: 140px; text-align: center;">
-      <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame">0</span>
-      <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch">Global</span>
-      <span style="margin-left: 20px;">BPM:&nbsp;</span><span id="indicator_ts" style="margin-right: 20px; min-width: fit-content;">Undefined</span>
+      <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="min-width: fit-content; width: 140px; text-align: center;">
+      <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame" style="min-width: fit-content;">0</span>
+      <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch" style="min-width: fit-content;">Global</span>
+      <span style="margin-left: 20px;">BPM:&nbsp;</span><span id="indicator_ts" style="min-width: fit-content;">Undefined</span>
+      <span style="margin-left: 20px;">Hit:&nbsp;</span><span id="indicator_hit" style="margin-right: 20px; min-width: fit-content;">Undefined</span>
     </div>
 
     <div class="menu gradient2" id="menu_file" hidden>
