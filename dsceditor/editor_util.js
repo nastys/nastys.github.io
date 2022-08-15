@@ -480,7 +480,7 @@ function normalize_time()
 
 function analyze_targets(begin, end)
 {
-    const regex = `^[\\t\\f\\v ]*TARGET[\\t\\f\\v ]*\\((?:\\s*-?\\d{1,}\\s*,){6}\\s*-?\\d{1,}\\s*\\);?(?:\\r?\\n)*`;
+    const regex = `^[\\t\\f\\v ]*TARGET[\\t\\f\\v ]*\\((?:[\\t\\f\\v ]*-?\\d{1,}[\\t\\f\\v ]*,){6}[\\t\\f\\v ]*-?\\d{1,}[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
     const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
 
     let counter = 0;

@@ -126,6 +126,19 @@ body {
     background: linear-gradient(#e65959, #b41313);
 }
 
+.modalbtn_green {
+    background: linear-gradient(#78ff66, #48fd1b);
+    box-shadow: 0px 3px 10px #62ff0080;
+}
+
+.modalbtn_green:hover {
+    background: linear-gradient(#a6ff9f, #70ff57);
+}
+
+.modalbtn_green:active {
+    background: linear-gradient(#73e659, #46b413);
+}
+
 .cbcont {
     display: flex;
     flex-direction: row;

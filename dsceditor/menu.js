@@ -83,6 +83,7 @@ document.getElementById('menuitem_rmtargets').onclick = function () { remove_tar
 document.getElementById('menuitem_timecleanup').onclick = function() { dupe_cleanup(); dupe_cleanup("TARGET_FLYING_TIME") }
 document.getElementById('menuitem_rmcommands').onclick = function() { window_rmcommands(); }
 document.getElementById('menuitem_normalizetime').onclick = function() { normalize_time(); }
+document.getElementById('menuitem_idswap').onclick = function() { window_idswap(); }
 document.getElementById('toolpreview').onclick = function() { preview_play(); };
 document.getElementById('menuitem_preview').onclick = () => { setTimeout(function() { preview_play(); }, 100 ); };
 document.getElementById('toolpreviewall').onclick = function() { previewall(); };
