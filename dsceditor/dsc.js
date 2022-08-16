@@ -174,7 +174,7 @@ function read_dsc(files)
 {
     setProgress(0, "Reading file...");
     const worker = new Worker("./dsc_worker_read.js");
-    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum()});
+    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum(), autodetectfmt: document.getElementById('cb_autodetectgame').checked});
     worker.onmessage = worker_message_handler;
 }
 

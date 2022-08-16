@@ -39,15 +39,18 @@ onmessage = function(e)
                 if (i == 0) 
                 {
                     postMessage({type: 'setver', data: num});
-                    const newfmt = get_fmt_from_ver(num);
-                    if (newfmt == -1)
+                    if (e.data.autodetectfmt)
                     {
-                        postMessage({type: 'warning', data: `WARNING: Cannot autodetect format '${num}'.`});
-                    }
-                    else
-                    {
-                        fmt = newfmt;
-                        postMessage({type: 'setfmt', data: fmt});
+                        const newfmt = get_fmt_from_ver(num);
+                        if (newfmt == -1)
+                        {
+                            postMessage({type: 'warning', data: `WARNING: Cannot autodetect format '${num}'.`});
+                        }
+                        else
+                        {
+                            fmt = newfmt;
+                            postMessage({type: 'setfmt', data: fmt});
+                        }
                     }
                     thisdb = get_db(fmt);
                     continue;

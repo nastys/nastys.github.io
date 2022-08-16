@@ -41,7 +41,7 @@ function menu_close_esc(e)
 
 function menu_clickhandler(e)
 {
-    if (!(e.target.classList.contains('menubaritem') || e.target.classList.contains('menubaritemtext') || e.target.classList.contains('menuitem-disabled') || e.target.parentNode.classList.contains('menuitem-disabled')))
+    if (!(e.target.classList.contains('menubaritem') || e.target.classList.contains('menubaritemtext') || e.target.classList.contains('menuitem-disabled') || e.target.parentNode.classList.contains('menuitem-disabled') || e.target.classList.contains('menuitem-checkbox') || e.target.parentNode.classList.contains('menuitem-checkbox')))
     {
         menu_toggle(menu_open);
     }
