@@ -245,6 +245,10 @@ body {
     margin: auto 2px auto 2px;
 }
 
+.menuicon-right {
+    margin-left: auto;
+}
+
 .toolbar {
     height: 30px;
     width: 100%;

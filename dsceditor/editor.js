@@ -24,7 +24,9 @@ require(['vs/editor/editor.main'], async function () {
         },
     });
 
-    editor = await monaco.editor.create(document.getElementById('container'), {
+    const editorContainer = document.getElementById('container');
+
+    editor = await monaco.editor.create(editorContainer, {
         value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'dsc_basic',
         automaticLayout: true,
@@ -32,6 +34,69 @@ require(['vs/editor/editor.main'], async function () {
         theme: browser_dark ? 'vs-dark' : 'vs-light',
     });
     model = await editor.getModel();
+
+    editor.onContextMenu(() => { // based on stackoverflow.com/a/70917930
+        const host = editorContainer.querySelector(".shadow-root-host");
+        if (host && host.shadowRoot && !host.shadowRoot.querySelector(".monaco-context-custom")) 
+        {
+          const style = document.createElement("style");
+      
+          style.setAttribute("class", "monaco-context-custom");
+          style.innerHTML = `
+            .context-view.monaco-menu-container > .monaco-scrollable-element {
+              border-radius: 0.2rem !important;
+              box-shadow: 0 2px 10px 0 #1f1f1f22 !important;
+            }
+            .monaco-action-bar
+            {
+                padding: 0 !important;
+                background: linear-gradient(#eeeef2 80%, #e0e0e3 100%) !important;
+            }
+            .monaco-menu {
+                border: 1px solid rgb(159, 159, 159) !important;
+                border-radius: 0.2rem !important; 
+            }
+            .monaco-menu .action-item {
+                color: black !important;
+                cursor: default !important;
+                border: inherit !important;
+            }
+            .action-menu-item {
+                background-color: inherit !important;
+                color: inherit !important;
+            }
+            .action-menu-item:hover {
+                background: linear-gradient(#9a8cee, #7d6fca) !important;
+                color: white !important;
+            }
+            .action-label {
+                padding: 0 4px 0 4px !important;
+            }
+            .keybinding {
+                padding-right: 4px !important;
+            }
+            .action-label.separator {
+                padding-top: 0.2em !important;
+            }
+            @media (prefers-color-scheme: dark) {
+                .context-view.monaco-menu-container > .monaco-scrollable-element {
+                    box-shadow: 0 2px 10px 0 #cacaca22 !important;
+                }
+                .monaco-action-bar
+                {
+                    background: linear-gradient(#2d2d30 80%, #262629 100%) !important;
+                }
+                .monaco-menu {
+                    border: 1px solid rgb(159, 159, 159) !important;
+                }
+                .monaco-menu .action-item {
+                    color: white !important;
+                }
+            }
+          `;
+          host.shadowRoot.prepend(style);
+        }
+    });
 
     model.onDidChangeContent(() => {
         const allowUndo = model.canUndo();

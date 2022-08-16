@@ -165,7 +165,7 @@ async function saveas_dsc()
 
         fileHandle = newHandle;
         lastfilename = fileHandle.name;
-        document.title = lastfilename + ' - DSC Editor';
+        document.title = lastfilename;
     }
     do_save_dsc();
 };
@@ -194,7 +194,7 @@ async function worker_message_handler(e)
         case 'datatext':
             bookmark_clear(); // todo deleting a bookmarked line should delete the decoration and the bookmark instead
             editor.setValue(e.data.data);
-            document.title = lastfilename + ' - DSC Editor';
+            document.title = lastfilename;
             editor.revealLineInCenter(1);
             editor.setPosition({column: 1, lineNumber: 1});
             setProgress(-1);
