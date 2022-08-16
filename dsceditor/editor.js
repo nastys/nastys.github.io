@@ -35,7 +35,11 @@ require(['vs/editor/editor.main'], async function () {
     });
     model = await editor.getModel();
 
-    editor.onContextMenu(() => { // based on stackoverflow.com/a/70917930
+    editorContainer.onpointerdown = menu_close;
+
+    editor.onContextMenu(() => {
+        menu_close();
+        // based on stackoverflow.com/a/70917930
         const host = editorContainer.querySelector(".shadow-root-host");
         if (host && host.shadowRoot && !host.shadowRoot.querySelector(".monaco-context-custom")) 
         {
