@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Edit Password Recovery</title>
+    <meta name="theme-color" content="#b1eb34" />
+</head>
+<body>
+    <div id="droparea">
+        Forgot your edit password?<br>
+        Drag&drop a decrypted F 2nd PS3 SECURE.BIN here.<br>
+        (more formats soon™)
+    </div>
+</body>
+<script>
+function parse_save_data(file)
+{
+    const reader = new FileReader();
+        reader.readAsArrayBuffer(file);
+        reader.onload = function(){
+            const data = new DataView(reader.result);
+            const area = document.getElementById("droparea");
+            if (reader.result.byteLength > 144) // todo add more formats and autodetection
+            {
+                isPs3 = true;
+                const num = data.getInt32(140, !isPs3);
+                area.innerText = `Password: ${num}`;
+            }
+            else
+            {
+                area.innerText = "Unsupported format.";
+            }
+        }
+}
+
+document.body.addEventListener("dragover", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+document.body.addEventListener("drop", async (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    
+    const files = e.dataTransfer.files;
+    if (files.length >= 1)
+    {
+        parse_save_data(files[0]);
+    }
+});
+</script>
+</html>
