@@ -33,8 +33,8 @@
 <body>
     <div id="droparea">
         Forgot your edit password?<br>
-        Drag&drop a decrypted F 2nd PS3 SECURE.BIN here.<br>
-        (more formats soon™)
+        Drag&drop a decrypted F or F 2nd PS3 SECURE.BIN here.<br>
+        (PSV soon™)
     </div>
 </body>
 <script>
@@ -45,11 +45,16 @@ function parse_save_data(file)
         reader.onload = function(){
             const data = new DataView(reader.result);
             const area = document.getElementById("droparea");
-            if (reader.result.byteLength > 144) // todo add more formats and autodetection
+            if (reader.result.byteLength > 340)
             {
                 isPs3 = true;
-                const num = data.getInt32(140, !isPs3);
-                area.innerText = `Password: ${num}`;
+                let num1 = data.getUint32(336, !isPs3);
+                let num2 = data.getUint32(140, !isPs3);
+                if (num1 == 0xFFFFFFFF)
+                {
+                    num1 = 'none';
+                }
+                area.innerText = `Password (F): ${num1}\nPassword (F 2nd PS3): ${num2}`;
             }
             else
             {
