@@ -148,6 +148,14 @@ body {
     margin-top: auto;
 }
 
+.mtop4 {
+    margin-top: 4px;
+}
+
+.mleft {
+    margin-left: auto;
+}
+
 .progresswndinner {
     display: flex;
     justify-content: center;

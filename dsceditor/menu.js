@@ -125,6 +125,9 @@ setmenubaritem('help');
     const menuitem_normalizetime = document.getElementById('menuitem_normalizetime');
     menuitem_normalizetime.oncontextmenu = menuitem_normalizetime.onclick = function() { normalize_time(); }
 
+    const menuitem_shifttime = document.getElementById('menuitem_shifttime');
+    menuitem_shifttime.oncontextmenu = menuitem_shifttime.onclick = function() { shift_time(); }
+
     const menuitem_rmbranch0 = document.getElementById('menuitem_rmbranch0');
     menuitem_rmbranch0.oncontextmenu = menuitem_rmbranch0.onclick = function() { remove_branch(0); }
 

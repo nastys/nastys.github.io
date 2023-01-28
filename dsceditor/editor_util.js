@@ -452,30 +452,137 @@ function reload_indicators()
     document.getElementById('indicator_hit').innerText = ts.undefined ? "Undefined" : `${time_to_string((ts.tft*100) + time)}`;
 }
 
-function normalize_time()
+function normalize_time(diff = NaN, from = NaN, to = NaN)
 {
         const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
         const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
-    
+
         let ops = [];
-        let diff = NaN;
         for (const match of matches)
         {
             const num = parseInt(match.matches[1]);
-            if (!isNaN(num))
+            if (!Number.isNaN(num))
             {
-                if (isNaN(diff))
+                if (Number.isNaN(diff))
                 {
                     diff = num * -1;
                 }
 
-                ops.push({range: match.range, text: `TIME(${String(num + diff)});\n`});
+                if ((Number.isNaN(from) || match.range.startLineNumber >= from) && (Number.isNaN(to) || match.range.startLineNumber <= to))
+                {
+                    ops.push({range: match.range, text: `TIME(${String(num + diff)});\n`});
+                }
             }
         };
     
         model.pushEditOperations([], ops, () => null);
 
         reload_indicators();
+}
+
+function shift_time()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+
+    const cont = document.createElement('div');
+    cont.classList.add('cbcont');
+    const el = document.createElement('input');
+    el.type = 'number';
+    el.id = 'nm_diff';
+    el.classList.add('mleft');
+    el.classList.add('mtop4');
+    const lab = document.createElement('label');
+    lab.setAttribute('for', el.id);
+    lab.innerText = 'TIME difference:';
+    cont.appendChild(lab);
+    cont.appendChild(el);
+    container.appendChild(cont);
+
+    const cont1 = document.createElement('div');
+    cont1.classList.add('cbcont');
+    const el1 = document.createElement('input');
+    el1.type = 'number';
+    el1.id = 'nm_from';
+    el1.min = 0;
+    el1.classList.add('mleft');
+    el1.classList.add('mtop4');
+    const lab1 = document.createElement('label');
+    lab1.setAttribute('for', el1.id);
+    lab1.innerText = 'From line:';
+    cont1.appendChild(lab1);
+    cont1.appendChild(el1);
+    container.appendChild(cont1);
+
+    const cont2 = document.createElement('div');
+    cont2.classList.add('cbcont');
+    const el2 = document.createElement('input');
+    el2.type = 'number';
+    el2.id = 'nm_to';
+    el2.min = 0;
+    el2.classList.add('mleft');
+    el2.classList.add('mtop4');
+    const lab2 = document.createElement('label');
+    lab2.setAttribute('for', el2.id);
+    lab2.innerText = 'To line:';
+    cont2.appendChild(lab2);
+    cont2.appendChild(el2);
+    container.appendChild(cont2);
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Advanced TIME shift";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'OK';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = function()
+    {
+        const diff = parseInt(el.value);
+        const from = parseInt(el1.value);
+        const to = parseInt(el2.value);
+
+        if (!Number.isNaN(diff) && diff != 0)
+        {
+            const pfrom = from == 0 ? NaN : from;
+            const pto = to == 0 ? NaN : to;
+
+            if (Number.isNaN(pfrom) || Number.isNaN(pto) || pfrom <= pto)
+            {
+                normalize_time(diff, pfrom, pto);
+            }
+        }
+
+        closewnd();
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
 }
 
 function analyze_targets(begin, end)
