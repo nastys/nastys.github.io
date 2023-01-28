@@ -513,3 +513,19 @@ function analyze_targets(begin, end)
         console.log(`${counter} - LINE ${match.range.startLineNumber} - SPAWN ${time_to_string(current_time)} - HIT ${time_to_string(current_time + (tft*100))}`);
     }
 }
+
+function remove_branch(branch)
+{
+    const regex = `^[\\t\\f\\v ]*.*[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
+
+    let ops = [];
+    matches.forEach(match => {
+        if (get_previous_command_int('PV_BRANCH_MODE', {lineNumber: match.range.startLineNumber, column: 1}) == branch)
+        {
+            ops.push({range: match.range, text: ''});
+        }
+    });
+
+    model.pushEditOperations([], ops, () => null);
+}

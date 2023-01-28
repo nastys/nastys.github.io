@@ -82,6 +82,7 @@ function setmenubaritem(menubaritem)
 setmenubaritem('file');
 setmenubaritem('edit');
 setmenubaritem('bookmarks');
+setmenubaritem('branch');
 setmenubaritem('tools');
 setmenubaritem('convert');
 setmenubaritem('help');
@@ -123,6 +124,24 @@ setmenubaritem('help');
 
     const menuitem_normalizetime = document.getElementById('menuitem_normalizetime');
     menuitem_normalizetime.oncontextmenu = menuitem_normalizetime.onclick = function() { normalize_time(); }
+
+    const menuitem_rmbranch0 = document.getElementById('menuitem_rmbranch0');
+    menuitem_rmbranch0.oncontextmenu = menuitem_rmbranch0.onclick = function() { remove_branch(0); }
+
+    const menuitem_rmbranch1 = document.getElementById('menuitem_rmbranch1');
+    menuitem_rmbranch1.oncontextmenu = menuitem_rmbranch1.onclick = function() { remove_branch(1); }
+
+    const menuitem_rmbranch2 = document.getElementById('menuitem_rmbranch2');
+    menuitem_rmbranch2.oncontextmenu = menuitem_rmbranch2.onclick = function() { remove_branch(2); }
+
+    const menuitem_isbranch0 = document.getElementById('menuitem_isbranch0');
+    menuitem_isbranch0.oncontextmenu = menuitem_isbranch0.onclick = function() { remove_branch(1); remove_branch(2); }
+
+    const menuitem_isbranch1 = document.getElementById('menuitem_isbranch1');
+    menuitem_isbranch1.oncontextmenu = menuitem_isbranch1.onclick = function() { remove_branch(0); remove_branch(2); }
+
+    const menuitem_isbranch2 = document.getElementById('menuitem_isbranch2');
+    menuitem_isbranch2.oncontextmenu = menuitem_isbranch2.onclick = function() { remove_branch(0); remove_branch(1); }
 
     const menuitem_idswap = document.getElementById('menuitem_idswap');
     menuitem_idswap.oncontextmenu = menuitem_idswap.onclick = function() { window_idswap(); }
