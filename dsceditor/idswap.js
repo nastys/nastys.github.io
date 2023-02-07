@@ -65,6 +65,73 @@ function change_id_mouthAnim(toNew)
     model.pushEditOperations([], ops, () => null);
 }
 
+function change_id_editMouth(toNew)
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_MOUTH[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+    let ops = [];
+
+    for (match of matches)
+    {
+        const newid = ((param) => { switch (param)
+                {
+                    case "23":
+                        return toNew ? "6" : "23";
+                    case "24":
+                        return toNew ? "0" : "24";
+                    case "25":
+                        return toNew ? "2" : "25";
+                    case "26":
+                        return toNew ? "3" : "26";
+                    case "27":
+                        return toNew ? "4" : "27";
+                    case "28":
+                        return toNew ? "6" : "28";
+                    case "29":
+                        return toNew ? "8" : "29";
+                    case "30":
+                        return toNew ? "9" : "30";
+                    case "31":
+                        return toNew ? "1" : "31";
+                    case "32":
+                        return toNew ? "5" : "32";
+                    case "33":
+                        return toNew ? "7" : "33";
+
+                    case "6":
+                        return toNew ? "6" : "28";
+                    case "0":
+                        return toNew ? "0" : "24";
+                    case "2":
+                        return toNew ? "2" : "25";
+                    case "3":
+                        return toNew ? "3" : "26";
+                    case "4":
+                        return toNew ? "4" : "27";
+                    case "8":
+                        return toNew ? "8" : "29"; //?
+                    case "10":
+                        return toNew ? "10" : "29"; //?
+                    case "9":
+                        return toNew ? "9" : "30";
+                    case "1":
+                        return toNew ? "1" : "31";
+                    case "5":
+                        return toNew ? "5" : "32";
+                    case "7":
+                        return toNew ? "7" : "33";
+
+                    default:
+                    return param;
+                }
+            })(match.matches[1]);
+        ops.push({range: match.range, text: `EDIT_MOUTH(${newid});\n`});
+    }
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function change_id_expression(toNew)
 {
     const regex = `^[\\t\\f\\v ]*EXPRESSION[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
@@ -144,6 +211,85 @@ function change_id_expression(toNew)
     model.pushEditOperations([], ops, () => null);
 }
 
+function change_id_editExpression(toNew)
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_EXPRESSION[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+    let ops = [];
+
+    for (match of matches)
+    {
+        const newid = ((param) => { switch (param)
+                {
+                    case "52":
+                        return toNew ? "0" : "52";
+                    case "53":
+                        return toNew ? "3" : "53";
+                    case "54":
+                        return toNew ? "6" : "54";
+                    case "55":
+                        return toNew ? "8" : "55";
+                    case "56":
+                        return toNew ? "9" : "56";
+                    case "57":
+                        return toNew ? "10" : "57";
+                    case "58":
+                        return toNew ? "11" : "58";
+                    case "59":
+                        return toNew ? "12" : "59";
+                    case "65":
+                        return toNew ? "2" : "65";
+                    case "66":
+                        return toNew ? "1" : "66";
+                    case "68":
+                        return toNew ? "5" : "68";
+                    case "70":
+                        return toNew ? "7" : "70";
+                    case "72":
+                        return toNew ? "13" : "72";
+                    case "73":
+                        return toNew ? "14" : "73";
+            
+                    case "0":
+                        return toNew ? "0" : "52";
+                    case "3":
+                        return toNew ? "3" : "53";
+                    case "6":
+                        return toNew ? "6" : "54";
+                    case "8":
+                        return toNew ? "8" : "55";
+                    case "9":
+                        return toNew ? "9" : "56";
+                    case "2":
+                        return toNew ? "2" : "65";
+                    case "1":
+                        return toNew ? "1" : "66";
+                    case "10":
+                        return toNew ? "10" : "57";
+                    case "11":
+                        return toNew ? "11" : "58";
+                    case "12":
+                        return toNew ? "12" : "59";
+                    case "5":
+                        return toNew ? "5" : "68";
+                    case "7":
+                        return toNew ? "7" : "70";
+                    case "13":
+                        return toNew ? "13" : "72";
+                    case "14":
+                        return toNew ? "14" : "73";
+
+                    default:
+                    return param;
+                }
+            })(match.matches[2]);
+        ops.push({range: match.range, text: `EDIT_EXPRESSION(${newid}, ${match.matches[2]});\n`});
+    }
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function change_id_handAnim(toNew)
 {
     const regex = `^[\\t\\f\\v ]*HAND_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
@@ -182,6 +328,44 @@ function change_id_handAnim(toNew)
     model.pushEditOperations([], ops, () => null);
 }
 
+function change_id_editHandAnim(toNew)
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_HAND_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+    let ops = [];
+
+    for (match of matches)
+    {
+        const newid = ((param) => { switch (param)
+                {
+                    case "9":
+                        return toNew ? "8" : "9";
+                    case "11":
+                        return toNew ? "10" : "11";
+            
+                    case "8":
+                        return toNew ? "8" : "9";
+                    case "10":
+                        return toNew ? "10" : "11";
+            
+                    // case "0":
+                    // case "1":
+                    // case "2":
+                    // case "3":
+                    // case "4":
+                    // case "5":
+                    // case "6":
+                    default:
+                    return param;
+                }
+            })(match.matches[2]);
+        ops.push({range: match.range, text: `EDIT_HAND_ANIM($${newid}, ${match.matches[2]});\n`});
+    }
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function change_id_lookAnim(toNew)
 {
     const regex = `^[\\t\\f\\v ]*LOOK_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
@@ -198,6 +382,22 @@ function change_id_lookAnim(toNew)
     model.pushEditOperations([], ops, () => null);
 }
 
+function change_id_editEye(toNew)
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_EYE[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+    let ops = [];
+
+    for (match of matches)
+    {
+        const newid = ((param) => {return toNew ? (param >= 11 ? (parseInt(param) - 11).toString() : param) : (param < 11 ? (parseInt(param) + 11).toString() : param)})(match.matches[2]);
+        ops.push({range: match.range, text: `EDIT_EYE(${newid}, ${match.matches[2]});\n`});
+    }
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function window_idswap()
 {
     const bg = document.getElementById('modalbg');
@@ -207,7 +407,7 @@ function window_idswap()
     footer.classList.add('gradient');
 
     let keys = [];
-    const keys_selection = ["MOUTH_ANIM", "EXPRESSION", "HAND_ANIM", "LOOK_ANIM"];
+    const keys_selection = ["MOUTH_ANIM", "EXPRESSION", "HAND_ANIM", "LOOK_ANIM", "EDIT_MOUTH", "EXPRESSION", "EDIT_HAND_ANIM", "EDIT_EYE"];
     const lines = editor.getValue().split(/\r?\n/);
     for (const line of lines)
     {
@@ -254,7 +454,7 @@ function window_idswap()
     header.appendChild(operation);
     const headerlab = document.createElement('label');
     headerlab.setAttribute('for', operation.id);
-    headerlab.innerText = " animations";
+    headerlab.innerText = " animations (experimental)";
     header.appendChild(headerlab);
 
     const btnok = document.createElement('btn');
@@ -303,6 +503,22 @@ function window_idswap()
 
                     case "LOOK_ANIM":
                     change_id_lookAnim(invert);
+                    break;
+
+                    case "EDIT_MOUTH":
+                    change_id_editMouth(invert);
+                    break;
+
+                    case "EDIT_EXPRESSION":
+                    change_id_editMouth(invert);
+                    break;
+
+                    case "EDIT_HAND_ANIM":
+                    change_id_handAnim(invert);
+                    break;
+
+                    case "EDIT_EYE":
+                    change_id_handAnim(invert);
                     break;
 
                     default:
