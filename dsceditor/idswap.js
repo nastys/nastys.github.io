@@ -7,58 +7,7 @@ function change_id_mouthAnim(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "23":
-                        return toNew ? "6" : "23";
-                    case "24":
-                        return toNew ? "0" : "24";
-                    case "25":
-                        return toNew ? "2" : "25";
-                    case "26":
-                        return toNew ? "3" : "26";
-                    case "27":
-                        return toNew ? "4" : "27";
-                    case "28":
-                        return toNew ? "6" : "28";
-                    case "29":
-                        return toNew ? "8" : "29";
-                    case "30":
-                        return toNew ? "9" : "30";
-                    case "31":
-                        return toNew ? "1" : "31";
-                    case "32":
-                        return toNew ? "5" : "32";
-                    case "33":
-                        return toNew ? "7" : "33";
-
-                    case "6":
-                        return toNew ? "6" : "28";
-                    case "0":
-                        return toNew ? "0" : "24";
-                    case "2":
-                        return toNew ? "2" : "25";
-                    case "3":
-                        return toNew ? "3" : "26";
-                    case "4":
-                        return toNew ? "4" : "27";
-                    case "8":
-                        return toNew ? "8" : "29"; //?
-                    case "10":
-                        return toNew ? "10" : "29"; //?
-                    case "9":
-                        return toNew ? "9" : "30";
-                    case "1":
-                        return toNew ? "1" : "31";
-                    case "5":
-                        return toNew ? "5" : "32";
-                    case "7":
-                        return toNew ? "7" : "33";
-
-                    default:
-                    return param;
-                }
-            })(match.matches[3]);
+        const newid = swap_id_mouth(match.matches[3], toNew);
         ops.push({range: match.range, text: `MOUTH_ANIM(${match.matches[1]}, ${match.matches[2]}, ${newid}, ${match.matches[4]}, ${match.matches[5]});\n`});
     }
 
@@ -74,58 +23,7 @@ function change_id_editMouth(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "23":
-                        return toNew ? "6" : "23";
-                    case "24":
-                        return toNew ? "0" : "24";
-                    case "25":
-                        return toNew ? "2" : "25";
-                    case "26":
-                        return toNew ? "3" : "26";
-                    case "27":
-                        return toNew ? "4" : "27";
-                    case "28":
-                        return toNew ? "6" : "28";
-                    case "29":
-                        return toNew ? "8" : "29";
-                    case "30":
-                        return toNew ? "9" : "30";
-                    case "31":
-                        return toNew ? "1" : "31";
-                    case "32":
-                        return toNew ? "5" : "32";
-                    case "33":
-                        return toNew ? "7" : "33";
-
-                    case "6":
-                        return toNew ? "6" : "28";
-                    case "0":
-                        return toNew ? "0" : "24";
-                    case "2":
-                        return toNew ? "2" : "25";
-                    case "3":
-                        return toNew ? "3" : "26";
-                    case "4":
-                        return toNew ? "4" : "27";
-                    case "8":
-                        return toNew ? "8" : "29"; //?
-                    case "10":
-                        return toNew ? "10" : "29"; //?
-                    case "9":
-                        return toNew ? "9" : "30";
-                    case "1":
-                        return toNew ? "1" : "31";
-                    case "5":
-                        return toNew ? "5" : "32";
-                    case "7":
-                        return toNew ? "7" : "33";
-
-                    default:
-                    return param;
-                }
-            })(match.matches[1]);
+        const newid = swap_id_mouth(match.matches[1], toNew);
         ops.push({range: match.range, text: `EDIT_MOUTH(${newid});\n`});
     }
 
@@ -141,70 +39,7 @@ function change_id_expression(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "52":
-                        return toNew ? "0" : "52";
-                    case "53":
-                        return toNew ? "3" : "53";
-                    case "54":
-                        return toNew ? "6" : "54";
-                    case "55":
-                        return toNew ? "8" : "55";
-                    case "56":
-                        return toNew ? "9" : "56";
-                    case "57":
-                        return toNew ? "10" : "57";
-                    case "58":
-                        return toNew ? "11" : "58";
-                    case "59":
-                        return toNew ? "12" : "59";
-                    case "65":
-                        return toNew ? "2" : "65";
-                    case "66":
-                        return toNew ? "1" : "66";
-                    case "68":
-                        return toNew ? "5" : "68";
-                    case "70":
-                        return toNew ? "7" : "70";
-                    case "72":
-                        return toNew ? "13" : "72";
-                    case "73":
-                        return toNew ? "14" : "73";
-            
-                    case "0":
-                        return toNew ? "0" : "52";
-                    case "3":
-                        return toNew ? "3" : "53";
-                    case "6":
-                        return toNew ? "6" : "54";
-                    case "8":
-                        return toNew ? "8" : "55";
-                    case "9":
-                        return toNew ? "9" : "56";
-                    case "2":
-                        return toNew ? "2" : "65";
-                    case "1":
-                        return toNew ? "1" : "66";
-                    case "10":
-                        return toNew ? "10" : "57";
-                    case "11":
-                        return toNew ? "11" : "58";
-                    case "12":
-                        return toNew ? "12" : "59";
-                    case "5":
-                        return toNew ? "5" : "68";
-                    case "7":
-                        return toNew ? "7" : "70";
-                    case "13":
-                        return toNew ? "13" : "72";
-                    case "14":
-                        return toNew ? "14" : "73";
-
-                    default:
-                    return param;
-                }
-            })(match.matches[2]);
+        const newid = swap_id_expression(match.matches[2], toNew);
         ops.push({range: match.range, text: `EXPRESSION(${match.matches[1]}, ${newid}, ${match.matches[3]}, ${match.matches[4]});\n`});
     }
 
@@ -220,70 +55,7 @@ function change_id_editExpression(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "52":
-                        return toNew ? "0" : "52";
-                    case "53":
-                        return toNew ? "3" : "53";
-                    case "54":
-                        return toNew ? "6" : "54";
-                    case "55":
-                        return toNew ? "8" : "55";
-                    case "56":
-                        return toNew ? "9" : "56";
-                    case "57":
-                        return toNew ? "10" : "57";
-                    case "58":
-                        return toNew ? "11" : "58";
-                    case "59":
-                        return toNew ? "12" : "59";
-                    case "65":
-                        return toNew ? "2" : "65";
-                    case "66":
-                        return toNew ? "1" : "66";
-                    case "68":
-                        return toNew ? "5" : "68";
-                    case "70":
-                        return toNew ? "7" : "70";
-                    case "72":
-                        return toNew ? "13" : "72";
-                    case "73":
-                        return toNew ? "14" : "73";
-            
-                    case "0":
-                        return toNew ? "0" : "52";
-                    case "3":
-                        return toNew ? "3" : "53";
-                    case "6":
-                        return toNew ? "6" : "54";
-                    case "8":
-                        return toNew ? "8" : "55";
-                    case "9":
-                        return toNew ? "9" : "56";
-                    case "2":
-                        return toNew ? "2" : "65";
-                    case "1":
-                        return toNew ? "1" : "66";
-                    case "10":
-                        return toNew ? "10" : "57";
-                    case "11":
-                        return toNew ? "11" : "58";
-                    case "12":
-                        return toNew ? "12" : "59";
-                    case "5":
-                        return toNew ? "5" : "68";
-                    case "7":
-                        return toNew ? "7" : "70";
-                    case "13":
-                        return toNew ? "13" : "72";
-                    case "14":
-                        return toNew ? "14" : "73";
-
-                    default:
-                    return param;
-                }
-            })(match.matches[2]);
+        const newid = swap_id_expression(match.matches[2], toNew);
         ops.push({range: match.range, text: `EDIT_EXPRESSION(${newid}, ${match.matches[2]});\n`});
     }
 
@@ -299,29 +71,7 @@ function change_id_handAnim(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "9":
-                        return toNew ? "8" : "9";
-                    case "11":
-                        return toNew ? "10" : "11";
-            
-                    case "8":
-                        return toNew ? "8" : "9";
-                    case "10":
-                        return toNew ? "10" : "11";
-            
-                    // case "0":
-                    // case "1":
-                    // case "2":
-                    // case "3":
-                    // case "4":
-                    // case "5":
-                    // case "6":
-                    default:
-                    return param;
-                }
-            })(match.matches[3]);
+        const newid = swap_id_hand(match.matches[3], toNew);
         ops.push({range: match.range, text: `HAND_ANIM(${match.matches[1]}, ${match.matches[2]}, ${newid}, ${match.matches[4]}, ${match.matches[5]});\n`});
     }
 
@@ -337,29 +87,7 @@ function change_id_editHandAnim(toNew)
 
     for (match of matches)
     {
-        const newid = ((param) => { switch (param)
-                {
-                    case "9":
-                        return toNew ? "8" : "9";
-                    case "11":
-                        return toNew ? "10" : "11";
-            
-                    case "8":
-                        return toNew ? "8" : "9";
-                    case "10":
-                        return toNew ? "10" : "11";
-            
-                    // case "0":
-                    // case "1":
-                    // case "2":
-                    // case "3":
-                    // case "4":
-                    // case "5":
-                    // case "6":
-                    default:
-                    return param;
-                }
-            })(match.matches[2]);
+        const newid = swap_id_hand(match.matches[2], toNew);
         ops.push({range: match.range, text: `EDIT_HAND_ANIM($${newid}, ${match.matches[2]});\n`});
     }
 
@@ -396,6 +124,154 @@ function change_id_editEye(toNew)
     }
 
     model.pushEditOperations([], ops, () => null);
+}
+
+function swap_id_hand(param, toNew)
+{
+    switch (param)
+    {
+        case "9":
+            return toNew ? "8" : "9";
+        case "11":
+            return toNew ? "10" : "11";
+
+        case "8":
+            return toNew ? "8" : "9";
+        case "10":
+            return toNew ? "10" : "11";
+
+        // case "0":
+        // case "1":
+        // case "2":
+        // case "3":
+        // case "4":
+        // case "5":
+        // case "6":
+        default:
+        return param;
+    }
+}
+
+function swap_id_mouth(param, toNew)
+{
+    switch (param)
+    {
+        case "23":
+            return toNew ? "6" : "23";
+        case "24":
+            return toNew ? "0" : "24";
+        case "25":
+            return toNew ? "2" : "25";
+        case "26":
+            return toNew ? "3" : "26";
+        case "27":
+            return toNew ? "4" : "27";
+        case "28":
+            return toNew ? "6" : "28";
+        case "29":
+            return toNew ? "8" : "29";
+        case "30":
+            return toNew ? "9" : "30";
+        case "31":
+            return toNew ? "1" : "31";
+        case "32":
+            return toNew ? "5" : "32";
+        case "33":
+            return toNew ? "7" : "33";
+
+        case "6":
+            return toNew ? "6" : "28";
+        case "0":
+            return toNew ? "0" : "24";
+        case "2":
+            return toNew ? "2" : "25";
+        case "3":
+            return toNew ? "3" : "26";
+        case "4":
+            return toNew ? "4" : "27";
+        case "8":
+            return toNew ? "8" : "29"; //?
+        case "10":
+            return toNew ? "10" : "29"; //?
+        case "9":
+            return toNew ? "9" : "30";
+        case "1":
+            return toNew ? "1" : "31";
+        case "5":
+            return toNew ? "5" : "32";
+        case "7":
+            return toNew ? "7" : "33";
+
+        default:
+        return param;
+    }
+}
+
+function swap_id_expression(param, toNew)
+{
+    switch (param)
+    {
+        case "52":
+            return toNew ? "0" : "52";
+        case "53":
+            return toNew ? "3" : "53";
+        case "54":
+            return toNew ? "6" : "54";
+        case "55":
+            return toNew ? "8" : "55";
+        case "56":
+            return toNew ? "9" : "56";
+        case "57":
+            return toNew ? "10" : "57";
+        case "58":
+            return toNew ? "11" : "58";
+        case "59":
+            return toNew ? "12" : "59";
+        case "65":
+            return toNew ? "2" : "65";
+        case "66":
+            return toNew ? "1" : "66";
+        case "68":
+            return toNew ? "5" : "68";
+        case "70":
+            return toNew ? "7" : "70";
+        case "72":
+            return toNew ? "13" : "72";
+        case "73":
+            return toNew ? "14" : "73";
+
+        case "0":
+            return toNew ? "0" : "52";
+        case "3":
+            return toNew ? "3" : "53";
+        case "6":
+            return toNew ? "6" : "54";
+        case "8":
+            return toNew ? "8" : "55";
+        case "9":
+            return toNew ? "9" : "56";
+        case "2":
+            return toNew ? "2" : "65";
+        case "1":
+            return toNew ? "1" : "66";
+        case "10":
+            return toNew ? "10" : "57";
+        case "11":
+            return toNew ? "11" : "58";
+        case "12":
+            return toNew ? "12" : "59";
+        case "5":
+            return toNew ? "5" : "68";
+        case "7":
+            return toNew ? "7" : "70";
+        case "13":
+            return toNew ? "13" : "72";
+        case "14":
+            return toNew ? "14" : "73";
+
+        default:
+        return param;
+    }
 }
 
 function window_idswap()
