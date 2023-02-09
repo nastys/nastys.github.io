@@ -116,12 +116,21 @@
     <div id="preview_background" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"></div>
     <div id="preview_window" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"><div id="preview_body"><div id="preview_container"><span id="preview_canvas"></span></div></div></div>
   </body>
+  <script type="module">
+    async function swsetup() {
+      if ('serviceWorker' in navigator) {
+        const sw = await navigator.serviceWorker.register("./serviceworker.js");
+        if (sw) {
+          sw.addEventListener('updatefound', () => {
+            alert("Restart DSC Editor to apply updates.");
+          });
+        }
+      }
+    }
+    await swsetup();
+  </script>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("./serviceworker.js");
-    }
-
     var editor;
     var model;
     var bookmarks = [];
