@@ -1,4 +1,4 @@
-const cacheName = "dsceditor-static-v2";
+const cacheName = "dsceditor-static-v3";
 
 const contentToCache = [
   "./",
@@ -71,13 +71,13 @@ self.addEventListener('fetch', function (e) {
   e.respondWith(
     (async () => {
       const r = await caches.match(e.request);
-      //console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
+      //console.log(`[${cacheName}] Fetching resource: ${e.request.url}`);
       if (r) {
         return r;
       }
       const response = await fetch(e.request);
       const cache = await caches.open(cacheName);
-      console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
+      console.log(`[${cacheName}] Caching new resource: ${e.request.url}`);
       cache.put(e.request, response.clone());
       return response;
     })()
@@ -90,6 +90,7 @@ self.addEventListener("install", (e) => {
       const cache = await caches.open(cacheName);
       console.log(`Installing ${cacheName}...`);
       await cache.addAll(contentToCache);
+      //await skipWaiting();
       console.log("Installation complete.");
     })()
   );
@@ -105,9 +106,18 @@ self.addEventListener("activate", (e) => {
             return;
           }
           console.log(`Cleaning up ${key}...`);
+          // console.log("Claiming clients...");
+          // clients.claim();
           return caches.delete(key);
         })
       );
     })
   );
+});
+
+self.addEventListener('message', event => {
+  if (event.data === 'skipWaiting') {
+    skipWaiting();
+    console.log("Skipped waiting.");
+  }
 });

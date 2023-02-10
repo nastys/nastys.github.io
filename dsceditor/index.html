@@ -116,19 +116,6 @@
     <div id="preview_background" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"></div>
     <div id="preview_window" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"><div id="preview_body"><div id="preview_container"><span id="preview_canvas"></span></div></div></div>
   </body>
-  <script type="module">
-    async function swsetup() {
-      if ('serviceWorker' in navigator) {
-        const sw = await navigator.serviceWorker.register("./serviceworker.js");
-        if (sw) {
-          sw.addEventListener('updatefound', () => {
-            alert("Restart DSC Editor to apply updates.");
-          });
-        }
-      }
-    }
-    await swsetup();
-  </script>
   <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
 	<script>
     var editor;
@@ -273,6 +260,41 @@
       }
     };
 	</script>
+  <script type="module">
+    async function swsetup() {
+      if ('serviceWorker' in navigator) {
+        let hasRegistration = true;
+        await navigator.serviceWorker.getRegistration().then((registration) => {
+          hasRegistration = typeof registration !== 'undefined';
+        });
+        await navigator.serviceWorker.register("./serviceworker.js").then((registration) => 
+        {
+          navigator.serviceWorker.addEventListener('controllerchange', () =>
+          {
+            console.log("Update applied, reloading...");
+            var reloading;
+            if (reloading)
+            {
+              return;
+            }
+            reloading = true;
+            window.location.reload();
+          });
+          if (hasRegistration)
+          {
+            registration.addEventListener('updatefound', () =>
+            {
+              dialogEx("Update available", "Restart DSC Editor to apply updates?", () => 
+              {
+                registration.waiting.postMessage('skipWaiting');
+              })
+            });
+          }
+        });
+      }
+    }
+    await swsetup();
+  </script>
   <script src="./editor_util.js"></script>
   <script src="./idswap.js"></script>
   <script src="./menu.js"></script>
