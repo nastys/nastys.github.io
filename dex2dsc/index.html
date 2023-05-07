@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DEX to DSC</title>
+    <meta name="theme-color" content="#b1eb34" />
+</head>
+<style>
+    body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: black;
+    display: flex;
+}
+
+#droparea {
+    margin: auto;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.75rem white);
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 0.5rem;
+    user-select: none;
+    -webkit-user-select: none;
+}
+</style>
+<body>
+    <div style="display:flex;flex-direction:column;width:100%;height:100%;">
+        <div style="display:flex;flex-direction:row;">
+            <label for="performer" style="color:white;">Performer: </label>
+            <input type="number" value="0" min="0" max="5" id="performer" required>
+        </div>
+        <textarea id="droparea" readonly placeholder="Drag&drop a exp_PVXXX.bin here. Thanks to korenkonder for reverse-enginnering the format. Not everything can be converted losslessly."></textarea>
+    </div>
+</body>
+<script>
+function parse_dex_data(file)
+{
+    const reader = new FileReader();
+        reader.readAsArrayBuffer(file);
+        reader.onload = function(){
+            const data = new DataView(reader.result);
+            const area = document.getElementById("droparea");
+            if (reader.result.byteLength > 0)
+            {
+                const signature = data.getUint32(0, true);
+                if (signature != 0x64)
+                {
+                    area.innerText = `Unsupported format (${signature}).`;
+                    return;
+                }
+
+                const exp_len = data.getInt32(4, true);
+                const dex_offset = data.getInt32(8, true);
+                const dex_nameoffset = data.getInt32(12, true);
+
+                let Exp = [];
+
+                for (let i = 0; i < exp_len; i++)
+                {
+                    const exp = {
+                        face_offset: data.getInt32(dex_offset + (i * 4), true),
+                        facecl_offset: data.getInt32(dex_offset + (i * 4) + 4, true),
+                    };
+
+                    Exp.push(exp);
+                    
+                    Exp[i].name_offset = data.getInt32(dex_nameoffset + (i * 4), true);
+                    
+                    Exp[i].face = [];
+                    let count = 0;
+                    while(true)
+                    {
+                        const element = 
+                        {
+                            frame: data.getFloat32((Exp[i].face_offset)+count*16, true),
+                            type: data.getUint16((Exp[i].face_offset+4)+count*16, true),
+                            id: data.getUint16((Exp[i].face_offset+6)+count*16, true),
+                            value: data.getFloat32((Exp[i].face_offset+8)+count*16, true),
+                            trans: data.getFloat32((Exp[i].face_offset+12)+count*16, true),
+                        };
+                        if (element.type == 0xFFFF) break;
+                        Exp[i].face.push(element);
+                        count++;
+                    }
+                    Exp[i].face.capacity = count;
+                    
+                    Exp[i].facecl = [];
+                    count = 0;
+                    while(true)
+                    {
+                        const element = 
+                        {
+                            frame: data.getFloat32((Exp[i].facecl_offset)+count*16, true),
+                            type: data.getUint16((Exp[i].facecl_offset+4)+count*16, true),
+                            id: data.getUint16((Exp[i].facecl_offset+6)+count*16, true),
+                            value: data.getFloat32((Exp[i].facecl_offset+8)+count*16, true),
+                            trans: data.getFloat32((Exp[i].facecl_offset+12)+count*16, true),
+                        };
+                        if (element.type == 0xFFFF) break;
+                        Exp[i].facecl.push(element);
+                        count++;
+                    }
+                    Exp[i].facecl.capacity = count;
+
+                    Exp[i].name = readNullTerminatedString(data, Exp[i].name_offset);
+                }
+
+                const mergedExp = Exp.reduce((accumulator, currentValue) => accumulator.concat(currentValue.face, currentValue.facecl), []);
+                mergedExp.sort((a, b) => a.frame - b.frame);
+
+                const result = mergedExp.sort(obj => ({ frame: obj.frame, type: obj.type, id: obj.id, value: obj.value, trans: obj.trans }));
+                
+                const performer = document.getElementById("performer").value.toString();
+                let text = "";
+                result.forEach(el => {
+                    const timestamp = Math.round(el.frame * (1000 / 60) * 100);
+                    if (el.type == 0)
+                    {
+                        text += `TIME(${timestamp});\nEXPRESSION(${performer}, ${el.id}, ${Math.round(el.trans)}, ${Math.round(el.value)});\r\n`;
+                    }
+                    else if (el.type == 1)
+                    {
+                        text += `TIME(${timestamp});\nEYE_ANIM(${performer}, ${el.id}, ${Math.round(el.trans)});\r\n`;
+                    }
+                });
+
+                area.value = text;
+            }
+            else
+            {
+                area.value = "Unsupported format.";
+            }
+        }
+}
+
+function readNullTerminatedString(dataView, offset) {
+    let byte = dataView.getUint8(offset);
+    let bytes = [];
+
+    while (byte !== 0)
+    {
+        bytes.push(byte);
+        offset++;
+        byte = dataView.getUint8(offset);
+    }
+
+    const decoder = new TextDecoder();
+    const string = decoder.decode(new Uint8Array(bytes));
+
+    return string;
+}
+
+document.body.addEventListener("dragover", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+document.body.addEventListener("drop", async (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    
+    const files = e.dataTransfer.files;
+    if (files.length >= 1)
+    {
+        parse_dex_data(files[0]);
+    }
+});
+</script>
+</html>
