@@ -122,7 +122,8 @@ function parse_dex_data(file)
                     const timestamp = Math.round(el.frame * (1000 / 60) * 100);
                     if (el.type == 0)
                     {
-                        text += `TIME(${timestamp});\nEXPRESSION(${performer}, ${el.id}, ${Math.round(el.trans)}, ${Math.round(el.value)});\r\n`;
+                        //text += `TIME(${timestamp});\nEXPRESSION(${performer}, ${el.id}, ${Math.round(el.trans)}, ${Math.round(el.value)});\r\n`;
+                        text += `TIME(${timestamp});\nEXPRESSION(${performer}, ${el.id}, ${Math.round(el.trans)}, -1);\r\n`;
                     }
                     else if (el.type == 1)
                     {
