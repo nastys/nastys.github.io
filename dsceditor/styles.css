@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .progresswnd {
     position: fixed;
     width: 100%;
@@ -89,7 +93,7 @@ body {
     text-align: center;
     background: linear-gradient(#e1e1e1, #979797);
     color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     box-shadow: 0px 3px 10px #000000bb;
     display: inline-block;
     line-height: 32px;
@@ -98,6 +102,16 @@ body {
     cursor: default;
     margin: 12px 12px 12px 12px;
     overflow: hidden;
+}
+
+.modalbtn_mini {
+    width: 50px;
+    height: 16px;
+    box-shadow: 0px 1px 4px #9ed77b;
+    line-height: 16px;
+    background: linear-gradient(#87df7b, #59bd40);
+    margin: auto;
+    font-size: smaller;
 }
 
 .modalbtn_blue {
@@ -131,11 +145,11 @@ body {
     box-shadow: 0px 3px 10px #62ff0080;
 }
 
-.modalbtn_green:hover {
+.modalbtn_green:hover, .modalbtn_mini:hover {
     background: linear-gradient(#a6ff9f, #70ff57);
 }
 
-.modalbtn_green:active {
+.modalbtn_green:active, .modalbtn_mini:active {
     background: linear-gradient(#73e659, #46b413);
 }
 

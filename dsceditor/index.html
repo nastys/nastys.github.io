@@ -33,6 +33,7 @@
         <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
         <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
         <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
+        <div class="modalbtn modalbtn_mini hidden" style="margin-left: auto; margin-right: 0.5rem;" id="installbtn">Install</div>
       </div>
       <div class="toolbar" id="toolbar">
         <div class="toolbutton hastooltip" id="toolopen"><span class="menu gradient tooltip">Open...</span><img class="toolicon" src="./icons/OpenFile.svg" draggable="false"/></div>
@@ -62,7 +63,7 @@
       </select>
       <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
       <div class="toolseparator" style="margin-left: 21px;"></div>
-      <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" disabled="true" value="00:00:00.00000" style="min-width: fit-content; width: 140px; text-align: center;">
+      <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" readonly="true" value="00:00:00.00000" style="min-width: fit-content; width: 140px; text-align: center;">
       <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame" style="min-width: fit-content;">0</span>
       <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch" style="min-width: fit-content;">Global</span>
       <span style="margin-left: 20px;">BPM:&nbsp;</span><span id="indicator_ts" style="min-width: fit-content;">Undefined</span>
@@ -126,6 +127,21 @@
 
     var fileApi = 'showSaveFilePicker' in window;
     var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      const btn = document.getElementById('installbtn');
+      btn.classList.remove('hidden');
+      btn.onclick = () =>
+      {
+        e.prompt();
+      }
+    });
+
+    window.addEventListener('appinstalled', () => {
+      const btn = document.getElementById('installbtn');
+      btn.classList.add('hidden');
+    });
 
     function setDarkMode(value) {
       browser_dark = value;
