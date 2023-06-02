@@ -32,6 +32,7 @@
         <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
         <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
         <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
+        <!-- <div class="menubaritem" id="menubaritem_settings"><div class=menubaritemtext>Settings</div></div> -->
         <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
         <div class="modalbtn modalbtn_mini hidden" style="margin-left: auto; margin-right: 0.5rem;" id="installbtn">Install</div>
       </div>
@@ -110,6 +111,9 @@
       <div class="menuitem menuitem-disabled" id="menuitem_nextbkm"><img src="./icons/NextBookmark.svg" class="menuicon-small"><div class="menuitemtext">Next bookmark</div></div>
       <div class="menuitem menuitem-disabled" id="menuitem_rmallbkm"><img src="./icons/ClearBookmark.svg" class="menuicon-small"><div class="menuitemtext">Remove all bookmarks</div></div>
     </div>
+    <!-- <div class="menu gradient2" id="menu_settings" hidden>
+      <div class="menuitem" id="menuitem_install"><div class="menuitemtext">Install...</div></div>
+    </div> -->
     <div class="menu gradient2" id="menu_help" hidden>
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
       <div class="menuitem" id="menuitem_src"><div class="menuitemtext">Source code...</div></div>
@@ -128,13 +132,18 @@
     var fileApi = 'showSaveFilePicker' in window;
     var browser_dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+    var install_prompt_handle;
+    var installed = true;
+
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
+      install_prompt_handle = e;
+      installed = false;
       const btn = document.getElementById('installbtn');
       btn.classList.remove('hidden');
       btn.onclick = () =>
       {
-        e.prompt();
+        window_install();
       }
     });
 

@@ -57,6 +57,7 @@ const contentToCache = [
   "./icons/OpenFile.svg",
   "./icons/target_square.svg",
   "./icons/Run.svg",
+  "./icons/dsc_file.webp",
   "./sounds/hit.flac",
   "./node_modules/monaco-editor/min/vs/base/browser/ui/codicons/codicon/codicon.ttf",
   "./node_modules/monaco-editor/min/vs/editor/editor.main.js",

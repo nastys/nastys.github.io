@@ -85,6 +85,7 @@ setmenubaritem('bookmarks');
 setmenubaritem('branch');
 setmenubaritem('tools');
 setmenubaritem('convert');
+// setmenubaritem('settings');
 setmenubaritem('help');
 
 {
@@ -108,7 +109,7 @@ setmenubaritem('help');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
-    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
     
     const menuitem_src = document.getElementById('menuitem_src');
     menuitem_src.oncontextmenu = menuitem_src.onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
@@ -184,6 +185,9 @@ setmenubaritem('help');
 
     const menuitem_rmallbkm = document.getElementById('menuitem_rmallbkm');
     menuitem_rmallbkm.oncontextmenu = menuitem_rmallbkm.onclick = () => { setTimeout(function() { bookmark_clear(); }, 100 ); };
+
+    // const menuitem_install = document.getElementById('menuitem_install');
+    // menuitem_install.oncontextmenu = menuitem_install.onclick = () => { setTimeout(function() { window_install(); }, 100 ); };
 
     const cb_autodetectgame = document.getElementById('cb_autodetectgame');
     const lbl_autodetectgame = document.getElementById('lbl_autodetectgame');

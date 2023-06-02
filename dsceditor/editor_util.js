@@ -636,3 +636,74 @@ function remove_branch(branch)
 
     model.pushEditOperations([], ops, () => null);
 }
+
+function window_install()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Install";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'Install';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Close';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = async () =>
+    {
+        install_prompt_handle.prompt();
+        const { outcome } = await install_prompt_handle.userChoice;
+        if (outcome === 'accepted')
+        {
+            installed = true;
+            closewnd();
+        }
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncanc);
+
+    const flex = document.createElement('div');
+    flex.style.display = 'flex';
+    flex.style.flexDirection = 'row';
+
+    const pic = document.createElement('img');
+    pic.style.margin = '1rem';
+    pic.width = 91;
+    pic.height = 119;
+    pic.setAttribute('src', './icons/dsc_file.webp');
+
+    const text = document.createElement('div');
+    text.style.margin = '1rem';
+    text.innerText = "Install to get desktop shortcuts and file associations.\n\nThe app will work offline even if you do not install it.";
+
+    flex.appendChild(pic);
+    flex.appendChild(text);
+
+    container.appendChild(flex);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}
