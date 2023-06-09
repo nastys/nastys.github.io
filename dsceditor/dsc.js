@@ -178,6 +178,118 @@ function read_dsc(files)
     worker.onmessage = worker_message_handler;
 }
 
+function export_dex()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+
+    const cont1 = document.createElement('div');
+    cont1.classList.add('cbcont');
+    const el1 = document.createElement('input');
+    el1.type = 'number';
+    el1.id = 'nm_performer';
+    el1.min = 0;
+    //el1.max = 5;
+    el1.value = 0;
+    el1.classList.add('mleft');
+    el1.classList.add('mtop4');
+    const lab1 = document.createElement('label');
+    lab1.setAttribute('for', el1.id);
+    lab1.innerText = 'Performer:';
+    cont1.appendChild(lab1);
+    cont1.appendChild(el1);
+    container.appendChild(cont1);
+
+    const cont2 = document.createElement('div');
+    cont2.classList.add('cbcont');
+    const el2 = document.createElement('input');
+    el2.type = 'number';
+    el2.id = 'nm_pvnum';
+    el2.min = 0;
+    //el2.max = 998;
+    el2.value = 1;
+    el2.classList.add('mleft');
+    el2.classList.add('mtop4');
+    const lab2 = document.createElement('label');
+    lab2.setAttribute('for', el2.id);
+    lab2.innerText = 'PV number:';
+    cont2.appendChild(lab2);
+    cont2.appendChild(el2);
+    container.appendChild(cont2);
+
+    const cont3 = document.createElement('div');
+    cont3.classList.add('cbcont');
+    const el3 = document.createElement('input');
+    el3.type = 'checkbox';
+    el3.id = 'cb_aligned';
+    el3.disabled = true;
+    el3.classList.add('cb_rmcommand');
+    const lab3 = document.createElement('label');
+    lab3.setAttribute('for', el3.id);
+    lab3.innerText = 'Aligned';
+    lab3.classList.add('cblabel');
+    cont3.appendChild(el3);
+    cont3.appendChild(lab3);
+    container.appendChild(cont3);
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Export DEX";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'OK';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = function()
+    {
+        const performer = parseInt(el1.value);
+        const pvnum = parseInt(el2.value);
+
+        do_export_dex(performer, pvnum);
+
+        closewnd();
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}
+
+async function do_export_dex(performer, pvnum)
+{
+    setProgress(0, "Exporting file...");
+    const worker = new Worker("./dex_worker_write.js");
+    const lines = editor.getValue().split(/\r?\n/);
+    worker.postMessage({lines: lines, dscfmt: id_fmt.value, performer: performer, pvnum: pvnum});
+    worker.onmessage = worker_message_handler;
+}
+
+const menuitem_export_dex = document.getElementById('menuitem_export_dex');
+menuitem_export_dex.oncontextmenu = menuitem_export_dex.onclick = function() { export_dex(); }
+
 async function worker_message_handler(e)
 {
     switch (e.data.type)
@@ -229,6 +341,19 @@ async function worker_message_handler(e)
                 filelink.remove();
             }
             setModified(false);
+            setProgress(-1);
+            break;
+        case 'dataexport':
+            const filexblob = e.data.data.blob;
+            {
+                const filelink = document.createElement('a');
+                const fileurl = URL.createObjectURL(filexblob);
+                filelink.href = fileurl;
+                filelink.target = "_blank";
+                filelink.download = e.data.data.filename;
+                filelink.click();
+                filelink.remove();
+            }
             setProgress(-1);
             break;
         case 'seteditorpos':

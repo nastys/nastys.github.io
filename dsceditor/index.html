@@ -58,9 +58,9 @@
     <div id="container" class="editor"></div>
 
     <div id="footer" class="footer gradient2">
-      <label for="format">Game:&nbsp;</label><select name="Format" id="dscfmt" autocomplete="off">
+      <label for="dscfmt">Game:&nbsp;</label><select name="Format" id="dscfmt" autocomplete="off">
         <option value="ft">FT</option>
-        <option value="dt2">DT 2nd</option>
+        <option value="dt2">DT 2nd/e, f</option>
       </select>
       <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
       <div class="toolseparator" style="margin-left: 21px;"></div>
@@ -103,6 +103,7 @@
     <div class="menu gradient2" id="menu_convert" hidden>
       <div class="menuitem" id="menuitem_idswap"><div class="menuitemtext">Swap old/new animations...</div></div>
       <!--<div class="menuitem" id="menuitem_convert_f_ft"><div class="menuitemtext">DT 2nd/f to FT...</div></div>-->
+      <div class="menuitem" id="menuitem_export_dex"><div class="menuitemtext">Export DEX (experimental)...</div></div>
       <div class="menuitem" id="menuitem_convert_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
     </div>
     <div class="menu gradient2" id="menu_bookmarks" hidden>

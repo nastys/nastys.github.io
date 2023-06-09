@@ -109,7 +109,7 @@ setmenubaritem('help');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
-    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
     
     const menuitem_src = document.getElementById('menuitem_src');
     menuitem_src.oncontextmenu = menuitem_src.onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
@@ -118,7 +118,7 @@ setmenubaritem('help');
     menuitem_rmtargets.oncontextmenu = menuitem_rmtargets.onclick = function () { remove_targets(); }
 
     const menuitem_timecleanup = document.getElementById('menuitem_timecleanup');
-    menuitem_timecleanup.oncontextmenu = menuitem_timecleanup.onclick = function() { dupe_cleanup(); dupe_cleanup("TARGET_FLYING_TIME") }
+    menuitem_timecleanup.oncontextmenu = menuitem_timecleanup.onclick = function() { dupe_cleanup(); dupe_cleanup("TARGET_FLYING_TIME"); }
 
     const menuitem_rmcommands = document.getElementById('menuitem_rmcommands');
     menuitem_rmcommands.oncontextmenu = menuitem_rmcommands.onclick = function() { window_rmcommands(); }
