@@ -206,16 +206,14 @@ function export_dex()
     const cont2 = document.createElement('div');
     cont2.classList.add('cbcont');
     const el2 = document.createElement('input');
-    el2.type = 'number';
-    el2.id = 'nm_pvnum';
-    el2.min = 0;
-    //el2.max = 998;
-    el2.value = 1;
+    el2.type = 'text';
+    el2.id = 'tx_dexname';
+    el2.value = 'PV002_MCA00_00_10';
     el2.classList.add('mleft');
     el2.classList.add('mtop4');
     const lab2 = document.createElement('label');
     lab2.setAttribute('for', el2.id);
-    lab2.innerText = 'PV number:';
+    lab2.innerText = 'MOT/DEX:';
     cont2.appendChild(lab2);
     cont2.appendChild(el2);
     container.appendChild(cont2);
@@ -264,9 +262,9 @@ function export_dex()
     btnok.onclick = function()
     {
         const performer = parseInt(el1.value);
-        const pvnum = parseInt(el2.value);
-
-        do_export_dex(performer, pvnum);
+        const dexname = el2.value;
+        
+        do_export_dex(performer, dexname);
 
         closewnd();
     }
@@ -278,12 +276,12 @@ function export_dex()
     bg.classList.remove('invisible');
 }
 
-async function do_export_dex(performer, pvnum)
+async function do_export_dex(performer, dexname)
 {
     setProgress(0, "Exporting file...");
     const worker = new Worker("./dex_worker_write.js");
     const lines = editor.getValue().split(/\r?\n/);
-    worker.postMessage({lines: lines, dscfmt: id_fmt.value, performer: performer, pvnum: pvnum});
+    worker.postMessage({lines: lines, dscfmt: id_fmt.value, performer: performer, dexname: dexname});
     worker.onmessage = worker_message_handler;
 }
 

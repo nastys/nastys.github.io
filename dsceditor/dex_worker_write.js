@@ -18,7 +18,7 @@ onmessage = function(e)
     const lines = e.data.lines;
     let fmt = e.data.dscfmt;
     let performer = e.data.performer;
-    let pvnum = e.data.pvnum;
+    let dex_name = e.data.dexname;
 
     function SaveError(line, column, message) {
         postMessage({type: 'seteditorpos', data: {lineNumber: line, column: column}});
@@ -132,9 +132,6 @@ onmessage = function(e)
         dex_face.push(end);
         dex_facecl.push(end);
 
-        const pvnum_str = pvnum.toString().padStart(3, '0');
-        const player_str = performer.toString();
-        const dex_name = `PV${pvnum_str}_HLW_P${player_str}_00`;
         const dex_name_bin = new TextEncoder().encode(dex_name);
 
         const filelen = 0x3C + (dex_face.length * 16) + (dex_facecl.length * 16) + dex_name_bin.length + 2;
