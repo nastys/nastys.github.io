@@ -11,6 +11,16 @@ function get_fmt_from_ver(ver)
     {
         return 'dt2';
     }
+
+    if (fmts_pd1.includes(ver))
+    {
+        return 'pd1';
+    }
+
+    if (fmts_pd2.includes(ver))
+    {
+        return 'pd2';
+    }
     
     return -1;
 }

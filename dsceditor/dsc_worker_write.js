@@ -8,7 +8,11 @@ function get_db_info(fmt)
             return 'info_FT';
         case 'dt2':
             return 'info_f';
-    }
+        case 'pd1':
+            return 'info_PSP1';
+        case 'pd2':
+            return 'info_PSP2';
+        }
 
     throw `Format error: Unknown format '${fmt}'.`;
 }
@@ -27,7 +31,10 @@ onmessage = function(e)
     try {
         let filenative = [];
 
-        filenative.push(parseInt(ver));
+        if (!(fmt === 'pd1' || fmt === 'pd2'))
+        {
+            filenative.push(parseInt(ver));
+        }
 
         const info = get_db_info(fmt);
         for (let i = 0; i < lines.length; i++) {

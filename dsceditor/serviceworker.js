@@ -1,9 +1,11 @@
-const cacheName = "dsceditor-static-v7";
+const cacheName = "dsceditor-static-v9";
 
 const contentToCache = [
   "./",
   "./db_dt2.js",
   "./db_ft.js",
+  "./db_pd1.js",
+  "./db_pd2.js",
   "./db.js",
   "./dex_worker_write.js",
   "./dsc_worker_read.js",

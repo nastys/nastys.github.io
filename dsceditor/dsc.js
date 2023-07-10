@@ -37,6 +37,12 @@ document.getElementById('dscfmt').onchange = function()
         case 'dt2':
             document.getElementById('dscver').value = fmts_dt2[0];
             break;
+        case 'pd1':
+            document.getElementById('dscver').value = fmts_pd1[0];
+            break;
+        case 'pd2':
+            document.getElementById('dscver').value = fmts_pd2[0];
+            break;
     }
 }
 

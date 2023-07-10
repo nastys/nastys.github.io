@@ -10,6 +10,12 @@ function get_db(fmt)
         case 'dt2':
             importScripts("./db_dt2.js");
             return db_dt2;
+        case 'pd1':
+            importScripts("./db_pd1.js");
+            return db_pd1;
+        case 'pd2':
+            importScripts("./db_pd2.js");
+            return db_pd2;
     }
 
     throw `Format error: Unknown format '${fmt}'.`;
@@ -44,7 +50,9 @@ onmessage = function(e)
                         const newfmt = get_fmt_from_ver(num);
                         if (newfmt == -1)
                         {
-                            postMessage({type: 'warning', data: `WARNING: Cannot autodetect format '${num}'.`});
+                            postMessage({type: 'exception', data: `ERROR: Cannot autodetect format '${num}'.\nPlease disable autodetection and manually select the format, and open the file again.`});
+                            errors = true;
+                            break;
                         }
                         else
                         {
@@ -53,7 +61,10 @@ onmessage = function(e)
                         }
                     }
                     thisdb = get_db(fmt);
-                    continue;
+                    if (!(fmt === 'pd1' || fmt === 'pd2'))
+                    {
+                        continue;
+                    }
                 }
                 if (typeof thisdb[num] === 'undefined')
                 {
