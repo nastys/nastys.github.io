@@ -150,6 +150,9 @@ setmenubaritem('help');
     const menuitem_idswap = document.getElementById('menuitem_idswap');
     menuitem_idswap.oncontextmenu = menuitem_idswap.onclick = function() { window_idswap(); }
 
+    const menuitem_edit_commands_to_standard = document.getElementById('menuitem_edit_commands_to_standard');
+    menuitem_edit_commands_to_standard.oncontextmenu = menuitem_edit_commands_to_standard.onclick = function() { edit_commands_to_standard(); }
+
     const toolpreview = document.getElementById('toolpreview');
     /*toolpreview.oncontextmenu = */toolpreview.onclick = function() { preview_play(); };
 

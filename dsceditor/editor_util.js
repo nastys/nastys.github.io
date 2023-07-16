@@ -707,3 +707,139 @@ function window_install()
     bg.clientWidth;
     bg.classList.remove('invisible');
 }
+
+function edit_commands_to_standard()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+
+    const supported = ["EDIT_MOUTH_ANIM"];
+    let keys = [];
+    const lines = editor.getValue().split(/\r?\n/);
+    for (const line of lines)
+    {
+        if (line != '')
+        {
+            const par_start = line.indexOf('(');
+            if (par_start > 0)
+            {
+                const thiscommand = line.substring(0, par_start);
+                if (supported.includes(thiscommand) && !keys.includes(thiscommand))
+                {
+                    keys.push(thiscommand);
+                }
+            }
+        }
+    }
+    keys.sort();
+
+    keys.forEach(key => {
+        const cont = document.createElement('div');
+        cont.classList.add('cbcont');
+        const el = document.createElement('input');
+        el.type = 'checkbox';
+        el.id = 'cb_' + key;
+        el.setAttribute('data-key', key);
+        el.classList.add('cb_edtcommand');
+        const lab = document.createElement('label');
+        lab.setAttribute('for', el.id);
+        lab.innerText = key;
+        lab.classList.add('cblabel');
+        cont.appendChild(el);
+        cont.appendChild(lab);
+        container.appendChild(cont);
+    });
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Convert EDIT commands";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'OK';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = function()
+    {
+        const boxes = document.getElementsByClassName('cb_edtcommand');
+        Array.prototype.forEach.call(boxes, function(box) {
+            if (box.checked)
+            {
+                const opcode = box.getAttribute('data-key');
+                convert_edit_command(opcode);
+            }
+        });
+
+        closewnd();
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}
+
+function convert_edit_command(opcode)
+{
+    switch (opcode)
+    {
+        case 'EDIT_MOUTH_ANIM':
+            edit_mouth_anim_to_mouth_anim();
+            break;
+    }
+}
+
+function edit_mouth_anim_to_mouth_anim()
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_MOUTH_ANIM[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    const model = editor.getModel();
+    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
+    //console.log(`Found ${matches.length} commands.`);
+
+    let ops = [];
+    let last_time;
+    let last_linen;
+    for (let i = 0; i < matches.length; i++)
+    {
+        const line = model.getValueInRange(matches[i].range).trim();
+        const par_start = line.indexOf('(');
+        const par_end = line.indexOf(')');
+        const par_in = line.substring(par_start + 1, par_end);
+        const current_linen = { lineNumber : matches[i].range.startLineNumber };
+        const params = par_in.split(',');
+        if (params.length != 2)
+        {
+            console.error(`Invalid command at line ${linen}.`);
+            alert(`Invalid command at line ${linen}.`);
+            continue;
+        }
+        const current_mouth_anim_id = params[0].trim();
+        const current_blend_duration = params[1].trim();
+        const current_chara = get_previous_command_int("SET_CHARA", current_linen);
+
+        push_ops(ops, {range: matches[i].range, text: `MOUTH_ANIM(${current_chara}, 0, ${current_mouth_anim_id}, ${current_blend_duration}, 0);\n`});
+
+        model.pushEditOperations([], ops, () => null);
+    };
+}
