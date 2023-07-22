@@ -843,3 +843,87 @@ function edit_mouth_anim_to_mouth_anim()
         model.pushEditOperations([], ops, () => null);
     };
 }
+
+function lyrics()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+
+    let keys = [];
+    const regex = `^[\\t\\f\\v ]*LYRIC[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
+    matches.forEach(match => {
+        const linen = match.range.startLineNumber;
+        const line = model.getValueInRange(match.range).trim();
+        const par_start = line.indexOf('(');
+        const par_end = line.indexOf(')');
+        const par_in = line.substring(par_start + 1, par_end);
+        const params = par_in.split(',');
+        if (params.length < 2)
+        {
+            console.error(`Invalid command at line ${linen}.`);
+            alert(`Invalid command at line ${linen}.`);
+        }
+        else
+        {
+            const thistime = get_previous_command_int("TIME", {lineNumber: linen});
+            const lyric = {line: linen, lyric: params[0], colour: params.length < 2 ? -1 : params[1], time: thistime};
+            keys.push(lyric);
+        }
+    });
+
+    keys.forEach(key => {
+        const cont = document.createElement('div');
+        cont.classList.add('cbcont');
+        const lab = document.createElement('label');
+        lab.innerText = `[${time_to_string(key.time)}] <lyric ${key.lyric}>`;
+        lab.classList.add('cblabel');
+        lab.onclick = () => { 
+            editor.revealLineInCenter(key.line);
+            editor.setPosition({column: 1, lineNumber: key.line});
+        };
+        lab.style.cursor = 'pointer';
+        cont.appendChild(lab);
+        container.appendChild(cont);
+    });
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Lyrics";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'OK';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = function()
+    {
+        closewnd();
+    }
+    footer.appendChild(btnok);
+    //footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}

@@ -129,6 +129,9 @@ setmenubaritem('help');
     const menuitem_shifttime = document.getElementById('menuitem_shifttime');
     menuitem_shifttime.oncontextmenu = menuitem_shifttime.onclick = function() { shift_time(); }
 
+    const menuitem_lyrics = document.getElementById('menuitem_lyrics');
+    menuitem_lyrics.oncontextmenu = menuitem_lyrics.onclick = function() { lyrics(); }
+
     const menuitem_rmbranch0 = document.getElementById('menuitem_rmbranch0');
     menuitem_rmbranch0.oncontextmenu = menuitem_rmbranch0.onclick = function() { remove_branch(0); }
 
