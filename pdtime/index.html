@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PD Time</title>
+    <meta name="theme-color" content="#b1eb34" />
+</head>
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .form-row label {
+      margin-right: 10px;
+    }
+
+    .form-row input[type="text"] {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-row button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+<body>
+    <div class="form-container">
+        <div class="form-row">
+          <label for="field1">HMS:</label>
+          <input type="text" id="field1" name="field1" value="00:00:01.00000" autocomplete="off">
+          <button type="button" onclick="document.getElementById('field2').value = string_to_time(document.getElementById('field1').value);">To PDTIME</button>
+        </div>
+        <div class="form-row">
+          <label for="field2">PDTIME:</label>
+          <input type="text" id="field2" name="field2" value="100000" autocomplete="off">
+          <button type="button" onclick="document.getElementById('field1').value = time_to_string(document.getElementById('field2').value);">To HMS</button>
+        </div>
+      </div>
+</body>
+<script>
+function time_to_string(pdtime)
+{
+    // thanks to somewhatlurker
+
+    const frac = pdtime % 100000;
+    pdtime -= frac;
+    pdtime /= 100000;
+
+    const seconds = pdtime % 60;
+    pdtime -= seconds;
+    pdtime /= 60;
+
+    const minutes = pdtime % 60;
+    pdtime -= minutes;
+    pdtime /= 60;
+
+    return `${String(pdtime).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}.${String(frac).padStart(5, '0')}`;
+}
+
+function string_to_time(time_string) {
+  if (!time_string.match(/^[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{5}$/)) {
+    alert("Invalid time string\nFormat: HH:mm:ss.sssss");
+    return;
+  }
+
+  const split1 = time_string.split(":");
+  let h = parseInt(split1[0]);
+  let m = parseInt(split1[1]);
+  const split2 = split1[2].split(".");
+  let s = parseInt(split2[0]);
+  let s_dec = parseInt(split2[1]);
+
+  m += h * 60;
+  s += m * 60;
+  s_dec += s*100000;
+
+  return s_dec;
+}
+</script>
+</html>
