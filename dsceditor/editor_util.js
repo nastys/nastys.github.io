@@ -927,3 +927,208 @@ function lyrics()
     bg.clientWidth;
     bg.classList.remove('invisible');
 }
+
+function merge_read(files, cont)
+{
+    setProgress(0, "Reading file...");
+    const worker = new Worker("./dsc_worker_read.js");
+    const id_fmt = document.getElementById('dscfmt');
+    const id_ver = document.getElementById('dscver');
+    worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: id_ver.value, autodetectfmt: document.getElementById('cb_autodetectgame').checked});
+    worker.onmessage = (e) => {
+        switch (e.data.type)
+        {
+            case 'progress':
+                setProgress(e.data.data);
+                break;
+            case 'datatext':
+                cont.value = e.data.data;
+                setProgress(-1);
+                break;
+            case 'seteditorpos':
+                editor.revealLineInCenter(e.data.data.lineNumber);
+                editor.setPosition(e.data.data);
+                break;
+            case 'exception':
+                setProgress(-1);
+            case 'warning':
+                console.error(e.data.data);
+                dialogEx("Warning", e.data.data);
+                break;
+        }
+    };
+}
+
+function insert_command(command, time, branch)
+{
+    // todo make sure unused TIME commands are not present first
+    //console.log("Inserting", command, "at time/branch", time, branch)
+    // get list of TIME matches
+    const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
+
+    let pos = -1;
+    let inserttime = true;
+
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    let done = false;
+    matches.forEach(match => {
+        if (!done)
+        {
+            if (match)
+            {
+                const thistime = parseInt(match.matches[1]);
+                if (thistime == time)
+                {
+                    pos = match.range.startLineNumber; // insert the command after this line
+                    inserttime = false;
+                    done = true;
+                }
+                else if (thistime > time)
+                {
+                    pos = match.range.startLineNumber; // insert the command before this line
+                    done = true;
+                }
+            }
+        }
+    });
+
+    if (pos == -1)
+    {
+        pos = model.getLineCount() + 1;
+    }
+
+    const insertpos = inserttime ? pos : pos + 1;
+    const bprev = get_previous_command_int("PV_BRANCH_MODE", {lineNumber: insertpos});
+    // if it does not match branch, store it, add PV_BRANCH_MODE(branch) before the command, add PV_BRANCH_MODE(stored) after the command
+    let cmdnew = ""; 
+    if (inserttime)
+    {
+        cmdnew += `TIME(${time});\n`;
+    }
+    if (bprev != branch) 
+    {
+        cmdnew += `PV_BRANCH_MODE(${branch});\n${command}\nPV_BRANCH_MODE(${bprev});\n`;
+    }
+    else
+    {
+        cmdnew += `${command}\n`;
+    };
+    const range = new monaco.Range(insertpos, 1, insertpos, 1);
+    model.applyEdits([{ range, text: cmdnew }]);
+}
+
+async function merge_wnd()
+{
+    const container = document.getElementById('modalwndinside');
+    const textbox = document.createElement('textarea');
+    textbox.style.width = "100%";
+    textbox.style.height = "300px";
+    textbox.setAttribute('readonly', 'readonly')
+    container.appendChild(textbox);
+
+    if (fileApi)
+    {
+        let newHandle;
+        try
+        {
+            newHandle = await window.showOpenFilePicker({ types: [ { description: 'DSC', accept: {'application/octet-stream': ['.dsc']} } ], multiple: false });
+            await (async (handle) => { 
+                   const fileData = [];
+                for (const fileh of handle)
+                {
+                    const file = await fileh.getFile();
+                    fileData.push(file);
+                };
+                const fileArray = Array.from(fileData);
+                merge_read(fileArray, textbox);
+            })(newHandle);
+        }
+        catch (ex)
+        {
+            if (ex.name !== 'AbortError') {
+                console.error(ex);
+                dialogEx("Error", ex);
+            }
+
+            return;
+        }
+    }
+    else
+    {
+        file_picker = document.createElement('input');
+        file_picker.type = 'file';
+        file_picker.multiple = 'true';
+        file_picker.onchange = _this => {
+            merge_read(Array.from(file_picker.files), textbox);
+            file_picker.remove();
+        };
+        file_picker.click();
+        file_picker.remove();
+    }
+
+    const bg = document.getElementById('modalbg');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Merge";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'Merge';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btnok.onclick = function()
+    {
+        const splitbox = textbox.value.split("\n");
+        //console.log("Split", splitbox);
+        let time = 0;
+        let branch = 0;
+
+        splitbox.forEach(line => {
+            //console.log("Processing", line);
+            const split = line.split('(');
+            const opcode = split[0];
+            if (opcode === "TIME")
+            {
+                time = split[1].split(')')[0];
+            }
+            else if (opcode === "PV_BRANCH_MODE")
+            {
+                branch = split[1].split(')')[0];
+            }
+            else if (opcode !== "")
+            {
+                insert_command(line, time, branch);
+            }
+        });
+        // todo if option, match PV_END & END, if > 1, delete < last
+
+        closewnd();
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}

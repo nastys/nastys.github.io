@@ -60,7 +60,7 @@ document.getElementById('toolopen').onclick = document.getElementById('menuitem_
 
 function opendiag()
 {
-    return window.showOpenFilePicker({ types: [ { description: 'DSC', accept: {'application/octet-stream': ['.dsc']} } ], multiple: true });
+    return window.showOpenFilePicker({ types: [ { description: 'DSC', accept: {'application/octet-stream': ['.dsc']} } ], multiple: false });
 }
 
 function savediag()

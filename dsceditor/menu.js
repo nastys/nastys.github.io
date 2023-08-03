@@ -168,6 +168,9 @@ setmenubaritem('help');
     const menuitem_previewall = document.getElementById('menuitem_previewall');
     menuitem_previewall.oncontextmenu = menuitem_previewall.onclick = () => { setTimeout(function() { previewall(); }, 100 ); };
 
+    const menuitem_merge = document.getElementById('menuitem_merge');
+    menuitem_merge.oncontextmenu = menuitem_merge.onclick = () => { setTimeout(function() { merge_wnd(); }, 100 ); };
+
     const toolbktoggle = document.getElementById('toolbktoggle');
     /*toolbktoggle.oncontextmenu = */toolbktoggle.onclick = function() { bookmark_toggle(); };
 
