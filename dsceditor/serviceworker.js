@@ -1,4 +1,4 @@
-const cacheName = "dsceditor-static-v14";
+const cacheName = "dsceditor-static-v17";
 
 const contentToCache = [
   "./",
@@ -58,6 +58,7 @@ const contentToCache = [
   "./icons/Bookmark.svg",
   "./icons/m_cross.png",
   "./icons/OpenFile.svg",
+  "./icons/MergeFile.svg",
   "./icons/target_square.svg",
   "./icons/Run.svg",
   "./icons/dsc_file.webp",

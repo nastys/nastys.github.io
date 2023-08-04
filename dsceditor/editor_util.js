@@ -959,7 +959,7 @@ function merge_read(files, cont)
     };
 }
 
-function insert_command(command, time, branch)
+function range_insert_command(command, time, branch)
 {
     // todo make sure unused TIME commands are not present first
     //console.log("Inserting", command, "at time/branch", time, branch)
@@ -970,27 +970,31 @@ function insert_command(command, time, branch)
     let inserttime = true;
 
     const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
-    let done = false;
-    matches.forEach(match => {
-        if (!done)
+    for (let i = 0; i < matches.length; i++)
+    {
+        const thistime = parseInt(matches[i].matches[1]);
+        if (thistime == time)
         {
-            if (match)
+            // insert the command before the next TIME command, or at the end
+            if (i == matches.length - 1)
             {
-                const thistime = parseInt(match.matches[1]);
-                if (thistime == time)
-                {
-                    pos = match.range.startLineNumber; // insert the command after this line
-                    inserttime = false;
-                    done = true;
-                }
-                else if (thistime > time)
-                {
-                    pos = match.range.startLineNumber; // insert the command before this line
-                    done = true;
-                }
+                // at end
+                pos = model.getLineCount() + 1;
             }
+            else
+            {
+                // before next TIME
+                pos = matches[i+1].range.startLineNumber - 1;
+            }
+            inserttime = false;
+            break;
         }
-    });
+        else if (thistime > time)
+        {
+            pos = matches[i].range.startLineNumber; // insert the command before this line
+            break;
+        }
+    }
 
     if (pos == -1)
     {
@@ -1014,7 +1018,13 @@ function insert_command(command, time, branch)
         cmdnew += `${command}\n`;
     };
     const range = new monaco.Range(insertpos, 1, insertpos, 1);
-    model.applyEdits([{ range, text: cmdnew }]);
+    return { range: range, text: cmdnew };
+}
+
+function insert_command(command, time, branch)
+{
+    const r = range_insert_command(command, time, branch);
+    model.pushEditOperations([], [r], () => null);
 }
 
 async function merge_wnd()
@@ -1025,6 +1035,37 @@ async function merge_wnd()
     textbox.style.height = "300px";
     textbox.setAttribute('readonly', 'readonly')
     container.appendChild(textbox);
+
+    const cont = document.createElement('div');
+    cont.classList.add('cbcont');
+    const el = document.createElement('input');
+    el.type = 'checkbox';
+    el.id = 'cb_endfix';
+    el.classList.add('cb_option');
+    el.checked = true;
+    const lab = document.createElement('label');
+    lab.setAttribute('for', el.id);
+    lab.innerText = "Move PV_END() and END() to end";
+    lab.classList.add('cblabel');
+    cont.appendChild(el);
+    cont.appendChild(lab);
+
+    const cont1 = document.createElement('div');
+    cont1.classList.add('cbcont');
+    const el1 = document.createElement('input');
+    el1.type = 'checkbox';
+    el1.id = 'cb_timecleanup';
+    el1.classList.add('cb_option');
+    el1.checked = true;
+    const lab1 = document.createElement('label');
+    lab1.setAttribute('for', el1.id);
+    lab1.innerText = "Remove unused TIME commands";
+    lab1.classList.add('cblabel');
+    cont1.appendChild(el1);
+    cont1.appendChild(lab1);
+
+    container.appendChild(cont);
+    container.appendChild(cont1);
 
     if (fileApi)
     {
@@ -1121,7 +1162,19 @@ async function merge_wnd()
                 insert_command(line, time, branch);
             }
         });
-        // todo if option, match PV_END & END, if > 1, delete < last
+        
+        if (document.getElementById("cb_endfix").checked)
+        {
+            remove_command("PV_END");
+            remove_command("END");
+            const range = new monaco.Range(model.getLineCount() + 1, 1, model.getLineCount() + 1, 1);
+            model.pushEditOperations([], [{ range, text: "PV_END();\nEND();\n" }], () => null);
+        }
+
+        if (document.getElementById("cb_timecleanup").checked)
+        {
+            dupe_adjacent_cleanup();
+        }
 
         closewnd();
     }
