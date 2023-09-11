@@ -14,6 +14,22 @@ function change_id_mouthAnim(toNew)
     model.pushEditOperations([], ops, () => null);
 }
 
+function change_id_editMouthAnim(toNew)
+{
+    const regex = `^[\\t\\f\\v ]*EDIT_MOUTH_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
+    
+    let ops = [];
+
+    for (match of matches)
+    {
+        const newid = swap_id_mouth(match.matches[1], toNew);
+        ops.push({range: match.range, text: `EDIT_MOUTH_ANIM(${newid}, ${match.matches[2]});\n`});
+    }
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function change_id_editMouth(toNew)
 {
     const regex = `^[\\t\\f\\v ]*EDIT_MOUTH[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
@@ -283,7 +299,7 @@ function window_idswap()
     footer.classList.add('gradient');
 
     let keys = [];
-    const keys_selection = ["MOUTH_ANIM", "EXPRESSION", "HAND_ANIM", "LOOK_ANIM", "EDIT_MOUTH", "EXPRESSION", "EDIT_HAND_ANIM", "EDIT_EYE"];
+    const keys_selection = ["MOUTH_ANIM", "EXPRESSION", "HAND_ANIM", "LOOK_ANIM", "EDIT_MOUTH", "EDIT_MOUTH_ANIM", "EXPRESSION", "EDIT_HAND_ANIM", "EDIT_EYE"];
     const lines = editor.getValue().split(/\r?\n/);
     for (const line of lines)
     {
