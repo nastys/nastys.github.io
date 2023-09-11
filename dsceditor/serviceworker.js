@@ -1,4 +1,4 @@
-const cacheName = "dsceditor-static-v18";
+const cacheName = "dsceditor-static-v21";
 
 const contentToCache = [
   "./",

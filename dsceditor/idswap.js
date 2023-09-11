@@ -16,7 +16,7 @@ function change_id_mouthAnim(toNew)
 
 function change_id_editMouthAnim(toNew)
 {
-    const regex = `^[\\t\\f\\v ]*EDIT_MOUTH_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+    const regex = `^[\\t\\f\\v ]*EDIT_MOUTH_ANIM[\\t\\f\\v ]*\\([\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*,[\\t\\f\\v ]*(-?\\d*)[\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
     const matches = model.findMatches(regex, true, true, true, null, true, 999999999);
     
     let ops = [];
@@ -401,16 +401,20 @@ function window_idswap()
                     change_id_editMouth(invert);
                     break;
 
+                    case "EDIT_MOUTH_ANIM":
+                    change_id_editMouthAnim(invert);
+                    break;
+
                     case "EDIT_EXPRESSION":
-                    change_id_editMouth(invert);
+                    change_id_editExpression(invert);
                     break;
 
                     case "EDIT_HAND_ANIM":
-                    change_id_handAnim(invert);
+                    change_id_editHandAnim(invert);
                     break;
 
                     case "EDIT_EYE":
-                    change_id_handAnim(invert);
+                    change_id_editEye(invert);
                     break;
 
                     default:
