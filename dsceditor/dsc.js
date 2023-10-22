@@ -32,16 +32,16 @@ document.getElementById('dscfmt').onchange = function()
     switch (document.getElementById('dscfmt').value)
     {
         case 'ft':
-            document.getElementById('dscver').value = fmts_ft[0];
+            document.getElementById('dscver').value = fmts_ft[0].toString(16);
             break;
         case 'dt2':
-            document.getElementById('dscver').value = fmts_dt2[0];
+            document.getElementById('dscver').value = fmts_dt2[0].toString(16);
             break;
         case 'pd1':
-            document.getElementById('dscver').value = fmts_pd1[0];
+            document.getElementById('dscver').value = fmts_pd1[0].toString(16);
             break;
         case 'pd2':
-            document.getElementById('dscver').value = fmts_pd2[0];
+            document.getElementById('dscver').value = fmts_pd2[0].toString(16);
             break;
     }
 }
@@ -143,6 +143,11 @@ function getFmtToNum()
 
 function do_save_dsc()
 {
+    if (document.getElementById('cb_upgradefmt').checked && id_fmt.value === 'ft')
+    {
+        id_ver.value = fmts_ft[0].toString(16)
+    }
+
     setProgress(0, "Saving file...");
     const worker = new Worker("./dsc_worker_write.js");
     const lines = editor.getValue().split(/\r?\n/);

@@ -201,4 +201,8 @@ setmenubaritem('help');
     const cb_autodetectgame = document.getElementById('cb_autodetectgame');
     const lbl_autodetectgame = document.getElementById('lbl_autodetectgame');
     lbl_autodetectgame.oncontextmenu = cb_autodetectgame.oncontextmenu = () => { cb_autodetectgame.click(); };
+
+    const cb_upgradefmt = document.getElementById('cb_upgradefmt');
+    const lbl_upgradefmt = document.getElementById('lbl_upgradefmt');
+    lbl_upgradefmt.oncontextmenu = cb_upgradefmt.oncontextmenu = () => { cb_upgradefmt.click(); };
 }
