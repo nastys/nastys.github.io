@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<!--
+  DSC Editor
+  Copyright (C) 2022-2024 nastys
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
 <html>
   <head>
     <meta charset="UTF-8">
@@ -32,7 +49,7 @@
         <div class="menubaritem" id="menubaritem_tools"><div class=menubaritemtext>Tools</div></div>
         <div class="menubaritem" id="menubaritem_convert"><div class=menubaritemtext>Convert</div></div>
         <div class="menubaritem" id="menubaritem_bookmarks"><div class=menubaritemtext>Bookmarks</div></div>
-        <!-- <div class="menubaritem" id="menubaritem_settings"><div class=menubaritemtext>Settings</div></div> -->
+        <div class="menubaritem" id="menubaritem_preferences"><div class=menubaritemtext>Preferences</div></div>
         <div class="menubaritem" id="menubaritem_help"><div class=menubaritemtext>Help</div></div>
         <div class="modalbtn modalbtn_mini hidden" style="margin-left: auto; margin-right: 0.5rem;" id="installbtn">Install</div>
       </div>
@@ -110,7 +127,7 @@
       <!--<div class="menuitem" id="menuitem_convert_f_ft"><div class="menuitemtext">DT 2nd/f to FT...</div></div>-->
       <div class="menuitem" id="menuitem_export_dex"><div class="menuitemtext">Export DEX (experimental)...</div></div>
       <div class="menuitem" id="menuitem_edit_commands_to_standard"><div class="menuitemtext">EDIT commands to standard (experimental)...</div></div>
-      <div class="menuitem" id="menuitem_convert_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>
+      <!--<div class="menuitem" id="menuitem_convert_d2_ft"><div class="menuitemtext">Coming soon™</div><img src="./icons/pokeslow-a.png" class="menuicon"></div>-->
     </div>
     <div class="menu gradient2" id="menu_bookmarks" hidden>
       <div class="menuitem" id="menuitem_togglebkm"><img src="./icons/Bookmark.svg" class="menuicon-small"><div class="menuitemtext">Toggle bookmark</div></div>
@@ -118,11 +135,13 @@
       <div class="menuitem menuitem-disabled" id="menuitem_nextbkm"><img src="./icons/NextBookmark.svg" class="menuicon-small"><div class="menuitemtext">Next bookmark</div></div>
       <div class="menuitem menuitem-disabled" id="menuitem_rmallbkm"><img src="./icons/ClearBookmark.svg" class="menuicon-small"><div class="menuitemtext">Remove all bookmarks</div></div>
     </div>
-    <!-- <div class="menu gradient2" id="menu_settings" hidden>
-      <div class="menuitem" id="menuitem_install"><div class="menuitemtext">Install...</div></div>
-    </div> -->
+    <div class="menu gradient2" id="menu_preferences" hidden>
+      <div class="menuitem menuitem-checkbox" id="menuitem_showinlayhints"><input type="checkbox" id="cb_showinlayhints" name="cb_showinlayhints" checked="true"><label for="cb_showinlayhints" id="lbl_showinlayhints" class="menuitemtext">Show inlay hints for values</label></div>
+      <div class="menuitem menuitem-checkbox" id="menuitem_showinlayhints2"><input type="checkbox" id="cb_showinlayhints2" name="cb_showinlayhints2" checked="true"><label for="cb_showinlayhints2" id="lbl_showinlayhints2" class="menuitemtext">Show inlay hints for conversions</label></div>
+    </div>
     <div class="menu gradient2" id="menu_help" hidden>
       <div class="menuitem" id="menuitem_about"><div class="menuitemtext">About...</div></div>
+      <div class="menuitem" id="menuitem_copyright"><div class="menuitemtext">Licence...</div></div>
       <div class="menuitem" id="menuitem_src"><div class="menuitemtext">Source code...</div></div>
     </div>
     <div id="preview_background" style="display: none;" onclick="preview_stop(false);" oncontextmenu="preview_stop(true); return false;"></div>
@@ -161,7 +180,7 @@
 
     function setDarkMode(value) {
       browser_dark = value;
-      monaco.editor.setTheme(browser_dark ? 'vs-dark' : 'vs-light');
+      monaco.editor.setTheme(browser_dark ? 'dsce-dark' : 'dsce-light');
     }
 
     window.matchMedia("(prefers-color-scheme: dark)").addListener(
@@ -292,6 +311,7 @@
       }
     };
 	</script>
+  <script src="defs_ft.js"></script>
   <script type="module">
     async function swsetup() {
       if ('serviceWorker' in navigator) {

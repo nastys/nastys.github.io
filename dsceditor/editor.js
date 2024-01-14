@@ -1,3 +1,20 @@
+/*
+  DSC Editor
+  Copyright (C) 2022-2024 nastys
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 require.config({ paths: { vs: './node_modules/monaco-editor/min/vs' } });
 
 require(['vs/editor/editor.main'], async function () {
@@ -23,15 +40,128 @@ require(['vs/editor/editor.main'], async function () {
             ],
         },
     });
+       
+    monaco.languages.registerInlayHintsProvider('dsc_basic', {
+        provideInlayHints(model, range, token) {
+            let h = [];
+            
+            if (document.getElementById('dscfmt').value === 'ft' && (document.getElementById('cb_showinlayhints').checked || document.getElementById('cb_showinlayhints2').checked)) {
+                for (let i = range.startLineNumber; i <= range.endLineNumber; i++) {
+                    const line = model.getLineContent(i);
+                    const lineTrim = line.trim();
+                    const par_start = line.indexOf('(');
+                    if (!par_start) continue;
+                    const par_end = line.indexOf(')');
+                    if (!par_end) continue;
+                    const par_in = line.substring(par_start + 1, par_end);
+                    const params = par_in.split(',');
+                    if (params.length == 0) continue;
+                    const opcode = lineTrim.substring(0, lineTrim.indexOf('('));
+                    let mappedValue;
+                    let paramPos;
+                    let brackets = false;
+                    switch (opcode) {
+                        case "BAR_TIME_SET":
+                            if (document.getElementById('cb_showinlayhints2').checked && params[1]) {
+                                mappedValue = ts_to_string(Number.parseInt(params[1]));
+                                paramPos = 1;
+                                brackets = true;
+                            }
+                        break;
+                        case "HAND_SCALE":
+                            if (document.getElementById('cb_showinlayhints2').checked && params[2]) {
+                                mappedValue = hand_scale_to_string(Number.parseInt(params[2]));
+                                paramPos = 2;
+                                brackets = true;
+                            }
+                        break;
+                        case "TIME":
+                            if (document.getElementById('cb_showinlayhints2').checked && params[0]) {
+                                mappedValue = time_to_string(params[0]);
+                                paramPos = 0;
+                                brackets = true;
+                            }
+                        break;
+                        case "EXPRESSION":
+                            if (document.getElementById('cb_showinlayhints').checked && params[1]) {
+                                mappedValue = mappingExpressionFt[params[1].trim()];
+                                paramPos = 1;
+                            }
+                        break;
+                        case "HAND_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && params[2]) {
+                                mappedValue = mappingHandAnimFt[params[2].trim()];
+                                paramPos = 2;
+                            }
+                        break;
+                        case "LOOK_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && params[1]) {
+                                mappedValue = mappingLookAnimFt[params[1].trim()];
+                                paramPos = 1;
+                            }
+                        break;
+                        case "MOUTH_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && params[2]) {
+                                mappedValue = mappingMouthAnimFt[params[2].trim()];
+                                paramPos = 2;
+                            }
+                        break;
+                        case "PV_BRANCH_MODE":
+                            if (document.getElementById('cb_showinlayhints').checked && params[0]) {
+                                mappedValue = mappingBranchFt[params[0].trim()];
+                                paramPos = 0;
+                            }
+                        break;
+                    }
+                    if (mappedValue !== null && paramPos !== null && params[paramPos] !== undefined) {
+                        let params_length = 0;
+                        for (let i = 0; i < paramPos; i++) params_length += params[i].length + 1;
+                        params_length += params[paramPos].trimEnd().length + 1;
+
+                        h.push({
+                            kind: monaco.languages.InlayHintKind.Type,
+                            position: { lineNumber: i, column: par_start + 1 + params_length },
+                            label: brackets ? ` [${mappedValue}]` : `: ${mappedValue}`,
+                        });
+                    }
+                }
+            }
+
+            return {
+                hints: h,
+                dispose: () => {},
+            };
+        },
+    });
 
     const editorContainer = document.getElementById('container');
+
+    monaco.editor.defineTheme('dsce-light', {
+        base: 'vs',
+        inherit: true,
+        rules: [],
+        colors: {
+          'editorInlayHint.background': '#eeeeee',
+          'editorInlayHint.foreground': '#144e8b',
+        },
+    });
+
+    monaco.editor.defineTheme('dsce-dark', {
+        base: 'vs-dark',
+        inherit: true,
+        rules: [],
+        colors: {
+          'editorInlayHint.background': '#3a3a3a',
+          'editorInlayHint.foreground': '#b8daff',
+        },
+    });
 
     editor = await monaco.editor.create(editorContainer, {
         value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'dsc_basic',
         automaticLayout: true,
         glyphMargin: true,
-        theme: browser_dark ? 'vs-dark' : 'vs-light',
+        theme: browser_dark ? 'dsce-dark' : 'dsce-light',
     });
     model = await editor.getModel();
 

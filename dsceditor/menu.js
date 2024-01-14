@@ -1,3 +1,20 @@
+/*
+  DSC Editor
+  Copyright (C) 2022-2024 nastys
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 var menu_open = '';
 
 function menu_toggle(menu)
@@ -85,7 +102,7 @@ setmenubaritem('bookmarks');
 setmenubaritem('branch');
 setmenubaritem('tools');
 setmenubaritem('convert');
-// setmenubaritem('settings');
+setmenubaritem('preferences');
 setmenubaritem('help');
 
 {
@@ -109,7 +126,10 @@ setmenubaritem('help');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
-    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("About", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+
+    const menuitem_copyright = document.getElementById('menuitem_copyright');
+    menuitem_copyright.oncontextmenu = menuitem_copyright.onclick = function() { dialogEx("Licence", "DSC Editor\nCopyright (C) 2022-2024 nastys\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>."); }
     
     const menuitem_src = document.getElementById('menuitem_src');
     menuitem_src.oncontextmenu = menuitem_src.onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
@@ -195,8 +215,11 @@ setmenubaritem('help');
     const menuitem_rmallbkm = document.getElementById('menuitem_rmallbkm');
     menuitem_rmallbkm.oncontextmenu = menuitem_rmallbkm.onclick = () => { setTimeout(function() { bookmark_clear(); }, 100 ); };
 
-    // const menuitem_install = document.getElementById('menuitem_install');
-    // menuitem_install.oncontextmenu = menuitem_install.onclick = () => { setTimeout(function() { window_install(); }, 100 ); };
+    const menuitem_showinlayhints = document.getElementById('menuitem_showinlayhints');
+    menuitem_showinlayhints.oncontextmenu = menuitem_showinlayhints.onclick = () => { forceEditorUpdate(); };
+
+    const menuitem_showinlayhints2 = document.getElementById('menuitem_showinlayhints2');
+    menuitem_showinlayhints2.oncontextmenu = menuitem_showinlayhints2.onclick = () => { forceEditorUpdate(); };
 
     const cb_autodetectgame = document.getElementById('cb_autodetectgame');
     const lbl_autodetectgame = document.getElementById('lbl_autodetectgame');

@@ -1,3 +1,31 @@
+/*
+  DSC Editor
+  Copyright (C) 2022-2024 nastys
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as
+  published by the Free Software Foundation, either version 3 of the
+  License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+function forceEditorUpdate() {
+    const range = new monaco.Range(1, 1, 1, 1);
+    editor.executeEdits('', [
+        { range: range, text: ' ' }
+    ]);
+
+    editor.executeEdits('', [
+        { range: new monaco.Range(1, 1, 1, 2), text: '' }
+    ]);
+}
+
 function remove_command(opcode)
 {
     const regex = `^[\\t\\f\\v ]*${opcode}[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
@@ -411,6 +439,16 @@ function time_to_string(pdtime)
     pdtime /= 60;
 
     return `${String(pdtime).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}.${String(frac).padStart(5, '0')}`;
+}
+
+function ts_to_string(ts)
+{
+    return `${ts + 1}/4`;
+}
+
+function hand_scale_to_string(scale)
+{
+    return `${scale / 10}%`;
 }
 
 function get_current_branch()
