@@ -134,7 +134,7 @@ let MarkerList = class MarkerList {
         if (this._markers.length === 0) {
             return false;
         }
-        let oldIdx = this._nextIdx;
+        const oldIdx = this._nextIdx;
         if (this._nextIdx === -1) {
             this._initIdx(model, position, fwd);
         }
@@ -175,7 +175,7 @@ let MarkerNavigationService = class MarkerNavigationService {
         this._provider = new LinkedList();
     }
     getMarkerList(resource) {
-        for (let provider of this._provider) {
+        for (const provider of this._provider) {
             const result = provider.getMarkerList(resource);
             if (result) {
                 return result;
@@ -189,4 +189,4 @@ MarkerNavigationService = __decorate([
     __param(0, IMarkerService),
     __param(1, IConfigurationService)
 ], MarkerNavigationService);
-registerSingleton(IMarkerNavigationService, MarkerNavigationService, true);
+registerSingleton(IMarkerNavigationService, MarkerNavigationService, 1 /* InstantiationType.Delayed */);

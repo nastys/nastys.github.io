@@ -5,7 +5,7 @@
 import { Range } from '../core/range.js';
 import { Searcher } from '../model/textModelSearch.js';
 import * as strings from '../../../base/common/strings.js';
-import { assertNever } from '../../../base/common/types.js';
+import { assertNever } from '../../../base/common/assert.js';
 import { DEFAULT_WORD_REGEXP, getWordAtText } from '../core/wordHelper.js';
 export class UnicodeTextModelHighlighter {
     static computeUnicodeHighlights(model, options, range) {
@@ -51,16 +51,20 @@ export class UnicodeTextModelHighlighter {
                         }
                     }
                     const str = lineContent.substring(startIndex, endIndex);
-                    const word = getWordAtText(startIndex + 1, DEFAULT_WORD_REGEXP, lineContent, 0);
+                    let word = getWordAtText(startIndex + 1, DEFAULT_WORD_REGEXP, lineContent, 0);
+                    if (word && word.endColumn <= startIndex + 1) {
+                        // The word does not include the problematic character, ignore the word
+                        word = null;
+                    }
                     const highlightReason = codePointHighlighter.shouldHighlightNonBasicASCII(str, word ? word.word : null);
-                    if (highlightReason !== 0 /* None */) {
-                        if (highlightReason === 3 /* Ambiguous */) {
+                    if (highlightReason !== 0 /* SimpleHighlightReason.None */) {
+                        if (highlightReason === 3 /* SimpleHighlightReason.Ambiguous */) {
                             ambiguousCharacterCount++;
                         }
-                        else if (highlightReason === 2 /* Invisible */) {
+                        else if (highlightReason === 2 /* SimpleHighlightReason.Invisible */) {
                             invisibleCharacterCount++;
                         }
-                        else if (highlightReason === 1 /* NonBasicASCII */) {
+                        else if (highlightReason === 1 /* SimpleHighlightReason.NonBasicASCII */) {
                             nonBasicAsciiCharacterCount++;
                         }
                         else {
@@ -88,18 +92,18 @@ export class UnicodeTextModelHighlighter {
         const codePointHighlighter = new CodePointHighlighter(options);
         const reason = codePointHighlighter.shouldHighlightNonBasicASCII(char, null);
         switch (reason) {
-            case 0 /* None */:
+            case 0 /* SimpleHighlightReason.None */:
                 return null;
-            case 2 /* Invisible */:
-                return { kind: 1 /* Invisible */ };
-            case 3 /* Ambiguous */: {
+            case 2 /* SimpleHighlightReason.Invisible */:
+                return { kind: 1 /* UnicodeHighlighterReasonKind.Invisible */ };
+            case 3 /* SimpleHighlightReason.Ambiguous */: {
                 const codePoint = char.codePointAt(0);
                 const primaryConfusable = codePointHighlighter.ambiguousCharacters.getPrimaryConfusable(codePoint);
                 const notAmbiguousInLocales = strings.AmbiguousCharacters.getLocales().filter((l) => !strings.AmbiguousCharacters.getInstance(new Set([...options.allowedLocales, l])).isAmbiguous(codePoint));
-                return { kind: 0 /* Ambiguous */, confusableWith: String.fromCodePoint(primaryConfusable), notAmbiguousInLocales };
+                return { kind: 0 /* UnicodeHighlighterReasonKind.Ambiguous */, confusableWith: String.fromCodePoint(primaryConfusable), notAmbiguousInLocales };
             }
-            case 1 /* NonBasicASCII */:
-                return { kind: 2 /* NonBasicAscii */ };
+            case 1 /* SimpleHighlightReason.NonBasicASCII */:
+                return { kind: 2 /* UnicodeHighlighterReasonKind.NonBasicAscii */ };
         }
     }
 }
@@ -138,15 +142,15 @@ class CodePointHighlighter {
     shouldHighlightNonBasicASCII(character, wordContext) {
         const codePoint = character.codePointAt(0);
         if (this.allowedCodePoints.has(codePoint)) {
-            return 0 /* None */;
+            return 0 /* SimpleHighlightReason.None */;
         }
         if (this.options.nonBasicASCII) {
-            return 1 /* NonBasicASCII */;
+            return 1 /* SimpleHighlightReason.NonBasicASCII */;
         }
         let hasBasicASCIICharacters = false;
         let hasNonConfusableNonBasicAsciiCharacter = false;
         if (wordContext) {
-            for (let char of wordContext) {
+            for (const char of wordContext) {
                 const codePoint = char.codePointAt(0);
                 const isBasicASCII = strings.isBasicASCII(char);
                 hasBasicASCIICharacters = hasBasicASCIICharacters || isBasicASCII;
@@ -160,20 +164,20 @@ class CodePointHighlighter {
         if (
         /* Don't allow mixing weird looking characters with ASCII */ !hasBasicASCIICharacters &&
             /* Is there an obviously weird looking character? */ hasNonConfusableNonBasicAsciiCharacter) {
-            return 0 /* None */;
+            return 0 /* SimpleHighlightReason.None */;
         }
         if (this.options.invisibleCharacters) {
             // TODO check for emojis
             if (!isAllowedInvisibleCharacter(character) && strings.InvisibleCharacters.isInvisibleCharacter(codePoint)) {
-                return 2 /* Invisible */;
+                return 2 /* SimpleHighlightReason.Invisible */;
             }
         }
         if (this.options.ambiguousCharacters) {
             if (this.ambiguousCharacters.isAmbiguous(codePoint)) {
-                return 3 /* Ambiguous */;
+                return 3 /* SimpleHighlightReason.Ambiguous */;
             }
         }
-        return 0 /* None */;
+        return 0 /* SimpleHighlightReason.None */;
     }
 }
 function isAllowedInvisibleCharacter(character) {

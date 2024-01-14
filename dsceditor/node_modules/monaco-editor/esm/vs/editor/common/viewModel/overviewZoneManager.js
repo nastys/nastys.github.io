@@ -128,7 +128,7 @@ export class OverviewZoneManager {
         const totalHeight = Math.floor(this.getCanvasHeight());
         const outerHeight = Math.floor(this._outerHeight);
         const heightRatio = totalHeight / outerHeight;
-        const halfMinimumHeight = Math.floor(4 /* MINIMUM_HEIGHT */ * this._pixelRatio / 2);
+        const halfMinimumHeight = Math.floor(4 /* Constants.MINIMUM_HEIGHT */ * this._pixelRatio / 2);
         const allColorZones = [];
         for (let i = 0, len = this._zones.length; i < len; i++) {
             const zone = this._zones[i];

@@ -8,6 +8,7 @@ import { Schemas } from '../../../base/common/network.js';
 import { basename, posix } from '../../../base/common/path.js';
 import { DataUri } from '../../../base/common/resources.js';
 import { startsWithUTF8BOM } from '../../../base/common/strings.js';
+import { PLAINTEXT_LANGUAGE_ID } from '../languages/modesRegistry.js';
 let registeredAssociations = [];
 let nonUserRegisteredAssociations = [];
 let userRegisteredAssociations = [];
@@ -73,10 +74,12 @@ export function clearPlatformLanguageAssociations() {
     nonUserRegisteredAssociations = [];
 }
 /**
- * Given a file, return the best matching mime types for it
- * based on the registered language associations.
+ * @see `getMimeTypes`
  */
-export function getMimeTypes(resource, firstLine) {
+export function getLanguageIds(resource, firstLine) {
+    return getAssociations(resource, firstLine).map(item => item.id);
+}
+function getAssociations(resource, firstLine) {
     let path;
     if (resource) {
         switch (resource.scheme) {
@@ -88,35 +91,39 @@ export function getMimeTypes(resource, firstLine) {
                 path = metadata.get(DataUri.META_DATA_LABEL);
                 break;
             }
+            case Schemas.vscodeNotebookCell:
+                // File path not relevant for language detection of cell
+                path = undefined;
+                break;
             default:
                 path = resource.path;
         }
     }
     if (!path) {
-        return [Mimes.unknown];
+        return [{ id: 'unknown', mime: Mimes.unknown }];
     }
     path = path.toLowerCase();
     const filename = basename(path);
     // 1.) User configured mappings have highest priority
-    const configuredLanguage = getMimeByPath(path, filename, userRegisteredAssociations);
+    const configuredLanguage = getAssociationByPath(path, filename, userRegisteredAssociations);
     if (configuredLanguage) {
-        return [configuredLanguage, Mimes.text];
+        return [configuredLanguage, { id: PLAINTEXT_LANGUAGE_ID, mime: Mimes.text }];
     }
     // 2.) Registered mappings have middle priority
-    const registeredLanguage = getMimeByPath(path, filename, nonUserRegisteredAssociations);
+    const registeredLanguage = getAssociationByPath(path, filename, nonUserRegisteredAssociations);
     if (registeredLanguage) {
-        return [registeredLanguage, Mimes.text];
+        return [registeredLanguage, { id: PLAINTEXT_LANGUAGE_ID, mime: Mimes.text }];
     }
     // 3.) Firstline has lowest priority
     if (firstLine) {
-        const firstlineLanguage = getMimeByFirstline(firstLine);
+        const firstlineLanguage = getAssociationByFirstline(firstLine);
         if (firstlineLanguage) {
-            return [firstlineLanguage, Mimes.text];
+            return [firstlineLanguage, { id: PLAINTEXT_LANGUAGE_ID, mime: Mimes.text }];
         }
     }
-    return [Mimes.unknown];
+    return [{ id: 'unknown', mime: Mimes.unknown }];
 }
-function getMimeByPath(path, filename, associations) {
+function getAssociationByPath(path, filename, associations) {
     var _a;
     let filenameMatch = undefined;
     let patternMatch = undefined;
@@ -150,19 +157,19 @@ function getMimeByPath(path, filename, associations) {
     }
     // 1.) Exact name match has second highest priority
     if (filenameMatch) {
-        return filenameMatch.mime;
+        return filenameMatch;
     }
     // 2.) Match on pattern
     if (patternMatch) {
-        return patternMatch.mime;
+        return patternMatch;
     }
     // 3.) Match on extension comes next
     if (extensionMatch) {
-        return extensionMatch.mime;
+        return extensionMatch;
     }
     return undefined;
 }
-function getMimeByFirstline(firstLine) {
+function getAssociationByFirstline(firstLine) {
     if (startsWithUTF8BOM(firstLine)) {
         firstLine = firstLine.substr(1);
     }
@@ -176,7 +183,7 @@ function getMimeByFirstline(firstLine) {
             }
             const matches = firstLine.match(association.firstline);
             if (matches && matches.length > 0) {
-                return association.mime;
+                return association;
             }
         }
     }

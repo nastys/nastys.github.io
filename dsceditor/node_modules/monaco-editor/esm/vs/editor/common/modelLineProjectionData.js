@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { assertNever } from '../../base/common/types.js';
+import { assertNever } from '../../base/common/assert.js';
 import { Position } from './core/position.js';
 import { InjectedTextCursorStops } from './model.js';
 /**
@@ -97,14 +97,14 @@ export class ModelLineProjectionData {
         }
         return offsetInInput;
     }
-    translateToOutputPosition(inputOffset, affinity = 2 /* None */) {
+    translateToOutputPosition(inputOffset, affinity = 2 /* PositionAffinity.None */) {
         let inputOffsetInInputWithInjection = inputOffset;
         if (this.injectionOffsets !== null) {
             for (let i = 0; i < this.injectionOffsets.length; i++) {
                 if (inputOffset < this.injectionOffsets[i]) {
                     break;
                 }
-                if (affinity !== 1 /* Right */ && inputOffset === this.injectionOffsets[i]) {
+                if (affinity !== 1 /* PositionAffinity.Right */ && inputOffset === this.injectionOffsets[i]) {
                     break;
                 }
                 inputOffsetInInputWithInjection += this.injectionOptions[i].content.length;
@@ -112,7 +112,7 @@ export class ModelLineProjectionData {
         }
         return this.offsetInInputWithInjectionsToOutputPosition(inputOffsetInInputWithInjection, affinity);
     }
-    offsetInInputWithInjectionsToOutputPosition(offsetInInputWithInjections, affinity = 2 /* None */) {
+    offsetInInputWithInjectionsToOutputPosition(offsetInInputWithInjections, affinity = 2 /* PositionAffinity.None */) {
         let low = 0;
         let high = this.breakOffsets.length - 1;
         let mid = 0;
@@ -121,7 +121,7 @@ export class ModelLineProjectionData {
             mid = low + ((high - low) / 2) | 0;
             const midStop = this.breakOffsets[mid];
             midStart = mid > 0 ? this.breakOffsets[mid - 1] : 0;
-            if (affinity === 0 /* Left */) {
+            if (affinity === 0 /* PositionAffinity.Left */) {
                 if (offsetInInputWithInjections <= midStart) {
                     high = mid - 1;
                 }
@@ -159,12 +159,12 @@ export class ModelLineProjectionData {
                 return this.offsetInInputWithInjectionsToOutputPosition(normalizedOffsetInUnwrappedLine, affinity);
             }
         }
-        if (affinity === 0 /* Left */) {
+        if (affinity === 0 /* PositionAffinity.Left */) {
             if (outputLineIndex > 0 && outputOffset === this.getMinOutputOffset(outputLineIndex)) {
                 return new OutputPosition(outputLineIndex - 1, this.getMaxOutputOffset(outputLineIndex - 1));
             }
         }
-        else if (affinity === 1 /* Right */) {
+        else if (affinity === 1 /* PositionAffinity.Right */) {
             const maxOutputLineIndex = this.getOutputLineCount() - 1;
             if (outputLineIndex < maxOutputLineIndex && outputOffset === this.getMaxOutputOffset(outputLineIndex)) {
                 return new OutputPosition(outputLineIndex + 1, this.getMinOutputOffset(outputLineIndex + 1));
@@ -184,7 +184,7 @@ export class ModelLineProjectionData {
         if (!injectedText) {
             return offsetInInputWithInjections;
         }
-        if (affinity === 2 /* None */) {
+        if (affinity === 2 /* PositionAffinity.None */) {
             if (offsetInInputWithInjections === injectedText.offsetInInputWithInjections + injectedText.length
                 && hasRightCursorStop(this.injectionOptions[injectedText.injectedTextIndex].cursorStops)) {
                 return injectedText.offsetInInputWithInjections + injectedText.length;
@@ -208,7 +208,7 @@ export class ModelLineProjectionData {
                 return result;
             }
         }
-        else if (affinity === 1 /* Right */) {
+        else if (affinity === 1 /* PositionAffinity.Right */ || affinity === 4 /* PositionAffinity.RightOfInjectedText */) {
             let result = injectedText.offsetInInputWithInjections + injectedText.length;
             let index = injectedText.injectedTextIndex;
             // traverse all injected text that touch each other
@@ -218,7 +218,7 @@ export class ModelLineProjectionData {
             }
             return result;
         }
-        else if (affinity === 0 /* Left */) {
+        else if (affinity === 0 /* PositionAffinity.Left */ || affinity === 3 /* PositionAffinity.LeftOfInjectedText */) {
             // affinity is left
             let result = injectedText.offsetInInputWithInjections;
             let index = injectedText.injectedTextIndex;
