@@ -63,9 +63,14 @@ require(['vs/editor/editor.main'], async function () {
                     switch (opcode) {
                         // value hints
                         case "EXPRESSION":
-                        case "LOOK_ANIM":
                             if (document.getElementById('cb_showinlayhints').checked && params[1]) {
                                 mappedValue = mappingExpressionFt[params[1].trim()];
+                                paramPos = 1;
+                            }
+                        break;
+                        case "LOOK_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && params[1]) {
+                                mappedValue = mappingLookAnimFt[params[1].trim()];
                                 paramPos = 1;
                             }
                         break;
@@ -76,9 +81,14 @@ require(['vs/editor/editor.main'], async function () {
                             }
                         break;
                         case "HAND_ANIM":
-                        case "MOUTH_ANIM":
                             if (document.getElementById('cb_showinlayhints').checked && params[2]) {
                                 mappedValue = mappingHandAnimFt[params[2].trim()];
+                                paramPos = 2;
+                            }
+                        break;
+                        case "MOUTH_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && params[2]) {
+                                mappedValue = mappingMouthAnimFt[params[2].trim()];
                                 paramPos = 2;
                             }
                         break;

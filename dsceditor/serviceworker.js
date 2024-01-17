@@ -15,7 +15,7 @@
   You should have received a copy of the GNU Affero General Public License
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-const cacheName = "dsceditor-static-v24";
+const cacheName = "dsceditor-static-v26";
 
 const contentToCache = [
   "./",
