@@ -1,5 +1,35 @@
 {
     "pv_239": {
+        "another_song": {
+            "0": {
+                "name": "トリコロール・エア・ライン",
+                "name_en": "Tricolore Airline",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "1": {
+                "name": "トリコロール・エア・ライン(リンver.)",
+                "name_en": "Tricolore Airline (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_239_rin.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "2": {
+                "name": "トリコロール・エア・ライン(ルカver.)",
+                "name_en": "Tricolore Airline (Luka Ver.)",
+                "song_file_name": "rom/sound/song/pv_239_luka.ogg",
+                "vocal_disp_name": "LUK",
+                "vocal_disp_name_en": "LUK"
+            },
+            "3": {
+                "name": "トリコロール・エア・ライン(MEIKO ver.)",
+                "name_en": "Tricolore Airline (MEIKO Ver.)",
+                "song_file_name": "rom/sound/song/pv_239_meiko.ogg",
+                "vocal_disp_name": "MEI",
+                "vocal_disp_name_en": "MEI"
+            },
+            "length": "4"
+        },
         "bpm": "110",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -53,21 +83,6 @@
         },
         "disp2d": {
             "set_name": "239"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "RIN",
-                "file": "rom/sound/song/pv_239_rin.ogg"
-            },
-            "1": {
-                "chara": "LUK",
-                "file": "rom/sound/song/pv_239_luka.ogg"
-            },
-            "2": {
-                "chara": "MEI",
-                "file": "rom/sound/song/pv_239_meiko.ogg"
-            },
-            "length": "3"
         },
         "eyes_xrot_adjust": "1",
         "hidden_timing": "0.3",

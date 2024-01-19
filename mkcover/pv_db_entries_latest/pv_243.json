@@ -1,5 +1,21 @@
 {
     "pv_243": {
+        "another_song": {
+            "0": {
+                "name": "インタビュア",
+                "name_en": "Interviewer",
+                "vocal_disp_name": "LUK",
+                "vocal_disp_name_en": "LUK"
+            },
+            "1": {
+                "name": "インタビュア(ミクver.)",
+                "name_en": "Interviewer (Miku Ver.)",
+                "song_file_name": "rom/sound/song/pv_243_miku.ogg",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "length": "2"
+        },
         "bpm": "125",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -75,13 +91,6 @@
         },
         "disp2d": {
             "set_name": "243"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "MIK",
-                "file": "rom/sound/song/pv_243_miku.ogg"
-            },
-            "length": "1"
         },
         "frame_texture_a": "F_DIVA_STGPV243_SA_PHOTOGRAPH_01_GEOMETRICPATTERN",
         "frame_texture_b": "F_DIVA_STGPV243_SA_PHOTOGRAPH_02_TOWN",

@@ -1,5 +1,21 @@
 {
     "pv_246": {
+        "another_song": {
+            "0": {
+                "name": "テレカクシ思春期",
+                "name_en": "Terekakushi Shishunki",
+                "vocal_disp_name": "LEN",
+                "vocal_disp_name_en": "LEN"
+            },
+            "1": {
+                "name": "テレカクシ思春期(KAITO ver.)",
+                "name_en": "Terekakushi Shishunki (KAITO Ver.)",
+                "song_file_name": "rom/sound/song/pv_246_kaito.ogg",
+                "vocal_disp_name": "KAI",
+                "vocal_disp_name_en": "KAI"
+            },
+            "length": "2"
+        },
         "bpm": "170",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -104,13 +120,6 @@
         },
         "disp2d": {
             "set_name": "246"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "KAI",
-                "file": "rom/sound/song/pv_246_kaito.ogg"
-            },
-            "length": "1"
         },
         "hidden_timing": "0.3",
         "high_speed_rate": "4",

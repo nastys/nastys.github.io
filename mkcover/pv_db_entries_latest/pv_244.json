@@ -1,5 +1,21 @@
 {
     "pv_244": {
+        "another_song": {
+            "0": {
+                "name": "スノーマン",
+                "name_en": "Snowman",
+                "vocal_disp_name": "KAI",
+                "vocal_disp_name_en": "KAI"
+            },
+            "1": {
+                "name": "スノーマン(レンver.)",
+                "name_en": "Snowman (Len Ver.)",
+                "song_file_name": "rom/sound/song/pv_244.ogg",
+                "vocal_disp_name": "LEN",
+                "vocal_disp_name_en": "LEN"
+            },
+            "length": "2"
+        },
         "bpm": "127",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -130,13 +146,6 @@
         },
         "disp2d": {
             "set_name": "244"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "LEN",
-                "file": "rom/sound/song/pv_244_len.ogg"
-            },
-            "length": "1"
         },
         "hidden_timing": "0.3",
         "high_speed_rate": "4",

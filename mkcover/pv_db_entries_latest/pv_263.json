@@ -1,5 +1,49 @@
 {
     "pv_263": {
+        "another_song": {
+            "0": {
+                "name": "1925",
+                "name_en": "1925",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "1": {
+                "name": "1925(リンver.)",
+                "name_en": "1925 (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_263_rin.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "2": {
+                "name": "1925(レンver.)",
+                "name_en": "1925 (Len Ver.)",
+                "song_file_name": "rom/sound/song/pv_263_len.ogg",
+                "vocal_disp_name": "LEN",
+                "vocal_disp_name_en": "LEN"
+            },
+            "3": {
+                "name": "1925(ルカver.)",
+                "name_en": "1925 (Luka Ver.)",
+                "song_file_name": "rom/sound/song/pv_263_luk.ogg",
+                "vocal_disp_name": "LUK",
+                "vocal_disp_name_en": "LUK"
+            },
+            "4": {
+                "name": "1925(KAITO ver.)",
+                "name_en": "1925 (KAITO Ver.)",
+                "song_file_name": "rom/sound/song/pv_263_kai.ogg",
+                "vocal_disp_name": "KAI",
+                "vocal_disp_name_en": "KAI"
+            },
+            "5": {
+                "name": "1925(MEIKO ver.)",
+                "name_en": "1925 (MEIKO Ver.)",
+                "song_file_name": "rom/sound/song/pv_263_mei.ogg",
+                "vocal_disp_name": "MEI",
+                "vocal_disp_name_en": "MEI"
+            },
+            "length": "6"
+        },
         "bpm": "145",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -58,29 +102,6 @@
         },
         "disp2d": {
             "set_name": "263"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "RIN",
-                "file": "rom/sound/song/pv_263_rin.ogg"
-            },
-            "1": {
-                "chara": "LEN",
-                "file": "rom/sound/song/pv_263_len.ogg"
-            },
-            "2": {
-                "chara": "LUK",
-                "file": "rom/sound/song/pv_263_luk.ogg"
-            },
-            "3": {
-                "chara": "KAI",
-                "file": "rom/sound/song/pv_263_kai.ogg"
-            },
-            "4": {
-                "chara": "MEI",
-                "file": "rom/sound/song/pv_263_mei.ogg"
-            },
-            "length": "5"
         },
         "hidden_timing": "0.3",
         "high_speed_rate": "4",

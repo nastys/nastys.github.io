@@ -1,5 +1,35 @@
 {
     "pv_262": {
+        "another_song": {
+            "0": {
+                "name": "ピアノ×フォルテ×スキャンダル",
+                "name_en": "Piano × Forte × Scandal",
+                "vocal_disp_name": "MEI",
+                "vocal_disp_name_en": "MEI"
+            },
+            "1": {
+                "name": "ピアノ×フォルテ×スキャンダル(ミクver.)",
+                "name_en": "Piano × Forte × Scandal (Miku Ver.)",
+                "song_file_name": "rom/sound/song/pv_262_mik.ogg",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "2": {
+                "name": "ピアノ×フォルテ×スキャンダル(リンver.)",
+                "name_en": "Piano × Forte × Scandal (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_262_rin.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "3": {
+                "name": "ピアノ×フォルテ×スキャンダル(KAITO ver.)",
+                "name_en": "Piano × Forte × Scandal (KAITO Ver.)",
+                "song_file_name": "rom/sound/song/pv_262_kai.ogg",
+                "vocal_disp_name": "KAI",
+                "vocal_disp_name_en": "KAI"
+            },
+            "length": "4"
+        },
         "bpm": "135",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -106,102 +136,6 @@
         },
         "disp2d": {
             "set_name": "262"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "MIK",
-                "ex_auth": {
-                    "0": {
-                        "name": "EFFCHRPV262MIK100",
-                        "org_name": "EFFCHRPV262MEI100"
-                    },
-                    "1": {
-                        "name": "EFFCHRPV262MIK101",
-                        "org_name": "EFFCHRPV262MEI101"
-                    },
-                    "2": {
-                        "name": "EFFCHRPV262MIK100",
-                        "org_name": "EFFCHRPV262RIN100"
-                    },
-                    "3": {
-                        "name": "EFFCHRPV262MIK101",
-                        "org_name": "EFFCHRPV262RIN101"
-                    },
-                    "4": {
-                        "name": "EFFCHRPV262MIK100",
-                        "org_name": "EFFCHRPV262KAI100"
-                    },
-                    "5": {
-                        "name": "EFFCHRPV262MIK101",
-                        "org_name": "EFFCHRPV262KAI101"
-                    },
-                    "length": "6"
-                },
-                "file": "rom/sound/song/pv_262_mik.ogg"
-            },
-            "1": {
-                "chara": "RIN",
-                "ex_auth": {
-                    "0": {
-                        "name": "EFFCHRPV262RIN100",
-                        "org_name": "EFFCHRPV262MEI100"
-                    },
-                    "1": {
-                        "name": "EFFCHRPV262RIN101",
-                        "org_name": "EFFCHRPV262MEI101"
-                    },
-                    "2": {
-                        "name": "EFFCHRPV262RIN100",
-                        "org_name": "EFFCHRPV262MIK100"
-                    },
-                    "3": {
-                        "name": "EFFCHRPV262RIN101",
-                        "org_name": "EFFCHRPV262MIK101"
-                    },
-                    "4": {
-                        "name": "EFFCHRPV262RIN100",
-                        "org_name": "EFFCHRPV262KAI100"
-                    },
-                    "5": {
-                        "name": "EFFCHRPV262RIN101",
-                        "org_name": "EFFCHRPV262KAI101"
-                    },
-                    "length": "6"
-                },
-                "file": "rom/sound/song/pv_262_rin.ogg"
-            },
-            "2": {
-                "chara": "KAI",
-                "ex_auth": {
-                    "0": {
-                        "name": "EFFCHRPV262KAI100",
-                        "org_name": "EFFCHRPV262MEI100"
-                    },
-                    "1": {
-                        "name": "EFFCHRPV262KAI101",
-                        "org_name": "EFFCHRPV262MEI101"
-                    },
-                    "2": {
-                        "name": "EFFCHRPV262KAI100",
-                        "org_name": "EFFCHRPV262MIK100"
-                    },
-                    "3": {
-                        "name": "EFFCHRPV262KAI101",
-                        "org_name": "EFFCHRPV262MIK101"
-                    },
-                    "4": {
-                        "name": "EFFCHRPV262KAI100",
-                        "org_name": "EFFCHRPV262RIN100"
-                    },
-                    "5": {
-                        "name": "EFFCHRPV262KAI101",
-                        "org_name": "EFFCHRPV262RIN101"
-                    },
-                    "length": "6"
-                },
-                "file": "rom/sound/song/pv_262_kai.ogg"
-            },
-            "length": "3"
         },
         "hidden_timing": "0.3",
         "high_speed_rate": "4",

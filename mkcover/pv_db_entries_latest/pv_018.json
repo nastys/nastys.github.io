@@ -1,5 +1,28 @@
 {
     "pv_018": {
+        "another_song": {
+            "0": {
+                "name": "いのちの歌",
+                "name_en": "Song of Life",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "1": {
+                "name": "いのちの歌(リンver.)",
+                "name_en": "Song of Life (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_034.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "2": {
+                "name": "いのちの歌(レンver.)",
+                "name_en": "Song of Life (Len Ver.)",
+                "song_file_name": "rom/sound/song/pv_036.ogg",
+                "vocal_disp_name": "LEN",
+                "vocal_disp_name_en": "LEN"
+            },
+            "length": "3"
+        },
         "bpm": "80",
         "date": "20101125",
         "difficulty": {
@@ -50,21 +73,6 @@
             "set_name": "018",
             "title_end_2d_field": "1",
             "title_start_2d_field": "1"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "RIN",
-                "file": "rom/sound/song/pv_034.ogg",
-                "name": "いのちの歌(リンver.)",
-                "name_en": "Song of Life(Rin Ver.)"
-            },
-            "1": {
-                "chara": "LEN",
-                "file": "rom/sound/song/pv_036.ogg",
-                "name": "いのちの歌(レンver.)",
-                "name_en": "Song of Life(Len Ver.)"
-            },
-            "length": "2"
         },
         "hidden_timing": "0.3",
         "high_speed_rate": "4",

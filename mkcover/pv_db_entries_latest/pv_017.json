@@ -1,5 +1,28 @@
 {
     "pv_017": {
+        "another_song": {
+            "0": {
+                "name": "荒野と森と魔法の歌",
+                "name_en": "A Song of Wastelands, Forests, and Magic",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "1": {
+                "name": "荒野と森と魔法の歌(リンver.)",
+                "name_en": "A Song of Wastelands, Forests, and Magic (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_033.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "2": {
+                "name": "荒野と森と魔法の歌(レンver.)",
+                "name_en": "A Song of Wastelands, Forests, and Magic (Len Ver.)",
+                "song_file_name": "rom/sound/song/pv_035.ogg",
+                "vocal_disp_name": "LEN",
+                "vocal_disp_name_en": "LEN"
+            },
+            "length": "3"
+        },
         "bpm": "140",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -65,21 +88,6 @@
         },
         "disp2d": {
             "set_name": "017"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "RIN",
-                "file": "rom/sound/song/pv_033.ogg",
-                "name": "荒野と森と魔法の歌(リンver.)",
-                "name_en": "A Song of Wastelands, Forests, and Magic(Rin Ver.)"
-            },
-            "1": {
-                "chara": "LEN",
-                "file": "rom/sound/song/pv_035.ogg",
-                "name": "荒野と森と魔法の歌(レンver.)",
-                "name_en": "A Song of Wastelands, Forests, and Magic(Len Ver.)"
-            },
-            "length": "2"
         },
         "eyes_xrot_adjust": "1",
         "hidden_timing": "0.3",

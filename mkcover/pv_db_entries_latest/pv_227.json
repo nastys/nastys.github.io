@@ -1,5 +1,21 @@
 {
     "pv_227": {
+        "another_song": {
+            "0": {
+                "name": "妄想スケッチ",
+                "name_en": "Mousou Sketch",
+                "vocal_disp_name": "MIK",
+                "vocal_disp_name_en": "MIK"
+            },
+            "1": {
+                "name": "妄想スケッチ(リンver.)",
+                "name_en": "Mousou Sketch (Rin Ver.)",
+                "song_file_name": "rom/sound/song/pv_227_rin.ogg",
+                "vocal_disp_name": "RIN",
+                "vocal_disp_name_en": "RIN"
+            },
+            "length": "2"
+        },
         "bpm": "174",
         "chainslide_failure_name": "slide_ng03",
         "chainslide_first_name": "slide_long02a",
@@ -67,13 +83,6 @@
             "set_name": "227",
             "title_end_2d_field": "2",
             "title_start_2d_field": "1"
-        },
-        "ex_song": {
-            "0": {
-                "chara": "RIN",
-                "file": "rom/sound/song/pv_227_rin.ogg"
-            },
-            "length": "1"
         },
         "eyes_xrot_adjust": "1",
         "hand_item": {
