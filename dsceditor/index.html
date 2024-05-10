@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  DSC Editor
+  DSC Studio
   Copyright (C) 2022-2024 nastys
 
   This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
     <meta charset="UTF-8">
     <link rel="manifest" href="./manifest.json">
     <link href="./styles.css" rel="stylesheet">
-    <title>DSC Editor</title>
+    <title>DSC Studio</title>
     <meta name="theme-color" content="#9a8cee" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   </head>
@@ -336,7 +336,7 @@
           {
             registration.addEventListener('updatefound', () =>
             {
-              dialogEx("Update available", "Restart DSC Editor to apply updates?", () => 
+              dialogEx("Update available", "Restart DSC Studio to apply updates?", () => 
               {
                 registration.waiting.postMessage('skipWaiting');
               })

@@ -1,5 +1,5 @@
 /*
-  DSC Editor
+  DSC Studio
   Copyright (C) 2022-2024 nastys
 
   This program is free software: you can redistribute it and/or modify
@@ -126,10 +126,10 @@ setmenubaritem('help');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
-    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Editor by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Studio by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
 
     const menuitem_copyright = document.getElementById('menuitem_copyright');
-    menuitem_copyright.oncontextmenu = menuitem_copyright.onclick = function() { dialogEx("Licence", "DSC Editor\nCopyright (C) 2022-2024 nastys\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>."); }
+    menuitem_copyright.oncontextmenu = menuitem_copyright.onclick = function() { dialogEx("Licence", "DSC Studio\nCopyright (C) 2022-2024 nastys\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>."); }
     
     const menuitem_src = document.getElementById('menuitem_src');
     menuitem_src.oncontextmenu = menuitem_src.onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
