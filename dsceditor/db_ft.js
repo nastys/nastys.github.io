@@ -91,7 +91,7 @@ let db_ft={
     "19":{"opcode":"MOUTH_ANIM","len":5},
     "31":{"opcode":"MOVE_CAMERA","len":21},
     "16":{"opcode":"MOVE_FIELD","len":3},
-    "102":{"opcode":"MOVIE_CUT_CHG","len":1},
+    "102":{"opcode":"MOVIE_CUT_CHG","len":2},
     "68":{"opcode":"MOVIE_DISP","len":1},
     "67":{"opcode":"MOVIE_PLAY","len":1},
     "25":{"opcode":"MUSIC_PLAY","len":0},
