@@ -123,6 +123,8 @@ function dupe_cleanup(command = "TIME")
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
     //console.log(`Found ${matches.length} commands.`);
 
+    const param_leq = command === "TIME";
+
     let ops = [];
     let last_time;
     let last_linen;
@@ -144,7 +146,9 @@ function dupe_cleanup(command = "TIME")
 
         if (i > 0)
         {
-            if (parseInt(current_time) <= parseInt(last_time))
+            const current_time_num = parseInt(current_time);
+            const last_time_num = parseInt(last_time)
+            if (current_time_num == last_time_num || (param_leq && current_time_num < last_time_num))
             {
                 push_ops(ops, {range: matches[i].range, text: ''});
             }
