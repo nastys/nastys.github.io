@@ -1,7 +1,7 @@
 /* styles.css */
 /*
   DSC Studio
-  Copyright (C) 2022-2024 nastys
+  Copyright (C) 2022-2025 nastys
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -168,6 +168,17 @@ body {
 
 .modalbtn_green:active, .modalbtn_mini:active {
     background: linear-gradient(#73e659, #46b413);
+}
+
+.modalwnd:has(.tbcont)
+{
+    max-width: 800px;
+    min-width: 600px;
+}
+
+.tbcont {
+    display: flex;
+    flex-direction: row;
 }
 
 .cbcont {

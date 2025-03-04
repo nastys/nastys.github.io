@@ -1,6 +1,6 @@
 /*
   DSC Studio
-  Copyright (C) 2022-2024 nastys
+  Copyright (C) 2022-2025 nastys
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -15,7 +15,7 @@
   You should have received a copy of the GNU Affero General Public License
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-const cacheName = "dsceditor-static-v29";
+const cacheName = "dsceditor-static-v32";
 
 const contentToCache = [
   "./",
@@ -36,6 +36,7 @@ const contentToCache = [
   "./idswap.js",
   "./index.html",
   "./LICENSE",
+  "./lrc_worker_read.js",
   "./manifest.json",
   "./menu.js",
   "./preview_worker.js",

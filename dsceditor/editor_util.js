@@ -1,6 +1,6 @@
 /*
   DSC Studio
-  Copyright (C) 2022-2024 nastys
+  Copyright (C) 2022-2025 nastys
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -970,6 +970,348 @@ function lyrics()
     bg.classList.remove('invisible');
 }
 
+function update_lyric_textboxes(lyricarray, dsctext, pvdbtext, pvid, pven, maxlen, offset)
+{
+    const scriptLines = [];
+    const lyricdbLines = [];
+  
+    let discarded = 0;
+    for (let i = 0; i < lyricarray.length; i++)
+    {
+        const [currentTimestamp, lyric] = lyricarray[i];
+        const emptyLyric = lyric.trim() === '';
+        
+        scriptLines.push(`TIME(${currentTimestamp + offset});`);
+        scriptLines.push(emptyLyric ? "LYRIC(0, -1);" : `LYRIC(${i + 1 - discarded}, -1);`);
+        
+        if (maxlen !== 0 && i < lyricarray.length - 1)
+        {
+            const nextTimestamp = lyricarray[i + 1][0] + offset;
+            const endTime = currentTimestamp + offset + maxlen;
+            
+            if (!emptyLyric && endTime < nextTimestamp) {
+                scriptLines.push(`TIME(${endTime});`);
+                scriptLines.push(`LYRIC(0, -1);`);
+            }
+        }
+        
+        if (!emptyLyric)
+        {
+            const indexStr = (lyricdbLines.length + 1).toString().padStart(3, '0');
+            lyricdbLines.push(`pv_${pvid.toString().padStart(3, '0')}.lyric${pven ? "_en" : ""}.${indexStr}=${lyric}`);
+        }
+        else
+        {
+            discarded++;
+        }
+    }
+
+    dsctext.value = scriptLines.join("\n");
+    pvdbtext.value = lyricdbLines.join("\n");
+}
+
+async function inject_lyrics()
+{
+    const lyricarray = { data: [] };
+
+    const container = document.getElementById('modalwndinside');
+
+    const lyrcontainer = document.createElement('div');
+    lyrcontainer.style.display = "flex";
+    lyrcontainer.style.flexDirection = "column";
+
+    const textboxcontainer = document.createElement('div');
+    textboxcontainer.classList.add('tbcont');
+    textboxcontainer.style.flex = "1";
+
+    const textbox = document.createElement('textarea');
+    textbox.style.width = "25%";
+    textbox.style.height = "200px";
+    textbox.style.fontSize = "7pt";
+    textbox.style.marginRight = "0.25rem";
+    textbox.setAttribute('readonly', 'readonly')
+    textboxcontainer.appendChild(textbox);
+
+    const textbox1 = document.createElement('textarea');
+    textbox1.style.width = "100%";
+    textbox1.style.height = "200px";
+    textbox1.style.fontSize = "7pt";
+    textbox1.style.marginLeft = "0.25rem";
+    textbox1.setAttribute('readonly', 'readonly')
+    textboxcontainer.appendChild(textbox1);
+
+    lyrcontainer.appendChild(textboxcontainer);
+
+    const optionscont = document.createElement('div');
+    optionscont.style.flex = "0 0 100%";
+
+    const cont = document.createElement('div');
+    cont.classList.add('cbcont');
+    const el = document.createElement('input');
+    el.type = 'checkbox';
+    el.id = 'cb_endfix';
+    el.classList.add('cb_option');
+    el.checked = true;
+    const lab = document.createElement('label');
+    lab.setAttribute('for', el.id);
+    lab.innerText = "Move PV_END() and END() to end";
+    lab.classList.add('cblabel');
+    cont.appendChild(el);
+    cont.appendChild(lab);
+
+    const cont1 = document.createElement('div');
+    cont1.classList.add('cbcont');
+    const el1 = document.createElement('input');
+    el1.type = 'checkbox';
+    el1.id = 'cb_timecleanup';
+    el1.classList.add('cb_option');
+    el1.checked = true;
+    const lab1 = document.createElement('label');
+    lab1.setAttribute('for', el1.id);
+    lab1.innerText = "Remove unused TIME commands";
+    lab1.classList.add('cblabel');
+    cont1.appendChild(el1);
+    cont1.appendChild(lab1);
+
+    const cont2 = document.createElement('div');
+    cont2.classList.add('cbcont');
+    const el2 = document.createElement('input');
+    el2.type = 'checkbox';
+    el2.id = 'cb_lyriccleanup';
+    el2.classList.add('cb_option');
+    el2.checked = true;
+    el2.disabled = true;
+    const lab2 = document.createElement('label');
+    lab2.setAttribute('for', el2.id);
+    lab2.innerText = "Remove existing lyrics";
+    lab2.classList.add('cblabel');
+    cont2.appendChild(el2);
+    cont2.appendChild(lab2);
+    
+    const cont3 = document.createElement('div');
+    cont3.classList.add('cbcont');
+    const el3 = document.createElement('input');
+    el3.type = 'checkbox';
+    el3.id = 'cb_nonjapanese';
+    el3.classList.add('cb_option');
+    el3.checked = true;
+    const lab3 = document.createElement('label');
+    lab3.setAttribute('for', el3.id);
+    lab3.innerText = "Non-Japanese (lyric_en)";
+    lab3.classList.add('cblabel');
+    cont3.appendChild(el3);
+    cont3.appendChild(lab3);
+
+    const cont4 = document.createElement('div');
+    const el4 = document.createElement('input');
+    el4.type = 'number';
+    el4.id = 'num_pvid';
+    el4.min = 0;
+    el4.value = 0;
+    el4.style.width = "5rem";
+    el4.style.margin = "0.25rem";
+    const lab4 = document.createElement('label');
+    lab4.setAttribute('for', el4.id);
+    lab4.innerText = "PV ID (pv_xxx)";
+    cont4.appendChild(el4);
+    cont4.appendChild(lab4);
+
+    const cont5 = document.createElement('div');
+    const el5 = document.createElement('input');
+    el5.type = 'number';
+    el5.id = 'num_maxlen';
+    el5.min = 0;
+    el5.step = 0.00001;
+    el5.value = 0;
+    el5.style.width = "5rem";
+    el5.style.margin = "0.25rem";
+    const lab5 = document.createElement('label');
+    lab5.setAttribute('for', el5.id);
+    lab5.innerText = "Max. duration in seconds (0 = default/unlimited)";
+    cont5.appendChild(el5);
+    cont5.appendChild(lab5);
+
+    const cont6 = document.createElement('div');
+    const el6 = document.createElement('input');
+    el6.type = 'number';
+    el6.id = 'num_offset';
+    el6.step = 0.00001;
+    el6.value = 0;
+    el6.style.width = "5rem";
+    el6.style.margin = "0.25rem";
+    const lab6 = document.createElement('label');
+    lab6.setAttribute('for', el6.id);
+    lab6.innerText = "Offset in seconds";
+    cont6.appendChild(el6);
+    cont6.appendChild(lab6);
+
+    optionscont.appendChild(cont);
+    optionscont.appendChild(cont1);
+    optionscont.appendChild(cont2);
+    optionscont.appendChild(cont3);
+    optionscont.appendChild(cont4);
+    optionscont.appendChild(cont5);
+    optionscont.appendChild(cont6);
+
+    lyrcontainer.appendChild(optionscont);
+    container.appendChild(lyrcontainer);
+
+    function updateTextboxes() { update_lyric_textboxes(lyricarray.data, textbox, textbox1, el4.value, el3.checked, Math.floor(el5.value * 100000), Math.floor(el6.value * 100000)); }
+
+    el3.addEventListener('change', updateTextboxes);
+    el4.addEventListener('change', updateTextboxes);
+    el5.addEventListener('change', updateTextboxes);
+    el6.addEventListener('change', updateTextboxes);
+
+    if (fileApi)
+    {
+        let newHandle;
+        try
+        {
+            newHandle = await window.showOpenFilePicker({ types: [ { description: 'LRC', accept: {'application/octet-stream': ['.lrc']} } ], multiple: false });
+            await (async (handle) => { 
+                   const fileData = [];
+                for (const fileh of handle)
+                {
+                    const file = await fileh.getFile();
+                    fileData.push(file);
+                };
+                const fileArray = Array.from(fileData);
+                lyric_read(fileArray, lyricarray, updateTextboxes);
+            })(newHandle);
+        }
+        catch (ex)
+        {
+            if (ex.name !== 'AbortError') {
+                console.error(ex);
+                dialogEx("Error", ex);
+            }
+
+            return;
+        }
+    }
+    else
+    {
+        file_picker = document.createElement('input');
+        file_picker.type = 'file';
+        file_picker.multiple = 'false';
+        file_picker.onchange = _this => {
+            lyric_read(Array.from(file_picker.files), lyricarray, updateTextboxes);
+            file_picker.remove();
+        };
+        file_picker.click();
+        file_picker.remove();
+    }
+
+    const bg = document.getElementById('modalbg');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Inject lyrics";
+    header.appendChild(headerlab);
+
+    const btnok = document.createElement('btn');
+    btnok.classList.add('modalbtn');
+    btnok.classList.add('modalbtn_blue');
+    btnok.innerText = 'Inject script';
+    const btncopy = document.createElement('btn');
+    btncopy.classList.add('modalbtn');
+    btncopy.classList.add('modalbtn_green');
+    btncopy.innerText = 'Copy pv_db';
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+    btncopy.onclick = function()
+    {
+        btncopy.innerText = "Copied";
+        navigator.clipboard.writeText(textbox1.value);
+    }
+    btnok.onclick = function()
+    {
+        if (el3.checked)
+        {
+            remove_command("LYRIC");
+        }
+
+        const splitbox = textbox.value.split("\n");
+        //console.log("Split", splitbox);
+        let time = 0;
+        let branch = 0;
+
+        splitbox.forEach(line => {
+            //console.log("Processing", line);
+            const split = line.split('(');
+            const opcode = split[0];
+            if (opcode === "TIME")
+            {
+                time = split[1].split(')')[0];
+            }
+            else if (opcode === "PV_BRANCH_MODE")
+            {
+                branch = split[1].split(')')[0];
+            }
+            else if (opcode !== "")
+            {
+                insert_command(line, time, branch);
+            }
+        });
+        
+        if (el.checked)
+        {
+            remove_command("PV_END");
+            remove_command("END");
+            const range = new monaco.Range(model.getLineCount() + 1, 1, model.getLineCount() + 1, 1);
+            model.pushEditOperations([], [{ range, text: "PV_END();\nEND();\n" }], () => null);
+        }
+
+        if (el1.checked)
+        {
+            dupe_adjacent_cleanup();
+        }
+
+
+        textbox.style.display = "none";
+        el.style.display = "none";
+        lab.style.display = "none";
+        el1.style.display = "none";
+        lab1.style.display = "none";
+        el2.style.display = "none";
+        lab2.style.display = "none";
+        el5.style.display = "none";
+        lab5.style.display = "none";
+        el6.style.display = "none";
+        lab6.style.display = "none";
+        btnok.style.display = "none";
+        btncanc.innerText = "Close";
+        btncanc.classList.remove("modalbtn_red");
+        btncanc.classList.add("modalbtn_blue");
+    }
+    footer.appendChild(btnok);
+    footer.appendChild(btncopy);
+    footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}
+
 function merge_read(files, cont)
 {
     setProgress(0, "Reading file...");
@@ -990,6 +1332,32 @@ function merge_read(files, cont)
             case 'seteditorpos':
                 editor.revealLineInCenter(e.data.data.lineNumber);
                 editor.setPosition(e.data.data);
+                break;
+            case 'exception':
+                setProgress(-1);
+            case 'warning':
+                console.error(e.data.data);
+                dialogEx("Warning", e.data.data);
+                break;
+        }
+    };
+}
+
+function lyric_read(files, output, fnupdate)
+{
+    setProgress(0, "Reading file...");
+    const worker = new Worker("./lrc_worker_read.js");
+    worker.postMessage({files: files});
+    worker.onmessage = (e) => {
+        switch (e.data.type)
+        {
+            case 'progress':
+                setProgress(e.data.data);
+                break;
+            case 'output':
+                output.data = e.data.data;
+                fnupdate();
+                setProgress(-1);
                 break;
             case 'exception':
                 setProgress(-1);
