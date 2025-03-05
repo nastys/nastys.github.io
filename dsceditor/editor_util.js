@@ -98,6 +98,19 @@ function get_previous_command_int(command, position)
     return 0;
 }
 
+function get_music_play_time()
+{
+    const regex = `^[\\t\\f\\v ]*MUSIC_PLAY[\\t\\f\\v ]*\\([\\t\\f\\v ]*\\);?(?:\\r?\\n)*`;
+
+    const matches = model.findMatches(regex, true, true, true, null, false, 1);
+    if (matches.length > 0)
+    {
+        return get_previous_command_int("TIME", {lineNumber: matches[0].range.startLineNumber});
+    }
+
+    return 0;
+}
+
 function push_ops(ops, op)
 {
     let exists = false;
@@ -1136,7 +1149,7 @@ async function inject_lyrics()
     el6.type = 'number';
     el6.id = 'num_offset';
     el6.step = 0.00001;
-    el6.value = 0;
+    el6.value = get_music_play_time() / 100000.0;
     el6.style.width = "5rem";
     el6.style.margin = "0.25rem";
     const lab6 = document.createElement('label');
