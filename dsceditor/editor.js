@@ -93,10 +93,16 @@ require(['vs/editor/editor.main'], async function () {
                             }
                         break;
                         // conversion hints
-                        case "TARGET_FLYING_TIME":
                         case "TIME":
                             if (document.getElementById('cb_showinlayhints2').checked && params[0]) {
                                 mappedValue = time_to_string(params[0]);
+                                paramPos = 0;
+                                brackets = true;
+                            }
+                        break;
+                        case "TARGET_FLYING_TIME":
+                            if (document.getElementById('cb_showinlayhints2').checked && params[0]) {
+                                mappedValue = time_to_string(params[0] * 100);
                                 paramPos = 0;
                                 brackets = true;
                             }
@@ -160,7 +166,7 @@ require(['vs/editor/editor.main'], async function () {
     });
 
     editor = await monaco.editor.create(editorContainer, {
-        value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'PV_END();', 'END();', ''].join('\n'),
+        value: ['PV_BRANCH_MODE(0);', 'TIME(0);', 'MUSIC_PLAY();', 'BAR_TIME_SET(120, 3);', 'CHANGE_FIELD(1);', 'PV_END();', 'END();', ''].join('\n'),
         language: 'dsc_basic',
         automaticLayout: true,
         glyphMargin: true,
