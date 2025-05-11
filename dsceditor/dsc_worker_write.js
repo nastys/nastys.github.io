@@ -29,7 +29,12 @@ function get_db_info(fmt)
             return 'info_PSP1';
         case 'pd2':
             return 'info_PSP2';
-        }
+        case 'f2':
+            return 'info_F2';
+        case 'vrfl':
+        case 'x':
+            return 'info_X';
+    }
 
     throw `Format error: Unknown format '${fmt}'.`;
 }
@@ -39,6 +44,9 @@ onmessage = function(e)
     const lines = e.data.lines;
     let fmt = e.data.dscfmt;
     let ver = e.data.dscver;
+    let isModern = fmt == 'x' || fmt == 'f2';
+    let isBigEndian = e.data.isBigEndian;
+    let branchMode = e.data.branchMode;
 
     function SaveError(line, column, message) {
         postMessage({type: 'seteditorpos', data: {lineNumber: line, column: column}});
@@ -51,6 +59,7 @@ onmessage = function(e)
         if (!(fmt === 'pd1' || fmt === 'pd2'))
         {
             filenative.push(parseInt(ver));
+            if (isModern) filenative.push(branchMode);
         }
 
         const info = get_db_info(fmt);
@@ -113,20 +122,82 @@ onmessage = function(e)
                 });
             }
         }
+
+        if (isModern) 
+        {
+            // Check if length is 8 aligned, if not, add padding zeros
+            let fileByteLength = filenative.length * 4;
+            if (fileByteLength % 8 !== 0) {
+                // Calculate how many zeros we need to add to reach the next multiple of 8
+                let paddingNeeded = 8 - (fileByteLength % 8);
+                // Since each element is 4 bytes, we need paddingNeeded/4 elements
+                let elementsToAdd = paddingNeeded / 4;
+                for (let z = 0; z < elementsToAdd; z++) {
+                    filenative.push(0);
+                }
+            }
+
+            let header = [];
+            // write header
+            header.push(1129535056) // "PVSC";
+            header.push(filenative.length * 4);
+            header.push(32);
+            header.push(isBigEndian ? 402653184 : 268435456);
+            header.push(0);
+            header.push(filenative.length * 4);
+            header.push(0);
+            header.push(0);
+            // write EOFC
+            let eofc = [];
+            eofc.push(1128681285);
+            eofc.push(0);
+            eofc.push(0);
+            eofc.push(0);
+            eofc.push(0);
+            eofc.push(0);
+            eofc.push(0);
+            eofc.push(0);
+
+            const filedata = new ArrayBuffer((filenative.length * 4)+64);
+            const fileview = new DataView(filedata);
+
+            let fileoffset = 0;
+            header.forEach(element => {
+                fileview.setInt32(fileoffset, element, true);   
+                fileoffset += 4;  
+            });
+            filenative.forEach(element => {
+                fileview.setInt32(fileoffset, element, !isBigEndian);   
+                fileoffset += 4;  
+            });
+            eofc.forEach(element => {
+                fileview.setInt32(fileoffset, element, true);   
+                fileoffset += 4;  
+            });
+
+            const fileblob = new Blob([filedata]);
+            postMessage({type: 'datasave', data: fileblob});
+
+            return true;
+        } 
+        else 
+        {
+            const filedata = new ArrayBuffer(filenative.length * 4);
+            const fileview = new DataView(filedata);
+            
+            let fileoffset = 0;
+            filenative.forEach(element => {
+                fileview.setInt32(fileoffset, element, true);   
+                fileoffset += 4;  
+            });
+
+            const fileblob = new Blob([filedata]);
+            postMessage({type: 'datasave', data: fileblob});
+
+            return true;
+        }
+
         
-        const filedata = new ArrayBuffer(filenative.length * 4);
-        const fileview = new DataView(filedata);
-        let fileoffset = 0;
-
-        filenative.forEach(element => {
-            fileview.setInt32(fileoffset, element, true);   
-            fileoffset += 4;  
-        });
-
-        const fileblob = new Blob([filedata]);
-        postMessage({type: 'datasave', data: fileblob});
-
-        return true;
     }
     catch (e) {
         postMessage({type: 'exception', data: e.toString()});

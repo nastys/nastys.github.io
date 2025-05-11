@@ -17,6 +17,8 @@
 */
 const id_fmt = document.getElementById('dscfmt');
 const id_ver = document.getElementById('dscver');
+const id_bigendian = document.getElementById('dscbigendian');
+const id_branch = document.getElementById('indicator_branch');
 
 let file_picker;
 let lastfilename = 'pv_new.dsc';
@@ -59,6 +61,15 @@ document.getElementById('dscfmt').onchange = function()
             break;
         case 'pd2':
             document.getElementById('dscver').value = fmts_pd2[0].toString(16);
+            break;
+        case 'f2':
+            document.getElementById('dscver').value = fmts_f2[0].toString(16);
+            break;
+        case 'x':
+            document.getElementById('dscver').value = fmts_x[0].toString(16);
+            break;
+        case 'vrfl':
+            document.getElementById('dscver').value = fmts_vrfl[0].toString(16);
             break;
     }
 
@@ -170,7 +181,7 @@ function do_save_dsc()
     setProgress(0, "Saving file...");
     const worker = new Worker("./dsc_worker_write.js");
     const lines = editor.getValue().split(/\r?\n/);
-    worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: getFmtToNum()});
+    worker.postMessage({lines: lines, dscfmt: id_fmt.value, dscver: getFmtToNum(), isBigEndian: id_bigendian.checked, branchMode: id_branch.value});
     worker.onmessage = worker_message_handler;
 }
 
@@ -330,6 +341,14 @@ async function worker_message_handler(e)
             break;
         case 'setver':
             id_ver.value = e.data.data.toString(16);
+            break;
+        case 'setbigendian':
+            id_bigendian.checked = e.data.data;
+            break;
+        case 'setbranch':
+            id_branch.value = e.data.data;
+            const changeEvent = new Event('change');
+            id_branch.dispatchEvent(changeEvent);
             break;
         case 'datatext':
             bookmark_clear(); // todo deleting a bookmarked line should delete the decoration and the bookmark instead

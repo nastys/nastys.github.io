@@ -19,3 +19,6 @@ const fmts_ft=[353510679,285614104,335874337,369295649,352458520,335745816,33561
 const fmts_dt2=[302121504,285419544,285349657]
 const fmts_pd1=[]
 const fmts_pd2=[]
+const fmts_f2 = [319947808]
+const fmts_x = [319947808]
+const fmts_vrfl=[319947808] // F2nd/X/VRFL have the same format version sadly

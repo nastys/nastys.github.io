@@ -80,12 +80,21 @@
         <option value="dt2">DT 2nd/e, f</option>
         <option value="pd1">PD 1st</option>
         <option value="pd2">PD 2nd/e</option>
+        <option value="f2">F2nd</option>
+        <option value="x">X/XHD</option>
+        <option value="vrfl">VRFL</option>
       </select>
       <label for="dscver" style="margin-left: 20px;">Format: 0x</label><input type="text" id="dscver" name="dscver" pattern="[a-fA-F\d]+" minlength="8" maxlength="8" autocomplete="off" style="width: 80px;">
+      <label for="dscbigendian" style="margin-left: 20px;">Big Endian? :</label><input type="checkbox" id="dscbigendian" name="dscbigendian" style="margin-left: 10px;" />
       <div class="toolseparator" style="margin-left: 21px;"></div>
       <label for="indicator_time" style="margin-left: 15px;">Time:&nbsp;</label><input type="text" id="indicator_time" name="indicator_time" autocomplete="off" readonly="true" value="00:00:00.00000" style="min-width: fit-content; width: 140px; text-align: center;">
       <span style="margin-left: 20px;">Frame:&nbsp;</span><span id="indicator_frame" style="min-width: fit-content;">0</span>
-      <span style="margin-left: 20px;">Branch:&nbsp;</span><span id="indicator_branch" style="min-width: fit-content;">Global</span>
+      <label for="indicator_branch" style="margin-left: 20px;">Branch Mode:</label>
+      <select id="indicator_branch" style="margin-left: 5px; min-width: fit-content;">
+        <option value="0">Global</option>
+        <option value="1">Failure</option>
+        <option value="2">Success</option>
+      </select>
       <span style="margin-left: 20px;">BPM:&nbsp;</span><span id="indicator_ts" style="min-width: fit-content;">Undefined</span>
       <span style="margin-left: 20px;">Hit:&nbsp;</span><span id="indicator_hit" style="margin-right: 20px; min-width: fit-content;">Undefined</span>
     </div>
