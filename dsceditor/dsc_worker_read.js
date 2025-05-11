@@ -33,6 +33,15 @@ function get_db(fmt)
         case 'pd2':
             importScripts("./db_pd2.js");
             return db_pd2;
+        case 'f2':
+            importScripts("./db_f2.js");
+            return db_f2;
+        case 'x':
+            importScripts("./db_x.js");
+            return db_x;
+        case 'vrfl':
+            importScripts("./db_vrfl.js");
+            return db_vrfl;
     }
 
     throw `Format error: Unknown format '${fmt}'.`;
@@ -55,11 +64,29 @@ onmessage = function(e)
             const data = new DataView(reader.result);
             let commands;
             commands = "";
-            for (let i = 0; i < reader.result.byteLength; i+=4)
+
+            var isModern = false;
+            var isBigEndian = false;
+            var fileSize = reader.result.byteLength;
+            var startOffset = 0;
+
+            // Check if file is modern (F2/X)
+            if (data.getInt32(0, true) == 1129535056) // "PVSC" in UInt32 LE
             {
-                postMessage({type: 'progress', data: i / reader.result.byteLength});
-                const num = data.getInt32(i, true);
-                if (i == 0) 
+                isModern = true;
+                // Check DSC size, start offset, and endianness
+                fileSize = data.getInt32(20, true);
+                startOffset = data.getInt32(8, true);
+                isBigEndian = data.getInt8(15, true) === 24; // true if byte at 0xF is 0x18
+            }
+
+            postMessage({'type': 'setbigendian', data: isBigEndian});
+
+            for (let i = startOffset; i < fileSize+startOffset; i+=4)
+            {
+                postMessage({type: 'progress', data: i / fileSize});
+                const num = data.getInt32(i, !isBigEndian);
+                if (i == startOffset) 
                 {
                     postMessage({type: 'setver', data: num});
                     if (e.data.autodetectfmt)
@@ -70,6 +97,13 @@ onmessage = function(e)
                             postMessage({type: 'exception', data: `ERROR: Cannot autodetect format '${num}'.\nPlease disable autodetection and manually select the format, and open the file again.`});
                             errors = true;
                             break;
+                        }
+                        else if (isModern)
+                        {
+                            // If file size and container size differ, then its likely X/XHD as X+ added ENRS. Assume XHD if thats the case; else, use F2nd.
+                            // This is kinda hacky because if enrs is missing (resaving using this/using current ScriptEditor), it will automatically be read as F2nd.
+                            fmt = (data.getInt32(4, true) == data.getInt32(20, true)) ? "f2" : "x";
+                            postMessage({type: 'setfmt', data: fmt});
                         }
                         else
                         {
@@ -83,9 +117,15 @@ onmessage = function(e)
                         continue;
                     }
                 }
+                if (i == startOffset+4 && isModern) {
+                    // Branch mode info
+                    postMessage({type: 'setbranch', data: num});
+                    continue;
+                }
                 if (typeof thisdb[num] === 'undefined')
                 {
                     errors = true;
+                    console.log(`undefined: ${num} at ${i}`)
                     continue;
                 }
                 const opc = thisdb[num].opcode;
@@ -94,9 +134,8 @@ onmessage = function(e)
                 for (let j = 0; j < len; j++)
                 {
                     i+=4;
-                    params.push(data.getInt32(i, true));
+                    params.push(data.getInt32(i, !isBigEndian));
                 }
-
                 commands += opc;
                 if (params.length)
                 {

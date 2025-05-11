@@ -502,7 +502,11 @@ function reload_indicators()
     const ts = get_ts();
     document.getElementById('indicator_time').value = time_to_string(time);
     document.getElementById('indicator_frame').innerText = String(6 * time / 10000);
-    document.getElementById('indicator_branch').innerText = branch_to_string(get_current_branch());
+    let curformat = document.getElementById('dscfmt').value;
+    if (!(curformat == 'f2' || curformat == "x" || curformat == "vrfl")) // Prevent resetting branch for modern formats
+    {
+        document.getElementById('indicator_branch').value = get_current_branch()
+    };
     document.getElementById('indicator_ts').innerText = ts.undefined ? "Undefined" : ts.ts ? `${ts.bpm}, ${ts.ts}/4` : `~${ts.bpm}`;
     document.getElementById('indicator_hit').innerText = ts.undefined ? "Undefined" : `${time_to_string((ts.tft*100) + time)}`;
 }

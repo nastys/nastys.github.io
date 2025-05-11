@@ -38,6 +38,21 @@ function get_fmt_from_ver(ver)
     {
         return 'pd2';
     }
-    
+
+    if (fmts_f2.includes(ver))
+    {
+        return 'f2';
+    }
+
+    if (fmts_x.includes(ver))
+    {
+        return 'x';
+    }
+
+    if (fmts_vrfl.includes(ver))
+    {
+        return 'vrfl';
+    }
+
     return -1;
 }
