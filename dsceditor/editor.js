@@ -45,7 +45,8 @@ require(['vs/editor/editor.main'], async function () {
         provideInlayHints(model, range, token) {
             let h = [];
             
-            if (document.getElementById('dscfmt').value === 'ft' && (document.getElementById('cb_showinlayhints').checked || document.getElementById('cb_showinlayhints2').checked)) {
+            const fmt = document.getElementById('dscfmt').value;
+            if ((document.getElementById('cb_showinlayhints').checked || document.getElementById('cb_showinlayhints2').checked)) {
                 for (let i = range.startLineNumber; i <= range.endLineNumber; i++) {
                     const line = model.getLineContent(i);
                     const lineTrim = line.trim();
@@ -61,37 +62,6 @@ require(['vs/editor/editor.main'], async function () {
                     let paramPos;
                     let brackets = false;
                     switch (opcode) {
-                        // value hints
-                        case "EXPRESSION":
-                            if (document.getElementById('cb_showinlayhints').checked && params[1]) {
-                                mappedValue = mappingExpressionFt[params[1].trim()];
-                                paramPos = 1;
-                            }
-                        break;
-                        case "LOOK_ANIM":
-                            if (document.getElementById('cb_showinlayhints').checked && params[1]) {
-                                mappedValue = mappingLookAnimFt[params[1].trim()];
-                                paramPos = 1;
-                            }
-                        break;
-                        case "PV_BRANCH_MODE":
-                            if (document.getElementById('cb_showinlayhints').checked && params[0]) {
-                                mappedValue = mappingBranchFt[params[0].trim()];
-                                paramPos = 0;
-                            }
-                        break;
-                        case "HAND_ANIM":
-                            if (document.getElementById('cb_showinlayhints').checked && params[2]) {
-                                mappedValue = mappingHandAnimFt[params[2].trim()];
-                                paramPos = 2;
-                            }
-                        break;
-                        case "MOUTH_ANIM":
-                            if (document.getElementById('cb_showinlayhints').checked && params[2]) {
-                                mappedValue = mappingMouthAnimFt[params[2].trim()];
-                                paramPos = 2;
-                            }
-                        break;
                         // conversion hints
                         case "TIME":
                             if (document.getElementById('cb_showinlayhints2').checked && params[0]) {
@@ -119,6 +89,37 @@ require(['vs/editor/editor.main'], async function () {
                                 mappedValue = hand_scale_to_string(Number.parseInt(params[2]));
                                 paramPos = 2;
                                 brackets = true;
+                            }
+                        break;
+                        // value hints
+                        case "EXPRESSION":
+                            if (document.getElementById('cb_showinlayhints').checked && fmt === 'ft' && params[1]) {
+                                mappedValue = mappingExpressionFt[params[1].trim()];
+                                paramPos = 1;
+                            }
+                        break;
+                        case "LOOK_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && fmt === 'ft' && params[1]) {
+                                mappedValue = mappingLookAnimFt[params[1].trim()];
+                                paramPos = 1;
+                            }
+                        break;
+                        case "PV_BRANCH_MODE":
+                            if (document.getElementById('cb_showinlayhints').checked && fmt === 'ft' && params[0]) {
+                                mappedValue = mappingBranchFt[params[0].trim()];
+                                paramPos = 0;
+                            }
+                        break;
+                        case "HAND_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && fmt === 'ft' && params[2]) {
+                                mappedValue = mappingHandAnimFt[params[2].trim()];
+                                paramPos = 2;
+                            }
+                        break;
+                        case "MOUTH_ANIM":
+                            if (document.getElementById('cb_showinlayhints').checked && fmt === 'ft' && params[2]) {
+                                mappedValue = mappingMouthAnimFt[params[2].trim()];
+                                paramPos = 2;
                             }
                         break;
                     }
