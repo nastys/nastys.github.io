@@ -179,6 +179,9 @@ setmenubaritem('help');
     const menuitem_edit_commands_to_standard = document.getElementById('menuitem_edit_commands_to_standard');
     menuitem_edit_commands_to_standard.oncontextmenu = menuitem_edit_commands_to_standard.onclick = function() { edit_commands_to_standard(); }
 
+    const menuitem_f_targets_to_newclassics = document.getElementById('menuitem_f_targets_to_newclassics');
+    menuitem_f_targets_to_newclassics.oncontextmenu = menuitem_f_targets_to_newclassics.onclick = function() { f_targets_to_newclassics(); }
+
     const toolpreview = document.getElementById('toolpreview');
     /*toolpreview.oncontextmenu = */toolpreview.onclick = function() { preview_play(); };
 

@@ -855,6 +855,63 @@ function edit_commands_to_standard()
     bg.classList.remove('invisible');
 }
 
+function f_targets_to_newclassics()
+{
+    const LUT_target_f_to_nc_id =
+    {
+        // Arrows
+        "4": "29",
+        "5": "32",
+        "6": "31",
+        "7": "30",
+
+        // Holds
+        "8": "33",
+        "9": "34",
+        "10": "35",
+        "11": "36",
+
+        // Stars
+        "12": "37",
+        "14": "39",
+        "15": "40",
+        "16": "40",
+        "17": "43",
+
+        // Links
+        "22": "41",
+        "23": "42",
+    }
+
+    const regex = /^[\t\f\v ]*TARGET[\t\f\v ]*\((?:[\t\f\v ]*-?\d{1,}[\t\f\v ]*,){10}[\t\f\v ]*-?\d{1,}[\t\f\v ]*\);?(?:\r?\n)*/;
+    const model = editor.getModel();
+    const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
+
+    let ops = [];
+    for (let i = 0; i < matches.length; i++)
+    {
+        const line = model.getValueInRange(matches[i].range).trim();
+
+        const par_start = line.indexOf('(');
+        const par_end = line.indexOf(')');
+        const par_in = line.substring(par_start + 1, par_end);
+        const params = par_in.split(',');
+
+        if (params.length != 11)
+        {
+            const linen = matches[i].range.startLineNumber;
+            console.error(`Invalid command at line ${linen}.`);
+            alert(`Invalid command at line ${linen}.`);
+            continue;
+        }
+
+        const targetid = params[0].trim();
+        push_ops(ops, {range: matches[i].range, text: `TARGET(${LUT_target_f_to_nc_id[targetid] ?? targetid}, ${params[1].trim()}, ${params[2].trim()}, ${params[3].trim()}, ${params[4].trim()}, ${params[5].trim()}, ${params[6].trim()}, ${params[7].trim()}, ${params[8].trim()}, ${params[9].trim()}, ${params[10].trim()});`});
+    };
+
+    model.pushEditOperations([], ops, () => null);
+}
+
 function convert_edit_command(opcode)
 {
     switch (opcode)
