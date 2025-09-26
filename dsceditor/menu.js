@@ -126,7 +126,7 @@ setmenubaritem('help');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
-    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Studio by nastys\nOriginal ScriptEditor by samyuu\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
+    menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Studio by nastys\nDSC format spec REd by samyuu\nInspired by samyuu's ScriptEditor for Windows\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
 
     const menuitem_copyright = document.getElementById('menuitem_copyright');
     menuitem_copyright.oncontextmenu = menuitem_copyright.onclick = function() { dialogEx("Licence", "DSC Studio\nCopyright (C) 2022-2025 nastys\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>."); }
@@ -181,6 +181,12 @@ setmenubaritem('help');
 
     const menuitem_f_targets_to_newclassics = document.getElementById('menuitem_f_targets_to_newclassics');
     menuitem_f_targets_to_newclassics.oncontextmenu = menuitem_f_targets_to_newclassics.onclick = function() { f_targets_to_newclassics(); }
+
+    const toolloadaudio = document.getElementById('toolloadaudio');
+    /*toolloadaudio.oncontextmenu = */toolloadaudio.onclick = function() { load_preview_audio(); };
+
+    const menuitem_loadaudio = document.getElementById('menuitem_loadaudio');
+    menuitem_loadaudio.oncontextmenu = menuitem_loadaudio.onclick = () => { load_preview_audio(); };
 
     const toolpreview = document.getElementById('toolpreview');
     /*toolpreview.oncontextmenu = */toolpreview.onclick = function() { preview_play(); };

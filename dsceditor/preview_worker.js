@@ -23,6 +23,7 @@ onmessage = function(e)
         let currentTime = e.data.time;
         let currentBpm = e.data.bpm;
         let currentTft = e.data.tft;
+        let audioSync = e.data.audioSync;
 
         do
         {
@@ -48,6 +49,7 @@ onmessage = function(e)
                 case "TIME":
                 sleep((currentCommand.params[0] - currentTime)/100);
                 currentTime = currentCommand.params[0];
+                if (audioSync) this.postMessage({msg: "sync", ts: currentTime});
                 break;
 
                 case "PV_END":

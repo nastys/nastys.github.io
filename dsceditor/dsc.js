@@ -33,6 +33,12 @@ document.body.addEventListener("drop", async (e) => {
     const files = e.dataTransfer.files;
     if (files.length == 1)
     {
+        if (files[0].type === "application/ogg" || files[0].type.startsWith("audio/") || files[0].type.startsWith("video/"))
+        {
+            load_preview_audio_dropped(files[0]);
+            return;
+        }
+
         try
         {
             fileHandle = await e.dataTransfer.items[0].getAsFileSystemHandle();

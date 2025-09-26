@@ -24,6 +24,27 @@ let entryPos = null;
 
 let running = false;
 
+let preview_audio;
+
+function load_preview_audio()
+{
+    const fileinput = document.createElement("input");
+    fileinput.type = "file";
+    fileinput.accept = "application/ogg,audio/*,video/*";
+    fileinput.addEventListener("change", () =>
+    {
+        const file = fileinput.files[0];
+        if (file) preview_audio = new Audio(URL.createObjectURL(file));
+    });
+
+    fileinput.click();
+}
+
+function load_preview_audio_dropped(file)
+{
+    preview_audio = new Audio(URL.createObjectURL(file));
+}
+
 function preview_play()
 {
     pbackg = document.getElementById('preview_background');
@@ -124,6 +145,10 @@ function preview_play()
             spawn_target(e.data.tgt);
             break;
 
+            case "sync":
+            preview_audio.currentTime = e.data.ts / 100000;
+            break
+
             case "info":
             alert(e.data.info);
             break;
@@ -145,8 +170,14 @@ function preview_play()
     
     worker = new Worker("./preview_worker.js");
     running = true;
-    worker.postMessage({value: editor.getValue(), line: editor.getPosition().lineNumber, lineCount: model.getLineCount(), time: get_current_time(), bpm: ts.bpm, tft: ts.tft, classicHolds: document.getElementById('dscfmt').value == 'dt2'});
     worker.onmessage = preview_worker_handler;
+    worker.postMessage({value: editor.getValue(), line: editor.getPosition().lineNumber, lineCount: model.getLineCount(), time: get_current_time(), bpm: ts.bpm, tft: ts.tft, classicHolds: document.getElementById('dscfmt').value == 'dt2', audioSync: preview_audio && document.getElementById("cb_previewaudiosync").checked});
+
+    if (preview_audio)
+    {
+        preview_audio.currentTime = get_current_time() / 100000;
+        preview_audio.play();
+    }
 }
 
 async function previewall()
@@ -169,4 +200,6 @@ async function preview_stop(backToInitial)
         editor.setPosition(entryPos);
     }
     entryPos = null;
+
+    if (preview_audio) preview_audio.pause();
 }
