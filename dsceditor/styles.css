@@ -557,3 +557,43 @@ label {
     opacity: 1;
     image-rendering: pixelated;
 }
+
+.wnd_navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.wnd_nav_btn {
+    min-width: 88px;
+    width: auto;
+    height: 64px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    transition: all linear 0.1s;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+.wnd_nav_btn_ico {
+    margin-top: 0.5rem;
+    margin-bottom: auto;
+}

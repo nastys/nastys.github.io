@@ -30,7 +30,9 @@ function remove_command(opcode)
 {
     const regex = `^[\\t\\f\\v ]*${opcode}[\\t\\f\\v ]*\\(.*\\);?(?:\\r?\\n)*`;
     const matches = model.findMatches(regex, true, true, true, null, false, 999999999);
-    console.log(`Found ${matches.length} ${opcode} commands.`);
+    //console.log(`Found ${matches.length} ${opcode} commands.`);
+
+    if (matches.length === 0) return false;
 
     let ops = [];
     matches.forEach(match => {
@@ -38,6 +40,7 @@ function remove_command(opcode)
     });
 
     model.pushEditOperations([], ops, () => null);
+    return true;
 }
 
 function dupe_adjacent_cleanup(command = "TIME")
@@ -70,11 +73,36 @@ function get_previous_command_par(command, position = editor.getPosition())
     const match = model.findPreviousMatch(regex, {lineNumber: position.lineNumber + 1, column: 1}, true, true, null, true);
     if (match && match.range.startLineNumber <= position.lineNumber)
     {
+        pos = match.range.startLineNumber;
+
         const outStr = match.matches[1];
         if (outStr)
         {
-            pos = match.range.startLineNumber;
+            outStr.split(',').forEach(function (param)
+            {
+                out.push(parseInt(param));
+            });
+        }
+    }
 
+    return {params: out, line: pos};
+}
+
+function get_next_command_par(command, position = editor.getPosition())
+{
+    const regex = `^[\\t\\f\\v ]*${command}[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
+
+    let out = [];
+    let pos = -1;
+
+    const match = model.findNextMatch(regex, {lineNumber: position.lineNumber + 1, column: 1}, true, true, null, true);
+    if (match && match.range.startLineNumber >= position.lineNumber)
+    {
+        pos = match.range.startLineNumber;
+        const outStr = match.matches[1];
+
+        if (outStr)
+        {
             outStr.split(',').forEach(function (param)
             {
                 out.push(parseInt(param));
@@ -490,8 +518,8 @@ function get_ts(position)
     const lastTft = get_previous_command_par('TARGET_FLYING_TIME', position);
     const lastBts = get_previous_command_par('BAR_TIME_SET', position);
 
-    if (lastBts.line == -1 && lastTft.line == -1) return { undefined: true };
-    return lastBts.line > lastTft.line ?
+    if (lastBts.params.length === 0 && lastTft.params.length === 0) return { undefined: true };
+    return (lastBts.params.length > 0 && lastBts.line > lastTft.line) ?
     { bpm: lastBts.params[0], ts: lastBts.params[1] + 1, tft: 1000 / (lastBts.params[0] / ((lastBts.params[1] + 1) * 60.0)) } :
     { bpm: Math.round(240000/lastTft.params[0]), ts: NaN, tft: lastTft.params[0]};
 }
@@ -861,9 +889,9 @@ function f_targets_to_newclassics()
     {
         // Arrows
         "4": "29",
-        "5": "32",
+        "5": "30",
         "6": "31",
-        "7": "30",
+        "7": "32",
 
         // Holds
         "8": "33",
@@ -1489,7 +1517,7 @@ function range_insert_command(command, time, branch)
     {
         cmdnew += `TIME(${time});\n`;
     }
-    if (bprev != branch) 
+    if (branch !== undefined && bprev != branch) 
     {
         cmdnew += `PV_BRANCH_MODE(${branch});\n${command}\nPV_BRANCH_MODE(${bprev});\n`;
     }
@@ -1660,6 +1688,404 @@ async function merge_wnd()
     }
     footer.appendChild(btnok);
     footer.appendChild(btncanc);
+
+    bg.classList.remove('hidden');
+    bg.clientWidth;
+    bg.classList.remove('invisible');
+}
+
+function jump_to_previous_timestamp()
+{
+    const par = get_previous_command_par('TIME', {lineNumber: editor.getPosition().lineNumber -1});
+
+    if (par.line >= 1)
+    {
+        editor.revealLineInCenter(par.line);
+        editor.setPosition({column: 1, lineNumber: par.line});
+        editor.focus();
+    }
+}
+
+function jump_to_next_timestamp()
+{
+    const par = get_next_command_par('TIME');
+    
+    if (par.line > 1)
+    {
+        editor.revealLineInCenter(par.line);
+        editor.setPosition({column: 1, lineNumber: par.line});
+        editor.focus();
+    }
+}
+
+function build_timestamp_map()
+{
+    const regex = `^[\\t\\f\\v ]*TIME[\\t\\f\\v ]*\\((.*)\\);?(?:\\r?\\n)*`;
+    const match = model.findMatches(regex, {lineNumber: 1, column: 1}, true, true, null, true);
+    if (match)
+    {
+        return match.map(m => ({ts: parseInt(m.matches[1]), line: m.range.startLineNumber}));
+    }
+
+    return [];
+}
+
+function find_nearest_timestamps(find, tsmap)
+{
+    let lo = 0;
+    let hi = tsmap.length - 1;
+
+    while (lo <= hi)
+    {
+        const mid = Math.floor((lo + hi) / 2);
+        const timestamp = tsmap[mid].ts;
+
+        if (timestamp === find)
+        {
+            return { exact: tsmap[mid], lower: tsmap[mid], upper: tsmap[mid] };
+        }
+        else if (timestamp < find)
+        {
+            lo = mid + 1;
+        }
+        else
+        {
+            hi = mid - 1;
+        }
+    }
+
+    const lower = hi >= 0 ? tsmap[hi] : null;
+    const upper = lo < tsmap.length ? tsmap[lo] : null;
+
+    return { exact: null, lower, upper };
+}
+
+function hms_to_timestamp(hms)
+{
+    const [hmspart, fractionpart = "00000"] = hms.split(".");
+    const [hh, mm, ss] = hmspart.split(":").map(Number);
+
+    const fracstr = (fractionpart + "00000").slice(0, 5);
+    const fraction = parseInt(fracstr, 10);
+
+    const total = ((hh * 3600 + mm * 60 + ss) * 100000) + fraction;
+    return total;
+}
+
+function seconds_to_hms(totalseconds, fracdigits = 5)
+{
+    const hours = Math.floor(totalseconds / 3600);
+    const minutes = Math.floor((totalseconds % 3600) / 60);
+    const seconds = totalseconds % 60;
+
+    const hh = String(hours).padStart(2, "0");
+    const mm = String(minutes).padStart(2, "0");
+    const ss = String(Math.floor(seconds)).padStart(2, "0");
+
+    let result = `${hh}:${mm}:${ss}`;
+
+    if (fracdigits > 0)
+    {
+        const fraction = (seconds % 1).toFixed(fracdigits).slice(2);
+        result += "." + fraction;
+    }
+
+    return result;
+}
+
+function ts_diff_to_hms(a, b)
+{
+    let delta = a - b;
+    const sign = delta >= 0 ? "+" : "-";
+    delta = Math.abs(delta);
+
+    const totalseconds = Math.floor(delta / 100000);
+    const frac = delta % 100000;
+
+    const hours = Math.floor(totalseconds / 3600);
+    const minutes = Math.floor((totalseconds % 3600) / 60);
+    const seconds = totalseconds % 60;
+
+    const hh = hours ? String(hours).padStart(2, "0") + ":" : "";
+    const mm = minutes ? String(minutes).padStart(2, "0") + ":" : "";
+    const ss = String(seconds).padStart(2, "0");
+    const sssss = String(frac).padStart(5, "0");
+
+    return `${sign}${hh}${mm}${ss}.${sssss}`;
+}
+
+function insert_command_wnd()
+{
+    const bg = document.getElementById('modalbg');
+    const container = document.getElementById('modalwndinside');
+    const header = document.getElementById('modalwndheader');
+    const footer = document.getElementById('modalwndfooter');
+    footer.classList.add('gradient');
+
+    const cont = document.createElement('div');
+    cont.classList.add('cbcont');
+    const el = document.createElement('input');
+    el.type = 'text';
+    el.id = 'j_ts';
+    el.classList.add('mleft');
+    el.classList.add('mtop4');
+    let ts;
+    let tsmap = build_timestamp_map();
+    let nearest;
+    const lab = document.createElement('label');
+    lab.setAttribute('for', el.id);
+    lab.innerText = 'Time:';
+    cont.appendChild(lab);
+    cont.appendChild(el);
+    container.appendChild(cont);
+
+    const navrow = document.createElement('div');
+    navrow.classList.add('wnd_navbar');
+
+    const btnprev = document.createElement('div');
+    btnprev.classList.add('toolbutton');
+    btnprev.classList.add('toolbutton-disabled');
+    btnprev.classList.add('wnd_nav_btn');
+    btnprev.setAttribute('disabled', 'disabled');
+    const btnprevico = document.createElement('img');
+    btnprevico.src = "./icons/GoToPreviousInList.svg";
+    btnprevico.draggable = false;
+    btnprevico.width = 32;
+    btnprevico.height = 32;
+    btnprevico.classList.add('wnd_nav_btn_ico');
+    const btnprevts = document.createElement('span');
+    const btnprevdiff = document.createElement('span');
+    btnprevdiff.style.color = 'darkred';
+    btnprev.appendChild(btnprevico);
+    btnprev.appendChild(btnprevts);
+    btnprev.appendChild(btnprevdiff);
+    navrow.appendChild(btnprev);
+
+    const btnexact = document.createElement('div');
+    btnexact.classList.add('toolbutton');
+    btnexact.classList.add('toolbutton-disabled');
+    btnexact.classList.add('wnd_nav_btn');
+    btnexact.setAttribute('disabled', 'disabled');
+    const btnexactico = document.createElement('img');
+    btnexactico.src = "./icons/InsertClause.svg";
+    btnexactico.draggable = false;
+    btnexactico.width = 32;
+    btnexactico.height = 32;
+    btnexactico.classList.add('wnd_nav_btn_ico');
+    const btnexactts = document.createElement('span');
+    btnexact.appendChild(btnexactico);
+    btnexact.appendChild(btnexactts);
+    navrow.appendChild(btnexact);    
+
+    const btnnext = document.createElement('div');
+    btnnext.classList.add('toolbutton');
+    btnnext.classList.add('toolbutton-disabled');
+    btnnext.classList.add('wnd_nav_btn');
+    btnnext.setAttribute('disabled', 'disabled');
+    const btnnextico = document.createElement('img');
+    btnnextico.src = "./icons/GoToNextInList.svg";
+    btnnextico.draggable = false;
+    btnnextico.width = 32;
+    btnnextico.height = 32;
+    btnnextico.classList.add('wnd_nav_btn_ico');
+    const btnnextts = document.createElement('span');
+    const btnnextdiff = document.createElement('span');
+    btnnextdiff.style.color = 'darkgreen';
+    btnnext.appendChild(btnnextico);
+    btnnext.appendChild(btnnextts);
+    btnnext.appendChild(btnnextdiff);
+    navrow.appendChild(btnnext);
+
+    container.appendChild(navrow);
+
+    const cont1 = document.createElement('div');
+    cont1.classList.add('cbcont');
+    const el1 = document.createElement('input');
+    el1.type = 'checkbox';
+    el1.id = 'cb_endfix';
+    el1.classList.add('cb_option');
+    el1.checked = false;
+    el1.disabled = true;
+    const lab1 = document.createElement('label');
+    lab1.setAttribute('for', el1.id);
+    lab1.innerText = "Move PV_END() and END() to end";
+    lab1.classList.add('cblabel');
+    cont1.appendChild(el1);
+    cont1.appendChild(lab1);
+    
+    container.appendChild(cont1);
+    
+    const headerlab = document.createElement('label');
+    headerlab.innerText = "Insert timestamp";
+    header.appendChild(headerlab);
+
+    const btncanc = document.createElement('btn');
+    btncanc.classList.add('modalbtn');
+    btncanc.classList.add('modalbtn_red');
+    btncanc.innerText = 'Cancel';
+    function closewnd()
+    {
+        bg.classList.add('invisible');
+        setTimeout(function() { 
+            bg.classList.add('hidden');
+            header.innerHTML = '';
+            container.innerHTML = '';
+            footer.innerHTML = '';
+        }, 300);
+    }
+    btncanc.onclick = function()
+    {
+        closewnd();
+    }
+
+    footer.appendChild(btncanc);
+
+    el.onchange = () =>
+    {
+        if (!el.value.trim() || parseInt(el.value) < 0) el.value = "";
+
+        if (/^\d+$/.test(el.value))
+        {
+            const num = parseInt(el.value, 10);
+            if (num >= 3600)
+            {
+                const seconds = num / 100000;
+                el.value = seconds_to_hms(seconds, 5);
+            }
+        }
+
+        const [timePart, fraction = ""] = el.value.split(".");
+        const parts = timePart.split(":").map(Number).reverse();
+
+        let seconds = parts[0] || 0;
+        let minutes = parts[1] || 0;
+        let hours   = parts[2] || 0;
+
+        const frac = fraction.replace(/\D/g, "");
+        const fracval = frac.length > 0 ? parseFloat("0." + frac) : 0;
+
+        seconds += fracval;
+
+        minutes += Math.floor(seconds / 60);
+        seconds = seconds % 60;
+
+        hours += Math.floor(minutes / 60);
+        minutes = minutes % 60;
+
+        el.value = seconds_to_hms(hours * 3600 + minutes * 60 + seconds, 5);
+
+        ts = hms_to_timestamp(el.value);
+        nearest = find_nearest_timestamps(ts, tsmap);
+        
+        if (nearest.lower && !nearest.exact)
+        {
+            btnprevts.textContent = seconds_to_hms(nearest.lower.ts / 100000);
+            btnprevdiff.textContent = ts_diff_to_hms(nearest.lower.ts, ts);
+            btnprev.classList.remove('toolbutton-disabled');
+            btnprev.removeAttribute('disabled');
+        }
+        else
+        {
+            btnprevts.textContent = "";
+            btnprevdiff.textContent = "";
+            btnprev.classList.add('toolbutton-disabled');
+            btnprev.setAttribute('disabled', 'disabled');
+        }
+
+        if (nearest.upper && !nearest.exact)
+        {
+            btnnextts.textContent = seconds_to_hms(nearest.upper.ts / 100000);
+            btnnextdiff.textContent = ts_diff_to_hms(nearest.upper.ts, ts);
+            btnnext.classList.remove('toolbutton-disabled');
+            btnnext.removeAttribute('disabled');
+        }
+        else
+        {
+            btnnextts.textContent = "";
+            btnnextdiff.textContent = "";
+            btnnext.classList.add('toolbutton-disabled');
+            btnnext.setAttribute('disabled', 'disabled');
+        }
+
+        if (nearest.exact)
+        {
+            btnexactts.textContent = "Exact";
+            btnexact.classList.remove('toolbutton-disabled');
+            btnexact.removeAttribute('disabled');
+            btnexactico.src = "./icons/GoToCurrentLine.svg";
+            el1.disabled = true;
+            el1.checked = false;
+        }
+        else
+        {
+            if (el.value !== "")
+            {
+                btnexactts.textContent = "Insert";
+                btnexact.classList.remove('toolbutton-disabled');
+                btnexact.removeAttribute('disabled');
+                btnexactico.src = "./icons/GoToNextInList.svg";
+            }
+            else
+            {
+                btnexactts.textContent = "";
+                btnexact.classList.add('toolbutton-disabled');
+                btnexact.setAttribute('disabled', 'disabled');
+            }
+            el1.disabled = nearest.upper;
+            el1.checked = !nearest.upper;
+        }
+    };
+    btnprev.onclick = () =>
+    {
+        if (nearest && nearest.lower && !nearest.exact)
+        {
+            editor.revealLineInCenter(nearest.lower.line);
+            editor.setPosition({column: 1, lineNumber: nearest.lower.line});
+            editor.focus();
+            closewnd();
+        }
+    };
+    btnnext.onclick = () =>
+    {
+        if (nearest && nearest.upper && !nearest.exact)
+        {
+            editor.revealLineInCenter(nearest.upper.line);
+            editor.setPosition({column: 1, lineNumber: nearest.upper.line});
+            editor.focus();
+            closewnd();
+        }
+    };
+    btnexact.onclick = () =>
+    {
+        if (nearest && nearest.exact)
+        {
+            editor.revealLineInCenter(nearest.exact.line);
+            editor.setPosition({column: 1, lineNumber: nearest.exact.line});
+            editor.focus();
+            closewnd();
+        }
+        else if (el.value !== "")
+        {
+            const r = range_insert_command("", ts);
+            model.pushEditOperations([], [r], () => null);
+            editor.revealLineInCenter(r.range.startLineNumber);
+            editor.setPosition({column: 1, lineNumber: r.range.startLineNumber});
+        
+            if (el1.checked && !nearest.upper)
+            {
+                const removed_pv_end = remove_command("PV_END");
+                const removed_end = remove_command("END");
+                if (removed_pv_end || removed_end)
+                {
+                    const range = new monaco.Range(model.getLineCount() + 1, 1, model.getLineCount() + 1, 1);
+                    model.pushEditOperations([], [{ range, text: (removed_pv_end ? "PV_END();\n" : "") + (removed_end ? "END();\n" : "") }], () => null);
+                }
+            }
+
+            editor.focus();
+            closewnd();
+        }
+    };
 
     bg.classList.remove('hidden');
     bg.clientWidth;

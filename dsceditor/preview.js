@@ -45,6 +45,21 @@ function load_preview_audio_dropped(file)
     preview_audio = new Audio(URL.createObjectURL(file));
 }
 
+function play_preview_audio_with_offset()
+{
+    if (preview_audio)
+    {
+        const music_play = get_previous_command_par("MUSIC_PLAY");
+        if (music_play.line > 0)
+        {
+            const current_time = get_current_time();
+            const preview_mus_offset = get_previous_command_int("TIME", {lineNumber: music_play.line});
+            preview_audio.currentTime = (current_time + preview_mus_offset) / 100000;
+            preview_audio.play();
+        }
+    }
+}
+
 function preview_play()
 {
     pbackg = document.getElementById('preview_background');
@@ -147,7 +162,11 @@ function preview_play()
 
             case "sync":
             preview_audio.currentTime = e.data.ts / 100000;
-            break
+            break;
+
+            case "musplay":
+            play_preview_audio_with_offset();
+            break;
 
             case "info":
             alert(e.data.info);
@@ -173,11 +192,7 @@ function preview_play()
     worker.onmessage = preview_worker_handler;
     worker.postMessage({value: editor.getValue(), line: editor.getPosition().lineNumber, lineCount: model.getLineCount(), time: get_current_time(), bpm: ts.bpm, tft: ts.tft, classicHolds: document.getElementById('dscfmt').value == 'dt2', audioSync: preview_audio && document.getElementById("cb_previewaudiosync").checked});
 
-    if (preview_audio)
-    {
-        preview_audio.currentTime = get_current_time() / 100000;
-        preview_audio.play();
-    }
+    play_preview_audio_with_offset();
 }
 
 async function previewall()

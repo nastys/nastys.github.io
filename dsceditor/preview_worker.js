@@ -52,6 +52,10 @@ onmessage = function(e)
                 if (audioSync) this.postMessage({msg: "sync", ts: currentTime});
                 break;
 
+                case "MUSIC_PLAY":
+                this.postMessage({msg: "musplay"});
+                break;
+
                 case "PV_END":
                 case "END":
                 this.postMessage({msg: "end"});

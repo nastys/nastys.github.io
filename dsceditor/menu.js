@@ -117,88 +117,100 @@ setmenubaritem('help');
 
     const menuitem_redo = document.getElementById('menuitem_redo');
     menuitem_redo.oncontextmenu = menuitem_redo.onclick = () => { setTimeout(function() { model.redo(); }, 100 );}
-
+    
     const toolsearch = document.getElementById('toolsearch');
     const menuitem_find = document.getElementById('menuitem_find');
     /*toolsearch.oncontextmenu = */toolsearch.onclick = menuitem_find.oncontextmenu = menuitem_find.onclick = function() { editor.getAction('actions.find').run(); }
-
+    
     const menuitem_replace = document.getElementById('menuitem_replace');
     menuitem_replace.oncontextmenu = menuitem_replace.onclick = function() { editor.getAction('editor.action.startFindReplaceAction').run(); }
     
     const menuitem_about = document.getElementById('menuitem_about');
     menuitem_about.oncontextmenu = menuitem_about.onclick = function() { dialogEx("Credits", "Online DSC Studio by nastys\nDSC format spec REd by samyuu\nInspired by samyuu's ScriptEditor for Windows\nAdditional formats REd by korenkonder\nPokeSlow-HQ by mono21400; animated by nastys\nMonaco Editor and Visual Studio Image Library by Microsoft\nWritten using Visual Studio Code\n\nSee CREDITS"); }
-
+    
     const menuitem_copyright = document.getElementById('menuitem_copyright');
     menuitem_copyright.oncontextmenu = menuitem_copyright.onclick = function() { dialogEx("Licence", "DSC Studio\nCopyright (C) 2022-2025 nastys\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>."); }
     
     const menuitem_src = document.getElementById('menuitem_src');
     menuitem_src.oncontextmenu = menuitem_src.onclick = function() { window.open("https://github.com/nastys/nastys.github.io/tree/master/dsceditor", '_blank'); }
-
+    
     const menuitem_rmtargets = document.getElementById('menuitem_rmtargets');
     menuitem_rmtargets.oncontextmenu = menuitem_rmtargets.onclick = function () { remove_targets(); }
-
+    
     const menuitem_timecleanup = document.getElementById('menuitem_timecleanup');
     menuitem_timecleanup.oncontextmenu = menuitem_timecleanup.onclick = function() { dupe_cleanup(); dupe_cleanup("TARGET_FLYING_TIME"); }
-
+    
     const menuitem_rmcommands = document.getElementById('menuitem_rmcommands');
     menuitem_rmcommands.oncontextmenu = menuitem_rmcommands.onclick = function() { window_rmcommands(); }
-
+    
     const menuitem_normalizetime = document.getElementById('menuitem_normalizetime');
     menuitem_normalizetime.oncontextmenu = menuitem_normalizetime.onclick = function() { normalize_time(); }
-
+    
     const menuitem_shifttime = document.getElementById('menuitem_shifttime');
     menuitem_shifttime.oncontextmenu = menuitem_shifttime.onclick = function() { shift_time(); }
-
+    
     const menuitem_lyrics = document.getElementById('menuitem_lyrics');
     menuitem_lyrics.oncontextmenu = menuitem_lyrics.onclick = function() { lyrics(); }
-
+    
     const menuitem_injectlyrics = document.getElementById('menuitem_injectlyrics');
     menuitem_lyrics.oncontextmenu = menuitem_injectlyrics.onclick = function() { inject_lyrics(); }
-
+    
     const menuitem_rmbranch0 = document.getElementById('menuitem_rmbranch0');
     menuitem_rmbranch0.oncontextmenu = menuitem_rmbranch0.onclick = function() { remove_branch(0); }
-
+    
     const menuitem_rmbranch1 = document.getElementById('menuitem_rmbranch1');
     menuitem_rmbranch1.oncontextmenu = menuitem_rmbranch1.onclick = function() { remove_branch(1); }
-
+    
     const menuitem_rmbranch2 = document.getElementById('menuitem_rmbranch2');
     menuitem_rmbranch2.oncontextmenu = menuitem_rmbranch2.onclick = function() { remove_branch(2); }
-
+    
     const menuitem_isbranch0 = document.getElementById('menuitem_isbranch0');
     menuitem_isbranch0.oncontextmenu = menuitem_isbranch0.onclick = function() { remove_branch(1); remove_branch(2); }
-
+    
     const menuitem_isbranch1 = document.getElementById('menuitem_isbranch1');
     menuitem_isbranch1.oncontextmenu = menuitem_isbranch1.onclick = function() { remove_branch(0); remove_branch(2); }
-
+    
     const menuitem_isbranch2 = document.getElementById('menuitem_isbranch2');
     menuitem_isbranch2.oncontextmenu = menuitem_isbranch2.onclick = function() { remove_branch(0); remove_branch(1); }
-
+    
     const menuitem_idswap = document.getElementById('menuitem_idswap');
     menuitem_idswap.oncontextmenu = menuitem_idswap.onclick = function() { window_idswap(); }
-
+    
     const menuitem_edit_commands_to_standard = document.getElementById('menuitem_edit_commands_to_standard');
     menuitem_edit_commands_to_standard.oncontextmenu = menuitem_edit_commands_to_standard.onclick = function() { edit_commands_to_standard(); }
-
+    
     const menuitem_f_targets_to_newclassics = document.getElementById('menuitem_f_targets_to_newclassics');
     menuitem_f_targets_to_newclassics.oncontextmenu = menuitem_f_targets_to_newclassics.onclick = function() { f_targets_to_newclassics(); }
-
+    
     const toolloadaudio = document.getElementById('toolloadaudio');
     /*toolloadaudio.oncontextmenu = */toolloadaudio.onclick = function() { load_preview_audio(); };
-
+    
     const menuitem_loadaudio = document.getElementById('menuitem_loadaudio');
     menuitem_loadaudio.oncontextmenu = menuitem_loadaudio.onclick = () => { load_preview_audio(); };
-
+    
     const toolpreview = document.getElementById('toolpreview');
     /*toolpreview.oncontextmenu = */toolpreview.onclick = function() { preview_play(); };
-
+    
     const menuitem_preview = document.getElementById('menuitem_preview');
     menuitem_preview.oncontextmenu = menuitem_preview.onclick = () => { setTimeout(function() { preview_play(); }, 100 ); };
-
+    
     const toolpreviewall = document.getElementById('toolpreviewall');
     /*toolpreviewall.oncontextmenu = */toolpreviewall.onclick = function() { previewall(); };
-
+    
     const menuitem_previewall = document.getElementById('menuitem_previewall');
     menuitem_previewall.oncontextmenu = menuitem_previewall.onclick = () => { setTimeout(function() { previewall(); }, 100 ); };
+    
+    const toolinserttime = document.getElementById('toolinserttime');
+    const menuitem_inserttime = document.getElementById('menuitem_inserttime');
+    /*toolinserttime.oncontextmenu = */toolinserttime.onclick = menuitem_inserttime.oncontextmenu = menuitem_inserttime.onclick = function() { insert_command_wnd(); }
+    
+    const toolprevtime = document.getElementById('toolprevtime');
+    const menuitem_prevtime = document.getElementById('menuitem_prevtime');
+    /*toolprevtime.oncontextmenu = */toolprevtime.onclick = menuitem_prevtime.oncontextmenu = menuitem_prevtime.onclick = function() { jump_to_previous_timestamp(); }
+
+    const toolnexttime = document.getElementById('toolnexttime');
+    const menuitem_nexttime = document.getElementById('menuitem_nexttime');
+    /*toolnexttime.oncontextmenu = */toolnexttime.onclick = menuitem_nexttime.oncontextmenu = menuitem_nexttime.onclick = function() { jump_to_next_timestamp(); }
 
     const menuitem_merge = document.getElementById('menuitem_merge');
     menuitem_merge.oncontextmenu = menuitem_merge.onclick = () => { setTimeout(function() { merge_wnd(); }, 100 ); };
