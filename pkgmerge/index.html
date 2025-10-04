@@ -39,7 +39,6 @@
 </body>
 <script>
 const area = document.getElementById("droparea");
-let filename = "";
 
 document.body.addEventListener("dragover", (e) => {
     e.stopPropagation();
@@ -50,20 +49,17 @@ document.body.addEventListener("drop", async (e) => {
     e.stopPropagation();
     e.preventDefault();
     
-    const files = Array.from(e.dataTransfer.files).filter(f => f.name.endsWith(".pkg"));
-    if (files.length === 0) {
-        alert("No .pkg files found.");
+    const files = [...e.dataTransfer.files].filter(f => f.name.endsWith(".pkg"));
+    if (files.length < 2) {
+        area.innerText = "Please drop at least two .pkg files.";
         return;
     }
 
     try {
-        const merged = await mergePkgFiles(files);
-        const a = document.createElement("a");
-        a.href = URL.createObjectURL(merged);
-        a.download = filename;
-        a.click();
+        await mergePkgFiles(files);
     } catch (err) {
-        area.innerText = err.message;
+        console.error(err);
+        area.innerText = err.message || "An unknown error occurred during merge.";
     }
 });
 
@@ -71,59 +67,59 @@ async function mergePkgFiles(files) {
     const scFile = files.find(f => f.name.endsWith("_sc.pkg"));
     if (!scFile) throw new Error("Missing _sc.pkg file.");
 
-    const nonScFiles = files.filter(f => !f.name.endsWith("_sc.pkg"));
+    const nonScFiles = files.filter(f => f !== scFile);
+    if (nonScFiles.length === 0) throw new Error("Missing non-_sc.pkg file(s).");
 
-    if (nonScFiles.length === 0) {
-        throw new Error("No non-_sc.pkg files found.");
+    const numberedParts = nonScFiles.filter(f => /_\d+\.pkg$/.test(f.name));
+    const baseParts = nonScFiles.filter(f => !/_\d+\.pkg$/.test(f.name));
+
+    let orderedFiles = [];
+
+    if (numberedParts.length > 0) {
+        orderedFiles = numberedParts.sort((a, b) => {
+            const na = parseInt(a.name.match(/_(\d+)\.pkg$/)[1]);
+            const nb = parseInt(b.name.match(/_(\d+)\.pkg$/)[1]);
+            return na - nb;
+        });
+    } else if (baseParts.length === 1) {
+        orderedFiles = baseParts;
+    } else {
+        throw new Error("Invalid .pkg file structure. Expected one base pkg or numbered sequence.");
     }
 
-    filename = scFile.name.replace(/.{7}$/, "_merged.pkg");
+    orderedFiles.push(scFile);
 
-    if (nonScFiles.length === 1 && !/_\d+\.pkg$/i.test(nonScFiles[0].name)) {
-        const order = [nonScFiles[0], scFile];
-        return await concatenateFiles(order);
-    }
+    const outName = scFile.name.replace(/_sc\.pkg$/, "_merged.pkg");
 
-    const partFiles = nonScFiles.filter(f => /_\d+\.pkg$/i.test(f.name));
-    if (partFiles.length === 0) {
-        throw new Error("No numbered .pkg parts found. Only drag&drop the base PKG (or parts) + the _sc.pkg.");
-    }
+    if ('showSaveFilePicker' in window) {
+        const handle = await window.showSaveFilePicker({
+            suggestedName: outName,
+            types: [{ description: "PKG files", accept: { "application/octet-stream": [".pkg"] } }],
+        });
+        const writable = await handle.createWritable();
 
-    partFiles.sort((a, b) => {
-        const numA = parseInt(a.name.match(/_(\d+)\.pkg$/i)[1], 10);
-        const numB = parseInt(b.name.match(/_(\d+)\.pkg$/i)[1], 10);
-        return numA - numB;
-    });
-
-    const expected = partFiles.map((_, i) => i);
-    const actual = partFiles.map(f => parseInt(f.name.match(/_(\d+)\.pkg$/i)[1], 10));
-    for (let i = 0; i < expected.length; i++) {
-        if (actual[i] !== expected[i]) {
-            throw new Error(`Missing part file: expected _${expected[i]}.pkg`);
+        for (const file of orderedFiles) {
+            const stream = file.stream();
+            await stream.pipeTo(writable, { preventClose: true });
         }
+        await writable.close();
+        area.innerText = `Merged successfully into ${outName}`;
+    } else {
+        const mergedBlob = await mergeFilesInMemory(orderedFiles);
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(mergedBlob);
+        a.download = outName;
+        a.click();
+        area.innerText = `Merged successfully into ${outName}`;
     }
-
-    const order = [...partFiles, scFile];
-    return await concatenateFiles(order);
 }
 
-async function concatenateFiles(files) {
-    const buffers = [];
-    for (const f of files) {
-        const buf = await f.arrayBuffer();
-        buffers.push(buf);
+async function mergeFilesInMemory(files) {
+    const parts = [];
+    for (const file of files) {
+        parts.push(await file.arrayBuffer());
     }
-
-    const totalLength = buffers.reduce((sum, b) => sum + b.byteLength, 0);
-    const merged = new Uint8Array(totalLength);
-
-    let offset = 0;
-    for (const buf of buffers) {
-        merged.set(new Uint8Array(buf), offset);
-        offset += buf.byteLength;
-    }
-
-    return new Blob([merged], { type: "application/octet-stream" });
+    return new Blob(parts, { type: "application/octet-stream" });
 }
 </script>
 </html>
