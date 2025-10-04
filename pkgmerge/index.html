@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PKG Merge</title>
+    <meta name="theme-color" content="#b1eb34" />
+</head>
+<style>
+    body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: black;
+    display: flex;
+}
+
+#droparea {
+    margin: auto;
+    border-radius: 3rem;
+    filter: drop-shadow(0 0 0.75rem white);
+    width: max-content;
+    height: max-content;
+    background: white;
+    padding: 3rem;
+    user-select: none;
+    -webkit-user-select: none;
+    text-align: center;
+}
+</style>
+<body>
+    <div id="droparea">
+        Drag&Drop here:<br>
+        PKG parts +<br>
+        _sc.pkg
+    </div>
+</body>
+<script>
+const area = document.getElementById("droparea");
+let filename = "";
+
+document.body.addEventListener("dragover", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+document.body.addEventListener("drop", async (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    
+    const files = Array.from(e.dataTransfer.files).filter(f => f.name.endsWith(".pkg"));
+    if (files.length === 0) {
+        alert("No .pkg files found.");
+        return;
+    }
+
+    try {
+        const merged = await mergePkgFiles(files);
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(merged);
+        a.download = filename;
+        a.click();
+    } catch (err) {
+        area.innerText = err.message;
+    }
+});
+
+async function mergePkgFiles(files) {
+    const scFile = files.find(f => f.name.endsWith("_sc.pkg"));
+    if (!scFile) throw new Error("Missing _sc.pkg file.");
+
+    const nonScFiles = files.filter(f => !f.name.endsWith("_sc.pkg"));
+
+    if (nonScFiles.length === 0) {
+        throw new Error("No non-_sc.pkg files found.");
+    }
+
+    filename = scFile.name.replace(/.{7}$/, "_merged.pkg");
+
+    if (nonScFiles.length === 1 && !/_\d+\.pkg$/i.test(nonScFiles[0].name)) {
+        const order = [nonScFiles[0], scFile];
+        return await concatenateFiles(order);
+    }
+
+    const partFiles = nonScFiles.filter(f => /_\d+\.pkg$/i.test(f.name));
+    if (partFiles.length === 0) {
+        throw new Error("No numbered .pkg parts found. Only drag&drop the base PKG (or parts) + the _sc.pkg.");
+    }
+
+    partFiles.sort((a, b) => {
+        const numA = parseInt(a.name.match(/_(\d+)\.pkg$/i)[1], 10);
+        const numB = parseInt(b.name.match(/_(\d+)\.pkg$/i)[1], 10);
+        return numA - numB;
+    });
+
+    const expected = partFiles.map((_, i) => i);
+    const actual = partFiles.map(f => parseInt(f.name.match(/_(\d+)\.pkg$/i)[1], 10));
+    for (let i = 0; i < expected.length; i++) {
+        if (actual[i] !== expected[i]) {
+            throw new Error(`Missing part file: expected _${expected[i]}.pkg`);
+        }
+    }
+
+    const order = [...partFiles, scFile];
+    return await concatenateFiles(order);
+}
+
+async function concatenateFiles(files) {
+    const buffers = [];
+    for (const f of files) {
+        const buf = await f.arrayBuffer();
+        buffers.push(buf);
+    }
+
+    const totalLength = buffers.reduce((sum, b) => sum + b.byteLength, 0);
+    const merged = new Uint8Array(totalLength);
+
+    let offset = 0;
+    for (const buf of buffers) {
+        merged.set(new Uint8Array(buf), offset);
+        offset += buf.byteLength;
+    }
+
+    return new Blob([merged], { type: "application/octet-stream" });
+}
+</script>
+</html>
