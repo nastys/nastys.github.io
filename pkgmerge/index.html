@@ -34,7 +34,7 @@
     <div id="droparea">
         Drag&Drop here:<br>
         PKG parts +<br>
-        _sc.pkg
+        _sc.pkg (for PS5)
     </div>
 </body>
 <script>
@@ -72,9 +72,8 @@ document.body.addEventListener("drop", async (e) => {
 
 async function mergePkgFiles(files) {
     const scFile = files.find(f => f.name.endsWith("_sc.pkg"));
-    if (!scFile) throw new Error("Missing _sc.pkg file.");
 
-    const nonScFiles = files.filter(f => f !== scFile);
+    const nonScFiles = scFile ? files.filter(f => f !== scFile) : files;
     if (nonScFiles.length === 0) throw new Error("Missing non-_sc.pkg file(s).");
 
     const numberedParts = nonScFiles.filter(f => /_\d+\.pkg$/.test(f.name));
@@ -84,8 +83,8 @@ async function mergePkgFiles(files) {
 
     if (numberedParts.length > 0) {
         orderedFiles = numberedParts.sort((a, b) => {
-            const na = parseInt(a.name.match(/_(\d+)\.pkg$/)[1]);
-            const nb = parseInt(b.name.match(/_(\d+)\.pkg$/)[1]);
+            const na = parseInt(a.name.match(/_(\d+)\.pkg$/)?.[1] ?? -1);
+            const nb = parseInt(b.name.match(/_(\d+)\.pkg$/)?.[1] ?? -1);
             return na - nb;
         });
     } else if (baseParts.length === 1) {
@@ -94,9 +93,9 @@ async function mergePkgFiles(files) {
         throw new Error("Invalid .pkg file structure. Expected one base pkg or numbered sequence.");
     }
 
-    orderedFiles.push(scFile);
+    if (scFile) orderedFiles.push(scFile);
 
-    const outName = scFile.name.replace(/_sc\.pkg$/, "_merged.pkg");
+    const outName = orderedFiles[0].name.replace(/(_\d+)?\.pkg$/, "_merged.pkg");
 
     if ('showSaveFilePicker' in window) {
         const handle = await window.showSaveFilePicker({
@@ -111,14 +110,14 @@ async function mergePkgFiles(files) {
             await stream.pipeTo(writable, { preventClose: true });
         }
         await writable.close();
-        area.innerText = `Merged successfully into ${outName}.\n\nYou may now close this window.`;
+        area.innerText = `Merged ${scFile ? "PS5" : "PS4"} package successfully into ${outName}.\n\nYou may now close this window.`;
     } else {
         const mergedBlob = await mergeFilesInMemory(orderedFiles);
         const a = document.createElement("a");
         a.href = URL.createObjectURL(mergedBlob);
         a.download = outName;
         a.click();
-        area.innerText = `Merged successfully into ${outName}`;
+        area.innerText = `Merged ${scFile ? "PS5" : "PS4"} package successfully into ${outName}`;
     }
 }
 
