@@ -39,6 +39,7 @@
 </body>
 <script>
 const area = document.getElementById("droparea");
+let mergingInProgress = false;
 
 document.body.addEventListener("dragover", (e) => {
     e.stopPropagation();
@@ -56,10 +57,16 @@ document.body.addEventListener("drop", async (e) => {
     }
 
     try {
+        mergingInProgress = true;
+        window.addEventListener("beforeunload", warnBeforeUnload);
         await mergePkgFiles(files);
     } catch (err) {
         console.error(err);
         area.innerText = err.message || "An unknown error occurred during merge.";
+    }
+    finally {
+        mergingInProgress = false;
+        window.removeEventListener("beforeunload", warnBeforeUnload);
     }
 });
 
@@ -121,6 +128,14 @@ async function mergeFilesInMemory(files) {
         parts.push(await file.arrayBuffer());
     }
     return new Blob(parts, { type: "application/octet-stream" });
+}
+
+function warnBeforeUnload(e) {
+    if (mergingInProgress) {
+        e.preventDefault();
+        e.returnValue = "Merging is in progress. Are you sure you want to leave?";
+        return e.returnValue;
+    }
 }
 </script>
 </html>
