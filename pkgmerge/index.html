@@ -99,11 +99,12 @@ async function mergePkgFiles(files) {
         const writable = await handle.createWritable();
 
         for (const file of orderedFiles) {
+            area.innerText = `Please wait, merging ${file.name}...\n\nDo not close this window.`;
             const stream = file.stream();
             await stream.pipeTo(writable, { preventClose: true });
         }
         await writable.close();
-        area.innerText = `Merged successfully into ${outName}`;
+        area.innerText = `Merged successfully into ${outName}.\n\nYou may now close this window.`;
     } else {
         const mergedBlob = await mergeFilesInMemory(orderedFiles);
         const a = document.createElement("a");
