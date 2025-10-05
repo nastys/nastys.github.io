@@ -1,140 +1,853 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>PKG Merge</title>
-    <meta name="theme-color" content="#b1eb34" />
-</head>
-<style>
-    body {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    background: black;
-    display: flex;
-}
-
-#droparea {
-    margin: auto;
-    border-radius: 3rem;
-    filter: drop-shadow(0 0 0.75rem white);
-    width: max-content;
-    height: max-content;
-    background: white;
-    padding: 3rem;
-    user-select: none;
-    -webkit-user-select: none;
-    text-align: center;
-}
-</style>
-<body>
-    <div id="droparea">
-        Drag&Drop here:<br>
-        PKG parts +<br>
-        _sc.pkg (for PS5)
-    </div>
-</body>
-<script>
-const area = document.getElementById("droparea");
-let mergingInProgress = false;
-
-document.body.addEventListener("dragover", (e) => {
-    e.stopPropagation();
-    e.preventDefault();
-});
-
-document.body.addEventListener("drop", async (e) => {
-    e.stopPropagation();
-    e.preventDefault();
-    
-    const files = [...e.dataTransfer.files].filter(f => f.name.endsWith(".pkg"));
-    if (files.length < 2) {
-        area.innerText = "Please drop at least two .pkg files.";
-        return;
-    }
-
-    try {
-        mergingInProgress = true;
-        window.addEventListener("beforeunload", warnBeforeUnload);
-        await mergePkgFiles(files);
-    } catch (err) {
-        console.error(err);
-        area.innerText = err.message || "An unknown error occurred during merge.";
-    }
-    finally {
-        mergingInProgress = false;
-        window.removeEventListener("beforeunload", warnBeforeUnload);
-    }
-});
-
-async function mergePkgFiles(files) {
-    const scFile = files.find(f => f.name.endsWith("_sc.pkg"));
-
-    const nonScFiles = scFile ? files.filter(f => f !== scFile) : files;
-    if (nonScFiles.length === 0) throw new Error("Missing non-_sc.pkg file(s).");
-
-    const numberedParts = nonScFiles.filter(f => /_\d+\.pkg$/.test(f.name));
-    const baseParts = nonScFiles.filter(f => !/_\d+\.pkg$/.test(f.name));
-
-    let orderedFiles = [];
-
-    if (numberedParts.length > 0) {
-        orderedFiles = numberedParts.sort((a, b) => {
-            const na = parseInt(a.name.match(/_(\d+)\.pkg$/)?.[1] ?? -1);
-            const nb = parseInt(b.name.match(/_(\d+)\.pkg$/)?.[1] ?? -1);
-            return na - nb;
-        });
-    } else if (baseParts.length === 1) {
-        orderedFiles = baseParts;
-    } else {
-        throw new Error("Invalid .pkg file structure. Expected one base pkg or numbered sequence.");
-    }
-
-    if (scFile) orderedFiles.push(scFile);
-
-    const outName = orderedFiles[0].name.replace(/(_\d+)?\.pkg$/, "_merged.pkg");
-
-    if ('showSaveFilePicker' in window) {
-        const handle = await window.showSaveFilePicker({
-            suggestedName: outName,
-            types: [{ description: "PKG files", accept: { "application/octet-stream": [".pkg"] } }],
-        });
-        const writable = await handle.createWritable();
-
-        for (const file of orderedFiles) {
-            area.innerText = `Please wait, merging ${file.name}...\n\nDo not close this window.`;
-            const stream = file.stream();
-            await stream.pipeTo(writable, { preventClose: true });
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKG Merge (beta)</title>
+    <style>
+        :root {
+            --border-color: #d0d0d0;
+            --bg-color: #f5f5f7;
+            --surface-color: #ffffff;
+            --accent-color: #0078d7;
+            --text-color: #222;
+            --radius: 10px;
+            --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --side-padding: 16px;
         }
-        await writable.close();
-        area.innerText = `Merged ${scFile ? "PS5" : "PS4"} package successfully into ${outName}.\n\nYou may now close this window.`;
-    } else {
-        const mergedBlob = await mergeFilesInMemory(orderedFiles);
-        const a = document.createElement("a");
-        a.href = URL.createObjectURL(mergedBlob);
-        a.download = outName;
-        a.click();
-        area.innerText = `Merged ${scFile ? "PS5" : "PS4"} package successfully into ${outName}`;
-    }
-}
 
-async function mergeFilesInMemory(files) {
-    const parts = [];
-    for (const file of files) {
-        parts.push(await file.arrayBuffer());
-    }
-    return new Blob(parts, { type: "application/octet-stream" });
-}
+        html {
+            font-size: 10pt;
+        }
 
-function warnBeforeUnload(e) {
-    if (mergingInProgress) {
-        e.preventDefault();
-        e.returnValue = "Merging is in progress. Are you sure you want to leave?";
-        return e.returnValue;
-    }
-}
-</script>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 1fr auto auto;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            color: var(--text-color);
+            background: var(--bg-color);
+        }
+
+        main {
+            display: grid;
+            gap: 16px;
+            padding: var(--side-padding);
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        th,
+        td {
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background: #f0f0f0;
+            font-weight: 600;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: #ddd;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+
+        .progress-bar div {
+            height: 100%;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+
+        .bottom-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px var(--side-padding);
+            gap: 24px;
+            background: transparent;
+        }
+
+        .bottom-progress {
+            flex: 1;
+            height: 12px;
+            border-radius: 6px;
+            background: #ddd;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .bottom-progress div {
+            width: 0%;
+            height: 100%;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            background: var(--accent-color);
+            color: white;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        button:hover {
+            background: #006ac2;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        .status-bar {
+            padding: 8px var(--side-padding);
+            background: #f0f0f0;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        .remove-btn {
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            color: #999;
+            font-size: 1.1rem;
+            padding: 0 8px;
+            user-select: none;
+            transition: color 0.2s;
+        }
+
+        .remove-btn:hover {
+            color: red;
+        }
+
+        .drop-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 120, 215, 0.08);
+            border: 2px dashed var(--accent-color);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-color);
+            font-size: 1rem;
+            font-weight: 500;
+            backdrop-filter: blur(2px);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            z-index: 10;
+        }
+
+        .drop-overlay.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .drop-message {
+            background: var(--surface-color);
+            padding: 10px 20px;
+            border-radius: 6px;
+            box-shadow: var(--shadow);
+        }
+
+        .panel {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --border-color: #2d2d2d;
+                --bg-color: #1e1e1e;
+                --surface-color: #252526;
+                --accent-color: #3794ff;
+                --text-color: #ddd;
+                --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+            }
+
+            body {
+                background: var(--bg-color);
+                color: var(--text-color);
+            }
+
+            th {
+                background: #2d2d2d;
+            }
+
+            .progress-bar {
+                background: #333;
+            }
+
+            .bottom-progress {
+                background: #333;
+            }
+
+            .status-bar {
+                background: #2a2a2a;
+                color: #aaa;
+            }
+
+            button {
+                background: var(--accent-color);
+                color: #fff;
+            }
+
+            button:hover {
+                background: #4aa2ff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="panel">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>File Name</th>
+                        <th>Progress</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div class="drop-overlay" id="dropOverlay">
+                <div class="drop-message">Drop files to merge</div>
+            </div>
+        </div>
+    </main>
+
+    <div class="bottom-area">
+        <div style="display: flex; align-items: center; gap: 18px; flex: 1;">
+            <div class="bottom-progress">
+                <div></div>
+            </div>
+            <div id="consoleRadioGroup"
+                style="display: flex; flex-direction: column; gap: 2px; align-items: flex-end; margin-left: 8px;">
+                <label><input type="radio" id="radioPS4" name="console" disabled> PS4</label>
+                <label><input type="radio" id="radioPS5" name="console" disabled> PS5</label>
+            </div>
+        </div>
+        <input type="file" id="fileInput" multiple accept=".pkg" hidden>
+        <button id="selectButton">Select files…</button>
+        <button id="startButton">Start</button>
+    </div>
+
+    <div class="status-bar">
+    </div>
+    <script>
+        let fileList = [];
+        const dropOverlay = document.getElementById('dropOverlay');
+        let dragCounter = 0;
+
+        document.addEventListener('dragenter', e => {
+            dragCounter++;
+            dropOverlay.classList.add('visible');
+        });
+        document.addEventListener('dragleave', e => {
+            dragCounter--;
+            if (dragCounter === 0) dropOverlay.classList.remove('visible');
+        });
+        document.addEventListener('dragover', e => e.preventDefault());
+
+        function normalizeFile(file) {
+            return {
+                id: file.webkitRelativePath || file.name,
+                name: file.name,
+                size: file.size,
+                progress: 0,
+                fileObject: file
+            };
+        }
+
+        function removeFile(id) {
+            fileList = fileList.filter(f => f.id !== id);
+            renderTable();
+        }
+
+        function renderTable() {
+            const tbody = document.querySelector('table tbody');
+            tbody.innerHTML = '';
+            if (!window.progressBars) window.progressBars = {};
+
+            fileList.forEach(file => {
+                const tr = document.createElement('tr');
+
+                const removeTd = document.createElement('td');
+                removeTd.className = 'remove-btn';
+                removeTd.textContent = '×';
+                removeTd.addEventListener('click', () => removeFile(file.id));
+
+                const nameTd = document.createElement('td');
+                nameTd.textContent = file.name;
+
+                const progressTd = document.createElement('td');
+                const bar = document.createElement('div');
+                bar.className = 'progress-bar';
+
+                const inner = document.createElement('div');
+                inner.style.width = (file.progress || 0) + '%';
+                bar.appendChild(inner);
+                progressTd.appendChild(bar);
+
+                tr.append(removeTd, nameTd, progressTd);
+                tbody.appendChild(tr);
+
+                window.progressBars[file.id] = inner;
+            });
+
+            updateConsoleRadios();
+        }
+
+        const radioPS4 = document.getElementById('radioPS4');
+        const radioPS5 = document.getElementById('radioPS5');
+        const radioGroup = document.getElementById('consoleRadioGroup');
+
+        function updateConsoleRadios() {
+            if (fileList.length === 0) {
+                radioPS4.checked = false;
+                radioPS5.checked = false;
+                radioPS4.disabled = true;
+                radioPS5.disabled = true;
+                return;
+            }
+
+            const hasScPkg = fileList.some(f => /_sc\.pkg$/i.test(f.name));
+            radioPS4.disabled = false;
+            radioPS5.disabled = false;
+            radioPS4.checked = !hasScPkg;
+            radioPS5.checked = hasScPkg;
+        }
+
+        function handleRadioClick(e, which) {
+            if (fileList.length === 0) {
+                e.preventDefault();
+                return;
+            }
+
+            const hasScPkg = fileList.some(f => /_sc\.pkg$/i.test(f.name));
+            if (hasScPkg && which === 'ps4') {
+                e.preventDefault();
+                alert("One or more files end with _sc.pkg, which means this is a PS5 package. PS4 cannot be selected.");
+            } else if (!hasScPkg && which === 'ps5') {
+                e.preventDefault();
+                alert("No file ends with _sc.pkg, so this is a PS4 package. PS5 cannot be selected.");
+            }
+        }
+
+        function getParentLabel(input) {
+            let el = input.parentElement;
+            while (el) {
+                if (el.tagName && el.tagName.toLowerCase() === 'label') return el;
+                el = el.parentElement;
+            }
+            return null;
+        }
+
+        radioPS4.addEventListener('mousedown', function (e) { handleRadioClick(e, 'ps4'); });
+        const labelPS4 = getParentLabel(radioPS4);
+        if (labelPS4) {
+            labelPS4.addEventListener('mousedown', function (e) {
+                if (e.target === radioPS4) return;
+                handleRadioClick(e, 'ps4');
+            });
+        }
+
+        radioPS5.addEventListener('mousedown', function (e) { handleRadioClick(e, 'ps5'); });
+        const labelPS5 = getParentLabel(radioPS5);
+        if (labelPS5) {
+            labelPS5.addEventListener('mousedown', function (e) {
+                if (e.target === radioPS5) return;
+                handleRadioClick(e, 'ps5');
+            });
+        }
+
+        const pkgPattern = /^(?!\._).*\.pkg$/i;
+
+        function normalizeAndFilterFiles(files) {
+            return Array.from(files)
+                .filter(file => pkgPattern.test(file.name))
+                .map(file => ({
+                    id: file.webkitRelativePath || file.name,
+                    name: file.name,
+                    size: file.size,
+                    progress: 0,
+                    fileObject: file
+                }));
+        }
+
+        document.addEventListener('drop', async e => {
+            e.preventDefault();
+            dragCounter = 0;
+            dropOverlay.classList.remove('visible');
+
+            const newFiles = [];
+            const items = Array.from(e.dataTransfer.items || []);
+            const droppedFiles = Array.from(e.dataTransfer.files || []);
+
+            for (const item of items) {
+                const entry = item.webkitGetAsEntry?.();
+                if (entry && entry.isDirectory) {
+                    const collected = await readEntriesRecursively(entry);
+                    newFiles.push(...collected);
+                }
+            }
+
+            for (const file of droppedFiles) {
+                if (!isValidFile(file)) continue;
+                const type = await checkPkgHeader(file);
+                if (!type) continue;
+                const norm = normalizeFile(file);
+                norm._pkgType = type;
+                newFiles.push(norm);
+            }
+
+            const seenIds = new Set(fileList.map(f => f.id));
+            let scPkgExists = fileList.some(f => /_sc\.pkg$/i.test(f.name));
+            let scPkgAddedThisBatch = false;
+
+            for (const f of newFiles) {
+                if (seenIds.has(f.id)) continue;
+
+                if (f._pkgType === 'scpkg') {
+                    if (scPkgExists || scPkgAddedThisBatch) {
+                        alert('Only one _sc.pkg file is allowed.');
+                        continue;
+                    }
+                    scPkgAddedThisBatch = true;
+                }
+
+                delete f._pkgType;
+                insertSortedFile(f);
+                seenIds.add(f.id);
+            }
+
+            renderTable();
+        });
+
+        function normalizeFile(file) {
+            return {
+                id: file.webkitRelativePath || file.name,
+                name: file.name,
+                size: file.size,
+                progress: 0,
+                fileObject: file
+            };
+        }
+
+        function isValidFile(file) {
+            return pkgPattern.test(file.name);
+        }
+
+        function isPseudoDirectoryFile(file) {
+            return file.size === 0 && !file.name.endsWith('.pkg');
+        }
+
+        function normalizeAndFilterFiles(files) {
+            return Array.from(files)
+                .filter(isValidFile)
+                .map(normalizeFile);
+        }
+
+        async function readEntriesRecursively(entry, collected = []) {
+            if (!entry) return collected;
+
+            if (entry.isFile) {
+                return new Promise(resolve => {
+                    entry.file(async file => {
+                        if (!isValidFile(file)) return resolve(collected);
+
+                        const type = await checkPkgHeader(file);
+                        if (!type) return resolve(collected);
+
+                        if (type === 'scpkg' && fileList.some(f => checkPkgHeader(f.fileObject) === 'scpkg')) {
+                            alert('Only one _sc.pkg file is allowed.');
+                            return resolve(collected);
+                        }
+
+                        collected.push(normalizeFile(file));
+                        resolve(collected);
+                    });
+                });
+            }
+
+            if (entry.isDirectory) {
+                const reader = entry.createReader();
+                return new Promise(resolve => {
+                    const readBatch = () => {
+                        reader.readEntries(async entries => {
+                            if (entries.length === 0) return resolve(collected);
+                            for (const e of entries) {
+                                await readEntriesRecursively(e, collected);
+                            }
+                            readBatch();
+                        });
+                    };
+                    readBatch();
+                });
+            }
+
+            return collected;
+        }
+
+        async function checkPkgHeader(file) {
+            const blob = file.slice(0, 4);
+            const buffer = await blob.arrayBuffer();
+            const bytes = new Uint8Array(buffer);
+
+            const hex = Array.from(bytes).map(b => b.toString(16).padStart(2, '0')).join('').toUpperCase();
+
+            if (hex === '7F464948') return 'pkg';
+            if (hex === '7F434E54') return 'scpkg';
+            return null;
+        }
+
+        const fileInput = document.getElementById('fileInput');
+        const selectButton = document.getElementById('selectButton');
+
+        selectButton.addEventListener('click', () => fileInput.click());
+
+        fileInput.addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            if (!files.length) return;
+
+            let newFiles = [];
+            let scPkgAlreadyExists = false;
+            for (const existing of fileList) {
+                const type = await checkPkgHeader(existing.fileObject);
+                if (type === 'scpkg') {
+                    scPkgAlreadyExists = true;
+                    break;
+                }
+            }
+
+            function willViolateScPkg(type) {
+                if (type !== 'scpkg') return false;
+                if (scPkgAlreadyExists) return true;
+                if (newFiles.some(f => f._pkgType === 'scpkg')) return true;
+                return false;
+            }
+
+            for (const file of files) {
+                if (!isValidFile(file)) continue;
+                const type = await checkPkgHeader(file);
+                if (!type) continue;
+                if (willViolateScPkg(type)) {
+                    alert('Only one _sc.pkg file is allowed.');
+                    continue;
+                }
+                let norm = normalizeFile(file);
+                norm._pkgType = type;
+                newFiles.push(norm);
+            }
+
+            const seenIds = new Set(fileList.map(f => f.id));
+            let scPkgAdded = scPkgAlreadyExists;
+            for (const f of newFiles) {
+                if (seenIds.has(f.id)) continue;
+                if (f._pkgType === 'scpkg') {
+                    if (scPkgAdded) continue;
+                    scPkgAdded = true;
+                }
+                delete f._pkgType;
+                insertSortedFile(f);
+                seenIds.add(f.id);
+            }
+            renderTable();
+            fileInput.value = '';
+        });
+
+        window.progressBars = window.progressBars || {};
+        const statusBarEl = document.querySelector('.status-bar');
+        const mainProgressInner = document.querySelector('.bottom-progress > div');
+
+        function updateFileProgress(id, percent) {
+            const el = window.progressBars[id];
+            if (el) el.style.width = percent + '%';
+        }
+
+        function updateMainProgress(bytesWritten, totalBytes) {
+            if (!totalBytes) {
+                mainProgressInner.style.width = '0%';
+                return;
+            }
+            const p = Math.min(100, Math.round((bytesWritten / totalBytes) * 100));
+            mainProgressInner.style.width = p + '%';
+        }
+
+        function setStatus(text) {
+            if (statusBarEl) statusBarEl.textContent = text;
+        }
+
+        async function validateSequences(list) {
+            const numberedGroups = new Map();
+            const plainFiles = new Map();
+            let scPkgCount = 0;
+
+            for (const f of list) {
+                const type = await checkPkgHeader(f.fileObject);
+                if (!type) throw new Error(`Invalid PKG file: ${f.name}`);
+
+                if (type === 'scpkg') {
+                    scPkgCount++;
+                    if (scPkgCount > 1) {
+                        throw new Error('Only one _sc.pkg file is allowed.');
+                    }
+                    continue;
+                }
+
+                const numMatch = f.name.match(/(.+?)_(\d+)\.pkg$/i);
+                if (numMatch) {
+                    const base = numMatch[1];
+                    const num = parseInt(numMatch[2], 10);
+                    if (!numberedGroups.has(base)) numberedGroups.set(base, new Set());
+                    if (numberedGroups.get(base).has(num)) {
+                        throw new Error(`Duplicate numbered file for '${base}': _${num}.pkg`);
+                    }
+                    numberedGroups.get(base).add(num);
+                } else {
+                    const base = f.name.replace(/\.pkg$/i, '');
+                    if (!plainFiles.has(base)) plainFiles.set(base, 0);
+                    plainFiles.set(base, plainFiles.get(base) + 1);
+                }
+            }
+
+            for (const base of numberedGroups.keys()) {
+                if (plainFiles.has(base)) {
+                    throw new Error(`Cannot mix non-numbered .pkg and numbered files for '${base}'`);
+                }
+            }
+
+            for (const [base, nums] of numberedGroups.entries()) {
+                const arr = Array.from(nums).sort((a, b) => a - b);
+                if (arr[0] !== 0) throw new Error(`Sequence for '${base}' must start at _0.pkg`);
+                for (let i = 0; i < arr.length; i++) {
+                    if (arr[i] !== i) throw new Error(`Missing numbered file for '${base}': _${i}.pkg`);
+                }
+            }
+        }
+
+        async function requestSaveFile(defaultName = 'merged.pkg') {
+            if (window.showSaveFilePicker) {
+                try {
+                    const handle = await window.showSaveFilePicker({
+                        suggestedName: defaultName,
+                        types: [{ description: 'PKG files', accept: { 'application/octet-stream': ['.pkg'] } }]
+                    });
+                    const writable = await handle.createWritable();
+                    return { writable, close: () => writable.close() };
+                } catch (err) {
+                    throw err;
+                }
+            }
+            const chunks = [];
+            return {
+                writable: {
+                    async write(chunk) { chunks.push(chunk); },
+                    async close() { }
+                },
+                async getBlobAndDownload(filename = defaultName) {
+                    const blob = new Blob(chunks);
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                }
+            };
+        }
+
+        async function startMergeProcess(list) {
+            if (!list || !list.length) return;
+            let defaultName = 'merged.pkg';
+            let baseName = null;
+            for (const f of list) {
+                let m = f.name.match(/^(.+?)_(\d+)\.pkg$/i);
+                if (m) {
+                    baseName = m[1];
+                    break;
+                }
+                m = f.name.match(/^(.+?)_sc\.pkg$/i);
+                if (m) {
+                    baseName = m[1];
+                    break;
+                }
+                m = f.name.match(/^(.+)\.pkg$/i);
+                if (m) {
+                    baseName = m[1];
+                }
+            }
+            if (baseName) {
+                defaultName = baseName + '_merged.pkg';
+            }
+
+            validateSequences(list);
+
+            const totalBytes = list.reduce((s, f) => s + (f.size || 0), 0);
+            let bytesWritten = 0;
+            setStatus('Preparing merge...');
+
+            let writerObj;
+            try {
+                writerObj = await requestSaveFile(defaultName);
+            } catch (err) {
+                alert('Save canceled or not available.');
+                setStatus('Save canceled.');
+                return;
+            }
+            const writable = writerObj.writable;
+
+            const CHUNK_SIZE = 256 * 1024 * 1024;
+            for (let i = 0; i < list.length; i++) {
+                const file = list[i].fileObject;
+                const fileId = list[i].id;
+                const fileSize = file.size || 0;
+                setStatus(`Merging ${list[i].name} (${i + 1}/${list.length})`);
+                let fileBytesWritten = 0;
+
+                for (let offset = 0; offset < fileSize; offset += CHUNK_SIZE) {
+                    const end = Math.min(fileSize, offset + CHUNK_SIZE);
+                    const slice = file.slice(offset, end);
+                    const buffer = await slice.arrayBuffer();
+                    await writable.write(buffer);
+                    fileBytesWritten += buffer.byteLength;
+                    bytesWritten += buffer.byteLength;
+
+                    updateFileProgress(fileId, Math.round((fileBytesWritten / fileSize) * 100));
+                    updateMainProgress(bytesWritten, totalBytes);
+                }
+
+                updateFileProgress(fileId, 100);
+            }
+
+            if (writerObj && writerObj.getBlobAndDownload) {
+                await writerObj.getBlobAndDownload(defaultName);
+            } else if (writerObj && writerObj.close) {
+                await writerObj.close();
+            }
+
+            setStatus('Merge complete.');
+            updateMainProgress(1, 1);
+        }
+
+        document.getElementById('startButton').addEventListener('click', async () => {
+            if (!fileList || fileList.length < 2) {
+                alert('At least two files are required to merge.');
+                return;
+            }
+            try {
+                validateSequences(fileList);
+            } catch (err) {
+                alert(err.message || String(err));
+                return;
+            }
+
+            setUIEnabled(false);
+
+            try {
+                await startMergeProcess(fileList);
+            } catch (err) {
+                console.error(err);
+                alert('Merge failed: ' + (err && err.message));
+                setStatus('Merge failed');
+            } finally {
+                setUIEnabled(true);
+            }
+        });
+
+        function sortPkgFiles(a, b) {
+            const nameA = a.name.toLowerCase();
+            const nameB = b.name.toLowerCase();
+
+            const isScA = nameA.endsWith('_sc.pkg');
+            const isScB = nameB.endsWith('_sc.pkg');
+
+            if (isScA && !isScB) return 1;
+            if (!isScA && isScB) return -1;
+
+            const numA = nameA.match(/_(\d+)\.pkg$/);
+            const numB = nameB.match(/_(\d+)\.pkg$/);
+
+            const isPlainA = !nameA.includes('_') && nameA.endsWith('.pkg');
+            const isPlainB = !nameB.includes('_') && nameB.endsWith('.pkg');
+
+            if (isPlainA && !isPlainB) return -1;
+            if (!isPlainA && isPlainB) return 1;
+
+            if (numA && numB) {
+                const nA = parseInt(numA[1], 10);
+                const nB = parseInt(numB[1], 10);
+                return nA - nB;
+            }
+
+            return nameA.localeCompare(nameB);
+        }
+
+        function insertSortedFile(file) {
+            let index = fileList.findIndex(f => sortPkgFiles(file, f) < 0);
+            if (index === -1) {
+                fileList.push(file);
+            } else {
+                fileList.splice(index, 0, file);
+            }
+        }
+
+        function setUIEnabled(enabled) {
+            document.querySelectorAll('button').forEach(btn => btn.disabled = !enabled);
+            document.querySelectorAll('.remove-btn').forEach(el => el.style.pointerEvents = enabled ? 'auto' : 'none');
+            document.querySelectorAll('button').forEach(btn => btn.style.opacity = enabled ? '1' : '0.6');
+            if (enabled) {
+                updateConsoleRadios();
+            } else {
+                radioPS4.disabled = true;
+                radioPS5.disabled = true;
+            }
+        }
+
+        function updateSupportWarning() {
+            const text = 'showSaveFilePicker' in window
+                ? 'Ready.'
+                : '⚠️ Your browser does not support File System Access. Large package files may crash your browser or computer.';
+            setStatus(text);
+
+            const btnText = 'showSaveFilePicker' in window ? 'Start' : '⚠️ Start';
+            document.getElementById('startButton').innerText = btnText;
+        }
+
+        updateSupportWarning();
+    </script>
+
 </html>
