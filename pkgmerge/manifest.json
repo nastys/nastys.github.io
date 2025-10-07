@@ -1,0 +1,60 @@
+{
+    "name": "PKG Merge",
+    "icons": [
+      {
+        "src": "/pkgmerge/icons/pkgmerge-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/pkgmerge/icons/pkgmerge-64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/pkgmerge/icons/pkgmerge-128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/pkgmerge/icons/pkgmerge-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      }
+    ],
+    "start_url": "/pkgmerge/index.html",
+    "background_color": "#0078d7",
+    "display": "standalone",
+    "scope": "/pkgmerge/",
+    "file_handlers": [
+      {
+        "action": "/pkgmerge/index.html",
+        "accept": { "application/octet-stream" : ".pkg" },
+        "icons": [
+          {
+            "src": "/pkgmerge/icons/pkgmerge-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "src": "/pkgmerge/icons/pkgmerge-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+          },
+          {
+            "src": "/pkgmerge/icons/pkgmerge-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+          },
+          {
+            "src": "/pkgmerge/icons/pkgmerge-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+          }
+        ],
+        "launch_type": "single-client"
+      }
+    ],
+    "theme_color": "#0078d7",
+    "description": "PKG Merger for PS4/PS5 Packages"
+  }
