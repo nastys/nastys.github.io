@@ -1,4 +1,4 @@
-const cacheName = "pkgmerge-static-v3";
+const cacheName = "pkgmerge-static-v4";
 
 const contentToCache = [
   "./",

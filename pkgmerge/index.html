@@ -701,27 +701,19 @@
 
         async function startMergeProcess(list) {
             if (!list || !list.length) return;
+
             let defaultName = 'merged.pkg';
             let baseName = null;
             for (const f of list) {
-                let m = f.name.match(/^(.+?)_(\d+)\.pkg$/i);
+                let m = f.name.match(/^(.+?)_(\d+)\.pkg$/i)
+                    || f.name.match(/^(.+?)_sc\.pkg$/i)
+                    || f.name.match(/^(.+)\.pkg$/i);
                 if (m) {
                     baseName = m[1];
                     break;
                 }
-                m = f.name.match(/^(.+?)_sc\.pkg$/i);
-                if (m) {
-                    baseName = m[1];
-                    break;
-                }
-                m = f.name.match(/^(.+)\.pkg$/i);
-                if (m) {
-                    baseName = m[1];
-                }
             }
-            if (baseName) {
-                defaultName = baseName + '_merged.pkg';
-            }
+            if (baseName) defaultName = baseName + '_merged.pkg';
 
             validateSequences(list);
 
@@ -737,23 +729,26 @@
                 setStatus('Save canceled.');
                 return;
             }
+
             const writable = writerObj.writable;
 
-            const CHUNK_SIZE = 256 * 1024 * 1024;
             for (let i = 0; i < list.length; i++) {
                 const file = list[i].fileObject;
                 const fileId = list[i].id;
                 const fileSize = file.size || 0;
                 setStatus(`Merging ${list[i].name} (${i + 1}/${list.length})`);
+
+                const reader = file.stream().getReader();
                 let fileBytesWritten = 0;
 
-                for (let offset = 0; offset < fileSize; offset += CHUNK_SIZE) {
-                    const end = Math.min(fileSize, offset + CHUNK_SIZE);
-                    const slice = file.slice(offset, end);
-                    const buffer = await slice.arrayBuffer();
-                    await writable.write(buffer);
-                    fileBytesWritten += buffer.byteLength;
-                    bytesWritten += buffer.byteLength;
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+
+                    await writable.write(value);
+
+                    fileBytesWritten += value.byteLength;
+                    bytesWritten += value.byteLength;
 
                     updateFileProgress(fileId, Math.round((fileBytesWritten / fileSize) * 100));
                     updateMainProgress(bytesWritten, totalBytes);
@@ -762,9 +757,9 @@
                 updateFileProgress(fileId, 100);
             }
 
-            if (writerObj && writerObj.getBlobAndDownload) {
+            if (writerObj?.getBlobAndDownload) {
                 await writerObj.getBlobAndDownload(defaultName);
-            } else if (writerObj && writerObj.close) {
+            } else if (writerObj?.close) {
                 await writerObj.close();
             }
 
@@ -852,8 +847,7 @@
                     return;
                 }
                 const files = [];
-                for (const fileHandle of launchParams.files)
-                {
+                for (const fileHandle of launchParams.files) {
                     const file = await fileHandle.getFile();
                     files.push(file);
                 };
