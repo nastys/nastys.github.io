@@ -583,9 +583,9 @@
 
             const hex = Array.from(bytes).map(b => b.toString(16).padStart(2, '0')).join('').toUpperCase();
 
-            if (hex === '7F464948') return 'pkg';
+            //if (hex === '7F464948') return 'pkg';
             if (hex === '7F434E54') return 'scpkg';
-            return null;
+            return 'pkg';
         }
 
         const fileInput = document.getElementById('fileInput');
