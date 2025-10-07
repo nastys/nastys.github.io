@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="64x64" href="icons/pkgmerge-64.png">
     <link rel="icon" type="image/png" sizes="128x128" href="icons/pkgmerge-128.png">
     <link rel="icon" type="image/png" sizes="256x256" href="icons/pkgmerge-256.png">
-    <title>PKG Merge (beta)</title>
+    <title>PKG Joiner (beta)</title>
     <style>
         :root {
             --border-color: #d0d0d0;
@@ -893,6 +893,7 @@
                         registration.addEventListener('updatefound', () => {
                             if (confirm("Update available. Restart to apply updates?")) {
                                 registration.waiting.postMessage('skipWaiting');
+                                console.log("sent skipWaiting message");
                             }
                         });
                     }

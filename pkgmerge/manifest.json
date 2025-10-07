@@ -1,5 +1,5 @@
 {
-    "name": "PKG Merge",
+    "name": "PKG Joiner",
     "icons": [
       {
         "src": "/pkgmerge/icons/pkgmerge-32.png",
@@ -56,5 +56,5 @@
       }
     ],
     "theme_color": "#0078d7",
-    "description": "PKG Merger for PS4/PS5 Packages"
+    "description": "PKG Joiner for PS4/PS5 Packages"
   }

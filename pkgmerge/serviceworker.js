@@ -1,4 +1,4 @@
-const cacheName = "pkgmerge-static-v2";
+const cacheName = "pkgmerge-static-v3";
 
 const contentToCache = [
   "./",
@@ -51,6 +51,7 @@ self.addEventListener("activate", (e) => {
 
 self.addEventListener('message', event => {
   if (event.data === 'skipWaiting') {
+    console.log("received skipWaiting message");
     skipWaiting();
   }
 });
