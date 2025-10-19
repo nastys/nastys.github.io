@@ -704,8 +704,9 @@
 
             let defaultName = 'merged.pkg';
             let baseName = null;
-            for (const f of list) {
-                let m = f.name.match(/^(.+?)_(\d+)\.pkg$/i)
+            for (let i = list.length - 1; i >= 0; i--) {
+                const f = list[i];
+                const m = f.name.match(/^(.+?)_(\d+)\.pkg$/i)
                     || f.name.match(/^(.+?)_sc\.pkg$/i)
                     || f.name.match(/^(.+)\.pkg$/i);
                 if (m) {
@@ -713,7 +714,8 @@
                     break;
                 }
             }
-            if (baseName) defaultName = baseName + '_merged.pkg';
+
+            if (baseName) defaultName = baseName + '-MERGED.pkg';
 
             validateSequences(list);
 
