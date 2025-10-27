@@ -204,14 +204,27 @@ async function saveas_dsc()
         document.title = lastfilename;
     }
     do_save_dsc();
-};
+}
+
+function dsc_sanity_warn(file)
+{
+    if (document.getElementById("cb_dscsizewarn").checked && file.size > 180000) dialogEx("Warning", "DSC file size exceeds 180,000 bytes and may not play correctly.");
+}
 
 function read_dsc(files)
 {
+    if (document.getElementById("cb_dscsizewarn").checked && files.filter(x => x.size % 4 !== 0).length > 0)
+    {
+        dialogEx("Error", "Invalid DSC: file size not divisible by 4.");
+        return;
+    }
+
     setProgress(0, "Reading file...");
     const worker = new Worker("./dsc_worker_read.js");
     worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum(), autodetectfmt: document.getElementById('cb_autodetectgame').checked});
     worker.onmessage = worker_message_handler;
+
+    files.forEach(file => { dsc_sanity_warn(file); });
 }
 
 function export_dex()
@@ -374,6 +387,9 @@ async function worker_message_handler(e)
                 filelink.click();
                 filelink.remove();
             }
+            
+            dsc_sanity_warn(fileblob);
+
             setModified(false);
             setProgress(-1);
             break;
