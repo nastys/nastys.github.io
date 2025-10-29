@@ -213,7 +213,7 @@ function dsc_sanity_warn(file)
 
 function read_dsc(files)
 {
-    if (document.getElementById("cb_dscsizewarn").checked && files.filter(x => x.size % 4 !== 0).length > 0)
+    if (document.getElementById("cb_dscsizewarn").checked && files[0].size % 4 !== 0)
     {
         dialogEx("Error", "Invalid DSC: file size not divisible by 4.");
         return;
@@ -224,7 +224,7 @@ function read_dsc(files)
     worker.postMessage({files: files, dscfmt: id_fmt.value, dscver: getFmtToNum(), autodetectfmt: document.getElementById('cb_autodetectgame').checked});
     worker.onmessage = worker_message_handler;
 
-    files.forEach(file => { dsc_sanity_warn(file); });
+    dsc_sanity_warn(files[0]);
 }
 
 function export_dex()
